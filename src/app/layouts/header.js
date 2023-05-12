@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link';
 
 const Header = () => {
 	return (
@@ -15,17 +16,10 @@ const Header = () => {
 				>
 					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div
-					className="collapse navbar-collapse headerbg"
-					id="navbarScroll"
-				>
-					<a
-						className="nav-link active me-auto ms-2"
-						aria-current="page"
-						href="#"
-					>
+				<div className="collapse navbar-collapse headerbg" id="navbarScroll">
+					<Link className="nav-link active me-auto ms-2" aria-current="page" href="/" >
 						<img style={{height: "60px" }} src="assets/images/logo.png" />
-					</a>
+					</Link>
 
 					<form className="d-flex">
 						<ul
@@ -33,7 +27,7 @@ const Header = () => {
 							style={{"--bs-scroll-height": "100px"}}
 						>
 							<li className="nav-item dropdown">
-								<a
+								<Link
 									className="nav-link dropdown-toggle"
 									href="#"
 									id="navbarScrollingDropdown"
@@ -42,68 +36,67 @@ const Header = () => {
 									aria-expanded="false"
 								>
 									Services
-								</a>
+								</Link>
 								<ul
 									className="dropdown-menu"
 									aria-labelledby="navbarScrollingDropdown"
 								>
 									<li>
-										<a className="dropdown-item" href="#">
+										<Link className="dropdown-item" href="#">
 											Metaverse Enterprise Solution
-										</a>
+										</Link>
 									</li>
 									<li>
-										<a className="dropdown-item" href="#">
+										<Link className="dropdown-item" href="#">
 											Blockchain Development Company
-										</a>
+										</Link>
 									</li>
 									<li>
-										<a className="dropdown-item" href="#">
+										<Link className="dropdown-item" href="#">
 											Machine Learning
-										</a>
+										</Link>
 									</li>
 									<li>
-										<a className="dropdown-item" href="#">
+										<Link className="dropdown-item" href="#">
 											Web Development
-										</a>
+										</Link>
 									</li>
 									<li>
-										<a className="dropdown-item" href="#">
+										<Link className="dropdown-item" href="#">
 											Mobile App Development
-										</a>
+										</Link>
 									</li>
 									<li>
-										<a className="dropdown-item" href="#">
+										<Link className="dropdown-item" href="#">
 											Nft and Crypto Development Company
-										</a>
+										</Link>
 									</li>
 									<li>
-										<a className="dropdown-item" href="#">
+										<Link className="dropdown-item" href="#">
 											Startup Development
-										</a>
+										</Link>
 									</li>
 								</ul>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="#">
+								<Link className="nav-link" href="#">
 									Portfolio
-								</a>
+								</Link>
 							</li>
 
 							<li className="nav-item">
-								<a className="nav-link" href="#">
+								<Link className="nav-link" href="#">
 									Blog
-								</a>
+								</Link>
 							</li>
+							
 							<li className="nav-item me-4">
-								<a className="nav-link" href="#">
-									Contact us
-								</a>
+								<Link href="/contact" className="nav-link">Contact Us</Link>;
 							</li>
 							<li className="nav-item me-2">
-								<button className="btn header-btn" type="submit">
+								<Link href="" className="btn header-btn" type="button">
 									Book a Call
-								</button>
+								</Link>
 							</li>
 						</ul>
 					</form>

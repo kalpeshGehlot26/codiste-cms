@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -20,11 +21,11 @@ const Footer = () => {
 									<ul className="p-0 ">
 										<li>
 											<img className="me-2" src="assets/images/email.png" />
-											<a href=""> Manager@codiste.com</a>
+											<a href="mailto:manager@codiste.com"> Manager@codiste.com</a>
 										</li>
 										<li>
 											<img className="me-2" src="assets/images/phone-call.png" />
-											<a href="">+91 94290 05987</a>
+											<a href="tel:+91 94290 05987">+91 94290 05987</a>
 										</li>
 									</ul>
 								</div>
@@ -37,25 +38,25 @@ const Footer = () => {
 							<div className="footer-menu-items mt-5">
 								<ul className="footer-listtext p-0">
 									<li>
-										<a>Metaverse Enterprise Solution</a>
+										<Link href="#">Metaverse Enterprise Solution</Link>
 									</li>
 									<li>
-										<a>Blockchain Development</a>
+										<Link href="#">Blockchain Development</Link>
 									</li>
 									<li>
-										<a> Machine Learning</a>
+										<Link href="#"> Machine Learning</Link>
 									</li>
 									<li>
-										<a> Web Development</a>
+										<Link href="#"> Web Development</Link>
 									</li>
 									<li>
-										<a> Mobile App Development</a>
+										<Link href="#"> Mobile App Development</Link>
 									</li>
 									<li>
-										<a> Nft and Crypto Development</a>
+										<Link href="#"> Nft and Crypto Development</Link>
 									</li>
 									<li>
-										<a> Startup Development</a>
+										<Link href="#"> Startup Development</Link>
 									</li>
 								</ul>
 							</div>
@@ -67,22 +68,22 @@ const Footer = () => {
 							<div className="footer-menu-items mt-5">
 								<ul className="footer-listtext p-0">
 									<li>
-										<a>About Us</a>
+										<Link href="/about">About Us</Link>
 									</li>
 									<li>
-										<a>Portfolio</a>
+										<Link href="#">Portfolio</Link>
 									</li>
 									<li>
-										<a>Blogs</a>
+										<Link href="#">Blogs</Link>
 									</li>
 									<li>
-										<a>Case Study</a>
+										<Link href="#">Case Study</Link>
 									</li>
 									<li>
-										<a>Testimonials</a>
+										<Link href="#">Testimonials</Link>
 									</li>
 									<li>
-										<a>Career</a>
+										<Link href="/career">Career</Link>
 									</li>
 								</ul>
 							</div>
@@ -132,7 +133,7 @@ const Footer = () => {
 						</div>
 					</div>
 					<div className="footer-center">
-						<p>© 2021-2023. All rights reserved by codiste</p>
+						<p>© 2021-2023. All rights reserved by <Link href="/">codiste</Link></p>
 					</div>
 				</div>
 			</div>
