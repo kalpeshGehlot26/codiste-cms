@@ -38,25 +38,25 @@ const Footer = () => {
 							<div className="footer-menu-items mt-5">
 								<ul className="footer-listtext p-0">
 									<li>
-										<Link href="#">Metaverse Enterprise Solution</Link>
+										<Link href="/metaverse-development-company">Metaverse Enterprise Solution</Link>
 									</li>
 									<li>
-										<Link href="#">Blockchain Development</Link>
+										<Link href="/blockchain-development-company">Blockchain Development</Link>
 									</li>
 									<li>
-										<Link href="#"> Machine Learning</Link>
+										<Link href="/machine-learning-development-company"> Machine Learning</Link>
 									</li>
 									<li>
-										<Link href="#"> Web Development</Link>
+										<Link href="/web-development-company"> Web Development</Link>
 									</li>
 									<li>
-										<Link href="#"> Mobile App Development</Link>
+										<Link href="/mobile-app-development-company"> Mobile App Development</Link>
 									</li>
 									<li>
-										<Link href="#"> Nft and Crypto Development</Link>
+										<Link href="/nft-development-company"> Nft and Crypto Development</Link>
 									</li>
 									<li>
-										<Link href="#"> Startup Development</Link>
+										<Link href="/startup-development-company"> Startup Development</Link>
 									</li>
 								</ul>
 							</div>
