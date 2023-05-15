@@ -18,7 +18,7 @@ const Header = () => {
 				</button>
 				<div className="collapse navbar-collapse headerbg" id="navbarScroll">
 					<Link className="nav-link active me-auto ms-2" aria-current="page" href="/" >
-						<img style={{height: "60px" }} src="assets/images/logo.png" />
+						<img style={{height: "60px" }} src="../../assets/images/logo.png" />
 					</Link>
 
 					<form className="d-flex">

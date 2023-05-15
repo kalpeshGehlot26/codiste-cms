@@ -106,7 +106,7 @@ body {
  /* ==== footer ==== */
  
  footer {
-    background-image: url('../app/assets/images/footerImg.png');
+    background-image: url('../public/assets/images/footerImg.png');
     background-position: center center;
     background-size: cover;
  }
@@ -253,7 +253,7 @@ body {
  }
  
  .blacksec {
-    background-image: url("../app/assets/images/blackbgimg.png");
+    background-image: url("../public/assets/images/blackbgimg.png");
     background-size: cover;
     margin: auto;
     height: 100vh;
