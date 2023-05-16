@@ -79,7 +79,7 @@ const Header = () => {
 								</ul>
 							</li>
 							<li className="nav-item">
-								<Link className="nav-link" href="#">
+								<Link className="nav-link" href="/codiste-portfolio">
 									Portfolio
 								</Link>
 							</li>
@@ -94,7 +94,7 @@ const Header = () => {
 								<Link href="/contact" className="nav-link">Contact Us</Link>;
 							</li>
 							<li className="nav-item me-2">
-								<Link href="" className="btn header-btn" type="button">
+								<Link href="/book-a-call" className="btn header-btn" type="button">
 									Book a Call
 								</Link>
 							</li>

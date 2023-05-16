@@ -6,15 +6,15 @@ import nftServiceBlogs from "../data/services/nftServiceBlogs";
 const NFTDevelopment = () => {
 	return (
 		<div>
-			<div class="bg-color">
-				<div class="container container-fluid">
+			<div className="bg-color">
+				<div className="container container-fluid">
 					<section>
-						<div class="row firstsec d-flex align-items-center">
-							<div class="col-lg-6 col-sm-12 mb-5 mb-lg-0">
-								<h1 class="all-head">
+						<div className="row firstsec d-flex align-items-center">
+							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
+								<h1 className="all-head">
 									NFT Development Company{" "}
 								</h1>
-								<p class="all-p me-5 mb-4 mt-3">
+								<p className="all-p me-5 mb-4 mt-3">
 									We are a non-fungible token development
 									company providing end-to-end NFT
 									development, including digital NFTs and
@@ -26,13 +26,13 @@ const NFTDevelopment = () => {
 									experience for better user experience and
 									feedback.
 								</p>
-								<button class="book-btn">
+								<button className="book-btn">
 									Have a project? Let's Chat!
 								</button>
 							</div>
-							<div class="col-lg-6 col-sm-12 p-5 ">
+							<div className="col-lg-6 col-sm-12 p-5 ">
 								<img
-									class="img-fluid d-flex align-items-center justify-content-center"
+									className="img-fluid d-flex align-items-center justify-content-center"
 									style={{height: "450px", width : "auto", margin: "auto", padding: "20px"}}
 									src="assets/images/main/NFT Development.png"
 								/>
@@ -44,22 +44,22 @@ const NFTDevelopment = () => {
 
 			<ClientSlider />
 
-			<div class="container container-fluid">
+			<div className="container container-fluid">
 				<section>
-					<div class=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-						<h1 class="all-head">Our NFT Development Services </h1>
-						<p class="all-p text-center">
+					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
+						<h1 className="all-head">Our NFT Development Services </h1>
+						<p className="all-p text-center">
 							We offer a one-stop development platform for NFTs
 							ecosystem development.{" "}
 						</p>
 					</div>
-					<div class="row ">
-						<div class="col-xl-4 col-md-6 col-sm-12 pb-3 ">
-							<div class="service-block p-4 h-100">
-								<h2 class="secondsec-head mt-4">
+					<div className="row ">
+						<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
+							<div className="service-block p-4 h-100">
+								<h2 className="secondsec-head mt-4">
 									NFT MarketPlace Development
 								</h2>
-								<p class="secondsec-p">
+								<p className="secondsec-p">
 									We offer NFT marketplace development
 									services for various businesses, including
 									Real estate, sports, domain names, art,
@@ -77,12 +77,12 @@ const NFTDevelopment = () => {
 								</p>
 							</div>
 						</div>
-						<div class="col-xl-4 col-md-6 col-sm-12 pb-3 ">
-							<div class="service-block p-4 h-100">
-								<h2 class="secondsec-head mt-4">
+						<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
+							<div className="service-block p-4 h-100">
+								<h2 className="secondsec-head mt-4">
 									NFT Gamification Services
 								</h2>
-								<p class="secondsec-p">
+								<p className="secondsec-p">
 									We have a dedicated team for customization
 									on NFT platforms and user experience. We can
 									help you build a futuristic NFT Marketplace
@@ -94,12 +94,12 @@ const NFTDevelopment = () => {
 								</p>
 							</div>
 						</div>
-						<div class="col-xl-4 col-md-6 col-sm-12 pb-3 ">
-							<div class="service-block p-4 h-100">
-								<h2 class="secondsec-head mt-4">
+						<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
+							<div className="service-block p-4 h-100">
+								<h2 className="secondsec-head mt-4">
 									Web3 Identity Platform development
 								</h2>
-								<p class="secondsec-p">
+								<p className="secondsec-p">
 									Web3-based identity platform management
 									systems and platforms have become popular
 									among businesses and enterprises to improve
@@ -120,13 +120,13 @@ const NFTDevelopment = () => {
 				</section>
 			</div>
 
-			<div class="py-5">
-				<div class="container container-fluid">
-					<div class=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 class="all-head">
+			<div className="py-5">
+				<div className="container container-fluid">
+					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+						<h1 className="all-head">
 							Why Choose Codiste For NFT Development Services?
 						</h1>
-						<p class="all-p text-center">
+						<p className="all-p text-center">
 							Codiste is a one-stop solution for businesses and
 							enterprises exploring NFTs and digital assets for
 							better business growth and user experience. We offer
@@ -138,17 +138,17 @@ const NFTDevelopment = () => {
 						</p>
 					</div>
 
-					<div class="row">
-						<div class="col-6 col-md-4 text-center p-5 intsec-border">
+					<div className="row">
+						<div className="col-6 col-md-4 text-center p-5 intsec-border">
 							<img
-								class="img-fluid mb-2"
+								className="img-fluid mb-2"
 								alt=""
 								src="./Images/marketplace.png"
 							/>
-							<h2 class="secondsec-head text-center">
+							<h2 className="secondsec-head text-center">
 								Customizable Marketplaces
 							</h2>
-							<p class="secondsec-p text-center">
+							<p className="secondsec-p text-center">
 								We understand that customization and
 								personalization are the key elements to cater to
 								genZ customers while you are dealing in
@@ -163,16 +163,16 @@ const NFTDevelopment = () => {
 								perfectly.
 							</p>
 						</div>
-						<div class="col-6 col-md-4 text-center p-5 intsec-border">
+						<div className="col-6 col-md-4 text-center p-5 intsec-border">
 							<img
-								class="img-fluid mb-2"
+								className="img-fluid mb-2"
 								alt=""
 								src="./Images/security.png"
 							/>
-							<h2 class="secondsec-head text-center">
+							<h2 className="secondsec-head text-center">
 								Immutable Security
 							</h2>
-							<p class="secondsec-p text-center">
+							<p className="secondsec-p text-center">
 								Our NFT development experts prioritize security
 								in our NFT development services. We use emerging
 								and Immutable blockchain technology to ensure
@@ -183,16 +183,16 @@ const NFTDevelopment = () => {
 								experience and data management.
 							</p>
 						</div>
-						<div class="col-6 col-md-4 text-center p-5 intsec-borderlast">
+						<div className="col-6 col-md-4 text-center p-5 intsec-borderlast">
 							<img
-								class="img-fluid mb-2"
+								className="img-fluid mb-2"
 								alt=""
 								src="./Images/tokenization.png"
 							/>
-							<h2 class="secondsec-head text-center">
+							<h2 className="secondsec-head text-center">
 								Tokenization
 							</h2>
-							<p class="secondsec-p text-center">
+							<p className="secondsec-p text-center">
 								We offer unique and rare physical asset
 								tokenization into non-fungible tokenized digital
 								assets. Our NFT development services help you
@@ -204,16 +204,16 @@ const NFTDevelopment = () => {
 								creators, investors, and collectors.
 							</p>
 						</div>
-						<div class="col-6 col-md-4 text-center p-5 intsec-borderbelow">
+						<div className="col-6 col-md-4 text-center p-5 intsec-borderbelow">
 							<img
-								class="img-fluid mb-2"
+								className="img-fluid mb-2"
 								alt=""
 								src="./Images/integration.png"
 							/>
-							<h2 class="secondsec-head text-center">
+							<h2 className="secondsec-head text-center">
 								Metaverse Integration
 							</h2>
-							<p class="secondsec-p text-center">
+							<p className="secondsec-p text-center">
 								We ensure that our development platforms offer
 								the extended capability of a seamless metaverse
 								integration in case you want to build a
@@ -226,16 +226,16 @@ const NFTDevelopment = () => {
 								with immersive experiences and digital assets.
 							</p>
 						</div>
-						<div class="col-6 col-md-4 text-center p-5 intsec-borderbelow">
+						<div className="col-6 col-md-4 text-center p-5 intsec-borderbelow">
 							<img
-								class="img-fluid mb-2"
+								className="img-fluid mb-2"
 								alt=""
 								src="./Images/decentralization.png"
 							/>
-							<h2 class="secondsec-head text-center">
+							<h2 className="secondsec-head text-center">
 								Decentralized Ecosystem
 							</h2>
-							<p class="secondsec-p text-center">
+							<p className="secondsec-p text-center">
 								We believe in the power of a decentralized
 								ecosystem to gain the trust of millions of
 								businesses globally. Our NFT development
@@ -248,16 +248,16 @@ const NFTDevelopment = () => {
 								platform remains immutable.
 							</p>
 						</div>
-						<div class="col-6 col-md-4 text-center p-5 ">
+						<div className="col-6 col-md-4 text-center p-5 ">
 							<img
-								class="img-fluid mb-2"
+								className="img-fluid mb-2"
 								alt=""
 								src="./Images/cryptocurrency.png"
 							/>
-							<h2 class="secondsec-head text-center">
+							<h2 className="secondsec-head text-center">
 								Digitized Assets
 							</h2>
-							<p class="secondsec-p text-center">
+							<p className="secondsec-p text-center">
 								Digital assets are a relatively new trend that
 								has survived the most impactful crypto winter.
 								Our NFT development team offers the development
@@ -273,66 +273,66 @@ const NFTDevelopment = () => {
 				</div>
 			</div>
 
-			<div class="blackdiv px-3">
-				<div class=" container container-fluid d-flex align-items-center justify-content-between py-3">
+			<div className="blackdiv px-3">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3">
 					<p>Help us know your project better! </p>
-					<button class="book-btn">Let's Connect </button>
+					<button className="book-btn">Let's Connect </button>
 				</div>
 			</div>
 
-			<div class="bg-color py-5 mt-5">
-				<div class="container container-fluid">
+			<div className="bg-color py-5 mt-5">
+				<div className="container container-fluid">
 					<section>
-						<div class=" d-flex align-items-center flex-column justify-content-center">
-							<h1 class="all-head">Technology Stack</h1>
-							<p class="all-p me-5 mb-5 text-center">
+						<div className=" d-flex align-items-center flex-column justify-content-center">
+							<h1 className="all-head">Technology Stack</h1>
+							<p className="all-p me-5 mb-5 text-center">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
 								customized IT solutions.
 							</p>
 						</div>
-						<div class="row">
-							<div class="col-lg-12">
-								<ul class="tech-style">
+						<div className="row">
+							<div className="col-lg-12">
+								<ul className="tech-style">
 									<li>
 										<img
-											class="img-fluid"
+											className="img-fluid"
 											src="assets/images/tech/Binance_Logo.png"
 										/>
 									</li>
 									<li>
 										<img
-											class="img-fluid"
+											className="img-fluid"
 											src="assets/images/tech/ethereum.png"
 										/>
 									</li>
 									<li>
 										<img
-											class="img-fluid"
+											className="img-fluid"
 											src="assets/images/tech/Solana.png"
 										/>
 									</li>
 									<li>
 										<img
-											class="img-fluid"
+											className="img-fluid"
 											src="assets/images/tech/tron logo.png"
 										/>
 									</li>
 									<li>
 										<img
-											class="img-fluid"
+											className="img-fluid"
 											src="assets/images/tech/fantom.png"
 										/>
 									</li>
 									<li>
 										<img
-											class="img-fluid"
+											className="img-fluid"
 											src="assets/images/tech/polygon.png"
 										/>
 									</li>
 									<li>
 										<img
-											class="img-fluid"
+											className="img-fluid"
 											src="assets/images/tech/Corda.png"
 										/>
 									</li>
@@ -343,19 +343,19 @@ const NFTDevelopment = () => {
 				</div>
 			</div>
 
-			<div class="py-5">
-				<div class="container container-fluid">
-					<div class=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 class="all-head">FAQ</h1>
+			<div className="py-5">
+				<div className="container container-fluid">
+					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+						<h1 className="all-head">FAQ</h1>
 					</div>
 					<div
-						class="accordion accordion-flush"
+						className="accordion accordion-flush"
 						id="accordionFlushExample"
 					>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="flush-headingOne">
+						<div className="accordion-item">
+							<h2 className="accordion-header" id="flush-headingOne">
 								<button
-									class="accordion-button collapsed"
+									className="accordion-button collapsed"
 									type="button"
 									data-bs-toggle="collapse"
 									data-bs-target="#flush-collapseOne"
@@ -368,11 +368,11 @@ const NFTDevelopment = () => {
 							</h2>
 							<div
 								id="flush-collapseOne"
-								class="accordion-collapse collapse"
+								className="accordion-collapse collapse"
 								aria-labelledby="flush-headingOne"
 								data-bs-parent="#accordionFlushExample"
 							>
-								<div class="accordion-body">
+								<div className="accordion-body">
 									Web3 Identity Management is a new-age
 									identity management system built on
 									blockchain and Hyperledger Technology. It
@@ -391,10 +391,10 @@ const NFTDevelopment = () => {
 								</div>
 							</div>
 						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="flush-headingTwo">
+						<div className="accordion-item">
+							<h2 className="accordion-header" id="flush-headingTwo">
 								<button
-									class="accordion-button collapsed"
+									className="accordion-button collapsed"
 									type="button"
 									data-bs-toggle="collapse"
 									data-bs-target="#flush-collapseTwo"
@@ -406,11 +406,11 @@ const NFTDevelopment = () => {
 							</h2>
 							<div
 								id="flush-collapseTwo"
-								class="accordion-collapse collapse"
+								className="accordion-collapse collapse"
 								aria-labelledby="flush-headingTwo"
 								data-bs-parent="#accordionFlushExample"
 							>
-								<div class="accordion-body">
+								<div className="accordion-body">
 									NFT marketplace is an online or virtual
 									Marketplace that allows visitors to purchase
 									NFTs of various physical and digital
@@ -420,13 +420,13 @@ const NFTDevelopment = () => {
 								</div>
 							</div>
 						</div>
-						<div class="accordion-item">
+						<div className="accordion-item">
 							<h2
-								class="accordion-header"
+								className="accordion-header"
 								id="flush-headingThree"
 							>
 								<button
-									class="accordion-button collapsed"
+									className="accordion-button collapsed"
 									type="button"
 									data-bs-toggle="collapse"
 									data-bs-target="#flush-collapseThree"
@@ -439,11 +439,11 @@ const NFTDevelopment = () => {
 							</h2>
 							<div
 								id="flush-collapseThree"
-								class="accordion-collapse collapse"
+								className="accordion-collapse collapse"
 								aria-labelledby="flush-headingThree"
 								data-bs-parent="#accordionFlushExample"
 							>
-								<div class="accordion-body">
+								<div className="accordion-body">
 									An NFT marketplace is a virtual or digital
 									platform that facilitates the buying and
 									selling of non-fungible tokens (NFTs). NFTs
@@ -454,10 +454,10 @@ const NFTDevelopment = () => {
 								</div>
 							</div>
 						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="flush-headingfour">
+						<div className="accordion-item">
+							<h2 className="accordion-header" id="flush-headingfour">
 								<button
-									class="accordion-button collapsed"
+									className="accordion-button collapsed"
 									type="button"
 									data-bs-toggle="collapse"
 									data-bs-target="#flush-collapsefour"
@@ -470,11 +470,11 @@ const NFTDevelopment = () => {
 							</h2>
 							<div
 								id="flush-collapsefour"
-								class="accordion-collapse collapse"
+								className="accordion-collapse collapse"
 								aria-labelledby="flush-headingfour"
 								data-bs-parent="#accordionFlushExample"
 							>
-								<div class="accordion-body">
+								<div className="accordion-body">
 									NFT marketplaces offer several advantages
 									over traditional marketplaces, including
 									increased transparency and security with
@@ -488,22 +488,22 @@ const NFTDevelopment = () => {
 				</div>
 			</div>
 
-			<div class="bg-color">
-				<div class="container container-fluid py-5">
-					<div class=" d-flex align-items-center flex-column justify-content-center">
-						<h1 class="all-head">Case Study</h1>
+			<div className="bg-color">
+				<div className="container container-fluid py-5">
+					<div className=" d-flex align-items-center flex-column justify-content-center">
+						<h1 className="all-head">Case Study</h1>
 						<p>
 							Hang on! We have our resource pack. You would want
 							to take advantage of them!{" "}
 						</p>
 					</div>
-					<div class="row">
-						<div class="col-md-6 col-sm-12 p-5 d-flex align-items-center justify-content-center flex-column">
-							<div class=" ">
-								<h1 class="">
+					<div className="row">
+						<div className="col-md-6 col-sm-12 p-5 d-flex align-items-center justify-content-center flex-column">
+							<div className=" ">
+								<h1 className="">
 									CounterTen – solana Marketplace
 								</h1>
-								<p class="mt-4">
+								<p className="mt-4">
 									CounterTEN is a Solana-based NFT platform
 									that enables brands to create and sell NFTs
 									for a variety of purposes, from event access
@@ -518,13 +518,13 @@ const NFTDevelopment = () => {
 								</p>
 							</div>
 
-							<div class="mt-4">
-								<button class="book-btn">Read More</button>
+							<div className="mt-4">
+								<button className="book-btn">Read More</button>
 							</div>
 						</div>
-						<div class="col-lg-6 col-sm-12 p-5 ">
+						<div className="col-lg-6 col-sm-12 p-5 ">
 							<img
-								class="img-fluid d-flex align-items-center justify-content-center"
+								className="img-fluid d-flex align-items-center justify-content-center"
 								style={{height: "450px", width : "auto", margin: "auto", padding: "20px"}}
 								src="assets/images/counter.png"
 							/>
@@ -533,10 +533,10 @@ const NFTDevelopment = () => {
 				</div>
 			</div>
 
-			<div class="container container-fluid py-5">
-				<div class=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 class="all-head">Blog</h1>
-					<p class="all-p text-center">
+			<div className="container container-fluid py-5">
+				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+					<h1 className="all-head">Blog</h1>
+					<p className="all-p text-center">
 						Knowledge will never be the less, so keep exploring our
 						blogs.
 					</p>
@@ -544,26 +544,26 @@ const NFTDevelopment = () => {
 				<AllServiceBlogSlider items={nftServiceBlogs} />
 			</div>
 
-			<div class="bg-color py-5">
-				<div class="container container-fluid">
+			<div className="bg-color py-5">
+				<div className="container container-fluid">
 					<section>
-						<div class=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 class="all-head">
+						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+							<h1 className="all-head">
 								We are proud to have your trust in us!{" "}
 							</h1>
 						</div>
 
 						<div
 							id="carouselExampleDark"
-							class="carousel carousel-dark slide carousel-box"
+							className="carousel carousel-dark slide carousel-box"
 							data-bs-ride="carousel"
 						>
-							<div class="carousel-indicators">
+							<div className="carousel-indicators">
 								<button
 									type="button"
 									data-bs-target="#carouselExampleDark"
 									data-bs-slide-to="0"
-									class="active"
+									className="active"
 									aria-current="true"
 									aria-label="Slide 1"
 								></button>
@@ -580,9 +580,9 @@ const NFTDevelopment = () => {
 									aria-label="Slide 3"
 								></button>
 							</div>
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<div class="d-flex align-items-center text-center flex-column custom-crousel">
+							<div className="carousel-inner">
+								<div className="carousel-item active">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											They truly do everything up to a
 											very high standard. Codiste pvt ltd
@@ -597,15 +597,15 @@ const NFTDevelopment = () => {
 											their work.
 										</h3>
 
-										<div class="d-flex align-items-center flex-column custom-crousel">
+										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												class=" "
+												className=" "
 												alt="iCrowsel"
 											/>
-											<div class="my-5">
+											<div className="my-5">
 												<img
-													class="circle-img"
+													className="circle-img"
 													src="assets/images/Tommy-Bui.png"
 												/>
 											</div>
@@ -620,8 +620,8 @@ const NFTDevelopment = () => {
 										</div>
 									</div>
 								</div>
-								<div class="carousel-item">
-									<div class="d-flex align-items-center text-center flex-column custom-crousel">
+								<div className="carousel-item">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											I am pleased to say that working
 											with Codiste Pvt Ltd has been a
@@ -644,15 +644,15 @@ const NFTDevelopment = () => {
 											delivering high-quality work.
 										</h3>
 
-										<div class="d-flex align-items-center flex-column custom-crousel">
+										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												class=" "
+												className=" "
 												alt="iCrowsel"
 											/>
-											<div class="my-5">
+											<div className="my-5">
 												<img
-													class="circle-img"
+													className="circle-img"
 													src="assets/images/Tommy-Bui.png"
 												/>
 											</div>
@@ -665,8 +665,8 @@ const NFTDevelopment = () => {
 										</div>
 									</div>
 								</div>
-								<div class="carousel-item">
-									<div class="d-flex align-items-center text-center flex-column custom-crousel">
+								<div className="carousel-item">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											Codiste pvt ltd delivered the
 											project within the given timeline
@@ -677,15 +677,15 @@ const NFTDevelopment = () => {
 											proactive.
 										</h3>
 
-										<div class="d-flex align-items-center flex-column custom-crousel">
+										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												class=" "
+												className=" "
 												alt="iCrowsel"
 											/>
-											<div class="my-5">
+											<div className="my-5">
 												<img
-													class="circle-img"
+													className="circle-img"
 													src="assets/images/Tommy-Bui.png"
 												/>
 											</div>
@@ -700,39 +700,39 @@ const NFTDevelopment = () => {
 								</div>
 							</div>
 							<button
-								class="carousel-control-prev"
+								className="carousel-control-prev"
 								type="button"
 								data-bs-target="#carouselExampleDark"
 								data-bs-slide="prev"
 							>
 								<span
-									class="carousel-control-prev-icon"
+									className="carousel-control-prev-icon"
 									aria-hidden="true"
 								></span>
-								<span class="visually-hidden">Previous</span>
+								<span className="visually-hidden">Previous</span>
 							</button>
 							<button
-								class="carousel-control-next"
+								className="carousel-control-next"
 								type="button"
 								data-bs-target="#carouselExampleDark"
 								data-bs-slide="next"
 							>
 								<span
-									class="carousel-control-next-icon"
+									className="carousel-control-next-icon"
 									aria-hidden="true"
 								></span>
-								<span class="visually-hidden">Next</span>
+								<span className="visually-hidden">Next</span>
 							</button>
 						</div>
 					</section>
 				</div>
 			</div>
 
-			<div class="container container-fluid py-5">
+			<div className="container container-fluid py-5">
 				<section>
-					<div class="row  d-flex align-items-center">
-						<div class="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
-							<h1 class="">
+					<div className="row  d-flex align-items-center">
+						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
+							<h1 className="">
 								Want to make your <br />
 								move in NFTs?{" "}
 							</h1>
@@ -741,14 +741,14 @@ const NFTDevelopment = () => {
 								take it from here!{" "}
 							</h2>
 						</div>
-						<div class="col-lg-6 col-md-12 ">
-							<div class="need-block h-100">
-								<h2 class="">
+						<div className="col-lg-6 col-md-12 ">
+							<div className="need-block h-100">
+								<h2 className="">
 									How Can We <b>Help?</b>{" "}
 								</h2>
-								<div class="">
+								<div className="">
 									<input
-										class="need-form"
+										className="need-form"
 										type="text"
 										id="name"
 										name="name"
@@ -756,7 +756,7 @@ const NFTDevelopment = () => {
 									/>
 									<br />
 									<input
-										class="need-form"
+										className="need-form"
 										type="email"
 										id="email"
 										name="email"
@@ -764,7 +764,7 @@ const NFTDevelopment = () => {
 									/>
 									<br />
 									<input
-										class="need-form"
+										className="need-form"
 										type="number"
 										id="number"
 										name="number"
@@ -774,7 +774,7 @@ const NFTDevelopment = () => {
 									<select
 										name="services"
 										id="_services"
-										class="need-form"
+										className="need-form"
 									>
 										<option>Service*</option>
 										<option>Blockchain Development</option>
@@ -790,12 +790,12 @@ const NFTDevelopment = () => {
 										<option>Startup Development</option>
 									</select>
 									<textarea
-										class="need-form"
+										className="need-form"
 										id="exampleFormControlTextarea1"
 										rows="3"
 										placeholder="Message*"
 									></textarea>
-									<button class="book-btn">
+									<button className="book-btn">
 										Book a Call
 									</button>
 								</div>

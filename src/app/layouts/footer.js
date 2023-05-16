@@ -71,7 +71,7 @@ const Footer = () => {
 										<Link href="/about">About Us</Link>
 									</li>
 									<li>
-										<Link href="#">Portfolio</Link>
+										<Link href="/codiste-portfolio">Portfolio</Link>
 									</li>
 									<li>
 										<Link href="#">Blogs</Link>

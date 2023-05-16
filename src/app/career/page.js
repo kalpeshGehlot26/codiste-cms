@@ -80,7 +80,7 @@ const Career = () => {
 				<h1 className="all-head text-center">
 					Beyond the Code: Exploring Life at Codiste
 				</h1>
-                <p class="secondsec-p text-center mb-5">A Peek into Codiste's Dynamic Culture</p>
+                <p className="secondsec-p text-center mb-5">A Peek into Codiste's Dynamic Culture</p>
 				<div className="row mt-5">
 					<div className="col-xl-3 col-md-6 col-sm-12 pb-3 ">
 						<div className="service-block p-4 h-100">
