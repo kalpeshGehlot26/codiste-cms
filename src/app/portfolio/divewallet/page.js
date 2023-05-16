@@ -36,7 +36,7 @@ const DivewalletPortfolio = () => {
 										margin: "auto",
 										padding: "20px",
 									}}
-									src="/assets/images/Diwallet-Case/Dive Wallet.png"
+									src="//assets/images/diwallet-case/Dive Wallet.png"
 								/>
 							</div>
 						</div>
@@ -74,7 +74,7 @@ const DivewalletPortfolio = () => {
 									margin: "auto",
 									padding: "20px",
 								}}
-								src="assets/images/Diwallet-Case/Case Study.png"
+								src="/assets/images/diwallet-case/Case Study.png"
 							/>
 						</div>
 					</div>
@@ -102,7 +102,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Price Optimization"
-											src="assets/images/Diwallet-Case/speedometer.png"
+											src="/assets/images/diwallet-case/speedometer.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -119,7 +119,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Wallet Connect"
-											src="assets/images/Diwallet-Case/wallet.png"
+											src="/assets/images/diwallet-case/wallet.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -135,7 +135,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="ManageToken"
-											src="assets/images/Diwallet-Case/tokenization.png"
+											src="/assets/images/diwallet-case/tokenization.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -152,7 +152,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Swapping"
-											src="assets/images/Diwallet-Case/switch.png"
+											src="/assets/images/diwallet-case/switch.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -169,7 +169,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Price Alert"
-											src="assets/images/Diwallet-Case/notification-bell.png"
+											src="/assets/images/diwallet-case/notification-bell.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -186,7 +186,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Push Notification"
-											src="assets/images/Diwallet-Case/payment.png"
+											src="/assets/images/diwallet-case/payment.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -202,7 +202,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Wallet Security"
-											src="assets/images/Diwallet-Case/notification.png"
+											src="/assets/images/diwallet-case/notification.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -218,7 +218,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Multicoin Wallet"
-											src="assets/images/Diwallet-Case/wallet1.png"
+											src="/assets/images/diwallet-case/wallet1.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -235,7 +235,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Dusting Attack Alert"
-											src="assets/images/Diwallet-Case/hacker.png"
+											src="/assets/images/diwallet-case/hacker.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -253,7 +253,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Listing of NFTs"
-											src="assets/images/Diwallet-Case/card.png"
+											src="/assets/images/diwallet-case/card.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -336,7 +336,7 @@ const DivewalletPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="./Images/Diwallet-Case/Divewallet-1.png"
+												src="/assets/images/diwallet-case/Divewallet-1.png"
 											/>
 										</div>
 									</div>
@@ -347,7 +347,7 @@ const DivewalletPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="./Images/Diwallet-Case/Divewallet-2.png"
+												src="/assets/images/diwallet-case/Divewallet-2.png"
 											/>
 										</div>
 									</div>
@@ -358,7 +358,7 @@ const DivewalletPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="./Images/Diwallet-Case/Divewallet-1.png"
+												src="/assets/images/diwallet-case/Divewallet-1.png"
 											/>
 										</div>
 									</div>
@@ -369,7 +369,7 @@ const DivewalletPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="./Images/Diwallet-Case/Divewallet-3.png"
+												src="/assets/images/diwallet-case/Divewallet-3.png"
 											/>
 										</div>
 									</div>
@@ -380,7 +380,7 @@ const DivewalletPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="./Images/Diwallet-Case/Divewallet-4.png"
+												src="/assets/images/diwallet-case/Divewallet-4.png"
 											/>
 										</div>
 									</div>
@@ -391,7 +391,7 @@ const DivewalletPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="./Images/Diwallet-Case/Divewallet-5.png"
+												src="/assets/images/diwallet-case/Divewallet-5.png"
 											/>
 										</div>
 									</div>
@@ -402,7 +402,7 @@ const DivewalletPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="./Images/Diwallet-Case/Divewallet-5.png"
+												src="/assets/images/diwallet-case/Divewallet-5.png"
 											/>
 										</div>
 									</div>
@@ -413,7 +413,7 @@ const DivewalletPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="./Images/Diwallet-Case/Divewallet-6.png"
+												src="/assets/images/diwallet-case/Divewallet-6.png"
 											/>
 										</div>
 									</div>
@@ -424,7 +424,7 @@ const DivewalletPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="./Images/Diwallet-Case/Divewallet-7.png"
+												src="/assets/images/diwallet-case/Divewallet-7.png"
 											/>
 										</div>
 									</div>
@@ -435,7 +435,7 @@ const DivewalletPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="./Images/Diwallet-Case/Divewallet-8.png"
+												src="/assets/images/diwallet-case/Divewallet-8.png"
 											/>
 										</div>
 									</div>
@@ -488,7 +488,7 @@ const DivewalletPortfolio = () => {
 								<li>
 									<img
 										className="img-fluid"
-										src="./Images/Tech/flutter.png"
+										src="/assets/images/tech/flutter.png"
 									/>
 								</li>
 							</ul>
@@ -531,14 +531,14 @@ const DivewalletPortfolio = () => {
 								</h3>
 								<div className="d-flex align-items-center flex-column">
 									<img
-										src="assets/images/iCrowsel.png"
+										src="/assets/images/iCrowsel.png"
 										className=" "
 										alt="iCrowsel"
 									/>
 									<div className="my-3">
 										<img
 											className=""
-											src="./Images/Splide/diveWallet.jpg"
+											src="/assets/images/splide/diveWallet.jpg"
 										/>
 									</div>
 									<h5>DiveWallet</h5>
