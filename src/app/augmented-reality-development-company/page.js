@@ -3,6 +3,7 @@ import ClientSlider from '../component/Home/clientSlider'
 import AllServiceBlogSlider from '../component/BlogSlider/allServiceBlogSlider'
 import arServiceBlogs from '../data/services/arServiceBlogs'
 import CaseStudyForm from '../component/caseStudyForm/caseStudyForm';
+import Link from 'next/link';
 
 export const metadata = {
     title: "AR & VR Development Company | Codiste",
@@ -20,7 +21,7 @@ const ARVRDevelopmentCompany = () => {
                         <h1 className="all-head">AR/VR Development Company </h1>
                         <p className="all-p me-5 mb-4 mt-3">We offer complete AR/VR development for enterprise-level platforms, avatars and more with leading technologies and frameworks like ARtoolkit, Google-ARCore, and Apple AR Kit to help you leverage Web3 applications and immersive technologies. 
                         </p>
-                        <button className="book-btn">Contact Us</button>
+                        <Link href="/contact" className="book-btn">Contact Us</Link>
                     </div>
                     <div className="col-lg-6 col-sm-12 p-5 ">
                         <img
@@ -166,7 +167,7 @@ const ARVRDevelopmentCompany = () => {
     <div className="blackdiv px-3">
         <div className=" container container-fluid d-flex align-items-center justify-content-between py-3">
             <p>Interested in developing an augmented reality solution for your audience?</p>
-            <button className="book-btn">Let's talk</button>
+            <Link href="/book-a-call" className="book-btn">Let's talk</Link>
         </div>
     </div>
 

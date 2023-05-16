@@ -1,4 +1,5 @@
 import CaseStudyForm from "@/app/component/caseStudyForm/caseStudyForm";
+import Link from "next/link";
 import React from "react";
 
 export const metadata = {
@@ -26,12 +27,13 @@ const ApolloPortfolio = () => {
 										with investment diversification in the
 										most profitable way possible.
 									</p>
-									<button
+									<Link
+										target="_blank"
+										href="https://app.a11.finance/services"
 										className="book-btn"
-										onclick="window.location.href = 'https://app.a11.finance/services';"
 									>
 										Live Project
-									</button>
+									</Link>
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2">
 									<img

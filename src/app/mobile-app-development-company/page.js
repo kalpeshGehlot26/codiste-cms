@@ -3,6 +3,7 @@ import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import mobileServiceBlogs from "../data/services/mobileServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
+import Link from "next/link";
 
 export const metadata = {
 	title: "Mobile App Development Company | Codiste",
@@ -39,7 +40,7 @@ const MobileAppDevelopmentCompany = () => {
 									top-notch mobile applications that drive
 									better experience and business growth.
 								</p>
-								<button className="book-btn">Let’s Talk</button>
+								<Link href="/contact" className="book-btn">Let’s Talk</Link>
 							</div>
 							<div className="col-lg-6 col-sm-12 p-5 ">
 								<img
@@ -304,7 +305,7 @@ const MobileAppDevelopmentCompany = () => {
 					<p>
 						We are your Go-To Expert for Best Mobile App Development{" "}
 					</p>
-					<button className="book-btn">Get in Touch</button>
+					<Link href="/book-a-call" className="book-btn">Get in Touch</Link>
 				</div>
 			</div>
 
@@ -568,7 +569,7 @@ const MobileAppDevelopmentCompany = () => {
 							</div>
 
 							<div className="mt-4">
-								<button className="book-btn">Read More</button>
+								<Link href="/portfolio/pixipages" className="book-btn">Read More</Link>
 							</div>
 						</div>
 						<div className="col-lg-6 col-sm-12 p-5 ">

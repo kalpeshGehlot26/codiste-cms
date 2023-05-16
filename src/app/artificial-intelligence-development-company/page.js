@@ -3,6 +3,7 @@ import ClientSlider from '../component/Home/clientSlider'
 import AllServiceBlogSlider from '../component/BlogSlider/allServiceBlogSlider'
 import aiServiceBlogs from '../data/services/aiServiceBlogs'
 import CaseStudyForm from '../component/caseStudyForm/caseStudyForm';
+import Link from 'next/link';
 
 export const metadata = {
     title: "Artificial Intelligence Development Company | Codiste",
@@ -22,7 +23,7 @@ const AIDevelopmentCompany = () => {
                             enhanced operational efficiency. Our Artificial Intelligence development services offer
                             customized development for automating software with modern AI technologies.
                         </p>
-                        <button className="book-btn">Contact Us!</button>
+                        <Link href="/contact" className="book-btn">Contact Us!</Link>
                     </div>
                     <div className="col-lg-6 col-sm-12 p-5 ">
                         <img className='img-fluid d-flex align-items-center justify-content-center'
@@ -246,7 +247,7 @@ const AIDevelopmentCompany = () => {
             <p>
                 Ready to bring your idea to life with Artificial Intelligence ?
                 </p>
-            <button className="book-btn">Contact Us!</button>
+            <Link href="/book-a-call" className="book-btn">Book a Call</Link>
         </div>
     </div>
 

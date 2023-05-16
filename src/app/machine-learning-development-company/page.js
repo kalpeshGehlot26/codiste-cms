@@ -3,6 +3,7 @@ import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import mlServiceBlogs from "../data/services/mlServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
+import Link from "next/link";
 
 export const metadata = {
 	title: "Machine Learning Development Company | Codiste",
@@ -29,7 +30,7 @@ const MLDevelopmentCompany = () => {
 									learning to boost your organizational growth
 									and efficiency.
 								</p>
-								<button className="book-btn">Contact Us</button>
+								<Link href="/contact" className="book-btn">Contact Us</Link>
 							</div>
 							<div className="col-lg-6 col-sm-12 p-5 ">
 								{" "}
@@ -345,7 +346,7 @@ const MLDevelopmentCompany = () => {
 						Let's meet our ML experts virtually and Explore
 						possibilities!
 					</p>
-					<button className="book-btn">Connect Virtually</button>
+					<Link href="/book-a-call" className="book-btn">Connect Virtually</Link>
 				</div>
 			</div>
 
@@ -702,7 +703,7 @@ const MLDevelopmentCompany = () => {
 							</div>
 
 							<div className="mt-4">
-								<button className="book-btn">Read More</button>
+								<Link href="/portfolio/ml-estimation" className="book-btn">Read More</Link>
 							</div>
 						</div>
 						<div className="col-lg-6 col-sm-12 p-5 ">

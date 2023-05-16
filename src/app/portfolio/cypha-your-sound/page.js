@@ -1,4 +1,5 @@
 import CaseStudyForm from "@/app/component/caseStudyForm/caseStudyForm";
+import Link from "next/link";
 import React from "react";
 
 export const metadata = {
@@ -34,12 +35,13 @@ const CyphaPortfolio = () => {
 										and is an enjoyable and rewarding
 										experience for all music lovers.
 									</p>
-									<button
+									<Link
 										className="book-btn"
-										onclick="window.location.href = 'https://www.cypha.app/';"
+										href="https://www.cypha.app"
+										target="_blank"
 									>
 										Live Project
-									</button>
+									</Link>
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2">
 									<img

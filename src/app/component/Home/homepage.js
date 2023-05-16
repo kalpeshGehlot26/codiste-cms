@@ -1,15 +1,27 @@
-import React from 'react';
-import ClientSlider from './clientSlider';
-import FeedbackSlider from './feedbackSlider';
-import BlogSlider from './blogSlider';
-import ServiceList from '../service/serviceItems';
-import Industries from '../service/industries';
+"use client";
+import React, { useState } from "react";
+import ClientSlider from "./clientSlider";
+import FeedbackSlider from "./feedbackSlider";
+import BlogSlider from "./blogSlider";
+import ServiceList from "../service/serviceItems";
+import Industries from "../service/industries";
+import Link from "next/link";
+import CaseStudyForm from "../caseStudyForm/caseStudyForm";
 
-const HomePage = () => {	
+const HomePage = () => {
+	const [serviceCount, setServiceCount] = useState(6);
+	const [totalServiceCount, setTotalServiceCount] = useState(null);
+
 	return (
 		<div>
 			<section className="video-containeraa videosec">
-				<video src="assets/video/Codiste_Home.mp4" autoPlay loop playsInline muted></video>
+				<video
+					src="assets/video/Codiste_Home.mp4"
+					autoPlay
+					loop
+					playsInline
+					muted
+				></video>
 				<div className="rotate-box">
 					<h1>Scale with DLT security & transparency in</h1>
 				</div>
@@ -31,10 +43,24 @@ const HomePage = () => {
 					<div className=" d-flex align-items-center flex-column justify-content-center  mb-5">
 						<h1 className="all-head">Services We Offer</h1>
 					</div>
-					<ServiceList />
-					<div className="d-flex align-items-center justify-content-center">
-						<button className="book-btn mt-3 ">Show more</button>
-					</div>
+					<ServiceList
+						serviceCount={serviceCount}
+						setTotalServiceCount={setTotalServiceCount}
+					/>
+					{totalServiceCount > serviceCount ? (
+						<div className="d-flex align-items-center justify-content-center">
+							<button
+								className="book-btn mt-3 "
+								onClick={() =>
+									setServiceCount(
+										(prevState) => prevState + 6
+									)
+								}
+							>
+								Show more
+							</button>
+						</div>
+					) : null}
 				</section>
 			</div>
 
@@ -76,7 +102,12 @@ const HomePage = () => {
 						<div className="col-xl-6 col-sm-12 mb-5">
 							<img
 								className="img-fluid d-flex align-items-center justify-content-center"
-								style={{height: "450px", width : "auto", margin: "auto", padding: "20px"}}
+								style={{
+									height: "450px",
+									width: "auto",
+									margin: "auto",
+									padding: "20px",
+								}}
 								src="assets/images/home/Codiste_Company.png"
 							/>
 						</div>
@@ -102,7 +133,9 @@ const HomePage = () => {
 								</strong>
 							</p>
 							<div>
-								<button className="book-btn">Book a Call</button>
+								<Link href="/book-a-call" className="book-btn">
+									Book a Call
+								</Link>
 							</div>
 						</div>
 					</div>
@@ -203,72 +236,13 @@ const HomePage = () => {
 									Get started with your idea today! Fill out
 									the form & reach out to us.
 								</h2>
-
-								{/* <p>We are available for work. Connect with us via <br />phone:<span>+91 94290 05987</span> or <br />
-              email: <span>manager@codiste.com</span></p>  */}
 							</div>
 							<div className="col-lg-6 col-md-12 ">
 								<div className="need-block h-100">
 									<h2 className="">
 										How Can We <b>Help?</b>{" "}
 									</h2>
-									<div className="">
-										<input
-											className="need-form"
-											type="text"
-											id="name"
-											name="name"
-											placeholder="Name*"
-										/>
-										<br />
-										<input
-											className="need-form"
-											type="email"
-											id="email"
-											name="email"
-											placeholder="Email*"
-										/>
-										<br />
-										<input
-											className="need-form"
-											type="number"
-											id="number"
-											name="number"
-											placeholder="Number*"
-										/>
-										<br />
-										<select
-											name="services"
-											id="_services"
-											className="need-form"
-										>
-											<option>Select Service*</option>
-											<option>
-												Blockchain Development
-											</option>
-											<option>Machine Learning</option>
-											<option>Web Development</option>
-											<option>
-												Mobile App Development
-											</option>
-											<option>
-												Metaverse Enterprise Solution
-											</option>
-											<option>
-												Nft and Crypto Development
-											</option>
-											<option>Startup Development</option>
-										</select>
-										<textarea
-											className="need-form"
-											id="exampleFormControlTextarea1"
-											rows="3"
-											placeholder="Your Message*"
-										></textarea>
-										<button className="book-btn">
-											Book a Call
-										</button>
-									</div>
+									<CaseStudyForm />
 								</div>
 							</div>
 						</div>

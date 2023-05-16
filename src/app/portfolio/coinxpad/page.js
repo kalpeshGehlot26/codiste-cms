@@ -1,4 +1,5 @@
 import CaseStudyForm from "@/app/component/caseStudyForm/caseStudyForm";
+import Link from "next/link";
 import React from "react";
 
 export const metadata = {
@@ -33,12 +34,13 @@ const CoinxpadPortfolio = () => {
 										protocols and a strict KYC/AML process
 										to ensure the legitimacy of investors.
 									</p>
-									<button
+									<Link
 										className="book-btn"
-										onclick="window.location.href = 'https://coinxpad.io/';"
+										href="https://coinxpad.io/"
+										target="_blank"
 									>
 										Live Project
-									</button>
+									</Link>
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2">
 									<img

@@ -1,13 +1,18 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import serviceItems from "../../data/serviceItems";
 
-const ServiceList = () => {
+const ServiceList = ({serviceCount, setTotalServiceCount}) => {
+    useEffect(() => {
+        setTotalServiceCount(serviceItems.length)
+    },[serviceItems])
 	return (
 		<div className="row ">
 			{
                 serviceItems?.map((service, index) => {
+                    if(serviceCount < index + 1) return
                     return(
-                        <div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
+                        <div className="col-xl-4 col-md-6 col-sm-12 pb-3" key={index}>
                             <div className="service-block p-4 h-100">
                                 <div className="d-flex align-items-center justify-content-between">
                                     <img

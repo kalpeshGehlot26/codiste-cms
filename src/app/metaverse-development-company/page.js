@@ -3,6 +3,7 @@ import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import metaServiceBlogs from "../data/services/metaVerseServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
+import Link from "next/link";
 
 export const metadata = {
 	title: "Enterprise-Grade Metaverse Development Company | Codiste",
@@ -35,7 +36,7 @@ const MetaverseDevelopmentCompany = () => {
 									broad spectrum of blockchains for a
 									personalized experience.
 								</p>
-								<button className="book-btn">Let’s Talk</button>
+								<Link href="/contact" className="book-btn">Let’s Talk</Link>
 							</div>
 							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0 order-sm-1 order-lg-2">
 								<img
@@ -505,7 +506,7 @@ const MetaverseDevelopmentCompany = () => {
 						Level up your CX with a seamless Metaverse integration
 						with Us!{" "}
 					</p>
-					<button className="book-btn">Book a Call</button>
+					<Link href="/book-a-call" className="book-btn">Book a Call</Link>
 				</div>
 			</div>
 
@@ -800,7 +801,7 @@ const MetaverseDevelopmentCompany = () => {
 							</div>
 
 							<div className="mt-4">
-								<button className="book-btn">Read More</button>
+								<Link href="/portfolio/divewallet" className="book-btn">Read More</Link>
 							</div>
 						</div>
 						<div className="col-lg-6 col-sm-12 p-5 ">

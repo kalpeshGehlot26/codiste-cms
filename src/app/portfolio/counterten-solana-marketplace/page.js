@@ -1,4 +1,5 @@
 import CaseStudyForm from "@/app/component/caseStudyForm/caseStudyForm";
+import Link from "next/link";
 import React from "react";
 
 export const metadata = {
@@ -30,12 +31,13 @@ const CounterTenPortfolio = () => {
 									brands looking to connect with their
 									customers in an innovative way using NFTs.
 								</p>
-								<button
+								<Link
 									className="book-btn"
-									onclick="window.location.href = 'https://www.counterten.com/';"
+									href="https://www.counterten.com/"
+									target="_blank"
 								>
 									Live Project
-								</button>
+								</Link>
 							</div>
 							<div className="col-lg-6 col-sm-12 p-5 ">
 								{" "}

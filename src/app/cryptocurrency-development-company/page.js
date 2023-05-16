@@ -3,6 +3,7 @@ import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import cryptoServiceBlogs from "../data/services/cryptoServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
+import Link from "next/link";
 
 export const metadata = {
 	title: "Cryptocurrency Development Company | Codiste",
@@ -28,7 +29,7 @@ const CryptoDevelopmentCompany = () => {
 									smart contracts for a seamless user
 									experience in crypto trading and investment.
 								</p>
-								<button className="book-btn">Let’s Talk</button>
+								<Link href="/contact" className="book-btn">Let’s Talk</Link>
 							</div>
 							<div className="col-lg-6 col-sm-12 p-5 ">
 								<img
@@ -276,7 +277,7 @@ const CryptoDevelopmentCompany = () => {
 			<div className="blackdiv px-3 ">
 				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3">
 					<p>Let’s make crypto mainstream together! </p>
-					<button className="book-btn">Get in Touch</button>
+					<Link href="/book-a-call" className="book-btn">Get in Touch</Link>
 				</div>
 			</div>
 
@@ -604,7 +605,7 @@ const CryptoDevelopmentCompany = () => {
 							</div>
 
 							<div className="mt-4">
-								<button className="book-btn">Read More</button>
+								<Link href="/portfolio/coinxpad" className="book-btn">Read More</Link>
 							</div>
 						</div>
 						<div className="col-lg-6 col-sm-12 p-5 ">

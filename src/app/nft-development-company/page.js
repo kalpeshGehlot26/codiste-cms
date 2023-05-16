@@ -3,6 +3,7 @@ import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import nftServiceBlogs from "../data/services/nftServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
+import Link from "next/link";
 
 export const metadata = {
 	title: "NFT  Development Company | Codiste",
@@ -32,9 +33,9 @@ const NFTDevelopment = () => {
 									experience for better user experience and
 									feedback.
 								</p>
-								<button className="book-btn">
+								<Link href="/contact" className="book-btn">
 									Have a project? Let's Chat!
-								</button>
+								</Link>
 							</div>
 							<div className="col-lg-6 col-sm-12 p-5 ">
 								<img
@@ -282,7 +283,7 @@ const NFTDevelopment = () => {
 			<div className="blackdiv px-3">
 				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3">
 					<p>Help us know your project better! </p>
-					<button className="book-btn">Let's Connect </button>
+					<Link href="/book-a-call" className="book-btn">Let's Connect </Link>
 				</div>
 			</div>
 
@@ -525,7 +526,7 @@ const NFTDevelopment = () => {
 							</div>
 
 							<div className="mt-4">
-								<button className="book-btn">Read More</button>
+								<Link href="/portfolio/counterten-solana-marketplace" className="book-btn">Read More</Link>
 							</div>
 						</div>
 						<div className="col-lg-6 col-sm-12 p-5 ">

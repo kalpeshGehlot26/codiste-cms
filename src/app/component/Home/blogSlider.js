@@ -33,9 +33,9 @@ const BlogSlider = () => {
                                     consectetur adipisicing elit.
                                     Deleniti, deserunt.
                                 </h4>
-                                <button className="blogfont-btn" href="#">
+                                <a href="#" className="blogfont-btn">
                                     Read More
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -51,9 +51,9 @@ const BlogSlider = () => {
                                     consectetur adipisicing elit.
                                     Deleniti, deserunt.
                                 </h4>
-                                <button className="blogfont-btn">
+                                <a href="#" className="blogfont-btn">
                                     Read More
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -69,9 +69,9 @@ const BlogSlider = () => {
                                     consectetur adipisicing elit.
                                     Deleniti, deserunt.
                                 </h4>
-                                <button className="blogfont-btn">
+                                <a href="#" className="blogfont-btn">
                                     Read More
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -87,9 +87,9 @@ const BlogSlider = () => {
                                     consectetur adipisicing elit.
                                     Deleniti, deserunt.
                                 </h4>
-                                <button className="blogfont-btn">
+                                <a href="#" className="blogfont-btn">
                                     Read More
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -105,9 +105,9 @@ const BlogSlider = () => {
                                     consectetur adipisicing elit.
                                     Deleniti, deserunt.
                                 </h4>
-                                <button className="blogfont-btn">
+                                <a href="#" className="blogfont-btn">
                                     Read More
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -123,9 +123,9 @@ const BlogSlider = () => {
                                     consectetur adipisicing elit.
                                     Deleniti, deserunt.
                                 </h4>
-                                <button className="blogfont-btn">
+                                <a href="#" className="blogfont-btn">
                                     Read More
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -141,9 +141,9 @@ const BlogSlider = () => {
                                     consectetur adipisicing elit.
                                     Deleniti, deserunt.
                                 </h4>
-                                <button className="blogfont-btn">
+                                <a href="#" className="blogfont-btn">
                                     Read More
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>

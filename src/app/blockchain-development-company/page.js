@@ -3,6 +3,7 @@ import ClientSlider from '../component/Home/clientSlider'
 import AllServiceBlogSlider from '../component/BlogSlider/allServiceBlogSlider'
 import blockChainServiceBlogs from '../data/services/blockChainServiceBlogs'
 import CaseStudyForm from '../component/caseStudyForm/caseStudyForm';
+import Link from 'next/link';
 
 export const metadata = {
     title: "Blockchain Development Company | Codiste",
@@ -25,7 +26,7 @@ const BlockChainDevelopmentCompany = () => {
                             enterprises.
 
                         </p>
-                        <button className="book-btn">Let’s Connect </button>
+                        <Link href="/contact" className="book-btn">Let’s Connect </Link>
                     </div>
                     <div className="col-lg-6 col-sm-12 p-5 "> <img
                         className='img-fluid d-flex align-items-center justify-content-center'
@@ -301,7 +302,7 @@ const BlockChainDevelopmentCompany = () => {
     <div className="blackdiv px-3">
         <div className=" container container-fluid d-flex align-items-center justify-content-between py-3">
             <p>Get Transparent, Decentralized, and Scalable Blockchain Applications </p>
-            <button className="book-btn">Contact Us!</button>
+            <Link href="/book-a-call" className="book-btn">Contact Us!</Link>
         </div>
     </div>
 

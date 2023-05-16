@@ -1,4 +1,5 @@
 import React from "react";
+import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 
 export const metadata = {
 	title: "Leading Blockchain Development Company | Contact Us | Codiste",
@@ -30,55 +31,7 @@ const page = () => {
 									discuss how we can help turn your ideas into
 									reality.
 								</p>
-								<input
-									className="need-form"
-									type="text"
-									id="_name"
-									name="name"
-									placeholder="Your Name*"
-								/>
-								<br />
-								<input
-									className="need-form"
-									type="email"
-									id="_email"
-									name="email"
-									placeholder="Your Email*"
-								/>
-								<br />
-								<input
-									className="need-form"
-									type="number"
-									id="_number"
-									name="number"
-									placeholder="Your Number*"
-								/>
-								<br />
-								<select
-									name="services"
-									id="_services"
-									className="need-form"
-								>
-									<option>Select Service*</option>
-									<option>Blockchain Development</option>
-									<option>Machine Learning</option>
-									<option>Web Development</option>
-									<option>Mobile App Development</option>
-									<option>
-										Metaverse Enterprise Solution
-									</option>
-									<option>Nft and Crypto Development</option>
-									<option>Startup Development</option>
-								</select>
-								<textarea
-									className="need-form"
-									id="exampleFormControlTextarea1"
-									rows="3"
-									placeholder="Your Message*"
-								></textarea>
-								<button className="book-btn">
-									SEND MESSAGE
-								</button>
+								<CaseStudyForm />
 							</div>
 						</div>
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 ">

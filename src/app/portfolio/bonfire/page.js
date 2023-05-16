@@ -1,4 +1,5 @@
 import CaseStudyForm from "@/app/component/caseStudyForm/caseStudyForm";
+import Link from "next/link";
 import React from "react";
 
 export const metadata = {
@@ -27,12 +28,13 @@ const BornfirePortfolio = () => {
 										invest through crypto, view their
 										investments and list the properties.
 									</p>
-									<button
+									<Link
 										className="book-btn"
-										onclick="window.location.href = 'https://www.bonfire.capital/';"
+										href="https://www.bonfire.capital/"
+										target="_blank"
 									>
 										Live Project
-									</button>
+									</Link>
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2">
 									<img

@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import ClientSlider from "../component/Home/clientSlider";
 import TechStack from "../component/service/techStack";
 import ServiceList from "../component/service/serviceItems";
@@ -8,12 +9,15 @@ import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import allServiceBlogs from "../data/services/allServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 
-export const metadata = {
+const metadata = {
 	title: "Software Development Company | Empowering IT Solutions | Codiste",
 	description: "We are a leading software development company offering a innovative tech and development support ecosystem. We caters immersive solutions to all business across diverse sectors."
 };
 
 const Services = () => {
+	const [serviceCount, setServiceCount] = useState(6);
+	const [totalServiceCount, setTotalServiceCount] = useState(null);
+
 	return (
 		<div>
 			<div className="bg-color">
@@ -56,10 +60,24 @@ const Services = () => {
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h1 className="all-head">Services We Offer</h1>
 					</div>
-					<ServiceList />
-					<div className="d-flex align-items-center justify-content-center">
-						<button className="book-btn mt-3 ">Show more</button>
-					</div>
+					<ServiceList
+						serviceCount={serviceCount}
+						setTotalServiceCount={setTotalServiceCount}
+					/>
+					{totalServiceCount > serviceCount ? (
+						<div className="d-flex align-items-center justify-content-center">
+							<button
+								className="book-btn mt-3 "
+								onClick={() =>
+									setServiceCount(
+										(prevState) => prevState + 6
+									)
+								}
+							>
+								Show more
+							</button>
+						</div>
+					) : null}
 				</section>
 			</div>
 
