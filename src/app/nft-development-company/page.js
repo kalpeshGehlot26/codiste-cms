@@ -2,6 +2,7 @@ import React from "react";
 import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import nftServiceBlogs from "../data/services/nftServiceBlogs";
+import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 
 export const metadata = {
 	title: "NFT  Development Company | Codiste",
@@ -751,59 +752,7 @@ const NFTDevelopment = () => {
 								<h2 className="">
 									How Can We <b>Help?</b>{" "}
 								</h2>
-								<div className="">
-									<input
-										className="need-form"
-										type="text"
-										id="name"
-										name="name"
-										placeholder="Name*"
-									/>
-									<br />
-									<input
-										className="need-form"
-										type="email"
-										id="email"
-										name="email"
-										placeholder="Email*"
-									/>
-									<br />
-									<input
-										className="need-form"
-										type="number"
-										id="number"
-										name="number"
-										placeholder="Number*"
-									/>
-									<br />
-									<select
-										name="services"
-										id="_services"
-										className="need-form"
-									>
-										<option>Service*</option>
-										<option>Blockchain Development</option>
-										<option>Machine Learning</option>
-										<option>Web Development</option>
-										<option>Mobile App Development</option>
-										<option>
-											Metaverse Enterprise Solution
-										</option>
-										<option>
-											Nft and Crypto Development
-										</option>
-										<option>Startup Development</option>
-									</select>
-									<textarea
-										className="need-form"
-										id="exampleFormControlTextarea1"
-										rows="3"
-										placeholder="Message*"
-									></textarea>
-									<button className="book-btn">
-										Book a Call
-									</button>
-								</div>
+								<CaseStudyForm />
 							</div>
 						</div>
 					</div>
