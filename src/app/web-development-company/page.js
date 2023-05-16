@@ -3,6 +3,11 @@ import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import webServiceBlogs from "../data/services/webServiceBlogs copy";
 
+export const metadata = {
+	title: "Web Development Company | Codiste",
+	description: "Codiste web development services offer website development support and technical assistance to build secure, scalable, stunning, and robust web applications."
+};
+
 const WebDevelopmentCompany = () => {
 	return (
 		<div>

@@ -1,6 +1,11 @@
 import React from "react";
 import ClientSlider from "../component/Home/clientSlider";
 
+export const metadata = {
+	title: "Showcasing Our Blockchain Development Solutions | Portfolio | Codiste",
+	description: "Explore our portfolio and see what we delivered to figure out how it helped drive forward the development of tech and software solutions for various industries."
+};
+
 const CodistePortfolio = () => {
 	return (
 		<div>

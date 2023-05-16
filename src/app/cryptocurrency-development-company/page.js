@@ -3,6 +3,11 @@ import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import cryptoServiceBlogs from "../data/services/cryptoServiceBlogs";
 
+export const metadata = {
+	title: "Cryptocurrency Development Company | Codiste",
+	description: "As a leading cryptocurrency services provider, we're specialized in delivering blockchain, hyper ledger, and smart contract solutions that guarantee a seamless user experience in crypto trading and investment."
+};
+
 const CryptoDevelopmentCompany = () => {
 	return (
 		<div>

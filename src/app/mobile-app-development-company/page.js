@@ -3,6 +3,11 @@ import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import mobileServiceBlogs from "../data/services/mobileServiceBlogs";
 
+export const metadata = {
+	title: "Mobile App Development Company | Codiste",
+	description: "Let's experience the best-in-class mobile app development services for lightning-fast, bug-free apps that exceed expectations and drive user engagement."
+};
+
 const MobileAppDevelopmentCompany = () => {
 	return (
 		<div>

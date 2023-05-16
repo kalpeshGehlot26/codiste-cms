@@ -3,6 +3,11 @@ import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import nftServiceBlogs from "../data/services/nftServiceBlogs";
 
+export const metadata = {
+	title: "NFT  Development Company | Codiste",
+	description: "We are a NFT development company providing end-to-end NFT development, including digital NFTs , NFT marketplaces , NFT gamification and Web3 Identity Platforms."
+};
+
 const NFTDevelopment = () => {
 	return (
 		<div>

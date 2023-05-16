@@ -3,6 +3,11 @@ import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import startupServiceBlogs from "../data/services/startupServiceBlogs";
 
+export const metadata = {
+	title: "Startup Development Company | Codiste",
+	description: "Codiste offers startup development services for entrepreneurs with comprehensive tech-support and guidance to navigate each step towards success."
+};
+
 const StartupDevelopmentCompany = () => {
 	return (
 		<div>

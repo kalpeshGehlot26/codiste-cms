@@ -3,6 +3,11 @@ import ClientSlider from '../component/Home/clientSlider'
 import AllServiceBlogSlider from '../component/BlogSlider/allServiceBlogSlider'
 import arServiceBlogs from '../data/services/arServiceBlogs'
 
+export const metadata = {
+    title: "AR & VR Development Company | Codiste",
+    description: "Using ARtoolkit, Google ARCore, Apple AR Kit, and Web3 apps, we deliver innovative and immersive virtual reality and AR development solutions for enterprises."
+};
+
 const ARVRDevelopmentCompany = () => {
   return (
     <div>

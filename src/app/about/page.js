@@ -1,5 +1,10 @@
 import React from "react";
 
+export const metadata = {
+	title: "Enterprise Grade Blockchain Development Company | Codiste",
+	description: "Codiste is an emerging leader in blockchain development services that enable businesses to thrive in the constantly evolving digital decentralized."
+};
+
 const About = () => {
 	return (
 		<div>

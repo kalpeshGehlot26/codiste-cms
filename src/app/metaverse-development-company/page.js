@@ -3,6 +3,11 @@ import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import metaServiceBlogs from "../data/services/metaVerseServiceBlogs";
 
+export const metadata = {
+	title: "Enterprise-Grade Metaverse Development Company | Codiste",
+	description: "Explore our metaverse development services and embark on a journey into the decentralized digital universe. Embrace the power of the Metaverse services now!!",
+};
+
 const MetaverseDevelopmentCompany = () => {
 	return (
 		<div>

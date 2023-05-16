@@ -2,6 +2,11 @@ import React from "react";
 import EventSlider from "../component/career/eventSlider";
 import EmployeeSlider from "../component/career/employeeSlider";
 
+export const metadata = {
+	title: "Explore Career Opportunities with Blockchain Development Company | Codiste",
+	description: "As a blockchain development company, we're rapidly growing and seeking innovative team members to join us. Explore exciting career opportunities now!!"
+};
+
 const Career = () => {
 	return (
 		<div>

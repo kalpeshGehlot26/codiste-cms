@@ -3,6 +3,11 @@ import ClientSlider from '../component/Home/clientSlider'
 import AllServiceBlogSlider from '../component/BlogSlider/allServiceBlogSlider'
 import aiServiceBlogs from '../data/services/aiServiceBlogs'
 
+export const metadata = {
+    title: "Artificial Intelligence Development Company | Codiste",
+    description: "Our Artificial Intelligence development services offer customized development for automating software with modern AI technologies. We build automation software for businesses to get enhanced operational efficiency."
+};
+
 const AIDevelopmentCompany = () => {
   return (
     <div>

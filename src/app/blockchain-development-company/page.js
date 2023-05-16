@@ -3,6 +3,11 @@ import ClientSlider from '../component/Home/clientSlider'
 import AllServiceBlogSlider from '../component/BlogSlider/allServiceBlogSlider'
 import blockChainServiceBlogs from '../data/services/blockChainServiceBlogs'
 
+export const metadata = {
+    title: "Blockchain Development Company | Codiste",
+    description: "Our comprehensive Web3 blockchain development services to streamlined integrations of decentralized technological infrastructure in payments, applications, hyper ledgers, supply chains, and more.."
+};
+
 const BlockChainDevelopmentCompany = () => {
   return (
     <div>

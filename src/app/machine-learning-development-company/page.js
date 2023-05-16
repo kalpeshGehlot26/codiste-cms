@@ -3,6 +3,11 @@ import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import mlServiceBlogs from "../data/services/mlServiceBlogs";
 
+export const metadata = {
+	title: "Machine Learning Development Company | Codiste",
+	description: "Codiste machine learning development team helps you leverage the power of machine learning to boost your organizational growth and efficiency."
+};
+
 const MLDevelopmentCompany = () => {
 	return (
 		<div>
