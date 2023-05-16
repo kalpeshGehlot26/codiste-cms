@@ -124,7 +124,6 @@ const TankpadPortfolio = () => {
 									<li class="">
 										<img
 											class="img-fluid"
-											alt=""
 											src="/assets/images/case-tankpad/ownership.png"
 											alt="Ownership"
 										/>
@@ -139,7 +138,6 @@ const TankpadPortfolio = () => {
 									<li>
 										<img
 											class="img-fluid"
-											alt=""
 											src="/assets/images/case-tankpad/NFT Portfolio.png"
 											alt="NFT Portfolio"
 										/>
@@ -157,7 +155,6 @@ const TankpadPortfolio = () => {
 									<li>
 										<img
 											class="img-fluid"
-											alt=""
 											src="/assets/images/case-tankpad/User friendly.png"
 											alt="User friendly"
 										/>
@@ -174,7 +171,6 @@ const TankpadPortfolio = () => {
 									<li>
 										<img
 											class="img-fluid"
-											alt=""
 											src="/assets/images/case-tankpad/Showcase creativities.png"
 											alt="Showcase creativities"
 										/>
@@ -191,7 +187,6 @@ const TankpadPortfolio = () => {
 									<li>
 										<img
 											class="img-fluid"
-											alt=""
 											src="/assets/images/case-tankpad/Ease of transfer.png"
 											alt="Ease of transfer"
 										/>
