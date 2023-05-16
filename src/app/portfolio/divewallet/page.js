@@ -1,3 +1,4 @@
+import CaseStudyForm from "@/app/component/caseStudyForm/caseStudyForm";
 import React from "react";
 
 export const metadata = {
@@ -573,59 +574,7 @@ const DivewalletPortfolio = () => {
 								<h2 className="">
 									How Can We <b>Help?</b>{" "}
 								</h2>
-								<div className="">
-									<input
-										className="need-form"
-										type="text"
-										id="name"
-										name="name"
-										placeholder="Name*"
-									/>
-									<br />
-									<input
-										className="need-form"
-										type="email"
-										id="email"
-										name="email"
-										placeholder="Email*"
-									/>
-									<br />
-									<input
-										className="need-form"
-										type="number"
-										id="number"
-										name="number"
-										placeholder="Number*"
-									/>
-									<br />
-									<select
-										name="services"
-										id="_services"
-										className="need-form"
-									>
-										<option>Select Service*</option>
-										<option>Blockchain Development</option>
-										<option>Machine Learning</option>
-										<option>Web Development</option>
-										<option>Mobile App Development</option>
-										<option>
-											Metaverse Enterprise Solution
-										</option>
-										<option>
-											Nft and Crypto Development
-										</option>
-										<option>Startup Development</option>
-									</select>
-									<textarea
-										className="need-form"
-										id="exampleFormControlTextarea1"
-										rows="3"
-										placeholder="Your Message*"
-									></textarea>
-									<button className="book-btn">
-										Book a Call
-									</button>
-								</div>
+								<CaseStudyForm />
 							</div>
 						</div>
 					</div>
