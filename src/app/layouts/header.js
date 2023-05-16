@@ -42,38 +42,43 @@ const Header = () => {
 									aria-labelledby="navbarScrollingDropdown"
 								>
 									<li>
-										<Link className="dropdown-item" href="#">
-											Metaverse Enterprise Solution
+										<Link className="dropdown-item" href="/metaverse-development-company">
+											Metaverse Enterprise Development Service
 										</Link>
 									</li>
 									<li>
-										<Link className="dropdown-item" href="#">
-											Blockchain Development Company
+										<Link className="dropdown-item" href="/blockchain-development-company">
+											Blockchain Development Development Service
 										</Link>
 									</li>
 									<li>
-										<Link className="dropdown-item" href="#">
-											Machine Learning
+										<Link className="dropdown-item" href="/machine-learning-development-company">
+											Machine Learning Development Service
 										</Link>
 									</li>
 									<li>
-										<Link className="dropdown-item" href="#">
-											Web Development
+										<Link className="dropdown-item" href="/web-development-company">
+											Web Development Development Service
 										</Link>
 									</li>
 									<li>
-										<Link className="dropdown-item" href="#">
-											Mobile App Development
+										<Link className="dropdown-item" href="/mobile-app-development-company">
+											Mobile App Development Service
 										</Link>
 									</li>
 									<li>
-										<Link className="dropdown-item" href="#">
-											Nft and Crypto Development Company
+										<Link className="dropdown-item" href="/nft-development-company">
+											NFT Development Service
 										</Link>
 									</li>
 									<li>
-										<Link className="dropdown-item" href="#">
-											Startup Development
+										<Link className="dropdown-item" href="/nft-development-company">
+											Crypto Development Service
+										</Link>
+									</li>
+									<li>
+										<Link className="dropdown-item" href="/startup-development-company">
+											Startup Development Service
 										</Link>
 									</li>
 								</ul>

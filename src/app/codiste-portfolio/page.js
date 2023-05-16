@@ -154,6 +154,9 @@ const CodistePortfolio = () => {
 						</a>
 					</div>
 				</div>
+				<div class="text-center">
+					<button class="book-btn">Explore More</button>
+				</div>
 			</div>
 
 			<div className="container container-fluid py-5">

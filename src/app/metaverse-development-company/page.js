@@ -39,7 +39,7 @@ const MetaverseDevelopmentCompany = () => {
 							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0 order-sm-1 order-lg-2">
 								<img
 									className="img-fluid"
-									src="./Images/Main/metaverse.png"
+									src="assets/images/main/metaverse.png"
 									alt=""
 								/>
 							</div>
@@ -379,7 +379,7 @@ const MetaverseDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt=""
-								src="./Images/iSupport.png"
+								src="assets/images/iSupport.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								End-to-End Development Support
@@ -399,7 +399,7 @@ const MetaverseDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt=""
-								src="./Images/personalized.png"
+								src="assets/images/personalized.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Personalized Development
@@ -419,7 +419,7 @@ const MetaverseDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt=""
-								src="./Images/360-degrees.png"
+								src="assets/images/360-degrees.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								3D Immersive Experience
@@ -439,7 +439,7 @@ const MetaverseDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt=""
-								src="./Images/vr-glasses.png"
+								src="assets/images/vr-glasses.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Virtual Avatars
@@ -457,7 +457,7 @@ const MetaverseDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt=""
-								src="./Images/decentralization.png"
+								src="assets/images/decentralization.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Decentralized Security
@@ -478,7 +478,7 @@ const MetaverseDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt=""
-								src="./Images/autumn.png"
+								src="assets/images/autumn.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Extensive Customization
