@@ -1,5 +1,10 @@
 import React from "react";
 
+export const metadata = {
+	title: "DiveWallet | Crypto Development services | Codiste",
+	description: "Codiste develops a highly-secured crypto wallet - ‘Divewallet’ that supports well known EVM-based blockchains such as Ethereum, Binance, Polygon, and Solana."
+};
+
 const DivewalletPortfolio = () => {
 	return (
 		<div>
@@ -36,7 +41,7 @@ const DivewalletPortfolio = () => {
 										margin: "auto",
 										padding: "20px",
 									}}
-									src="//assets/images/diwallet-case/Dive Wallet.png"
+									src="/assets/images/diwallet-case/Dive Wallet.png"
 								/>
 							</div>
 						</div>

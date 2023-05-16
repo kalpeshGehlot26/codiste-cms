@@ -1,5 +1,10 @@
 import React from "react";
 
+export const metadata = {
+	title: "Pixi pages | Mobile Application Development Services | Codiste",
+	description: "Busy parents stay connected with their children by recording professional-sounding bedtime stories, complete with music and personal notes."
+};
+
 const PixipagesPortfolio = () => {
 	return (
 		<div>

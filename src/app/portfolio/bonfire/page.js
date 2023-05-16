@@ -1,5 +1,10 @@
 import React from "react";
 
+export const metadata = {
+	title: "Bonfire |I Crypto Development Services | Codiste",
+	description: "Codiste embraces technology, strategy, and design Bonfire platform where users can invest through crypto, view their investments and list the properties."
+};
+
 const BornfirePortfolio = () => {
 	return (
 		<div>

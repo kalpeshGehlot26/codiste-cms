@@ -7,6 +7,11 @@ import CaseStudySlider from "../component/service/caseStudySlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import allServiceBlogs from "../data/services/allServiceBlogs";
 
+export const metadata = {
+	title: "Software Development Company | Empowering IT Solutions | Codiste",
+	description: "We are a leading software development company offering a innovative tech and development support ecosystem. We caters immersive solutions to all business across diverse sectors."
+};
+
 const Services = () => {
 	return (
 		<div>

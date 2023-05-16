@@ -43,6 +43,11 @@ const serviceList = [
         title: "Start-Up",
         url: "assets/images/services/startup.png",
         description: "Leverage our startup development services to receive end-to-end support from ideation to launch, partnering with our team's innovative mindset and technical expertise. We transform your ideas into products or services aligned with your business objectives."
+    },
+    {
+        title: "Mobile App",
+        url: "assets/images/services/mobile-app-development.png",
+        description: "We provide expert mobile app development services for iOS and Android, delivering seamless and connected user experiences. Our team ensures bug-free code with low/no code development and rigorous testing, including end-to-end hybrid app development."
     }
 ];
 

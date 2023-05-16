@@ -1,5 +1,10 @@
 import React from "react";
 
+export const metadata = {
+	title: "CYPHA | Mobile App Development services | Codiste",
+	description: "CYPHA – Your Pocket music studio The case study is about the Talent Search App, a gamified platform for aspiring and established musicians to showcase their talents, connect with other music lovers, and earn rewards."
+};
+
 const CyphaPortfolio = () => {
 	return (
 		<div>

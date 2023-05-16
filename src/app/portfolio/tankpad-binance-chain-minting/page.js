@@ -1,5 +1,10 @@
 import React from "react";
 
+export const metadata = {
+	title: "Tankpad | Binance Chain Minting | NFT Marketplace Development Services | Codiste",
+	description: "Tankpad has a curated selection of NFTs, a fair marketplace with purchasing limits, and allows users to easily manage their digital assets by transferring NFTs to other wallet"
+};
+
 const TankpadPortfolio = () => {
 	return (
 		<div>

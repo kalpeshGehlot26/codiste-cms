@@ -3,7 +3,8 @@ import ClientSlider from "../component/Home/clientSlider";
 
 export const metadata = {
 	title: "Showcasing Our Blockchain Development Solutions | Portfolio | Codiste",
-	description: "Explore our portfolio and see what we delivered to figure out how it helped drive forward the development of tech and software solutions for various industries."
+	description:
+		"Explore our portfolio and see what we delivered to figure out how it helped drive forward the development of tech and software solutions for various industries.",
 };
 
 const CodistePortfolio = () => {
@@ -40,55 +41,117 @@ const CodistePortfolio = () => {
 
 			<ClientSlider />
 
-			<div className="container-fluid px-0 py-5">
-				<div className="text-center">
-					<h2 className="all-head">
+			<div class="container container-fluid py-5">
+				<div class="text-center">
+					<h2 class="all-head mb-5">
 						Innovation in Action: Real-World Case Studies from
 						Codiste
 					</h2>
 				</div>
-				<div className="row">
-					<div className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
-						<img
-							className="img-fluid  pb-3"
-							src="assets/images/counter.png"
-							alt=""
-						/>
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+						<div>
+							<img
+								class="img-fluid"
+								src="assets/images/counter.png"
+								alt=""
+							/>
+						</div>
+						<h5 class="mt-3">Machine Learning Estimation</h5>
+						<a href="#" class=" mt-3 case-btn">
+							Read More
+						</a>
 					</div>
-					<div className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
-						<img
-							className="img-fluid"
-							src="assets/images/counter.png"
-							alt=""
-						/>
+					<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+						<div>
+							<img
+								class="img-fluid"
+								src="assets/images/counter.png"
+								alt=""
+							/>
+						</div>
+						<h5 class="mt-3">Machine Learning Estimation</h5>
+						<a href="#" class=" mt-3 case-btn">
+							Read More
+						</a>
 					</div>
-					<div className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
-						<img
-							className="img-fluid"
-							src="assets/images/counter.png"
-							alt=""
-						/>
+					<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+						<div>
+							<img
+								class="img-fluid"
+								src="assets/images/counter.png"
+								alt=""
+							/>
+						</div>
+						<h5 class="mt-3">Machine Learning Estimation</h5>
+						<a href="#" class=" mt-3 case-btn">
+							Read More
+						</a>
 					</div>
-					<div className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
-						<img
-							className="img-fluid"
-							src="assets/images/counter.png"
-							alt=""
-						/>
+					<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+						<div>
+							<img
+								class="img-fluid"
+								src="assets/images/counter.png"
+								alt=""
+							/>
+						</div>
+						<h5 class="mt-3">Machine Learning Estimation</h5>
+						<a href="#" class=" mt-3 case-btn">
+							Read More
+						</a>
 					</div>
-					<div className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
-						<img
-							className="img-fluid"
-							src="assets/images/counter.png"
-							alt=""
-						/>
+					<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+						<div>
+							<img
+								class="img-fluid"
+								src="assets/images/counter.png"
+								alt=""
+							/>
+						</div>
+						<h5 class="mt-3">Machine Learning Estimation</h5>
+						<a href="#" class=" mt-3 case-btn">
+							Read More
+						</a>
 					</div>
-					<div className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
-						<img
-							className="img-fluid"
-							src="assets/images/counter.png"
-							alt=""
-						/>
+					<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+						<div>
+							<img
+								class="img-fluid"
+								src="assets/images/counter.png"
+								alt=""
+							/>
+						</div>
+						<h5 class="mt-3">Machine Learning Estimation</h5>
+						<a href="#" class=" mt-3 case-btn">
+							Read More
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+						<div>
+							<img
+								class="img-fluid"
+								src="assets/images/counter.png"
+								alt=""
+							/>
+						</div>
+						<h5 class="mt-3">Machine Learning Estimation</h5>
+						<a href="#" class=" mt-3 case-btn">
+							Read More
+						</a>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+						<div>
+							<img
+								class="img-fluid"
+								src="assets/images/counter.png"
+								alt=""
+							/>
+						</div>
+						<h5 class="mt-3">Machine Learning Estimation</h5>
+						<a href="#" class=" mt-3 case-btn">
+							Read More
+						</a>
 					</div>
 				</div>
 			</div>

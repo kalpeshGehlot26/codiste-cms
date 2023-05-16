@@ -1,5 +1,10 @@
 import React from "react";
 
+export const metadata = {
+	title: "ML Estimation | Machine Learning  Services I| Codiste",
+	description: "The HVAC industry is a highly competitive field, and with so many contractors vying for the same projects, it can be difficult to stand out and win more quotes"
+};
+
 const MLPortfolio = () => {
 	return (
 		<div>
