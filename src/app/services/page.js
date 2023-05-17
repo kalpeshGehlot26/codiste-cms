@@ -28,7 +28,7 @@ const Services = () => {
 							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
 								<h1 className="all-head mb-3">Our Services</h1>
 								<p className="all-p me-5">
-									At Codiste, we bring the best people for a
+									We bring the best people for a
 									one-stop tech & dev support ecosystem
 									catering to businesses, startups, and
 									enterprises from various sectors and
@@ -45,7 +45,7 @@ const Services = () => {
 							<div className="col-lg-6 col-sm-12 py-5">
 								<img
 									className="img-fluid d-flex align-items-center justify-content-center"
-									style={{height: "450px", width: "auto", margin: "auto", padding: "20px"}}
+									style={{ height: "450px", width: "auto", margin: "auto", padding: "20px" }}
 									src="assets/images/firstsecimg.png"
 								/>
 							</div>
@@ -117,7 +117,7 @@ const Services = () => {
 						</div>
 						<div className="row">
 							<div className="col-lg-12">
-							<TechStack />
+								<TechStack />
 							</div>
 						</div>
 					</section>
@@ -369,19 +369,67 @@ const Services = () => {
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head">Blog</h1>
 					<p className="all-p text-center">
-						Keep yourself updated with emerging technologies <br />
+						Keep yourself updated with emerging technologies
 						and new developments in the industry with us.
 					</p>
 				</div>
 				<AllServiceBlogSlider items={allServiceBlogs} />
 			</div>
 
-			<div className=" py-5">
-				<div className=" d-flex align-items-center flex-column justify-content-center  mb-5 contact-block">
-					<h4 className="all-head">QUALITY IS OUR BEAUTY</h4>
-					<h1>We Make Beautiful Things</h1>
+
+			<div class=" py-5 bg-color">
+				<div class="container container-fluid py-5">
+					<div class="text-center">
+						<h2 class="all-head mb-5">Innovation in Action: Real-World Case Studies from Codiste</h2>
+
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
+							<h5 class="mt-3">Machine Learning Estimation</h5>
+							<a href="#" class=" mt-3 case-btn">Read More</a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
+							<h5 class="mt-3">Machine Learning Estimation</h5>
+							<a href="#" class=" mt-3 case-btn">Read More</a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
+							<h5 class="mt-3">Machine Learning Estimation</h5>
+							<a href="#" class=" mt-3 case-btn">Read More</a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
+							<h5 class="mt-3">Machine Learning Estimation</h5>
+							<a href="#" class=" mt-3 case-btn">Read More</a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
+							<h5 class="mt-3">Machine Learning Estimation</h5>
+							<a href="#" class=" mt-3 case-btn">Read More</a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
+							<h5 class="mt-3">Machine Learning Estimation</h5>
+							<a href="#" class=" mt-3 case-btn">Read More</a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
+							<h5 class="mt-3">Machine Learning Estimation</h5>
+							<a href="#" class=" mt-3 case-btn">Read More</a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
+							<h5 class="mt-3">Machine Learning Estimation</h5>
+							<a href="#" class=" mt-3 case-btn">Read More</a>
+						</div>
+					</div>
+					<div class="text-center">
+						<button class="book-btn">Explore More</button>
+					</div>
+
 				</div>
-				<CaseStudySlider />
 			</div>
 
 			<div className="bg-color py-5">
@@ -538,6 +586,8 @@ const Services = () => {
 					</section>
 				</div>
 			</div>
+
+
 
 			<div className="container container-fluid py-5">
 				<section>

@@ -22,17 +22,17 @@ const HomePage = () => {
 					playsInline
 					muted
 				></video>
-				<div className="rotate-box">
-					<h1>Scale with DLT security & transparency in</h1>
-				</div>
-				<div className="rotating-text-wrapper">
-					<h2>Blockchain Technology</h2>
-					<h2>Artificial Intelligence</h2>
-					<h2>Augmented & Virtual Reality</h2>
-					<h2>Non-Fungible Tokens & Marketplaces</h2>
-					<h2>Metaverse Technologies</h2>
-					<h2>Machine Learning</h2>
-					<h2>Cryptocurrency Technologies</h2>
+				<div class="rotate-box">
+					<h2>We craft innovation in</h2>
+					<div class="rotating-text-wrapper">
+						<h2>Blockchain Technology</h2>
+						<h2>Artificial Intelligence</h2>
+						<h2>Augmented & Virtual Reality</h2>
+						<h2>Non-Fungible Tokens & Marketplaces</h2>
+						<h2>Metaverse Technologies</h2>
+						<h2>Machine Learning</h2>
+						<h2>Cryptocurrency Technologies</h2>
+					</div>
 				</div>
 			</section>
 
@@ -152,7 +152,6 @@ const HomePage = () => {
 								tailored solutions to help businesses grow.
 							</p>
 						</div>
-
 						<Industries />
 					</section>
 				</div>
@@ -169,39 +168,60 @@ const HomePage = () => {
 				<BlogSlider />
 			</div>
 
-			<div className=" py-5 bg-color">
-				<div className=" d-flex align-items-center flex-column justify-content-center  mb-5 contact-block">
-					<h4 className="all-head">QUALITY IS OUR BEAUTY</h4>
-					<h1>We Make Beautiful Things</h1>
-				</div>
-				<section
-					className="splide"
-					id="third-slider"
-					aria-label="Slide Container Example"
-				>
-					<div className="splide__track">
-						<ul className="splide__list">
-							<li className="splide__slide p-2">
-								<div className=" splide__slide__container card ">
-									<img
-										src="assets/images/counter.png"
-										className="card-position"
-										alt=""
-									/>
-									<div className="card-body">
-										<p className="card-text">Website </p>
-										<h5 className="card-title">
-											Machine Learning Estimation
-										</h5>
-										<a href="#" className=" mt-3 case-btn">
-											CASE STUDY
-										</a>
-									</div>
-								</div>
-							</li>
-						</ul>
+
+			<div class=" py-5 bg-color">
+				<div class="container container-fluid py-5">
+					<div class="text-center">
+						<h2 class="all-head mb-5">Innovation in Action: Real-World Case Studies from Codiste</h2>
+
 					</div>
-				</section>
+					<div class="row">
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
+							<h5 class="mt-3">Machine Learning Estimation</h5>
+							<a href="#" class=" mt-3 case-btn">Read More</a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
+							<h5 class="mt-3">Machine Learning Estimation</h5>
+							<a href="#" class=" mt-3 case-btn">Read More</a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
+							<h5 class="mt-3">Machine Learning Estimation</h5>
+							<a href="#" class=" mt-3 case-btn">Read More</a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
+							<h5 class="mt-3">Machine Learning Estimation</h5>
+							<a href="#" class=" mt-3 case-btn">Read More</a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
+							<h5 class="mt-3">Machine Learning Estimation</h5>
+							<a href="#" class=" mt-3 case-btn">Read More</a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
+							<h5 class="mt-3">Machine Learning Estimation</h5>
+							<a href="#" class=" mt-3 case-btn">Read More</a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
+							<h5 class="mt-3">Machine Learning Estimation</h5>
+							<a href="#" class=" mt-3 case-btn">Read More</a>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
+							<h5 class="mt-3">Machine Learning Estimation</h5>
+							<a href="#" class=" mt-3 case-btn">Read More</a>
+						</div>
+					</div>
+					<div class="text-center">
+						<button class="book-btn">Explore More</button>
+					</div>
+
+				</div>
 			</div>
 
 			<div className="container container-fluid py-5">

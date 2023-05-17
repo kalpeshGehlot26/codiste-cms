@@ -3,21 +3,22 @@ import React from "react";
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
-const AllServiceBlogSlider = ({items}) => {
+const AllServiceBlogSlider = ({ items }) => {
     return (
         <Splide
             hasTrack={false}
             options={{
                 type: 'loop',
                 drag: 'free',
-                focus: 'center',
+                // focus: 'center',
                 pagination: true,
                 autoplay: true,
                 interval: 2000,
-                perPage: 3,
+                perPage: 5,
+                loop: false,
                 arrows: false,
                 autoScroll: {
-                  speed: 2,
+                    speed: 2,
                 },
             }}
         >
@@ -27,7 +28,7 @@ const AllServiceBlogSlider = ({items}) => {
                         return (
                             <SplideSlide className="splide__slide p-2" key={index}>
                                 <div className="position-relative">
-                                    <img className="img-fluid rounded p-0" alt={item.title} src={item.image}/>
+                                    <img className="img-fluid rounded p-0" alt={item.title} src={item.image} />
                                     <div className="blogboxbg">
                                         <div className="blogfont-pos">
                                             <p>{item.category}</p>

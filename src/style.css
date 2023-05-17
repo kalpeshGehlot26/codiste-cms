@@ -46,16 +46,20 @@ h1{
    font-weight: 500;
    margin-left: 12px;
 }
-.navbar-light .navbar-nav .nav-link {
+.navbar-nav .nav-link {
    color: #fff;
 }
-
+.dropdown-item:hover, .dropdown-item:focus {
+  
+   background: #fff;
+}
 .active,
 .navbar-nav a:hover {
-   color: #f9004d !important;
-
+   color: #f9004d;
 }
-
+.dropdown-item {
+   margin: 0 !important;
+}
 .dropdown-sec li a{
    width: 300px;
    border-radius: 3px;
@@ -71,7 +75,7 @@ h1{
 }
 .dropdown-sec li a:hover{
    background: #ffedf2;
-    color: #f9004d!important; 
+   color: #f9004d!important; 
 }
 
 .header-btn {
@@ -82,11 +86,13 @@ h1{
 }
 
 .header-btn:hover {
-   color: #fff;
    background-color: #f9004d !important;
    border: 2px solid #f9004d !important;
+   color: #fff !important;
 }
-
+.header-btn a:hover {
+   color: #fff !important;
+}
 .firstsecimg {
    padding: 100px;
 }
@@ -132,6 +138,7 @@ text-align: left;
    border-radius: 4px;
    white-space: nowrap;
    font-size: 18px;
+   text-decoration: none;
 }
 
 /* ==== nav complete === */
@@ -159,6 +166,7 @@ footer {
 
 .footer-menu-items li a {
    color: #9598A6;
+   text-decoration: none;
 }
 
 .footer-menu-items li a:hover {
@@ -198,7 +206,9 @@ footer {
 .footer-listtext li {
    margin-top: 15px;
 }
-
+.footer-listtext li a{
+   text-decoration: none !important;
+}
 .footer-top-mr {
    margin-top: 40px;
    margin-left: 80px;
@@ -218,7 +228,10 @@ footer {
    text-align: center;
    color: #9598A6;
 }
-
+.footer-center a {
+   text-decoration: none !important;
+   color: #9598A6 !important;
+}
 /* ==== footer complet==== */
 
 /* ==== accordion === */
@@ -527,7 +540,7 @@ font-size: 22px !important;
 .needsec h1 {
    font-size: 50px;
    font-weight: 700;
-   line-height: 40px;
+   line-height: 50px;
    letter-spacing: 0em;
    text-align: left;
    background: linear-gradient(90deg, #FF1F23 3.28%, #FD145A 97.2%);
@@ -572,6 +585,10 @@ font-size: 22px !important;
    margin-bottom: 10px;
    width: 100%;
 }
+.need-form:focus-visible{
+   border-color:  #FF1F23;
+   outline: none;
+ }
 
 .carousel-box {
    background: #FFFFFF;
