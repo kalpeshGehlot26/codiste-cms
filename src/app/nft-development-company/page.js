@@ -7,7 +7,8 @@ import Link from "next/link";
 
 export const metadata = {
 	title: "NFT  Development Company | Codiste",
-	description: "We are a NFT development company providing end-to-end NFT development, including digital NFTs , NFT marketplaces , NFT gamification and Web3 Identity Platforms."
+	description:
+		"We are a NFT development company providing end-to-end NFT development, including digital NFTs , NFT marketplaces , NFT gamification and Web3 Identity Platforms.",
 };
 
 const NFTDevelopment = () => {
@@ -40,7 +41,12 @@ const NFTDevelopment = () => {
 							<div className="col-lg-6 col-sm-12 p-5 ">
 								<img
 									className="img-fluid d-flex align-items-center justify-content-center"
-									style={{height: "450px", width : "auto", margin: "auto", padding: "20px"}}
+									style={{
+										height: "450px",
+										width: "auto",
+										margin: "auto",
+										padding: "20px",
+									}}
 									src="assets/images/main/NFT Development.png"
 								/>
 							</div>
@@ -54,7 +60,9 @@ const NFTDevelopment = () => {
 			<div className="container container-fluid">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-						<h1 className="all-head">Our NFT Development Services </h1>
+						<h1 className="all-head">
+							Our NFT Development Services{" "}
+						</h1>
 						<p className="all-p text-center">
 							We offer a one-stop development platform for NFTs
 							ecosystem development.{" "}
@@ -283,7 +291,9 @@ const NFTDevelopment = () => {
 			<div className="blackdiv px-3">
 				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3">
 					<p>Help us know your project better! </p>
-					<Link href="/book-a-call" className="book-btn">Let's Connect </Link>
+					<Link href="/book-a-call" className="book-btn">
+						Let's Connect{" "}
+					</Link>
 				</div>
 			</div>
 
@@ -360,7 +370,10 @@ const NFTDevelopment = () => {
 						id="accordionFlushExample"
 					>
 						<div className="accordion-item">
-							<h2 className="accordion-header" id="flush-headingOne">
+							<h2
+								className="accordion-header"
+								id="flush-headingOne"
+							>
 								<button
 									className="accordion-button collapsed"
 									type="button"
@@ -399,7 +412,10 @@ const NFTDevelopment = () => {
 							</div>
 						</div>
 						<div className="accordion-item">
-							<h2 className="accordion-header" id="flush-headingTwo">
+							<h2
+								className="accordion-header"
+								id="flush-headingTwo"
+							>
 								<button
 									className="accordion-button collapsed"
 									type="button"
@@ -462,7 +478,10 @@ const NFTDevelopment = () => {
 							</div>
 						</div>
 						<div className="accordion-item">
-							<h2 className="accordion-header" id="flush-headingfour">
+							<h2
+								className="accordion-header"
+								id="flush-headingfour"
+							>
 								<button
 									className="accordion-button collapsed"
 									type="button"
@@ -526,14 +545,24 @@ const NFTDevelopment = () => {
 							</div>
 
 							<div className="mt-4">
-								<Link href="/portfolio/counterten-solana-marketplace" className="book-btn">Read More</Link>
+								<Link
+									href="/portfolio/counterten-solana-marketplace"
+									className="book-btn"
+								>
+									Read More
+								</Link>
 							</div>
 						</div>
 						<div className="col-lg-6 col-sm-12 p-5 ">
 							<img
 								className="img-fluid d-flex align-items-center justify-content-center"
-								style={{height: "450px", width : "auto", margin: "auto", padding: "20px"}}
-								src="assets/images/counter.png"
+								style={{
+									height: "450px",
+									width: "auto",
+									margin: "auto",
+									padding: "20px",
+								}}
+								src="assets/images/case-couter10/Counterten.png"
 							/>
 						</div>
 					</div>
@@ -551,26 +580,26 @@ const NFTDevelopment = () => {
 				<AllServiceBlogSlider items={nftServiceBlogs} />
 			</div>
 
-			<div className="bg-color py-5">
-				<div className="container container-fluid">
+			<div class="bg-color py-5">
+				<div class="container container-fluid">
 					<section>
-						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+						<div class=" d-flex align-items-center flex-column justify-content-center mb-5">
+							<h1 class="all-head">
 								We are proud to have your trust in us!{" "}
 							</h1>
 						</div>
 
 						<div
 							id="carouselExampleDark"
-							className="carousel carousel-dark slide carousel-box"
+							class="carousel carousel-dark slide carousel-box"
 							data-bs-ride="carousel"
 						>
-							<div className="carousel-indicators">
+							<div class="carousel-indicators">
 								<button
 									type="button"
 									data-bs-target="#carouselExampleDark"
 									data-bs-slide-to="0"
-									className="active"
+									class="active"
 									aria-current="true"
 									aria-label="Slide 1"
 								></button>
@@ -587,9 +616,38 @@ const NFTDevelopment = () => {
 									aria-label="Slide 3"
 								></button>
 							</div>
-							<div className="carousel-inner">
-								<div className="carousel-item active">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+							<div class="carousel-inner ">
+								<div class="carousel-item active">
+									<div class="d-flex align-items-center text-center flex-column custom-crousel">
+										<h3>
+											They communicate clearly and outline
+											the product roadmap for us. It has
+											been very easy to work with them.
+											Made us profitaable on NFT
+											Marketplace and which made amazing
+											journey.
+										</h3>
+
+										<div class="d-flex align-items-center flex-column custom-crousel">
+											<img
+												src="assets/images/iCrowsel.png"
+												class="img-fluid"
+												alt="iCrowsel"
+											/>
+											<div>
+												<img
+													class="img-fluid my-4 client-logo"
+													alt="Ninza NFT"
+													src="assets/images/client-logos/Danketsu-Logo-Blue (Ninja NFT).png"
+												/>
+											</div>
+											<h5>Ninza NFT</h5>
+											<p>CoFounder</p>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											They truly do everything up to a
 											very high standard. Codiste pvt ltd
@@ -604,16 +662,17 @@ const NFTDevelopment = () => {
 											their work.
 										</h3>
 
-										<div className="d-flex align-items-center flex-column custom-crousel">
+										<div class="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												class="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													class="img-fluid my-4 client-logo"
+													alt="The Real Estate "
+													src="assets/images/client-logos/bonfire.png"
 												/>
 											</div>
 											<h5>
@@ -627,8 +686,8 @@ const NFTDevelopment = () => {
 										</div>
 									</div>
 								</div>
-								<div className="carousel-item">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+								<div class="carousel-item">
+									<div class="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											I am pleased to say that working
 											with Codiste Pvt Ltd has been a
@@ -651,16 +710,17 @@ const NFTDevelopment = () => {
 											delivering high-quality work.
 										</h3>
 
-										<div className="d-flex align-items-center flex-column custom-crousel">
+										<div class="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												class="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													class="img-fluid my-4 client-logo"
+													alt="DiveWallet"
+													src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
 											<h5>DiveWallet</h5>
@@ -672,63 +732,30 @@ const NFTDevelopment = () => {
 										</div>
 									</div>
 								</div>
-								<div className="carousel-item">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
-										<h3>
-											Codiste pvt ltd delivered the
-											project within the given timeline
-											and budget. Their communication and
-											collaboration were outstanding using
-											Slack, Lucidhart, and Miro. The team
-											was reliable, well-organized, and
-											proactive.
-										</h3>
-
-										<div className="d-flex align-items-center flex-column custom-crousel">
-											<img
-												src="assets/images/iCrowsel.png"
-												className=" "
-												alt="iCrowsel"
-											/>
-											<div className="my-5">
-												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
-												/>
-											</div>
-											<h5>Medizen App</h5>
-											<p>
-												CEO
-												<br />
-												Johannesburg, South Africa
-											</p>
-										</div>
-									</div>
-								</div>
 							</div>
 							<button
-								className="carousel-control-prev"
+								class="carousel-control-prev"
 								type="button"
 								data-bs-target="#carouselExampleDark"
 								data-bs-slide="prev"
 							>
 								<span
-									className="carousel-control-prev-icon"
+									class="carousel-control-prev-icon"
 									aria-hidden="true"
 								></span>
-								<span className="visually-hidden">Previous</span>
+								<span class="visually-hidden">Previous</span>
 							</button>
 							<button
-								className="carousel-control-next"
+								class="carousel-control-next"
 								type="button"
 								data-bs-target="#carouselExampleDark"
 								data-bs-slide="next"
 							>
 								<span
-									className="carousel-control-next-icon"
+									class="carousel-control-next-icon"
 									aria-hidden="true"
 								></span>
-								<span className="visually-hidden">Next</span>
+								<span class="visually-hidden">Next</span>
 							</button>
 						</div>
 					</section>

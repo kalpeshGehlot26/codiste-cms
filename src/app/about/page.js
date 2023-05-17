@@ -3,7 +3,8 @@ import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 
 export const metadata = {
 	title: "Enterprise Grade Blockchain Development Company | Codiste",
-	description: "Codiste is an emerging leader in blockchain development services that enable businesses to thrive in the constantly evolving digital decentralized."
+	description:
+		"Codiste is an emerging leader in blockchain development services that enable businesses to thrive in the constantly evolving digital decentralized.",
 };
 
 const About = () => {
@@ -147,7 +148,9 @@ const About = () => {
 										alt="Customer Focus"
 										src="assets/images/about/Customer Focus.png"
 									/>
-									<p className="secondsec-p">Customer Focus</p>
+									<p className="secondsec-p">
+										Customer Focus
+									</p>
 								</li>
 								<li>
 									<img
@@ -197,7 +200,9 @@ const About = () => {
 										alt="Accountability"
 										src="assets/images/about/responsibility.png"
 									/>
-									<p className="secondsec-p">Accountability</p>
+									<p className="secondsec-p">
+										Accountability
+									</p>
 								</li>
 							</ul>
 						</div>
@@ -207,7 +212,9 @@ const About = () => {
 
 			<div className="bg-color firstsec">
 				<div className="container container-fluid py-4">
-					<h1 className="all-head text-center mb-5">Leadership Team</h1>
+					<h1 className="all-head text-center mb-5">
+						Leadership Team
+					</h1>
 					<div className="row">
 						<div className="col-auto mb-5">
 							<img
@@ -263,7 +270,9 @@ const About = () => {
 						<div className="col  aboutall-p">
 							<div>
 								<div className="d-flex">
-									<h1 className="me-4 aboutall-h">Nic Roux</h1>
+									<h1 className="me-4 aboutall-h">
+										Nic Roux
+									</h1>
 									<img
 										className="img-fluid mb-4"
 										src="assets/images/about/linkedin.png"
@@ -354,7 +363,9 @@ const About = () => {
 										src="assets/images/services/Cryptocurrency.png"
 									/>
 									<a>
-										<span className="fs-3">Cryptocurrency</span>
+										<span className="fs-3">
+											Cryptocurrency
+										</span>
 										<br />
 										Development Service
 									</a>
@@ -467,7 +478,9 @@ const About = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">Brands That Trust Our Work</h1>
+							<h1 className="all-head">
+								Brands That Trust Our Work
+							</h1>
 						</div>
 						<div className="row">
 							<div className="col-lg-12">
@@ -644,12 +657,12 @@ const About = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5">
-				<div className="container container-fluid">
+			<div class=" bg-color py-5">
+				<div class="container container-fluid">
 					<section>
-						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">What Our Clients Say</h1>
-							<p className="all-p me-5 text-center">
+						<div class=" d-flex align-items-center flex-column justify-content-center mb-5">
+							<h1 class="all-head">What Our Clients Say</h1>
+							<p class="all-p me-5 text-center">
 								Take the word of those who have benefitted from
 								Codiste.{" "}
 							</p>
@@ -657,15 +670,15 @@ const About = () => {
 
 						<div
 							id="carouselExampleDark"
-							className="carousel carousel-dark slide carousel-box"
+							class="carousel carousel-dark slide carousel-box"
 							data-bs-ride="carousel"
 						>
-							<div className="carousel-indicators">
+							<div class="carousel-indicators">
 								<button
 									type="button"
 									data-bs-target="#carouselExampleDark"
 									data-bs-slide-to="0"
-									className="active"
+									class="active"
 									aria-current="true"
 									aria-label="Slide 1"
 								></button>
@@ -682,124 +695,157 @@ const About = () => {
 									aria-label="Slide 3"
 								></button>
 							</div>
-							<div className="carousel-inner">
-								<div className="carousel-item active">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
-											They communicate clearly and outline
-											the product roadmap for us. It has{" "}
-											<br />
-											been very easy to work with them.
-											Made us profitaable on NFT
-											Marketplace <br /> and which made
-											amazing journey
+											They truly do everything up to a
+											very high standard. Codiste pvt ltd
+											has successfully delivered a
+											functional app praised in many
+											publications for its neatness and
+											speed. They have frequently
+											communicated via Slack and managed
+											the project efficiently using Jira.
+											Their extensive knowledge and humble
+											attitude have been hallmarks of
+											their work.
 										</h3>
 
-										<div className="d-flex align-items-center flex-column custom-crousel">
+										<div class="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=""
+												class="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													class="img-fluid my-4 client-logo"
+													alt="bonfire"
+													src="assets/images/client-logos/bonfire.png"
 												/>
 											</div>
-											<h5>Tommy Bui</h5>
-											<p>CoFounder at Ninza NFT</p>
+											<h5>
+												The Real Estate Investment
+												platform
+											</h5>
+											<p>
+												CTO and Co-Founder <br />
+												San Francisco, California
+											</p>
 										</div>
 									</div>
 								</div>
-								<div className="carousel-item">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+								<div class="carousel-item">
+									<div class="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
-											They communicate clearly and outline
-											the product roadmap for us. It has{" "}
-											<br />
-											been very easy to work with them.
-											Made us profitaable on NFT
-											Marketplace <br /> and which made
-											amazing journey
+											I am pleased to say that working
+											with Codiste Pvt Ltd has been a
+											positive experience for our
+											community. The project is now
+											complete, and the feedback we have
+											received on the platform has been
+											overwhelmingly positive. Throughout
+											the project, Codiste maintained open
+											communication lines, regularly
+											updating us on progress and
+											following the agreed timeline. They
+											delivered an app with impressive
+											functionalities and accepted every
+											challenge we gave them. Overall, we
+											are satisfied with the outcome of
+											the project and would recommend
+											Codiste for their expertise,
+											professionalism, and commitment to
+											delivering high-quality work.
 										</h3>
 
-										<div className="d-flex align-items-center flex-column custom-crousel">
+										<div class="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												class="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/jeremy.jpeg"
+													class="img-fluid my-4 client-logo"
+													alt="DiveWallet"
+													src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
-											<h5>Tommy Bui</h5>
-											<p>CoFounder at Ninza NFT</p>
+											<h5>DiveWallet</h5>
+											<p>
+												CEO
+												<br />
+												Bolivar, New York
+											</p>
 										</div>
 									</div>
 								</div>
-								<div className="carousel-item">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+								<div class="carousel-item">
+									<div class="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
-											They communicate clearly and outline
-											the product roadmap for us. It has{" "}
-											<br />
-											been very easy to work with them.
-											Made us profitaable on NFT
-											Marketplace <br /> and which made
-											amazing journey
+											Codiste pvt ltd delivered the
+											project within the given timeline
+											and budget. Their communication and
+											collaboration were outstanding using
+											Slack, Lucidhart, and Miro. The team
+											was reliable, well-organized, and
+											proactive.
 										</h3>
 
-										<div className="d-flex align-items-center flex-column custom-crousel">
+										<div class="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=""
+												class="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													class="img-fluid my-4 client-logo"
+													alt="Medizen"
+													src="assets/images/client-logos/Medizen.png"
 												/>
 											</div>
-											<h5>Tommy Bui</h5>
-											<p>CoFounder at Ninza NFT</p>
+											<h5>Medizen App</h5>
+											<p>
+												CEO
+												<br />
+												Johannesburg, South Africa
+											</p>
 										</div>
 									</div>
 								</div>
 							</div>
 							<button
-								className="carousel-control-prev"
+								class="carousel-control-prev"
 								type="button"
 								data-bs-target="#carouselExampleDark"
 								data-bs-slide="prev"
 							>
 								<span
-									className="carousel-control-prev-icon"
+									class="carousel-control-prev-icon"
 									aria-hidden="true"
 								></span>
-								<span className="visually-hidden">Previous</span>
+								<span class="visually-hidden">Previous</span>
 							</button>
 							<button
-								className="carousel-control-next"
+								class="carousel-control-next"
 								type="button"
 								data-bs-target="#carouselExampleDark"
 								data-bs-slide="next"
 							>
 								<span
-									className="carousel-control-next-icon"
+									class="carousel-control-next-icon"
 									aria-hidden="true"
 								></span>
-								<span className="visually-hidden">Next</span>
+								<span class="visually-hidden">Next</span>
 							</button>
 						</div>
 					</section>
 				</div>
 			</div>
-
 			<div className="container container-fluid mb-5 firstsec">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head">Our Global Presence </h1>
@@ -814,7 +860,10 @@ const About = () => {
 					<div className="col-md-6 col-sm-12 pb-3 ">
 						<div className="service-block p-4 h-100 ">
 							<div className="d-flex justify-content-center customind mb-4">
-								<img className="me-4" src="assets/images/india.png" />
+								<img
+									className="me-4"
+									src="assets/images/india.png"
+								/>
 								<h1>India</h1>
 							</div>
 							<div className="contact-content">
@@ -830,7 +879,10 @@ const About = () => {
 											x="0"
 											y="0"
 											viewBox="0 0 682.667 682.667"
-											style={{"enable-background":"new 0 0 512 512"}}
+											style={{
+												"enable-background":
+													"new 0 0 512 512",
+											}}
 											xmlSpace="preserve"
 											className=""
 										>
@@ -853,7 +905,18 @@ const About = () => {
 												>
 													<path
 														d="M0 0c-60 90-165 212-165 317 0 90.981 74.019 165 165 165s165-74.019 165-165C165 212 60 90 0 0Z"
-														style={{strokeWidth:"30",strokeLinecap:"round",strokeLinejoin:"round",strokeMiterlimit:"10",strokeDasharray:"none",strokeOpacity:"1"}}
+														style={{
+															strokeWidth: "30",
+															strokeLinecap:
+																"round",
+															strokeLinejoin:
+																"round",
+															strokeMiterlimit:
+																"10",
+															strokeDasharray:
+																"none",
+															strokeOpacity: "1",
+														}}
 														transform="translate(256 15)"
 														fill="none"
 														stroke="#ff1f23"
@@ -867,7 +930,18 @@ const About = () => {
 													/>
 													<path
 														d="M0 0c-41.353 0-75 33.647-75 75s33.647 75 75 75 75-33.647 75-75S41.353 0 0 0Z"
-														style={{strokeWidth:"30",strokeLinecap:"round",strokeLinejoin:"round",strokeMiterlimit:"10",strokeDasharray:"none",strokeOpacity:"1"}}
+														style={{
+															strokeWidth: "30",
+															strokeLinecap:
+																"round",
+															strokeLinejoin:
+																"round",
+															strokeMiterlimit:
+																"10",
+															strokeDasharray:
+																"none",
+															strokeOpacity: "1",
+														}}
 														transform="translate(256 257)"
 														fill="none"
 														stroke="#ff1f23"
@@ -902,7 +976,10 @@ const About = () => {
 											x="0"
 											y="0"
 											viewBox="0 0 682.667 682.667"
-											style={{"enable-background":"new 0 0 512 512"}}
+											style={{
+												"enable-background":
+													"new 0 0 512 512",
+											}}
 											xmlSpace="preserve"
 											className=""
 										>
@@ -934,7 +1011,10 @@ const About = () => {
 											x="0"
 											y="0"
 											viewBox="0 0 682.667 682.667"
-											style={{"enable-background":"new 0 0 512 512"}}
+											style={{
+												"enable-background":
+													"new 0 0 512 512",
+											}}
 											xmlSpace="preserve"
 											className=""
 										>
@@ -980,7 +1060,10 @@ const About = () => {
 											x="0"
 											y="0"
 											viewBox="0 0 682.667 682.667"
-											style={{"enable-background":"new 0 0 512 512"}}
+											style={{
+												"enable-background":
+													"new 0 0 512 512",
+											}}
 											xmlSpace="preserve"
 											className=""
 										>
@@ -1003,7 +1086,18 @@ const About = () => {
 												>
 													<path
 														d="M0 0c-60 90-165 212-165 317 0 90.981 74.019 165 165 165s165-74.019 165-165C165 212 60 90 0 0Z"
-														style={{strokeWidth:"30",strokeLinecap:"round",strokeLinejoin:"round",strokeMiterlimit:"10",strokeDasharray:"none",strokeOpacity:"1"}}
+														style={{
+															strokeWidth: "30",
+															strokeLinecap:
+																"round",
+															strokeLinejoin:
+																"round",
+															strokeMiterlimit:
+																"10",
+															strokeDasharray:
+																"none",
+															strokeOpacity: "1",
+														}}
 														transform="translate(256 15)"
 														fill="none"
 														stroke="#ff1f23"
@@ -1017,7 +1111,18 @@ const About = () => {
 													/>
 													<path
 														d="M0 0c-41.353 0-75 33.647-75 75s33.647 75 75 75 75-33.647 75-75S41.353 0 0 0Z"
-														style={{strokeWidth:"30",strokeLinecap:"round",strokeLinejoin:"round",strokeMiterlimit:"10",strokeDasharray:"none",strokeOpacity:"1"}}
+														style={{
+															strokeWidth: "30",
+															strokeLinecap:
+																"round",
+															strokeLinejoin:
+																"round",
+															strokeMiterlimit:
+																"10",
+															strokeDasharray:
+																"none",
+															strokeOpacity: "1",
+														}}
 														transform="translate(256 257)"
 														fill="none"
 														stroke="#ff1f23"
@@ -1052,7 +1157,10 @@ const About = () => {
 											x="0"
 											y="0"
 											viewBox="0 0 682.667 682.667"
-											style={{"enable-background":"new 0 0 512 512"}}
+											style={{
+												"enable-background":
+													"new 0 0 512 512",
+											}}
 											xmlSpace="preserve"
 											className=""
 										>
@@ -1084,7 +1192,10 @@ const About = () => {
 											x="0"
 											y="0"
 											viewBox="0 0 682.667 682.667"
-											style={{"enable-background":"new 0 0 512 512"}}
+											style={{
+												"enable-background":
+													"new 0 0 512 512",
+											}}
 											xmlSpace="preserve"
 											className=""
 										>

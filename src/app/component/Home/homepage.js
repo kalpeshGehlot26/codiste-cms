@@ -7,6 +7,7 @@ import ServiceList from "../service/serviceItems";
 import Industries from "../service/industries";
 import Link from "next/link";
 import CaseStudyForm from "../caseStudyForm/caseStudyForm";
+import serviceItems from "../../data/serviceItems";
 
 const HomePage = () => {
 	const [serviceCount, setServiceCount] = useState(6);
@@ -22,9 +23,9 @@ const HomePage = () => {
 					playsInline
 					muted
 				></video>
-				<div class="rotate-box">
+				<div className="rotate-box">
 					<h2>We craft innovation in</h2>
-					<div class="rotating-text-wrapper">
+					<div className="rotating-text-wrapper">
 						<h2>Blockchain Technology</h2>
 						<h2>Artificial Intelligence</h2>
 						<h2>Augmented & Virtual Reality</h2>
@@ -44,6 +45,7 @@ const HomePage = () => {
 						<h1 className="all-head">Services We Offer</h1>
 					</div>
 					<ServiceList
+						serviceItems={serviceItems}
 						serviceCount={serviceCount}
 						setTotalServiceCount={setTotalServiceCount}
 					/>
@@ -168,78 +170,38 @@ const HomePage = () => {
 				<BlogSlider />
 			</div>
 
-
-			<div class=" py-5 bg-color">
-				<div class="container container-fluid py-5">
-					<div class="text-center">
-						<h2 class="all-head mb-5">Innovation in Action: Real-World Case Studies from Codiste</h2>
+			<div className=" py-5 bg-color">
+				<div className="container container-fluid py-5">
+					<div className="text-center">
+						<h2 className="all-head mb-5">Innovation in Action: Real-World Case Studies from Codiste</h2>
 
 					</div>
-					<div class="row">
-						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
-							<h5 class="mt-3">Machine Learning Estimation</h5>
-							<a href="#" class=" mt-3 case-btn">Read More</a>
+					<div className="row">
+						<div className="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img className="img-fluid" src='assets/images/diwallet-case/Dive Wallet.png' alt='Divewallet – The Crypto Wallet' /></div>
+							<h5 className="mt-3">Divewallet – The Crypto Wallet</h5>
+							<Link href="/portfolio/divewallet" className=" mt-3 case-btn">Read More</Link>
 						</div>
-						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
-							<h5 class="mt-3">Machine Learning Estimation</h5>
-							<a href="#" class=" mt-3 case-btn">Read More</a>
+						<div className="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img className="img-fluid" src='assets/images/case-coinxpad/Coinxpad.png' alt='CoinxPad Launchpad' /></div>
+							<h5 className="mt-3">CoinxPad Launchpad</h5>
+							<Link href="/portfolio/coinxpad" className=" mt-3 case-btn">Read More</Link>
 						</div>
-						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
-							<h5 class="mt-3">Machine Learning Estimation</h5>
-							<a href="#" class=" mt-3 case-btn">Read More</a>
+						<div className="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img className="img-fluid" src='assets/images/case-couter10/Counterten.png' alt='CounterTen – solana Marketplace' /></div>
+							<h5 className="mt-3">CounterTen – solana Marketplace</h5>
+							<Link href="/portfolio/counterten-solana-marketplace" className=" mt-3 case-btn">Read More</Link>
 						</div>
-						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
-							<h5 class="mt-3">Machine Learning Estimation</h5>
-							<a href="#" class=" mt-3 case-btn">Read More</a>
-						</div>
-						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
-							<h5 class="mt-3">Machine Learning Estimation</h5>
-							<a href="#" class=" mt-3 case-btn">Read More</a>
-						</div>
-						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
-							<h5 class="mt-3">Machine Learning Estimation</h5>
-							<a href="#" class=" mt-3 case-btn">Read More</a>
-						</div>
-						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
-							<h5 class="mt-3">Machine Learning Estimation</h5>
-							<a href="#" class=" mt-3 case-btn">Read More</a>
-						</div>
-						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
-							<h5 class="mt-3">Machine Learning Estimation</h5>
-							<a href="#" class=" mt-3 case-btn">Read More</a>
+						<div className="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div><img className="img-fluid" src='assets/images/case-ml/MLEstimation.png' alt='Machine Learning Estimation' /></div>
+							<h5 className="mt-3">Machine Learning Estimation</h5>
+							<Link href="/portfolio/ml-estimation" className=" mt-3 case-btn">Read More</Link>
 						</div>
 					</div>
-					<div class="text-center">
-						<button class="book-btn">Explore More</button>
+					<div className="text-center">
+						<Link href="/codiste-portfolio" className="book-btn">Explore More</Link>
 					</div>
 
-				</div>
-			</div>
-
-			<div className="container container-fluid py-5">
-				<div>
-					<script
-						type="text/javascript"
-						src="https://widget.clutch.co/static/js/widget.js"
-					></script>
-					<div
-						className="clutch-widget"
-						data-url="https://widget.clutch.co"
-						data-widget-type="8"
-						data-height="300"
-						data-nofollow="true"
-						data-expandifr="true"
-						data-reviews="2075551,1991603,1981661,1979997,1892127,1884862"
-						data-clutchcompany-id="1798117"
-					></div>
 				</div>
 			</div>
 

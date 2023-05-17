@@ -4,15 +4,16 @@ import ClientSlider from "../component/Home/clientSlider";
 import TechStack from "../component/service/techStack";
 import ServiceList from "../component/service/serviceItems";
 import Industries from "../component/service/industries";
-import CaseStudySlider from "../component/service/caseStudySlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import allServiceBlogs from "../data/services/allServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
+import mainServiceList from "../data/services/mainServiceList";
 import Link from "next/link";
 
 const metadata = {
 	title: "Software Development Company | Empowering IT Solutions | Codiste",
-	description: "We are a leading software development company offering a innovative tech and development support ecosystem. We caters immersive solutions to all business across diverse sectors."
+	description:
+		"We are a leading software development company offering a innovative tech and development support ecosystem. We caters immersive solutions to all business across diverse sectors.",
 };
 
 const Services = () => {
@@ -28,15 +29,15 @@ const Services = () => {
 							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
 								<h1 className="all-head mb-3">Our Services</h1>
 								<p className="all-p me-5">
-									We bring the best people for a
-									one-stop tech & dev support ecosystem
-									catering to businesses, startups, and
-									enterprises from various sectors and
-									industries. We are your partner in
-									accelerating innovation and growth with web
-									and app solutions in emerging, rapidly
-									growing technologies to help you elevate
-									your user and customer experience.
+									We bring the best people for a one-stop tech
+									& dev support ecosystem catering to
+									businesses, startups, and enterprises from
+									various sectors and industries. We are your
+									partner in accelerating innovation and
+									growth with web and app solutions in
+									emerging, rapidly growing technologies to
+									help you elevate your user and customer
+									experience.
 								</p>
 								<Link href="/contact" className="book-btn mt-3">
 									Contact Us
@@ -45,7 +46,12 @@ const Services = () => {
 							<div className="col-lg-6 col-sm-12 py-5">
 								<img
 									className="img-fluid d-flex align-items-center justify-content-center"
-									style={{ height: "450px", width: "auto", margin: "auto", padding: "20px" }}
+									style={{
+										height: "450px",
+										width: "auto",
+										margin: "auto",
+										padding: "20px",
+									}}
 									src="assets/images/firstsecimg.png"
 								/>
 							</div>
@@ -62,6 +68,7 @@ const Services = () => {
 						<h1 className="all-head">Services We Offer</h1>
 					</div>
 					<ServiceList
+						serviceItems={mainServiceList}
 						serviceCount={serviceCount}
 						setTotalServiceCount={setTotalServiceCount}
 					/>
@@ -99,7 +106,9 @@ const Services = () => {
 							our clients to ensure hassle-free pre and
 							post-development integration.
 						</p>
-						<Link href="/book-a-call" className="book-btn">Book a Call</Link>
+						<Link href="/book-a-call" className="book-btn">
+							Book a Call
+						</Link>
 					</div>
 				</section>
 			</div>
@@ -220,7 +229,9 @@ const Services = () => {
 										src="assets/images/agile.png"
 										alt="End-to-End Development"
 									/>
-									<h3 className="">End-to-End Development </h3>
+									<h3 className="">
+										End-to-End Development{" "}
+									</h3>
 									<p>
 										Our team offers comprehensive end-to-end
 										development support with thorough
@@ -240,7 +251,9 @@ const Services = () => {
 										src="assets/images/internet.png"
 										alt="Robust Security Solutions"
 									/>
-									<h3 className="">Robust Security Solutions</h3>
+									<h3 className="">
+										Robust Security Solutions
+									</h3>
 									<p>
 										Codiste's expert team follows
 										industry-standard protocols to provide
@@ -259,7 +272,9 @@ const Services = () => {
 										src="assets/images/iSupport.png"
 										alt="Post Sales Support & Assistance"
 									/>
-									<h3 className="">Post Sales Support & Assistance</h3>
+									<h3 className="">
+										Post Sales Support & Assistance
+									</h3>
 									<p>
 										We are a rapidly growing emerging leader
 										in techno support and IT development
@@ -289,7 +304,9 @@ const Services = () => {
 				<div className="row g-3">
 					<div className="col-xl-4 col-md-6 col-sm-12 pb-3 position-relative">
 						<div className="process-block process-block1 h-100">
-							<div className="process-circle process-circle1">1</div>
+							<div className="process-circle process-circle1">
+								1
+							</div>
 							<h3 className="">Project Consultation</h3>
 							<p>
 								In this initial phase, we offer project
@@ -302,8 +319,12 @@ const Services = () => {
 					</div>
 					<div className="col-xl-4 col-md-6 col-sm-12 pb-3 position-relative">
 						<div className="process-block process-block2 h-100">
-							<div className="process-circle process-circle2">2</div>
-							<h3 className="">Minimum Viable Product Planning</h3>
+							<div className="process-circle process-circle2">
+								2
+							</div>
+							<h3 className="">
+								Minimum Viable Product Planning
+							</h3>
 							<p>
 								Before getting into product development, we
 								design an MVP or Prototype. Our team finalizes
@@ -315,8 +336,12 @@ const Services = () => {
 					</div>
 					<div className="col-xl-4 col-md-6 col-sm-12 pb-3 position-relative">
 						<div className="process-block process-block3 h-100 ">
-							<div className="process-circle process-circle3">3</div>
-							<h3 className="">Prototype and Product Designing </h3>
+							<div className="process-circle process-circle3">
+								3
+							</div>
+							<h3 className="">
+								Prototype and Product Designing{" "}
+							</h3>
 							<p>
 								From training data to dealing with unstructured
 								text, photos, and videos, we offer Machine
@@ -326,7 +351,9 @@ const Services = () => {
 					</div>
 					<div className="col-xl-4 col-md-6 col-sm-12 pb-3 position-relative">
 						<div className="process-block process-block4 h-100">
-							<div className="process-circle process-circle4">4</div>
+							<div className="process-circle process-circle4">
+								4
+							</div>
 							<h3 className="">Technical Development </h3>
 							<p>
 								After completing prototype testing, we start
@@ -339,7 +366,9 @@ const Services = () => {
 					</div>
 					<div className="col-xl-4 col-md-6 col-sm-12 pb-3 position-relative">
 						<div className="process-block process-block5 h-100">
-							<div className="process-circle process-circle5">5</div>
+							<div className="process-circle process-circle5">
+								5
+							</div>
 							<h3 className="">Automated Product Testing</h3>
 							<p>
 								As a part of our development process, we
@@ -352,7 +381,9 @@ const Services = () => {
 					</div>
 					<div className="col-xl-4 col-md-6 col-sm-12 pb-3 position-relative">
 						<div className="process-block process-block6 h-100">
-							<div className="process-circle process-circle6">6</div>
+							<div className="process-circle process-circle6">
+								6
+							</div>
 							<h3 className="">Deployment phase</h3>
 							<p>
 								Our team extends support to seamless product
@@ -369,66 +400,80 @@ const Services = () => {
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head">Blog</h1>
 					<p className="all-p text-center">
-						Keep yourself updated with emerging technologies
-						and new developments in the industry with us.
+						Keep yourself updated with emerging technologies and new
+						developments in the industry with us.
 					</p>
 				</div>
 				<AllServiceBlogSlider items={allServiceBlogs} />
 			</div>
 
-
-			<div class=" py-5 bg-color">
-				<div class="container container-fluid py-5">
-					<div class="text-center">
-						<h2 class="all-head mb-5">Innovation in Action: Real-World Case Studies from Codiste</h2>
-
+			<div className=" py-5 bg-color">
+				<div className="container container-fluid py-5">
+					<div className="text-center">
+						<h2 className="all-head mb-5">
+							Innovation in Action: Real-World Case Studies from
+							Codiste
+						</h2>
 					</div>
-					<div class="row">
-						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
-							<h5 class="mt-3">Machine Learning Estimation</h5>
-							<a href="#" class=" mt-3 case-btn">Read More</a>
+					<div className="row">
+						<div className="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div>
+								<img
+									className="img-fluid"
+									src="assets/images/case-pixi/Pixipages.png"
+									alt="Pixipages"
+								/>
+							</div>
+							<h5 className="mt-3">Pixipages</h5>
+							<a href="#" className=" mt-3 case-btn">
+								Read More
+							</a>
 						</div>
-						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
-							<h5 class="mt-3">Machine Learning Estimation</h5>
-							<a href="#" class=" mt-3 case-btn">Read More</a>
+						<div className="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div>
+								<img
+									className="img-fluid"
+									src="assets/images/case-cypha/Cypha.png"
+									alt="CYPHA – Your Sound"
+								/>
+							</div>
+							<h5 className="mt-3">CYPHA – Your Sound</h5>
+							<a href="#" className=" mt-3 case-btn">
+								Read More
+							</a>
 						</div>
-						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
-							<h5 class="mt-3">Machine Learning Estimation</h5>
-							<a href="#" class=" mt-3 case-btn">Read More</a>
+						<div className="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div>
+								<img
+									className="img-fluid"
+									src="assets/images/case-medizen/Medizen.png"
+									alt="Medizen"
+								/>
+							</div>
+							<h5 className="mt-3">Medizen</h5>
+							<a href="#" className=" mt-3 case-btn">
+								Read More
+							</a>
 						</div>
-						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
-							<h5 class="mt-3">Machine Learning Estimation</h5>
-							<a href="#" class=" mt-3 case-btn">Read More</a>
-						</div>
-						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
-							<h5 class="mt-3">Machine Learning Estimation</h5>
-							<a href="#" class=" mt-3 case-btn">Read More</a>
-						</div>
-						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
-							<h5 class="mt-3">Machine Learning Estimation</h5>
-							<a href="#" class=" mt-3 case-btn">Read More</a>
-						</div>
-						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
-							<h5 class="mt-3">Machine Learning Estimation</h5>
-							<a href="#" class=" mt-3 case-btn">Read More</a>
-						</div>
-						<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img class="img-fluid" src='assets/images/counter.png' alt='Machine Learning' /></div>
-							<h5 class="mt-3">Machine Learning Estimation</h5>
-							<a href="#" class=" mt-3 case-btn">Read More</a>
+						<div className="col-lg-3 col-md-6 col-sm-12 mb-5">
+							<div>
+								<img
+									className="img-fluid"
+									src="assets/images/case-bonfire/Bonfire.png"
+									alt="Bonfire"
+								/>
+							</div>
+							<h5 className="mt-3">Bonfire</h5>
+							<a href="#" className=" mt-3 case-btn">
+								Read More
+							</a>
 						</div>
 					</div>
-					<div class="text-center">
-						<button class="book-btn">Explore More</button>
+					<div className="text-center">
+						<Link href="/codiste-portfolio" className="book-btn">
+							Explore More
+						</Link>
 					</div>
-
 				</div>
 			</div>
 
@@ -473,87 +518,120 @@ const Services = () => {
 								<div className="carousel-item active">
 									<div className="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
-											They communicate clearly and outline
-											the product roadmap for us. It has{" "}
-											<br />
-											been very easy to work with them.
-											Made us profitaable on NFT
-											Marketplace <br /> and which made
-											amazing journey
+											They truly do everything up to a
+											very high standard. Codiste pvt ltd
+											has successfully delivered a
+											functional app praised in many
+											publications for its neatness and
+											speed. They have frequently
+											communicated via Slack and managed
+											the project efficiently using Jira.
+											Their extensive knowledge and humble
+											attitude have been hallmarks of
+											their work.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													className="img-fluid my-4 client-logo"
+													alt="bonfire"
+													src="assets/images/client-logos/bonfire.png"
 												/>
 											</div>
-											<h5>Tommy Bui</h5>
-											<p>CoFounder at Ninza NFT</p>
+											<h5>
+												The Real Estate Investment
+												platform
+											</h5>
+											<p>
+												CTO and Co-Founder <br />
+												San Francisco, California
+											</p>
 										</div>
 									</div>
 								</div>
 								<div className="carousel-item">
 									<div className="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
-											They communicate clearly and outline
-											the product roadmap for us. It has{" "}
-											<br />
-											been very easy to work with them.
-											Made us profitaable on NFT
-											Marketplace <br /> and which made
-											amazing journey
+											I am pleased to say that working
+											with Codiste Pvt Ltd has been a
+											positive experience for our
+											community. The project is now
+											complete, and the feedback we have
+											received on the platform has been
+											overwhelmingly positive. Throughout
+											the project, Codiste maintained open
+											communication lines, regularly
+											updating us on progress and
+											following the agreed timeline. They
+											delivered an app with impressive
+											functionalities and accepted every
+											challenge we gave them. Overall, we
+											are satisfied with the outcome of
+											the project and would recommend
+											Codiste for their expertise,
+											professionalism, and commitment to
+											delivering high-quality work.
 										</h3>
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/jeremy.jpeg"
+													className="img-fluid my-4 client-logo"
+													alt="DiveWallet"
+													src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
-											<h5>Tommy Bui</h5>
-											<p>CoFounder at Ninza NFT</p>
+											<h5>DiveWallet</h5>
+											<p>
+												CEO
+												<br />
+												Bolivar, New York
+											</p>
 										</div>
 									</div>
 								</div>
 								<div className="carousel-item">
 									<div className="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
-											They communicate clearly and outline
-											the product roadmap for us. It has{" "}
-											<br />
-											been very easy to work with them.
-											Made us profitaable on NFT
-											Marketplace <br /> and which made
-											amazing journey
+											Codiste pvt ltd delivered the
+											project within the given timeline
+											and budget. Their communication and
+											collaboration were outstanding using
+											Slack, Lucidhart, and Miro. The team
+											was reliable, well-organized, and
+											proactive.
 										</h3>
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													className="img-fluid my-4 client-logo"
+													alt="Medizen"
+													src="assets/images/client-logos/Medizen.png"
 												/>
 											</div>
-											<h5>Tommy Bui</h5>
-											<p>CoFounder at Ninza NFT</p>
+											<h5>Medizen App</h5>
+											<p>
+												CEO
+												<br />
+												Johannesburg, South Africa
+											</p>
 										</div>
 									</div>
 								</div>
@@ -568,7 +646,9 @@ const Services = () => {
 									className="carousel-control-prev-icon"
 									aria-hidden="true"
 								></span>
-								<span className="visually-hidden">Previous</span>
+								<span className="visually-hidden">
+									Previous
+								</span>
 							</button>
 							<button
 								className="carousel-control-next"
@@ -586,8 +666,6 @@ const Services = () => {
 					</section>
 				</div>
 			</div>
-
-
 
 			<div className="container container-fluid py-5">
 				<section>

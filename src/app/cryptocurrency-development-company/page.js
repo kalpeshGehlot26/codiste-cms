@@ -7,7 +7,8 @@ import Link from "next/link";
 
 export const metadata = {
 	title: "Cryptocurrency Development Company | Codiste",
-	description: "As a leading cryptocurrency services provider, we're specialized in delivering blockchain, hyper ledger, and smart contract solutions that guarantee a seamless user experience in crypto trading and investment."
+	description:
+		"As a leading cryptocurrency services provider, we're specialized in delivering blockchain, hyper ledger, and smart contract solutions that guarantee a seamless user experience in crypto trading and investment.",
 };
 
 const CryptoDevelopmentCompany = () => {
@@ -29,7 +30,9 @@ const CryptoDevelopmentCompany = () => {
 									smart contracts for a seamless user
 									experience in crypto trading and investment.
 								</p>
-								<Link href="/contact" className="book-btn">Let’s Talk</Link>
+								<Link href="/contact" className="book-btn">
+									Let’s Talk
+								</Link>
 							</div>
 							<div className="col-lg-6 col-sm-12 p-5 ">
 								<img
@@ -277,7 +280,9 @@ const CryptoDevelopmentCompany = () => {
 			<div className="blackdiv px-3 ">
 				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3">
 					<p>Let’s make crypto mainstream together! </p>
-					<Link href="/book-a-call" className="book-btn">Get in Touch</Link>
+					<Link href="/book-a-call" className="book-btn">
+						Get in Touch
+					</Link>
 				</div>
 			</div>
 
@@ -605,7 +610,12 @@ const CryptoDevelopmentCompany = () => {
 							</div>
 
 							<div className="mt-4">
-								<Link href="/portfolio/coinxpad" className="book-btn">Read More</Link>
+								<Link
+									href="/portfolio/coinxpad"
+									className="book-btn"
+								>
+									Read More
+								</Link>
 							</div>
 						</div>
 						<div className="col-lg-6 col-sm-12 p-5 ">
@@ -617,7 +627,7 @@ const CryptoDevelopmentCompany = () => {
 									margin: "auto",
 									padding: "20px",
 								}}
-								src="assets/images/counter.png"
+								src="assets/images/case-coinxpad/Coinxpad.png"
 							/>
 						</div>
 					</div>
@@ -692,13 +702,14 @@ const CryptoDevelopmentCompany = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													className="img-fluid my-4 client-logo"
+													alt="Cryptography"
+													src="assets/images/client-logos/Mumble Rapperz.png"
 												/>
 											</div>
 											<h5>Cryptography Company</h5>
@@ -712,45 +723,33 @@ const CryptoDevelopmentCompany = () => {
 								<div className="carousel-item">
 									<div className="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
-											I am pleased to say that working
-											with Codiste Pvt Ltd has been a
-											positive experience for our
-											community. The project is now
-											complete, and the feedback we have
-											received on the platform has been
-											overwhelmingly positive. Throughout
-											the project, Codiste maintained open
-											communication lines, regularly
-											updating us on progress and
-											following the agreed timeline. They
-											delivered an app with impressive
-											functionalities and accepted every
-											challenge we gave them. Overall, we
-											are satisfied with the outcome of
-											the project and would recommend
-											Codiste for their expertise,
-											professionalism, and commitment to
-											delivering high-quality work.
+											Codiste Team was very much helpful
+											and they went detailed oriented and
+											successfully launched our venture
+											investment platform, which helped us
+											to achieve to raise initial fund
+											through NFT selling, team has gone
+											above and beyond with all suggetions
+											with their expertise, Highly
+											recommended for Blockchain
+											professional studio.
 										</h3>
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													className="img-fluid my-4 client-logo"
+													alt="FTW"
+													src="assets/images/client-logos/FTW Dao Logo.png"
 												/>
 											</div>
-											<h5>DiveWallet</h5>
-											<p>
-												CEO
-												<br />
-												Bolivar, New York
-											</p>
+											<h5>FTW Dao</h5>
+											<p>Founder</p>
 										</div>
 									</div>
 								</div>
@@ -773,13 +772,14 @@ const CryptoDevelopmentCompany = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													className="img-fluid my-4 client-logo"
+													alt="White Hat"
+													src="assets/images/client-logos/White Hat DAO.png"
 												/>
 											</div>
 											<h5>White Hat DAO</h5>
@@ -802,9 +802,7 @@ const CryptoDevelopmentCompany = () => {
 									className="carousel-control-prev-icon"
 									aria-hidden="true"
 								></span>
-								<span className="visually-hidden">
-									Previous
-								</span>
+								<span className="visually-hidden">Previous</span>
 							</button>
 							<button
 								className="carousel-control-next"

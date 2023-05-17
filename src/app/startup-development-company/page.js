@@ -7,7 +7,8 @@ import Link from "next/link";
 
 export const metadata = {
 	title: "Startup Development Company | Codiste",
-	description: "Codiste offers startup development services for entrepreneurs with comprehensive tech-support and guidance to navigate each step towards success."
+	description:
+		"Codiste offers startup development services for entrepreneurs with comprehensive tech-support and guidance to navigate each step towards success.",
 };
 
 const StartupDevelopmentCompany = () => {
@@ -36,7 +37,9 @@ const StartupDevelopmentCompany = () => {
 									comprehensive custom software development
 									for startups.
 								</p>
-								<Link href="/book-a-call" className="book-btn">Let’s Talk</Link>
+								<Link href="/book-a-call" className="book-btn">
+									Let’s Talk
+								</Link>
 							</div>
 							<div className="col-lg-6 col-sm-12 p-5 ">
 								<img
@@ -208,7 +211,9 @@ const StartupDevelopmentCompany = () => {
 			<div className="blackdiv px-3">
 				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3">
 					<p>Let’s build your dream business together! </p>
-					<Link href="/contact" className="book-btn">Contact Us!</Link>
+					<Link href="/contact" className="book-btn">
+						Contact Us!
+					</Link>
 				</div>
 			</div>
 
@@ -599,26 +604,23 @@ const StartupDevelopmentCompany = () => {
 					<div className="row">
 						<div className="col-md-6 col-sm-12 p-5 d-flex align-items-center justify-content-center flex-column">
 							<div className=" ">
-								<h1 className="">My Doctor App</h1>
+								<h1 className="">Apollo Marketplace</h1>
 								<p className="mt-4">
-									My Doctor is a revolutionary app that
-									simplifies the process of booking doctor's
-									appointments, improves the healthcare
-									experience, and provides exceptional
-									patient-doctor communication. Patients can
-									quickly book appointments and manage their
-									medical information, while doctors can
-									easily manage appointments and
-									prescriptions. The app saves time, improves
-									accuracy, and enhances patient outcomes. It
-									is the perfect solution for anyone looking
-									for a fast and efficient way to manage their
-									healthcare.
+									Codiste deploys a decentralized Launchpad
+									platform named Apollo Marketplace, aimed at
+									enabling users with investment
+									diversification in the most profitable way
+									possible.
 								</p>
 							</div>
 
 							<div className="mt-4">
-								<button className="book-btn">Read More</button>
+								<Link
+									href="apollo-marketplace"
+									className="book-btn"
+								>
+									Read More
+								</Link>
 							</div>
 						</div>
 						<div className="col-lg-6 col-sm-12 p-5 ">
@@ -630,7 +632,7 @@ const StartupDevelopmentCompany = () => {
 									margin: "auto",
 									padding: "20px",
 								}}
-								src="assets/images/counter.png"
+								src="assets/images/case-appolo/Apollo.png"
 								alt="counter"
 							/>
 						</div>
@@ -705,13 +707,14 @@ const StartupDevelopmentCompany = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													className="img-fluid my-4 client-logo"
+													alt="bonfire"
+													src="assets/images/client-logos/bonfire.png"
 												/>
 											</div>
 											<h5>
@@ -752,13 +755,14 @@ const StartupDevelopmentCompany = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													className="img-fluid my-4 client-logo"
+													alt="DiveWallet"
+													src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
 											<h5>DiveWallet</h5>
@@ -785,13 +789,14 @@ const StartupDevelopmentCompany = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													className="img-fluid my-4 client-logo"
+													alt="Medizen"
+													src="assets/images/client-logos/Medizen.png"
 												/>
 											</div>
 											<h5>Medizen App</h5>

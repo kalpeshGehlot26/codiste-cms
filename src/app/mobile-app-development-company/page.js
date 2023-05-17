@@ -7,7 +7,8 @@ import Link from "next/link";
 
 export const metadata = {
 	title: "Mobile App Development Company | Codiste",
-	description: "Let's experience the best-in-class mobile app development services for lightning-fast, bug-free apps that exceed expectations and drive user engagement."
+	description:
+		"Let's experience the best-in-class mobile app development services for lightning-fast, bug-free apps that exceed expectations and drive user engagement.",
 };
 
 const MobileAppDevelopmentCompany = () => {
@@ -40,7 +41,9 @@ const MobileAppDevelopmentCompany = () => {
 									top-notch mobile applications that drive
 									better experience and business growth.
 								</p>
-								<Link href="/contact" className="book-btn">Let’s Talk</Link>
+								<Link href="/contact" className="book-btn">
+									Let’s Talk
+								</Link>
 							</div>
 							<div className="col-lg-6 col-sm-12 p-5 ">
 								<img
@@ -305,7 +308,9 @@ const MobileAppDevelopmentCompany = () => {
 					<p>
 						We are your Go-To Expert for Best Mobile App Development{" "}
 					</p>
-					<Link href="/book-a-call" className="book-btn">Get in Touch</Link>
+					<Link href="/book-a-call" className="book-btn">
+						Get in Touch
+					</Link>
 				</div>
 			</div>
 
@@ -569,7 +574,12 @@ const MobileAppDevelopmentCompany = () => {
 							</div>
 
 							<div className="mt-4">
-								<Link href="/portfolio/pixipages" className="book-btn">Read More</Link>
+								<Link
+									href="/portfolio/pixipages"
+									className="book-btn"
+								>
+									Read More
+								</Link>
 							</div>
 						</div>
 						<div className="col-lg-6 col-sm-12 p-5 ">
@@ -581,7 +591,7 @@ const MobileAppDevelopmentCompany = () => {
 									margin: "auto",
 									padding: "20px",
 								}}
-								src="assets/images/counter.png"
+								src="assets/images/case-pixi/Pixipages.png"
 							/>
 						</div>
 					</div>
@@ -639,38 +649,29 @@ const MobileAppDevelopmentCompany = () => {
 								<div className="carousel-item active">
 									<div className="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
-											They communicate clearly and outline
-											the product roadmap for us. It has
-											been very easy to work with
-											them.Since the launch, the client
-											has seen success and has been
-											satisfied with Codiste pvt ltd’s
-											quality product. The team has been
-											prompt and dedicated to their work,
-											pushing the timelines to meet them
-											and deliver effectively. Overall,
-											they’ve stood out for their
-											communication skills.
+											Codiste Team rocked Throughout the
+											Development Process. Nishant handled
+											everything very professionally and
+											as timely as possible even when
+											everything in life was going
+											sideways.
 										</h3>
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													className="img-fluid my-4 client-logo"
+													alt="MoonTrust"
+													src="assets/images/client-logos/MoonTrust.png"
 												/>
 											</div>
-											<h5>E-Commerce Company</h5>
-											<p>
-												Managing Director
-												<br />
-												Australia
-											</p>
+											<h5> MoonTrust</h5>
+											<p>Founder</p>
 										</div>
 									</div>
 								</div>
@@ -701,13 +702,14 @@ const MobileAppDevelopmentCompany = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													className="img-fluid my-4 client-logo"
+													alt="DiveWallet"
+													src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
 											<h5>DiveWallet</h5>
@@ -734,13 +736,14 @@ const MobileAppDevelopmentCompany = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													className="img-fluid my-4 client-logo"
+													alt="Medizen App"
+													src="assets/images/client-logos/Medizen.png"
 												/>
 											</div>
 											<h5>Medizen App</h5>

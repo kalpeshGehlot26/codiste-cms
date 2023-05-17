@@ -1,14 +1,21 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import ClientSlider from "../component/Home/clientSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
+import caseStudyItems from "../data/caseStudyItems";
+import CaseStudyList from "../component/CaseStudyList/caseStudyList";
 
-export const metadata = {
+const metadata = {
 	title: "Showcasing Our Blockchain Development Solutions | Portfolio | Codiste",
 	description:
 		"Explore our portfolio and see what we delivered to figure out how it helped drive forward the development of tech and software solutions for various industries.",
 };
 
 const CodistePortfolio = () => {
+
+	const [caseStudyCount, setCaseStudyCount] = useState(4);
+	const [totalCount, setTotalCount] = useState(null);
+
 	return (
 		<div>
 			<div className="bg-color">
@@ -25,9 +32,9 @@ const CodistePortfolio = () => {
 									helped drive forward the development of tech
 									& software solutions for various industries.
 								</p>
-								<button className="book-btn">
+								<a href="#caseStudyList" className="book-btn">
 									Explore More
-								</button>
+								</a>
 							</div>
 							<div className="col-lg-6 col-sm-12 firstsecimg ">
 								<img
@@ -42,122 +49,30 @@ const CodistePortfolio = () => {
 
 			<ClientSlider />
 
-			<div class="container container-fluid py-5">
+			<div class="container container-fluid py-5" id="caseStudyList">
 				<div class="text-center">
 					<h2 class="all-head mb-5">
 						Innovation in Action: Real-World Case Studies from
 						Codiste
 					</h2>
 				</div>
-				<div class="row">
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-						<div>
-							<img
-								class="img-fluid"
-								src="assets/images/counter.png"
-								alt=""
-							/>
-						</div>
-						<h5 class="mt-3">Machine Learning Estimation</h5>
-						<a href="#" class=" mt-3 case-btn">
-							Read More
-						</a>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-						<div>
-							<img
-								class="img-fluid"
-								src="assets/images/counter.png"
-								alt=""
-							/>
-						</div>
-						<h5 class="mt-3">Machine Learning Estimation</h5>
-						<a href="#" class=" mt-3 case-btn">
-							Read More
-						</a>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-						<div>
-							<img
-								class="img-fluid"
-								src="assets/images/counter.png"
-								alt=""
-							/>
-						</div>
-						<h5 class="mt-3">Machine Learning Estimation</h5>
-						<a href="#" class=" mt-3 case-btn">
-							Read More
-						</a>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-						<div>
-							<img
-								class="img-fluid"
-								src="assets/images/counter.png"
-								alt=""
-							/>
-						</div>
-						<h5 class="mt-3">Machine Learning Estimation</h5>
-						<a href="#" class=" mt-3 case-btn">
-							Read More
-						</a>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-						<div>
-							<img
-								class="img-fluid"
-								src="assets/images/counter.png"
-								alt=""
-							/>
-						</div>
-						<h5 class="mt-3">Machine Learning Estimation</h5>
-						<a href="#" class=" mt-3 case-btn">
-							Read More
-						</a>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-						<div>
-							<img
-								class="img-fluid"
-								src="assets/images/counter.png"
-								alt=""
-							/>
-						</div>
-						<h5 class="mt-3">Machine Learning Estimation</h5>
-						<a href="#" class=" mt-3 case-btn">
-							Read More
-						</a>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-						<div>
-							<img
-								class="img-fluid"
-								src="assets/images/counter.png"
-								alt=""
-							/>
-						</div>
-						<h5 class="mt-3">Machine Learning Estimation</h5>
-						<a href="#" class=" mt-3 case-btn">
-							Read More
-						</a>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-						<div>
-							<img
-								class="img-fluid"
-								src="assets/images/counter.png"
-								alt=""
-							/>
-						</div>
-						<h5 class="mt-3">Machine Learning Estimation</h5>
-						<a href="#" class=" mt-3 case-btn">
-							Read More
-						</a>
-					</div>
-				</div>
-				<div class="text-center">
-					<button class="book-btn">Explore More</button>
-				</div>
+				<CaseStudyList
+					caseStudyItems={caseStudyItems}
+					caseStudyCount={caseStudyCount}
+					setTotalCount={setTotalCount}
+				 />
+				 {totalCount > caseStudyCount ? (
+						
+							<div class="text-center">
+								<button className="book-btn"
+								onClick={() =>
+									setCaseStudyCount(
+										(prevState) => prevState + 4
+									)
+								}>Explore More</button>
+							</div>
+						
+					) : null}
 			</div>
 
 			<div className="container container-fluid py-5">

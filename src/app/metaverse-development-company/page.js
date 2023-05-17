@@ -7,7 +7,8 @@ import Link from "next/link";
 
 export const metadata = {
 	title: "Enterprise-Grade Metaverse Development Company | Codiste",
-	description: "Explore our metaverse development services and embark on a journey into the decentralized digital universe. Embrace the power of the Metaverse services now!!",
+	description:
+		"Explore our metaverse development services and embark on a journey into the decentralized digital universe. Embrace the power of the Metaverse services now!!",
 };
 
 const MetaverseDevelopmentCompany = () => {
@@ -36,7 +37,9 @@ const MetaverseDevelopmentCompany = () => {
 									broad spectrum of blockchains for a
 									personalized experience.
 								</p>
-								<Link href="/contact" className="book-btn">Let’s Talk</Link>
+								<Link href="/contact" className="book-btn">
+									Let’s Talk
+								</Link>
 							</div>
 							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0 order-sm-1 order-lg-2">
 								<img
@@ -506,7 +509,9 @@ const MetaverseDevelopmentCompany = () => {
 						Level up your CX with a seamless Metaverse integration
 						with Us!{" "}
 					</p>
-					<Link href="/book-a-call" className="book-btn">Book a Call</Link>
+					<Link href="/book-a-call" className="book-btn">
+						Book a Call
+					</Link>
 				</div>
 			</div>
 
@@ -801,7 +806,12 @@ const MetaverseDevelopmentCompany = () => {
 							</div>
 
 							<div className="mt-4">
-								<Link href="/portfolio/divewallet" className="book-btn">Read More</Link>
+								<Link
+									href="/portfolio/divewallet"
+									className="book-btn"
+								>
+									Read More
+								</Link>
 							</div>
 						</div>
 						<div className="col-lg-6 col-sm-12 p-5 ">
@@ -813,7 +823,7 @@ const MetaverseDevelopmentCompany = () => {
 									margin: "auto",
 									padding: "20px",
 								}}
-								src="assets/images/counter.png"
+								src="assets/images/diwallet-case/Dive Wallet.png"
 							/>
 						</div>
 					</div>
@@ -831,12 +841,12 @@ const MetaverseDevelopmentCompany = () => {
 				<AllServiceBlogSlider items={metaServiceBlogs} />
 			</div>
 
-			<div className="bg-color py-5">
-				<div className="container container-fluid">
+			<div class="bg-color py-5">
+				<div class="container container-fluid">
 					<section>
-						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">What Our Clients Say</h1>
-							<p className="all-p me-5 text-center">
+						<div class=" d-flex align-items-center flex-column justify-content-center mb-5">
+							<h1 class="all-head">What Our Clients Say</h1>
+							<p class="all-p me-5 text-center">
 								Explore our previous work and metaverse
 								development feedback from our valuable customers
 							</p>
@@ -844,15 +854,15 @@ const MetaverseDevelopmentCompany = () => {
 
 						<div
 							id="carouselExampleDark"
-							className="carousel carousel-dark slide carousel-box"
+							class="carousel carousel-dark slide carousel-box"
 							data-bs-ride="carousel"
 						>
-							<div className="carousel-indicators">
+							<div class="carousel-indicators">
 								<button
 									type="button"
 									data-bs-target="#carouselExampleDark"
 									data-bs-slide-to="0"
-									className="active"
+									class="active"
 									aria-current="true"
 									aria-label="Slide 1"
 								></button>
@@ -869,120 +879,134 @@ const MetaverseDevelopmentCompany = () => {
 									aria-label="Slide 3"
 								></button>
 							</div>
-							<div className="carousel-inner">
-								<div className="carousel-item active">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
-											They communicate clearly and outline
-											the product roadmap for us. It has{" "}
-											<br />
-											been very easy to work with them.
-											Made us profitaable on NFT
-											Marketplace <br /> and which made
-											amazing journey
+											Their ability to adapt to changes in
+											our requirements while focusing on
+											the deliverables was
+											impressive.Codiste pvt ltd delivered
+											a well-written code, making the
+											platform highly performant. They
+											excellently managed the
+											collaboration and constantly
+											communicated through Slack,
+											WhatsApp, and email. Overall, they
+											fostered a positive engagement by
+											being responsive and accessible even
+											during weekends.
 										</h3>
 
-										<div className="d-flex align-items-center flex-column custom-crousel">
+										<div class="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												class="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													class="img-fluid my-4 client-logo"
+													alt="Holygrails"
+													src="assets/images/client-logos/Holygrails.png"
 												/>
 											</div>
-											<h5>Tommy Bui</h5>
-											<p>CoFounder at Ninza NFT</p>
+											<h5>Holygrails</h5>
+											<p>
+												Founder <br />
+												Abu Dhabi, United Arab Emirates
+											</p>
 										</div>
 									</div>
 								</div>
-								<div className="carousel-item">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+								<div class="carousel-item">
+									<div class="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											They communicate clearly and outline
-											the product roadmap for us. It has{" "}
-											<br />
+											the product roadmap for us. It has
 											been very easy to work with them.
 											Made us profitaable on NFT
-											Marketplace <br /> and which made
-											amazing journey
+											Marketplace and which made amazing
+											journey.
 										</h3>
 
-										<div className="d-flex align-items-center flex-column custom-crousel">
+										<div class="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												class="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/jeremy.jpeg"
+													class="img-fluid my-4 client-logo"
+													alt="Ninza"
+													src="assets/images/client-logos/Danketsu-Logo-Blue (Ninja NFT).png"
 												/>
 											</div>
-											<h5>Tommy Bui</h5>
-											<p>CoFounder at Ninza NFT</p>
+											<h5>Ninza NFT</h5>
+											<p>CoFounder</p>
 										</div>
 									</div>
 								</div>
-								<div className="carousel-item">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+								<div class="carousel-item">
+									<div class="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
-											They communicate clearly and outline
-											the product roadmap for us. It has{" "}
-											<br />
-											been very easy to work with them.
-											Made us profitaable on NFT
-											Marketplace <br /> and which made
-											amazing journey
+											Codiste pvt ltd delivered the
+											project within the given timeline
+											and budget. Their communication and
+											collaboration were outstanding using
+											Slack, Lucidhart, and Miro. The team
+											was reliable, well-organized, and
+											proactive.
 										</h3>
 
-										<div className="d-flex align-items-center flex-column custom-crousel">
+										<div class="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												class="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													class="img-fluid my-4 client-logo"
+													alt="Medizen"
+													src="assets/images/client-logos/Medizen.png"
 												/>
 											</div>
-											<h5>Tommy Bui</h5>
-											<p>CoFounder at Ninza NFT</p>
+											<h5>Medizen App</h5>
+											<p>
+												CEO
+												<br />
+												Johannesburg, South Africa
+											</p>
 										</div>
 									</div>
 								</div>
 							</div>
 							<button
-								className="carousel-control-prev"
+								class="carousel-control-prev"
 								type="button"
 								data-bs-target="#carouselExampleDark"
 								data-bs-slide="prev"
 							>
 								<span
-									className="carousel-control-prev-icon"
+									class="carousel-control-prev-icon"
 									aria-hidden="true"
 								></span>
-								<span className="visually-hidden">
-									Previous
-								</span>
+								<span class="visually-hidden">Previous</span>
 							</button>
 							<button
-								className="carousel-control-next"
+								class="carousel-control-next"
 								type="button"
 								data-bs-target="#carouselExampleDark"
 								data-bs-slide="next"
 							>
 								<span
-									className="carousel-control-next-icon"
+									class="carousel-control-next-icon"
 									aria-hidden="true"
 								></span>
-								<span className="visually-hidden">Next</span>
+								<span class="visually-hidden">Next</span>
 							</button>
 						</div>
 					</section>

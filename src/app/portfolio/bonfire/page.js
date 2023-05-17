@@ -4,7 +4,8 @@ import React from "react";
 
 export const metadata = {
 	title: "Bonfire |I Crypto Development Services | Codiste",
-	description: "Codiste embraces technology, strategy, and design Bonfire platform where users can invest through crypto, view their investments and list the properties."
+	description:
+		"Codiste embraces technology, strategy, and design Bonfire platform where users can invest through crypto, view their investments and list the properties.",
 };
 
 const BornfirePortfolio = () => {
@@ -455,12 +456,13 @@ const BornfirePortfolio = () => {
 									/>
 									<div className="my-3">
 										<img
-											className=""
-											src="/assets/images/splide/diveWallet.jpg"
+											className="img-fluid"
+											alt="Real Estate"
+											src="/assets/images/client-logos/bonfire.png"
 										/>
 									</div>
-									<h5>Mike Walton</h5>
-									<p>Founder</p>
+									<h5>The Real Estate Investment platform</h5>
+									<p>CTO and Co-Founder</p>
 								</div>
 							</div>
 						</div>

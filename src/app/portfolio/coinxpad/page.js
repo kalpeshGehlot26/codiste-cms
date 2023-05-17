@@ -464,52 +464,37 @@ const CoinxpadPortfolio = () => {
 				</section>
 			</div>
 
-			<div className="bg-color py-5">
-				<div className="container container-fluid">
-					<section>
-						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
-								Satisfied clients is our proof of our excellence
-							</h1>
-							<p className="all-p me-5 text-center">
-								Their Success Stories are our Valuable Feedback
-							</p>
-						</div>
+			<div class="bg-color py-5">
+        <div class="container container-fluid">
+            <section>
+                <div class=" d-flex align-items-center flex-column justify-content-center mb-5">
+                    <h1 class="all-head">Satisfied clients is our proof of our excellence</h1>
+                    <p class="all-p me-5 text-center">Their Success Stories are our Valuable Feedback</p>
+                </div>
 
-						<div className="carousel-inner career-block">
-							<div className="d-flex align-items-center text-center flex-column custom-crousel">
-								<h3>
-									It was an absolute pleasure working with
-									Nishant and his team for our Blockchain
-									Product. Not only is Nishant an engineer in
-									making the product, he also cares and gives
-									his opinion on the outcome of the design.
-									When it comes to delivery, the breakdown of
-									the milestone is fair and accurate. Lastly,
-									we had a lot of changes near the end of the
-									sprint and the team was flexible about it.
-									honest work, you get what you pay for.
-								</h3>
-								<div className="d-flex align-items-center flex-column">
-									<img
-										src="/assets/images/iCrowsel.png"
-										className=" "
-										alt="iCrowsel"
-									/>
-									<div className="my-3">
-										<img
-											className=""
-											src="/assets/images/splide/diveWallet.jpg"
-										/>
-									</div>
-									<h5>Mike Walton</h5>
-									<p>Founder</p>
-								</div>
-							</div>
-						</div>
-					</section>
-				</div>
-			</div>
+
+                <div class="carousel-inner career-block">
+
+                    <div class="d-flex align-items-center text-center flex-column custom-crousel">
+                        <h3>It was an absolute pleasure working with Nishant and his team for our Blockchain Product.
+                            Not only is Nishant an engineer in making the product, he also cares and gives his opinion
+                            on the outcome of the design. When it comes to delivery, the breakdown of the milestone is
+                            fair and accurate. Lastly, we had a lot of changes near the end of the sprint and the team
+                            was flexible about it. honest work, you get what you pay for.
+
+                        </h3>
+                        <div class="d-flex align-items-center flex-column">
+                            <img src="/assets/images/iCrowsel.png" class=" " alt="iCrowsel" />
+                            <div class="my-3"><img class="img-fluid" alt='Cryptography'src="/assets/images/client-logos/Mumble Rapperz.png"/></div>
+                            <h5>Cryptography Company</h5>
+                            <p>Founder</p>
+                        </div>
+                    </div>
+
+                </div>
+				</section>
+        </div>
+    </div>
 
 			<div className="container container-fluid py-5">
 				<section>

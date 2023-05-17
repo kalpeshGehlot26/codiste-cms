@@ -4,7 +4,8 @@ import React from "react";
 
 export const metadata = {
 	title: "Apollo Marketplace | Blockchain Development services | Codiste",
-	description: "Codiste deploys a decentralized Launchpad platform named Apollo Marketplace, aimed at enabling users with investment diversification in the most profitable way possible."
+	description:
+		"Codiste deploys a decentralized Launchpad platform named Apollo Marketplace, aimed at enabling users with investment diversification in the most profitable way possible.",
 };
 
 const ApolloPortfolio = () => {
@@ -452,44 +453,45 @@ const ApolloPortfolio = () => {
 				</section>
 			</div>
 
-			<div className="bg-color py-5">
-				<div className="container container-fluid">
+			<div class="bg-color py-5">
+				<div class="container container-fluid">
 					<section>
-						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+						<div class=" d-flex align-items-center flex-column justify-content-center mb-5">
+							<h1 class="all-head">
 								Satisfied clients is our proof of our excellence
 							</h1>
-							<p className="all-p me-5 text-center">
+							<p class="all-p me-5 text-center">
 								Their Success Stories are our Valuable Feedback
 							</p>
 						</div>
-						<div className="carousel-inner career-block">
-							<div className="d-flex align-items-center text-center flex-column custom-crousel">
+						<div class="carousel-inner career-block">
+							<div class="d-flex align-items-center text-center flex-column custom-crousel">
 								<h3>
-									It was an absolute pleasure working with
-									Nishant and his team for our Blockchain
-									Product. Not only is Nishant an engineer in
-									making the product, he also cares and gives
-									his opinion on the outcome of the design.
-									When it comes to delivery, the breakdown of
-									the milestone is fair and accurate. Lastly,
-									we had a lot of changes near the end of the
-									sprint and the team was flexible about it.
-									honest work, you get what you pay for.
+									I highly recommend Nishant and his team,
+									they are truly intelligent in their approach
+									to development, providing innovative
+									solutions that brilliantly nurture my
+									expectations. Their timely response to
+									queries, attention to detail, and proactive
+									communication made the entire process smooth
+									and hassle-free. I am extremely satisfied
+									with the outcome and their exceptional
+									professionalism.
 								</h3>
-								<div className="d-flex align-items-center flex-column">
+								<div class="d-flex align-items-center flex-column">
 									<img
 										src="/assets/images/iCrowsel.png"
-										className=" "
+										class=" "
 										alt="iCrowsel"
 									/>
-									<div className="my-3">
+									<div class="my-3">
 										<img
-											className=""
-											src="/assets/images/splide/diveWallet.jpg"
+											class=""
+											alt="Case-Appolo"
+											src="/assets/images/client-logos/apollo.png"
 										/>
 									</div>
-									<h5>Mike Walton</h5>
+									<h5>Appolo Marketplace</h5>
 									<p>Founder</p>
 								</div>
 							</div>
