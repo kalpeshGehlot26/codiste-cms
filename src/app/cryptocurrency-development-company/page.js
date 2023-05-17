@@ -15,8 +15,8 @@ const CryptoDevelopmentCompany = () => {
 	return (
 		<div>
 
-			<div class="bg-color">
-				<div class="container container-fluid">
+			<div className="bg-color">
+				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec d-flex align-items-center">
 							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">

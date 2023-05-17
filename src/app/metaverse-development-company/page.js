@@ -14,8 +14,8 @@ export const metadata = {
 const MetaverseDevelopmentCompany = () => {
 	return (
 		<div>
-			<div class="bg-color">
-				<div class="container container-fluid">
+			<div className="bg-color">
+				<div className="container container-fluid">
 					<section>
 						<div className="row  d-flex align-items-center py-3">
 							<div className="col-lg-6 col-sm-12  order-sm-2 order-lg-1">
@@ -841,12 +841,12 @@ const MetaverseDevelopmentCompany = () => {
 				<AllServiceBlogSlider items={metaServiceBlogs} />
 			</div>
 
-			<div class="bg-color py-5">
-				<div class="container container-fluid">
+			<div className="bg-color py-5">
+				<div className="container container-fluid">
 					<section>
-						<div class=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 class="all-head">What Our Clients Say</h1>
-							<p class="all-p me-5 text-center">
+						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+							<h1 className="all-head">What Our Clients Say</h1>
+							<p className="all-p me-5 text-center">
 								Explore our previous work and metaverse
 								development feedback from our valuable customers
 							</p>
@@ -854,15 +854,15 @@ const MetaverseDevelopmentCompany = () => {
 
 						<div
 							id="carouselExampleDark"
-							class="carousel carousel-dark slide carousel-box"
+							className="carousel carousel-dark slide carousel-box"
 							data-bs-ride="carousel"
 						>
-							<div class="carousel-indicators">
+							<div className="carousel-indicators">
 								<button
 									type="button"
 									data-bs-target="#carouselExampleDark"
 									data-bs-slide-to="0"
-									class="active"
+									className="active"
 									aria-current="true"
 									aria-label="Slide 1"
 								></button>
@@ -879,9 +879,9 @@ const MetaverseDevelopmentCompany = () => {
 									aria-label="Slide 3"
 								></button>
 							</div>
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<div class="d-flex align-items-center text-center flex-column custom-crousel">
+							<div className="carousel-inner">
+								<div className="carousel-item active">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											Their ability to adapt to changes in
 											our requirements while focusing on
@@ -898,16 +898,16 @@ const MetaverseDevelopmentCompany = () => {
 											during weekends.
 										</h3>
 
-										<div class="d-flex align-items-center flex-column custom-crousel">
+										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												class="img-fluid"
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
 
 											<div>
 												<img
-													class="img-fluid my-4 client-logo"
+													className="img-fluid my-4 client-logo"
 													alt="Holygrails"
 													src="assets/images/client-logos/Holygrails.png"
 												/>
@@ -920,8 +920,8 @@ const MetaverseDevelopmentCompany = () => {
 										</div>
 									</div>
 								</div>
-								<div class="carousel-item">
-									<div class="d-flex align-items-center text-center flex-column custom-crousel">
+								<div className="carousel-item">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											They communicate clearly and outline
 											the product roadmap for us. It has
@@ -931,15 +931,15 @@ const MetaverseDevelopmentCompany = () => {
 											journey.
 										</h3>
 
-										<div class="d-flex align-items-center flex-column custom-crousel">
+										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												class="img-fluid"
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
 											<div>
 												<img
-													class="img-fluid my-4 client-logo"
+													className="img-fluid my-4 client-logo"
 													alt="Ninza"
 													src="assets/images/client-logos/Danketsu-Logo-Blue (Ninja NFT).png"
 												/>
@@ -949,8 +949,8 @@ const MetaverseDevelopmentCompany = () => {
 										</div>
 									</div>
 								</div>
-								<div class="carousel-item">
-									<div class="d-flex align-items-center text-center flex-column custom-crousel">
+								<div className="carousel-item">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											Codiste pvt ltd delivered the
 											project within the given timeline
@@ -961,15 +961,15 @@ const MetaverseDevelopmentCompany = () => {
 											proactive.
 										</h3>
 
-										<div class="d-flex align-items-center flex-column custom-crousel">
+										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												class="img-fluid"
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
 											<div>
 												<img
-													class="img-fluid my-4 client-logo"
+													className="img-fluid my-4 client-logo"
 													alt="Medizen"
 													src="assets/images/client-logos/Medizen.png"
 												/>
@@ -985,28 +985,28 @@ const MetaverseDevelopmentCompany = () => {
 								</div>
 							</div>
 							<button
-								class="carousel-control-prev"
+								className="carousel-control-prev"
 								type="button"
 								data-bs-target="#carouselExampleDark"
 								data-bs-slide="prev"
 							>
 								<span
-									class="carousel-control-prev-icon"
+									className="carousel-control-prev-icon"
 									aria-hidden="true"
 								></span>
-								<span class="visually-hidden">Previous</span>
+								<span className="visually-hidden">Previous</span>
 							</button>
 							<button
-								class="carousel-control-next"
+								className="carousel-control-next"
 								type="button"
 								data-bs-target="#carouselExampleDark"
 								data-bs-slide="next"
 							>
 								<span
-									class="carousel-control-next-icon"
+									className="carousel-control-next-icon"
 									aria-hidden="true"
 								></span>
-								<span class="visually-hidden">Next</span>
+								<span className="visually-hidden">Next</span>
 							</button>
 						</div>
 					</section>

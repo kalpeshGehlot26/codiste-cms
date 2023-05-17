@@ -91,7 +91,7 @@ const CaseStudyForm = () => {
 					Book a Call
 				</button>
 				{
-					success? <div class="alert alert-success d-flex align-items-center mt-4" role="alert">
+					success? <div className="alert alert-success d-flex align-items-center mt-4" role="alert">
 							{success}
 						</div> 
 					: ''

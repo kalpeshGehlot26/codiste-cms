@@ -14,8 +14,8 @@ export const metadata = {
 const WebDevelopmentCompany = () => {
 	return (
 		<div>
-			<div class="bg-color">
-				<div class="container container-fluid">
+			<div className="bg-color">
+				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec d-flex align-items-center ">
 							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
@@ -684,11 +684,11 @@ const WebDevelopmentCompany = () => {
 				<AllServiceBlogSlider items={webServiceBlogs} />
 			</div>
 
-			<div class="bg-color py-5">
-				<div class="container container-fluid">
+			<div className="bg-color py-5">
+				<div className="container container-fluid">
 					<section>
-						<div class=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 class="all-head text-center">
+						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+							<h1 className="all-head text-center">
 								We justify our credibility with their success
 								notes
 							</h1>
@@ -696,15 +696,15 @@ const WebDevelopmentCompany = () => {
 
 						<div
 							id="carouselExampleDark"
-							class="carousel carousel-dark slide carousel-box"
+							className="carousel carousel-dark slide carousel-box"
 							data-bs-ride="carousel"
 						>
-							<div class="carousel-indicators">
+							<div className="carousel-indicators">
 								<button
 									type="button"
 									data-bs-target="#carouselExampleDark"
 									data-bs-slide-to="0"
-									class="active"
+									className="active"
 									aria-current="true"
 									aria-label="Slide 1"
 								></button>
@@ -721,9 +721,9 @@ const WebDevelopmentCompany = () => {
 									aria-label="Slide 3"
 								></button>
 							</div>
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<div class="d-flex align-items-center text-center flex-column custom-crousel">
+							<div className="carousel-inner">
+								<div className="carousel-item active">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											They truly do everything up to a
 											very high standard. Codiste pvt ltd
@@ -738,16 +738,16 @@ const WebDevelopmentCompany = () => {
 											their work.
 										</h3>
 
-										<div class="d-flex align-items-center flex-column custom-crousel">
+										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												class="img-fluid"
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
 
 											<div>
 												<img
-													class="img-fluid my-4 client-logo"
+													className="img-fluid my-4 client-logo"
 													alt="bonfire"
 													src="assets/images/client-logos/bonfire.png"
 												/>
@@ -763,8 +763,8 @@ const WebDevelopmentCompany = () => {
 										</div>
 									</div>
 								</div>
-								<div class="carousel-item">
-									<div class="d-flex align-items-center text-center flex-column custom-crousel">
+								<div className="carousel-item">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											I am pleased to say that working
 											with Codiste Pvt Ltd has been a
@@ -787,15 +787,15 @@ const WebDevelopmentCompany = () => {
 											delivering high-quality work.
 										</h3>
 
-										<div class="d-flex align-items-center flex-column custom-crousel">
+										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												class="img-fluid"
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
 											<div>
 												<img
-													class="img-fluid my-4 client-logo"
+													className="img-fluid my-4 client-logo"
 													alt="DiveWallet"
 													src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
@@ -809,8 +809,8 @@ const WebDevelopmentCompany = () => {
 										</div>
 									</div>
 								</div>
-								<div class="carousel-item">
-									<div class="d-flex align-items-center text-center flex-column custom-crousel">
+								<div className="carousel-item">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											Codiste pvt ltd delivered the
 											project within the given timeline
@@ -821,15 +821,15 @@ const WebDevelopmentCompany = () => {
 											proactive.
 										</h3>
 
-										<div class="d-flex align-items-center flex-column custom-crousel">
+										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												class="img-fluid"
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
 											<div>
 												<img
-													class="img-fluid my-4 client-logo"
+													className="img-fluid my-4 client-logo"
 													alt="Medizen"
 													src="assets/images/client-logos/Medizen.png"
 												/>
@@ -845,28 +845,28 @@ const WebDevelopmentCompany = () => {
 								</div>
 							</div>
 							<button
-								class="carousel-control-prev"
+								className="carousel-control-prev"
 								type="button"
 								data-bs-target="#carouselExampleDark"
 								data-bs-slide="prev"
 							>
 								<span
-									class="carousel-control-prev-icon"
+									className="carousel-control-prev-icon"
 									aria-hidden="true"
 								></span>
-								<span class="visually-hidden">Previous</span>
+								<span className="visually-hidden">Previous</span>
 							</button>
 							<button
-								class="carousel-control-next"
+								className="carousel-control-next"
 								type="button"
 								data-bs-target="#carouselExampleDark"
 								data-bs-slide="next"
 							>
 								<span
-									class="carousel-control-next-icon"
+									className="carousel-control-next-icon"
 									aria-hidden="true"
 								></span>
-								<span class="visually-hidden">Next</span>
+								<span className="visually-hidden">Next</span>
 							</button>
 						</div>
 					</section>

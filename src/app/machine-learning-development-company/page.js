@@ -14,8 +14,8 @@ export const metadata = {
 const MLDevelopmentCompany = () => {
 	return (
 		<div>
-			<div class="bg-color">
-				<div class="container container-fluid">
+			<div className="bg-color">
+				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec d-flex align-items-center">
 							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
@@ -743,26 +743,26 @@ const MLDevelopmentCompany = () => {
 				<AllServiceBlogSlider items={mlServiceBlogs} />
 			</div>
 
-			<div class="bg-color py-5">
-				<div class="container container-fluid">
+			<div className="bg-color py-5">
+				<div className="container container-fluid">
 					<section>
-						<div class=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 class="all-head">
+						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+							<h1 className="all-head">
 								Satisfied clients is our proof of our excellence
 							</h1>
 						</div>
 
 						<div
 							id="carouselExampleDark"
-							class="carousel carousel-dark slide carousel-box"
+							className="carousel carousel-dark slide carousel-box"
 							data-bs-ride="carousel"
 						>
-							<div class="carousel-indicators">
+							<div className="carousel-indicators">
 								<button
 									type="button"
 									data-bs-target="#carouselExampleDark"
 									data-bs-slide-to="0"
-									class="active"
+									className="active"
 									aria-current="true"
 									aria-label="Slide 1"
 								></button>
@@ -779,9 +779,9 @@ const MLDevelopmentCompany = () => {
 									aria-label="Slide 3"
 								></button>
 							</div>
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<div class="d-flex align-items-center text-center flex-column custom-crousel">
+							<div className="carousel-inner">
+								<div className="carousel-item active">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											It was an absolute pleasure working
 											with Nishant and his team for our
@@ -798,15 +798,15 @@ const MLDevelopmentCompany = () => {
 											you pay for.
 										</h3>
 
-										<div class="d-flex align-items-center flex-column custom-crousel">
+										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												class="img-fluid"
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
 											<div>
 												<img
-													class="img-fluid my-4 client-logo"
+													className="img-fluid my-4 client-logo"
 													alt="MLEstimation"
 													src="assets/images/client-logos/Ml Estimation.png"
 												/>
@@ -816,8 +816,8 @@ const MLDevelopmentCompany = () => {
 										</div>
 									</div>
 								</div>
-								<div class="carousel-item">
-									<div class="d-flex align-items-center text-center flex-column custom-crousel">
+								<div className="carousel-item">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											Their ability to adapt to changes in
 											our requirements while focusing on
@@ -834,15 +834,15 @@ const MLDevelopmentCompany = () => {
 											during weekends.
 										</h3>
 
-										<div class="d-flex align-items-center flex-column custom-crousel">
+										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												class="img-fluid"
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
 											<div>
 												<img
-													class="img-fluid my-4 client-logo"
+													className="img-fluid my-4 client-logo"
 													alt="Holygrails"
 													src="assets/images/client-logos/Holygrails.png"
 												/>
@@ -856,8 +856,8 @@ const MLDevelopmentCompany = () => {
 										</div>
 									</div>
 								</div>
-								<div class="carousel-item">
-									<div class="d-flex align-items-center text-center flex-column custom-crousel">
+								<div className="carousel-item">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											Codiste Team rocked Throughout the
 											Development Process. Nishant handled
@@ -867,15 +867,15 @@ const MLDevelopmentCompany = () => {
 											sideways.
 										</h3>
 
-										<div class="d-flex align-items-center flex-column custom-crousel">
+										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												class="img-fluid"
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
 											<div>
 												<img
-													class="img-fluid my-4 client-logo"
+													className="img-fluid my-4 client-logo"
 													alt="MoonTrust"
 													src="assets/images/client-logos/MoonTrust.png"
 												/>
@@ -890,28 +890,28 @@ const MLDevelopmentCompany = () => {
 								</div>
 							</div>
 							<button
-								class="carousel-control-prev"
+								className="carousel-control-prev"
 								type="button"
 								data-bs-target="#carouselExampleDark"
 								data-bs-slide="prev"
 							>
 								<span
-									class="carousel-control-prev-icon"
+									className="carousel-control-prev-icon"
 									aria-hidden="true"
 								></span>
-								<span class="visually-hidden">Previous</span>
+								<span className="visually-hidden">Previous</span>
 							</button>
 							<button
-								class="carousel-control-next"
+								className="carousel-control-next"
 								type="button"
 								data-bs-target="#carouselExampleDark"
 								data-bs-slide="next"
 							>
 								<span
-									class="carousel-control-next-icon"
+									className="carousel-control-next-icon"
 									aria-hidden="true"
 								></span>
-								<span class="visually-hidden">Next</span>
+								<span className="visually-hidden">Next</span>
 							</button>
 						</div>
 					</section>

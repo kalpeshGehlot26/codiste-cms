@@ -476,20 +476,20 @@ const MLPortfolio = () => {
 				</section>
 			</div>
 
-			<div class="bg-color py-5">
-				<div class="container container-fluid">
+			<div className="bg-color py-5">
+				<div className="container container-fluid">
 					<section>
-						<div class=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 class="all-head text-center">
+						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+							<h1 className="all-head text-center">
 								Satisfied clients is our proof of our excellence
 							</h1>
-							<p class="all-p me-5 text-center">
+							<p className="all-p me-5 text-center">
 								Their Success Stories are our Valuable Feedback
 							</p>
 						</div>
 
-						<div class="carousel-inner career-block">
-							<div class="d-flex align-items-center text-center flex-column custom-crousel">
+						<div className="carousel-inner career-block">
+							<div className="d-flex align-items-center text-center flex-column custom-crousel">
 								<h3>
 									It was an absolute pleasure working with
 									Nishant and his team for our Blockchain
@@ -502,15 +502,15 @@ const MLPortfolio = () => {
 									sprint and the team was flexible about it.
 									honest work, you get what you pay for.
 								</h3>
-								<div class="d-flex align-items-center flex-column">
+								<div className="d-flex align-items-center flex-column">
 									<img
 										src="/assets/images/iCrowsel.png"
-										class="img-fluid"
+										className="img-fluid"
 										alt="iCrowsel"
 									/>
-									<div class="my-3">
+									<div className="my-3">
 										<img
-											class="img-fluid"
+											className="img-fluid"
 											src="/assets/images/client-logos/Ml Estimation.png"
 											alt="MLEstimation"
 										/>

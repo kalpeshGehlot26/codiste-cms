@@ -28,7 +28,7 @@ const FeedbackSlider = () => {
                             <h4>DiveWallet</h4>
                             <p>CEO<br />Bolivar, New York</p>
                         </div>
-                        <img class="img-fluid my-4 client-logo" alt="DiveWallet" src="assets/client-logos/DiveWalletLogo.png" />
+                        <img className="img-fluid my-4 client-logo" alt="DiveWallet" src="assets/images/client-logos/DiveWallet Logo.png" />
                     </div>
                     <div className="p-3">
                         <p className="secondsec-p">
@@ -43,7 +43,7 @@ const FeedbackSlider = () => {
                             <p aria-controls="">CTO and Co-Founder
                             </p>
                         </div>
-                        <img class="img-fluid my-4 client-logo" alt="DiveWallet" src="assets/Cliet_Logos/bonfire.png" />
+                        <img className="img-fluid my-4 client-logo" alt="DiveWallet" src="assets/images/client-logos/bonfire.png" />
                     </div>
                     <div className="p-3">
                         <p className="secondsec-p">
@@ -58,7 +58,7 @@ const FeedbackSlider = () => {
                             <p aria-controls="">CEO <br />Johannesburg, South Africa
                             </p>
                         </div>
-                        <img class="img-fluid my-4 client-logo" alt="DiveWallet" src="assets/Cliet_Logos/Medizen.png" />
+                        <img className="img-fluid my-4 client-logo" alt="DiveWallet" src="assets/images/client-logos/Medizen.png" />
                     </div>
                     <div className="p-3">
                         <p className="secondsec-p">

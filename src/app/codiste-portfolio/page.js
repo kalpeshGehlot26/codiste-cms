@@ -49,9 +49,9 @@ const CodistePortfolio = () => {
 
 			<ClientSlider />
 
-			<div class="container container-fluid py-5" id="caseStudyList">
-				<div class="text-center">
-					<h2 class="all-head mb-5">
+			<div className="container container-fluid py-5" id="caseStudyList">
+				<div className="text-center">
+					<h2 className="all-head mb-5">
 						Innovation in Action: Real-World Case Studies from
 						Codiste
 					</h2>
@@ -63,7 +63,7 @@ const CodistePortfolio = () => {
 				 />
 				 {totalCount > caseStudyCount ? (
 						
-							<div class="text-center">
+							<div className="text-center">
 								<button className="book-btn"
 								onClick={() =>
 									setCaseStudyCount(
