@@ -7,7 +7,8 @@ import Link from "next/link";
 
 export const metadata = {
 	title: "Mobile App Development Company | Codiste",
-	description: "Let's experience the best-in-class mobile app development services for lightning-fast, bug-free apps that exceed expectations and drive user engagement."
+	description:
+		"Let's experience the best-in-class mobile app development services for lightning-fast, bug-free apps that exceed expectations and drive user engagement.",
 };
 
 const MobileAppDevelopmentCompany = () => {
@@ -17,23 +18,45 @@ const MobileAppDevelopmentCompany = () => {
 			<div class="bg-color">
 				<div class="container container-fluid">
 					<section>
-						<div class="row firstsec ">
-							<div class="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
-								<div class="col-12 col-lg-6 order-2 order-lg-1">
-									<h1 class="all-head">Mobile App Development Company</h1>
-									<p class="all-p me-5 my-4">We are a digital mobile application development company that
-										offers the best-in-class end-user experience with a mobile application. Our application
-										development team builds lightning-fast, smooth & bug-free Mobile Apps that exceed
-										expectations and drive better user engagement. We offer iOS, Android, Flutter, and React
-										native application development for businesses and enterprises envisioned to improve user
-										engagement. Our team works with you extensively to visualize your ideas and build your
-										vision in reality. Whether it's a consumer-focused app or an enterprise solution, we are
-										dedicated to delivering top-notch mobile applications that drive better experience and
-										business growth.
-									</p>
-									<button class="book-btn">Let’s Talk</button>
-								</div>
-								<div class="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img class='img-fluid' src="assets/images/main/Mobile App Development.png" alt="Mobile App Development" /></div>
+						<div className="row firstsec d-flex align-items-center">
+							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
+								<h1 className="all-head">
+									Mobile App Development Company{" "}
+								</h1>
+								<p className="all-p me-5 mb-4 mt-3">
+									We are a digital mobile application
+									development company that offers the
+									best-in-class end-user experience with a
+									mobile application. Our application
+									development team builds lightning-fast,
+									smooth & bug-free Mobile Apps that exceed
+									expectations and drive better user
+									engagement. We offer iOS, Android, Flutter,
+									and React native application development for
+									businesses and enterprises envisioned to
+									improve user engagement. Our team works with
+									you extensively to visualize your ideas and
+									build your vision in reality. Whether it's a
+									consumer-focused app or an enterprise
+									solution, we are dedicated to delivering
+									top-notch mobile applications that drive
+									better experience and business growth.
+								</p>
+								<Link href="/contact" className="book-btn">
+									Let’s Talk
+								</Link>
+							</div>
+							<div className="col-lg-6 col-sm-12 p-5 ">
+								<img
+									className="img-fluid d-flex align-items-center justify-content-center"
+									style={{
+										height: "450px",
+										width: "auto",
+										margin: "auto",
+										padding: "20px",
+									}}
+									src="assets/images/main/Mobile App Development.png"
+								/>
 							</div>
 						</div>
 					</section>
@@ -285,7 +308,9 @@ const MobileAppDevelopmentCompany = () => {
 					<p>
 						We are your Go-To Expert for Best Mobile App Development{" "}
 					</p>
-					<Link href="/book-a-call" className="book-btn">Get in Touch</Link>
+					<Link href="/book-a-call" className="book-btn">
+						Get in Touch
+					</Link>
 				</div>
 			</div>
 
@@ -549,7 +574,12 @@ const MobileAppDevelopmentCompany = () => {
 							</div>
 
 							<div className="mt-4">
-								<Link href="/portfolio/pixipages" className="book-btn">Read More</Link>
+								<Link
+									href="/portfolio/pixipages"
+									className="book-btn"
+								>
+									Read More
+								</Link>
 							</div>
 						</div>
 						<div className="col-lg-6 col-sm-12 p-5 ">
@@ -561,7 +591,7 @@ const MobileAppDevelopmentCompany = () => {
 									margin: "auto",
 									padding: "20px",
 								}}
-								src="assets/images/counter.png"
+								src="assets/images/case-pixi/Pixipages.png"
 							/>
 						</div>
 					</div>
@@ -619,38 +649,29 @@ const MobileAppDevelopmentCompany = () => {
 								<div className="carousel-item active">
 									<div className="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
-											They communicate clearly and outline
-											the product roadmap for us. It has
-											been very easy to work with
-											them.Since the launch, the client
-											has seen success and has been
-											satisfied with Codiste pvt ltd’s
-											quality product. The team has been
-											prompt and dedicated to their work,
-											pushing the timelines to meet them
-											and deliver effectively. Overall,
-											they’ve stood out for their
-											communication skills.
+											Codiste Team rocked Throughout the
+											Development Process. Nishant handled
+											everything very professionally and
+											as timely as possible even when
+											everything in life was going
+											sideways.
 										</h3>
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													className="img-fluid my-4 client-logo"
+													alt="MoonTrust"
+													src="assets/images/client-logos/MoonTrust.png"
 												/>
 											</div>
-											<h5>E-Commerce Company</h5>
-											<p>
-												Managing Director
-												<br />
-												Australia
-											</p>
+											<h5> MoonTrust</h5>
+											<p>Founder</p>
 										</div>
 									</div>
 								</div>
@@ -681,13 +702,14 @@ const MobileAppDevelopmentCompany = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													className="img-fluid my-4 client-logo"
+													alt="DiveWallet"
+													src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
 											<h5>DiveWallet</h5>
@@ -714,13 +736,14 @@ const MobileAppDevelopmentCompany = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												className="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													className="img-fluid my-4 client-logo"
+													alt="Medizen App"
+													src="assets/images/client-logos/Medizen.png"
 												/>
 											</div>
 											<h5>Medizen App</h5>

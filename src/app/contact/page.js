@@ -3,46 +3,53 @@ import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 
 export const metadata = {
 	title: "Leading Blockchain Development Company | Contact Us | Codiste",
-	description: "We'd be happy to hear from you and discuss how we can help turn your ideas into reality. Contact our team directly at manager@codiste.com or +91 9429005987."
+	description:
+		"We'd be happy to hear from you and discuss how we can help turn your ideas into reality. Contact our team directly at manager@codiste.com or +91 9429005987.",
 };
 
 const page = () => {
 	return (
 		<div>
-			<div className="container container-fluid py-5 firstsec">
-				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Contact with us</h1>
-				</div>
-				<section>
-					<div className="row  d-flex">
-						<div className="col-lg-6 col-md-12 ">
-							<div className="mx-5">
-								<p>
-									<b style={{fontSize: "24px"}}>
-										Excited to kick-start your project?{" "}
-									</b>
-									<br />
-									If you prefer to use something other than
-									the form below, you can contact our team
-									directly at <b>
-										manager@codiste.com
-									</b> or <b>+91 9429005987.</b>
-									<br /> We'd be happy to hear from you and
-									discuss how we can help turn your ideas into
-									reality.
-								</p>
-								<CaseStudyForm />
+			<div className="bg-color contactsec">
+				<div className="container container-fluid  py-5">
+					<div className="mb-5">
+						<h1 className="all-head text-center">
+							Excited to kick-start your project?
+						</h1>
+						<p className="text-center secondsec-p">
+							We'd be happy to hear from you and discuss how we
+							can help turn your ideas into reality.
+						</p>
+					</div>
+
+					<section>
+						<div className="row">
+							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap align-items-center justify-content-between">
+								<div className="col-12 col-lg-6 order-2 order-lg-1">
+									<div className="mx-5">
+										<CaseStudyForm />
+									</div>
+								</div>
+								<div className="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0">
+									<img
+										className="img-fluid"
+										alt="contact-img"
+										src="assets/images/main/Contact_Us.png"
+									/>
+								</div>
 							</div>
 						</div>
-						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 ">
-							<img
-								className="img-fluid d-flex align-items-center justify-content-center"
-								style={{height: "550px",width: "auto", margin: "auto", padding: "10px"}}
-								src="assets/images/main/Contact_Us.png"
-							/>
-						</div>
+					</section>
+
+					<div className=" mt-5 text-center">
+						<p>
+							If you prefer to use something other than the form
+							below, you can contact our team directly at{" "}
+							<b>manager@codiste.com</b> or <b>+91 9429005987.</b>
+							<br />
+						</p>
 					</div>
-				</section>
+				</div>
 			</div>
 
 			<div className="container container-fluid mb-5">
@@ -81,7 +88,10 @@ const page = () => {
 											x="0"
 											y="0"
 											viewBox="0 0 682.667 682.667"
-											style={{"enable-background":"new 0 0 512 512"}}
+											style={{
+												"enable-background":
+													"new 0 0 512 512",
+											}}
 											xmlSpace="preserve"
 											className=""
 										>
@@ -104,7 +114,18 @@ const page = () => {
 												>
 													<path
 														d="M0 0c-60 90-165 212-165 317 0 90.981 74.019 165 165 165s165-74.019 165-165C165 212 60 90 0 0Z"
-														style={{strokeWidth:"30",strokeLinecap:"round",strokeLinejoin:"round",strokeMiterlimit:"10",strokeDasharray:"none",strokeOpacity:"1"}}
+														style={{
+															strokeWidth: "30",
+															strokeLinecap:
+																"round",
+															strokeLinejoin:
+																"round",
+															strokeMiterlimit:
+																"10",
+															strokeDasharray:
+																"none",
+															strokeOpacity: "1",
+														}}
 														transform="translate(256 15)"
 														fill="none"
 														stroke="#ff1f23"
@@ -118,7 +139,18 @@ const page = () => {
 													/>
 													<path
 														d="M0 0c-41.353 0-75 33.647-75 75s33.647 75 75 75 75-33.647 75-75S41.353 0 0 0Z"
-														style={{strokeWidth:"30",strokeLinecap:"round",strokeLinejoin:"round",strokeMiterlimit:"10",strokeDasharray:"none",strokeOpacity:"1"}}
+														style={{
+															strokeWidth: "30",
+															strokeLinecap:
+																"round",
+															strokeLinejoin:
+																"round",
+															strokeMiterlimit:
+																"10",
+															strokeDasharray:
+																"none",
+															strokeOpacity: "1",
+														}}
 														transform="translate(256 257)"
 														fill="none"
 														stroke="#ff1f23"
@@ -153,7 +185,10 @@ const page = () => {
 											x="0"
 											y="0"
 											viewBox="0 0 682.667 682.667"
-											style={{"enable-background":"new 0 0 512 512"}}
+											style={{
+												"enable-background":
+													"new 0 0 512 512",
+											}}
 											xmlSpace="preserve"
 											className=""
 										>
@@ -185,7 +220,10 @@ const page = () => {
 											x="0"
 											y="0"
 											viewBox="0 0 682.667 682.667"
-											style={{"enable-background":"new 0 0 512 512"}}
+											style={{
+												"enable-background":
+													"new 0 0 512 512",
+											}}
 											xmlSpace="preserve"
 											className=""
 										>
@@ -231,7 +269,10 @@ const page = () => {
 											x="0"
 											y="0"
 											viewBox="0 0 682.667 682.667"
-											style={{"enable-background":"new 0 0 512 512"}}
+											style={{
+												"enable-background":
+													"new 0 0 512 512",
+											}}
 											xmlSpace="preserve"
 											className=""
 										>
@@ -254,7 +295,18 @@ const page = () => {
 												>
 													<path
 														d="M0 0c-60 90-165 212-165 317 0 90.981 74.019 165 165 165s165-74.019 165-165C165 212 60 90 0 0Z"
-														style={{strokeWidth:"30", strokeLinecap:"round", strokeLinejoin:"round",strokeMiterlimit:"10",strokeDasharray:"none", strokeOpacity:"1"}}
+														style={{
+															strokeWidth: "30",
+															strokeLinecap:
+																"round",
+															strokeLinejoin:
+																"round",
+															strokeMiterlimit:
+																"10",
+															strokeDasharray:
+																"none",
+															strokeOpacity: "1",
+														}}
 														transform="translate(256 15)"
 														fill="none"
 														stroke="#ff1f23"
@@ -268,7 +320,18 @@ const page = () => {
 													/>
 													<path
 														d="M0 0c-41.353 0-75 33.647-75 75s33.647 75 75 75 75-33.647 75-75S41.353 0 0 0Z"
-														style={{strokeWidth:"30", strokeLinecap:"round", strokeLinejoin:"round",strokeMiterlimit:"10",strokeDasharray:"none", strokeOpacity:"1"}}
+														style={{
+															strokeWidth: "30",
+															strokeLinecap:
+																"round",
+															strokeLinejoin:
+																"round",
+															strokeMiterlimit:
+																"10",
+															strokeDasharray:
+																"none",
+															strokeOpacity: "1",
+														}}
 														transform="translate(256 257)"
 														fill="none"
 														stroke="#ff1f23"
@@ -303,7 +366,10 @@ const page = () => {
 											x="0"
 											y="0"
 											viewBox="0 0 682.667 682.667"
-											style={{"enable-background":"new 0 0 512 512"}}
+											style={{
+												"enable-background":
+													"new 0 0 512 512",
+											}}
 											xmlSpace="preserve"
 											className=""
 										>
@@ -335,7 +401,10 @@ const page = () => {
 											x="0"
 											y="0"
 											viewBox="0 0 682.667 682.667"
-											style={{"enable-background":"new 0 0 512 512"}}
+											style={{
+												"enable-background":
+													"new 0 0 512 512",
+											}}
 											xmlSpace="preserve"
 											className=""
 										>

@@ -7,7 +7,8 @@ import Link from "next/link";
 
 export const metadata = {
 	title: "Machine Learning Development Company | Codiste",
-	description: "Codiste machine learning development team helps you leverage the power of machine learning to boost your organizational growth and efficiency."
+	description:
+		"Codiste machine learning development team helps you leverage the power of machine learning to boost your organizational growth and efficiency.",
 };
 
 const MLDevelopmentCompany = () => {
@@ -16,18 +17,36 @@ const MLDevelopmentCompany = () => {
 			<div class="bg-color">
 				<div class="container container-fluid">
 					<section>
-						<div class="row firstsec ">
-							<div class="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
-								<div class="col-12 col-lg-5 order-2 order-lg-1">
-									<h1 class="all-head">Machine Learning Development Company</h1>
-									<p class="all-p me-5 my-4">We offer machine learning development services for businesses &
-										enterprises to help them automate repetitive and recursive tasks. Our machine learning
-										development team helps you leverage the power of machine learning to boost your
-										organizational growth and efficiency.
-									</p>
-									<button class="book-btn">Contact Us</button>
-								</div>
-								<div class="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0"><img class='img-fluid' alt='Machine Learning' src="assets/images/main/Machine Learning.png" /></div>
+						<div className="row firstsec d-flex align-items-center">
+							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
+								<h1 className="all-head">
+									Machine Learning Development Company{" "}
+								</h1>
+								<p className="all-p me-5 mb-4 mt-3">
+									We offer machine learning development
+									services for businesses & enterprises to
+									help them automate repetitive and recursive
+									tasks. Our machine learning development team
+									helps you leverage the power of machine
+									learning to boost your organizational growth
+									and efficiency.
+								</p>
+								<Link href="/contact" className="book-btn">
+									Contact Us
+								</Link>
+							</div>
+							<div className="col-lg-6 col-sm-12 p-5 ">
+								{" "}
+								<img
+									className="img-fluid d-flex align-items-center justify-content-center"
+									style={{
+										height: "450px",
+										width: "auto",
+										margin: "auto",
+										padding: "20px",
+									}}
+									src="assets/images/main/Machine Learning.png"
+								/>
 							</div>
 						</div>
 					</section>
@@ -329,7 +348,9 @@ const MLDevelopmentCompany = () => {
 						Let's meet our ML experts virtually and Explore
 						possibilities!
 					</p>
-					<Link href="/book-a-call" className="book-btn">Connect Virtually</Link>
+					<Link href="/book-a-call" className="book-btn">
+						Connect Virtually
+					</Link>
 				</div>
 			</div>
 
@@ -686,7 +707,12 @@ const MLDevelopmentCompany = () => {
 							</div>
 
 							<div className="mt-4">
-								<Link href="/portfolio/ml-estimation" className="book-btn">Read More</Link>
+								<Link
+									href="/portfolio/ml-estimation"
+									className="book-btn"
+								>
+									Read More
+								</Link>
 							</div>
 						</div>
 						<div className="col-lg-6 col-sm-12 p-5 ">
@@ -698,7 +724,7 @@ const MLDevelopmentCompany = () => {
 									margin: "auto",
 									padding: "20px",
 								}}
-								src="assets/images/counter.png"
+								src="assets/images/case-ml/MLEstimation.png"
 							/>
 						</div>
 					</div>
@@ -717,26 +743,26 @@ const MLDevelopmentCompany = () => {
 				<AllServiceBlogSlider items={mlServiceBlogs} />
 			</div>
 
-			<div className="bg-color py-5">
-				<div className="container container-fluid">
+			<div class="bg-color py-5">
+				<div class="container container-fluid">
 					<section>
-						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+						<div class=" d-flex align-items-center flex-column justify-content-center mb-5">
+							<h1 class="all-head">
 								Satisfied clients is our proof of our excellence
 							</h1>
 						</div>
 
 						<div
 							id="carouselExampleDark"
-							className="carousel carousel-dark slide carousel-box"
+							class="carousel carousel-dark slide carousel-box"
 							data-bs-ride="carousel"
 						>
-							<div className="carousel-indicators">
+							<div class="carousel-indicators">
 								<button
 									type="button"
 									data-bs-target="#carouselExampleDark"
 									data-bs-slide-to="0"
-									className="active"
+									class="active"
 									aria-current="true"
 									aria-label="Slide 1"
 								></button>
@@ -753,9 +779,9 @@ const MLDevelopmentCompany = () => {
 									aria-label="Slide 3"
 								></button>
 							</div>
-							<div className="carousel-inner">
-								<div className="carousel-item active">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											It was an absolute pleasure working
 											with Nishant and his team for our
@@ -772,58 +798,66 @@ const MLDevelopmentCompany = () => {
 											you pay for.
 										</h3>
 
-										<div className="d-flex align-items-center flex-column custom-crousel">
+										<div class="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												class="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													class="img-fluid my-4 client-logo"
+													alt="MLEstimation"
+													src="assets/images/client-logos/Ml Estimation.png"
 												/>
 											</div>
 											<h5>MLEstimation</h5>
-											<p>
-												Founder
-												<br />
-											</p>
+											<p>Founder</p>
 										</div>
 									</div>
 								</div>
-								<div className="carousel-item">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+								<div class="carousel-item">
+									<div class="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
-											Codiste Team went extra miles for
-											us, delivered product beyond
-											expectation. They are team of Highly
-											technical skills in Mobile dev, Web
-											dev, Machine learning.
+											Their ability to adapt to changes in
+											our requirements while focusing on
+											the deliverables was
+											impressive.Codiste pvt ltd delivered
+											a well-written code, making the
+											platform highly performant. They
+											excellently managed the
+											collaboration and constantly
+											communicated through Slack,
+											WhatsApp, and email. Overall, they
+											fostered a positive engagement by
+											being responsive and accessible even
+											during weekends.
 										</h3>
 
-										<div className="d-flex align-items-center flex-column custom-crousel">
+										<div class="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												class="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													class="img-fluid my-4 client-logo"
+													alt="Holygrails"
+													src="assets/images/client-logos/Holygrails.png"
 												/>
 											</div>
-											<h5>Molotov Tv</h5>
+											<h5>Holygrails</h5>
 											<p>
 												Founder
 												<br />
+												Abu Dhabi, United Arab Emirates
 											</p>
 										</div>
 									</div>
 								</div>
-								<div className="carousel-item">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+								<div class="carousel-item">
+									<div class="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											Codiste Team rocked Throughout the
 											Development Process. Nishant handled
@@ -833,16 +867,17 @@ const MLDevelopmentCompany = () => {
 											sideways.
 										</h3>
 
-										<div className="d-flex align-items-center flex-column custom-crousel">
+										<div class="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												class="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													class="img-fluid my-4 client-logo"
+													alt="MoonTrust"
+													src="assets/images/client-logos/MoonTrust.png"
 												/>
 											</div>
 											<h5> MoonTrust</h5>
@@ -855,30 +890,28 @@ const MLDevelopmentCompany = () => {
 								</div>
 							</div>
 							<button
-								className="carousel-control-prev"
+								class="carousel-control-prev"
 								type="button"
 								data-bs-target="#carouselExampleDark"
 								data-bs-slide="prev"
 							>
 								<span
-									className="carousel-control-prev-icon"
+									class="carousel-control-prev-icon"
 									aria-hidden="true"
 								></span>
-								<span className="visually-hidden">
-									Previous
-								</span>
+								<span class="visually-hidden">Previous</span>
 							</button>
 							<button
-								className="carousel-control-next"
+								class="carousel-control-next"
 								type="button"
 								data-bs-target="#carouselExampleDark"
 								data-bs-slide="next"
 							>
 								<span
-									className="carousel-control-next-icon"
+									class="carousel-control-next-icon"
 									aria-hidden="true"
 								></span>
-								<span className="visually-hidden">Next</span>
+								<span class="visually-hidden">Next</span>
 							</button>
 						</div>
 					</section>

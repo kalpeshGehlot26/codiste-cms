@@ -1,8 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
-import serviceItems from "../../data/serviceItems";
 
-const ServiceList = ({serviceCount, setTotalServiceCount}) => {
+const ServiceList = ({serviceItems, serviceCount, setTotalServiceCount}) => {
     useEffect(() => {
         setTotalServiceCount(serviceItems.length)
     },[serviceItems])

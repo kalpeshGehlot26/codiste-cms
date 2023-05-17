@@ -7,7 +7,8 @@ import Link from "next/link";
 
 export const metadata = {
 	title: "Web Development Company | Codiste",
-	description: "Codiste web development services offer website development support and technical assistance to build secure, scalable, stunning, and robust web applications."
+	description:
+		"Codiste web development services offer website development support and technical assistance to build secure, scalable, stunning, and robust web applications.",
 };
 
 const WebDevelopmentCompany = () => {
@@ -16,17 +17,33 @@ const WebDevelopmentCompany = () => {
 			<div class="bg-color">
 				<div class="container container-fluid">
 					<section>
-						<div class="row firstsec ">
-							<div class="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
-								<div class="col-12 col-lg-5 order-2 order-lg-1">
-									<h1 class="all-head">Web Development Company</h1>
-									<p class="all-p me-5 my-4">Our Web development services offer website development support
-										and technical assistance to build secure, scalable, visually stunning, and robust web
-										applications.
-									</p>
-									<button class="book-btn">Contact Us</button>
-								</div>
-								<div class="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0"><img class='img-fluid' alt='Web Development' src="assets/images/main/Web Development_.png" /></div>
+						<div className="row firstsec d-flex align-items-center ">
+							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
+								<h1 className="all-head">
+									Web Development Company{" "}
+								</h1>
+								<p className="all-p me-5 mb-4 mt-3">
+									Our Web development services offer website
+									development support and technical assistance
+									to build secure, scalable, visually
+									stunning, and robust web applications.
+								</p>
+								<Link href="/contact" className="book-btn">
+									Contact Us
+								</Link>
+							</div>
+							<div className="col-lg-6 col-sm-12 p-5 ">
+								{" "}
+								<img
+									className="img-fluid d-flex align-items-center justify-content-center"
+									style={{
+										height: "450px",
+										width: "auto",
+										margin: "auto",
+										padding: "20px",
+									}}
+									src="assets/images/main/Web Development_.png"
+								/>
 							</div>
 						</div>
 					</section>
@@ -300,7 +317,9 @@ const WebDevelopmentCompany = () => {
 						web site development : Looking to build a website for
 						your enterprise?
 					</p>
-					<Link href="/book-a-call" className="book-btn">Ask now</Link>
+					<Link href="/book-a-call" className="book-btn">
+						Ask now
+					</Link>
 				</div>
 			</div>
 
@@ -629,7 +648,12 @@ const WebDevelopmentCompany = () => {
 							</div>
 
 							<div className="mt-4">
-								<Link href="/portfolio/medizen" className="book-btn">Read More</Link>
+								<Link
+									href="/portfolio/medizen"
+									className="book-btn"
+								>
+									Read More
+								</Link>
 							</div>
 						</div>
 						<div className="col-lg-6 col-sm-12 p-5 ">
@@ -641,7 +665,7 @@ const WebDevelopmentCompany = () => {
 									margin: "auto",
 									padding: "20px",
 								}}
-								src="assets/images/counter.png"
+								src="assets/images/case-medizen/Medizen.png"
 							/>
 						</div>
 					</div>
@@ -660,11 +684,11 @@ const WebDevelopmentCompany = () => {
 				<AllServiceBlogSlider items={webServiceBlogs} />
 			</div>
 
-			<div className="bg-color py-5">
-				<div className="container container-fluid">
+			<div class="bg-color py-5">
+				<div class="container container-fluid">
 					<section>
-						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+						<div class=" d-flex align-items-center flex-column justify-content-center mb-5">
+							<h1 class="all-head text-center">
 								We justify our credibility with their success
 								notes
 							</h1>
@@ -672,15 +696,15 @@ const WebDevelopmentCompany = () => {
 
 						<div
 							id="carouselExampleDark"
-							className="carousel carousel-dark slide carousel-box"
+							class="carousel carousel-dark slide carousel-box"
 							data-bs-ride="carousel"
 						>
-							<div className="carousel-indicators">
+							<div class="carousel-indicators">
 								<button
 									type="button"
 									data-bs-target="#carouselExampleDark"
 									data-bs-slide-to="0"
-									className="active"
+									class="active"
 									aria-current="true"
 									aria-label="Slide 1"
 								></button>
@@ -697,9 +721,9 @@ const WebDevelopmentCompany = () => {
 									aria-label="Slide 3"
 								></button>
 							</div>
-							<div className="carousel-inner">
-								<div className="carousel-item active">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											They truly do everything up to a
 											very high standard. Codiste pvt ltd
@@ -714,16 +738,18 @@ const WebDevelopmentCompany = () => {
 											their work.
 										</h3>
 
-										<div className="d-flex align-items-center flex-column custom-crousel">
+										<div class="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												class="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													class="img-fluid my-4 client-logo"
+													alt="bonfire"
+													src="assets/images/client-logos/bonfire.png"
 												/>
 											</div>
 											<h5>
@@ -737,8 +763,8 @@ const WebDevelopmentCompany = () => {
 										</div>
 									</div>
 								</div>
-								<div className="carousel-item">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+								<div class="carousel-item">
+									<div class="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											I am pleased to say that working
 											with Codiste Pvt Ltd has been a
@@ -761,16 +787,17 @@ const WebDevelopmentCompany = () => {
 											delivering high-quality work.
 										</h3>
 
-										<div className="d-flex align-items-center flex-column custom-crousel">
+										<div class="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												class="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													class="img-fluid my-4 client-logo"
+													alt="DiveWallet"
+													src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
 											<h5>DiveWallet</h5>
@@ -782,8 +809,8 @@ const WebDevelopmentCompany = () => {
 										</div>
 									</div>
 								</div>
-								<div className="carousel-item">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+								<div class="carousel-item">
+									<div class="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
 											Codiste pvt ltd delivered the
 											project within the given timeline
@@ -794,16 +821,17 @@ const WebDevelopmentCompany = () => {
 											proactive.
 										</h3>
 
-										<div className="d-flex align-items-center flex-column custom-crousel">
+										<div class="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
-												className=" "
+												class="img-fluid"
 												alt="iCrowsel"
 											/>
-											<div className="my-5">
+											<div>
 												<img
-													className="circle-img"
-													src="assets/images/Tommy-Bui.png"
+													class="img-fluid my-4 client-logo"
+													alt="Medizen"
+													src="assets/images/client-logos/Medizen.png"
 												/>
 											</div>
 											<h5>Medizen App</h5>
@@ -817,30 +845,28 @@ const WebDevelopmentCompany = () => {
 								</div>
 							</div>
 							<button
-								className="carousel-control-prev"
+								class="carousel-control-prev"
 								type="button"
 								data-bs-target="#carouselExampleDark"
 								data-bs-slide="prev"
 							>
 								<span
-									className="carousel-control-prev-icon"
+									class="carousel-control-prev-icon"
 									aria-hidden="true"
 								></span>
-								<span className="visually-hidden">
-									Previous
-								</span>
+								<span class="visually-hidden">Previous</span>
 							</button>
 							<button
-								className="carousel-control-next"
+								class="carousel-control-next"
 								type="button"
 								data-bs-target="#carouselExampleDark"
 								data-bs-slide="next"
 							>
 								<span
-									className="carousel-control-next-icon"
+									class="carousel-control-next-icon"
 									aria-hidden="true"
 								></span>
-								<span className="visually-hidden">Next</span>
+								<span class="visually-hidden">Next</span>
 							</button>
 						</div>
 					</section>

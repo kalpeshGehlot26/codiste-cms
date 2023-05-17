@@ -4,7 +4,8 @@ import React from "react";
 
 export const metadata = {
 	title: "Medizen | Application and web Development services | Codiste",
-	description: "The Medizen app was developed to help patients manage their medications safely and easily. It features a medication tracker, reminders, drug interaction checker, refill reminders, and family sharing."
+	description:
+		"The Medizen app was developed to help patients manage their medications safely and easily. It features a medication tracker, reminders, drug interaction checker, refill reminders, and family sharing.",
 };
 
 const MedizenPortfolio = () => {
@@ -461,7 +462,6 @@ const MedizenPortfolio = () => {
 					</div>
 				</section>
 			</div>
-
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
@@ -496,12 +496,13 @@ const MedizenPortfolio = () => {
 									/>
 									<div className="my-3">
 										<img
-											className=""
-											src="/assets/images/splide/diveWallet.jpg"
+											className="img-fluid"
+											alt=""
+											src="/assets/images/client-logos/Medizen.png"
 										/>
 									</div>
-									<h5>Mike Walton</h5>
-									<p>Founder</p>
+									<h5>Medizen App</h5>
+									<p>CEO</p>
 								</div>
 							</div>
 						</div>

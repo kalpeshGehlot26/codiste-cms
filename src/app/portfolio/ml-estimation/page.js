@@ -4,7 +4,8 @@ import React from "react";
 
 export const metadata = {
 	title: "ML Estimation | Machine Learning  Services I| Codiste",
-	description: "The HVAC industry is a highly competitive field, and with so many contractors vying for the same projects, it can be difficult to stand out and win more quotes"
+	description:
+		"The HVAC industry is a highly competitive field, and with so many contractors vying for the same projects, it can be difficult to stand out and win more quotes",
 };
 
 const MLPortfolio = () => {
@@ -475,20 +476,20 @@ const MLPortfolio = () => {
 				</section>
 			</div>
 
-			<div className="bg-color py-5">
-				<div className="container container-fluid">
+			<div class="bg-color py-5">
+				<div class="container container-fluid">
 					<section>
-						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head text-center">
+						<div class=" d-flex align-items-center flex-column justify-content-center mb-5">
+							<h1 class="all-head text-center">
 								Satisfied clients is our proof of our excellence
 							</h1>
-							<p className="all-p me-5 text-center">
+							<p class="all-p me-5 text-center">
 								Their Success Stories are our Valuable Feedback
 							</p>
 						</div>
 
-						<div className="carousel-inner career-block">
-							<div className="d-flex align-items-center text-center flex-column custom-crousel">
+						<div class="carousel-inner career-block">
+							<div class="d-flex align-items-center text-center flex-column custom-crousel">
 								<h3>
 									It was an absolute pleasure working with
 									Nishant and his team for our Blockchain
@@ -501,19 +502,20 @@ const MLPortfolio = () => {
 									sprint and the team was flexible about it.
 									honest work, you get what you pay for.
 								</h3>
-								<div className="d-flex align-items-center flex-column">
+								<div class="d-flex align-items-center flex-column">
 									<img
 										src="/assets/images/iCrowsel.png"
-										className=" "
+										class="img-fluid"
 										alt="iCrowsel"
 									/>
-									<div className="my-3">
+									<div class="my-3">
 										<img
-											className=""
-											src="/assets/images/splide/diveWallet.jpg"
+											class="img-fluid"
+											src="/assets/images/client-logos/Ml Estimation.png"
+											alt="MLEstimation"
 										/>
 									</div>
-									<h5>Mike Walton</h5>
+									<h5>MLEstimation</h5>
 									<p>Founder</p>
 								</div>
 							</div>
