@@ -8,6 +8,7 @@ import CaseStudySlider from "../component/service/caseStudySlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import allServiceBlogs from "../data/services/allServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
+import Link from "next/link";
 
 const metadata = {
 	title: "Software Development Company | Empowering IT Solutions | Codiste",
@@ -37,9 +38,9 @@ const Services = () => {
 									growing technologies to help you elevate
 									your user and customer experience.
 								</p>
-								<button className="book-btn mt-3">
+								<Link href="/contact" className="book-btn mt-3">
 									Contact Us
-								</button>
+								</Link>
 							</div>
 							<div className="col-lg-6 col-sm-12 py-5">
 								<img
@@ -98,7 +99,7 @@ const Services = () => {
 							our clients to ensure hassle-free pre and
 							post-development integration.
 						</p>
-						<button className="book-btn">Book a Call</button>
+						<Link href="/book-a-call" className="book-btn">Book a Call</Link>
 					</div>
 				</section>
 			</div>

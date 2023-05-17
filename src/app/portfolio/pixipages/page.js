@@ -1,4 +1,5 @@
 import CaseStudyForm from "@/app/component/caseStudyForm/caseStudyForm";
+import Link from "next/link";
 import React from "react";
 
 export const metadata = {
@@ -25,12 +26,13 @@ const PixipagesPortfolio = () => {
 										parents to create a special story for
 										their children, even when they are away.
 									</p>
-									<button
+									<Link
 										className="book-btn"
-										onclick="window.location.href = 'https://apps.apple.com/us/app/pixipages/id1234602478';"
+										href="https://apps.apple.com/us/app/pixipages/id1234602478"
+										target="_blank"
 									>
 										Live Project
-									</button>
+									</Link>
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2">
 									<img

@@ -1,4 +1,5 @@
 import CaseStudyForm from "@/app/component/caseStudyForm/caseStudyForm";
+import Link from "next/link";
 import React from "react";
 
 export const metadata = {
@@ -28,12 +29,13 @@ const MedizenPortfolio = () => {
 										requirements. The app can improve health
 										outcomes for users.
 									</p>
-									<button
+									<Link
 										className="book-btn"
-										onclick="window.location.href = 'https://medizen.co.za/';"
+										href="https://medizen.co.za/"
+										target="_blank"
 									>
 										Live Project
-									</button>
+									</Link>
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2">
 									<img

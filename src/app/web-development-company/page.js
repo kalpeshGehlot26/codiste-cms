@@ -3,6 +3,7 @@ import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import webServiceBlogs from "../data/services/webServiceBlogs copy";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
+import Link from "next/link";
 
 export const metadata = {
 	title: "Web Development Company | Codiste",
@@ -26,7 +27,7 @@ const WebDevelopmentCompany = () => {
 									to build secure, scalable, visually
 									stunning, and robust web applications.
 								</p>
-								<button className="book-btn">Contact Us</button>
+								<Link href="/contact" className="book-btn">Contact Us</Link>
 							</div>
 							<div className="col-lg-6 col-sm-12 p-5 ">
 								{" "}
@@ -313,7 +314,7 @@ const WebDevelopmentCompany = () => {
 						web site development : Looking to build a website for
 						your enterprise?
 					</p>
-					<button className="book-btn">Ask now</button>
+					<Link href="/book-a-call" className="book-btn">Ask now</Link>
 				</div>
 			</div>
 
@@ -642,7 +643,7 @@ const WebDevelopmentCompany = () => {
 							</div>
 
 							<div className="mt-4">
-								<button className="book-btn">Read More</button>
+								<Link href="/portfolio/medizen" className="book-btn">Read More</Link>
 							</div>
 						</div>
 						<div className="col-lg-6 col-sm-12 p-5 ">
