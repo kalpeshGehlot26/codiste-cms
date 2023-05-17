@@ -13,43 +13,26 @@ export const metadata = {
 const MLDevelopmentCompany = () => {
 	return (
 		<div>
-			<div className="bg-color">
-				<div className="container container-fluid py-4">
+			<div class="bg-color">
+				<div class="container container-fluid">
 					<section>
-						<div className="row firstsec d-flex align-items-center">
-							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
-								<h1 className="all-head">
-									Machine Learning Development Company{" "}
-								</h1>
-								<p className="all-p me-5 mb-4 mt-3">
-									We offer machine learning development
-									services for businesses & enterprises to
-									help them automate repetitive and recursive
-									tasks. Our machine learning development team
-									helps you leverage the power of machine
-									learning to boost your organizational growth
-									and efficiency.
-								</p>
-								<Link href="/contact" className="book-btn">Contact Us</Link>
-							</div>
-							<div className="col-lg-6 col-sm-12 p-5 ">
-								{" "}
-								<img
-									className="img-fluid d-flex align-items-center justify-content-center"
-									style={{
-										height: "450px",
-										width: "auto",
-										margin: "auto",
-										padding: "20px",
-									}}
-									src="assets/images/main/Machine Learning.png"
-								/>
+						<div class="row firstsec ">
+							<div class="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
+								<div class="col-12 col-lg-5 order-2 order-lg-1">
+									<h1 class="all-head">Machine Learning Development Company</h1>
+									<p class="all-p me-5 my-4">We offer machine learning development services for businesses &
+										enterprises to help them automate repetitive and recursive tasks. Our machine learning
+										development team helps you leverage the power of machine learning to boost your
+										organizational growth and efficiency.
+									</p>
+									<button class="book-btn">Contact Us</button>
+								</div>
+								<div class="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0"><img class='img-fluid' alt='Machine Learning' src="assets/images/main/Machine Learning.png" /></div>
 							</div>
 						</div>
 					</section>
 				</div>
 			</div>
-
 			<ClientSlider />
 
 			<div className="container container-fluid">
@@ -221,7 +204,7 @@ const MLDevelopmentCompany = () => {
 				</section>
 			</div>
 
-			<div className="py-5">
+			<div className="py-5 bg-color">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">
@@ -231,7 +214,7 @@ const MLDevelopmentCompany = () => {
 					</div>
 
 					<div className="row">
-						<div className="col-6 col-md-4 text-center p-5 intsec-border">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
 								alt="Comprehensive Development"
@@ -249,7 +232,7 @@ const MLDevelopmentCompany = () => {
 								effective solution.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-border">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
 								alt="Enterprise Automation Tools"
@@ -266,7 +249,7 @@ const MLDevelopmentCompany = () => {
 								efficiency and better productivity.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderlast">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
 								alt="Customized Models and Training Platforms"
@@ -283,7 +266,7 @@ const MLDevelopmentCompany = () => {
 								applications.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderbelow">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
 							<img
 								className="img-fluid mb-2"
 								alt="Safe and Secure"
@@ -301,7 +284,7 @@ const MLDevelopmentCompany = () => {
 								practices.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderbelow">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
 								alt="Expert-Led Development Process"
@@ -319,7 +302,7 @@ const MLDevelopmentCompany = () => {
 								objectives.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 ">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
 							<img
 								className="img-fluid mb-2"
 								alt="Seamless Integration & Deployment"

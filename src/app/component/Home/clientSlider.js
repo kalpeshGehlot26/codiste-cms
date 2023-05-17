@@ -5,24 +5,37 @@ import "@splidejs/react-splide/css";
 import clientLogo from "../../data/clientLogo";
 
 const ClientSlider = () => {
-	return (
-		<Splide
-			hasTrack={false}
-			options={{
-				type: "loop",
-				drag: "free",
-				focus: "center",
+    return (
+        <Splide
+            hasTrack={false}
+            options={{
+                type: "loop",
+                drag: "free",
                 pagination: true,
                 autoplay: true,
                 interval: 2000,
                 perPage: 5,
                 arrows: false,
                 autoScroll: {
-                  speed: 2,
+                    speed: 2,
                 },
-			}}
-		>
-			<SplideTrack>
+                breakpoints: {
+                    1400: {
+                        perPage: 4,
+                    },
+                    1000: {
+                        perPage: 3,
+                    },
+                    600: {
+                        perPage: 2,
+                    },
+                    400: {
+                        perPage: 1,
+                    }
+                }
+            }}
+        >
+            <SplideTrack>
                 {
                     clientLogo?.map((logo, index) => {
                         return (
@@ -32,9 +45,9 @@ const ClientSlider = () => {
                         )
                     })
                 }
-			</SplideTrack>
-		</Splide>
-	);
+            </SplideTrack>
+        </Splide>
+    );
 };
 
 export default ClientSlider;

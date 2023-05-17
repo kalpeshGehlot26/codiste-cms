@@ -13,34 +13,20 @@ export const metadata = {
 const WebDevelopmentCompany = () => {
 	return (
 		<div>
-			<div className="bg-color">
-				<div className="container container-fluid py-4">
+			<div class="bg-color">
+				<div class="container container-fluid">
 					<section>
-						<div className="row firstsec d-flex align-items-center ">
-							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
-								<h1 className="all-head">
-									Web Development Company{" "}
-								</h1>
-								<p className="all-p me-5 mb-4 mt-3">
-									Our Web development services offer website
-									development support and technical assistance
-									to build secure, scalable, visually
-									stunning, and robust web applications.
-								</p>
-								<Link href="/contact" className="book-btn">Contact Us</Link>
-							</div>
-							<div className="col-lg-6 col-sm-12 p-5 ">
-								{" "}
-								<img
-									className="img-fluid d-flex align-items-center justify-content-center"
-									style={{
-										height: "450px",
-										width: "auto",
-										margin: "auto",
-										padding: "20px",
-									}}
-									src="assets/images/main/Web Development_.png"
-								/>
+						<div class="row firstsec ">
+							<div class="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
+								<div class="col-12 col-lg-5 order-2 order-lg-1">
+									<h1 class="all-head">Web Development Company</h1>
+									<p class="all-p me-5 my-4">Our Web development services offer website development support
+										and technical assistance to build secure, scalable, visually stunning, and robust web
+										applications.
+									</p>
+									<button class="book-btn">Contact Us</button>
+								</div>
+								<div class="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0"><img class='img-fluid' alt='Web Development' src="assets/images/main/Web Development_.png" /></div>
 							</div>
 						</div>
 					</section>
@@ -193,14 +179,14 @@ const WebDevelopmentCompany = () => {
 			<div className="py-5">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">
+						<h1 className="all-head text-center">
 							Why Is Codiste The Best Web Design and Development
 							Company?
 						</h1>
 					</div>
 
 					<div className="row">
-						<div className="col-6 col-md-4 text-center p-5 intsec-border">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
 								alt="Comprehensive Development Support"
@@ -218,7 +204,7 @@ const WebDevelopmentCompany = () => {
 								results within deadlines.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-border">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
 								alt="Efficient Solutions"
@@ -235,7 +221,7 @@ const WebDevelopmentCompany = () => {
 								be efficient, scalable, and user-friendly.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderlast">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
 								alt="Visually Stunning Applications"
@@ -252,7 +238,7 @@ const WebDevelopmentCompany = () => {
 								visually appealing.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderbelow">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
 							<img
 								className="img-fluid mb-2"
 								alt="Customized and Personalized CX"
@@ -269,7 +255,7 @@ const WebDevelopmentCompany = () => {
 								your web applications.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderbelow">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
 								alt="24/7 Customer Support"
@@ -285,7 +271,7 @@ const WebDevelopmentCompany = () => {
 								to provide excellent customer service.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 ">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
 							<img
 								className="img-fluid mb-2"
 								alt="Secure and Scalable"

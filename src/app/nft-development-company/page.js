@@ -13,42 +13,24 @@ export const metadata = {
 const NFTDevelopment = () => {
 	return (
 		<div>
-			<div className="bg-color">
-				<div className="container container-fluid">
+
+			<div class="bg-color">
+				<div class="container container-fluid">
 					<section>
-						<div className="row firstsec d-flex align-items-center">
-							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
-								<h1 className="all-head">
-									NFT Development Company{" "}
-								</h1>
-								<p className="all-p me-5 mb-4 mt-3">
-									We are a non-fungible token development
-									company providing end-to-end NFT
-									development, including digital NFTs and
-									marketplaces for enterprises entering the
-									digital collectibles space. Our NFT market
-									development services offer a comprehensive
-									marketplace development equipped with
-									seamless NFT minting and trading user
-									experience for better user experience and
-									feedback.
-								</p>
-								<Link href="/contact" className="book-btn">
-									Have a project? Let's Chat!
-								</Link>
-							</div>
-							<div className="col-lg-6 col-sm-12 p-5 ">
-								<img
-									className="img-fluid d-flex align-items-center justify-content-center"
-									style={{height: "450px", width : "auto", margin: "auto", padding: "20px"}}
-									src="assets/images/main/NFT Development.png"
-								/>
+						<div class="row firstsec ">
+							<div class="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
+								<div class="col-12 col-lg-5 order-2 order-lg-1">
+									<h1 class="all-head">NFT Development Company</h1>
+									<p class="all-p me-5 my-4">We are a non-fungible token development company providing end-to-end NFT development, including digital NFTs and marketplaces for enterprises entering the digital collectibles space. Our NFT market development services offer a comprehensive marketplace development equipped with seamless NFT minting and trading user experience for better user experience and feedback.
+									</p>
+									<button class="book-btn">Have a project? Let's Chat!</button>
+								</div>
+								<div class="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img class='img-fluid' src="assets/images/main/NFT Development.png" alt="NFT Development" /></div>
 							</div>
 						</div>
 					</section>
 				</div>
 			</div>
-
 			<ClientSlider />
 
 			<div className="container container-fluid">
@@ -101,7 +83,7 @@ const NFTDevelopment = () => {
 								</p>
 							</div>
 						</div>
-						<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
+						<div className="col-xl-4 col-md-12 col-sm-12 pb-3 ">
 							<div className="service-block p-4 h-100">
 								<h2 className="secondsec-head mt-4">
 									Web3 Identity Platform development
@@ -127,10 +109,10 @@ const NFTDevelopment = () => {
 				</section>
 			</div>
 
-			<div className="py-5">
+			<div className="py-5 bg-color">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">
+						<h1 className="all-head text-center">
 							Why Choose Codiste For NFT Development Services?
 						</h1>
 						<p className="all-p text-center">
@@ -146,7 +128,7 @@ const NFTDevelopment = () => {
 					</div>
 
 					<div className="row">
-						<div className="col-6 col-md-4 text-center p-5 intsec-border">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
 								alt=""
@@ -170,7 +152,7 @@ const NFTDevelopment = () => {
 								perfectly.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-border">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
 								alt=""
@@ -190,7 +172,7 @@ const NFTDevelopment = () => {
 								experience and data management.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderlast">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
 								alt=""
@@ -211,7 +193,7 @@ const NFTDevelopment = () => {
 								creators, investors, and collectors.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderbelow">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
 							<img
 								className="img-fluid mb-2"
 								alt=""
@@ -233,7 +215,7 @@ const NFTDevelopment = () => {
 								with immersive experiences and digital assets.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderbelow">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
 								alt=""
@@ -255,7 +237,7 @@ const NFTDevelopment = () => {
 								platform remains immutable.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 ">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
 							<img
 								className="img-fluid mb-2"
 								alt=""
@@ -532,7 +514,7 @@ const NFTDevelopment = () => {
 						<div className="col-lg-6 col-sm-12 p-5 ">
 							<img
 								className="img-fluid d-flex align-items-center justify-content-center"
-								style={{height: "450px", width : "auto", margin: "auto", padding: "20px"}}
+								style={{ height: "450px", width: "auto", margin: "auto", padding: "20px" }}
 								src="assets/images/counter.png"
 							/>
 						</div>

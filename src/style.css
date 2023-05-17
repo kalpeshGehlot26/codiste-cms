@@ -7,7 +7,9 @@ body {
 h1{
    font-size: 40px;
 }
-
+h4{
+   font-size: 24px;
+}
 .container,
 .container-lg,
 .container-md,
@@ -140,7 +142,12 @@ text-align: left;
    font-size: 18px;
    text-decoration: none;
 }
-
+.book-btn:hover{
+   background: #d44242 !important;
+}
+ a:hover{
+   color: #fff;
+}
 /* ==== nav complete === */
 
 /* ==== footer ==== */
@@ -646,6 +653,9 @@ font-size: 22px !important;
    height: auto;
    padding: 30px;
 }
+.slide-pagination .splide__pagination{
+bottom: -1.5rem !important;
+}
 
 .blogfont-pos {
    position: absolute;
@@ -665,7 +675,7 @@ font-size: 22px !important;
 
 .blogfont-pos p {
    font-size: 14px;
-   color: #c6c9d8;
+   color: #fff;
 }
 
 .blogfont-btn {
@@ -689,7 +699,7 @@ font-size: 22px !important;
 }
 
 .blogboxbg:hover .blogfont-btn {
-   display: block;
+   display:inline-block;
    padding: 0 23px;
    height: 40px;
    line-height: 34px;
@@ -701,6 +711,8 @@ font-size: 22px !important;
    color: #fff;
    letter-spacing: .2px;
    background: 0 0;
+   text-decoration: none;
+
 }
 
 .card-position {
@@ -783,14 +795,7 @@ ul.tech-style img:hover {
    transform: scale(1.1);
    opacity: 1;
 }
-/* .card:hover .card-title,
-.card:hover .card-text,
-.card:hover .btn {
-   color: #fff;
-}
-.card:hover .card-text {
-   color: #fff;
-} */
+
 
 /* =====iner service page ==== */
 .Crosssec-1{
@@ -834,23 +839,7 @@ ul.tech-style img:hover {
    margin-top: 20px;
 }
 
-/* ===contact-us page === */
-/* .contact-head {
-   font-size: 40px;
-   font-weight: 600;
-   background: linear-gradient(90deg, #FF1F23 3.28%, #FD145A 97.2%);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-}
 
-.contact-p {
-   font-size: 25px;
-   font-weight: 400;
-   line-height: 38px;
-   letter-spacing: 0em;
-   text-align: center;
-
-} */
 
 .contact-block p {
    font-weight: 300;
@@ -1614,7 +1603,9 @@ height: auto;
     }
    h1 {
       font-size: calc(1.5rem + ((1vw - 3.2px) * 1));
-
+    }
+    h4 {
+      font-size: calc(1rem + ((1vw - 3.2px) * 0.5));
     }
     .fs-3 {
       font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));

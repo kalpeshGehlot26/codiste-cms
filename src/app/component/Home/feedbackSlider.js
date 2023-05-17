@@ -4,14 +4,14 @@ import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
 const FeedbackSlider = () => {
-	return (
+    return (
         <Splide
-			hasTrack={false}
-			options={{
-				type: 'loop',
+            hasTrack={false}
+            options={{
+                type: 'loop',
                 drag: 'free',
                 pagination: true,
-                autoplay: true,
+                autoplay: false,
                 interval: 2000,
                 perPage: 1,
                 arrows: false,
@@ -19,19 +19,16 @@ const FeedbackSlider = () => {
                 autoScroll: {
                     speed: 2,
                 },
-			}}
-		>
-			<SplideTrack>
+            }}
+        >
+            <SplideTrack>
                 <SplideSlide className="splide__slide">
-                    <div className="col-auto d-flex">
-                        <img className="career-cirimg" src="assets/images/career/chintan-patel.png" style={{width: "150px",height: "150px"}} />
+                    <div className="d-flex">
                         <div className="d-flex flex-column justify-content-center">
                             <h4>DiveWallet</h4>
-                            <p aria-controls="">CoFounder at Ninza NFT{" "}
-                                <br />
-                                Bolivar, New York
-                            </p>
+                            <p>CEO<br />Bolivar, New York</p>
                         </div>
+                        <img class="img-fluid my-4 client-logo" alt="DiveWallet" src="assets/client-logos/DiveWalletLogo.png" />
                     </div>
                     <div className="p-3">
                         <p className="secondsec-p">
@@ -41,38 +38,36 @@ const FeedbackSlider = () => {
                 </SplideSlide>
                 <SplideSlide className="splide__slide">
                     <div className="col-auto d-flex">
-                        <img className="career-cirimg" src="assets/images/career/chintan-patel.png" style={{width: "150px",height: "150px"}} />
                         <div className="d-flex flex-column justify-content-center">
-                            <h4>E-Commerce Company</h4>
-                            <p aria-controls="">Managing Director
-                                <br />
-                                Australia
+                            <h4>The Real Estate Investment platform</h4>
+                            <p aria-controls="">CTO and Co-Founder
                             </p>
                         </div>
+                        <img class="img-fluid my-4 client-logo" alt="DiveWallet" src="assets/Cliet_Logos/bonfire.png" />
                     </div>
                     <div className="p-3">
                         <p className="secondsec-p">
-                            They communicate clearly and outline the product roadmap for us. It has been very easy to work with them.Since the launch, the client has seen success and has been satisfied with Codiste pvt ltd’s quality product. The team has been prompt and dedicated to their work, pushing the timelines to meet them and deliver effectively. Overall, they’ve stood out for their communication skills.
+                            They truly do everything up to a very high standard. Codiste pvt ltd has successfully delivered a functional app praised in many publications for its neatness and speed. They have frequently communicated via Slack and managed the project efficiently using Jira. Their extensive knowledge and humble attitude have been hallmarks of their work.
                         </p>
                     </div>
                 </SplideSlide>
                 <SplideSlide className="splide__slide">
                     <div className="col-auto d-flex">
-                        <img className="career-cirimg" src="assets/images/career/chintan-patel.png" style={{width: "150px",height: "150px"}} />
                         <div className="d-flex flex-column justify-content-center">
                             <h4>Medizen App</h4>
                             <p aria-controls="">CEO <br />Johannesburg, South Africa
                             </p>
                         </div>
+                        <img class="img-fluid my-4 client-logo" alt="DiveWallet" src="assets/Cliet_Logos/Medizen.png" />
                     </div>
                     <div className="p-3">
                         <p className="secondsec-p">
                             Codiste pvt ltd delivered the project within the given timeline and budget. Their communication and collaboration were outstanding using Slack, Lucidhart, and Miro. The team was reliable, well-organized, and proactive.
                         </p>
                     </div>
-                </SplideSlide> 
-			</SplideTrack>
-		</Splide>
+                </SplideSlide>
+            </SplideTrack>
+        </Splide>
     );
 };
 

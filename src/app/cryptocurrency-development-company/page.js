@@ -13,41 +13,26 @@ export const metadata = {
 const CryptoDevelopmentCompany = () => {
 	return (
 		<div>
-			<div className="bg-color">
-				<div className="container container-fluid">
+
+			<div class="bg-color">
+				<div class="container container-fluid">
 					<section>
-						<div className="row firstsec d-flex align-items-center">
-							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
-								<h1 className="all-head">
-									Cryptocurrency Development Company{" "}
-								</h1>
-								<p className="all-p me-5 mb-4 mt-3">
-									We offer innovative decentralized crypto
-									solutions development services with robust
-									security and privacy standards. We are
-									equipped with blockchain, hyper ledger, and
-									smart contracts for a seamless user
-									experience in crypto trading and investment.
-								</p>
-								<Link href="/contact" className="book-btn">Let’s Talk</Link>
-							</div>
-							<div className="col-lg-6 col-sm-12 p-5 ">
-								<img
-									className="img-fluid d-flex align-items-center justify-content-center"
-									style={{
-										height: "450px",
-										width: "auto",
-										margin: "auto",
-										padding: "20px",
-									}}
-									src="assets/images/main/Cryptocurrency Development_.png"
-								/>
+						<div class="row firstsec ">
+							<div class="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
+								<div class="col-12 col-lg-5 order-2 order-lg-1">
+									<h1 class="all-head">Cryptocurrency Development Company</h1>
+									<p class="all-p me-5 my-4">We offer innovative decentralized crypto solutions development
+										services with robust security and privacy standards. We are equipped with blockchain, hyper
+										ledger, and smart contracts for a seamless user experience in crypto trading and investment.
+									</p>
+									<button class="book-btn">Let’s Talk</button>
+								</div>
+								<div class="col-12 col-lg-auto mb-5 mb-lg-0 order-1 order-lg-2"><img class='img-fluid' src="assets/images/main/Cryptocurrency Development_.png" alt="Cryptocurrency Development" /></div>
 							</div>
 						</div>
 					</section>
 				</div>
 			</div>
-
 			<ClientSlider />
 
 			<div className="container container-fluid">
@@ -140,10 +125,10 @@ const CryptoDevelopmentCompany = () => {
 				</section>
 			</div>
 
-			<div className="py-5">
+			<div className="py-5 bg-color">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">
+						<h1 className="all-head text-center">
 							Why Choose Codiste for Cryptocurrency Development
 							Services?
 						</h1>
@@ -156,7 +141,7 @@ const CryptoDevelopmentCompany = () => {
 					</div>
 
 					<div className="row">
-						<div className="col-6 col-md-4 text-center p-5 intsec-border">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
 								alt=""
@@ -175,7 +160,7 @@ const CryptoDevelopmentCompany = () => {
 								product.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-border">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
 								alt=""
@@ -195,7 +180,7 @@ const CryptoDevelopmentCompany = () => {
 								highly engaging and immersive experience.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderlast">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
 								alt=""
@@ -214,7 +199,7 @@ const CryptoDevelopmentCompany = () => {
 								gaining traction in the crypto space.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderbelow">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
 							<img
 								className="img-fluid mb-2"
 								alt=""
@@ -231,7 +216,7 @@ const CryptoDevelopmentCompany = () => {
 								ensure that end products meet your needs.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderbelow">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
 								alt=""
@@ -252,7 +237,7 @@ const CryptoDevelopmentCompany = () => {
 								blockchain security.{" "}
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 ">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
 							<img
 								className="img-fluid mb-2"
 								alt=""

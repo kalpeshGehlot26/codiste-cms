@@ -13,52 +13,32 @@ export const metadata = {
 const MobileAppDevelopmentCompany = () => {
 	return (
 		<div>
-			<div className="bg-color">
-				<div className="container container-fluid py-4">
+
+			<div class="bg-color">
+				<div class="container container-fluid">
 					<section>
-						<div className="row firstsec d-flex align-items-center">
-							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
-								<h1 className="all-head">
-									Mobile App Development Company{" "}
-								</h1>
-								<p className="all-p me-5 mb-4 mt-3">
-									We are a digital mobile application
-									development company that offers the
-									best-in-class end-user experience with a
-									mobile application. Our application
-									development team builds lightning-fast,
-									smooth & bug-free Mobile Apps that exceed
-									expectations and drive better user
-									engagement. We offer iOS, Android, Flutter,
-									and React native application development for
-									businesses and enterprises envisioned to
-									improve user engagement. Our team works with
-									you extensively to visualize your ideas and
-									build your vision in reality. Whether it's a
-									consumer-focused app or an enterprise
-									solution, we are dedicated to delivering
-									top-notch mobile applications that drive
-									better experience and business growth.
-								</p>
-								<Link href="/contact" className="book-btn">Let’s Talk</Link>
-							</div>
-							<div className="col-lg-6 col-sm-12 p-5 ">
-								<img
-									className="img-fluid d-flex align-items-center justify-content-center"
-									style={{
-										height: "450px",
-										width: "auto",
-										margin: "auto",
-										padding: "20px",
-									}}
-									src="assets/images/main/Mobile App Development.png"
-								/>
+						<div class="row firstsec ">
+							<div class="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
+								<div class="col-12 col-lg-6 order-2 order-lg-1">
+									<h1 class="all-head">Mobile App Development Company</h1>
+									<p class="all-p me-5 my-4">We are a digital mobile application development company that
+										offers the best-in-class end-user experience with a mobile application. Our application
+										development team builds lightning-fast, smooth & bug-free Mobile Apps that exceed
+										expectations and drive better user engagement. We offer iOS, Android, Flutter, and React
+										native application development for businesses and enterprises envisioned to improve user
+										engagement. Our team works with you extensively to visualize your ideas and build your
+										vision in reality. Whether it's a consumer-focused app or an enterprise solution, we are
+										dedicated to delivering top-notch mobile applications that drive better experience and
+										business growth.
+									</p>
+									<button class="book-btn">Let’s Talk</button>
+								</div>
+								<div class="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img class='img-fluid' src="assets/images/main/Mobile App Development.png" alt="Mobile App Development" /></div>
 							</div>
 						</div>
 					</section>
 				</div>
 			</div>
-
 			<ClientSlider />
 
 			<div className="container container-fluid">
@@ -155,10 +135,10 @@ const MobileAppDevelopmentCompany = () => {
 				</section>
 			</div>
 
-			<div className="py-5">
+			<div className="py-5 bg-color">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">
+						<h1 className="all-head text-center">
 							Why Choose Codiste For Mobile App Development
 							Services?{" "}
 						</h1>
@@ -173,7 +153,7 @@ const MobileAppDevelopmentCompany = () => {
 					</div>
 
 					<div className="row">
-						<div className="col-6 col-md-4 text-center p-5 intsec-border">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
 								alt="Cross-Platform Mobile Applications"
@@ -193,7 +173,7 @@ const MobileAppDevelopmentCompany = () => {
 								low-code development services.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-border">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
 								alt="Customization and Personalization"
@@ -213,7 +193,7 @@ const MobileAppDevelopmentCompany = () => {
 								add value to your business goals.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderlast">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
 								alt="Hybrid Mobile Applications"
@@ -233,7 +213,7 @@ const MobileAppDevelopmentCompany = () => {
 								an exceptional user experience.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderbelow">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
 							<img
 								className="img-fluid mb-2"
 								alt="Emerging Technologies"
@@ -255,7 +235,7 @@ const MobileAppDevelopmentCompany = () => {
 								businesses.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderbelow">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
 								alt="Expertise in Multiple Industries"
@@ -275,7 +255,7 @@ const MobileAppDevelopmentCompany = () => {
 								markets.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 ">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
 							<img
 								className="img-fluid mb-2"
 								alt="Quality Assurance and Testing"

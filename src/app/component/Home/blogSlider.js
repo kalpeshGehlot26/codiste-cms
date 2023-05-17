@@ -3,8 +3,10 @@ import React from "react";
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
+
+// ====Home page slider responsive===
 const BlogSlider = () => {
-	return (
+    return (
         <Splide
             hasTrack={false}
             options={{
@@ -13,16 +15,31 @@ const BlogSlider = () => {
                 pagination: true,
                 autoplay: true,
                 interval: 2000,
-                perPage: 3,
+                perPage: 5,
                 arrows: false,
                 rewind: true,
                 autoScroll: {
                     speed: 2,
                 },
+                breakpoints: {
+                    1400: {
+                        perPage: 4,
+                    },
+                    1000: {
+                        perPage: 3,
+                    },
+                    600: {
+                        perPage: 2,
+                    },
+                    400: {
+                        perPage: 1,
+                    }
+                }
             }}
+            className="slide-pagination"
         >
             <SplideTrack>
-                <SplideSlide className="splide__slide p-2">
+                <SplideSlide className="splide__slide p-2 ">
                     <div className="position-relative">
                         <img className="img-fluid rounded p-0" alt="Blockchain" src="assets/images/blogs/Blog1.jpg" />
                         <div className="blogboxbg">

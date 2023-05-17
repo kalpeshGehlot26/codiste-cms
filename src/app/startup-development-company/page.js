@@ -13,42 +13,24 @@ export const metadata = {
 const StartupDevelopmentCompany = () => {
 	return (
 		<div>
-			<div className="bg-color">
-				<div className="container container-fluid py-4">
+
+			<div class="bg-color">
+				<div class="container container-fluid">
 					<section>
-						<div className="row firstsec d-flex align-items-center">
-							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
-								<h1 className="all-head">
-									Startup Development Company
-								</h1>
-								<p className="all-p me-5 mb-4 mt-3">
-									We are an emerging startup app development
-									company offering basic and advanced
-									development and technological support for
-									emerging businesses and small enterprises
-									looking to make it big with rapidly growing
-									technologies. Our company develops
-									end-to-end software for startups and small
-									to medium-scale enterprises. For businesses
-									and enterprises needing more embedding
-									essential software support for their
-									companies, we are a one-stop shop for
-									comprehensive custom software development
-									for startups.
-								</p>
-								<Link href="/book-a-call" className="book-btn">Let’s Talk</Link>
-							</div>
-							<div className="col-lg-6 col-sm-12 p-5 ">
-								<img
-									className="img-fluid d-flex align-items-center justify-content-center"
-									style={{
-										height: "450px",
-										width: "auto",
-										margin: "auto",
-										padding: "20px",
-									}}
-									src="assets/images/main/Start Up Development_.png"
-								/>
+						<div class="row firstsec ">
+							<div class="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
+								<div class="col-12 col-lg-5 order-2 order-lg-1">
+									<h1 class="all-head">Startup Development Company</h1>
+									<p class="all-p me-5 my-4">We are an emerging startup app development company offering
+										basic and advanced development and technological support for emerging businesses and small
+										enterprises looking to make it big with rapidly growing technologies. Our company develops
+										end-to-end software for startups and small to medium-scale enterprises. For businesses and
+										enterprises needing more embedding essential software support for their companies, we are a
+										one-stop shop for comprehensive custom software development for startups.
+									</p>
+									<button class="book-btn">Let’s Talk</button>
+								</div>
+								<div class="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img class='img-fluid' src="assets/images/main/Start Up Development_.png" alt="Startup Development" /></div>
 							</div>
 						</div>
 					</section>
@@ -112,16 +94,16 @@ const StartupDevelopmentCompany = () => {
 				</section>
 			</div>
 
-			<div className="py-5">
+			<div className="py-5 bg-color">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">
+						<h1 className="all-head text-center">
 							Why Choose Codiste For Startup Development Services?
 						</h1>
 					</div>
 
 					<div className="row mx-5">
-						<div className="col-6  text-center p-5 intsec-border">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
 								alt="Cost Efficient Development"
@@ -141,7 +123,7 @@ const StartupDevelopmentCompany = () => {
 								business quickly.
 							</p>
 						</div>
-						<div className="col-6  text-center p-5 intsec-borderlast">
+						<div className="col-12 col-md-6 col-lg-4  text-center p-5 Crosssec-6">
 							<img
 								className="img-fluid mb-2"
 								alt="Immersive Experience Integration"
@@ -161,7 +143,7 @@ const StartupDevelopmentCompany = () => {
 								experiences.
 							</p>
 						</div>
-						<div className="col-6 text-center p-5 intsec-borderbelow">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
 								alt="Blockchain Solutions"
@@ -181,7 +163,7 @@ const StartupDevelopmentCompany = () => {
 								your industry.
 							</p>
 						</div>
-						<div className="col-6  text-center p-5 ">
+						<div className="col-12 col-md-6 col-lg-4  text-center p-5 ">
 							<img
 								className="img-fluid mb-2"
 								alt="Tech & Dev Hub"

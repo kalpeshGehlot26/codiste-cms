@@ -72,6 +72,7 @@ const HomePage = () => {
 					<div className="row">
 						<div className="col-xl-6 col-md-12 career-block">
 							<FeedbackSlider />
+
 						</div>
 
 						<div className="col-xl-6 col-md-12">

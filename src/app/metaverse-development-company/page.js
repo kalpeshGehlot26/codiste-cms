@@ -13,37 +13,23 @@ export const metadata = {
 const MetaverseDevelopmentCompany = () => {
 	return (
 		<div>
-			<div className="bg-color mainsec">
-				<div className="container container-fluid">
+			<div class="bg-color">
+				<div class="container container-fluid">
 					<section>
-						<div className="row  d-flex align-items-center py-3">
-							<div className="col-lg-6 col-sm-12  order-sm-2 order-lg-1">
-								<h1 className="all-head">
-									Enterprise-Grade Metaverse Development
-									Company
-								</h1>
-								<p className="all-p">
-									We are a metaverse development company that
-									helps businesses and organizations access
-									the decentralized Metaverse. We offer an
-									immersive 3D virtual user experience by
-									integrating with traditional website/mobile
-									and stand-alone metaverse service
-									applications built on secure, scalable, and
-									reliable blockchain networks, APIs, and
-									mixed realities. Our industrial metaverse
-									development allows you to choose from a
-									broad spectrum of blockchains for a
-									personalized experience.
-								</p>
-								<Link href="/contact" className="book-btn">Let’s Talk</Link>
-							</div>
-							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0 order-sm-1 order-lg-2">
-								<img
-									className="img-fluid"
-									src="assets/images/main/metaverse.png"
-									alt=""
-								/>
+						<div class="row firstsec ">
+							<div class="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
+								<div class="col-12 col-lg-5 order-2 order-lg-1">
+									<h1 class="all-head">Enterprise-Grade Metaverse Development Company</h1>
+									<p class="all-p me-5 my-4">We are a metaverse development company that helps businesses and
+										organizations access the decentralized Metaverse. We offer an immersive 3D virtual user experience by
+										integrating with traditional website/mobile and stand-alone metaverse service applications built on
+										secure, scalable, and reliable blockchain networks, APIs, and mixed realities. Our industrial metaverse
+										development allows you to choose from a broad spectrum of blockchains for a personalized experience.
+									</p>
+									<button class="book-btn">Let’s Talk</button>
+								</div>
+								<div class="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0"><img class='img-fluid' src="assets/images/main/metaverse.png"
+									alt="Enterprise-Grade Metaverse" /></div>
 							</div>
 						</div>
 					</section>
@@ -328,8 +314,8 @@ const MetaverseDevelopmentCompany = () => {
 							</div>
 						</div>
 						<div className="row">
-							<div className="col-xl-4 col-md-6 col-sm-12 pb-3"></div>
-							<div className="col-xl-4 col-md-6 col-sm-12 pb-3">
+							<div className="col-xl-4  col-sm-12 pb-3"></div>
+							<div className="col-xl-4  col-sm-12 pb-3">
 								<div className="service-block p-4 h-100">
 									<h2 className="secondsec-head mt-4">
 										Metaverse Travel & Tourism Platforms
@@ -354,16 +340,16 @@ const MetaverseDevelopmentCompany = () => {
 									</p>
 								</div>
 							</div>
-							<div className="col-xl-4 col-md-6 col-sm-12 pb-3"></div>
+							<div className="col-xl-4  col-sm-12 pb-3"></div>
 						</div>
 					</div>
 				</section>
 			</div>
 
-			<div className="py-5">
+			<div className="py-5 bg-color">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">
+						<h1 className="all-head text-center">
 							Why Choose Codiste for Metaverse Services?
 						</h1>
 						<p className="all-p text-center">
@@ -377,7 +363,7 @@ const MetaverseDevelopmentCompany = () => {
 					</div>
 
 					<div className="row">
-						<div className="col-6 col-md-4 text-center p-5 intsec-border">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
 								alt=""
@@ -397,7 +383,7 @@ const MetaverseDevelopmentCompany = () => {
 								metaverse.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-border">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
 								alt=""
@@ -417,7 +403,7 @@ const MetaverseDevelopmentCompany = () => {
 								highly engaging and immersive experience.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderlast">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
 								alt=""
@@ -437,7 +423,7 @@ const MetaverseDevelopmentCompany = () => {
 								popular.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderbelow">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
 							<img
 								className="img-fluid mb-2"
 								alt=""
@@ -455,7 +441,7 @@ const MetaverseDevelopmentCompany = () => {
 								awareness, customer loyalty, and brand advocacy.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderbelow">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
 								alt=""
@@ -476,7 +462,7 @@ const MetaverseDevelopmentCompany = () => {
 								to thrive in the metaverse.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 ">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
 							<img
 								className="img-fluid mb-2"
 								alt=""
@@ -501,7 +487,7 @@ const MetaverseDevelopmentCompany = () => {
 			</div>
 
 			<div className="blackdiv">
-				<div className=" container container-fluid d-flex align-items-center justify-content-between py-5">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3">
 					<p>
 						Level up your CX with a seamless Metaverse integration
 						with Us!{" "}
