@@ -88,7 +88,7 @@ const MLDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Enterprise Automation Tools"
-								src="assets/images/improve.png"
+								src="assets/images/Automation Tools.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Enterprise Automation Tools

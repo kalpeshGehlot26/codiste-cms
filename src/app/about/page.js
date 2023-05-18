@@ -437,7 +437,7 @@ const About = () => {
 										alt="Mobile App Development Service"
 										src="assets/images/services/Mobile App Development.png"
 									/>
-									<Link>
+									<Link href="/mobile-app-development-company">
 										<span className="fs-3">Mobile App</span>
 										<br />
 										Development Service

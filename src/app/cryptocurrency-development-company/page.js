@@ -76,7 +76,7 @@ const CryptoDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt=""
-								src="assets/images/iblockchain.png"
+								src="assets/images/Blockchain Network Support.png"
 							/>
 							<h2 className=" text- center secondsec-head">
 								10+ Blockchain Network Support
@@ -95,7 +95,7 @@ const CryptoDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt=""
-								src="assets/images/security.png"
+								src="assets/images/Immutable Security.png"
 							/>
 							<h2 className=" text- center secondsec-head">
 								Immutable Security with DLT
