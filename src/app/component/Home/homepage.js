@@ -170,8 +170,7 @@ const HomePage = () => {
 						and new developments in the industry with us.
 					</p>
 				</div>
-				<BlogSlider />
-				{/* <AllServiceBlogSlider items={homeBlogList} /> */}
+				<AllServiceBlogSlider items={homeBlogList} />
 			</div>
 
 			<div className=" py-5 bg-color">
@@ -182,28 +181,28 @@ const HomePage = () => {
 					</div>
 					<div className="row">
 						<div className="col-lg-4 col-md-6 col-sm-12 mb-5">
-							<div class="card" >
-								<img src='assets/images/diwallet-case/Dive Wallet.png' class="card-img-top img-fluid casestudy-img" alt="Divewallet – The Crypto Wallet" />
-								<div class="card-body cardsec-clr">
-									<h5 class="card-title">Divewallet – The Crypto Wallet</h5>
+							<div className="card" >
+								<img src='assets/images/diwallet-case/Dive Wallet.png' className="card-img-top img-fluid casestudy-img" alt="Divewallet – The Crypto Wallet" />
+								<div className="card-body cardsec-clr">
+									<h5 className="card-title">Divewallet – The Crypto Wallet</h5>
 									<Link href="/portfolio/divewallet" className="btn book-btn mt-3">Read More</Link>
 								</div>
 							</div>
 						</div>
 						<div className="col-lg-4 col-md-6 col-sm-12 mb-5">
-							<div class="card" >
-								<img src='assets/images/case-coinxpad/Coinxpad.png' class="card-img-top img-fluid casestudy-img" alt='CoinxPad Launchpad' />
-								<div class="card-body cardsec-clr">
-									<h5 class="card-title">CoinxPad Launchpad</h5>
+							<div className="card" >
+								<img src='assets/images/case-coinxpad/Coinxpad.png' className="card-img-top img-fluid casestudy-img" alt='CoinxPad Launchpad' />
+								<div className="card-body cardsec-clr">
+									<h5 className="card-title">CoinxPad Launchpad</h5>
 									<Link href="/portfolio/coinxpad" className=" btn book-btn mt-3">Read More</Link>
 								</div>
 							</div>
 						</div>
 						<div className="col-lg-4 col-md-6 col-sm-12 mb-5">
-							<div class="card" >
-								<img src='assets/images/case-couter10/Counterten.png' class="card-img-top img-fluid casestudy-img" alt='CounterTen – solana Marketplace' />
-								<div class="card-body cardsec-clr">
-									<h5 class="card-title">CounterTen – Solana Marketplace</h5>
+							<div className="card" >
+								<img src='assets/images/case-couter10/Counterten.png' className="card-img-top img-fluid casestudy-img" alt='CounterTen – solana Marketplace' />
+								<div className="card-body cardsec-clr">
+									<h5 className="card-title">CounterTen – Solana Marketplace</h5>
 									<Link href="/portfolio/counterten-solana-marketplace" className=" btn book-btn mt-3">Read More</Link>
 								</div>
 							</div>
