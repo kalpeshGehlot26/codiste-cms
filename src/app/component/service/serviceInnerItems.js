@@ -34,7 +34,7 @@ const ServiceInnerItems = ({serviceItems}) => {
 			{totalServiceCount > serviceCount ? (
 				<div className="d-flex align-items-center justify-content-center">
 					<button
-						className="book-btn mt-3 "
+						className="book-btn mt-3 mb-3"
 						onClick={() =>
 							setServiceCount((prevState) => prevState + 3)
 						}

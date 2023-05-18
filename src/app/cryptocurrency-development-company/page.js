@@ -4,6 +4,8 @@ import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import cryptoServiceBlogs from "../data/services/service-blogs/cryptoServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
+import ServiceInnerItems from "../component/service/serviceInnerItems";
+import cryptoList from "../data/services/service-items/crypto";
 
 export const metadata = {
 	title: "Cryptocurrency Development Company | Codiste",
@@ -46,83 +48,7 @@ const CryptoDevelopmentCompany = () => {
 							enterprises.{" "}
 						</p>
 					</div>
-					<div className="row ">
-						<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
-							<div className="service-block p-4 h-100">
-								<h2 className="secondsec-head mt-4">
-									Crypto Wallet Development
-								</h2>
-								<p className="secondsec-p">
-									Being a leading crypto development services
-									provider, we specialize in building secure
-									and user-friendly Crypto Wallets with a
-									smooth and easy-to-use interface and robust
-									platform to handle large amounts of data and
-									user traffic. Our cryptocurrency wallet
-									development team technically has expertise
-									in blockchain technology to develop custom
-									wallets that provide seamless transactional
-									experiences for users. We also ensure that
-									the wallets are designed to meet the highest
-									security standards to protect users' digital
-									assets by utilizing blockchain-based
-									technologies like Smart Contracts, DAOs, and
-									hyper ledgers.
-								</p>
-							</div>
-						</div>
-						<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
-							<div className="service-block p-4 h-100">
-								<h2 className="secondsec-head mt-4">
-									Crypto Exchange Development
-								</h2>
-								<p className="secondsec-p">
-									We offer Crypto Exchange Development
-									services with end-to-end development support
-									for businesses and enterprises who want a
-									robust yet feature-loaded platform. Our
-									dedicated cryptocurrency exchange
-									development team builds decentralized
-									exchanges (DEX) and centralized exchanges
-									(CEX) with innovative features, personalized
-									touch, and immutable security. Our team of
-									experienced developers has in-depth
-									knowledge of blockchain technology, enabling
-									us to build secure, scalable, and
-									user-friendly exchanges. We can help you
-									leverage the potential of blockchain
-									technology to build exchanges that provide
-									seamless trading experiences to users and
-									help you scale in crypto exchange and
-									investments.
-								</p>
-							</div>
-						</div>
-						<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
-							<div className="service-block p-4 h-100">
-								<h2 className="secondsec-head mt-4">STO</h2>
-								<p className="secondsec-p">
-									{" "}
-									We provide comprehensive Security Token
-									Offering Development services that enable
-									businesses to create security tokens that
-									can be traded on the decentralized ecosystem
-									and used to collect funds for any undergoing
-									development or product launch. Our team of
-									blockchain experts can help you create
-									tokens that meet the regulatory requirements
-									while providing investors access to a
-									broader pool of investment opportunities.
-									Our cryptocurrency development division can
-									also assist you in building a decentralized
-									autonomous organization (DAO) that enables
-									stakeholders to participate in
-									decision-making processes, ensuring
-									transparency and fairness.
-								</p>
-							</div>
-						</div>
-					</div>
+					<ServiceInnerItems serviceItems={cryptoList} />
 				</section>
 			</div>
 
