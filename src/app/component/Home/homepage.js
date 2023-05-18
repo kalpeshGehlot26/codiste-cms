@@ -208,15 +208,6 @@ const HomePage = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-4 col-md-6 col-sm-12 mb-5">
-							<div class="card custom-cardhome" >
-								<img src='assets/images/case-ml/MLEstimation.png' class="card-img-top img-fluid casestudy-img" alt='Machine Learning Estimation' />
-								<div class="card-body cardsec-clr">
-									<h5 class="card-title">Machine Learning Estimation</h5>
-									<Link href="/portfolio/ml-estimation" className=" btn book-btn mt-3">Read More</Link>
-								</div>
-							</div>
-						</div>
 					</div>
 					<div className="text-center">
 						<Link href="/codiste-portfolio" className="book-btn">Explore More</Link>
