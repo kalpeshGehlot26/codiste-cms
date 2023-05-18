@@ -32,9 +32,9 @@ const Header = () => {
 								className="nav-link dropdown-toggle"
 								href="/services"
 								id="navbarScrollingDropdown"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
+								// role="button"
+								// data-bs-toggle="dropdown"
+								// aria-expanded="false"
 							>
 								Services
 							</Link>

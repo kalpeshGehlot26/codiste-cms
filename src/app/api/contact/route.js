@@ -1,14 +1,12 @@
 import { NextResponse } from "next/server";
-import { Readable } from 'stream';
-
-const nodemailer = require('nodemailer');
-const nodemailerSendgrid = require('nodemailer-sendgrid');
+const nodemailer = require("nodemailer");
+import smtpTransport from "nodemailer-smtp-transport";
 
 export async function GET(req) {
 	try {
 		return NextResponse.json({ message: "Successful Response" });
 	} catch (err) {
-		console.log(err)
+		console.log(err);
 		return NextResponse.json({ message: "Internal server error" });
 	}
 }
@@ -16,11 +14,6 @@ export async function GET(req) {
 export async function POST(req, res) {
 	try {
 		const data = await req.json();
-		const transport = nodemailer.createTransport(
-			nodemailerSendgrid({
-				apiKey: "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"
-			})
-		);
 		const html = `<html lang="en">
 			<head>
 		  		<meta charset="utf-8">
@@ -28,30 +21,53 @@ export async function POST(req, res) {
 		  		<title>Contact Us</title>
 			</head>
 			<body>
-				<h4>Hello Team,</h4>
+				<h3>Hello Team,</h3>
 				<p>I have submitted my details through your website's contact us page. I would appreciate it if you could review my information and reach out to discuss my concerns. I believe that your team of experts can provide the assistance I need.</p>
-				<h5>Name: ${data.name}<h5>
-				<h5>Email: ${data.email}</h5>
-				<h5>Contact: ${data.number}</h5>
-				<h5>Service: ${data.services}</h5>				
-				<h5>Message: ${data.message}</h5>
+				<h4>Name: ${data.name}<h4>
+				<h4>Email: ${data.email}</h4>
+				<h4>Contact: ${data.number}</h4>
+				<h4>Service: ${data.services}</h4>				
+				<h4>Message: ${data.message}</h4>
 			</body></html>`;
 
-		transport.sendMail({
-			from: 'www.codiste.com <sonali.p@codiste.com>',
-			to: 'sonali.p@codiste.com',
-		  	subject: `Inquiry for service ${data.services}`,
-		   	html: html
-		});
-	
-		return NextResponse.json({ 
-			status: true,
-			message: "Thank you for contacting us! We'll reach out to you soon"
-		});
-	} catch (err) {
-		return NextResponse.json({ 
+		var transporter = nodemailer.createTransport(
+			smtpTransport({
+				pool: true,
+				port: 587,
+				secure: true, 
+				service: "gmail",
+				host: "smtp.gmail.com",
+				auth: {
+					user: process.env.NEXT_PUBLIC_EMAIL,
+					pass: process.env.NEXT_PUBLIC_PASSWORD,
+				},
+			})
+		);
+
+		var mailOptions = {
+			from: process.env.NEXT_PUBLIC_EMAIL,
+			to: "sonali.p@codiste.com",
+			subject: `Inquiry for service ${data.services}`,
+			html: html,
+		};
+
+		const isSend = await transporter.sendMail(mailOptions)
+			
+		if(!isSend.rejected.length) {
+			return NextResponse.json({
+				status: true,
+				message: "Thank you for contacting us! We'll reach out to you soon",
+			});
+		}
+		return NextResponse.json({
 			status: false,
-			message: "Please try again!" 
+			message: "Something went wrong! Please try again",
+		});
+
+	} catch (err) {
+		return NextResponse.json({
+			status: false,
+			message: "Please try again!",
 		});
 	}
 }
