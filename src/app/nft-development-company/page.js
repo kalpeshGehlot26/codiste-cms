@@ -6,6 +6,7 @@ import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
 import nftList from "../data/services/service-items/nft";
+import jsonData from "../data/schema";
 
 export const metadata = {
 	title: "NFT  Development Company | Codiste",
@@ -16,7 +17,10 @@ export const metadata = {
 const NFTDevelopment = () => {
 	return (
 		<div>
-
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.nftService) }}
+			/>
 			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>

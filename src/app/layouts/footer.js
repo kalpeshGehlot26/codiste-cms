@@ -19,7 +19,7 @@ const Footer = () => {
 								<div className="mt-5">
 									<h4>Get In Touch</h4>
 									<ul className="p-0 ">
-										<li><i class="fa-brands fa-facebook-f"></i>
+										<li><i className="fa-brands fa-facebook-f"></i>
 											<img
 												className="me-2"
 												src="../../assets/images/email.png"
