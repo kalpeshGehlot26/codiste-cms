@@ -1267,6 +1267,8 @@ ul.AboutService-style img:hover {
 }
 ul.AboutService-style a {
   text-align: center;
+  text-decoration: none;
+  color: #000 !important;
 }
 ul.AboutService-style a:hover {
    transform: scale(1.1);
