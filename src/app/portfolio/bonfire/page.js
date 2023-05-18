@@ -17,11 +17,10 @@ const BornfirePortfolio = () => {
 						<div className="row firstsec ">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
 								<div className="col-12 col-lg-5 order-2 order-lg-1">
-									<h1 className="all-head">A Fractional Real Estate Investment Marketplace</h1>
+									<h1 className="all-head">Bonefire</h1>
 									<p className="all-p me-5 my-4">
 										<strong>
-											A Complete, Comprehensive Real
-											Estate Tokenize Solutions
+											A Fractional Real Estate Investment Marketplace
 										</strong>{" "}
 										<br />
 										Embraces technology, strategy, and

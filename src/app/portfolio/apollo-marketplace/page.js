@@ -18,10 +18,11 @@ const ApolloPortfolio = () => {
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
 								<div className="col-12 col-lg-5 order-2 order-lg-1">
 									<h1 className="all-head">
-										Launching an Investment Ecosystem
-										Platform
+										Apollo Marketplace
 									</h1>
 									<p className="all-p me-5 my-4">
+										<strong>Launching an Investment Ecosystem
+											Platform</strong><br />
 										Codiste deploys a decentralized
 										Launchpad platform named Apollo
 										Marketplace, aimed at enabling users
