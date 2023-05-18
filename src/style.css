@@ -194,6 +194,10 @@ footer {
 .footer-icon li {
    margin-right: 30px;
 }
+ul.footer-icon li:hover svg path{
+ fill: #f9004d;
+}
+
 
 .footer-menu h4 {
    font-size: 20px;
