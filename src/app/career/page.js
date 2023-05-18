@@ -29,37 +29,31 @@ const Career = () => {
 					<button className="book-btn mt-2">Explore Opportunities</button>
 				</div>
 			</div>
-
 			<div className="container container-fluid ">
 				<div className="row">
-					<div className="col-xl-6 col-sm-12 mb-5">
-						<img
-							className="img-fluid d-flex align-items-center justify-content-center"
-							style={{height: "400px", width : "auto", margin: "auto"}}
-							src="assets/images/main/Career_.png"
-							alt=""
-						/>
+					<div className="col-xl-6 col-md-5 col-sm-12 mb-5">
+						<img className='img-fluid d-flex align-items-center justify-content-center' src="assets/images/main/Career_.png"
+							alt="Team" />
+
 					</div>
-					<div className="col-xl-6 col-sm-12 mb-5 ">
-						<h1 className="all-head text-center mb-4">Join Our Team</h1>
-						<h3 className="mb-3">
-							Are you passionate about technology and looking for
-							a dynamic career in the tech industry?{" "}
-						</h3>
-						<p className="secondsec-p">
-							Our company is at the forefront of innovation,
-							providing advanced software and tech solutions that
-							empower and help organizations & businesses to
-							succeed. We seek growth-oriented and talented
-							individuals to empower our team with technical
-							expertise. With a focus on collaboration &
-							creativity, we have exciting opportunities for
-							growth and development in a fast-paced and
-							supportive work environment.
+					<div className="col-xl-6 col-md-7 col-sm-12 mb-5 ">
+						<h1 className="all-head  mb-4">Join Our Team</h1>
+						<h3 className="mb-3">Are you passionate about technology and looking for a dynamic career in the tech
+							industry? </h3>
+						<p className="secondsec-p">Our company is at the forefront of innovation, providing advanced software and
+							tech solutions that
+							empower and help organizations & businesses to succeed. We seek growth-oriented and talented
+							individuals to empower our team with technical expertise. With a focus on collaboration &
+							creativity, we have exciting opportunities for growth and development in a fast-paced and supportive
+							work environment.
 						</p>
 					</div>
+
 				</div>
 			</div>
+
+
+
 			<div className="container-fluid p-0">
 				<section>
 					<div className="blacksec">
@@ -86,7 +80,7 @@ const Career = () => {
 				<h1 className="all-head text-center">
 					Beyond the Code: Exploring Life at Codiste
 				</h1>
-                <p className="secondsec-p text-center mb-5">A Peek into Codiste's Dynamic Culture</p>
+				<p className="secondsec-p text-center mb-5">A Peek into Codiste's Dynamic Culture</p>
 				<div className="row mt-5">
 					<div className="col-xl-3 col-md-6 col-sm-12 pb-3 ">
 						<div className="service-block p-4 h-100">
@@ -156,57 +150,69 @@ const Career = () => {
 
 			<div className="container container-fluid  firstsec">
 				<h1 className="all-head text-center">
-                    Codiste Reflections Through the Lens
+					Codiste Reflections Through the Lens
 				</h1>
-                <EventSlider />
+				<EventSlider />
 			</div>
 
 			<div className="container container-fluid  firstsec">
 				<h1 className="all-head text-center">
-                    Our People, Our Success: The Codiste Team Speaks Out
+					Our People, Our Success: The Codiste Team Speaks Out
 				</h1>
-                <EmployeeSlider />
+				<EmployeeSlider />
 			</div>
 
 			<div className="firstsec bg-color">
 				<div className="container container-fluid mb-5  py-5">
-					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+					<div className=" d-flex text-center mb-5">
 						<h1 className="all-head">Discover Your Dream Job: Current Openings at Codiste</h1>
 					</div>
 					<div className="row">
-						<div className="col-md-4 col-sm-12 pb-3 ">
-							<div className="service-block p-4 h-100 ">
-								<h3 className="secondsec-head">
-									Business Development Executive
-								</h3>
-								<p className="secondsec-p">
-									No. of vacancy: 1 <br />
-									Experience Required : 4 to 5 yrs
-								</p>
+						<div className="col-lg-4 col-md-6 col-12 pb-3 ">
+							<div className="service-block p-4 h-100 d-flex flex-column justify-content-between">
+								<div>
+									<h3 className="secondsec-head">
+										Business Development Executive
+									</h3>
+									<p className="secondsec-p">
+										No. of vacancy: 1 <br />
+										Experience Required : 4 to 5 yrs
+									</p>
+								</div>
+								<div>
+									<button className="book-btn">Apply Now</button>
+								</div>
+							</div>
+						</div>
+						<div className="col-lg-4 col-md-6 col-12 pb-3 ">
+							<div className="service-block p-4 h-100 d-flex flex-column justify-content-between">
+								<div><h3 className="secondsec-head">Content Writer </h3>
+									<p className="secondsec-p mt-5">
+										No of vacancy : 1<br />
+										Experience: 2+ years
+									</p>
+								</div>
+								<div>
+									<button className="book-btn">Apply Now</button>
+								</div>
 
-								<button className="book-btn">Apply Now</button>
 							</div>
 						</div>
-						<div className="col-md-4 col-sm-12 pb-3 ">
-							<div className="service-block p-4 h-100 ">
-								<h3 className="secondsec-head">Content Writer </h3>
-								<p className="secondsec-p mt-5">
-									No of vacancy : 1<br />
-									Experience: 2+ years
-								</p>
-								<button className="book-btn">Apply Now</button>
-							</div>
-						</div>
-						<div className="col-md-4 col-sm-12 pb-3 ">
-							<div className="service-block p-4 h-100 ">
-								<h3 className="secondsec-head">
-									Mernstack developer
-								</h3>
-								<p className="secondsec-p mt-5">
-									No of vacancy : 1 <br />
-									Experience : 2 -3 yrs
-								</p>
-								<button className="book-btn">Apply Now</button>
+						<div className="col-lg-4 col-md-6 col-12 pb-3 ">
+							<div className="service-block p-4 h-100 d-flex flex-column justify-content-between">
+								<div>
+									<h3 className="secondsec-head">
+										Mernstack developer
+									</h3>
+									<p className="secondsec-p mt-5">
+										No of vacancy : 1 <br />
+										Experience : 2 -3 yrs
+									</p>
+								</div>
+								<div>
+									<button className="book-btn">Apply Now</button>
+								</div>
+
 							</div>
 						</div>
 					</div>

@@ -309,7 +309,7 @@ const BlockChainDevelopmentCompany = () => {
 				</section>
 			</div>
 
-			<div className="py-5">
+			<div className="py-5 bg-color">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">
@@ -327,7 +327,7 @@ const BlockChainDevelopmentCompany = () => {
 					</div>
 
 					<div className="row">
-						<div className="col-6 col-md-4 text-center p-5 intsec-border">
+						<div className="col-6 col-md-4 text-center p-5 Crosssec-1">
 							<h2 className="secondsec-head text-center">
 								10+ Blockchain Network Support
 							</h2>
@@ -346,7 +346,7 @@ const BlockChainDevelopmentCompany = () => {
 								solutions.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-border">
+						<div className="col-6 col-md-4 text-center p-5 Crosssec-2">
 							<h2 className="secondsec-head text-center">
 								End-To-End Development
 							</h2>
@@ -362,7 +362,7 @@ const BlockChainDevelopmentCompany = () => {
 								easy to use, and fit the market.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderlast">
+						<div className="col-6 col-md-4 text-center p-5 Crosssec-3">
 							<h2 className="secondsec-head text-center">
 								Customized Solutions
 							</h2>
@@ -376,7 +376,7 @@ const BlockChainDevelopmentCompany = () => {
 								and pain points.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderbelow">
+						<div className="col-6 col-md-4 text-center p-5 Crosssec-4">
 							<h2 className="secondsec-head text-center">
 								Organizational Transparency
 							</h2>
@@ -390,7 +390,7 @@ const BlockChainDevelopmentCompany = () => {
 								decisions about your project.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderbelow">
+						<div className="col-6 col-md-4 text-center p-5 Crosssec-5">
 							<h2 className="secondsec-head text-center">
 								Better Security
 							</h2>
@@ -408,7 +408,7 @@ const BlockChainDevelopmentCompany = () => {
 								blockchain industry standards.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 ">
+						<div className="col-6 col-md-4 text-center p-5">
 							<h2 className="secondsec-head text-center">
 								Enhanced Scalability
 							</h2>

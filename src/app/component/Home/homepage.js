@@ -172,31 +172,47 @@ const HomePage = () => {
 			</div>
 
 			<div className=" py-5 bg-color">
-				<div className="container container-fluid py-5">
+				<div className="container container-fluid ">
 					<div className="text-center">
 						<h2 className="all-head mb-5">Innovation in Action: Real-World Case Studies from Codiste</h2>
 
 					</div>
 					<div className="row">
-						<div className="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img className="img-fluid" src='assets/images/diwallet-case/Dive Wallet.png' alt='Divewallet – The Crypto Wallet' /></div>
-							<h5 className="mt-3">Divewallet – The Crypto Wallet</h5>
-							<Link href="/portfolio/divewallet" className=" mt-3 case-btn">Read More</Link>
+						<div className="col-lg-4 col-md-6 col-sm-12 mb-5">
+							<div class="card" >
+								<img src='assets/images/diwallet-case/Dive Wallet.png' class="card-img-top img-fluid casestudy-img" alt="Divewallet – The Crypto Wallet" />
+								<div class="card-body cardsec-clr">
+									<h5 class="card-title">Divewallet – The Crypto Wallet</h5>
+									<Link href="/portfolio/divewallet" className="btn book-btn mt-3">Read More</Link>
+								</div>
+							</div>
 						</div>
-						<div className="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img className="img-fluid" src='assets/images/case-coinxpad/Coinxpad.png' alt='CoinxPad Launchpad' /></div>
-							<h5 className="mt-3">CoinxPad Launchpad</h5>
-							<Link href="/portfolio/coinxpad" className=" mt-3 case-btn">Read More</Link>
+						<div className="col-lg-4 col-md-6 col-sm-12 mb-5">
+							<div class="card" >
+								<img src='assets/images/case-coinxpad/Coinxpad.png' class="card-img-top img-fluid casestudy-img" alt='CoinxPad Launchpad' />
+								<div class="card-body cardsec-clr">
+									<h5 class="card-title">CoinxPad Launchpad</h5>
+									<Link href="/portfolio/coinxpad" className=" btn book-btn mt-3">Read More</Link>
+								</div>
+							</div>
 						</div>
-						<div className="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img className="img-fluid" src='assets/images/case-couter10/Counterten.png' alt='CounterTen – solana Marketplace' /></div>
-							<h5 className="mt-3">CounterTen – solana Marketplace</h5>
-							<Link href="/portfolio/counterten-solana-marketplace" className=" mt-3 case-btn">Read More</Link>
+						<div className="col-lg-4 col-md-6 col-sm-12 mb-5">
+							<div class="card" >
+								<img src='assets/images/case-couter10/Counterten.png' class="card-img-top img-fluid casestudy-img" alt='CounterTen – solana Marketplace' />
+								<div class="card-body cardsec-clr">
+									<h5 class="card-title">CounterTen – Solana Marketplace</h5>
+									<Link href="/portfolio/counterten-solana-marketplace" className=" btn book-btn mt-3">Read More</Link>
+								</div>
+							</div>
 						</div>
-						<div className="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div><img className="img-fluid" src='assets/images/case-ml/MLEstimation.png' alt='Machine Learning Estimation' /></div>
-							<h5 className="mt-3">Machine Learning Estimation</h5>
-							<Link href="/portfolio/ml-estimation" className=" mt-3 case-btn">Read More</Link>
+						<div className="col-lg-4 col-md-6 col-sm-12 mb-5">
+							<div class="card custom-cardhome" >
+								<img src='assets/images/case-ml/MLEstimation.png' class="card-img-top img-fluid casestudy-img" alt='Machine Learning Estimation' />
+								<div class="card-body cardsec-clr">
+									<h5 class="card-title">Machine Learning Estimation</h5>
+									<Link href="/portfolio/ml-estimation" className=" btn book-btn mt-3">Read More</Link>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div className="text-center">
@@ -206,7 +222,7 @@ const HomePage = () => {
 				</div>
 			</div>
 
-			<div className="bg-color">
+			<div className="">
 				<div className="container container-fluid py-5">
 					<section>
 						<div className="row  d-flex align-items-center">
