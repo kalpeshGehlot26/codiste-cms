@@ -114,7 +114,7 @@ const CodistePortfolio = () => {
 									Codiste provides the client with a detailed
 									project plan, including cost estimates and
 									delivery dates, based on the scope and
-									requirements discussed in the previous step
+									requirements discussed in the previous step.
 								</p>
 								<span>4</span>
 							</li>
@@ -151,7 +151,7 @@ const CodistePortfolio = () => {
 							<h1>
 								Ready to take your business to the next level?
 							</h1>
-							<h2 className="">
+							<h2 >
 								Fill out our lead form to contact our team and
 								learn how Codiste can help you drive growth and
 								success.

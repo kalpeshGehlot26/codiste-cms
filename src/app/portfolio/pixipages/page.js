@@ -366,11 +366,9 @@ const PixipagesPortfolio = () => {
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head">
-								Satisfied clients is our proof of our excellence
+								Satisfied clients is our proof of our excellence!
 							</h1>
-							<p className="all-p me-5 text-center">
-								Their Success Stories are our Valuable Feedback
-							</p>
+
 						</div>
 
 						<div className="carousel-inner career-block">

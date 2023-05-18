@@ -224,7 +224,7 @@ const ApolloPortfolio = () => {
 					<p className="secondsec-p text-center">
 						Our team at Codiste deployed the Apollo Platform decked
 						with all the modules and powered with the right set of
-						functionalities. Hereâ€™s a glimpse of what we
+						functionalities. Here is a glimpse of what we
 						delivered...
 					</p>
 				</div>
@@ -459,11 +459,9 @@ const ApolloPortfolio = () => {
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head">
-								Satisfied clients is our proof of our excellence
+								Satisfied clients is our proof of our excellence!
 							</h1>
-							<p className="all-p me-5 text-center">
-								Their Success Stories are our Valuable Feedback
-							</p>
+
 						</div>
 						<div className="carousel-inner career-block">
 							<div className="d-flex align-items-center text-center flex-column custom-crousel">

@@ -84,6 +84,22 @@ const BornfirePortfolio = () => {
 				</div>
 			</div>
 
+
+			<div className="container container-fluid py-5">
+				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+					<h1 className="all-head text-center my-3 ">
+						{" "}
+						What did we deliver?
+					</h1>
+					<p className="secondsec-p text-center">
+						Codiste team has developed a marketplace that allows
+						for fractional ownership of real estate properties by
+						tokenizing them. We have provided a common interface for
+						users to invest and manage their investments in multiple
+						properties in fiat and crypto currency.
+					</p>
+				</div>
+			</div>
 			<div className="bg-color">
 				<div className="container container-fluid py-5">
 					<section>
@@ -176,21 +192,6 @@ const BornfirePortfolio = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5">
-				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head text-center my-3 ">
-						{" "}
-						What did we deliver?
-					</h1>
-					<p className="secondsec-p text-center">
-						Codiste team has developed a marketplace that allows
-						for fractional ownership of real estate properties by
-						tokenizing them. We have provided a common interface for
-						users to invest and manage their investments in multiple
-						properties in fiat and crypto currency.
-					</p>
-				</div>
-			</div>
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -428,11 +429,9 @@ const BornfirePortfolio = () => {
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head">
-								Satisfied clients is our proof of our excellence
+								Satisfied clients is our proof of our excellence!
 							</h1>
-							<p className="all-p me-5 text-center">
-								Their Success Stories are our Valuable Feedback
-							</p>
+
 						</div>
 
 						<div className="carousel-inner career-block">

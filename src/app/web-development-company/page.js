@@ -556,7 +556,7 @@ const WebDevelopmentCompany = () => {
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head text-center">
 								We justify our credibility with their success
-								notes
+								notes!
 							</h1>
 						</div>
 

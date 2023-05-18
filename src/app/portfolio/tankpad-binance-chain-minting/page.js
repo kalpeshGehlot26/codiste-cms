@@ -16,13 +16,13 @@ const TankpadPortfolio = () => {
 						<div className="row firstsec ">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
 								<div className="col-12 col-lg-5 order-2 order-lg-1">
-									<h1 className="all-head">Tankpad</h1>
+									<h1 className="all-head">Tankpad – Binance chain Minting</h1>
 									<p className="all-p me-5 my-4">
 										<strong>
 											{" "}
 											Tankpad is a user-friendly platform
 											for purchasing and transferring NFTs
-											on the Binance Chain
+											on the Binance Chain.
 										</strong>{" "}
 										<br />
 										It has a curated selection of NFTs, a

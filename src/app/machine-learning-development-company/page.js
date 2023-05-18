@@ -49,6 +49,7 @@ const MLDevelopmentCompany = () => {
 						<h1 className="all-head">
 							Our Machine Learning Development Services
 						</h1>
+						<p className="secondsec-p text-center">Codiste revolutionizes businesses with advanced machine learning services, fueling innovation and driving success.</p>
 					</div>
 					<ServiceInnerItems serviceItems={MLList} />
 				</section>

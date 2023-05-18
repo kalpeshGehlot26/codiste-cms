@@ -45,6 +45,7 @@ const StartupDevelopmentCompany = () => {
 						<h1 className="all-head">
 							Our Startup Development Services
 						</h1>
+						<p className="secondsec-p text-center" >We provide startup development solutions that prioritize transparency, ensuring open communication and clear visibility throughout the product development process, resulting in market-viable solutions for your business.</p>
 					</div>
 					<div className="row ">
 						<div className=" col-md-6 col-sm-12 pb-3 ">

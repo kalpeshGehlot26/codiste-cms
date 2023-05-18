@@ -396,18 +396,21 @@ const About = () => {
 										Development Service
 									</a>
 								</li>
+
+
 								<li>
 									<img
 										className="img-fluid"
-										alt="Mobile App Development Service"
-										src="assets/images/services/Mobile App Development.png"
+										alt="Start up Development Service"
+										src="assets/images/services/startup.png"
 									/>
 									<a>
-										<span className="fs-3">Mobile App</span>
+										<span className="fs-3">Start up</span>
 										<br />
 										Development Service
 									</a>
 								</li>
+
 								<li>
 									<img
 										className="img-fluid"
@@ -422,14 +425,15 @@ const About = () => {
 										Development Service
 									</a>
 								</li>
+
 								<li>
 									<img
 										className="img-fluid"
-										alt="Start up Development Service"
-										src="assets/images/services/startup.png"
+										alt="Mobile App Development Service"
+										src="assets/images/services/Mobile App Development.png"
 									/>
 									<a>
-										<span className="fs-3">Start up</span>
+										<span className="fs-3">Mobile App</span>
 										<br />
 										Development Service
 									</a>
@@ -462,6 +466,7 @@ const About = () => {
 								development leader.
 							</p>
 						</div>
+
 					</section>
 					<div className="d-flex align-items-center justify-content-center">
 						<img
@@ -479,7 +484,7 @@ const About = () => {
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head">
-								Brands That Trust Our Work
+								Brands That Trust Our Work!
 							</h1>
 						</div>
 						<div className="row">

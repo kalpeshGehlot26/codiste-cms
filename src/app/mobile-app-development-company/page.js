@@ -54,6 +54,7 @@ const MobileAppDevelopmentCompany = () => {
 						<h1 className="all-head">
 							Our Mobile App Development Services{" "}
 						</h1>
+						<p className="all-p text-center">We offer comprehensive mobile app development services, leveraging the latest technologies and industry best practices to deliver high-quality and innovative solutions tailored to your business needs.</p>
 					</div>
 					<ServiceInnerItems serviceItems={mobileList} />
 				</section>
@@ -510,7 +511,7 @@ const MobileAppDevelopmentCompany = () => {
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head">
-								We take pride in your trust
+								We take pride in your trust!
 							</h1>
 						</div>
 

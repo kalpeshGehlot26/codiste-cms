@@ -11,9 +11,7 @@ const Footer = () => {
 							<img src="../../assets/images/logo.png" />
 							<div className="footer-menu-items">
 								<p className="my-3">
-									Being in our third year since inception we
-									have come a long way, our core focus and
-									values no matter what the tech solution are
+									Codiste is a leading tech development services provider company, specializing in robust, scalable, and secure enterprise solutions in blockchain, metaverse, AR/VR, AI and other emerging technologies.
 								</p>
 
 								<div className="mt-5">
