@@ -23,12 +23,12 @@ const FeedbackSlider = () => {
         >
             <SplideTrack>
                 <SplideSlide className="splide__slide">
-                    <div className="d-flex">
-                        <div className="d-flex flex-column justify-content-center">
-                            <h4>DiveWallet</h4>
-                            <p>CEO<br />Bolivar, New York</p>
+                    <div className="d-flex flex-wrap">
+                        <div>
+                            <img className="img-fluid my-4 client-logohome" alt="DiveWallet" src="assets/images/client-logos/DiveWallet Logo.png" />
                         </div>
-                        <img className="img-fluid my-4 client-logo" alt="DiveWallet" src="assets/images/client-logos/DiveWallet Logo.png" />
+
+
                     </div>
                     <div className="p-3">
                         <p className="secondsec-p">
@@ -37,13 +37,10 @@ const FeedbackSlider = () => {
                     </div>
                 </SplideSlide>
                 <SplideSlide className="splide__slide">
-                    <div className="col-auto d-flex">
-                        <div className="d-flex flex-column justify-content-center">
-                            <h4>The Real Estate Investment platform</h4>
-                            <p aria-controls="">CTO and Co-Founder
-                            </p>
-                        </div>
-                        <img className="img-fluid my-4 client-logo" alt="DiveWallet" src="assets/images/client-logos/bonfire.png" />
+                    <div className="d-flex flex-wrap">
+                        <div><img className="img-fluid my-4 client-logohome" alt="DiveWallet" src="assets/images/client-logos/bonfire.png" /></div>
+
+
                     </div>
                     <div className="p-3">
                         <p className="secondsec-p">
@@ -52,13 +49,12 @@ const FeedbackSlider = () => {
                     </div>
                 </SplideSlide>
                 <SplideSlide className="splide__slide">
-                    <div className="col-auto d-flex">
-                        <div className="d-flex flex-column justify-content-center">
-                            <h4>Medizen App</h4>
-                            <p aria-controls="">CEO <br />Johannesburg, South Africa
-                            </p>
+                    <div className=" d-flex flex-wrap">
+                        <div>
+                            <img className="img-fluid my-4 client-logohome" alt="DiveWallet" src="assets/images/client-logos/Medizen.png" />
                         </div>
-                        <img className="img-fluid my-4 client-logo" alt="DiveWallet" src="assets/images/client-logos/Medizen.png" />
+
+
                     </div>
                     <div className="p-3">
                         <p className="secondsec-p">

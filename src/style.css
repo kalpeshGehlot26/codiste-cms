@@ -748,7 +748,7 @@ bottom: -1.5rem !important;
    position: relative;
 }
 
-.card::before {
+/* .card::before {
    content: "";
    position: absolute;
    top: 0;
@@ -758,16 +758,22 @@ bottom: -1.5rem !important;
    background-color: transparent;
    opacity: 0;
    transition: all 0.3s ease-in-out;
-}
-
+} */
 .card-title,
 .card:hover .card-text,
 .card:hover .btn .card:hover::before {
-   background-color: rgba(249, 0, 77);
    opacity: 0.8;
-   color: #fff;
+   color: #000;
 }
-
+.casestudy-img{
+   padding: 20px 30px;
+}
+.cardsec-clr{
+   background-color:#f3e8e8;
+}
+.card-body .btn:hover{
+color: #fff !important;
+}
 .tech-style {
    list-style: none;
    padding: 0;

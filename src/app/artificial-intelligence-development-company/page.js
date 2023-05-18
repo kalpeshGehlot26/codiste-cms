@@ -207,7 +207,7 @@ const AIDevelopmentCompany = () => {
 				</section>
 			</div>
 
-			<div className="py-5">
+			<div className="py-5 bg-color">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">
@@ -222,7 +222,7 @@ const AIDevelopmentCompany = () => {
 					</div>
 
 					<div className="row">
-						<div className="col-6 col-md-4 text-center p-5 intsec-border">
+						<div className="col-6 col-md-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
 								alt="A multitude of AI Technologies"
@@ -244,7 +244,7 @@ const AIDevelopmentCompany = () => {
 								developments in AI globally.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-border">
+						<div className="col-6 col-md-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
 								alt="Custom AI Solutions"
@@ -268,7 +268,7 @@ const AIDevelopmentCompany = () => {
 								seamless and efficient organizational workflows.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderlast">
+						<div className="col-6 col-md-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
 								alt="Efficient & Optimized Development"
@@ -292,7 +292,7 @@ const AIDevelopmentCompany = () => {
 								effectively and efficiently.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderbelow">
+						<div className="col-6 col-md-4 text-center p-5 Crosssec-4">
 							<img
 								className="img-fluid mb-2"
 								alt="Advanced Analytics Capabilities"
@@ -317,7 +317,7 @@ const AIDevelopmentCompany = () => {
 								scalability.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 intsec-borderbelow">
+						<div className="col-6 col-md-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
 								alt="Data Security and Privacy"
