@@ -15,40 +15,21 @@ const BlockChainDevelopmentCompany = () => {
 	return (
 		<div>
 			<div className="bg-color">
-				<div className="container container-fluid py-4">
+				<div className="container container-fluid">
 					<section>
-						<div className="row firstsec d-flex align-items-center">
-							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
-								<h1 className="all-head">
-									Blockchain Development Company
-								</h1>
-								<p className="all-p me-5 mb-4 mt-3">
-									Excel in blockchain space with reliable,
-									secure, and robust blockchain development
-									services for business operations.
-									Streamlined integrations of decentralized
-									technological infrastructure in payments,
-									applications, hyper ledgers, supply chains,
-									and more with our comprehensive Web3
-									blockchain development services for
-									enterprises.
-								</p>
-								<Link href="/contact" className="book-btn">
-									Let’s Connect{" "}
-								</Link>
-							</div>
-							<div className="col-lg-6 col-sm-12 p-5 ">
-								{" "}
-								<img
-									className="img-fluid d-flex align-items-center justify-content-center"
-									style={{
-										height: "450px",
-										width: "auto",
-										margin: "auto",
-										padding: "20px",
-									}}
-									src="assets/images/main/Blockchain.png"
-								/>
+						<div className="row firstsec ">
+							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
+								<div className="col-12 col-lg-5 order-2 order-lg-1">
+									<h1 className="all-head">Blockchain Development Company</h1>
+									<p className="all-p me-5 my-4">Excel in blockchain space with reliable, secure, and robust
+										blockchain development services for business operations. Streamlined integrations of
+										decentralized technological infrastructure in payments, applications, hyper ledgers, supply
+										chains, and more with our comprehensive Web3 blockchain development services for
+										enterprises.
+									</p>
+									<button className="book-btn">Let’s Connect</button>
+								</div>
+								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="assets/images/main/Blockchain.png" alt="Blockchain" /></div>
 							</div>
 						</div>
 					</section>

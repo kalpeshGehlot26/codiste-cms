@@ -22,44 +22,30 @@ const Services = () => {
 
 	return (
 		<div>
+
+
 			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>
-						<div className="row firstsec d-flex align-items-center">
-							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
-								<h1 className="all-head mb-3">Our Services</h1>
-								<p className="all-p me-5">
-									We bring the best people for a one-stop tech
-									& dev support ecosystem catering to
-									businesses, startups, and enterprises from
-									various sectors and industries. We are your
-									partner in accelerating innovation and
-									growth with web and app solutions in
-									emerging, rapidly growing technologies to
-									help you elevate your user and customer
-									experience.
-								</p>
-								<Link href="/contact" className="book-btn mt-3">
-									Contact Us
-								</Link>
-							</div>
-							<div className="col-lg-6 col-sm-12 py-5">
-								<img
-									className="img-fluid d-flex align-items-center justify-content-center"
-									style={{
-										height: "450px",
-										width: "auto",
-										margin: "auto",
-										padding: "20px",
-									}}
-									src="assets/images/firstsecimg.png"
-								/>
+						<div className="row firstsec ">
+							<div
+								className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
+								<div className="col-12 col-lg-5 order-2 order-lg-1">
+									<h1 className="all-head">Our Services</h1>
+									<p className="all-p me-5 my-4">At Codiste, we bring the best people for a one-stop tech & dev support
+										ecosystem catering to businesses, startups, and enterprises from various sectors and industries. We are
+										your partner in accelerating innovation and growth with web and app solutions in emerging, rapidly
+										growing technologies to help you elevate your user and customer experience.
+									</p>
+									<button className="book-btn mt-3">Contact Us</button>
+								</div>
+								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid'
+									src="assets/images/firstsecimg.png" alt="Services" /></div>
 							</div>
 						</div>
 					</section>
 				</div>
 			</div>
-
 			<ClientSlider />
 
 			<div className="container container-fluid py-5">
@@ -396,17 +382,6 @@ const Services = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5">
-				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Blog</h1>
-					<p className="all-p text-center">
-						Keep yourself updated with emerging technologies and new
-						developments in the industry with us.
-					</p>
-				</div>
-				<AllServiceBlogSlider items={allServiceBlogs} />
-			</div>
-
 			<div className=" py-5 bg-color">
 				<div className="container container-fluid py-5">
 					<div className="text-center">
@@ -476,6 +451,20 @@ const Services = () => {
 					</div>
 				</div>
 			</div>
+
+
+			<div className="container container-fluid py-5">
+				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+					<h1 className="all-head">Blog</h1>
+					<p className="all-p text-center">
+						Keep yourself updated with emerging technologies and new
+						developments in the industry with us.
+					</p>
+				</div>
+				<AllServiceBlogSlider items={allServiceBlogs} />
+			</div>
+
+
 
 			<div className="bg-color py-5">
 				<div className="container container-fluid">

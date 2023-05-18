@@ -1,6 +1,9 @@
 .navbarCustom {
     background-color: #191C22;
 }
+.header-width{
+  max-width: 1800px !important;
+}
 .navbar-light .navbar-toggler {
     background-color: #ae094e!important;
 }

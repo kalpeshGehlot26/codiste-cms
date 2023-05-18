@@ -17,36 +17,20 @@ const MetaverseDevelopmentCompany = () => {
 			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>
-						<div className="row  d-flex align-items-center py-3">
-							<div className="col-lg-6 col-sm-12  order-sm-2 order-lg-1">
-								<h1 className="all-head">
-									Enterprise-Grade Metaverse Development
-									Company
-								</h1>
-								<p className="all-p">
-									We are a metaverse development company that
-									helps businesses and organizations access
-									the decentralized Metaverse. We offer an
-									immersive 3D virtual user experience by
-									integrating with traditional website/mobile
-									and stand-alone metaverse service
-									applications built on secure, scalable, and
-									reliable blockchain networks, APIs, and
-									mixed realities. Our industrial metaverse
-									development allows you to choose from a
-									broad spectrum of blockchains for a
-									personalized experience.
-								</p>
-								<Link href="/contact" className="book-btn">
-									Let’s Talk
-								</Link>
-							</div>
-							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0 order-sm-1 order-lg-2">
-								<img
-									className="img-fluid"
-									src="assets/images/main/metaverse.png"
-									alt=""
-								/>
+						<div className="row firstsec ">
+							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
+								<div className="col-12 col-lg-5 order-2 order-lg-1">
+									<h1 className="all-head">Enterprise-Grade Metaverse Development Company</h1>
+									<p className="all-p me-5 my-4">We are a metaverse development company that helps businesses and
+										organizations access the decentralized Metaverse. We offer an immersive 3D virtual user experience by
+										integrating with traditional website/mobile and stand-alone metaverse service applications built on
+										secure, scalable, and reliable blockchain networks, APIs, and mixed realities. Our industrial metaverse
+										development allows you to choose from a broad spectrum of blockchains for a personalized experience.
+									</p>
+									<button className="book-btn">Let’s Talk</button>
+								</div>
+								<div className="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0"><img className='img-fluid' src="assets/images/main/metaverse.png"
+									alt="Enterprise-Grade Metaverse" /></div>
 							</div>
 						</div>
 					</section>

@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Header = () => {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-light fixed-top navbarCustom">
-			<div className="container px-0">
+			<div className="container px-0 header-width">
 				<Link className="nav-link active me-auto ms-2" aria-current="page" href="/" >
 					<img style={{ height: "60px" }} src="../../assets/images/logo.png" />
 				</Link>

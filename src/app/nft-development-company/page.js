@@ -18,38 +18,15 @@ const NFTDevelopment = () => {
 			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>
-						<div className="row firstsec d-flex align-items-center">
-							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
-								<h1 className="all-head">
-									NFT Development Company{" "}
-								</h1>
-								<p className="all-p me-5 mb-4 mt-3">
-									We are a non-fungible token development
-									company providing end-to-end NFT
-									development, including digital NFTs and
-									marketplaces for enterprises entering the
-									digital collectibles space. Our NFT market
-									development services offer a comprehensive
-									marketplace development equipped with
-									seamless NFT minting and trading user
-									experience for better user experience and
-									feedback.
-								</p>
-								<Link href="/contact" className="book-btn">
-									Have a project? Let's Chat!
-								</Link>
-							</div>
-							<div className="col-lg-6 col-sm-12 p-5 ">
-								<img
-									className="img-fluid d-flex align-items-center justify-content-center"
-									style={{
-										height: "450px",
-										width: "auto",
-										margin: "auto",
-										padding: "20px",
-									}}
-									src="assets/images/main/NFT Development.png"
-								/>
+						<div className="row firstsec ">
+							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
+								<div className="col-12 col-lg-5 order-2 order-lg-1">
+									<h1 className="all-head">NFT Development Company</h1>
+									<p className="all-p me-5 my-4">We are a non-fungible token development company providing end-to-end NFT development, including digital NFTs and marketplaces for enterprises entering the digital collectibles space. Our NFT market development services offer a comprehensive marketplace development equipped with seamless NFT minting and trading user experience for better user experience and feedback.
+									</p>
+									<button className="book-btn">Have a project? Let's Chat!</button>
+								</div>
+								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="assets/images/main/NFT Development.png" alt="NFT Development" /></div>
 							</div>
 						</div>
 					</section>

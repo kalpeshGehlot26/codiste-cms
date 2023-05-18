@@ -14,43 +14,24 @@ export const metadata = {
 const ARVRDevelopmentCompany = () => {
 	return (
 		<div>
+
 			<div className="bg-color">
-				<div className="container container-fluid py-4">
+				<div className="container container-fluid">
 					<section>
-						<div className="row firstsec d-flex align-items-center">
-							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
-								<h1 className="all-head">
-									AR/VR Development Company{" "}
-								</h1>
-								<p className="all-p me-5 mb-4 mt-3">
-									We offer complete AR/VR development for
-									enterprise-level platforms, avatars and more
-									with leading technologies and frameworks
-									like ARtoolkit, Google-ARCore, and Apple AR
-									Kit to help you leverage Web3 applications
-									and immersive technologies.
-								</p>
-								<Link href="/contact" className="book-btn">
-									Contact Us
-								</Link>
-							</div>
-							<div className="col-lg-6 col-sm-12 p-5 ">
-								<img
-									className="img-fluid d-flex align-items-center justify-content-center"
-									style={{
-										height: "450px",
-										width: "auto",
-										margin: "auto",
-										padding: "20px",
-									}}
-									src="assets/images/main/AR_VR.png"
-								/>
+						<div className="row firstsec ">
+							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
+								<div className="col-12 col-lg-5 order-2 order-lg-1">
+									<h1 className="all-head">AR/VR Development Company</h1>
+									<p className="all-p me-5 my-4">We offer complete AR/VR development for enterprise-level platforms, avatars and more with leading technologies and frameworks like ARtoolkit, Google-ARCore, and Apple AR Kit to help you leverage Web3 applications and immersive technologies.
+									</p>
+									<button className="book-btn">Contact Us</button>
+								</div>
+								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="assets/images/main/AR_VR.png" /></div>
 							</div>
 						</div>
 					</section>
 				</div>
 			</div>
-
 			<ClientSlider />
 
 			<div className="container container-fluid">

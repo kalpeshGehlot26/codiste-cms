@@ -18,41 +18,20 @@ const StartupDevelopmentCompany = () => {
 			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>
-						<div className="row firstsec d-flex align-items-center">
-							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
-								<h1 className="all-head">
-									Startup Development Company
-								</h1>
-								<p className="all-p me-5 mb-4 mt-3">
-									We are an emerging startup app development
-									company offering basic and advanced
-									development and technological support for
-									emerging businesses and small enterprises
-									looking to make it big with rapidly growing
-									technologies. Our company develops
-									end-to-end software for startups and small
-									to medium-scale enterprises. For businesses
-									and enterprises needing more embedding
-									essential software support for their
-									companies, we are a one-stop shop for
-									comprehensive custom software development
-									for startups.
-								</p>
-								<Link href="/book-a-call" className="book-btn">
-									Let’s Talk
-								</Link>
-							</div>
-							<div className="col-lg-6 col-sm-12 p-5 ">
-								<img
-									className="img-fluid d-flex align-items-center justify-content-center"
-									style={{
-										height: "450px",
-										width: "auto",
-										margin: "auto",
-										padding: "20px",
-									}}
-									src="assets/images/main/Start Up Development_.png"
-								/>
+						<div className="row firstsec ">
+							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
+								<div className="col-12 col-lg-5 order-2 order-lg-1">
+									<h1 className="all-head">Startup Development Company</h1>
+									<p className="all-p me-5 my-4">We are an emerging startup app development company offering
+										basic and advanced development and technological support for emerging businesses and small
+										enterprises looking to make it big with rapidly growing technologies. Our company develops
+										end-to-end software for startups and small to medium-scale enterprises. For businesses and
+										enterprises needing more embedding essential software support for their companies, we are a
+										one-stop shop for comprehensive custom software development for startups.
+									</p>
+									<button className="book-btn">Let’s Talk</button>
+								</div>
+								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="assets/images/main/Start Up Development_.png" alt="Startup Development" /></div>
 							</div>
 						</div>
 					</section>

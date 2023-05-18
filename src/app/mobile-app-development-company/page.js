@@ -18,45 +18,23 @@ const MobileAppDevelopmentCompany = () => {
 			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>
-						<div className="row firstsec d-flex align-items-center">
-							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
-								<h1 className="all-head">
-									Mobile App Development Company{" "}
-								</h1>
-								<p className="all-p me-5 mb-4 mt-3">
-									We are a digital mobile application
-									development company that offers the
-									best-in-class end-user experience with a
-									mobile application. Our application
-									development team builds lightning-fast,
-									smooth & bug-free Mobile Apps that exceed
-									expectations and drive better user
-									engagement. We offer iOS, Android, Flutter,
-									and React native application development for
-									businesses and enterprises envisioned to
-									improve user engagement. Our team works with
-									you extensively to visualize your ideas and
-									build your vision in reality. Whether it's a
-									consumer-focused app or an enterprise
-									solution, we are dedicated to delivering
-									top-notch mobile applications that drive
-									better experience and business growth.
-								</p>
-								<Link href="/contact" className="book-btn">
-									Let’s Talk
-								</Link>
-							</div>
-							<div className="col-lg-6 col-sm-12 p-5 ">
-								<img
-									className="img-fluid d-flex align-items-center justify-content-center"
-									style={{
-										height: "450px",
-										width: "auto",
-										margin: "auto",
-										padding: "20px",
-									}}
-									src="assets/images/main/Mobile App Development.png"
-								/>
+						<div className="row firstsec ">
+							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
+								<div className="col-12 col-lg-6 order-2 order-lg-1">
+									<h1 className="all-head">Mobile App Development Company</h1>
+									<p className="all-p me-5 my-4">We are a digital mobile application development company that
+										offers the best-in-class end-user experience with a mobile application. Our application
+										development team builds lightning-fast, smooth & bug-free Mobile Apps that exceed
+										expectations and drive better user engagement. We offer iOS, Android, Flutter, and React
+										native application development for businesses and enterprises envisioned to improve user
+										engagement. Our team works with you extensively to visualize your ideas and build your
+										vision in reality. Whether it's a consumer-focused app or an enterprise solution, we are
+										dedicated to delivering top-notch mobile applications that drive better experience and
+										business growth.
+									</p>
+									<button className="book-btn">Let’s Talk</button>
+								</div>
+								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="assets/images/main/Mobile App Development.png" alt="Mobile App Development" /></div>
 							</div>
 						</div>
 					</section>
