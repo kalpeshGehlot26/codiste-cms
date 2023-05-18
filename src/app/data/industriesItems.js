@@ -1,9 +1,9 @@
 const industryItems = [
-    {
-        url: "assets/images/industries/iFinance.png",
-        className: "ins-clr",
-        title: "Financial Institutions"
-    },
+    // {
+    //     url: "assets/images/industries/iFinance.png",
+    //     className: "ins-clr",
+    //     title: "Financial Institutions"
+    // },
     {
         url: "assets/images/industries/iReal.png",
         className: "ins-real",
@@ -30,12 +30,11 @@ const industryItems = [
         className: "ins-education",
         title: "Education"
     },
-    {
-        url: "assets/images/industries/iAdvertise.png",
-        className: "ins-advertise",
-        title: "Advertising & Marketing"
-    },
-
+    // {
+    //     url: "assets/images/industries/iAdvertise.png",
+    //     className: "ins-advertise",
+    //     title: "Advertising & Marketing"
+    // },
     {
         url: "assets/images/industries/inft.png",
         className: "ins-nft ",
@@ -72,22 +71,21 @@ const industryItems = [
         className: "ins-manufact",
         title: "Events"
     },
-    {
-        url: "assets/images/industries/fashion.png",
-        className: "ins-ecommrce",
-        title: "Fashion"
-    },
+    // {
+    //     url: "assets/images/industries/fashion.png",
+    //     className: "ins-ecommrce",
+    //     title: "Fashion"
+    // },
     {
         url: "assets/images/industries/loyal-customer.png",
         className: "ins-education",
         title: "Loyalty Programs"
     },
-
-    {
-        url: "assets/images/industries/airplane-around-earth.png",
-        className: "ins-auto",
-        title: "Travel"
-    },
+    // {
+    //     url: "assets/images/industries/airplane-around-earth.png",
+    //     className: "ins-auto",
+    //     title: "Travel"
+    // },
     {
         url: "assets/images/industries/wheat.png",
         className: "ins-nft",
@@ -98,13 +96,11 @@ const industryItems = [
         className: "ins-supply",
         title: "Virtual land"
     },
-    {
-        url: "assets/images/industries/music.png",
-        className: "ins-iot",
-        title: "Music"
-    },
-
-
+    // {
+    //     url: "assets/images/industries/music.png",
+    //     className: "ins-iot",
+    //     title: "Music"
+    // },
     {
         url: "assets/images/industries/artificial-intelligence.png",
         className: "ins-game",

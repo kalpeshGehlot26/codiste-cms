@@ -14,7 +14,7 @@ const metadata = {
 
 const CodistePortfolio = () => {
 
-	const [caseStudyCount, setCaseStudyCount] = useState(4);
+	const [caseStudyCount, setCaseStudyCount] = useState(3);
 	const [totalCount, setTotalCount] = useState(null);
 
 	return (
@@ -68,7 +68,7 @@ const CodistePortfolio = () => {
 						<button className="book-btn"
 							onClick={() =>
 								setCaseStudyCount(
-									(prevState) => prevState + 4
+									(prevState) => prevState + 3
 								)
 							}>Explore More</button>
 					</div>

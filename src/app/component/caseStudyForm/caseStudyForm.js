@@ -91,7 +91,7 @@ const CaseStudyForm = () => {
 					required
 				></textarea>
 				<button className="book-btn" type="submit">
-					Book a Call
+					{window.location.pathname === '/career' ? "Apply Now" : "Book a Call"}
 				</button>
 				{
 					success? <div className="alert alert-success d-flex align-items-center mt-4" role="alert">

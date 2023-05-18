@@ -80,7 +80,7 @@ const HomePage = () => {
 			<div className="bg-color py-5">
 				<div className="container container-fluid ">
 					<h1 className="all-head text-center mb-5">
-						Feedback that inspires us to consistently be our best
+						Feedback that inspires us to consistently be our best!
 					</h1>
 					<div className="row">
 						<div className="col-xl-6 col-md-12 career-block">
@@ -170,8 +170,7 @@ const HomePage = () => {
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head">Blog</h1>
 					<p className="all-p text-center">
-						Keep yourself updated with emerging technologies <br />
-						and new developments in the industry with us.
+						Keep yourself updated with emerging technologies and new developments in the industry with us.
 					</p>
 				</div>
 				<AllServiceBlogSlider items={homeBlogList} />
@@ -229,7 +228,7 @@ const HomePage = () => {
 									leader to partner for your tech support?
 								</h1>
 								<h2>
-									Get started with your idea today! Fill out
+									Get started with your idea today! <br/> Fill out
 									the form & reach out to us.
 								</h2>
 							</div>
