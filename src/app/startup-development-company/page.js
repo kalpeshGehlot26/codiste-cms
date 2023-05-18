@@ -4,6 +4,7 @@ import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import startupServiceBlogs from "../data/services/service-blogs/startupServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
+import jsonData from "../data/schema";
 
 export const metadata = {
 	title: "Startup Development Company | Codiste",
@@ -14,7 +15,10 @@ export const metadata = {
 const StartupDevelopmentCompany = () => {
 	return (
 		<div>
-
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.startupService) }}
+			/>
 			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>

@@ -6,6 +6,7 @@ import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
 import mobileList from "../data/services/service-items/mobile";
+import jsonData from "../data/schema";
 
 export const metadata = {
 	title: "Mobile App Development Company | Codiste",
@@ -16,7 +17,10 @@ export const metadata = {
 const MobileAppDevelopmentCompany = () => {
 	return (
 		<div>
-
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.mobileService) }}
+			/>
 			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>

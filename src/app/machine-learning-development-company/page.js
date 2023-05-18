@@ -6,6 +6,7 @@ import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
 import MLList from "../data/services/service-items/ML";
+import jsonData from "../data/schema";
 
 export const metadata = {
 	title: "Machine Learning Development Company | Codiste",
@@ -16,6 +17,10 @@ export const metadata = {
 const MLDevelopmentCompany = () => {
 	return (
 		<div>
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.MLService) }}
+			/>
 			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>
