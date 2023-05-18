@@ -1,7 +1,7 @@
 const allServiceBlogs = [
     {
         blogUrl: "https://codiste.com/metaverse-vs-multiverse-far-better-future-than-your-imagination/",
-        image: "assets/images/blogs/Blog1.jpg",
+        image: "assets/images/home/blogs/Metaverse Vs Multiverse Far Better Future than your Imagination.webp",
         title: "Metaverse Vs Multiverse: Far Better Future than your Imagination",
         category: "Metaverse"
     },
@@ -13,13 +13,13 @@ const allServiceBlogs = [
     },
     {
         blogUrl: "https://codiste.com/build-a-dex-now/",
-        image: "assets/images/blogs/Blog3.jpg",
+        image: "assets/images/home/blogs/Building Decentralised Launchpad.webp",
         title: "Building and Investing in a Defi Exchange like Pancake Swap: A Comprehensive Guide",
         category: "Blockchain"
     },
     {
         blogUrl: "https://codiste.com/fractional-nft-ownership/",
-        image: "assets/images/blogs/Blog4.jpg",
+        image: "assets/images/home/blogs/The Ultimate Guide on Fractional NFT Ownership.webp",
         title: "The Ultimate Guide on Fractional NFT Ownership",
         category: "NFT"
     }

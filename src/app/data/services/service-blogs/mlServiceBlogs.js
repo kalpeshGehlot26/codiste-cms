@@ -7,13 +7,13 @@ const mlServiceBlogs = [
     },
     {
         blogUrl: "https://codiste.com/what-is-holochain/",
-        image: "assets/images/blogs/Blog2.jpg",
+        image: "assets/images/home/blogs/What is Holo Chain Everything You Need to Know About.webp",
         title: "What is Holo Chain: Everything You Need to Know About",
         category: "ML"
     },
     {
         blogUrl: "https://codiste.com/secure-your-digital-identity-with-blockchain/",
-        image: "assets/images/blogs/Blog3.jpg",
+        image: "assets/images/home/blogs/Secure your digital identity with blockchain.webp",
         title: "Secure your digital identity with blockchain",
         category: "ML"
     }

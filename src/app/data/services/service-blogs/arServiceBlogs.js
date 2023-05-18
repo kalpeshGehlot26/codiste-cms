@@ -1,7 +1,7 @@
 const arServiceBlogs = [
     {
         blogUrl: "https://codiste.com/crypto-lending-platform-using-defi/",
-        image: "assets/images/blogs/Blog1.jpg",
+        image: "assets/images/blogs/Blog6.jpg",
         title: "DeFi Crypto Lending Platforms A Complete Guide",
         category: "AR/VR"
     },
@@ -13,7 +13,7 @@ const arServiceBlogs = [
     },
     {
         blogUrl: "https://codiste.com/crypto-lending-platform-using-defi/",
-        image: "assets/images/blogs/Blog3.jpg",
+        image: "assets/images/blogs/Blog6.jpg",
         title: "DeFi Crypto Lending Platforms A Complete Guide",
         category: "AR/VR"
     }
