@@ -46,7 +46,7 @@ export async function POST(req, res) {
 
 		var mailOptions = {
 			from: process.env.NEXT_PUBLIC_EMAIL,
-			to: "sonali.p@codiste.com",
+			to: "manager@codiste.com",
 			subject: `Inquiry for service ${data.services}`,
 			html: html,
 		};
