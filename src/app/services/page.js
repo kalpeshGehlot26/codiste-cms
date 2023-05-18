@@ -5,7 +5,7 @@ import TechStack from "../component/service/techStack";
 import ServiceList from "../component/service/serviceItems";
 import Industries from "../component/service/industries";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
-import allServiceBlogs from "../data/services/allServiceBlogs";
+import allServiceBlogs from "../data/services/service-blogs/allServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import mainServiceList from "../data/services/mainServiceList";
 import Link from "next/link";

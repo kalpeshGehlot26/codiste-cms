@@ -1,7 +1,7 @@
 import React from "react";
 import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
-import arServiceBlogs from "../data/services/arServiceBlogs";
+import arServiceBlogs from "../data/services/service-blogs/arServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
 

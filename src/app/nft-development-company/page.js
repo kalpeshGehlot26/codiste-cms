@@ -1,7 +1,7 @@
 import React from "react";
 import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
-import nftServiceBlogs from "../data/services/nftServiceBlogs";
+import nftServiceBlogs from "../data/services/service-blogs/nftServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
 

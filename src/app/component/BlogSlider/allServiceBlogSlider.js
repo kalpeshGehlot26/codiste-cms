@@ -10,18 +10,30 @@ const AllServiceBlogSlider = ({ items }) => {
             options={{
                 type: 'loop',
                 drag: 'free',
-                // focus: 'center',
                 pagination: true,
                 autoplay: true,
                 interval: 2000,
-                perPage: 5,
-                loop: false,
+                perPage: 4,
                 arrows: false,
                 autoScroll: {
                     speed: 2,
                 },
+                breakpoints: {
+                    1400: {
+                        perPage: 4,
+                    },
+                    1000: {
+                        perPage: 3,
+                    },
+                    600: {
+                        perPage: 2,
+                    },
+                    400: {
+                        perPage: 1,
+                    }
+                }
             }}
-        >
+            className="slide-pagination">
             <SplideTrack>
                 {
                     items?.map((item, index) => {

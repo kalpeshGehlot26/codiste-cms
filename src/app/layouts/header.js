@@ -43,45 +43,56 @@ const Header = () => {
 								aria-labelledby="navbarScrollingDropdown"
 							>
 								<li>
-									<Link className="dropdown-item" href="/metaverse-development-company">
-										Metaverse Enterprise Development Service
-									</Link>
-								</li>
-								<li>
 									<Link className="dropdown-item" href="/blockchain-development-company">
-										Blockchain Development Development Service
+										Blockchain Development Services
 									</Link>
 								</li>
 								<li>
-									<Link className="dropdown-item" href="/machine-learning-development-company">
-										Machine Learning Development Service
+									<Link className="dropdown-item" href="/metaverse-development-company">
+										Metaverse Development Services 
 									</Link>
 								</li>
 								<li>
-									<Link className="dropdown-item" href="/web-development-company">
-										Web Development Development Service
-									</Link>
-								</li>
-								<li>
-									<Link className="dropdown-item" href="/mobile-app-development-company">
-										Mobile App Development Service
+									<Link className="dropdown-item" href="augmented-reality-development-company">
+										AR /VR Development Services
 									</Link>
 								</li>
 								<li>
 									<Link className="dropdown-item" href="/nft-development-company">
-										NFT Development Service
-									</Link>
-								</li>
-								<li>
-									<Link className="dropdown-item" href="/nft-development-company">
-										Crypto Development Service
+										NFT Development Services
 									</Link>
 								</li>
 								<li>
 									<Link className="dropdown-item" href="/startup-development-company">
-										Startup Development Service
+										Startup Development Services
 									</Link>
 								</li>
+								<li>
+									<Link className="dropdown-item" href="artificial-intelligence-development-company">
+										AI Development Services
+									</Link>
+								</li>
+								<li>
+									<Link className="dropdown-item" href="/machine-learning-development-company">
+										Machine Learning Development Services
+									</Link>
+								</li>
+								<li>
+									<Link className="dropdown-item" href="/cryptocurrency-development-company">
+										Cryptocurrency Development Services
+									</Link>
+								</li>
+								<li>
+									<Link className="dropdown-item" href="/web-development-company">
+										Web Development Services
+									</Link>
+								</li>
+								<li>
+									<Link className="dropdown-item" href="/mobile-app-development-company">
+										Mobile App Development Services
+									</Link>
+								</li>
+								
 							</ul>
 						</li>
 						<li className="nav-item">

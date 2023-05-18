@@ -70,13 +70,16 @@ const CaseStudyForm = () => {
 				<br />
 				<select name="services" id="_services" className="need-form" onChange={onFormChange} required>
 					<option>Service*</option>
-					<option value="Blockchain Development">Blockchain Development</option>
-					<option value="Machine Learning">Machine Learning</option>
-					<option value="Web Development">Web Development</option>
-					<option value="Mobile App Development">Mobile App Development</option>
-					<option value="Metaverse Enterprise Solution">Metaverse Enterprise Solution</option>
-					<option value="Nft and Crypto Development">Nft and Crypto Development</option>
-					<option value="Startup Development">Startup Development</option>
+					<option value="Blockchain Development Services">Blockchain Development Services</option>
+					<option value="Metaverse Development Services">Metaverse Development Services </option>
+					<option value="AR /VR Development Services">AR /VR Development Services</option>
+					<option value="NFT Development Services">NFT Development Services</option>
+					<option value="Startup Development Services">Startup Development Services</option>
+					<option value="AI Development Services">AI Development Services</option>
+					<option value="Machine Learning Development Services">Machine Learning Development Services</option>
+					<option value="Cryptocurrency Development Services">Cryptocurrency Development Services</option>
+					<option value="Web Development Services">Web Development Services</option>
+					<option value="Mobile App Development Services">Mobile App Development Services</option>
 				</select>
 				<textarea
 					className="need-form"

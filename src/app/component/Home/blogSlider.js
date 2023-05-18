@@ -15,7 +15,7 @@ const BlogSlider = () => {
                 pagination: true,
                 autoplay: true,
                 interval: 2000,
-                perPage: 5,
+                perPage: 4,
                 arrows: false,
                 rewind: true,
                 autoScroll: {

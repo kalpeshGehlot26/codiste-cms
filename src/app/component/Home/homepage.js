@@ -2,12 +2,14 @@
 import React, { useState } from "react";
 import ClientSlider from "./clientSlider";
 import FeedbackSlider from "./feedbackSlider";
-import BlogSlider from "./blogSlider";
 import ServiceList from "../service/serviceItems";
 import Industries from "../service/industries";
 import Link from "next/link";
 import CaseStudyForm from "../caseStudyForm/caseStudyForm";
 import serviceItems from "../../data/serviceItems";
+import AllServiceBlogSlider from "../BlogSlider/allServiceBlogSlider";
+import homeBlogList from "@/app/data/homeBlogList";
+import BlogSlider from "./blogSlider";
 
 const HomePage = () => {
 	const [serviceCount, setServiceCount] = useState(6);
@@ -169,6 +171,7 @@ const HomePage = () => {
 					</p>
 				</div>
 				<BlogSlider />
+				{/* <AllServiceBlogSlider items={homeBlogList} /> */}
 			</div>
 
 			<div className=" py-5 bg-color">
