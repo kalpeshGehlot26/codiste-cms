@@ -4,6 +4,7 @@ import ClientSlider from "../component/Home/clientSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import caseStudyItems from "../data/caseStudyItems";
 import CaseStudyList from "../component/CaseStudyList/caseStudyList";
+import Link from "next/link";
 
 const metadata = {
 	title: "Showcasing Our Blockchain Development Solutions | Portfolio | Codiste",
@@ -32,9 +33,9 @@ const CodistePortfolio = () => {
 									helped drive forward the development of tech
 									& software solutions for various industries.
 								</p>
-								<a href="#caseStudyList" className="book-btn">
-									Let's connect
-								</a>
+								<Link href="/contact" className="book-btn">
+									Let's Connect
+								</Link>
 							</div>
 							<div className="col-lg-6 col-sm-12 firstsecimg ">
 								<img

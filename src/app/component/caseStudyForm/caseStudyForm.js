@@ -21,7 +21,7 @@ const CaseStudyForm = () => {
 			}, 5000);
 			formRef.current.reset();
 		}).catch(function (error) {
-			console.log("error", error);
+			console.log("error 5", error);
 		});
 	};
 

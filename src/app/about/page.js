@@ -1,5 +1,6 @@
 import React from "react";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
+import Link from "next/link";
 
 export const metadata = {
 	title: "Enterprise Grade Blockchain Development Company | Codiste",
@@ -229,11 +230,13 @@ const About = () => {
 									<h1 className="me-4 aboutall-h">
 										Nishant Bijani
 									</h1>
-									<img
-										className="img-fluid mb-4 "
-										src="assets/images/about/linkedin.png"
-										alt=""
-									/>
+									<a href="https://www.linkedin.com/in/nishantbijani/" target="_blank">
+										<img
+											className="img-fluid mb-4 "
+											src="assets/images/about/linkedin.png"
+											alt=""
+										/>
+									</a>
 								</div>
 								<p className="aboutall-p"> Co-Founder & CTO</p>
 							</div>
@@ -273,11 +276,13 @@ const About = () => {
 									<h1 className="me-4 aboutall-h">
 										Nic Roux
 									</h1>
-									<img
-										className="img-fluid mb-4"
-										src="assets/images/about/linkedin.png"
-										alt=""
-									/>
+									<a href="https://www.linkedin.com/in/nicolas-roux-2a847518a/" target="_blank" >
+										<img
+											className="img-fluid mb-4"
+											src="assets/images/about/linkedin.png"
+											alt=""
+										/>
+									</a>
 								</div>
 								<p className="aboutall-p">Co-Founder</p>
 							</div>
@@ -324,11 +329,11 @@ const About = () => {
 										alt="Blockchain Development Service"
 										src="assets/images/services/on_chain 1.png"
 									/>
-									<a>
+									<Link href="/blockchain-development-company">
 										<span className="fs-3">Blockchain</span>
 										<br />
 										Development Service
-									</a>
+									</Link>
 								</li>
 								<li>
 									<img
@@ -336,13 +341,13 @@ const About = () => {
 										alt="Artificial Intelligence Development services"
 										src="assets/images/services/AI Development.png"
 									/>
-									<a>
+									<Link href="/artificial-intelligence-development-company">
 										<span className="fs-3">
 											Artificial Intelligence
 										</span>
 										<br />
 										Development Service
-									</a>
+									</Link>
 								</li>
 								<li>
 									<img
@@ -350,11 +355,11 @@ const About = () => {
 										alt="AR VR Development Service"
 										src="assets/images/services/AR VR.png"
 									/>
-									<a>
+									<Link href="/augmented-reality-development-company">
 										<span className="fs-3">AR VR</span>
 										<br />
 										Development Service
-									</a>
+									</Link>
 								</li>
 								<li>
 									<img
@@ -362,13 +367,13 @@ const About = () => {
 										alt="Cryptocurrency Development Service"
 										src="assets/images/services/Cryptocurrency.png"
 									/>
-									<a>
+									<Link href="/cryptocurrency-development-company">
 										<span className="fs-3">
 											Cryptocurrency
 										</span>
 										<br />
 										Development Service
-									</a>
+									</Link>
 								</li>
 								<li>
 									<img
@@ -376,13 +381,13 @@ const About = () => {
 										alt="Machine Learning Development Service"
 										src="assets/images/services/machine.png"
 									/>
-									<a>
+									<Link href="/machine-learning-development-company">
 										<span className="fs-3">
 											Machine Learning
 										</span>
 										<br />
 										Development Service
-									</a>
+									</Link>
 								</li>
 								<li>
 									<img
@@ -390,25 +395,25 @@ const About = () => {
 										alt="Metaverse Development Service"
 										src="assets/images/services/metaverse.png"
 									/>
-									<a>
+									<Link href="/metaverse-development-company">
 										<span className="fs-3">Metaverse</span>
 										<br />
 										Development Service
-									</a>
+									</Link>
 								</li>
 
 
 								<li>
 									<img
 										className="img-fluid"
-										alt="Start up Development Service"
-										src="assets/images/services/startup.png"
+										alt="Mobile App Development Service"
+										src="assets/images/services/mobile-app-development.png"
 									/>
-									<a>
-										<span className="fs-3">Start up</span>
+									<Link href="/mobile-app-development-company">
+										<span className="fs-3">Mobile App</span>
 										<br />
 										Development Service
-									</a>
+									</Link>
 								</li>
 
 								<li>
@@ -417,13 +422,13 @@ const About = () => {
 										alt="NFT Marketplace Development Service"
 										src="assets/images/services/Nftimg.png"
 									/>
-									<a>
+									<Link href="/nft-development-company">
 										<span className="fs-3">
 											NFT Marketplace
 										</span>
 										<br />
 										Development Service
-									</a>
+									</Link>
 								</li>
 
 								<li>
@@ -432,11 +437,11 @@ const About = () => {
 										alt="Mobile App Development Service"
 										src="assets/images/services/Mobile App Development.png"
 									/>
-									<a>
+									<Link>
 										<span className="fs-3">Mobile App</span>
 										<br />
 										Development Service
-									</a>
+									</Link>
 								</li>
 								<li>
 									<img
@@ -444,11 +449,11 @@ const About = () => {
 										alt="Web Development Service"
 										src="assets/images/services/Web Development.png"
 									/>
-									<a>
+									<Link href="/web-development-company">
 										<span className="fs-3">Web</span>
 										<br />
 										Development Service
-									</a>
+									</Link>
 								</li>
 							</ul>
 						</div>
