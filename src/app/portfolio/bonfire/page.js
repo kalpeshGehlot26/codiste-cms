@@ -100,6 +100,34 @@ const BornfirePortfolio = () => {
 					</p>
 				</div>
 			</div>
+			<div className="container container-fluid">
+				<div className="row">
+					<div className="col-xl-6 col-sm-12 mb-5 text-center">
+						<img
+							className="img-fluid"
+							style={{ padding: "20px" }}
+							src="/assets/images/case-bonfire/Problem 01.png"
+							alt="Client Requirement"
+						/>
+					</div>
+					<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">
+						<p className="secondsec-p">
+							{" "}
+							One of our clients, a popular real estate
+							company, wanted to create a platform for
+							fractional ownership of properties. The platform
+							should tokenize real estate properties and allow
+							for fractional ownership of the properties. It
+							should also have a user-friendly interface for
+							investors to manage and invest in multiple
+							properties with crypto easily. Additionally,
+							clients also wanted to integrate traditional
+							banking methods, including fiat currency for
+							users to do transactions.
+						</p>
+					</div>
+				</div>
+			</div>
 			<div className="bg-color">
 				<div className="container container-fluid py-5">
 					<section>

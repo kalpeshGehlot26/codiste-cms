@@ -149,17 +149,19 @@ const Career = () => {
 
 			<div className="container container-fluid  firstsec">
 				<h1 className="all-head text-center">
-					Codiste Reflections Through the Lens
+					Codiste Reflections Through the Lens!
 				</h1>
 				<EventSlider />
 			</div>
-
-			<div className="container container-fluid  firstsec">
-				<h1 className="all-head text-center">
-					Our People, Our Success: The Codiste Team Speaks Out
-				</h1>
-				<EmployeeSlider />
+			<div className="py-5">
+				<div className="container container-fluid  firstsec">
+					<h1 className="all-head text-center">
+						Our People, Our Success: The Codiste Team Speaks Out
+					</h1>
+					<EmployeeSlider />
+				</div>
 			</div>
+
 
 			<div className="firstsec bg-color">
 				<div className="container container-fluid mb-5  py-5">
@@ -179,7 +181,7 @@ const Career = () => {
 									</p>
 								</div>
 								<div>
-									<button className="book-btn">Apply Now</button>
+									<button className="apply-btn">Apply Now</button>
 								</div>
 							</div>
 						</div>
@@ -192,7 +194,7 @@ const Career = () => {
 									</p>
 								</div>
 								<div>
-									<button className="book-btn">Apply Now</button>
+									<button className="apply-btn">Apply Now</button>
 								</div>
 
 							</div>
@@ -209,7 +211,7 @@ const Career = () => {
 									</p>
 								</div>
 								<div>
-									<button className="book-btn">Apply Now</button>
+									<button className="apply-btn">Apply Now</button>
 								</div>
 
 							</div>
@@ -222,17 +224,18 @@ const Career = () => {
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-5">
-							<h2 className="">
-								Are you a professional techie? Fill out the form
-							</h2>
-							<h1>
-								Our team will reach out for the further process.
+							<h1 className="">
+								Are you a professional techie?
 							</h1>
+							<h2>
+								Apply now Our HR team will reach out for the further process.
+							</h2>
+
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">
 								<h2 className="">
-									How Can We <b>Help?</b>{" "}
+									Apply for your dream job
 								</h2>
 								<CaseStudyForm />
 							</div>

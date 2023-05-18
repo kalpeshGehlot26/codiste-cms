@@ -152,6 +152,17 @@ text-align: left;
 .book-btn:hover{
    background: #d44242 !important;
 }
+.apply-btn {
+   border: none;
+   padding: 10px 30px;
+   color: #fff;
+   background: linear-gradient(90deg, #FF1F23 3.28%, #FD145A 97.2%);
+   border-radius: 4px;
+   white-space: nowrap;
+   font-size: 18px;
+   text-decoration: none;
+}
+
  a:hover{
    color: #fff;
 }
@@ -1276,7 +1287,13 @@ ul.AboutService-style a:hover {
     background: #fff;
     border-radius: 4px;
 }
-
+.service-block:hover .apply-btn {
+   border: none;
+    padding: 10px 30px;
+    color: #000;
+    background: #fff;
+    border-radius: 4px;
+}
 .career-cirimg {
    width: 120px;
    height: 120px;
