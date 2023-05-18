@@ -101,7 +101,7 @@ const TankpadPortfolio = () => {
 						<div className="col-xl-6 col-sm-12 mb-5 text-center order-1 order-xl-2">
 							<img
 								className="img-fluid"
-								src="/assets/images/case-tankpad/Tankpad.png"
+								src="/assets/images/case-tankpad/Challange.png"
 								alt="Tankpad"
 							/>
 						</div>

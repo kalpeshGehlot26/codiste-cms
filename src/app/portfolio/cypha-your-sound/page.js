@@ -66,7 +66,7 @@ const CyphaPortfolio = () => {
 							<img
 								className="img-fluid"
 								style={{ width: "auto", padding: "20px" }}
-								src="/assets/images/case-cypha/Problem 06.png"
+								src="/assets/images/case-cypha/Problem_06.png"
 							/>
 						</div>
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">

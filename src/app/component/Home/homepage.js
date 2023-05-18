@@ -18,13 +18,22 @@ const HomePage = () => {
 	return (
 		<div>
 			<section className="video-containeraa videosec">
-				<video
+				<div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
+					<iframe src="https://player.vimeo.com/video/827684354?h=0589414a87" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+						style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }} ></iframe>
+				</div>
+				<script src="https://player.vimeo.com/api/player.js"></script>
+
+				{/* <div class="ratio ratio-16x9">
+					<iframe title="vimeo-player" src="https://player.vimeo.com/video/827684354?h=0589414a87" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+				</div> */}
+				{/* <video
 					src="assets/video/Codiste_Home.mp4"
 					autoPlay
 					loop
 					playsInline
 					muted
-				></video>
+				></video> */}
 				<div className="rotate-box">
 					<h2>We craft innovation in</h2>
 					<div className="rotating-text-wrapper">

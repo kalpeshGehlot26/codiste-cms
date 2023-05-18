@@ -8,22 +8,27 @@ const CaseStudyList = ({ caseStudyItems, caseStudyCount, setTotalCount }) => {
 	}, [caseStudyItems]);
 
 	return (
+
 		<div className="row">
+
 			{caseStudyItems?.map((item, index) => {
 				if (caseStudyCount < index + 1) return;
 				return (
-					<div className="col-lg-3 col-md-6 col-sm-12 mb-5" key={index}>
-						<div>
+					<div className="col-lg-4 col-md-6 col-sm-12 mb-5" key={index}>
+						<div className="card h-100">
 							<img
-								className="img-fluid"
+								className="card-img-top img-fluid casestudy-img"
 								src={item.image}
 								alt={item.title}
 							/>
+							<div className="card-body cardsec-clr">
+								<h5 className="card-title">{item.title}</h5>
+								<Link href={item.url} className="btn book-btn mt-3">
+									Read More
+								</Link>
+							</div>
 						</div>
-						<h5 className="mt-3">{item.title}</h5>
-						<Link href={item.url} className=" mt-3 case-btn">
-							Read More
-						</Link>
+
 					</div>
 				);
 			})}

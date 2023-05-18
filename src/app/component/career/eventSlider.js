@@ -5,21 +5,30 @@ import "@splidejs/react-splide/css";
 import eventItems from "../../data/eventItems";
 
 const EventSlider = () => {
-	return (
+    return (
         <Splide
             hasTrack={false}
             options={{
                 type: 'loop',
                 drag: 'free',
-                focus: 'center',
                 pagination: true,
                 autoplay: true,
-                interval: 2000, 
+                interval: 2000,
                 perPage: 3,
                 arrows: false,
                 autoScroll: {
                     speed: 2,
                 },
+                breakpoints: {
+
+                    1000: {
+                        perPage: 2,
+                    },
+                    600: {
+                        perPage: 1,
+                    },
+
+                }
             }}
         >
             <SplideTrack>
@@ -32,7 +41,7 @@ const EventSlider = () => {
                         )
                     })
                 }
-                
+
             </SplideTrack>
         </Splide>
     );

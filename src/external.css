@@ -189,7 +189,7 @@
   }
  
  .video-containeraa {
-    height: 100vh;
+    height: auto;
     position: relative;
     overflow: hidden;
   }

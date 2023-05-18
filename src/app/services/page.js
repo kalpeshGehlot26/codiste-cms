@@ -391,57 +391,32 @@ const Services = () => {
 						</h2>
 					</div>
 					<div className="row">
-						<div className="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div>
-								<img
-									className="img-fluid"
-									src="assets/images/case-pixi/Pixipages.png"
-									alt="Pixipages"
-								/>
+						<div className="col-lg-4 col-md-6 col-sm-12 mb-5">
+							<div className="card" >
+								<img src='assets/images/diwallet-case/Dive Wallet.png' className="card-img-top img-fluid casestudy-img" alt="Divewallet – The Crypto Wallet" />
+								<div className="card-body cardsec-clr">
+									<h5 className="card-title">Divewallet – The Crypto Wallet</h5>
+									<Link href="/portfolio/divewallet" className="btn book-btn mt-3">Read More</Link>
+								</div>
 							</div>
-							<h5 className="mt-3">Pixipages</h5>
-							<a href="#" className=" mt-3 case-btn">
-								Read More
-							</a>
 						</div>
-						<div className="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div>
-								<img
-									className="img-fluid"
-									src="assets/images/case-cypha/Cypha.png"
-									alt="CYPHA – Your Sound"
-								/>
+						<div className="col-lg-4 col-md-6 col-sm-12 mb-5">
+							<div className="card" >
+								<img src='assets/images/case-coinxpad/Coinxpad.png' className="card-img-top img-fluid casestudy-img" alt='CoinxPad Launchpad' />
+								<div className="card-body cardsec-clr">
+									<h5 className="card-title">CoinxPad Launchpad</h5>
+									<Link href="/portfolio/coinxpad" className=" btn book-btn mt-3">Read More</Link>
+								</div>
 							</div>
-							<h5 className="mt-3">CYPHA – Your Sound</h5>
-							<a href="#" className=" mt-3 case-btn">
-								Read More
-							</a>
 						</div>
-						<div className="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div>
-								<img
-									className="img-fluid"
-									src="assets/images/case-medizen/Medizen.png"
-									alt="Medizen"
-								/>
+						<div className="col-lg-4 col-md-6 col-sm-12 mb-5">
+							<div className="card" >
+								<img src='assets/images/case-couter10/Counterten.png' className="card-img-top img-fluid casestudy-img" alt='CounterTen – solana Marketplace' />
+								<div className="card-body cardsec-clr">
+									<h5 className="card-title">CounterTen – Solana Marketplace</h5>
+									<Link href="/portfolio/counterten-solana-marketplace" className=" btn book-btn mt-3">Read More</Link>
+								</div>
 							</div>
-							<h5 className="mt-3">Medizen</h5>
-							<a href="#" className=" mt-3 case-btn">
-								Read More
-							</a>
-						</div>
-						<div className="col-lg-3 col-md-6 col-sm-12 mb-5">
-							<div>
-								<img
-									className="img-fluid"
-									src="assets/images/case-bonfire/Bonfire.png"
-									alt="Bonfire"
-								/>
-							</div>
-							<h5 className="mt-3">Bonfire</h5>
-							<a href="#" className=" mt-3 case-btn">
-								Read More
-							</a>
 						</div>
 					</div>
 					<div className="text-center">
@@ -451,7 +426,6 @@ const Services = () => {
 					</div>
 				</div>
 			</div>
-
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -463,8 +437,6 @@ const Services = () => {
 				</div>
 				<AllServiceBlogSlider items={allServiceBlogs} />
 			</div>
-
-
 
 			<div className="bg-color py-5">
 				<div className="container container-fluid">

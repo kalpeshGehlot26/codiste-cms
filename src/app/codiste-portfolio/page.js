@@ -25,7 +25,7 @@ const CodistePortfolio = () => {
 						<div className="row firstsec d-flex align-items-center">
 							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
 								<h1 className="all-head">Our Portfolio</h1>
-								<p className="all-p me-5">
+								<p className="all-p me-5 mb-4">
 									Discover how our expertise and innovation
 									have helped businesses like yours achieve
 									success. Explore our case studies and see
@@ -40,7 +40,7 @@ const CodistePortfolio = () => {
 							<div className="col-lg-6 col-sm-12 firstsecimg ">
 								<img
 									className="img-fluid"
-									src="assets/images/Portfolio.png"
+									src="assets/images/Our Portfolio.png"
 								/>
 							</div>
 						</div>
@@ -61,19 +61,19 @@ const CodistePortfolio = () => {
 					caseStudyItems={caseStudyItems}
 					caseStudyCount={caseStudyCount}
 					setTotalCount={setTotalCount}
-				 />
-				 {totalCount > caseStudyCount ? (
-						
-							<div className="text-center">
-								<button className="book-btn"
-								onClick={() =>
-									setCaseStudyCount(
-										(prevState) => prevState + 4
-									)
-								}>Explore More</button>
-							</div>
-						
-					) : null}
+				/>
+				{totalCount > caseStudyCount ? (
+
+					<div className="text-center">
+						<button className="book-btn"
+							onClick={() =>
+								setCaseStudyCount(
+									(prevState) => prevState + 4
+								)
+							}>Explore More</button>
+					</div>
+
+				) : null}
 			</div>
 
 			<div className="container container-fluid py-5">

@@ -32,6 +32,9 @@ h4{
    padding-top: 60px;
    padding-bottom: 140px;
 }
+.careermain{
+   margin-bottom: 70px;
+}
 .contactsec{
    padding-top: 140px;
    padding-bottom: 120px;
@@ -1280,15 +1283,10 @@ ul.AboutService-style a:hover {
    border-radius: 50%;
 }
 .careerslide-height{
-/* height: 400px !important; */
-margin-left: 200px;
-margin-right: 200px;
 margin-top: 25px;
 margin-bottom: 25px;
 }
-.careerblock-margin{
-   margin-left: 100px;
-}
+
 
 .splide__slide .career-compnyimg{
    width: 100% !important;

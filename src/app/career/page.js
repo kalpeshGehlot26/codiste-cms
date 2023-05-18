@@ -30,7 +30,7 @@ const Career = () => {
 				</div>
 			</div>
 			<div className="container container-fluid ">
-				<div className="row">
+				<div className="row careermain">
 					<div className="col-xl-6 col-md-5 col-sm-12 mb-5">
 						<img className='img-fluid d-flex align-items-center justify-content-center' src="assets/images/main/Career_.png"
 							alt="Team" />
@@ -48,7 +48,6 @@ const Career = () => {
 							work environment.
 						</p>
 					</div>
-
 				</div>
 			</div>
 
