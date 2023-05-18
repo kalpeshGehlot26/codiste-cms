@@ -44,14 +44,14 @@ const MobileAppDevelopmentCompany = () => {
 			</div>
 			<ClientSlider />
 
-			<div className="container container-fluid">
+			<div className="container container-fluid py-5">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h1 className="all-head">
 							Our Mobile App Development Services{" "}
 						</h1>
 					</div>
-					<ServiceInnerItems  serviceItems={mobileList}/>
+					<ServiceInnerItems serviceItems={mobileList} />
 				</section>
 			</div>
 
@@ -274,12 +274,7 @@ const MobileAppDevelopmentCompany = () => {
 											src="assets/images/tech/Ionic.png"
 										/>
 									</li>
-									<li>
-										<img
-											className="img-fluid"
-											src="assets/images/tech/cross-platform.png"
-										/>
-									</li>
+
 									<li>
 										<img
 											className="img-fluid"

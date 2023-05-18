@@ -17,10 +17,10 @@ const CyphaPortfolio = () => {
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
 								<div className="col-12 col-lg-5 order-2 order-lg-1">
 									<h1 className="all-head">
-										CYPHA â€“ Your Sound
+										CYPHA - Your Sound
 									</h1>
 									<p className="all-p me-5 my-4">
-										CYPHA â€“ Your Pocket music studio The
+										CYPHA Your Pocket music studio. The
 										case study is about the Talent Search
 										App, a gamified platform for aspiring
 										and established musicians to showcase
@@ -460,30 +460,33 @@ const CyphaPortfolio = () => {
 				</section>
 			</div>
 
-			<div className="container container-fluid py-5">
-				<section>
-					<div className="row  d-flex align-items-center">
-						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
-							<h1>
-								Getting in touch with Us <br />
-								is now easier!
-							</h1>
-							<h2>
-								Fill out this form and give life <br />
-								to your vision!
-							</h2>
-						</div>
-						<div className="col-lg-6 col-md-12 ">
-							<div className="need-block h-100">
-								<h2 className="">
-									How Can We <b>Help?</b>{" "}
+			<div className="bg-color">
+				<div className="container container-fluid py-5 ">
+					<section>
+						<div className="row  d-flex align-items-center">
+							<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
+								<h1>
+									Getting in touch with Us <br />
+									is now easier!
+								</h1>
+								<h2>
+									Fill out this form and give life <br />
+									to your vision!
 								</h2>
-								<CaseStudyForm />
+							</div>
+							<div className="col-lg-6 col-md-12 ">
+								<div className="need-block h-100">
+									<h2 className="">
+										How Can We <b>Help?</b>{" "}
+									</h2>
+									<CaseStudyForm />
+								</div>
 							</div>
 						</div>
-					</div>
-				</section>
+					</section>
+				</div>
 			</div>
+
 		</div>
 	);
 };

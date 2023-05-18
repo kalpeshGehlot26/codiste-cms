@@ -21,35 +21,8 @@ const MLPortfolio = () => {
 										Machine Learning Estimation
 									</h1>
 									<p className="all-p me-5 my-4">
-										You can submit your tender drawings and
-										grab a cup of coffee while the software
-										annotates the drawings and generates the
-										bill of materials you are looking for.
-										The HVAC industry is a highly
-										competitive field, and with so many
-										contractors vying for the same projects,
-										it can be difficult to stand out and win
-										more quotes. However, with the right
-										tools and technology at your disposal,
-										you can increase your chances of
-										success. One of the most important
-										aspects of bidding on HVAC projects is
-										being able to provide detailed and
-										accurate quantity take-offs. These
-										take-offs are a critical part of the
-										bidding process, as they provide the
-										information needed to accurately
-										estimate the cost of a project. However,
-										creating these take-offs can be
-										time-consuming and tedious, taking
-										valuable time away from other aspects of
-										your business. Thatâ€™s where our
-										software comes in. Our software uses
-										cutting-edge technology to provide
-										detailed quantity take-offs from
-										construction drawings, allowing you to
-										focus more on winning projects and less
-										on counting.
+										ML estimation - Streamline HVAC project bidding with ML estimation, automating drawing annotation and generating accurate bill of materials. Save time, differentiate yourself in the industry, and leverage innovative technology for detailed quantity take-offs.
+
 									</p>
 									<Link
 										className="book-btn"

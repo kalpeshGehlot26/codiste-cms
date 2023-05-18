@@ -22,12 +22,7 @@ const StartupDevelopmentCompany = () => {
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
 								<div className="col-12 col-lg-5 order-2 order-lg-1">
 									<h1 className="all-head">Startup Development Company</h1>
-									<p className="all-p me-5 my-4">We are an emerging startup app development company offering
-										basic and advanced development and technological support for emerging businesses and small
-										enterprises looking to make it big with rapidly growing technologies. Our company develops
-										end-to-end software for startups and small to medium-scale enterprises. For businesses and
-										enterprises needing more embedding essential software support for their companies, we are a
-										one-stop shop for comprehensive custom software development for startups.
+									<p className="all-p me-5 my-4">Codiste is your trusted startup development partner. As a leading startup development company, we offer a wide range of services to help you bring your ideas to the end user. From idea validation to product launch, our comprehensive startup software development solutions ensure your success in the competitive market. We are dedicated to providing top-notch support and expertise throughout your entrepreneurial journey. Trust us to be your one-stop tech solution provider for all your startup development needs.
 									</p>
 									<button className="book-btn">Let’s Talk</button>
 								</div>
@@ -101,10 +96,12 @@ const StartupDevelopmentCompany = () => {
 						<h1 className="all-head text-center">
 							Why Choose Codiste For Startup Development Services?
 						</h1>
+						<p className="secondsec-p text-center">As a startup development company, we offer end-to-end solutions customized to your needs, utilizing the latest technologies for innovative solutions to ensure your startup's success.
+						</p>
 					</div>
 
 					<div className="row mx-5">
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
+						<div className="col-12 col-md-6 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
 								alt="Cost Efficient Development"
@@ -124,7 +121,7 @@ const StartupDevelopmentCompany = () => {
 								business quickly.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4  text-center p-5 Crosssec-6">
+						<div className="col-12  col-md-6  text-center p-5 Crosssec-6">
 							<img
 								className="img-fluid mb-2"
 								alt="Immersive Experience Integration"
@@ -144,7 +141,7 @@ const StartupDevelopmentCompany = () => {
 								experiences.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
+						<div className="col-12  col-md-6 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
 								alt="Blockchain Solutions"
@@ -164,7 +161,7 @@ const StartupDevelopmentCompany = () => {
 								your industry.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4  text-center p-5 ">
+						<div className="col-12  col-md-6  text-center p-5 ">
 							<img
 								className="img-fluid mb-2"
 								alt="Tech & Dev Hub"

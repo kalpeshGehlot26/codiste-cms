@@ -45,7 +45,7 @@ const MLDevelopmentCompany = () => {
 							Our Machine Learning Development Services
 						</h1>
 					</div>
-					<ServiceInnerItems serviceItems={MLList} /> 
+					<ServiceInnerItems serviceItems={MLList} />
 				</section>
 			</div>
 
@@ -56,6 +56,7 @@ const MLDevelopmentCompany = () => {
 							Why Should You Trust Codiste For Machine Learning
 							Development Services?
 						</h1>
+						<p className="secondsec-p text-center">Codiste delivers advanced machine learning services, driving business innovation with expertise and tailored solutions.</p>
 					</div>
 
 					<div className="row">
@@ -501,34 +502,7 @@ const MLDevelopmentCompany = () => {
 									Machine Learning Estimation
 								</h1>
 								<p className="mt-4">
-									You can submit your tender drawings and grab
-									a cup of coffee while the software annotates
-									the drawings and generates the bill of
-									materials you are looking for. The HVAC
-									industry is a highly competitive field, and
-									with so many contractors vying for the same
-									projects, it can be difficult to stand out
-									and win more quotes. However, with the right
-									tools and technology at your disposal, you
-									can increase your chances of success.
-									<br />
-									One of the most important aspects of bidding
-									on HVAC projects is being able to provide
-									detailed and accurate quantity take-offs.
-									These take-offs are a critical part of the
-									bidding process, as they provide the
-									information needed to accurately estimate
-									the cost of a project. However, creating
-									these take-offs can be time-consuming and
-									tedious, taking valuable time away from
-									other aspects of your business.
-									<br />
-									That’s where our software comes in. Our
-									software uses cutting-edge technology to
-									provide detailed quantity take-offs from
-									construction drawings, allowing you to focus
-									more on winning projects and less on
-									counting.
+									Streamline HVAC project bidding with ML estimation, automating drawing annotation and generating accurate bill of materials. Save time, differentiate yourself in the industry, and leverage innovative technology for detailed quantity take-offs.
 								</p>
 							</div>
 
@@ -748,9 +722,12 @@ const MLDevelopmentCompany = () => {
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
+							<h1>
+								Fill your details in the form.
+							</h1>
 							<h2 className="">
 								{" "}
-								Fill your details in the form and our team will
+								Our team will
 								get back to you to take your project further.
 							</h2>
 						</div>

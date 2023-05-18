@@ -443,7 +443,7 @@ const NFTDevelopment = () => {
 						<div className="col-md-6 col-sm-12 p-5 d-flex align-items-center justify-content-center flex-column">
 							<div className=" ">
 								<h1 className="">
-									CounterTen – solana Marketplace
+									CounterTen – Solana Marketplace
 								</h1>
 								<p className="mt-4">
 									CounterTEN is a Solana-based NFT platform

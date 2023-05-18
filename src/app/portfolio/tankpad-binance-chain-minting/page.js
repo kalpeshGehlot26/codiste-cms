@@ -114,7 +114,7 @@ const TankpadPortfolio = () => {
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head">
 								{" "}
-								Features of product/services
+								Features of product
 							</h1>
 						</div>
 

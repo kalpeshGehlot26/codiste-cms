@@ -17,7 +17,7 @@ const BornfirePortfolio = () => {
 						<div className="row firstsec ">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
 								<div className="col-12 col-lg-5 order-2 order-lg-1">
-									<h1 className="all-head">Bonfire</h1>
+									<h1 className="all-head">A Fractional Real Estate Investment Marketplace</h1>
 									<p className="all-p me-5 my-4">
 										<strong>
 											A Complete, Comprehensive Real
@@ -184,7 +184,7 @@ const BornfirePortfolio = () => {
 						What did we deliver?
 					</h1>
 					<p className="secondsec-p text-center">
-						Codisteâ€™s team has developed a marketplace that allows
+						Codiste team has developed a marketplace that allows
 						for fractional ownership of real estate properties by
 						tokenizing them. We have provided a common interface for
 						users to invest and manage their investments in multiple
@@ -204,7 +204,7 @@ const BornfirePortfolio = () => {
 						Passcode and Biometrics. Codiste worked with Bonfire to
 						develop a highly scalable marketplace that seamlessly
 						empowers users to invest and check out their
-						investments. Whatâ€™s more, our solution helps them by
+						investments. What more, our solution helps them by
 						increasing performance by 25% and reducing overall costs
 						by 45%.
 					</p>
