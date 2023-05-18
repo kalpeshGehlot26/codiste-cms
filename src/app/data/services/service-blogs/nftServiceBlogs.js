@@ -7,13 +7,13 @@ const nftServiceBlogs = [
     },
     {
         blogUrl: "https://codiste.com/fractional-nft-ownership/",
-        image: "assets/images/blogs/Blog2.jpg",
+        image: "assets/images/home/blogs/The Ultimate Guide on Fractional NFT Ownership.webp",
         title: "The Ultimate Guide on Fractional NFT Ownership",
         category: "NFT Marketplace"
     },
     {
         blogUrl: "https://codiste.com/what-is-xnft-the-usecase-of-xnft-how-it-differ-from-nft/",
-        image: "assets/images/blogs/Blog3.jpg",
+        image: "assets/images/home/blogs/What is xNFT, the Usecase of xNFT, How it differ from NFT.webp",
         title: "What is xNFT, the Usecase of xNFT, How it differ from NFT?",
         category: "NFT Marketplace"
     }

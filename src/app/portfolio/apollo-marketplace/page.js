@@ -230,7 +230,7 @@ const ApolloPortfolio = () => {
 				</div>
 				<div>
 					<h3> Web Platform - Admin (Client)</h3>
-					<p className="secondsec-p">
+					<div className="secondsec-p">
 						We integrated the following major features under the
 						Admin View of the web platform -
 						<ul className="secondsec-p">
@@ -249,7 +249,7 @@ const ApolloPortfolio = () => {
 								good rewards on investing in High APY Pool.
 							</li>
 						</ul>
-					</p>
+					</div>
 				</div>
 
 				<div className="mt-5">
@@ -320,7 +320,7 @@ const ApolloPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="./Images/Case-Apollo/Apollo MArketplace-2.png"
+												src="/assets/images/case-appolo/Apollo MArketplace-2.png"
 											/>
 										</div>
 									</div>
@@ -331,7 +331,7 @@ const ApolloPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="./Images/Case-Apollo/Apollo MArketplace-3.png"
+												src="/assets/images/case-appolo/Apollo MArketplace-3.png"
 											/>
 										</div>
 									</div>
@@ -342,7 +342,7 @@ const ApolloPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="./Images/Case-Apollo/Apollo MArketplace-4.png"
+												src="/assets/images/case-appolo/Apollo MArketplace-4.png"
 											/>
 										</div>
 									</div>
@@ -353,7 +353,7 @@ const ApolloPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="./Images/Case-Apollo/Apollo MArketplace-5.png"
+												src="/assets/images/case-appolo/Apollo MArketplace-5.png"
 											/>
 										</div>
 									</div>
@@ -364,7 +364,7 @@ const ApolloPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="./Images/Case-Apollo/Apollo MArketplace-6.png"
+												src="/assets/images/case-appolo/Apollo MArketplace-6.png"
 											/>
 										</div>
 									</div>
@@ -375,7 +375,7 @@ const ApolloPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="./Images/Case-Apollo/Apollo MArketplace-7.png"
+												src="/assets/images/case-appolo/Apollo MArketplace-7.png"
 											/>
 										</div>
 									</div>

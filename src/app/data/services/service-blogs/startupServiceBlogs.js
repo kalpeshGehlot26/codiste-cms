@@ -1,7 +1,7 @@
 const startupServiceBlogs = [
     {
         blogUrl: "https://codiste.com/top-tools-software-for-startups/",
-        image: "assets/images/blogs/Blog1.jpg",
+        image: "assets/images/home/blogs/Top Tools & Software for Startups.webp",
         title: "Top Tools & Software for Startups",
         category: "Start-up"
     },
@@ -13,7 +13,7 @@ const startupServiceBlogs = [
     },
     {
         blogUrl: "https://codiste.com/soulbound-tokens-social-credit-system-or-a-trigger-for-the-world/",
-        image: "assets/images/blogs/Blog3.jpg",
+        image: "assets/images/home/blogs/Soulbound Tokens Social credit system or a trigger for the world.webp",
         title: "Soulbound Tokens: Social credit system or a trigger for the world",
         category: "Start-up"
     }

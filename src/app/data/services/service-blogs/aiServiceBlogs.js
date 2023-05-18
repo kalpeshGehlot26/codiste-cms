@@ -1,13 +1,13 @@
 const aiServiceBlogs = [
     {
         blogUrl: "https://codiste.com/basic-terms-of-artificial-intelligence/",
-        image: "assets/images/blogs/Blog1.jpg",
+        image: "assets/images/home/blogs/A Guide to Basic Machine Learning and Computer Vision Terminology.webp",
         title: "A Guide to Basic Machine Learning and Computer Vision Terminology",
         category: "AI"
     },
     {
         blogUrl: "https://codiste.com/artificial-intelligence-in-smartphones/",
-        image: "assets/images/blogs/Blog2.jpg",
+        image: "assets/images/home/blogs/Artificial Intelligence in Smartphones The Next Revolution.webp",
         title: "Artificial Intelligence in Smartphones: The Next Revolution",
         category: "AI"
     },
