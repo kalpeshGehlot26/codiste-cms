@@ -9,7 +9,8 @@ import CaseStudyForm from "../caseStudyForm/caseStudyForm";
 import serviceItems from "../../data/serviceItems";
 import AllServiceBlogSlider from "../BlogSlider/allServiceBlogSlider";
 import homeBlogList from "@/app/data/homeBlogList";
-import BlogSlider from "./blogSlider";
+import "../../../style.css";
+import "../../../external.css";
 
 const HomePage = () => {
 	const [serviceCount, setServiceCount] = useState(6);

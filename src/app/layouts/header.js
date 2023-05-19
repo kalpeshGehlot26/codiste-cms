@@ -1,5 +1,7 @@
 import React from "react";
 import Link from 'next/link';
+import "../../style.css";
+import "../../external.css";
 
 const Header = () => {
 	return (
@@ -32,9 +34,9 @@ const Header = () => {
 								className="nav-link dropdown-toggle"
 								href="/services"
 								id="navbarScrollingDropdown"
-								// role="button"
-								// data-bs-toggle="dropdown"
-								// aria-expanded="false"
+							// role="button"
+							// data-bs-toggle="dropdown"
+							// aria-expanded="false"
 							>
 								Services
 							</Link>
@@ -49,7 +51,7 @@ const Header = () => {
 								</li>
 								<li>
 									<Link className="dropdown-item" href="/metaverse-development-company">
-										Metaverse Development Services 
+										Metaverse Development Services
 									</Link>
 								</li>
 								<li>
@@ -92,7 +94,7 @@ const Header = () => {
 										Mobile App Development Services
 									</Link>
 								</li>
-								
+
 							</ul>
 						</li>
 						<li className="nav-item">
