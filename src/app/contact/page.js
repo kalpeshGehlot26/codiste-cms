@@ -420,7 +420,7 @@ const page = () => {
 									</div>
 									<div>
 										<p className="secondsec-p">
-											Ncedo@codiste.com
+											nic@codiste.com
 										</p>
 									</div>
 								</div>

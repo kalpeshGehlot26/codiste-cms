@@ -261,6 +261,11 @@ ul.footer-icon li:hover svg path{
    text-decoration: none !important;
    color: #9598A6 !important;
 }
+.footer-center a:hover{
+   background: linear-gradient(90deg, #FF1F23 3.28%, #FD145A 97.2%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
 /* ==== footer complet==== */
 
 /* ==== accordion === */
@@ -558,7 +563,7 @@ font-size: 22px !important;
 .needsec h2 {
    font-size: 40px;
    font-weight: 300;
-   line-height: 40px;
+   line-height: 42px;
    letter-spacing: 0em;
    text-align: left;
    background: linear-gradient(90deg, #FF1F23 3.28%, #FD145A 97.2%);
@@ -714,7 +719,8 @@ bottom: -1.5rem !important;
 
 .blogboxbg:hover {
    height: 100%;
-   background-color: rgba(249, 0, 77);
+   background: rgb(249,0,77);
+   background: linear-gradient(180deg, rgba(249,0,77,0.7) 0%, rgba(0,0,0,1) 100%);
    position: absolute;
    top: 0;
    width: 100%;

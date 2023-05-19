@@ -228,7 +228,7 @@ const HomePage = () => {
 									leader to partner for your tech support?
 								</h1>
 								<h2>
-									Get started with your idea today! <br/> Fill out
+									Get started with your idea today! <br /> Fill out
 									the form & reach out to us.
 								</h2>
 							</div>

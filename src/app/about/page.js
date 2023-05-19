@@ -476,7 +476,6 @@ const About = () => {
 					<div className="d-flex align-items-center justify-content-center">
 						<img
 							className="img-fluid"
-							style={{ height: "500px", width: "1000px" }}
 							src="assets/images/about/World Map.png"
 							alt=""
 						/>
@@ -1221,7 +1220,7 @@ const About = () => {
 									</div>
 									<div>
 										<p className="secondsec-p">
-											Ncedo@codiste.com
+											nic@codiste.com
 										</p>
 									</div>
 								</div>

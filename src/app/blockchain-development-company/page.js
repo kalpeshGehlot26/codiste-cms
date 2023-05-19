@@ -94,7 +94,7 @@ const BlockChainDevelopment = () => {
 					</div>
 
 					<div className="row">
-						<div className="col-6 col-md-4 text-center p-5 Crosssec-1">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<h2 className="secondsec-head text-center">
 								10+ Blockchain Network Support
 							</h2>
@@ -113,7 +113,7 @@ const BlockChainDevelopment = () => {
 								solutions.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 Crosssec-2">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<h2 className="secondsec-head text-center">
 								End-To-End Development
 							</h2>
@@ -129,7 +129,7 @@ const BlockChainDevelopment = () => {
 								easy to use, and fit the market.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 Crosssec-3">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<h2 className="secondsec-head text-center">
 								Customized Solutions
 							</h2>
@@ -143,7 +143,7 @@ const BlockChainDevelopment = () => {
 								and pain points.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 Crosssec-4">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
 							<h2 className="secondsec-head text-center">
 								Organizational Transparency
 							</h2>
@@ -157,7 +157,7 @@ const BlockChainDevelopment = () => {
 								decisions about your project.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 Crosssec-5">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<h2 className="secondsec-head text-center">
 								Better Security
 							</h2>
@@ -175,7 +175,7 @@ const BlockChainDevelopment = () => {
 								blockchain industry standards.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5">
 							<h2 className="secondsec-head text-center">
 								Enhanced Scalability
 							</h2>
@@ -562,7 +562,7 @@ const BlockChainDevelopment = () => {
 				</div>
 			</div>
 
-			<div className="bg-color">
+			{/* <div className="bg-color">
 				<div className="container container-fluid py-5">
 					<div className=" d-flex align-items-center flex-column justify-content-center">
 						<h1 className="all-head">Case Study</h1>
@@ -612,8 +612,61 @@ const BlockChainDevelopment = () => {
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> */}
+			<div className="bg-color">
+				<div className="container container-fluid py-5">
+					<div className=" d-flex align-items-center flex-column justify-content-center">
+						<h1 className="all-head">Case Study</h1>
+						<p>
+							Hang on! We have our resource pack. You would want
+							to take advantage of them!{" "}
+						</p>
+					</div>
+					<div className="row">
+						<div className="col-md-6 col-sm-12 p-5 d-flex align-items-center justify-content-center flex-column">
+							<div className=" ">
+								<h1 className="">
+									CounterTen – Solana Marketplace
+								</h1>
+								<p className="mt-4">
+									CounterTEN is a Solana-based NFT platform
+									that enables brands to create and sell NFTs
+									for a variety of purposes, from event access
+									and product launches to collectibles and
+									memberships. The platform provides
+									flexibility for businesses to increase
+									revenue and engagement, and has already been
+									used successfully by luxury car and clothing
+									brands. CounterTEN is a game-changer for
+									brands looking to connect with their
+									customers in an innovative way using NFTs.
+								</p>
+							</div>
 
+							<div className="mt-4">
+								<Link
+									href="/portfolio/counterten-solana-marketplace"
+									className="book-btn"
+								>
+									Read More
+								</Link>
+							</div>
+						</div>
+						<div className="col-lg-6 col-sm-12 p-5 ">
+							<img
+								className="img-fluid d-flex align-items-center justify-content-center"
+								style={{
+									height: "450px",
+									width: "auto",
+									margin: "auto",
+									padding: "20px",
+								}}
+								src="assets/images/case-couter10/Counterten.png"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head">Blog</h1>

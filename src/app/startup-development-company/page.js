@@ -50,7 +50,7 @@ const StartupDevelopmentCompany = () => {
 					<div className="row ">
 						<div className=" col-md-6 col-sm-12 pb-3 ">
 							<div className="service-block p-4 h-100">
-								<h2 className="secondsec-head mt-4">
+								<h2 className="secondsec-head ">
 									Technical Feasibility in Idea Validation
 								</h2>
 								<p className="secondsec-p">
@@ -69,7 +69,7 @@ const StartupDevelopmentCompany = () => {
 						</div>
 						<div className=" col-md-6 col-sm-12 pb-3 ">
 							<div className="service-block p-4 h-100">
-								<h2 className="secondsec-head mt-4">
+								<h2 className="secondsec-head">
 									Minimum Viable Product (MVP) Development
 								</h2>
 								<p className="secondsec-p">

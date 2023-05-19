@@ -231,7 +231,7 @@ const TankpadPortfolio = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5">
+			{/* <div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -406,7 +406,7 @@ const TankpadPortfolio = () => {
 						</div>
 					</section>
 				</div>
-			</div>
+			</div> */}
 
 			<div className="container container-fluid py-4">
 				<section>

@@ -15,9 +15,9 @@ const serviceList = [
         description: "Our AI development services help businesses take advantage of the latest advancements in artificial intelligence technology. We work closely with our clients to identify their needs and develop custom machine learning algorithms and natural language processing technologies."
     },
     {
-        title: "Web",
-        url: "assets/images/services/Web Development.png",
-        description: "We offer end-to-end blockchain development services for businesses and start-ups using Polkadot, Polygon, and Ethereum layer 1&2 scaling solutions that bring security, scalability, and decentralization to your organization. Our blockchain development services include hyper ledger development, Decentralized Autonomous Organizations, and Smart Contract Development to offer a complete ecosystem of decentralized software support."
+        title: "NFTMarketplace",
+        url: "assets/images/services/Nftimg.png",
+        description: "Our NFT marketplace development services offer secure and decentralized trading of digital assets. We provide tailored NFT marketplace development, dApp development, NFT minting/trading, and blockchain integration for seamless and efficient transactions."
     },
     {
         title: "AR/VR",
@@ -30,19 +30,20 @@ const serviceList = [
         description: "Our machine learning development team creates custom algorithms to classify and analyze your data, enabling advanced management and driving business performance. We use advanced image recognition software to transform visual media, while our natural language processing solutions enhance user experience."
     },
     {
-        title: "NFTMarketplace",
-        url: "assets/images/services/Nftimg.png",
-        description: "Our NFT marketplace development services offer secure and decentralized trading of digital assets. We provide tailored NFT marketplace development, dApp development, NFT minting/trading, and blockchain integration for seamless and efficient transactions."
+        title: "Start-Up",
+        url: "assets/images/services/startup.png",
+        description: "Leverage our startup development services to receive end-to-end support from ideation to launch, partnering with our team's innovative mindset and technical expertise. We transform your ideas into products or services aligned with your business objectives."
     },
     {
         title: "Cryptocurrency",
         url: "assets/images/services/Cryptocurrency.png",
         description: "We provide cryptocurrency development services to businesses seeking to leverage decentralized digital currencies and blockchain solutions. Our team develops secure, transparent smart contract applications that enable secure financial transactions tailored to the unique needs of each client."
     },
+
     {
-        title: "Start-Up",
-        url: "assets/images/services/startup.png",
-        description: "Leverage our startup development services to receive end-to-end support from ideation to launch, partnering with our team's innovative mindset and technical expertise. We transform your ideas into products or services aligned with your business objectives."
+        title: "Website",
+        url: "assets/images/services/Web Development.png",
+        description: "We offer end-to-end blockchain development services for businesses and start-ups using Polkadot, Polygon, and Ethereum layer 1&2 scaling solutions that bring security, scalability, and decentralization to your organization. Our blockchain development services include hyper ledger development, Decentralized Autonomous Organizations, and Smart Contract Development to offer a complete ecosystem of decentralized software support."
     },
     {
         title: "Mobile App",

@@ -464,33 +464,178 @@ const CoinxpadPortfolio = () => {
 				</section>
 			</div>
 
+
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">Satisfied clients is our proof of our excellence!</h1>
-
+							<h1 className="all-head">
+								Satisfied clients is our proof of our excellence!
+							</h1>
 						</div>
 
+						<div
+							id="carouselExampleDark"
+							className="carousel carousel-dark slide carousel-box"
+							data-bs-ride="carousel"
+						>
+							<div className="carousel-indicators">
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="0"
+									className="active"
+									aria-current="true"
+									aria-label="Slide 1"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="1"
+									aria-label="Slide 2"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="2"
+									aria-label="Slide 3"
+								></button>
+							</div>
+							<div className="carousel-inner">
+								<div className="carousel-item active">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+										<h3>
+											Work with Codiste if you’re looking
+											for a team that’s easy to deal with
+											and provides quality services..The
+											company is impressed with Codiste
+											pvt ltd’s work, and the NFT platform
+											has received positive feedback from
+											everyone. It’s also 100% secure. The
+											team has done everything flawlessly,
+											and they’ve beaten the project’s
+											strict deadline. Overall, they’ve
+											been instrumental in the project’s
+											success.
+										</h3>
 
-						<div className="carousel-inner career-block">
+										<div className="d-flex align-items-center flex-column custom-crousel">
+											<img
+												src="assets/images/iCrowsel.png"
+												className="img-fluid"
+												alt="iCrowsel"
+											/>
+											<div>
+												<img
+													className="img-fluid my-4 client-logo"
+													alt="Cryptography"
+													src="assets/images/client-logos/Mumble Rapperz.png"
+												/>
+											</div>
+											<h5>Cryptography Company</h5>
+											<p>
+												Founder <br />
+												Fort Lauderdale, Florida
+											</p>
+										</div>
+									</div>
+								</div>
+								<div className="carousel-item">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+										<h3>
+											Codiste Team was very much helpful
+											and they went detailed oriented and
+											successfully launched our venture
+											investment platform, which helped us
+											to achieve to raise initial fund
+											through NFT selling, team has gone
+											above and beyond with all suggetions
+											with their expertise, Highly
+											recommended for Blockchain
+											professional studio.
+										</h3>
 
-							<div className="d-flex align-items-center text-center flex-column custom-crousel">
-								<h3>It was an absolute pleasure working with Nishant and his team for our Blockchain Product.
-									Not only is Nishant an engineer in making the product, he also cares and gives his opinion
-									on the outcome of the design. When it comes to delivery, the breakdown of the milestone is
-									fair and accurate. Lastly, we had a lot of changes near the end of the sprint and the team
-									was flexible about it. honest work, you get what you pay for.
+										<div className="d-flex align-items-center flex-column custom-crousel">
+											<img
+												src="assets/images/iCrowsel.png"
+												className="img-fluid"
+												alt="iCrowsel"
+											/>
+											<div>
+												<img
+													className="img-fluid my-4 client-logo"
+													alt="FTW"
+													src="assets/images/client-logos/FTW Dao Logo.png"
+												/>
+											</div>
+											<h5>FTW Dao</h5>
+											<p>Founder</p>
+										</div>
+									</div>
+								</div>
 
-								</h3>
-								<div className="d-flex align-items-center flex-column">
-									<img src="/assets/images/iCrowsel.png" className=" " alt="iCrowsel" />
-									<div className="my-3"><img className="img-fluid" alt='Cryptography' src="/assets/images/client-logos/Mumble Rapperz.png" /></div>
-									<h5>Cryptography Company</h5>
-									<p>Founder</p>
+								<div className="carousel-item">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+										<h3>
+											Their attention to detail and
+											willingness to work under pressure
+											was impressive.Codiste pvt ltd has
+											completed all assigned tasks and
+											performed well during the
+											engagement. The client lauded their
+											attention to detail and timely
+											delivery of outputs. In the end, no
+											major issues or vulnerabilities were
+											found in the final platform.
+										</h3>
+
+										<div className="d-flex align-items-center flex-column custom-crousel">
+											<img
+												src="assets/images/iCrowsel.png"
+												className="img-fluid"
+												alt="iCrowsel"
+											/>
+											<div>
+												<img
+													className="img-fluid my-4 client-logo"
+													alt="White Hat"
+													src="assets/images/client-logos/White Hat DAO.png"
+												/>
+											</div>
+											<h5>White Hat DAO</h5>
+											<p>
+												Core Contributor
+												<br />
+												Sydney, Australia
+											</p>
+										</div>
+									</div>
 								</div>
 							</div>
-
+							<button
+								className="carousel-control-prev"
+								type="button"
+								data-bs-target="#carouselExampleDark"
+								data-bs-slide="prev"
+							>
+								<span
+									className="carousel-control-prev-icon"
+									aria-hidden="true"
+								></span>
+								<span className="visually-hidden">Previous</span>
+							</button>
+							<button
+								className="carousel-control-next"
+								type="button"
+								data-bs-target="#carouselExampleDark"
+								data-bs-slide="next"
+							>
+								<span
+									className="carousel-control-next-icon"
+									aria-hidden="true"
+								></span>
+								<span className="visually-hidden">Next</span>
+							</button>
 						</div>
 					</section>
 				</div>

@@ -361,7 +361,7 @@ const PixipagesPortfolio = () => {
 				</section>
 			</div>
 
-			<div className="bg-color py-5">
+			{/* <div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -401,6 +401,191 @@ const PixipagesPortfolio = () => {
 									<p>Founder</p>
 								</div>
 							</div>
+						</div>
+					</section>
+				</div>
+			</div> */}
+
+			<div className="bg-color py-5">
+				<div className="container container-fluid">
+					<section>
+						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+							<h1 className="all-head">
+								Satisfied clients is our proof of our excellence!
+							</h1>
+						</div>
+
+						<div
+							id="carouselExampleDark"
+							className="carousel carousel-dark slide carousel-box"
+							data-bs-ride="carousel"
+						>
+							<div className="carousel-indicators">
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="0"
+									className="active"
+									aria-current="true"
+									aria-label="Slide 1"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="1"
+									aria-label="Slide 2"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="2"
+									aria-label="Slide 3"
+								></button>
+							</div>
+							<div className="carousel-inner">
+								<div className="carousel-item active">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+										<h3>
+											Their attention to detail and
+											willingness to work under pressure
+											was impressive.Codiste pvt ltd has
+											completed all assigned tasks and
+											performed well during the
+											engagement. The client lauded their
+											attention to detail and timely
+											delivery of outputs. In the end, no
+											major issues or vulnerabilities were
+											found in the final platform.
+										</h3>
+
+										<div className="d-flex align-items-center flex-column custom-crousel">
+											<img
+												src="assets/images/iCrowsel.png"
+												className="img-fluid"
+												alt="iCrowsel"
+											/>
+											<div>
+												<img
+													className="img-fluid my-4 client-logo"
+													alt="White Hat DAO"
+													src="assets/images/client-logos/White Hat DAO.png"
+												/>
+											</div>
+											<h5>White Hat DAO</h5>
+											<p>
+												Core Contributor
+												<br />
+												Sydney, Australia
+											</p>
+										</div>
+									</div>
+								</div>
+								<div className="carousel-item">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+										<h3>
+											I am pleased to say that working
+											with Codiste Pvt Ltd has been a
+											positive experience for our
+											community. The project is now
+											complete, and the feedback we have
+											received on the platform has been
+											overwhelmingly positive. Throughout
+											the project, Codiste maintained open
+											communication lines, regularly
+											updating us on progress and
+											following the agreed timeline. They
+											delivered an app with impressive
+											functionalities and accepted every
+											challenge we gave them. Overall, we
+											are satisfied with the outcome of
+											the project and would recommend
+											Codiste for their expertise,
+											professionalism, and commitment to
+											delivering high-quality work.
+										</h3>
+
+										<div className="d-flex align-items-center flex-column custom-crousel">
+											<img
+												src="assets/images/iCrowsel.png"
+												className="img-fluid"
+												alt="iCrowsel"
+											/>
+											<div>
+												<img
+													className="img-fluid my-4 client-logo"
+													alt="DiveWallet"
+													src="assets/images/client-logos/DiveWallet Logo.png"
+												/>
+											</div>
+											<h5>DiveWallet</h5>
+											<p>
+												CEO
+												<br />
+												Bolivar, New York
+											</p>
+										</div>
+									</div>
+								</div>
+								<div className="carousel-item">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+										<h3>
+											They communicate clearly and outline
+											the product roadmap for us. It has
+											been very easy to work with them.
+											Made us profitaable on NFT
+											Marketplace and which made amazing
+											journey.
+										</h3>
+
+										<div className="d-flex align-items-center flex-column custom-crousel">
+											<img
+												src="assets/images/iCrowsel.png"
+												className="img-fluid"
+												alt="iCrowsel"
+											/>
+											<div>
+												<img
+													className="img-fluid my-4 client-logo"
+													alt="Ninza NFT"
+													src="assets/images/client-logos/Danketsu-Logo-Blue (Ninja NFT).png"
+												/>
+											</div>
+											<h5>Ninza NFT</h5>
+											<p>
+												CoFounde
+												<br />
+												Johannesburg, South Africa
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<button
+								className="carousel-control-prev"
+								type="button"
+								data-bs-target="#carouselExampleDark"
+								data-bs-slide="prev"
+							>
+								<span
+									className="carousel-control-prev-icon"
+									aria-hidden="true"
+								></span>
+								<span className="visually-hidden">
+									Previous
+								</span>
+							</button>
+							<button
+								className="carousel-control-next"
+								type="button"
+								data-bs-target="#carouselExampleDark"
+								data-bs-slide="next"
+							>
+								<span
+									className="carousel-control-next-icon"
+									aria-hidden="true"
+								></span>
+								<span className="visually-hidden">Next</span>
+							</button>
 						</div>
 					</section>
 				</div>

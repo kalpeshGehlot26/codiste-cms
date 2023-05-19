@@ -37,7 +37,10 @@ const Services = () => {
 										your partner in accelerating innovation and growth with web and app solutions in emerging, rapidly
 										growing technologies to help you elevate your user and customer experience.
 									</p>
-									<button className="book-btn mt-3">Contact Us</button>
+									<Link href="/contact" className="book-btn">
+										Contact Us
+									</Link>
+
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid'
 									src="assets/images/firstsecimg.png" alt="Services" /></div>

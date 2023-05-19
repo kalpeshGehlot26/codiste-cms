@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
-const ServiceInnerItems = ({serviceItems}) => {
+const ServiceInnerItems = ({ serviceItems }) => {
 	const [serviceCount, setServiceCount] = useState(3);
 	const [totalServiceCount, setTotalServiceCount] = useState(null);
 
@@ -20,7 +20,7 @@ const ServiceInnerItems = ({serviceItems}) => {
 							key={index}
 						>
 							<div className="service-block p-4 h-100">
-								<h2 className="secondsec-head mt-4">
+								<h2 className="secondsec-head">
 									{service.title}
 								</h2>
 								<p className="secondsec-p">
