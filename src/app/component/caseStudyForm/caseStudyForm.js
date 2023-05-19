@@ -1,11 +1,18 @@
 "use client";
 import axios from "axios";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const CaseStudyForm = () => {
 	const [values, setValues] = useState(null);
 	const [success, setSuccess] = useState(false);
+	const [path, setPath] = useState(null);
 	const formRef = useRef();
+
+	useEffect(() => {
+		if (typeof window !== 'undefined') {
+		  setPath(window.location.pathname)
+		}
+	  }, []);
 
 	const handleSubmit = async (event) => {
 		event.preventDefault();
@@ -91,7 +98,7 @@ const CaseStudyForm = () => {
 					required
 				></textarea>
 				<button className="book-btn" type="submit">
-					{window.location.pathname === '/career' ? "Apply Now" : "Book a Call"}
+					{path === '/career' ? "Apply Now" : "Book a Call"}
 				</button>
 				{
 					success? <div className="alert alert-success d-flex align-items-center mt-4" role="alert">

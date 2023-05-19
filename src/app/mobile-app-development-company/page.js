@@ -38,7 +38,7 @@ const MobileAppDevelopmentCompany = () => {
 										dedicated to delivering top-notch mobile applications that drive better experience and
 										business growth.
 									</p>
-									<button className="book-btn">Let’s Talk</button>
+									<Link href="/contact" className="book-btn">Let’s Talk</Link>
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="assets/images/main/Mobile App Development.png" alt="Mobile App Development" /></div>
 							</div>

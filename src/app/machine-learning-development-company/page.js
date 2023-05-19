@@ -33,7 +33,7 @@ const MLDevelopmentCompany = () => {
 										development team helps you leverage the power of machine learning to boost your
 										organizational growth and efficiency.
 									</p>
-									<button className="book-btn">Contact Us</button>
+									<Link href="/contact" className="book-btn">Contact Us</Link>
 								</div>
 								<div className="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0"><img className='img-fluid' alt='Machine Learning' src="assets/images/main/Machine Learning.png" /></div>
 							</div>

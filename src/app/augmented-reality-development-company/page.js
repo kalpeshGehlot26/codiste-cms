@@ -30,7 +30,7 @@ const ARVRDevelopmentCompany = () => {
 									<h1 className="all-head">AR/VR Development Company</h1>
 									<p className="all-p me-5 my-4">We offer complete AR/VR development for enterprise-level platforms, avatars and more with leading technologies and frameworks like ARtoolkit, Google-ARCore, and Apple AR Kit to help you leverage Web3 applications and immersive technologies.
 									</p>
-									<button className="book-btn">Contact Us</button>
+									<Link href="/contact" className="book-btn">Contact Us</Link>
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="assets/images/main/AR_VR.png" /></div>
 							</div>
