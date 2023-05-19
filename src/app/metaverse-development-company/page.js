@@ -476,23 +476,23 @@ const MetaverseDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="bg-color">
-				<div className="container container-fluid py-5">
-					<div className=" d-flex align-items-center flex-column justify-content-center">
+			<div className="py-5 bg-color">
+				<div className="container container-fluid">
+					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-						<p>
+						<p className="text-center all-p">
 							Read more and understand how our successful
 							deployments have helped enterprises.
 						</p>
 					</div>
-					<div className="row ">
-						<div className="col-md-6 col-sm-12 p-5 d-flex align-items-center justify-content-center flex-column">
-							<div className="d-flex flex-column align-items-center justify-content-center ">
+					<div className="row d-flex align-items-center justify-content-between case-sec">
+						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec">
+							<div className="">
 								<h1 className="">
 									DiveWallet <br /> Your next-gen crypto asset
 									manager
 								</h1>
-								<p className="mt-4">
+								<p className="all-p">
 									As Blockchain experts, Codiste develops a
 									highly-secured crypto wallet - ‘Divewallet’
 									that supports well known EVM-based
@@ -510,13 +510,10 @@ const MetaverseDevelopmentCompany = () => {
 								</Link>
 							</div>
 						</div>
-						<div className="col-lg-6 col-sm-12 p-5 ">
+						<div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2 mb-5 mb-lg-0">
 							<img
-								className="img-fluid d-flex align-items-center justify-content-center"
+								className="img-fluid"
 								style={{
-									height: "450px",
-									width: "auto",
-									margin: "auto",
 									padding: "20px",
 								}}
 								src="assets/images/diwallet-case/Dive Wallet.png"
