@@ -25,7 +25,7 @@ const AllServiceBlogSlider = ({ items }) => {
                     1000: {
                         perPage: 3,
                     },
-                    600: {
+                    800: {
                         perPage: 2,
                     },
                     400: {

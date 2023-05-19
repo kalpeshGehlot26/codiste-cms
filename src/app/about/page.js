@@ -56,60 +56,37 @@ const About = () => {
 				</div>
 			</div>
 
-			<div className="firstsec bg-color">
+
+
+			<div className="py-5 bg-color">
 				<div className="container container-fluid">
-					<div className="row ">
-						<div className="col-xl-6 col-sm-12 mb-5 d-flex justify-content-center flex-column">
-							<h1 className="all-head ">MISSION</h1>
-							<p className="secondsec-p ">
-								Strive, Innovate and Succeed in delivering
-								tangible business value to clients across the
-								globe by ensuring the highest quality within
-								available time frames in each of our IT
-								solutions we provide. Through a consistent and
-								rigorous adherence to best procedures and
-								practices prevalent in the industry today, we
-								deliver more than what the Client expects
-							</p>
+					<div className="row justify-content-between">
+						<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap  align-items-center justify-content-between">
+							<div className="col-12 col-lg-5 order-2 order-lg-1">
+								<h1 className="all-head ">MISSION</h1>
+								<p className="secondsec-p ">Strive, Innovate and Succeed in delivering tangible business value to clients across the
+									globe by ensuring the highest quality within available time frames in each of our IT solutions we provide.
+									Through a consistent and rigorous adherence to best procedures and practices prevalent in the industry today,
+									we deliver more than what the Client expects</p>
+							</div>
+							<div className="col-12 col-lg-4 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' alt='MISSION' src="assets/images/about/Mission.png" /></div>
 						</div>
-						<div className="col-xl-6 col-sm-12 mb-5">
-							<img
-								className="img-fluid d-flex align-items-center justify-content-center"
-								style={{
-									height: "350px",
-									width: "auto",
-									margin: "auto",
-									padding: "20px",
-								}}
-								src="assets/images/about/Mission.png"
-							/>
+
+						<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap  align-items-center justify-content-between">
+							<div className="col-12 col-lg-4 mt-5 mt-lg-0"><img className='img-fluid' alt='VISION' src="assets/images/about/vision.png" /></div>
+							<div className="col-12 col-lg-5 ">
+								<h1 className="all-head ">VISION</h1>
+								<p className="secondsec-p ">We at Codiste have a vision of becoming the most eminent software development company
+									with the highest customer life cycle for offshore service seekers globally. Codiste services have to define
+									the best “collaborative experience” for our clients and solution users.</p>
+							</div>
+
 						</div>
-						<div className="col-xl-6 col-sm-12 mb-5">
-							<img
-								className="img-fluid d-flex align-items-center justify-content-center"
-								style={{
-									height: "350px",
-									width: "auto",
-									margin: "auto",
-									padding: "20px",
-								}}
-								src="assets/images/about/vision.png"
-							/>
-						</div>
-						<div className="col-xl-6 col-sm-12 mb-5 aboutall-p d-flex  justify-content-center flex-column">
-							<h1 className="all-head">VISION</h1>
-							<p className="secondsec-p ">
-								We at Codiste have a vision of becoming the most
-								eminent software development company with the
-								highest customer life cycle for offshore service
-								seekers globally. Codiste services have to
-								define the best “collaborative experience” for
-								our clients and solution users.
-							</p>
-						</div>
+
 					</div>
 				</div>
 			</div>
+
 
 			<div className="container container-fluid  py-5">
 				<section>
@@ -211,71 +188,51 @@ const About = () => {
 				</section>
 			</div>
 
-			<div className="bg-color firstsec">
-				<div className="container container-fluid py-4">
-					<h1 className="all-head text-center mb-5">
-						Leadership Team
-					</h1>
+
+			<div className="py-5 bg-color">
+				<div className="container container-fluid">
+					<h1 className="all-head text-center mb-5">Leadership Team</h1>
 					<div className="row">
-						<div className="col-auto mb-5">
-							<img
-								className="img-fluid leader"
-								src="assets/images/about/Nishant.png"
-								alt=""
-							/>
+						<div className="col-xl-2 col-md-4 mb-5">
+							<img className='img-fluid ' src="assets/images/about/Nishant.png" alt="Nishant Bijani" />
 						</div>
-						<div className="col mb-5 aboutall-p">
+						<div className="col-xl-10 col-md-8 mb-5 aboutall-p">
 							<div>
-								<div className="d-flex">
-									<h1 className="me-4 aboutall-h">
-										Nishant Bijani
-									</h1>
+								<div className="d-flex flex-wrap">
+									<h1 className="me-4 aboutall-h">Nishant Bijani</h1>
 									<a href="https://www.linkedin.com/in/nishantbijani/" target="_blank">
 										<img
 											className="img-fluid mb-4 "
 											src="assets/images/about/linkedin.png"
-											alt=""
+											alt="linkedin"
 										/>
 									</a>
+
 								</div>
 								<p className="aboutall-p"> Co-Founder & CTO</p>
+
 							</div>
 							<div className="secondsec-p">
 								<p>
-									Nishant Bijani is an exceptional CTO, whose
-									dedication to innovation and customer
-									satisfaction sets him apart. He delivers
-									customized solutions that exceed
-									expectations and is always up-to-date with
-									industry advancements. His expertise in
-									engineering is unparalleled, and he is
-									constantly pushing the boundaries of what is
-									possible. Nishant understands the importance
-									of high-quality products and services and is
-									committed to ensuring that our customers
-									receive nothing but the best. His
-									contributions have been instrumental in
-									driving our company's success, Under his
-									leadership, we are confident that we will
-									continue to excel in the future.
+									Nishant Bijani is an exceptional CTO, whose dedication to innovation and customer satisfaction sets him
+									apart. He delivers customized solutions that exceed expectations and is always up-to-date with industry
+									advancements. His expertise in engineering is unparalleled, and he is constantly pushing the boundaries of
+									what is possible. Nishant understands the importance of high-quality products and services and is committed
+									to ensuring that our customers receive nothing but the best. His contributions have been instrumental in
+									driving our company's success, Under his leadership, we are confident that we will continue to excel in the
+									future.
 								</p>
 							</div>
 						</div>
 					</div>
 					<div className="row">
-						<div className="col-auto ">
-							<img
-								className="img-fluid leader"
-								src="assets/images/about/Nic.png"
-								alt=""
-							/>
+						<div className="col-xl-2 col-md-4 mb-5">
+							<img className='img-fluid' src="assets/images/about/Nic.png" alt="Nic" />
 						</div>
-						<div className="col  aboutall-p">
+						<div className="col-xl-10 col-md-8 mb-5 aboutall-p">
 							<div>
-								<div className="d-flex">
-									<h1 className="me-4 aboutall-h">
-										Nic Roux
-									</h1>
+								<div className="d-flex flex-wrap">
+									<h1 className="me-4 aboutall-h">Nic Roux</h1>
 									<a href="https://www.linkedin.com/in/nicolas-roux-2a847518a/" target="_blank" >
 										<img
 											className="img-fluid mb-4"
@@ -285,28 +242,25 @@ const About = () => {
 									</a>
 								</div>
 								<p className="aboutall-p">Co-Founder</p>
+
 							</div>
 							<div className="secondsec-p">
 								<p>
-									Nicolas Roux, co-founder of Codiste, is a
-									visionary leader with an exceptional ability
-									to drive growth through innovation and
-									collaboration. As a digital communication
-									expert, he brings a wealth of knowledge and
-									experience to the table, and his fervor for
-									technology has been instrumental in shaping
-									Codiste's strategic vision. His leadership
-									abilities are second to none, and he has
-									cultivated an innovative culture within the
-									organization that inspires creativity and
-									excellence. His contributions have been
-									invaluable in driving company success.
+									Nicolas Roux, co-founder of Codiste, is a visionary leader with an exceptional ability to drive growth
+									through innovation and collaboration. As a digital communication expert, he brings a wealth of knowledge and
+									experience to the table, and his fervor for technology has been instrumental in shaping Codiste's strategic
+									vision. His leadership abilities are second to none, and he has cultivated an innovative culture within the
+									organization that inspires creativity and excellence. His contributions have been invaluable in driving
+									company success.
 								</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+
+
+
 
 			<div className="container container-fluid  py-5">
 				<section>
