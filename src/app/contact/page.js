@@ -45,7 +45,7 @@ const page = () => {
 						<p>
 							If you prefer to use something other than the form
 							below, you can contact our team directly at{" "}
-							<b>manager@codiste.com</b> or <b>+91 9429005987.</b>
+							<b><a href="mailto:manager@codiste.com">manager@codiste.com</a></b> or <b><a href="tel:+91 9429005987">+91 9429005987</a>.</b>
 							<br />
 						</p>
 					</div>
@@ -420,7 +420,7 @@ const page = () => {
 									</div>
 									<div>
 										<p className="secondsec-p">
-											Ncedo@codiste.com
+											nic@codiste.com
 										</p>
 									</div>
 								</div>

@@ -32,7 +32,7 @@ const CryptoDevelopmentCompany = () => {
 										services with robust security and privacy standards. We are equipped with blockchain, hyper
 										ledger, and smart contracts for a seamless user experience in crypto trading and investment.
 									</p>
-									<button className="book-btn">Let’s Talk</button>
+									<Link href="/contact" className="book-btn">Let’s Talk</Link>
 								</div>
 								<div className="col-12 col-lg-auto mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="assets/images/main/Cryptocurrency Development_.png" alt="Cryptocurrency Development" /></div>
 							</div>

@@ -32,7 +32,7 @@ const WebDevelopmentCompany = () => {
 										and technical assistance to build secure, scalable, visually stunning, and robust web
 										applications.
 									</p>
-									<button className="book-btn">Contact Us</button>
+									<Link href="/contact" className="book-btn">Contact Us</Link>
 								</div>
 								<div className="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0"><img className='img-fluid' alt='Web Development' src="assets/images/main/Web Development_.png" /></div>
 							</div>

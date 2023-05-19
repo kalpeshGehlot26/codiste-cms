@@ -28,7 +28,7 @@ const StartupDevelopmentCompany = () => {
 									<h1 className="all-head">Startup Development Company</h1>
 									<p className="all-p me-5 my-4">Codiste is your trusted startup development partner. As a leading startup development company, we offer a wide range of services to help you bring your ideas to the end user. From idea validation to product launch, our comprehensive startup software development solutions ensure your success in the competitive market. We are dedicated to providing top-notch support and expertise throughout your entrepreneurial journey. Trust us to be your one-stop tech solution provider for all your startup development needs.
 									</p>
-									<button className="book-btn">Let’s Talk</button>
+									<Link href="/contact" className="book-btn">Let’s Talk</Link>
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="assets/images/main/Start Up Development_.png" alt="Startup Development" /></div>
 							</div>
@@ -598,7 +598,7 @@ const StartupDevelopmentCompany = () => {
 
 							<div className="mt-4">
 								<Link
-									href="apollo-marketplace"
+									href="/portfolio/apollo-marketplace"
 									className="book-btn"
 								>
 									Read More

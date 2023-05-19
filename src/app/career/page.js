@@ -26,7 +26,7 @@ const Career = () => {
 						Explore exciting career opportunities and make your mark
 						with us today.
 					</p>
-					<button className="book-btn mt-2">Explore Opportunities</button>
+					<a href="#apply-now" className="book-btn mt-2">Explore Opportunities</a>
 				</div>
 			</div>
 			<div className="container container-fluid ">
@@ -70,7 +70,7 @@ const Career = () => {
 							building with emerging technologies for our global
 							clientele.
 						</p>
-						<button className="book-btn">Apply Now</button>
+						<a href="#apply-now" className="book-btn">Apply Now</a>
 					</div>
 				</section>
 			</div>
@@ -181,7 +181,7 @@ const Career = () => {
 									</p>
 								</div>
 								<div>
-									<button className="apply-btn">Apply Now</button>
+									<a href="#apply-now" className="apply-btn">Apply Now</a>
 								</div>
 							</div>
 						</div>
@@ -194,7 +194,7 @@ const Career = () => {
 									</p>
 								</div>
 								<div>
-									<button className="apply-btn">Apply Now</button>
+									<a href="#apply-now" className="apply-btn">Apply Now</a>
 								</div>
 
 							</div>
@@ -211,7 +211,7 @@ const Career = () => {
 									</p>
 								</div>
 								<div>
-									<button className="apply-btn">Apply Now</button>
+									<a href="#apply-now" className="apply-btn">Apply Now</a>
 								</div>
 
 							</div>
@@ -220,7 +220,7 @@ const Career = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5">
+			<div className="container container-fluid py-5" id="apply-now">
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-5">
