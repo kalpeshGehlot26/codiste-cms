@@ -20,7 +20,7 @@ const HomePage = () => {
 		<div>
 			<section className="video-containeraa videosec">
 				<div className="ratio ratio-16x9">
-					<iframe src="https://player.vimeo.com/video/828259341?h=4e27c22614&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
+					<iframe src="https://player.vimeo.com/video/828259341?h=4e27c22614&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
 				</div>
 				<script src="https://player.vimeo.com/api/player.js"></script>
 				<div className="rotate-box">
