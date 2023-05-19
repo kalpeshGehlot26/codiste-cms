@@ -58,7 +58,7 @@ const MetaverseDevelopmentCompany = () => {
 				</section>
 			</div>
 
-			<div className="py-5 bg-color">
+			<div className="py-5 bg-color mt-5">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head text-center">

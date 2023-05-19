@@ -240,8 +240,6 @@ const About = () => {
 			</div>
 
 
-
-
 			<div className="container container-fluid  py-5">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
