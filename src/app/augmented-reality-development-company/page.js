@@ -58,7 +58,7 @@ const ARVRDevelopmentCompany = () => {
 			<div className="py-5 bg-color">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">
+						<h1 className="all-head text-center">
 							Why Choose Codiste for AR/VR development services?{" "}
 						</h1>
 						<p className="all-p text-center">
@@ -73,7 +73,7 @@ const ARVRDevelopmentCompany = () => {
 					</div>
 
 					<div className="row">
-						<div className="col-6 col-md-4 text-center p-5 Crosssec-1">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
 								alt="Customized Development"
@@ -94,7 +94,7 @@ const ARVRDevelopmentCompany = () => {
 								technologies.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 Crosssec-2">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
 								alt="Blending Multiple Realities"
@@ -113,7 +113,7 @@ const ARVRDevelopmentCompany = () => {
 								virtual objects in real-world environments.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 Crosssec-3">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
 								alt="Seamless Deployment and Integration"
@@ -130,7 +130,7 @@ const ARVRDevelopmentCompany = () => {
 								solutions on time with utmost efficiency.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 Crosssec-4">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
 							<img
 								className="img-fluid mb-2"
 								alt="Immersive User Experience"
@@ -148,7 +148,7 @@ const ARVRDevelopmentCompany = () => {
 								and interaction with multiple realities.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 Crosssec-5">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
 								alt="Streamline Development Process"
@@ -166,7 +166,7 @@ const ARVRDevelopmentCompany = () => {
 								time and within budget.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 ">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
 							<img
 								className="img-fluid mb-2"
 								alt="Robust and Scalable Platforms"
@@ -624,7 +624,7 @@ const ARVRDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+							<h1 className="all-head text-center">
 								Their feedback displays our sheer commitment and
 								expertise!
 							</h1>

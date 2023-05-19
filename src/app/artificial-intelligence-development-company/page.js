@@ -70,7 +70,7 @@ const AIDevelopmentCompany = () => {
 					</div>
 
 					<div className="row">
-						<div className="col-6 col-md-4 text-center p-5 Crosssec-1">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
 								alt="A multitude of AI Technologies"
@@ -92,7 +92,7 @@ const AIDevelopmentCompany = () => {
 								developments in AI globally.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 Crosssec-2">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
 								alt="Custom AI Solutions"
@@ -116,7 +116,7 @@ const AIDevelopmentCompany = () => {
 								seamless and efficient organizational workflows.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 Crosssec-3">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
 								alt="Efficient & Optimized Development"
@@ -140,7 +140,7 @@ const AIDevelopmentCompany = () => {
 								effectively and efficiently.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 Crosssec-4">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
 							<img
 								className="img-fluid mb-2"
 								alt="Advanced Analytics Capabilities"
@@ -165,7 +165,7 @@ const AIDevelopmentCompany = () => {
 								scalability.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 Crosssec-5">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
 								alt="Data Security and Privacy"
@@ -189,7 +189,7 @@ const AIDevelopmentCompany = () => {
 								used securely and ethically.
 							</p>
 						</div>
-						<div className="col-6 col-md-4 text-center p-5 ">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
 							<img
 								className="img-fluid mb-2"
 								alt="Post Sales Assistance"

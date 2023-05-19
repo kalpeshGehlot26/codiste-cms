@@ -19,7 +19,7 @@ const CodistePortfolio = () => {
 
 	return (
 		<div>
-			<div className="bg-color">
+			{/* <div className="bg-color">
 				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec d-flex align-items-center">
@@ -42,6 +42,33 @@ const CodistePortfolio = () => {
 									className="img-fluid"
 									src="assets/images/Our Portfolio.png"
 								/>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div> */}
+
+
+			<div class="bg-color">
+				<div class="container container-fluid">
+					<section>
+						<div class="row firstsec ">
+							<div
+								class="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
+								<div class="col-12 col-lg-5 order-2 order-lg-1">
+									<h1 class="all-head">Our Portfolio</h1>
+									<p class="all-p me-5 my-4">Discover how our expertise and innovation have helped businesses like yours
+										achieve
+										success. Explore our case studies and see what we delivered to figure out how it helped drive forward
+										the
+										development of tech & software solutions for various industries.
+									</p>
+									<Link href="/contact" className="book-btn">
+										Let's Connect
+									</Link>
+								</div>
+								<div class="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img class='img-fluid' alt='OurPortfolio'
+									src="assets/images/Our Portfolio.png" /></div>
 							</div>
 						</div>
 					</section>

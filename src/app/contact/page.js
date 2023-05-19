@@ -42,7 +42,7 @@ const page = () => {
 					</section>
 
 					<div className=" mt-5 text-center">
-						<p>
+						<p className="custom-manager">
 							If you prefer to use something other than the form
 							below, you can contact our team directly at{" "}
 							<b><a href="mailto:manager@codiste.com">manager@codiste.com</a></b> or <b><a href="tel:+91 9429005987">+91 9429005987</a>.</b>

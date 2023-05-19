@@ -18,9 +18,8 @@ const HomePage = () => {
 	return (
 		<div>
 			<section className="video-containeraa videosec">
-				<div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
-					<iframe src="https://player.vimeo.com/video/827684354?h=0589414a87" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen
-						style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }} ></iframe>
+				<div className="ratio ratio-16x9">
+					<iframe src="https://player.vimeo.com/video/827684354?h=0589414a87" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
 				</div>
 				<script src="https://player.vimeo.com/api/player.js"></script>
 				<div className="rotate-box">
@@ -72,9 +71,10 @@ const HomePage = () => {
 						Feedback that inspires us to consistently be our best!
 					</h1>
 					<div className="row">
-						<div className="col-xl-6 col-md-12 career-block">
-							<FeedbackSlider />
-
+						<div className="col-xl-6 col-md-12 mb-5 mb-xl-0">
+							<div className="career-block h-100">
+								<FeedbackSlider />
+							</div>
 						</div>
 
 						<div className="col-xl-6 col-md-12">
