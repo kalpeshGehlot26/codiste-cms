@@ -129,7 +129,7 @@ const HomePage = () => {
 									innovation!
 								</strong>
 							</p>
-							<div>
+							<div className="mt-3">
 								<Link href="/book-a-call" className="book-btn">
 									Book a Call
 								</Link>

@@ -55,7 +55,7 @@ const MLDevelopmentCompany = () => {
 				</section>
 			</div>
 
-			<div className="py-5 bg-color">
+			<div className="py-5 bg-color mt-5">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">
@@ -505,7 +505,7 @@ const MLDevelopmentCompany = () => {
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec">
 							<div className=" ">
 								<h1 className="">
-									Machine Learning Estimation
+									ML Estimation
 								</h1>
 								<p className="all-p">
 									Streamline HVAC project bidding with ML estimation, automating drawing annotation and generating accurate bill of materials. Save time, differentiate yourself in the industry, and leverage innovative technology for detailed quantity take-offs.
@@ -551,7 +551,7 @@ const MLDevelopmentCompany = () => {
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head">
-								Satisfied clients is our proof of our excellence
+								Satisfied clients is our proof of our excellence!
 							</h1>
 						</div>
 

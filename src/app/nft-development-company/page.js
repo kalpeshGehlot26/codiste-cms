@@ -40,7 +40,7 @@ const NFTDevelopment = () => {
 			</div>
 			<ClientSlider />
 
-			<div className="container container-fluid">
+			<div className="container container-fluid py-5">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h1 className="all-head">

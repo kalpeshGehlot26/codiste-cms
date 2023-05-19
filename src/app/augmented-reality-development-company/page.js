@@ -40,7 +40,7 @@ const ARVRDevelopmentCompany = () => {
 			</div>
 			<ClientSlider />
 
-			<div className="container container-fluid">
+			<div className="container container-fluid py-5">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h1 className="all-head">
@@ -576,10 +576,10 @@ const ARVRDevelopmentCompany = () => {
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec">
 							<div className=" ">
 								<h1 className="">
-									A Complete, Comprehensive Real Estate
-									Tokenize Solutions
+									Bonfire
 								</h1>
 								<p className="all-p">
+									A Fractional Real Estate Investment Marketplace.<br />
 									Codiste embraces technology, strategy, and
 									design Bonfire platform where users can
 									invest through crypto, view their

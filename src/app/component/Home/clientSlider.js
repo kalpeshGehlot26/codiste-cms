@@ -15,6 +15,7 @@ const ClientSlider = () => {
                 autoplay: true,
                 interval: 2000,
                 perPage: 5,
+                perMove: 1,
                 arrows: false,
                 autoScroll: {
                     speed: 2,

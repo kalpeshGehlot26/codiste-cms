@@ -11,7 +11,7 @@ const FeedbackSlider = () => {
                 type: 'loop',
                 drag: 'free',
                 pagination: true,
-                autoplay: false,
+                autoplay: true,
                 interval: 2000,
                 perPage: 1,
                 arrows: false,
@@ -24,7 +24,7 @@ const FeedbackSlider = () => {
             <SplideTrack>
                 <SplideSlide className="splide__slide">
                     <div className="p-3">
-                        <div>
+                        <div className="d-flex align-items-center justify-content-center">
                             <img className="img-fluid my-4 client-logohome p-0 w-auto" alt="DiveWallet" src="assets/images/client-logos/DiveWallet Logo.png" />
                         </div>
                         <p className="secondsec-p">
@@ -34,7 +34,7 @@ const FeedbackSlider = () => {
                 </SplideSlide>
                 <SplideSlide className="splide__slide">
                     <div className="p-3">
-                        <div><img className="img-fluid my-4 client-logohome p-0 w-auto" alt="DiveWallet" src="assets/images/client-logos/bonfire.png" /></div>
+                        <div className="d-flex align-items-center justify-content-center"><img className="img-fluid my-4 client-logohome p-0 w-auto" alt="DiveWallet" src="assets/images/client-logos/bonfire.png" /></div>
                         <p className="secondsec-p">
                             They truly do everything up to a very high standard. Codiste pvt ltd has successfully delivered a functional app praised in many publications for its neatness and speed. They have frequently communicated via Slack and managed the project efficiently using Jira. Their extensive knowledge and humble attitude have been hallmarks of their work.
                         </p>
@@ -42,7 +42,7 @@ const FeedbackSlider = () => {
                 </SplideSlide>
                 <SplideSlide className="splide__slide">
                     <div className="p-3">
-                        <div>
+                        <div className="d-flex align-items-center justify-content-center">
                             <img className="img-fluid my-4 client-logohome p-0  w-auto" alt="DiveWallet" src="assets/images/client-logos/Medizen.png" />
                         </div>
                         <p className="secondsec-p">

@@ -46,9 +46,9 @@ const industryItems = [
         title: "Logistics & Supply Chain"
     },
     {
-        url: "assets/images/industries/iot.png",
-        className: "ins-iot",
-        title: "IOT"
+        url: "assets/images/industries/people.png",
+        className: "ins-manufact",
+        title: "Events"
     },
     {
         url: "assets/images/industries/art-gallery.png",
@@ -67,10 +67,11 @@ const industryItems = [
         title: "Fintech"
     },
     {
-        url: "assets/images/industries/people.png",
-        className: "ins-manufact",
-        title: "Events"
+        url: "assets/images/industries/iot.png",
+        className: "ins-iot",
+        title: "IOT"
     },
+
     // {
     //     url: "assets/images/industries/fashion.png",
     //     className: "ins-ecommrce",

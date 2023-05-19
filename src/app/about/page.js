@@ -310,7 +310,7 @@ const About = () => {
 										src="assets/images/services/AR VR.png"
 									/>
 									<Link href="/augmented-reality-development-company">
-										<span className="fs-3">AR VR</span>
+										<span className="fs-3">AR/VR</span>
 										<br />
 										Development Service
 									</Link>

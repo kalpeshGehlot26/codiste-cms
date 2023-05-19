@@ -99,7 +99,7 @@ const BlockChainDevelopment = () => {
 								10+ Blockchain Network Support
 							</h2>
 							<p className="secondsec-p text-center">
-								At Codiste, we have expertise in developing
+								We have expertise in developing
 								blockchain solutions using more than 10
 								blockchain networks, including Ethereum,
 								Binance, Hyperledger, Tron, and Solana. Our
@@ -148,7 +148,7 @@ const BlockChainDevelopment = () => {
 								Organizational Transparency
 							</h2>
 							<p className="secondsec-p text-center">
-								At Codiste, we ensure organizational
+								We ensure organizational
 								transparency to keep you updated throughout
 								every stage of the development process. We
 								provide regular progress updates through open

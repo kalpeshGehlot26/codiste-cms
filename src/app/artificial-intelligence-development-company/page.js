@@ -55,7 +55,7 @@ const AIDevelopmentCompany = () => {
 				</section>
 			</div>
 
-			<div className="py-5 bg-color">
+			<div className="py-5 bg-color mt-5">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">
@@ -520,7 +520,7 @@ const AIDevelopmentCompany = () => {
 							<div className=" ">
 								<h1 className="">CYPHA – Your Sound</h1>
 								<p className="all-p">
-									CYPHA – Your Pocket music studio
+									CYPHA – Your Pocket music studio.
 									<br />
 									The case study is about the Talent Search
 									App, a gamified platform for aspiring and

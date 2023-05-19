@@ -34,9 +34,7 @@ const MobileAppDevelopmentCompany = () => {
 										expectations and drive better user engagement. We offer iOS, Android, Flutter, and React
 										native application development for businesses and enterprises envisioned to improve user
 										engagement. Our team works with you extensively to visualize your ideas and build your
-										vision in reality. Whether it's a consumer-focused app or an enterprise solution, we are
-										dedicated to delivering top-notch mobile applications that drive better experience and
-										business growth.
+										vision in reality.
 									</p>
 									<Link href="/contact" className="book-btn">Let’s Talk</Link>
 								</div>

@@ -26,7 +26,7 @@ const StartupDevelopmentCompany = () => {
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
 								<div className="col-12 col-lg-5 order-2 order-lg-1">
 									<h1 className="all-head">Startup Development Company</h1>
-									<p className="all-p me-5 my-4">Codiste is your trusted startup development partner. As a leading startup development company, we offer a wide range of services to help you bring your ideas to the end user. From idea validation to product launch, our comprehensive startup software development solutions ensure your success in the competitive market. We are dedicated to providing top-notch support and expertise throughout your entrepreneurial journey. Trust us to be your one-stop tech solution provider for all your startup development needs.
+									<p className="all-p me-5 my-4">Codiste is your trusted startup development partner. As a leading startup development company, we offer a wide range of services to help you bring your ideas to the end user. From idea validation to product launch, our comprehensive startup software development solutions ensure your success in the competitive market. We are dedicated to providing top-notch support and expertise throughout your entrepreneurial journey.
 									</p>
 									<Link href="/contact" className="book-btn">Let’s Talk</Link>
 								</div>
@@ -39,7 +39,7 @@ const StartupDevelopmentCompany = () => {
 
 			<ClientSlider />
 
-			<div className="container container-fluid">
+			<div className="container container-fluid py-5">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h1 className="all-head">

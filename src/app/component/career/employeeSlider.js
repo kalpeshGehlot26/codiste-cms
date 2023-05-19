@@ -13,7 +13,7 @@ const EmployeeSlider = () => {
                 drag: 'free',
                 focus: 'center',
                 pagination: true,
-                autoplay: false,
+                autoplay: true,
                 interval: 2000,
                 perPage: 1,
                 arrows: false,

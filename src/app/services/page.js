@@ -32,7 +32,7 @@ const Services = () => {
 								className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
 								<div className="col-12 col-lg-5 order-2 order-lg-1">
 									<h1 className="all-head">Our Services</h1>
-									<p className="all-p me-5 my-4">At Codiste, we bring the best people for a one-stop tech & dev support
+									<p className="all-p me-5 my-4">We bring the best people for a one-stop tech & dev support
 										ecosystem catering to businesses, startups, and enterprises from various sectors and industries. We are
 										your partner in accelerating innovation and growth with web and app solutions in emerging, rapidly
 										growing technologies to help you elevate your user and customer experience.

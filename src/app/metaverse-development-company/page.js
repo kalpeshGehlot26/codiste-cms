@@ -31,8 +31,7 @@ const MetaverseDevelopmentCompany = () => {
 									<p className="all-p me-5 my-4">We are a metaverse development company that helps businesses and
 										organizations access the decentralized Metaverse. We offer an immersive 3D virtual user experience by
 										integrating with traditional website/mobile and stand-alone metaverse service applications built on
-										secure, scalable, and reliable blockchain networks, APIs, and mixed realities. Our industrial metaverse
-										development allows you to choose from a broad spectrum of blockchains for a personalized experience.
+										secure, scalable, and reliable blockchain networks, APIs, and mixed realities.
 									</p>
 									<button className="book-btn">Let’s Talk</button>
 								</div>
@@ -55,7 +54,7 @@ const MetaverseDevelopmentCompany = () => {
 							broad spectrum of businesses and enterprises.
 						</p>
 					</div>
-					<ServiceInnerItems serviceItems={metaVerseList}/>
+					<ServiceInnerItems serviceItems={metaVerseList} />
 				</section>
 			</div>
 
