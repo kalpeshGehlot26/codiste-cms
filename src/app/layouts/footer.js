@@ -24,7 +24,7 @@ const Footer = () => {
 											/>
 											<a href="mailto:manager@codiste.com">
 												{" "}
-												Manager@codiste.com
+												manager@codiste.com
 											</a>
 										</li>
 										<li>

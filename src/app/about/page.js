@@ -11,54 +11,34 @@ export const metadata = {
 const About = () => {
 	return (
 		<div>
-			<div className="container container-fluid py-5 firstsec">
-				<div className=" d-flex align-items-center flex-column justify-content-center">
-					<h1 className="all-head">
-						Enterprise Grade Blockchain Development Company
-					</h1>
+
+
+			<div className="bg-color careersec">
+				<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-0 mb-lg-5">
+					<h1 className="all-head">Enterprise Grade Blockchain Development Company</h1>
 				</div>
-				<div className="container container-fluid">
-					<div className="row">
-						<div className="col-xl-6 col-sm-12 mb-5">
-							<img
-								className="img-fluid d-flex align-items-center justify-content-center"
-								style={{
-									height: "450px",
-									width: "auto",
-									margin: "auto",
-									padding: "20px",
-								}}
-								src="assets/images/about/about-us.png"
-							/>
+				<div className="container container-fluid" style={{ padding: "80px 0" }}>
+					<section>
+						<div className="row">
+							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap  align-items-center justify-content-between">
+								<div className="col-12 col-lg-5  mb-5 mb-lg-0"><img className='img-fluid' alt='Blockchain Development' src="assets/images/about/about-us.png" /></div>
+								<div className="col-12 col-lg-5">
+									<h3 className="mb-3">Driving Decentralization with Codiste</h3>
+									<p className="secondsec-p">Codiste is an emerging leader in software and technology solutions that enable businesses to thrive in the
+										constantly evolving digital landscape. We firmly believe that evolving technologies such as Blockchain,
+										Metaverse, and AR/VR have the power to revolutionize the way companies operate and transform it with
+										organizational decentralization. We understand the critical role technology partners play in today's business
+										environment and strive to be the ideal partner for companies seeking innovative technological solutions with
+										blockchain and other prominent Web3 technologies.
+									</p>
+								</div>
+							</div>
 						</div>
-						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">
-							<h3 className="mb-3">
-								Driving Decentralization with Codiste
-							</h3>
-							<p className="secondsec-p">
-								Codiste is an emerging leader in software and
-								technology solutions that enable businesses to
-								thrive in the constantly evolving digital
-								landscape. We firmly believe that evolving
-								technologies such as Blockchain, Metaverse, and
-								AR/VR have the power to revolutionize the way
-								companies operate and transform it with
-								organizational decentralization. We understand
-								the critical role technology partners play in
-								today's business environment and strive to be
-								the ideal partner for companies seeking
-								innovative technological solutions with
-								blockchain and other prominent Web3
-								technologies.
-							</p>
-						</div>
-					</div>
+					</section>
 				</div>
 			</div>
 
-
-
-			<div className="py-5 bg-color">
+			<div className="py-5">
 				<div className="container container-fluid">
 					<div className="row justify-content-between">
 						<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap  align-items-center justify-content-between">
@@ -88,7 +68,7 @@ const About = () => {
 			</div>
 
 
-			<div className="container container-fluid  py-5">
+			<div className="container container-fluid  py-5 bg-color">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Our Values</h1>
@@ -189,7 +169,7 @@ const About = () => {
 			</div>
 
 
-			<div className="py-5 bg-color">
+			<div className="py-5 ">
 				<div className="container container-fluid">
 					<h1 className="all-head text-center mb-5">Leadership Team</h1>
 					<div className="row">

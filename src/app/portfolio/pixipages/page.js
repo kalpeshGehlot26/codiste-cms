@@ -460,7 +460,7 @@ const PixipagesPortfolio = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												src="../assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -468,7 +468,7 @@ const PixipagesPortfolio = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="White Hat DAO"
-													src="assets/images/client-logos/White Hat DAO.png"
+													src="../assets/images/client-logos/White Hat DAO.png"
 												/>
 											</div>
 											<h5>White Hat DAO</h5>
@@ -506,7 +506,7 @@ const PixipagesPortfolio = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												src="../assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -514,7 +514,7 @@ const PixipagesPortfolio = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="DiveWallet"
-													src="assets/images/client-logos/DiveWallet Logo.png"
+													src="../assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
 											<h5>DiveWallet</h5>
@@ -539,7 +539,7 @@ const PixipagesPortfolio = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												src="../assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -547,7 +547,7 @@ const PixipagesPortfolio = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="Ninza NFT"
-													src="assets/images/client-logos/Danketsu-Logo-Blue (Ninja NFT).png"
+													src="../assets/images/client-logos/Danketsu-Logo-Blue (Ninja NFT).png"
 												/>
 											</div>
 											<h5>Ninza NFT</h5>

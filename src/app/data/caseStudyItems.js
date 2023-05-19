@@ -11,7 +11,7 @@ const caseStudyItems = [
     },
     {
         title: "CounterTen – solana Marketplace",
-        url: "/portfolio/counterten–solana-marketplace/",
+        url: "/portfolio/counterten-solana-marketplace/",
         image: "assets/images/case-couter10/Counterten.png"
     },
     {
