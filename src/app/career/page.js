@@ -165,8 +165,8 @@ const Career = () => {
 
 			<div className="firstsec bg-color">
 				<div className="container container-fluid mb-5  py-5">
-					<div className=" d-flex text-center mb-5">
-						<h1 className="all-head">Discover Your Dream Job: Current Openings at Codiste</h1>
+					<div className="mb-5">
+						<h1 className="all-head text-center">Discover Your Dream Job: Current Openings at Codiste</h1>
 					</div>
 					<div className="row">
 						<div className="col-lg-4 col-md-6 col-12 pb-3 ">

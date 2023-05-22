@@ -67,175 +67,105 @@ const About = () => {
 				</div>
 			</div>
 
-
-			<div className="container container-fluid  py-5 bg-color">
-				<section>
-					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">Our Values</h1>
-						<p className="all-p me-5 text-center">
-							We strive to deliver secure, scalable, decentralized
-							software solutions that empower businesses to
-							succeed in the fast-paced digital landscape.
-						</p>
-					</div>
-
-					<div className="row">
-						<div className="col-lg-12">
-							<ul className="About-style">
-								<li>
-									<img
-										className="img-fluid"
-										alt="Collaboration"
-										src="assets/images/about/Collaboration.png"
-									/>
-									<p className="secondsec-p">Collaboration</p>
-								</li>
-								<li>
-									<img
-										className="img-fluid"
-										alt="Continuous Improvement"
-										src="assets/images/about/continuous-improvement.png"
-									/>
-									<p className="secondsec-p">
-										Continuous Improvement
-									</p>
-								</li>
-								<li>
-									<img
-										className="img-fluid"
-										alt="Customer Focus"
-										src="assets/images/about/Customer Focus.png"
-									/>
-									<p className="secondsec-p">
-										Customer Focus
-									</p>
-								</li>
-								<li>
-									<img
-										className="img-fluid"
-										alt="Diversity & Inclusion"
-										src="assets/images/about/diversity.png"
-									/>
-									<p className="secondsec-p">
-										Diversity & Inclusion
-									</p>
-								</li>
-								<li>
-									<img
-										className="img-fluid"
-										alt="Excellence"
-										src="assets/images/about/excellence.png"
-									/>
-									<p className="secondsec-p">Excellence</p>
-								</li>
-								<li>
-									<img
-										className="img-fluid"
-										alt="Innovation"
-										src="assets/images/about/innovation.png"
-									/>
-									<p className="secondsec-p">Innovation</p>
-								</li>
-								<li>
-									<img
-										className="img-fluid"
-										alt="Agility"
-										src="assets/images/about/iteration.png"
-									/>
-									<p className="secondsec-p">Agility</p>
-								</li>
-								<li>
-									<img
-										className="img-fluid"
-										alt="Integrity"
-										src="assets/images/about/Integrity.png"
-									/>
-									<p className="secondsec-p">Integrity</p>
-								</li>
-								<li>
-									<img
-										className="img-fluid"
-										alt="Accountability"
-										src="assets/images/about/responsibility.png"
-									/>
-									<p className="secondsec-p">
-										Accountability
-									</p>
-								</li>
-							</ul>
+			<div className="py-5 bg-color">
+				<div className="container container-fluid ">
+					<section>
+						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+							<h1 className="all-head">Our Values</h1>
+							<p className="all-p me-5 text-center">
+								We strive to deliver secure, scalable, decentralized
+								software solutions that empower businesses to
+								succeed in the fast-paced digital landscape.
+							</p>
 						</div>
-					</div>
-				</section>
-			</div>
 
-
-			<div className="py-5 ">
-				<div className="container container-fluid">
-					<h1 className="all-head text-center mb-5">Leadership Team</h1>
-					<div className="row">
-						<div className="col-xl-2 col-md-4 mb-5">
-							<img className='img-fluid ' src="assets/images/about/Nishant.png" alt="Nishant Bijani" />
-						</div>
-						<div className="col-xl-10 col-md-8 mb-5 aboutall-p">
-							<div>
-								<div className="d-flex flex-wrap">
-									<h1 className="me-4 aboutall-h">Nishant Bijani</h1>
-									<a href="https://www.linkedin.com/in/nishantbijani/" target="_blank">
+						<div className="row">
+							<div className="col-lg-12">
+								<ul className="About-style">
+									<li>
 										<img
-											className="img-fluid mb-4 "
-											src="assets/images/about/linkedin.png"
-											alt="linkedin"
+											className="img-fluid"
+											alt="Collaboration"
+											src="assets/images/about/Collaboration.png"
 										/>
-									</a>
-
-								</div>
-								<p className="aboutall-p"> Co-Founder & CTO</p>
-
-							</div>
-							<div className="secondsec-p">
-								<p>
-									Nishant Bijani is an exceptional CTO, whose dedication to innovation and customer satisfaction sets him
-									apart. He delivers customized solutions that exceed expectations and is always up-to-date with industry
-									advancements. His expertise in engineering is unparalleled, and he is constantly pushing the boundaries of
-									what is possible. Nishant understands the importance of high-quality products and services and is committed
-									to ensuring that our customers receive nothing but the best. His contributions have been instrumental in
-									driving our company's success, Under his leadership, we are confident that we will continue to excel in the
-									future.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div className="row">
-						<div className="col-xl-2 col-md-4 mb-5">
-							<img className='img-fluid' src="assets/images/about/Nic.png" alt="Nic" />
-						</div>
-						<div className="col-xl-10 col-md-8 mb-5 aboutall-p">
-							<div>
-								<div className="d-flex flex-wrap">
-									<h1 className="me-4 aboutall-h">Nic Roux</h1>
-									<a href="https://www.linkedin.com/in/nicolas-roux-2a847518a/" target="_blank" >
+										<p className="secondsec-p">Collaboration</p>
+									</li>
+									<li>
 										<img
-											className="img-fluid mb-4"
-											src="assets/images/about/linkedin.png"
-											alt=""
+											className="img-fluid"
+											alt="Continuous Improvement"
+											src="assets/images/about/continuous-improvement.png"
 										/>
-									</a>
-								</div>
-								<p className="aboutall-p">Co-Founder</p>
-
-							</div>
-							<div className="secondsec-p">
-								<p>
-									Nicolas Roux, co-founder of Codiste, is a visionary leader with an exceptional ability to drive growth
-									through innovation and collaboration. As a digital communication expert, he brings a wealth of knowledge and
-									experience to the table, and his fervor for technology has been instrumental in shaping Codiste's strategic
-									vision. His leadership abilities are second to none, and he has cultivated an innovative culture within the
-									organization that inspires creativity and excellence. His contributions have been invaluable in driving
-									company success.
-								</p>
+										<p className="secondsec-p">
+											Continuous Improvement
+										</p>
+									</li>
+									<li>
+										<img
+											className="img-fluid"
+											alt="Customer Focus"
+											src="assets/images/about/Customer Focus.png"
+										/>
+										<p className="secondsec-p">
+											Customer Focus
+										</p>
+									</li>
+									<li>
+										<img
+											className="img-fluid"
+											alt="Diversity & Inclusion"
+											src="assets/images/about/diversity.png"
+										/>
+										<p className="secondsec-p">
+											Diversity & Inclusion
+										</p>
+									</li>
+									<li>
+										<img
+											className="img-fluid"
+											alt="Excellence"
+											src="assets/images/about/excellence.png"
+										/>
+										<p className="secondsec-p">Excellence</p>
+									</li>
+									<li>
+										<img
+											className="img-fluid"
+											alt="Innovation"
+											src="assets/images/about/innovation.png"
+										/>
+										<p className="secondsec-p">Innovation</p>
+									</li>
+									<li>
+										<img
+											className="img-fluid"
+											alt="Agility"
+											src="assets/images/about/iteration.png"
+										/>
+										<p className="secondsec-p">Agility</p>
+									</li>
+									<li>
+										<img
+											className="img-fluid"
+											alt="Integrity"
+											src="assets/images/about/Integrity.png"
+										/>
+										<p className="secondsec-p">Integrity</p>
+									</li>
+									<li>
+										<img
+											className="img-fluid"
+											alt="Accountability"
+											src="assets/images/about/responsibility.png"
+										/>
+										<p className="secondsec-p">
+											Accountability
+										</p>
+									</li>
+								</ul>
 							</div>
 						</div>
-					</div>
+					</section>
 				</div>
 			</div>
 
@@ -392,33 +322,79 @@ const About = () => {
 				</section>
 			</div>
 
-			<div className="bg-color firstsec">
-				<div className="container container-fluid  py-5">
-					<section>
-						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">Our Customers</h1>
-							<p className="all-p me-5 text-center">
-								Serving across 6 continents. <br />
-								We are a global technology and software
-								development leader.
-							</p>
+			<div className="py-5  bg-color">
+				<div className="container container-fluid">
+					<h1 className="all-head text-center mb-5">Leadership Team</h1>
+					<div className="row">
+						<div className="col-xl-2 col-md-4 mb-5">
+							<img className='img-fluid ' src="assets/images/about/Nishant.png" alt="Nishant Bijani" />
 						</div>
+						<div className="col-xl-10 col-md-8 mb-5 aboutall-p">
+							<div>
+								<div className="d-flex flex-wrap">
+									<h1 className="me-4 aboutall-h">Nishant Bijani</h1>
+									<a href="https://www.linkedin.com/in/nishantbijani/" target="_blank">
+										<img
+											className="img-fluid mb-4 "
+											src="assets/images/about/linkedin.png"
+											alt="linkedin"
+										/>
+									</a>
 
-					</section>
-					<div className="d-flex align-items-center justify-content-center">
-						<img
-							className="img-fluid"
-							src="assets/images/about/World Map.png"
-							alt=""
-						/>
+								</div>
+								<p className="aboutall-p"> Co-Founder & CTO</p>
+
+							</div>
+							<div className="secondsec-p">
+								<p>
+									Nishant Bijani is an exceptional CTO, whose dedication to innovation and customer satisfaction sets him
+									apart. He delivers customized solutions that exceed expectations and is always up-to-date with industry
+									advancements. His expertise in engineering is unparalleled, and he is constantly pushing the boundaries of
+									what is possible. Nishant understands the importance of high-quality products and services and is committed
+									to ensuring that our customers receive nothing but the best. His contributions have been instrumental in
+									driving our company's success, Under his leadership, we are confident that we will continue to excel in the
+									future.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div className="row">
+						<div className="col-xl-2 col-md-4 mb-5">
+							<img className='img-fluid' src="assets/images/about/Nic.png" alt="Nic" />
+						</div>
+						<div className="col-xl-10 col-md-8 mb-5 aboutall-p">
+							<div>
+								<div className="d-flex flex-wrap">
+									<h1 className="me-4 aboutall-h">Nic Roux</h1>
+									<a href="https://www.linkedin.com/in/nicolas-roux-2a847518a/" target="_blank" >
+										<img
+											className="img-fluid mb-4"
+											src="assets/images/about/linkedin.png"
+											alt=""
+										/>
+									</a>
+								</div>
+								<p className="aboutall-p">Co-Founder</p>
+
+							</div>
+							<div className="secondsec-p">
+								<p>
+									Nicolas Roux, co-founder of Codiste, is a visionary leader with an exceptional ability to drive growth
+									through innovation and collaboration. As a digital communication expert, he brings a wealth of knowledge and
+									experience to the table, and his fervor for technology has been instrumental in shaping Codiste's strategic
+									vision. His leadership abilities are second to none, and he has cultivated an innovative culture within the
+									organization that inspires creativity and excellence. His contributions have been invaluable in driving
+									company success.
+								</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-
-			<div className=" py-5">
+			<div className=" py-5 mt-5">
 				<div className="container container-fluid">
 					<section>
-						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+						<div className=" d-flex align-items-center flex-column justify-content-center">
 							<h1 className="all-head">
 								Brands That Trust Our Work!
 							</h1>
@@ -597,197 +573,28 @@ const About = () => {
 					</section>
 				</div>
 			</div>
-
-			<div className=" bg-color py-5">
-				<div className="container container-fluid">
+			<div className="bg-color firstsec">
+				<div className="container container-fluid  py-5">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">What Our Clients Say</h1>
+							<h1 className="all-head">Our Customers</h1>
 							<p className="all-p me-5 text-center">
-								Take the word of those who have benefitted from
-								Codiste.{" "}
+								Serving across 6 continents. <br />
+								We are a global technology and software
+								development leader.
 							</p>
 						</div>
 
-						<div
-							id="carouselExampleDark"
-							className="carousel carousel-dark slide carousel-box"
-							data-bs-ride="carousel"
-						>
-							<div className="carousel-indicators">
-								<button
-									type="button"
-									data-bs-target="#carouselExampleDark"
-									data-bs-slide-to="0"
-									className="active"
-									aria-current="true"
-									aria-label="Slide 1"
-								></button>
-								<button
-									type="button"
-									data-bs-target="#carouselExampleDark"
-									data-bs-slide-to="1"
-									aria-label="Slide 2"
-								></button>
-								<button
-									type="button"
-									data-bs-target="#carouselExampleDark"
-									data-bs-slide-to="2"
-									aria-label="Slide 3"
-								></button>
-							</div>
-							<div className="carousel-inner">
-								<div className="carousel-item active">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
-										<h3>
-											They truly do everything up to a
-											very high standard. Codiste pvt ltd
-											has successfully delivered a
-											functional app praised in many
-											publications for its neatness and
-											speed. They have frequently
-											communicated via Slack and managed
-											the project efficiently using Jira.
-											Their extensive knowledge and humble
-											attitude have been hallmarks of
-											their work.
-										</h3>
-
-										<div className="d-flex align-items-center flex-column custom-crousel">
-											<img
-												src="assets/images/iCrowsel.png"
-												className="img-fluid"
-												alt="iCrowsel"
-											/>
-
-											<div>
-												<img
-													className="img-fluid my-4 client-logo"
-													alt="bonfire"
-													src="assets/images/client-logos/bonfire.png"
-												/>
-											</div>
-											<h5>
-												The Real Estate Investment
-												platform
-											</h5>
-											<p>
-												CTO and Co-Founder <br />
-												San Francisco, California
-											</p>
-										</div>
-									</div>
-								</div>
-								<div className="carousel-item">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
-										<h3>
-											I am pleased to say that working
-											with Codiste Pvt Ltd has been a
-											positive experience for our
-											community. The project is now
-											complete, and the feedback we have
-											received on the platform has been
-											overwhelmingly positive. Throughout
-											the project, Codiste maintained open
-											communication lines, regularly
-											updating us on progress and
-											following the agreed timeline. They
-											delivered an app with impressive
-											functionalities and accepted every
-											challenge we gave them. Overall, we
-											are satisfied with the outcome of
-											the project and would recommend
-											Codiste for their expertise,
-											professionalism, and commitment to
-											delivering high-quality work.
-										</h3>
-
-										<div className="d-flex align-items-center flex-column custom-crousel">
-											<img
-												src="assets/images/iCrowsel.png"
-												className="img-fluid"
-												alt="iCrowsel"
-											/>
-											<div>
-												<img
-													className="img-fluid my-4 client-logo"
-													alt="DiveWallet"
-													src="assets/images/client-logos/DiveWallet Logo.png"
-												/>
-											</div>
-											<h5>DiveWallet</h5>
-											<p>
-												CEO
-												<br />
-												Bolivar, New York
-											</p>
-										</div>
-									</div>
-								</div>
-								<div className="carousel-item">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
-										<h3>
-											Codiste pvt ltd delivered the
-											project within the given timeline
-											and budget. Their communication and
-											collaboration were outstanding using
-											Slack, Lucidhart, and Miro. The team
-											was reliable, well-organized, and
-											proactive.
-										</h3>
-
-										<div className="d-flex align-items-center flex-column custom-crousel">
-											<img
-												src="assets/images/iCrowsel.png"
-												className="img-fluid"
-												alt="iCrowsel"
-											/>
-											<div>
-												<img
-													className="img-fluid my-4 client-logo"
-													alt="Medizen"
-													src="assets/images/client-logos/Medizen.png"
-												/>
-											</div>
-											<h5>Medizen App</h5>
-											<p>
-												CEO
-												<br />
-												Johannesburg, South Africa
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<button
-								className="carousel-control-prev"
-								type="button"
-								data-bs-target="#carouselExampleDark"
-								data-bs-slide="prev"
-							>
-								<span
-									className="carousel-control-prev-icon"
-									aria-hidden="true"
-								></span>
-								<span className="visually-hidden">Previous</span>
-							</button>
-							<button
-								className="carousel-control-next"
-								type="button"
-								data-bs-target="#carouselExampleDark"
-								data-bs-slide="next"
-							>
-								<span
-									className="carousel-control-next-icon"
-									aria-hidden="true"
-								></span>
-								<span className="visually-hidden">Next</span>
-							</button>
-						</div>
 					</section>
+					<div className="d-flex align-items-center justify-content-center">
+						<img
+							className="img-fluid"
+							src="assets/images/about/World Map.png"
+							alt=""
+						/>
+					</div>
 				</div>
 			</div>
-
 			<div className="container container-fluid mb-5 firstsec">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head">Our Global Presence </h1>
@@ -1162,8 +969,199 @@ const About = () => {
 					</div>
 				</div>
 			</div>
+			<div className=" bg-color py-5">
+				<div className="container container-fluid">
+					<section>
+						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+							<h1 className="all-head">What Our Clients Say</h1>
+							<p className="all-p me-5 text-center">
+								Take the word of those who have benefitted from
+								Codiste.{" "}
+							</p>
+						</div>
 
-			<div className="bg-color firstsec">
+						<div
+							id="carouselExampleDark"
+							className="carousel carousel-dark slide carousel-box"
+							data-bs-ride="carousel"
+						>
+							<div className="carousel-indicators">
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="0"
+									className="active"
+									aria-current="true"
+									aria-label="Slide 1"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="1"
+									aria-label="Slide 2"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="2"
+									aria-label="Slide 3"
+								></button>
+							</div>
+							<div className="carousel-inner">
+								<div className="carousel-item active">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+										<h3>
+											They truly do everything up to a
+											very high standard. Codiste pvt ltd
+											has successfully delivered a
+											functional app praised in many
+											publications for its neatness and
+											speed. They have frequently
+											communicated via Slack and managed
+											the project efficiently using Jira.
+											Their extensive knowledge and humble
+											attitude have been hallmarks of
+											their work.
+										</h3>
+
+										<div className="d-flex align-items-center flex-column custom-crousel">
+											<img
+												src="assets/images/iCrowsel.png"
+												className="img-fluid"
+												alt="iCrowsel"
+											/>
+
+											<div>
+												<img
+													className="img-fluid my-4 client-logo"
+													alt="bonfire"
+													src="assets/images/client-logos/bonfire.png"
+												/>
+											</div>
+											<h5>
+												The Real Estate Investment
+												platform
+											</h5>
+											<p>
+												CTO and Co-Founder <br />
+												San Francisco, California
+											</p>
+										</div>
+									</div>
+								</div>
+								<div className="carousel-item">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+										<h3>
+											I am pleased to say that working
+											with Codiste Pvt Ltd has been a
+											positive experience for our
+											community. The project is now
+											complete, and the feedback we have
+											received on the platform has been
+											overwhelmingly positive. Throughout
+											the project, Codiste maintained open
+											communication lines, regularly
+											updating us on progress and
+											following the agreed timeline. They
+											delivered an app with impressive
+											functionalities and accepted every
+											challenge we gave them. Overall, we
+											are satisfied with the outcome of
+											the project and would recommend
+											Codiste for their expertise,
+											professionalism, and commitment to
+											delivering high-quality work.
+										</h3>
+
+										<div className="d-flex align-items-center flex-column custom-crousel">
+											<img
+												src="assets/images/iCrowsel.png"
+												className="img-fluid"
+												alt="iCrowsel"
+											/>
+											<div>
+												<img
+													className="img-fluid my-4 client-logo"
+													alt="DiveWallet"
+													src="assets/images/client-logos/DiveWallet Logo.png"
+												/>
+											</div>
+											<h5>DiveWallet</h5>
+											<p>
+												CEO
+												<br />
+												Bolivar, New York
+											</p>
+										</div>
+									</div>
+								</div>
+								<div className="carousel-item">
+									<div className="d-flex align-items-center text-center flex-column custom-crousel">
+										<h3>
+											Codiste pvt ltd delivered the
+											project within the given timeline
+											and budget. Their communication and
+											collaboration were outstanding using
+											Slack, Lucidhart, and Miro. The team
+											was reliable, well-organized, and
+											proactive.
+										</h3>
+
+										<div className="d-flex align-items-center flex-column custom-crousel">
+											<img
+												src="assets/images/iCrowsel.png"
+												className="img-fluid"
+												alt="iCrowsel"
+											/>
+											<div>
+												<img
+													className="img-fluid my-4 client-logo"
+													alt="Medizen"
+													src="assets/images/client-logos/Medizen.png"
+												/>
+											</div>
+											<h5>Medizen App</h5>
+											<p>
+												CEO
+												<br />
+												Johannesburg, South Africa
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<button
+								className="carousel-control-prev"
+								type="button"
+								data-bs-target="#carouselExampleDark"
+								data-bs-slide="prev"
+							>
+								<span
+									className="carousel-control-prev-icon"
+									aria-hidden="true"
+								></span>
+								<span className="visually-hidden">Previous</span>
+							</button>
+							<button
+								className="carousel-control-next"
+								type="button"
+								data-bs-target="#carouselExampleDark"
+								data-bs-slide="next"
+							>
+								<span
+									className="carousel-control-next-icon"
+									aria-hidden="true"
+								></span>
+								<span className="visually-hidden">Next</span>
+							</button>
+						</div>
+					</section>
+				</div>
+			</div>
+
+
+
+			<div className=" firstsec">
 				<div className="container container-fluid py-5">
 					<section>
 						<div className="row  d-flex align-items-center">
