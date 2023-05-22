@@ -19,9 +19,14 @@ const HomePage = () => {
 	return (
 		<div>
 			<section className="video-containeraa videosec">
-				<div className="ratio ratio-16x9">
+				{/* <div className="ratio ratio-16x9">
 					<iframe src="https://player.vimeo.com/video/828259341?h=4e27c22614&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
+				</div> */}
+				<div className="ratio ratio-16x9" id="video-container">
+					<iframe src="https://player.vimeo.com/video/828259341?autoplay=1&muted=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div>
+
+
 				<script src="https://player.vimeo.com/api/player.js"></script>
 				<div className="rotate-box">
 					<h2>We craft innovation in</h2>
@@ -80,7 +85,8 @@ const HomePage = () => {
 
 						<div className="col-xl-6 col-md-12">
 							<section className="video-containerSmall">
-								<div style={{ padding: "56.25% 0 0 0", position: "relative" }}><iframe src="https://player.vimeo.com/video/828259500?h=842b84732c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }} title="Clientele Video"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+								<div style={{ padding: "56.25% 0 0 0", position: "relative" }}><iframe src="https://player.vimeo.com/video/828259500?h=842b84732c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }} title="Clientele Video"></iframe></div>
+								{/* <script src="https://player.vimeo.com/api/player.js"></script> */}
 							</section>
 						</div>
 					</div>
@@ -90,56 +96,40 @@ const HomePage = () => {
 			<div className="container container-fluid py-5 firstsec">
 				<div className=" d-flex align-items-center flex-column justify-content-center">
 					<h1 className="all-head">Codiste As Company </h1>
-					<p className="secondsec-p">
-						Choose Codiste for innovative and creative solutions
-						that keep up with the fast-paced digital world
+					<p className="secondsec-p text-center">Choose Codiste for innovative and creative solutions that keep up with the fast-paced
+						digital world
+
 					</p>
 				</div>
 				<div className="container container-fluid">
 					<div className="row">
 						<div className="col-xl-6 col-sm-12 mb-5">
-							<img
-								className="img-fluid d-flex align-items-center justify-content-center"
+
+							<img className='img-fluid d-flex align-items-center justify-content-center'
 								style={{
-									height: "450px",
 									width: "auto",
 									margin: "auto",
 									padding: "20px",
-								}}
-								src="assets/images/home/Codiste_Company.png"
-							/>
+								}} src="assets/images/home/Codiste_Company.png" alt="Codiste As Company" />
+
 						</div>
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">
-							<h3 className="mb-3">
-								Looking to stay ahead of the curve?
+							<h3 className="mb-3">Looking to stay ahead of the curve?
 							</h3>
-							<p className="secondsec-p">
-								Codiste's expertise in end-to-end IT development
-								support and services has you covered. We have
-								the experience, expertise, and zeal to
-								continuously innovate and build better solutions
-								with the latest technologies to cater to
-								businesses. As your one-stop IT services
-								solution, we provide tailored solutions that are
-								efficient and specific to your requirements and
-								needs.
+							<p className="secondsec-p">Codiste's expertise in end-to-end IT development support and services has you covered.
+								We have the experience, expertise, and zeal to continuously innovate and build better solutions with the
+								latest technologies to cater to businesses. As your one-stop IT services solution, we provide tailored
+								solutions that are efficient and specific to your requirements and needs.
 							</p>
-							<p className="secondsec-p">
-								<strong>
-									Stay ahead with Codiste, Stay ahead with
-									innovation!
-								</strong>
-							</p>
-							<div className="mt-3">
-								<Link href="/book-a-call" className="book-btn">
-									Book a Call
-								</Link>
+							<p className="secondsec-p"><strong>Stay ahead with Codiste, Stay ahead with innovation!</strong></p>
+							<div>
+								<button className="book-btn">Book a Call</button>
 							</div>
+
 						</div>
 					</div>
 				</div>
 			</div>
-
 			<div className="bg-color">
 				<div className="container container-fluid py-5">
 					<section>

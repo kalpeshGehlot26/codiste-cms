@@ -58,7 +58,7 @@ const MLDevelopmentCompany = () => {
 			<div className="py-5 bg-color mt-5">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">
+						<h1 className="all-head text-center">
 							Why Should You Trust Codiste For Machine Learning
 							Development Services?
 						</h1>
@@ -176,7 +176,7 @@ const MLDevelopmentCompany = () => {
 			</div>
 
 			<div className="blackdiv px-3">
-				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>
 						Let's meet our ML experts virtually and Explore
 						possibilities!
@@ -550,7 +550,7 @@ const MLDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+							<h1 className="all-head text-center">
 								Satisfied clients is our proof of our excellence!
 							</h1>
 						</div>

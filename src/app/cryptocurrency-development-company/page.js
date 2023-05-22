@@ -191,7 +191,7 @@ const CryptoDevelopmentCompany = () => {
 			</div>
 
 			<div className="blackdiv px-3 ">
-				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>Let’s make crypto mainstream together! </p>
 					<Link href="/book-a-call" className="book-btn">
 						Get in Touch
@@ -559,7 +559,7 @@ const CryptoDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+							<h1 className="all-head text-center">
 								Success Stories from our clientele!
 							</h1>
 						</div>

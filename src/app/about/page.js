@@ -17,7 +17,7 @@ const About = () => {
 				<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-0 mb-lg-5">
 					<h1 className="all-head">Enterprise Grade Blockchain Development Company</h1>
 				</div>
-				<div className="container container-fluid" style={{ padding: "80px 0" }}>
+				<div className="container container-fluid about-mainsec" >
 					<section>
 						<div className="row">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap  align-items-center justify-content-between">
@@ -47,7 +47,7 @@ const About = () => {
 								<p className="secondsec-p ">Strive, Innovate and Succeed in delivering tangible business value to clients across the
 									globe by ensuring the highest quality within available time frames in each of our IT solutions we provide.
 									Through a consistent and rigorous adherence to best procedures and practices prevalent in the industry today,
-									we deliver more than what the Client expects</p>
+									we deliver more than what the Client expects.</p>
 							</div>
 							<div className="col-12 col-lg-4 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' alt='MISSION' src="assets/images/about/Mission.png" /></div>
 						</div>
@@ -239,7 +239,6 @@ const About = () => {
 				</div>
 			</div>
 
-
 			<div className="container container-fluid  py-5">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -392,6 +391,7 @@ const About = () => {
 					</div>
 				</section>
 			</div>
+
 			<div className="bg-color firstsec">
 				<div className="container container-fluid  py-5">
 					<section>
@@ -787,6 +787,7 @@ const About = () => {
 					</section>
 				</div>
 			</div>
+
 			<div className="container container-fluid mb-5 firstsec">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head">Our Global Presence </h1>
@@ -800,7 +801,7 @@ const About = () => {
 				<div className="row">
 					<div className="col-md-6 col-sm-12 pb-3 ">
 						<div className="service-block p-4 h-100 ">
-							<div className="d-flex justify-content-center customind mb-4">
+							<div className="d-flex justify-content-center align-items-center customind mb-4">
 								<img
 									className="me-4"
 									src="assets/images/india.png"
@@ -808,7 +809,7 @@ const About = () => {
 								<h1>India</h1>
 							</div>
 							<div className="contact-content">
-								<div className="d-flex ms-5">
+								<div className="d-flex ms-lg-5 ms-0">
 									<div className="contact-icon ">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -905,7 +906,7 @@ const About = () => {
 									</div>
 									<div></div>
 								</div>
-								<div className="d-flex ms-5">
+								<div className="d-flex ms-lg-5 ms-0 ">
 									<div className="contact-icon">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -940,7 +941,7 @@ const About = () => {
 										</p>
 									</div>
 								</div>
-								<div className="d-flex ms-5">
+								<div className="d-flex ms-lg-5 ms-0">
 									<div className="contact-icon">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -981,7 +982,7 @@ const About = () => {
 
 					<div className="col-md-6 col-sm-12 pb-3 ">
 						<div className="service-block p-4 h-100 ">
-							<div className="d-flex justify-content-center customind mb-4">
+							<div className="d-flex justify-content-center align-items-center customind mb-4">
 								<img
 									className="me-4"
 									src="assets/images/south-africa.png"
@@ -989,7 +990,7 @@ const About = () => {
 								<h1>South-Africa</h1>
 							</div>
 							<div className="contact-content">
-								<div className="d-flex ms-5">
+								<div className="d-flex ms-lg-5 ms-0">
 									<div className="contact-icon">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -1086,7 +1087,7 @@ const About = () => {
 										</p>
 									</div>
 								</div>
-								<div className="d-flex ms-5">
+								<div className="d-flex ms-lg-5 ms-0">
 									<div className="contact-icon">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -1121,7 +1122,7 @@ const About = () => {
 										</p>
 									</div>
 								</div>
-								<div className="d-flex ms-5">
+								<div className="d-flex ms-lg-5 ms-0">
 									<div className="contact-icon">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"

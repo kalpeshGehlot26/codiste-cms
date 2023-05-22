@@ -148,7 +148,7 @@ const Services = () => {
 						</div>
 
 						<div className="row">
-							<div className="col-xl-4  col-sm-12 pb-3 ">
+							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
 										className="my-3"
@@ -169,7 +169,7 @@ const Services = () => {
 									</p>
 								</div>
 							</div>
-							<div className="col-xl-4  col-sm-12 pb-3 ">
+							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
 										className="my-3"
@@ -190,7 +190,7 @@ const Services = () => {
 									</p>
 								</div>
 							</div>
-							<div className="col-xl-4 col-sm-12 pb-3 ">
+							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
 										className="my-3"
@@ -211,7 +211,7 @@ const Services = () => {
 									</p>
 								</div>
 							</div>
-							<div className="col-xl-4 col-sm-12 pb-3 ">
+							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
 										className="my-3"
@@ -233,7 +233,7 @@ const Services = () => {
 									</p>
 								</div>
 							</div>
-							<div className="col-xl-4 col-sm-12 pb-3 ">
+							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
 										className="my-3"
@@ -254,7 +254,7 @@ const Services = () => {
 									</p>
 								</div>
 							</div>
-							<div className="col-xl-4 col-sm-12 pb-3 ">
+							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
 										className="my-3"

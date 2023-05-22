@@ -68,7 +68,7 @@ const page = () => {
 				<div className="row">
 					<div className="col-md-6 col-sm-12 pb-3 ">
 						<div className="service-block p-4 h-100 ">
-							<div className="d-flex justify-content-center customind mb-4">
+							<div className="d-flex justify-content-center align-items-center customind mb-4">
 								<img
 									className="me-4"
 									src="assets/images/india.png"
@@ -76,7 +76,7 @@ const page = () => {
 								<h1>India</h1>
 							</div>
 							<div className="contact-content">
-								<div className="d-flex ms-5">
+								<div className="d-flex ms-lg-5 ms-0">
 									<div className="contact-icon ">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +109,7 @@ const page = () => {
 													</clipPath>
 												</defs>
 												<g
-													clipPath="url(#a)"
+													clip-path="url(#a)"
 													transform="matrix(1.33333 0 0 -1.33333 0 682.667)"
 												>
 													<path
@@ -173,7 +173,7 @@ const page = () => {
 									</div>
 									<div></div>
 								</div>
-								<div className="d-flex ms-5">
+								<div className="d-flex ms-lg-5 ms-0 ">
 									<div className="contact-icon">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -208,7 +208,7 @@ const page = () => {
 										</p>
 									</div>
 								</div>
-								<div className="d-flex ms-5">
+								<div className="d-flex ms-lg-5 ms-0">
 									<div className="contact-icon">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -231,7 +231,7 @@ const page = () => {
 												<path
 													d="M467 76H45C20.238 76 0 96.149 0 121v270c0 24.86 20.251 45 45 45h422c24.762 0 45-20.149 45-45V121c0-24.857-20.248-45-45-45zm-6.91 30L267.624 299.094c-5.864 5.882-17.381 5.886-23.248 0L51.91 106h408.18zM30 385.485v-258.97L159.065 256 30 385.485zM51.91 406l128.334-128.752 42.885 43.025c17.574 17.631 48.175 17.624 65.743 0l42.885-43.024L460.09 406H51.91zM482 385.485 352.935 256 482 126.515v258.97z"
 													fill="#ff1f23"
-													dataOriginal="#000000"
+													data-original="#000000"
 													className=""
 												/>
 											</g>
@@ -249,7 +249,7 @@ const page = () => {
 
 					<div className="col-md-6 col-sm-12 pb-3 ">
 						<div className="service-block p-4 h-100 ">
-							<div className="d-flex justify-content-center customind mb-4">
+							<div className="d-flex justify-content-center align-items-center customind mb-4">
 								<img
 									className="me-4"
 									src="assets/images/south-africa.png"
@@ -257,7 +257,7 @@ const page = () => {
 								<h1>South-Africa</h1>
 							</div>
 							<div className="contact-content">
-								<div className="d-flex ms-5">
+								<div className="d-flex ms-lg-5 ms-0">
 									<div className="contact-icon">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -285,12 +285,12 @@ const page = () => {
 														<path
 															d="M0 512h512V0H0Z"
 															fill="#ff1f23"
-															dataOriginal="#000000"
+															data-original="#000000"
 														/>
 													</clipPath>
 												</defs>
 												<g
-													clipPath="url(#a)"
+													clip-path="url(#a)"
 													transform="matrix(1.33333 0 0 -1.33333 0 682.667)"
 												>
 													<path
@@ -354,7 +354,7 @@ const page = () => {
 										</p>
 									</div>
 								</div>
-								<div className="d-flex ms-5">
+								<div className="d-flex ms-lg-5 ms-0">
 									<div className="contact-icon">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -389,7 +389,7 @@ const page = () => {
 										</p>
 									</div>
 								</div>
-								<div className="d-flex ms-5">
+								<div className="d-flex ms-lg-5 ms-0">
 									<div className="contact-icon">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -412,7 +412,7 @@ const page = () => {
 												<path
 													d="M467 76H45C20.238 76 0 96.149 0 121v270c0 24.86 20.251 45 45 45h422c24.762 0 45-20.149 45-45V121c0-24.857-20.248-45-45-45zm-6.91 30L267.624 299.094c-5.864 5.882-17.381 5.886-23.248 0L51.91 106h408.18zM30 385.485v-258.97L159.065 256 30 385.485zM51.91 406l128.334-128.752 42.885 43.025c17.574 17.631 48.175 17.624 65.743 0l42.885-43.024L460.09 406H51.91zM482 385.485 352.935 256 482 126.515v258.97z"
 													fill="#ff1f23"
-													data-original="#000000"
+													dataOriginal="#000000"
 													className=""
 												/>
 											</g>

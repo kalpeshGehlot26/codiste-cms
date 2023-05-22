@@ -49,7 +49,7 @@ const MobileAppDevelopmentCompany = () => {
 			<div className="container container-fluid py-5">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-						<h1 className="all-head">
+						<h1 className="all-head text-center">
 							Our Mobile App Development Services{" "}
 						</h1>
 						<p className="all-p text-center">We offer comprehensive mobile app development services, leveraging the latest technologies and industry best practices to deliver high-quality and innovative solutions tailored to your business needs.</p>
@@ -204,7 +204,7 @@ const MobileAppDevelopmentCompany = () => {
 			</div>
 
 			<div className="blackdiv px-3">
-				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>
 						We are your Go-To Expert for Best Mobile App Development{" "}
 					</p>
@@ -505,7 +505,7 @@ const MobileAppDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+							<h1 className="all-head text-center">
 								We take pride in your trust!
 							</h1>
 						</div>

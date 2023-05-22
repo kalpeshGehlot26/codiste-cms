@@ -42,7 +42,7 @@ const StartupDevelopmentCompany = () => {
 			<div className="container container-fluid py-5">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-						<h1 className="all-head">
+						<h1 className="all-head text-center">
 							Our Startup Development Services
 						</h1>
 						<p className="secondsec-p text-center" >We provide startup development solutions that prioritize transparency, ensuring open communication and clear visibility throughout the product development process, resulting in market-viable solutions for your business.</p>
@@ -191,7 +191,7 @@ const StartupDevelopmentCompany = () => {
 			</div>
 
 			<div className="blackdiv px-3">
-				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>Let’s build your dream business together! </p>
 					<Link href="/contact" className="book-btn">
 						Contact Us!
@@ -362,6 +362,7 @@ const StartupDevelopmentCompany = () => {
 					</ol>
 				</div>
 			</div>
+
 			<div className="py-5">
 				<div className="container container-fluid">
 					<div
@@ -634,7 +635,7 @@ const StartupDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+							<h1 className="all-head text-center">
 								Our work speaks in their words!
 							</h1>
 						</div>

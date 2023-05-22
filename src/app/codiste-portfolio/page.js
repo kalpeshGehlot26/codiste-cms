@@ -19,56 +19,23 @@ const CodistePortfolio = () => {
 
 	return (
 		<div>
-			{/* <div className="bg-color">
+
+			<div className="bg-color py-lg-3 py-0">
 				<div className="container container-fluid">
 					<section>
-						<div className="row firstsec d-flex align-items-center">
-							<div className="col-lg-6 col-sm-12 mb-5 mb-lg-0">
-								<h1 className="all-head">Our Portfolio</h1>
-								<p className="all-p me-5 mb-4">
-									Discover how our expertise and innovation
-									have helped businesses like yours achieve
-									success. Explore our case studies and see
-									what we delivered to figure out how it
-									helped drive forward the development of tech
-									& software solutions for various industries.
-								</p>
-								<Link href="/contact" className="book-btn">
-									Let's Connect
-								</Link>
-							</div>
-							<div className="col-lg-6 col-sm-12 firstsecimg ">
-								<img
-									className="img-fluid"
-									src="assets/images/Our Portfolio.png"
-								/>
-							</div>
-						</div>
-					</section>
-				</div>
-			</div> */}
-
-
-			<div class="bg-color">
-				<div class="container container-fluid">
-					<section>
-						<div class="row firstsec ">
-							<div
-								class="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
-								<div class="col-12 col-lg-5 order-2 order-lg-1">
-									<h1 class="all-head">Our Portfolio</h1>
-									<p class="all-p me-5 my-4">Discover how our expertise and innovation have helped businesses like yours
-										achieve
-										success. Explore our case studies and see what we delivered to figure out how it helped drive forward
-										the
+						<div className="row firstsec ">
+							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
+								<div className="col-12 col-lg-5 order-2 order-lg-1">
+									<h1 className="all-head">Our Portfolio</h1>
+									<p className="all-p me-5 my-4">Discover how our expertise and innovation have helped businesses like yours
+										achieve success. Explore our case studies and see what we delivered to figure out how it helped drive forward the
 										development of tech & software solutions for various industries.
 									</p>
 									<Link href="/contact" className="book-btn">
 										Let's Connect
 									</Link>
 								</div>
-								<div class="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img class='img-fluid' alt='OurPortfolio'
-									src="assets/images/Our Portfolio.png" /></div>
+								<div className="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0"><img className='img-fluid' alt='OurPortfolio' src="assets/images/Our Portfolio.png" /></div>
 							</div>
 						</div>
 					</section>
@@ -172,30 +139,33 @@ const CodistePortfolio = () => {
 				</section>
 			</div>
 
-			<div className="container container-fluid py-5">
-				<section>
-					<div className="row  d-flex align-items-center">
-						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-5">
-							<h1>
-								Ready to take your business to the next level?
-							</h1>
-							<h2 >
-								Fill out our lead form to contact our team and
-								learn how Codiste can help you drive growth and
-								success.
-							</h2>
-						</div>
-						<div className="col-lg-6 col-md-12 ">
-							<div className="need-block h-100">
-								<h2 className="">
-									How Can We <b>Help?</b>{" "}
+			<div className="bg-color py-5">
+				<div className="container container-fluid">
+					<section>
+						<div className="row  d-flex align-items-center">
+							<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-5">
+								<h1>
+									Ready to take your business to the next level?
+								</h1>
+								<h2 >
+									Fill out our lead form to contact our team and
+									learn how Codiste can help you drive growth and
+									success.
 								</h2>
-								<CaseStudyForm />
+							</div>
+							<div className="col-lg-6 col-md-12 ">
+								<div className="need-block h-100">
+									<h2 className="">
+										How Can We <b>Help?</b>{" "}
+									</h2>
+									<CaseStudyForm />
+								</div>
 							</div>
 						</div>
-					</div>
-				</section>
+					</section>
+				</div>
 			</div>
+
 		</div>
 	);
 };

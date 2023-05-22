@@ -43,7 +43,7 @@ const ARVRDevelopmentCompany = () => {
 			<div className="container container-fluid py-5">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-						<h1 className="all-head">
+						<h1 className="all-head text-center">
 							Our AR/VR Development Services{" "}
 						</h1>
 						<p className="all-p text-center">
@@ -191,7 +191,7 @@ const ARVRDevelopmentCompany = () => {
 			</div>
 
 			<div className="blackdiv px-3">
-				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3">
+				<div className="container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>
 						Interested in developing an augmented reality solution
 						for your audience?
@@ -202,11 +202,14 @@ const ARVRDevelopmentCompany = () => {
 				</div>
 			</div>
 
+
+
+
 			<div className="bg-color py-5 mt-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
-							<h1 className="all-head">Technology Stack</h1>
+							<h1 className="all-head text-center">Technology Stack</h1>
 							<p className="all-p me-5 text-center">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,

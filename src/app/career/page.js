@@ -220,10 +220,10 @@ const Career = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5" id="apply-now">
+			<div className="container container-fluid py-lg-5 py-0" id="apply-now">
 				<section>
 					<div className="row  d-flex align-items-center">
-						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-5">
+						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-5" >
 							<h1 className="">
 								Are you a professional techie?
 							</h1>

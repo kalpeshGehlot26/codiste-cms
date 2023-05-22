@@ -58,7 +58,7 @@ const AIDevelopmentCompany = () => {
 			<div className="py-5 bg-color mt-5">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">
+						<h1 className="all-head text-center">
 							Why Choose Us For Artificial Intelligence
 							Development Services?
 						</h1>
@@ -216,7 +216,7 @@ const AIDevelopmentCompany = () => {
 			</div>
 
 			<div className="blackdiv px-3">
-				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>
 						Ready to bring your idea to life with Artificial
 						Intelligence ?
@@ -575,7 +575,7 @@ const AIDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+							<h1 className="all-head text-center">
 								Client feedback speaks volumes. See for
 								yourself!
 							</h1>

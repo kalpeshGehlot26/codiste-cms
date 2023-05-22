@@ -42,7 +42,7 @@
 .rotate-box {
   position: absolute;
   left: 50px;
-  top: 180px;
+  top: 230px;
   z-index: 100;
 }
 
@@ -322,7 +322,7 @@ video {
 }
 @media (max-width: 1080px){
   .video-containeraa {
-    height: calc(60vh - 76px);
+    height: calc(50vh - 76px);
   }
 }
 @media (max-width: 800px){
@@ -330,7 +330,7 @@ video {
     height: calc(50vh - 76px);
   }
 }
-@media (max-width: 650px){
+@media (max-width: 440px){
   .video-containeraa {
     height: calc(40vh - 76px);
   }

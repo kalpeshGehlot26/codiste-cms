@@ -43,7 +43,7 @@ const NFTDevelopment = () => {
 			<div className="container container-fluid py-5">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-						<h1 className="all-head">
+						<h1 className="all-head text-center">
 							Our NFT Development Services{" "}
 						</h1>
 						<p className="all-p text-center">
@@ -209,7 +209,7 @@ const NFTDevelopment = () => {
 			</div>
 
 			<div className="blackdiv px-3">
-				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between flex-wrap py-3">
 					<p>Help us know your project better! </p>
 					<Link href="/book-a-call" className="book-btn">
 						Let's Connect{" "}
@@ -501,7 +501,7 @@ const NFTDevelopment = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+							<h1 className="all-head text-center">
 								We are proud to have your trust in us!{" "}
 							</h1>
 						</div>

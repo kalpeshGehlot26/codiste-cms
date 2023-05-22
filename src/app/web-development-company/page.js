@@ -21,20 +21,18 @@ const WebDevelopmentCompany = () => {
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.webService) }}
 			/>
-			<div className="bg-color">
+			<div className="bg-color py-lg-4 py-0">
 				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec ">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
 								<div className="col-12 col-lg-5 order-2 order-lg-1">
 									<h1 className="all-head">Web Development Company</h1>
-									<p className="all-p me-5 my-4">Our Web development services offer website development support
-										and technical assistance to build secure, scalable, visually stunning, and robust web
-										applications.
+									<p className="all-p me-5 my-4">Experience our comprehensive web development services, providing expert support and technical assistance to create secure, visually captivating, and resilient web applications. We offer website development end-to-end solutions for enterprises and businesses, ensuring scalable and robust web application development.
 									</p>
 									<Link href="/contact" className="book-btn">Contact Us</Link>
 								</div>
-								<div className="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0"><img className='img-fluid' alt='Web Development' src="assets/images/main/Web Development_.png" /></div>
+								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="assets/images/main/Web Development_.png" alt='Web Development' /></div>
 							</div>
 						</div>
 					</section>
@@ -46,7 +44,7 @@ const WebDevelopmentCompany = () => {
 			<div className="container container-fluid">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-						<h1 className="all-head">
+						<h1 className="all-head text-center">
 							Our Web Development Services{" "}
 						</h1>
 						<p className="all-p text-center">
@@ -178,7 +176,7 @@ const WebDevelopmentCompany = () => {
 			</div>
 
 			<div className="blackdiv px-3">
-				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>
 						web site development : Looking to build a website for
 						your enterprise?

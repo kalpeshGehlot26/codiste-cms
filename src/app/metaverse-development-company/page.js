@@ -199,7 +199,7 @@ const MetaverseDevelopmentCompany = () => {
 			</div>
 
 			<div className="blackdiv">
-				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>
 						Level up your CX with a seamless Metaverse integration
 						with Us!{" "}

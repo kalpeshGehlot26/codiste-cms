@@ -79,7 +79,7 @@ const BlockChainDevelopment = () => {
 			<div className="py-5 bg-color mt-5">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">
+						<h1 className="all-head text-center">
 							Why Choose Us for Blockchain Development?{" "}
 						</h1>
 						<p className="all-p text-center">
@@ -199,7 +199,7 @@ const BlockChainDevelopment = () => {
 			</div>
 
 			<div className="blackdiv px-3">
-				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3">
+				<div className="container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>
 						Get Transparent, Decentralized, and Scalable Blockchain
 						Applications{" "}
@@ -209,6 +209,7 @@ const BlockChainDevelopment = () => {
 					</Link>
 				</div>
 			</div>
+
 
 			<div className="bg-color py-5 mt-5">
 				<div className="container container-fluid">
@@ -628,7 +629,7 @@ const BlockChainDevelopment = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+							<h1 className="all-head text-center">
 								Their Skyrocketing Success is Our Feedback!
 							</h1>
 						</div>
