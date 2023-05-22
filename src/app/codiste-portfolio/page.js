@@ -20,7 +20,7 @@ const CodistePortfolio = () => {
 	return (
 		<div>
 
-			<div className="bg-color py-lg-3 py-0">
+			<div className="bg-color py-lg-3">
 				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec ">

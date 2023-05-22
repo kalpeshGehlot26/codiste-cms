@@ -123,6 +123,7 @@ text-align: left;
 .all-head {
    font-size: 40px;
    font-weight: 600;
+   line-height: 50px;
    background: linear-gradient(90deg, #FF1F23 3.28%, #FD145A 97.2%);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
