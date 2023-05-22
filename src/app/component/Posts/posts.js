@@ -23,10 +23,10 @@ const Posts = () => {
 	return (
 		<div>
 			<div class="row g-4">
-				{posts?.map((post, index) => {
+				{posts?.reverse().map((post, index) => {
                     if (postCount < index + 1) return;
                     const link = post.link.split("/")
-                    
+
                     return (
 						<div class="col-lg-3 col-md-2 col-12" key={index}>
 							<div class="position-relative">
@@ -37,7 +37,7 @@ const Posts = () => {
 								/>
 								<div class="blogboxbg-new">
 									<div class="blogfont-pos">
-										<p>{post._embedded['wp:term'][0][0].name}</p>
+										<p>{post._embedded['wp:term'][0][0].name} Development Service</p>
 										<h5 class="mb-3">
                                             {post.title.rendered}
 										</h5>
