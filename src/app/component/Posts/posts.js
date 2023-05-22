@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 
 const Posts = () => {
 	const [posts, setPosts] = useState(null);
-    const [postCount, setPostCount] = useState(8);
+	const [postCount, setPostCount] = useState(8);
 	const [totalPostCount, setTotalPostCount] = useState(null);
 
 	useEffect(() => {
@@ -14,7 +14,7 @@ const Posts = () => {
 			.catch((error) => console.error(error));
 	}, []);
 
-    useEffect(() => {
+	useEffect(() => {
 		setTotalPostCount(posts?.length);
 	}, [posts]);
 
@@ -24,10 +24,10 @@ const Posts = () => {
 		<div>
 			<div class="row g-4">
 				{posts?.map((post, index) => {
-                    if (postCount < index + 1) return;
-                    const link = post.link.split("/")
-                    
-                    return (
+					if (postCount < index + 1) return;
+					const link = post.link.split("/")
+
+					return (
 						<div class="col-lg-3 col-md-2 col-12" key={index}>
 							<div class="position-relative">
 								<img
@@ -39,11 +39,13 @@ const Posts = () => {
 									<div class="blogfont-pos">
 										<p>{post._embedded['wp:term'][0][0].name}</p>
 										<h5 class="mb-3">
-                                            {post.title.rendered}
+											{post.title.rendered}
 										</h5>
-										<Link href={link[3]} class="blogfont-btn">
-											Read More
-										</Link>
+										<div>
+											<Link href={link[3]} class="blogfont-btn">
+												Read More
+											</Link>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -52,17 +54,17 @@ const Posts = () => {
 				})}
 			</div>
 
-            {totalPostCount > postCount ? (
+			{totalPostCount > postCount ? (
 				<div class="d-flex align-items-center center justify-content-center mt-4">
-                    <button class="book-btn"
-                        onClick={() =>
-                            setPostCount((prevState) => prevState + 3)
-                        }>
-                        Explore More
-                    </button>
-                </div>
+					<button class="book-btn"
+						onClick={() =>
+							setPostCount((prevState) => prevState + 3)
+						}>
+						Explore More
+					</button>
+				</div>
 			) : null}
-			
+
 		</div>
 	);
 };
