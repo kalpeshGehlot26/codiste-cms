@@ -1,7 +1,6 @@
 import React from "react";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 
-
 export const metadata = {
 	title: "Leading Blockchain Development Company | Contact Us | Codiste",
 	description:
