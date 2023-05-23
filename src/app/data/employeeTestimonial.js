@@ -33,7 +33,7 @@ const employeeTestimonial = [
         url: "assets/images/career/tejas-chauhan.png",
         name: "Tejas Chauhan",
         designation: "Senior Flutter Developer",
-        testimonial: "I had an amazing experience working with this exceptional organization. The work-life balance, growth opportunities, and supportive colleagues made it a joy. The positive culture and challenging environment allowed me to develop my skills. Highly recommended."
+        testimonial: "Working here is a delight! An exceptional organization that values work-life balance, offers growth opportunities, and fosters a positive culture. Supportive colleagues make it a joy, while the challenging environment fuels skill development. Highly recommend this fantastic company for quality work."
     }
 ];
 

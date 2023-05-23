@@ -25,7 +25,7 @@ const BlogContent = () => {
 	if (!post) {
 		return (
 			<div className="loader">
-				<div class="sound-wave">
+				<div className="sound-wave">
 					<span></span>
 					<span></span>
 					<span></span>
@@ -99,20 +99,20 @@ const BlogContent = () => {
 				/>
 			</div>
 
-			<div class="bg-color py-5 mt-5">
-				<div class="container container-fluid ">
+			<div className="bg-color py-5 mt-5">
+				<div className="container container-fluid ">
 					<section>
-						<div class="row  d-flex align-items-center">
-							<div class="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-5">
+						<div className="row  d-flex align-items-center">
+							<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-5">
 								<h1>Stuck with your idea?</h1>
-								<h2 class="">
+								<h2 className="">
 									Connect with our experts with this lead form
 									and bring your vision to reality.
 								</h2>
 							</div>
-							<div class="col-lg-6 col-md-12 ">
-								<div class="need-block h-100">
-									<h2 class="">
+							<div className="col-lg-6 col-md-12 ">
+								<div className="need-block h-100">
+									<h2 className="">
 										How Can We <b>Help?</b>{" "}
 									</h2>
 									<CaseStudyForm />
