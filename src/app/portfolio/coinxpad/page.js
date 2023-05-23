@@ -136,6 +136,7 @@ const CoinxpadPortfolio = () => {
 												Multi-chain Launchpad{" "}
 											</span>
 											<br />
+											<span className="secondsec-p"></span>
 											First CEX/DEX multi-chain IDO
 											launchpad
 										</p>
@@ -152,8 +153,9 @@ const CoinxpadPortfolio = () => {
 												Blockchain platforms
 											</span>
 											<br />
-											Supports multiple blockchain
-											platforms
+											<span className="secondsec-p">Supports multiple blockchain
+												platforms</span>
+
 										</p>
 									</li>
 									<li>
@@ -167,9 +169,10 @@ const CoinxpadPortfolio = () => {
 												Launch Platform
 											</span>
 											<br />
-											Provides a streamlined process for
-											projects to launch and investors to
-											participate
+											<span className="secondsec-p">Provides a streamlined process for
+												projects to launch and investors to
+												participate</span>
+
 										</p>
 									</li>
 									<li>
@@ -183,9 +186,10 @@ const CoinxpadPortfolio = () => {
 												Project Details
 											</span>
 											<br />
-											Includes all necessary project
-											information such as team,
-											tokenomics, and use case
+											<span className="secondsec-p">Includes all necessary project
+												information such as team,
+												tokenomics, and use case</span>
+
 										</p>
 									</li>
 									<li>
@@ -198,9 +202,11 @@ const CoinxpadPortfolio = () => {
 											<span className="fs-3">
 												Secure Launchpad
 											</span>
-											<br /> High level of security using
-											advanced security protocols and
-											strict KYC/AML process
+											<br />
+											<span className="secondsec-p">High level of security using
+												advanced security protocols and
+												strict KYC/AML process</span>
+
 										</p>
 									</li>
 								</ul>
@@ -521,7 +527,7 @@ const CoinxpadPortfolio = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												src="../assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -529,7 +535,7 @@ const CoinxpadPortfolio = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="Cryptography"
-													src="assets/images/client-logos/Mumble Rapperz.png"
+													src="../assets/images/client-logos/Mumble Rapperz.png"
 												/>
 											</div>
 											<h5>Cryptography Company</h5>
@@ -557,7 +563,7 @@ const CoinxpadPortfolio = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												src="../assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -565,7 +571,7 @@ const CoinxpadPortfolio = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="FTW"
-													src="assets/images/client-logos/FTW Dao Logo.png"
+													src="../assets/images/client-logos/FTW Dao Logo.png"
 												/>
 											</div>
 											<h5>FTW Dao</h5>
@@ -591,7 +597,7 @@ const CoinxpadPortfolio = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												src="../assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -599,7 +605,7 @@ const CoinxpadPortfolio = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="White Hat"
-													src="assets/images/client-logos/White Hat DAO.png"
+													src="../assets/images/client-logos/White Hat DAO.png"
 												/>
 											</div>
 											<h5>White Hat DAO</h5>

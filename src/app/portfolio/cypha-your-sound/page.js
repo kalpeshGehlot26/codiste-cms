@@ -136,7 +136,8 @@ const CyphaPortfolio = () => {
 												Instrumental Voiceovers
 											</span>
 											<br />
-											Record voice over instrumentals
+											<span className="secondsec-p">	Record voice over instrumentals</span>
+
 										</p>
 									</li>
 									<li>
@@ -150,8 +151,9 @@ const CyphaPortfolio = () => {
 												Record & Share
 											</span>
 											<br />
-											Share content with friends and
-											followers on social media
+											<span className="secondsec-p">	Share content with friends and
+												followers on social media</span>
+
 										</p>
 									</li>
 									<li>
@@ -165,8 +167,9 @@ const CyphaPortfolio = () => {
 												Token Rewards
 											</span>
 											<br />
-											Gamification aspect with tokens that
-											can be exchanged for rewards
+											<span className="secondsec-p">		Gamification aspect with tokens that
+												can be exchanged for rewards</span>
+
 										</p>
 									</li>
 									<li>
@@ -180,8 +183,9 @@ const CyphaPortfolio = () => {
 												Global Discovery
 											</span>
 											<br />
-											Discover new talent from all over
-											the world
+											<span className="secondsec-p">	Discover new talent from all over
+												the world</span>
+
 										</p>
 									</li>
 									<li>
@@ -195,8 +199,9 @@ const CyphaPortfolio = () => {
 												Expand Reach
 											</span>
 											<br />
-											Great platform for established music
-											artists to reach a wider audience
+											<span className="secondsec-p">Great platform for established music
+												artists to reach a wider audience</span>
+
 										</p>
 									</li>
 									<li>
@@ -210,9 +215,10 @@ const CyphaPortfolio = () => {
 												Talent Discovery
 											</span>
 											<br />
-											New way for music producers and
-											record labels to discover and sign
-											new talent
+											<span className="secondsec-p">	New way for music producers and
+												record labels to discover and sign
+												new talent</span>
+
 										</p>
 									</li>
 								</ul>

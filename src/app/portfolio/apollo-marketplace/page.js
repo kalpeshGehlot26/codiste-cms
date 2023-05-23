@@ -113,10 +113,11 @@ const ApolloPortfolio = () => {
 												Decentralized Launchpad Platform
 											</span>
 											<br />
-											New projects can launch their tokens
-											with ease and gain visibility in the
-											market. This helps users to invest
-											in new projects at the ground level.
+											<span className="secondsec-p">	New projects can launch their tokens
+												with ease and gain visibility in the
+												market. This helps users to invest
+												in new projects at the ground level.</span>
+
 										</p>
 									</li>
 									<li>
@@ -131,11 +132,12 @@ const ApolloPortfolio = () => {
 												Liquidity Management
 											</span>
 											<br />
-											Users can easily buy/sell assets
-											using the decentralized exchange
-											tool, while the liquidity management
-											ensures that there is always enough
-											liquidity for trading.
+											<span className="secondsec-p">	Users can easily buy/sell assets
+												using the decentralized exchange
+												tool, while the liquidity management
+												ensures that there is always enough
+												liquidity for trading.</span>
+
 										</p>
 									</li>
 									<li>
@@ -149,9 +151,10 @@ const ApolloPortfolio = () => {
 												Staking Module
 											</span>
 											<br />
-											Users can earn rewards for staking
-											or holding tokens and get incentives
-											to hold onto their assets.
+											<span className="secondsec-p">	Users can earn rewards for staking
+												or holding tokens and get incentives
+												to hold onto their assets.</span>
+
 										</p>
 									</li>
 									<li>
@@ -165,11 +168,12 @@ const ApolloPortfolio = () => {
 												Token Creation Module
 											</span>
 											<br />
-											End-users can easily create new
-											tokens like Custom ERC20, enabling
-											new projects to quickly launch their
-											own tokens and gain exposure to the
-											market.
+											<span className="secondsec-p">		End-users can easily create new
+												tokens like Custom ERC20, enabling
+												new projects to quickly launch their
+												own tokens and gain exposure to the
+												market.</span>
+
 										</p>
 									</li>
 									<li>
@@ -183,10 +187,11 @@ const ApolloPortfolio = () => {
 												HighAPY Module
 											</span>
 											<br />
-											Users get attractive rewards for
-											staking tokens, giving them a way to
-											earn more tokens and participate in
-											the growth of the project.
+											<span className="secondsec-p">	Users get attractive rewards for
+												staking tokens, giving them a way to
+												earn more tokens and participate in
+												the growth of the project.</span>
+
 										</p>
 									</li>
 									<li>
@@ -201,11 +206,12 @@ const ApolloPortfolio = () => {
 												Chain Support
 											</span>
 											<br />
-											Seamless addition or removal of
-											chain support, enabling the platform
-											to stay up to date with new
-											developments and changes in the
-											market.
+											<span className="secondsec-p">	Seamless addition or removal of
+												chain support, enabling the platform
+												to stay up to date with new
+												developments and changes in the
+												market.</span>
+
 										</p>
 									</li>
 								</ul>

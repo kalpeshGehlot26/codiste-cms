@@ -143,10 +143,11 @@ const BornfirePortfolio = () => {
 												Cross-border Investment
 											</span>
 											<br />
-											Revolutionizing the real estate
-											industry is a marketplace where
-											investors can buy property without
-											hassles.
+											<span className="secondsec-p">	Revolutionizing the real estate
+												industry is a marketplace where
+												investors can buy property without
+												hassles.</span>
+
 										</p>
 									</li>
 									<li>
@@ -160,9 +161,10 @@ const BornfirePortfolio = () => {
 												Income from rental properties
 											</span>
 											<br />
-											Unleash the potential of
-											digitization by renting property to
-											boost revenue with ease.
+											<span className="secondsec-p">	Unleash the potential of
+												digitization by renting property to
+												boost revenue with ease.</span>
+
 										</p>
 									</li>
 									<li>
@@ -176,10 +178,11 @@ const BornfirePortfolio = () => {
 												Easy Browsing
 											</span>
 											<br />
-											Search properties by location, asset
-											type, and cash-on-cash returns to
-											make lucrative real estate
-											investments easily.
+											<span className="secondsec-p">	Search properties by location, asset
+												type, and cash-on-cash returns to
+												make lucrative real estate
+												investments easily.</span>
+
 										</p>
 									</li>
 
@@ -194,11 +197,13 @@ const BornfirePortfolio = () => {
 												Fractionalization of the
 												property{" "}
 											</span>
-											<br /> Use crypto for more flexible
-											and affordable investment options.
-											Buying and trading fractions of the
-											property into smaller units or
-											shares becomes easy now!
+											<br />
+											<span className="secondsec-p">Use crypto for more flexible
+												and affordable investment options.
+												Buying and trading fractions of the
+												property into smaller units or
+												shares becomes easy now!</span>
+
 										</p>
 									</li>
 								</ul>

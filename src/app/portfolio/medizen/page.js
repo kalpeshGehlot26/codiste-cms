@@ -139,9 +139,10 @@ const MedizenPortfolio = () => {
 												Medication Tracker
 											</span>
 											<br />
-											The app allows users to track their
-											medications, including dosage,
-											frequency, and duration.
+											<span className="secondsec-p">The app allows users to track their
+												medications, including dosage,
+												frequency, and duration.</span>
+
 										</p>
 									</li>
 									<li>
@@ -155,10 +156,11 @@ const MedizenPortfolio = () => {
 												Reminders
 											</span>
 											<br />
-											The app sends reminders to users to
-											take their medications on time,
-											ensuring that they never miss a
-											dose.
+											<span className="secondsec-p">The app sends reminders to users to
+												take their medications on time,
+												ensuring that they never miss a
+												dose.</span>
+
 										</p>
 									</li>
 									<li>
@@ -172,10 +174,11 @@ const MedizenPortfolio = () => {
 												Drug Interaction Checker
 											</span>
 											<br />
-											The app checks for potential
-											interactions between medications and
-											alerts users if there is a risk of
-											harm.
+											<span className="secondsec-p">The app checks for potential
+												interactions between medications and
+												alerts users if there is a risk of
+												harm.</span>
+
 										</p>
 									</li>
 									<li>
@@ -189,9 +192,10 @@ const MedizenPortfolio = () => {
 												Refill Reminders
 											</span>
 											<br />
-											The app alerts users when it's time
-											to refill their medications,
-											ensuring that they never run out.
+											<span className="secondsec-p">The app alerts users when it's time
+												to refill their medications,
+												ensuring that they never run out.</span>
+
 										</p>
 									</li>{" "}
 									<li>
@@ -205,11 +209,12 @@ const MedizenPortfolio = () => {
 												Family Sharing
 											</span>
 											<br />
-											The app allows users to share their
-											medication schedules with family
-											members, making it easier for loved
-											ones to keep track of their
-											medications
+											<span className="secondsec-p">The app allows users to share their
+												medication schedules with family
+												members, making it easier for loved
+												ones to keep track of their
+												medications</span>
+
 										</p>
 									</li>
 								</ul>

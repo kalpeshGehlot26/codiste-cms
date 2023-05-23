@@ -283,7 +283,7 @@ const Services = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Our Proven Development Cycle </h1>
+					<h1 className="all-head text-center">Our Proven Development Cycle </h1>
 					<p className="all-p me-5 text-center">
 						We follow an extensive step by step development cycle to
 						ensure timely yet quality-assured product deliveries.{" "}
