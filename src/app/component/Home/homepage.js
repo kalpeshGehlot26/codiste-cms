@@ -19,18 +19,10 @@ const HomePage = () => {
 	return (
 		<div>
 			<section className="video-containeraa videosec">
-				{/* <div className="ratio ratio-16x9">
-					<iframe src="https://player.vimeo.com/video/828259341?h=4e27c22614&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
-				</div> */}
-
 				<div className="ratio ratio-16x9" id="video-container">
 					<iframe src="https://player.vimeo.com/video/828259341?autoplay=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen webkitallowfullscreen mozallowfullscreen title="Codiste_Home"></iframe>
 				</div>
 				<script src="https://player.vimeo.com/api/player.js"></script>
-
-				{/* <div style={{ padding: "56.25% 0 0 0", position: "relative" }}><iframe src="https://player.vimeo.com/video/828259341?h=4e27c22614&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }} title="Codiste_Home"></iframe>
-				</div><script src="https://player.vimeo.com/api/player.js"></script> */}
-
 
 				<div className="rotate-box">
 					<h2>We craft innovation in</h2>
@@ -89,8 +81,6 @@ const HomePage = () => {
 
 						<div className="col-xl-6 col-md-12">
 							<section className="video-containerSmall">
-								{/* <div style={{ padding: "56.25% 0 0 0", position: "relative" }}><iframe src="https://player.vimeo.com/video/828259500?h=842b84732c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }} title="Clientele Video"></iframe></div> */}
-
 								<div className="ratio ratio-16x9" id="video-container" >
 									<iframe src="https://player.vimeo.com/video/828259500?autoplay=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen webkitallowfullscreen mozallowfullscreen title="Clientele Video"></iframe>
 								</div>
