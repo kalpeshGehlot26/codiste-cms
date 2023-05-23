@@ -10,6 +10,7 @@ import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import mainServiceList from "../data/services/mainServiceList";
 import Link from "next/link";
 
+
 const metadata = {
 	title: "Software Development Company | Empowering IT Solutions | Codiste",
 	description:
