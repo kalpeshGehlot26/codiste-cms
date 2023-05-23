@@ -124,7 +124,7 @@ const CodistePortfolio = () => {
 								<span>5</span>
 							</li>
 							<li className="timeline-box ">
-								<h4>Project Kickoff </h4>
+								<h4>Project Delivery</h4>
 								<p>
 									After thorough testing and quality assurance
 									checks, we deliver and deploy the final

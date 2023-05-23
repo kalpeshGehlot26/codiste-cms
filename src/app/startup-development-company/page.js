@@ -97,7 +97,7 @@ const StartupDevelopmentCompany = () => {
 
 			<div className="py-5 bg-color">
 				<div className="container container-fluid">
-					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head text-center">
 							Why Choose Codiste For Startup Development Services?
 						</h1>
@@ -105,7 +105,7 @@ const StartupDevelopmentCompany = () => {
 						</p>
 					</div>
 
-					<div className="row mx-5">
+					<div className="row">
 						<div className="col-12 col-md-6 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
@@ -189,6 +189,9 @@ const StartupDevelopmentCompany = () => {
 					</div>
 				</div>
 			</div>
+
+
+
 
 			<div className="blackdiv px-3">
 				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">

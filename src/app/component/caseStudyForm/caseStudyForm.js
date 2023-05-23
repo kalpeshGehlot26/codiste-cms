@@ -10,13 +10,13 @@ const CaseStudyForm = () => {
 
 	useEffect(() => {
 		if (typeof window !== 'undefined') {
-		  setPath(window.location.pathname)
+			setPath(window.location.pathname)
 		}
-	  }, []);
+	}, []);
 
 	const handleSubmit = async (event) => {
 		event.preventDefault();
-	
+
 		await axios.post('/api/contact', values, {
 			headers: {
 				'Content-Type': 'application/json'
@@ -32,12 +32,12 @@ const CaseStudyForm = () => {
 		});
 	};
 
-	const onFormChange = (event) => { 
+	const onFormChange = (event) => {
 		const name = event.target.name;
-        const value = event.target.value;
-		setValues({ 
-			...values, 
-			[name]: value 
+		const value = event.target.value;
+		setValues({
+			...values,
+			[name]: value
 		});
 	}
 
@@ -67,10 +67,11 @@ const CaseStudyForm = () => {
 				<br />
 				<input
 					className="need-form"
-					type="number"
+					type="text"
 					id="number"
-					name="number"
-					placeholder="Number*"
+					name=" Mobile number"
+					placeholder="Mobile number*"
+					pattern="^\+(?:[0-9]●?){6,14}[0-9]$"
 					required
 					onChange={onFormChange}
 				/>
@@ -89,22 +90,16 @@ const CaseStudyForm = () => {
 					<option value="Mobile App Development Services">Mobile App Development Services</option>
 				</select>
 				<textarea
-					className="need-form"
-					id="exampleFormControlTextarea1"
-					rows="3"
-					name="message"
-					placeholder="Message*"
-					onChange={onFormChange}
-					required
+					className="need-form" id="exampleFormControlTextarea1" rows="3" name="message" type="text" placeholder="Message*" onChange={onFormChange} required
 				></textarea>
 				<button className="book-btn" type="submit">
 					{path === '/career' ? "Apply Now" : "Book a Call"}
 				</button>
 				{
-					success? <div className="alert alert-success d-flex align-items-center mt-4" role="alert">
-							{success}
-						</div> 
-					: ''
+					success ? <div className="alert alert-success d-flex align-items-center mt-4" role="alert">
+						{success}
+					</div>
+						: ''
 				}
 			</form>
 		</div>

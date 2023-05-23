@@ -1235,7 +1235,6 @@ ul.brand-style img:hover {
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
-  
 }
 
 ul.About-style li {
@@ -1334,8 +1333,8 @@ ul.AboutService-style a:hover {
     border-radius: 4px;
 }
 .career-cirimg {
-   width: 120px;
-   height: 120px;
+   width: 150px !important;
+   height: 150px !important;
    border-radius: 50%;
 }
 .careerslide-height{
@@ -1802,6 +1801,9 @@ height: auto;
    ul.AboutService-style li {
       flex-basis: 33%
    }
+   ul.About-style li {
+      flex-basis: 50%;
+   }
  }
 
  @media (max-width:768px) {
@@ -1852,6 +1854,9 @@ height: auto;
    }
    ul.tech-style li {
       flex-basis: 50%;
+   }
+   ul.About-style li {
+      flex-basis: 100%;
    }
  }
 

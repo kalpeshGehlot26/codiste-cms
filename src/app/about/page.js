@@ -88,7 +88,7 @@ const About = () => {
 											alt="Collaboration"
 											src="assets/images/about/Collaboration.png"
 										/>
-										<p className="secondsec-p">Collaboration</p>
+										<p className="secondsec-p text-center">Collaboration</p>
 									</li>
 									<li>
 										<img
@@ -96,7 +96,7 @@ const About = () => {
 											alt="Continuous Improvement"
 											src="assets/images/about/continuous-improvement.png"
 										/>
-										<p className="secondsec-p">
+										<p className="secondsec-p text-center">
 											Continuous Improvement
 										</p>
 									</li>
@@ -106,7 +106,7 @@ const About = () => {
 											alt="Customer Focus"
 											src="assets/images/about/Customer Focus.png"
 										/>
-										<p className="secondsec-p">
+										<p className="secondsec-p text-center">
 											Customer Focus
 										</p>
 									</li>
@@ -116,7 +116,7 @@ const About = () => {
 											alt="Diversity & Inclusion"
 											src="assets/images/about/diversity.png"
 										/>
-										<p className="secondsec-p">
+										<p className="secondsec-p text-center">
 											Diversity & Inclusion
 										</p>
 									</li>
@@ -126,7 +126,7 @@ const About = () => {
 											alt="Excellence"
 											src="assets/images/about/excellence.png"
 										/>
-										<p className="secondsec-p">Excellence</p>
+										<p className="secondsec-p text-center">Excellence</p>
 									</li>
 									<li>
 										<img
@@ -134,7 +134,7 @@ const About = () => {
 											alt="Innovation"
 											src="assets/images/about/innovation.png"
 										/>
-										<p className="secondsec-p">Innovation</p>
+										<p className="secondsec-p text-center">Innovation</p>
 									</li>
 									<li>
 										<img
@@ -142,7 +142,7 @@ const About = () => {
 											alt="Agility"
 											src="assets/images/about/iteration.png"
 										/>
-										<p className="secondsec-p">Agility</p>
+										<p className="secondsec-p text-center">Agility</p>
 									</li>
 									<li>
 										<img
@@ -150,7 +150,7 @@ const About = () => {
 											alt="Integrity"
 											src="assets/images/about/Integrity.png"
 										/>
-										<p className="secondsec-p">Integrity</p>
+										<p className="secondsec-p text-center">Integrity</p>
 									</li>
 									<li>
 										<img
@@ -158,7 +158,7 @@ const About = () => {
 											alt="Accountability"
 											src="assets/images/about/responsibility.png"
 										/>
-										<p className="secondsec-p">
+										<p className="secondsec-p text-center">
 											Accountability
 										</p>
 									</li>
@@ -173,7 +173,7 @@ const About = () => {
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Services We Offer</h1>
-						<p className="all-p me-5 text-center">
+						<p className="all-p  text-center">
 							We offer a wide range of innovation-led
 							enterprise-grade development services for various
 							industries and sectors on emerging & rapidly growing
@@ -395,7 +395,7 @@ const About = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
-							<h1 className="all-head">
+							<h1 className="all-head text-center">
 								Brands That Trust Our Work!
 							</h1>
 						</div>
@@ -578,7 +578,7 @@ const About = () => {
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head">Our Customers</h1>
-							<p className="all-p me-5 text-center">
+							<p className="all-p  text-center">
 								Serving across 6 continents. <br />
 								We are a global technology and software
 								development leader.
@@ -974,7 +974,7 @@ const About = () => {
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head">What Our Clients Say</h1>
-							<p className="all-p me-5 text-center">
+							<p className="all-p  text-center">
 								Take the word of those who have benefitted from
 								Codiste.{" "}
 							</p>
