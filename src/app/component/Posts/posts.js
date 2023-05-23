@@ -38,9 +38,7 @@ const Posts = () => {
 										class="img-fluid rounded p-0 blog-img"
 										alt=""
 										src={
-											post._embedded["wp:featuredmedia"][
-												"0"
-											].source_url
+											post._embedded["wp:featuredmedia"]?.["0"]?.source_url
 										}
 									/>
 									<div class="blogboxbg-new">
@@ -49,7 +47,7 @@ const Posts = () => {
 												{
 													post._embedded[
 														"wp:term"
-													][0][0].name
+													][0][0]?.name
 												}{" "}
 												Development Service
 											</p>
