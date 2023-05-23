@@ -1,6 +1,6 @@
 "use client";
 import { usePathname } from "next/navigation";
-
+import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import React, { useEffect, useState } from "react";
 import { getPostBySlug } from "../lib/lib";
 import moment from "moment";
@@ -24,14 +24,15 @@ const BlogContent = () => {
 
 	if (!post) {
 		return (
-			<div
-				style={{
-					width: "100%",
-					display: "flex",
-					justifyContent: "center",
-				}}
-			>
-				<div class="spin"></div>
+			<div className="loader">
+				<div class="sound-wave">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
 			</div>
 		);
 	}
@@ -40,7 +41,7 @@ const BlogContent = () => {
 
 	return (
 		<div className="">
-			<div className="blog-title text-center">
+			<div className="blog-title text-center container mx-auto container-width">
 				<h1 style={{ zIndex: "-1" }}>{post.title.rendered}</h1>
 				<div className="mb-3">
 					<div className=" d-flex align-items-center justify-content-center">
@@ -86,7 +87,7 @@ const BlogContent = () => {
 				style={{ zIndex: "0" }}
 			>
 				<img
-					className="container-width mx-auto"
+					className="container-width mx-auto img-fluid"
 					src={image}
 					alt={post.title.rendered}
 				/>
@@ -96,6 +97,30 @@ const BlogContent = () => {
 					dangerouslySetInnerHTML={{ __html: post.content.rendered }}
 					className="mx-auto"
 				/>
+			</div>
+
+			<div class="bg-color py-5 mt-5">
+				<div class="container container-fluid ">
+					<section>
+						<div class="row  d-flex align-items-center">
+							<div class="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-5">
+								<h1>Stuck with your idea?</h1>
+								<h2 class="">
+									Connect with our experts with this lead form
+									and bring your vision to reality.
+								</h2>
+							</div>
+							<div class="col-lg-6 col-md-12 ">
+								<div class="need-block h-100">
+									<h2 class="">
+										How Can We <b>Help?</b>{" "}
+									</h2>
+									<CaseStudyForm />
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
 			</div>
 		</div>
 	);
