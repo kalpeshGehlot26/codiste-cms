@@ -1,18 +1,18 @@
 const arServiceBlogs = [
     {
-        blogUrl: "https://codiste.com/crypto-lending-platform-using-defi/",
+        blogUrl: "/crypto-lending-platform-using-defi",
         image: "assets/images/blogs/Blog6.jpg",
         title: "DeFi Crypto Lending Platforms A Complete Guide",
         category: "AR/VR"
     },
     {
-        blogUrl: "https://codiste.com/crypto-liquidity-pools/",
+        blogUrl: "/crypto-liquidity-pools",
         image: "assets/images/blogs/Blog2.jpg",
         title: "Crypto Liquidity Pools: 101 Guide for Beginners",
         category: "AR/VR"
     },
     {
-        blogUrl: "https://codiste.com/crypto-lending-platform-using-defi/",
+        blogUrl: "/crypto-lending-platform-using-defi",
         image: "assets/images/blogs/Blog6.jpg",
         title: "DeFi Crypto Lending Platforms A Complete Guide",
         category: "AR/VR"
