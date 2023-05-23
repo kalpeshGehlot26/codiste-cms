@@ -82,7 +82,7 @@ const HomePage = () => {
 						<div className="col-xl-6 col-md-12">
 							<section className="video-containerSmall">
 								<div className="ratio ratio-16x9" id="video-container" >
-									<iframe src="https://player.vimeo.com/video/828259500?autoplay=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen webkitallowfullscreen mozallowfullscreen title="Clientele Video"></iframe>
+									<iframe src="https://player.vimeo.com/video/828259500" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen webkitallowfullscreen mozallowfullscreen title="Clientele Video"></iframe>
 								</div>
 								<script src="https://player.vimeo.com/api/player.js"></script>
 							</section>
