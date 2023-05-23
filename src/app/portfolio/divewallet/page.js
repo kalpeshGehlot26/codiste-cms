@@ -122,10 +122,11 @@ const DivewalletPortfolio = () => {
 												Price Optimization
 											</span>
 											<br />
-											With third-party applications -
-											Coingecko, CoinGapp, and LynxCrypto
-											for the best price analysis, the
-											end-user always gets the best price.
+											<span className="secondsec-p">		With third-party applications -
+												Coingecko, CoinGapp, and LynxCrypto
+												for the best price analysis, the
+												end-user always gets the best price.</span>
+
 										</p>
 									</li>
 									<li>
@@ -139,9 +140,10 @@ const DivewalletPortfolio = () => {
 												Wallet Connect
 											</span>
 											<br />
-											It helps users connect with the Web3
-											websites through the QR code and do
-											the required transactions.
+											<span className="secondsec-p">It helps users connect with the Web3
+												websites through the QR code and do
+												the required transactions.</span>
+
 										</p>
 									</li>
 									<li>
@@ -155,10 +157,11 @@ const DivewalletPortfolio = () => {
 												ManageToken
 											</span>
 											<br />
-											This feature automatically adds 500
-											tokens within the Divewallet once
-											the user creates the account, hence
-											saving time.
+											<span className="secondsec-p">	This feature automatically adds 500
+												tokens within the Divewallet once
+												the user creates the account, hence
+												saving time.</span>
+
 										</p>
 									</li>
 									<li>
@@ -172,10 +175,11 @@ const DivewalletPortfolio = () => {
 												Swapping
 											</span>
 											<br />
-											Backed by a third-party application,
-											ChangeNow, this feature helps the
-											end user swap coins within the
-											Divewallet.
+											<span className="secondsec-p">	Backed by a third-party application,
+												ChangeNow, this feature helps the
+												end user swap coins within the
+												Divewallet.</span>
+
 										</p>
 									</li>
 									<li>
@@ -189,10 +193,11 @@ const DivewalletPortfolio = () => {
 												Price Alert
 											</span>
 											<br />
-											This unique feature facilitates the
-											end users to keep a watch on the
-											fluctuating prices of coins like
-											Bitcoin, Ether, etc.
+											<span className="secondsec-p">	This unique feature facilitates the
+												end users to keep a watch on the
+												fluctuating prices of coins like
+												Bitcoin, Ether, etc.</span>
+
 										</p>
 									</li>
 									<li>
@@ -205,10 +210,11 @@ const DivewalletPortfolio = () => {
 											<span className="fs-3">
 												Push Notification
 											</span>
-											<br /> Push Notification notifies
-											the end user whenever the coin price
-											increases or decreases by +5% or
-											-5%.
+											<br />
+											<span className="secondsec-p">Push Notification notifies
+												the end user whenever the coin price
+												increases or decreases by +5% or
+												-5%.</span>
 										</p>
 									</li>
 									<li>
@@ -222,9 +228,10 @@ const DivewalletPortfolio = () => {
 												Wallet Security
 											</span>
 											<br />
-											It allows end users to enable or
-											disable the Passcode and Password as
-											per their needs.
+											<span className="secondsec-p">			It allows end users to enable or
+												disable the Passcode and Password as
+												per their needs.</span>
+
 										</p>
 									</li>
 									<li>
@@ -238,10 +245,11 @@ const DivewalletPortfolio = () => {
 												Multicoin Wallet
 											</span>
 											<br />
-											This feature allows end users to add
-											multiple accounts and create
-											multiple wallets within the
-											Divewallet.
+											<span className="secondsec-p">		This feature allows end users to add
+												multiple accounts and create
+												multiple wallets within the
+												Divewallet.</span>
+
 										</p>
 									</li>
 									<li>
@@ -255,11 +263,12 @@ const DivewalletPortfolio = () => {
 												Dusting Attack Alert
 											</span>
 											<br />
-											This functionality helps the end
-											users of the Divewallet to secure
-											their accounts by giving them
-											real-time alerts in case of any
-											breach.
+											<span className="secondsec-p">			This functionality helps the end
+												users of the Divewallet to secure
+												their accounts by giving them
+												real-time alerts in case of any
+												breach.</span>
+
 										</p>
 									</li>
 									<li>
@@ -273,10 +282,11 @@ const DivewalletPortfolio = () => {
 												Listing of NFTs
 											</span>
 											<br />
-											If any user within the Divewallet
-											holds any NFTs related to Ethereum
-											or Binance, those NFTs will be
-											listed within the Divewallet.
+											<span className="secondsec-p">If any user within the Divewallet
+												holds any NFTs related to Ethereum
+												or Binance, those NFTs will be
+												listed within the Divewallet.</span>
+
 										</p>
 									</li>
 								</ul>

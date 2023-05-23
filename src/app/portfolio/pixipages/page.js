@@ -128,9 +128,10 @@ const PixipagesPortfolio = () => {
 												Dream Stories
 											</span>
 											<br />
-											Professional sounding bedtime
-											stories with music and a personal
-											note
+											<span className="secondsec-p">		Professional sounding bedtime
+												stories with music and a personal
+												note</span>
+
 										</p>
 									</li>
 									<li>
@@ -144,8 +145,9 @@ const PixipagesPortfolio = () => {
 												Easy Guide
 											</span>
 											<br />
-											User-friendly app with simple,
-											step-by-step instructions
+											<span className="secondsec-p">	User-friendly app with simple,
+												step-by-step instructions</span>
+
 										</p>
 									</li>
 									<li>
@@ -158,9 +160,11 @@ const PixipagesPortfolio = () => {
 											<span className="fs-3">
 												Diverse Themes
 											</span>
-											<br />A variety of themes to choose
-											from, such as bedtime stories and
-											lullabies
+											<br />
+											<span className="secondsec-p">	A variety of themes to choose
+												from, such as bedtime stories and
+												lullabies</span>
+
 										</p>
 									</li>
 									<li>
@@ -174,8 +178,9 @@ const PixipagesPortfolio = () => {
 												Shareable Moments
 											</span>
 											<br />
-											Easy sharing with loved ones, even
-											when away
+											<span className="secondsec-p">Easy sharing with loved ones, even
+												when away</span>
+
 										</p>
 									</li>
 									<li>

@@ -130,9 +130,12 @@ const TankpadPortfolio = () => {
 										<p>
 											<span className="fs-3">Ownership</span>
 											<br />
-											Users can create and own a piece of
-											digital content that is entirely
-											unique and original to them.
+											<span className="secondsec-p">
+												Users can create and own a piece of
+												digital content that is entirely
+												unique and original to them.
+											</span>
+
 										</p>
 									</li>
 									<li>
@@ -146,10 +149,11 @@ const TankpadPortfolio = () => {
 												NFT Portfolio{" "}
 											</span>
 											<br />
-											Users can create a comprehensive
-											list of all the NFTs. The list
-											serves as a reference and a
-											portfolio of the user's work.
+											<span className="secondsec-p" >Users can create a comprehensive
+												list of all the NFTs. The list
+												serves as a reference and a
+												portfolio of the user's work.</span>
+
 										</p>
 									</li>
 									<li>
@@ -163,9 +167,12 @@ const TankpadPortfolio = () => {
 												User friendly
 											</span>
 											<br />
-											Users can showcase their creations
-											to the world and easily transfer
-											their NFTs to other wallets
+											<span className="secondsec-p">
+												Users can showcase their creations
+												to the world and easily transfer
+												their NFTs to other wallets
+											</span>
+
 										</p>
 									</li>
 									<li>
@@ -179,9 +186,10 @@ const TankpadPortfolio = () => {
 												Showcase creativities
 											</span>
 											<br />
-											Tankpad opens up a world of
-											possibilities for creators to
-											monetize their work globally.
+											<span className="secondsec-p">Tankpad opens up a world of
+												possibilities for creators to
+												monetize their work globally.</span>
+
 										</p>
 									</li>
 									<li>
@@ -195,12 +203,13 @@ const TankpadPortfolio = () => {
 												Ease of transfer
 											</span>
 											<br />
-											Tankpad enables creators to sell
-											their NFTs to buyers and transfer
-											them easily between wallets and
-											marketplaces, providing flexibility
-											and control over their digital
-											assets.
+											<span className="secondsec-p">	Tankpad enables creators to sell
+												their NFTs to buyers and transfer
+												them easily between wallets and
+												marketplaces, providing flexibility
+												and control over their digital
+												assets.</span>
+
 										</p>
 									</li>
 								</ul>

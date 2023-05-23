@@ -46,9 +46,9 @@ const Blogs = () => {
 
 			<div class="container py-5">
 				<div class=" d-flex align-items-center flex-column justify-content-center mb-4">
-					<h1 class="all-head">Blog</h1>
+					<h1 class="all-head">Blogs</h1>
 				</div>
-                <Posts />
+				<Posts />
 			</div>
 
 			<div class="bg-color py-5">

@@ -129,11 +129,12 @@ const MLPortfolio = () => {
 												Data Extraction Algorithms
 											</span>
 											<br />
-											Advanced algorithms extract data
-											from construction drawings to
-											provide detailed and accurate
-											information about materials and
-											equipment needed for a project.
+											<span className="secondsec-p">Advanced algorithms extract data
+												from construction drawings to
+												provide detailed and accurate
+												information about materials and
+												equipment needed for a project.</span>
+
 										</p>
 									</li>
 									<li>
@@ -148,9 +149,10 @@ const MLPortfolio = () => {
 												Information
 											</span>
 											<br />
-											Software provides detailed and
-											accurate project resource and cost
-											information.
+											<span className="secondsec-p">		Software provides detailed and
+												accurate project resource and cost
+												information.</span>
+
 										</p>
 									</li>
 									<li>
@@ -164,10 +166,11 @@ const MLPortfolio = () => {
 												User-Friendly Interface
 											</span>
 											<br />
-											Software has a user-friendly
-											interface for efficient and
-											effective use. Helps clients make
-											the most out of its functionalities.
+											<span className="secondsec-p">Software has a user-friendly
+												interface for efficient and
+												effective use. Helps clients make
+												the most out of its functionalities.</span>
+
 										</p>
 									</li>
 									<li>
@@ -181,11 +184,12 @@ const MLPortfolio = () => {
 												Reduce Time and Cost
 											</span>
 											<br />
-											Software saves time and money by
-											eliminating manual counting,
-											allowing the client to focus on
-											other aspects of their business and
-											complete projects efficiently.
+											<span className="secondsec-p">	Software saves time and money by
+												eliminating manual counting,
+												allowing the client to focus on
+												other aspects of their business and
+												complete projects efficiently.</span>
+
 										</p>
 									</li>
 									<li>
@@ -200,10 +204,11 @@ const MLPortfolio = () => {
 												Competitiveness
 											</span>
 											<br />
-											Improved project cost estimation and
-											competitive bidding through accurate
-											and detailed material and equipment
-											information extraction.
+											<span className="secondsec-p">Improved project cost estimation and
+												competitive bidding through accurate
+												and detailed material and equipment
+												information extraction.</span>
+
 										</p>
 									</li>
 									<li>
@@ -217,10 +222,11 @@ const MLPortfolio = () => {
 												Facility Maintenance Planning
 											</span>
 											<br />
-											Software for Efficient Building
-											Maintenance Planning, Prolongs
-											Equipment Life and Reduces
-											Maintenance Costs.
+											<span className="secondsec-p">Software for Efficient Building
+												Maintenance Planning, Prolongs
+												Equipment Life and Reduces
+												Maintenance Costs.</span>
+
 										</p>
 									</li>
 								</ul>
