@@ -2,6 +2,7 @@ import React from "react";
 import ClientSlider from "../component/Home/clientSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Posts from "../component/Posts/posts";
+import Link from "next/link";
 
 const Blogs = () => {
 	return (
@@ -25,9 +26,9 @@ const Blogs = () => {
 										Stay informed and up-to-date with our
 										regular blog updates.
 									</p>
-									<button className="book-btn">
+									<a className="book-btn" href="#blogSection">
 										Explore More
-									</button>
+									</a>
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2">
 									<img
@@ -44,7 +45,7 @@ const Blogs = () => {
 
 			<ClientSlider />
 
-			<div className="container py-5">
+			<div className="container py-5" id="blogSection">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-4">
 					<h1 className="all-head">Blogs</h1>
 				</div>
