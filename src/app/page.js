@@ -1,6 +1,7 @@
 import HomePage from "./component/Home/homepage";
 import jsonData from "./data/schema";
 
+
 export default function Home() {
 	return (
 		<main>
