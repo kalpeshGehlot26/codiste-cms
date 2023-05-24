@@ -5,7 +5,6 @@ export async function getPosts(page) {
         
         headers: 'X-WP-Total'
     });
-    console.log(response)
     if(response && response.data && response.data.length > 0) {
         return {
             data: response.data,
