@@ -833,6 +833,11 @@ ul.tech-style li {
    padding: 10px;
    flex-basis: 10%;
    text-align: center;
+   height: 130px;
+   justify-content:space-between;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
 }
 
 ul.tech-style li a {
@@ -1865,6 +1870,8 @@ height: auto;
 
 
 
+
+
  
 /* Blog Page CSS */
 .blogboxbg-new {
@@ -2067,4 +2074,10 @@ color: #000 !important;
 	100%{
 		transform: rotate(360deg);
 	}
+}
+
+/* === card === */
+.card-link a{
+   text-decoration: none;
+   color: #000;
 }

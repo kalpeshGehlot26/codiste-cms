@@ -71,7 +71,8 @@ const CaseStudyForm = () => {
 					id="number"
 					name=" Mobile number"
 					placeholder="Mobile number*"
-					pattern="^\+(?:[0-9]●?){6,14}[0-9]$"
+					// pattern="^\+(?:[0-9]●?){6,14}[0-9]$"
+					pattern="^\d{10,}$"
 					required
 					onChange={onFormChange}
 				/>

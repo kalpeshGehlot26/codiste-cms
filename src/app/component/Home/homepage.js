@@ -19,10 +19,22 @@ const HomePage = () => {
 	return (
 		<div>
 			<section className="video-containeraa videosec">
-				<div className="ratio ratio-16x9" id="video-container">
+				{/* <div className="ratio ratio-16x9" id="video-container">
 					<iframe src="https://player.vimeo.com/video/828259341?autoplay=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen webkitallowfullscreen mozallowfullscreen title="Codiste_Home"></iframe>
 				</div>
-				<script src="https://player.vimeo.com/api/player.js"></script>
+				<script src="https://player.vimeo.com/api/player.js"></script> */}
+
+				<div class="ratio ratio-16x9" id="video-container">
+					<iframe
+						src="https://player.vimeo.com/video/828259341?autoplay=1"
+						frameborder="0"
+						allow="autoplay; fullscreen; picture-in-picture"
+						allowfullscreen
+						webkitallowfullscreen
+						mozallowfullscreen
+						title="Codiste_Home"
+					></iframe>
+				</div>
 
 				<div className="rotate-box">
 					<h2>We craft innovation in</h2>
@@ -151,6 +163,10 @@ const HomePage = () => {
 					</p>
 				</div>
 				<AllServiceBlogSlider items={homeBlogList} />
+				<div className="d-flex align-items-center justify-content-center mt-5">
+					<button className="book-btn mt-3">Read more</button>
+				</div>
+
 			</div>
 
 			<div className=" py-5 bg-color mt-5">
@@ -163,9 +179,13 @@ const HomePage = () => {
 						<div className="col-lg-4 col-md-6 col-sm-12 mb-5">
 							<div className="card" >
 								<img src='assets/images/diwallet-case/Dive Wallet.png' className="card-img-top img-fluid casestudy-img" alt="Divewallet – The Crypto Wallet" />
-								<div className="card-body cardsec-clr">
+								<div className="card-body">
 									<h5 className="card-title">Divewallet – The Crypto Wallet</h5>
-									<Link href="/portfolio/divewallet" className="btn book-btn mt-3">Read More</Link>
+									{/* <Link href="/portfolio/divewallet" className="btn book-btn mt-3">Read More</Link> */}
+									<div className="card-link">
+										<Link href="/portfolio/divewallet" >Read More</Link>
+									</div>
+
 								</div>
 							</div>
 						</div>

@@ -17,6 +17,7 @@ const blockChainServiceBlogs = [
         title: "Building Decentralised Launchpad",
         category: "Blockchain"
     }
+
 ];
 
 export default blockChainServiceBlogs;

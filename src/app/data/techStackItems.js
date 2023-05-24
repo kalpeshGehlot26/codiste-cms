@@ -1,260 +1,325 @@
 const techStackItems = [
     {
         url: "assets/images/tech/Android Studio.png",
-        alt: "Android Studio"
+        alt: "Android Studio",
+        name: "Android Studio"
     },
     {
         url: "assets/images/tech/Android.png",
-        alt: "Android"
+        alt: "Android",
+        name: "Android"
     },
     {
         url: "assets/images/tech/Angular.png",
-        alt: "Angular"
+        alt: "Angular",
+        name: "Angular"
     },
     {
         url: "assets/images/tech/Apache_Spark_.png",
-        alt: "Apache Spark"
+        alt: "Apache Spark",
+        name: "Apache Spark"
     },
     {
         url: "assets/images/tech/APPGAMEKIT VR.png",
-        alt: "APPGAMEKIT VR"
+        alt: "APPGAMEKIT VR",
+        name: "APPGAMEKIT VR"
     },
     {
         url: "assets/images/tech/Apple arkit.png",
-        alt: "Apple arkit"
+        alt: "Apple arkit",
+        name: "APPLE ARKIT"
     },
     {
         url: "assets/images/tech/Ar Toolkit.png",
-        alt: "Ar Toolkit"
+        alt: "Ar Toolkit",
+        name: "Ar Toolkit"
     },
     {
         url: "assets/images/tech/Azure.png",
-        alt: "Azure"
+        alt: "Azure",
+        name: "Azure"
     },
     {
         url: "assets/images/tech/BigChainDB.png",
-        alt: "BigChainDB"
+        alt: "BigChainDB",
+        name: "BigChainDB"
     },
     {
         url: "assets/images/tech/Binance_Logo.png",
-        alt: "Binance"
+        alt: "Binance",
+        name: "Binance"
     },
     {
         url: "assets/images/tech/BLENDER.png",
-        alt: "BLENDER"
+        alt: "BLENDER",
+        name: "BLENDER"
     },
     {
         url: "assets/images/tech/custom development.png",
-        alt: "Custom Development"
+        alt: "Custom Development",
+        name: "Custom Development"
     },
     {
         url: "assets/images/tech/Corda.png",
-        alt: "Corda"
+        alt: "Corda",
+        name: "Corda"
     },
     {
         url: "assets/images/tech/CRY ENGINE.png",
-        alt: "CRY ENGINE"
+        alt: "CRY ENGINE",
+        name: "CRY ENGINE"
     },
 
     {
         url: "assets/images/tech/Deep AR.png",
-        alt: "Deep AR"
+        alt: "Deep AR",
+        name: "Deep AR"
     },
     {
         url: "assets/images/tech/ethereum.png",
-        alt: "Ethereum"
+        alt: "Ethereum",
+        name: "Ethereum"
     },
     {
         url: "assets/images/tech/fantom.png",
-        alt: "fantom"
+        alt: "fantom",
+        name: "Fantom"
     },
     {
         url: "assets/images/tech/flutter.png",
-        alt: "flutter"
+        alt: "flutter",
+        name: "Flutter"
     },
     {
         url: "assets/images/tech/gensim.png",
-        alt: "gensim"
+        alt: "gensim",
+        name: "Gensim"
     },
     {
         url: "assets/images/tech/go.png",
-        alt: "go"
+        alt: "go",
+        name: "Go"
     },
     {
         url: "assets/images/tech/GOOGLE SKETCH UP.png",
-        alt: "GOOGLE SKETCH UP"
+        alt: "GOOGLE SKETCH UP",
+        name: "GOOGLE SKETCH UP"
     },
     {
         url: "assets/images/tech/GOOGLE-ARCORE.png",
-        alt: "GOOGLE-ARCORE"
+        alt: "GOOGLE-ARCORE",
+        name: "GOOGLE-ARCORE"
     },
     {
         url: "assets/images/tech/Graphene.png",
-        alt: "Graphene"
+        alt: "Graphene",
+        name: "Graphene"
     },
     {
         url: "assets/images/tech/hyperledger.png",
-        alt: "hyperledger"
+        alt: "hyperledger",
+        name: "Hyperledger"
+
     },
     {
         url: "assets/images/tech/Hydra chain.png",
-        alt: "Hydra chain"
+        alt: "Hydra chain",
+        name: "Hydra chain"
     },
     {
         url: "assets/images/tech/html-5.png",
-        alt: "html-5"
+        alt: "html-5",
+        name: "HTML"
     },
     {
         url: "assets/images/tech/icons8-ios-logo-150.png",
-        alt: "icons8-ios-logo"
+        alt: "icons8-ios-logo",
+        name: "iOS"
     },
     {
         url: "assets/images/tech/Ionic.png",
-        alt: "Ionic"
+        alt: "Ionic",
+        name: "Ionic"
     },
     {
         url: "assets/images/tech/IOTA.png",
-        alt: "IOTA"
+        alt: "IOTA",
+        name: "IOTA"
     },
     {
         url: "assets/images/tech/Java.png",
-        alt: "Java"
+        alt: "Java",
+        name: "Java"
     },
     {
         url: "assets/images/tech/java script.png",
-        alt: "Javascript"
+        alt: "Javascript",
+        name: "JavaScript"
     },
     {
         url: "assets/images/tech/Kotlin-logo.png",
-        alt: "Kotlin"
+        alt: "Kotlin",
+        name: "Kotlin"
     },
     {
         url: "assets/images/tech/KUDAN.png",
-        alt: "KUDAN"
+        alt: "KUDAN",
+        name: "KUDAN"
     },
     {
         url: "assets/images/tech/Laravel.png",
-        alt: "Laravel"
+        alt: "Laravel",
+        name: "Laravel"
     },
     {
         url: "assets/images/tech/LIBGDX.png",
-        alt: "LIBGDX"
+        alt: "LIBGDX",
+        name: "LIBGDX"
     },
     {
         url: "assets/images/tech/Maxst.png",
-        alt: "Maxst"
+        alt: "Maxst",
+        name: "MAXST"
     },
     {
         url: "assets/images/tech/Multichain.png",
-        alt: "Multichain"
+        alt: "Multichain",
+        name: "Multichain"
     },
     {
         url: "assets/images/tech/NEM Framework.png",
-        alt: "NEM Framework"
+        alt: "NEM Framework",
+        name: "NEM Framework"
     },
     {
         url: "assets/images/tech/NEO.png",
-        alt: "NEO"
+        alt: "NEO",
+        name: "NEO"
     },
     {
         url: "assets/images/tech/Node.png",
-        alt: "Node"
+        alt: "Node",
+        name: "Node"
     },
     {
         url: "assets/images/tech/openchain.png",
-        alt: "openchain"
+        alt: "openchain",
+        name: "Openchain"
     },
     {
         url: "assets/images/tech/Objective-c.png",
-        alt: "Objective-c"
+        alt: "Objective-c",
+        name: "Objective-c"
     },
     {
         url: "assets/images/tech/OPENSEA.png",
-        alt: "OPENSEA"
+        alt: "OPENSEA",
+        name: "OPENSEA"
     },
     {
         url: "assets/images/tech/polygon.png",
-        alt: "polygon"
+        alt: "polygon",
+        name: "Polygon"
     },
     {
         url: "assets/images/tech/python.png",
-        alt: "python"
+        alt: "python",
+        name: "Python"
     },
     {
         url: "assets/images/tech/PHP.png",
-        alt: "PHP"
+        alt: "PHP",
+        name: "PHP"
     },
     {
         url: "assets/images/tech/React-icon.svg.png",
-        alt: "React"
+        alt: "React",
+        name: "React native"
     },
     {
         url: "assets/images/tech/Ruby.png",
-        alt: "Ruby"
+        alt: "Ruby",
+        name: "Ruby"
     },
     {
         url: "assets/images/tech/solidity.png",
-        alt: "solidity"
+        alt: "solidity",
+        name: "Solidity"
     },
     {
         url: "assets/images/tech/Scikit_learn.png",
-        alt: "Scikit_learn"
+        alt: "Scikit_learn",
+        name: "Scikit Learn"
     },
     {
         url: "assets/images/tech/Solana.png",
-        alt: "Solana"
+        alt: "Solana",
+        name: "Solana"
     },
     {
         url: "assets/images/tech/Stellar.png",
-        alt: "Stellar"
+        alt: "Stellar",
+        name: "Stellar"
     },
     {
         url: "assets/images/tech/Swift.png",
-        alt: "Swift"
+        alt: "Swift",
+        name: "Swift"
     },
     {
         url: "assets/images/tech/Symbiont Assembly.png",
-        alt: "Symbiont Assembly"
+        alt: "Symbiont Assembly",
+        name: "Symbiont Assembly"
     },
     {
         url: "assets/images/tech/tensorflow.png",
-        alt: "tensorflow"
+        alt: "tensorflow",
+        name: "Tensor Flow"
     },
     {
         url: "assets/images/tech/tron logo.png",
-        alt: "tron"
+        alt: "tron",
+        name: "Tron"
     },
     {
         url: "assets/images/tech/tilt-brush.png",
-        alt: "tilt-brush"
+        alt: "tilt-brush",
+        name: "TILT BRUSH"
     },
     {
         url: "assets/images/tech/Theano_logo.svg.png",
-        alt: "Theano"
+        alt: "Theano",
+        name: "Theano"
     },
     {
         url: "assets/images/tech/UNREAL ENGINE.png",
-        alt: "UNREAL ENGINE"
+        alt: "UNREAL ENGINE",
+        name: "UNREAL ENGINE"
     },
     {
         url: "assets/images/tech/Vue.png",
-        alt: "Vue"
+        alt: "Vue",
+        name: "Vue"
     },
     {
         url: "assets/images/tech/VUFORIA.png",
-        alt: "VUFORIA"
+        alt: "VUFORIA",
+        name: "VUFORIA"
     },
     {
         url: "assets/images/tech/Wikitude_Logo.png",
-        alt: "Wikitude"
+        alt: "Wikitude",
+        name: "WIKITUDE"
     },
     {
         url: "assets/images/tech/WordPress.png",
-        alt: "WordPress"
+        alt: "WordPress",
+        name: "WordPress"
     },
     {
         url: "assets/images/tech/xcode.png",
-        alt: "xcode"
+        alt: "xcode",
+        name: "Xcode"
     }
 
 ];

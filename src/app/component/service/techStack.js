@@ -12,6 +12,9 @@ const TechStack = () => {
 							src={tech.url}
 							alt={tech.alt}
 						/>
+						<p>
+							{tech.name}
+						</p>
 					</li>
 				);
 			})}

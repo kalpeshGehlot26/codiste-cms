@@ -1,6 +1,6 @@
 const clientLogos = [
     {
-        url: "assets/images/splide/apollo.jpg" ,
+        url: "assets/images/splide/apollo.jpg",
         alt: "Apollo",
     },
     {
@@ -20,7 +20,7 @@ const clientLogos = [
         alt: "Cypha"
     },
     {
-        url: "assets/images/splide/diveWallet.jpg",
+        url: "assets/images/splide/DiveWallet.png",
         alt: "DiveWallet"
     },
     {
@@ -55,7 +55,7 @@ const clientLogos = [
         url: "assets/images/splide/nearPro.jpg",
         alt: "Near Pro"
     }
-    
+
 ];
 
 export default clientLogos

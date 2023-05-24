@@ -569,6 +569,9 @@ const AIDevelopmentCompany = () => {
 					</p>
 				</div>
 				<AllServiceBlogSlider items={aiServiceBlogs} />
+				<div className="d-flex align-items-center justify-content-center mt-5">
+					<button className="book-btn mt-3">Read more</button>
+				</div>
 			</div>
 
 			<div className="bg-color py-5">
