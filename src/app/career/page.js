@@ -188,7 +188,7 @@ const Career = () => {
 						<div className="col-lg-4 col-md-6 col-12 pb-3 ">
 							<div className="service-block p-4 h-100 d-flex flex-column justify-content-between">
 								<div><h3 className="secondsec-head">Content Writer </h3>
-									<p className="secondsec-p mt-5">
+									<p className="secondsec-p">
 										No of vacancy : 1<br />
 										Experience: 2+ years
 									</p>
@@ -205,7 +205,7 @@ const Career = () => {
 									<h3 className="secondsec-head">
 										Mernstack developer
 									</h3>
-									<p className="secondsec-p mt-5">
+									<p className="secondsec-p">
 										No of vacancy : 1 <br />
 										Experience : 2 -3 yrs
 									</p>

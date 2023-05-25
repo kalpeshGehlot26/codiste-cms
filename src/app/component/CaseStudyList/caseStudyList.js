@@ -21,11 +21,14 @@ const CaseStudyList = ({ caseStudyItems, caseStudyCount, setTotalCount }) => {
 								src={item.image}
 								alt={item.title}
 							/>
-							<div className="card-body cardsec-clr">
+							<div className="card-body d-flex justify-content-between flex-column">
 								<h5 className="card-title">{item.title}</h5>
-								<Link href={item.url} className="btn book-btn mt-3">
-									Read More
-								</Link>
+								<div className="card-link">
+									<Link href={item.url} >
+										Read More &gt;&gt;
+									</Link>
+								</div>
+
 							</div>
 						</div>
 
@@ -37,3 +40,12 @@ const CaseStudyList = ({ caseStudyItems, caseStudyCount, setTotalCount }) => {
 };
 
 export default CaseStudyList;
+
+<div className="card-body">
+	<h5 className="card-title">Divewallet – The Crypto Wallet</h5>
+	{/* <Link href="/portfolio/divewallet" className="btn book-btn mt-3">Read More</Link> */}
+	<div className="card-link">
+		<Link href="/portfolio/divewallet" >Read More &gt;&gt;</Link>
+	</div>
+
+</div>

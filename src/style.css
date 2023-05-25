@@ -814,9 +814,7 @@ bottom: -1.5rem !important;
 .casestudy-img{
    padding: 20px 30px;
 }
-.cardsec-clr{
-   background-color:#f3e8e8;
-}
+
 .card-body .btn:hover{
 color: #fff !important;
 }
@@ -1697,7 +1695,7 @@ height: auto;
    .all-head {
      font-size: calc(1.75rem + ((1vw - 3.2px) * 0.75));
    }
-   .secondsec-p, .book-btn, .all-p{
+   .secondsec-p, .book-btn, .all-p,.apply-btn{
      font-size: calc(0.875rem + ((1vw - 3.2px) * 0.25));
    }
    .blackdiv p{
@@ -1794,6 +1792,9 @@ height: auto;
    .book-btn{
       padding: 7px 20px;
    }
+   .apply-btn{
+      padding: 7px 20px;
+   }
    .blackdiv p{
       width: 100%;
       display: block;
@@ -1809,6 +1810,7 @@ height: auto;
    ul.About-style li {
       flex-basis: 50%;
    }
+
  }
 
  @media (max-width:768px) {
@@ -1940,7 +1942,7 @@ height: auto;
 color: #000 !important;
 }
 .elementor-widget-container h2{
-   font-size: 22px !important;
+   font-size: 26px !important;
    font-weight: 600 !important;
    font-family: 'Poppins', sans-serif;
 }
@@ -1948,7 +1950,7 @@ color: #000 !important;
  font-weight: 600 !important;
 }
 .elementor-widget-container h3{
-   font-size: 20px !important;
+   font-size: 22px !important;
    font-family: 'Poppins', sans-serif;
 }
 .elementor-widget-container p{
@@ -1959,7 +1961,7 @@ color: #000 !important;
    line-height: 25px;
 }
 .elementor-widget-container h2 b{
-   font-size: 22px !important;
+   font-size: 26px !important;
    font-weight: 600 !important;
    font-family: 'Poppins', sans-serif;
 }
@@ -1968,6 +1970,37 @@ color: #000 !important;
    justify-content: center;
    width: 100%;
 }
+
+.blog-post-custom p{
+   font-family: 'Poppins', sans-serif;
+   font-size: 18px;
+   color: #717173;
+}
+.blog-post-custom h3{
+   font-family: 'Poppins', sans-serif;
+   font-size: 22px;
+   color: #000;
+   font-weight: 600px;
+}
+.blog-post-custom h3 span{
+   font-family: 'Poppins', sans-serif;
+   font-size: 22px;
+   color: #000;
+   font-weight: 600px;
+}
+.blog-post-custom .elementor-widget-container ul li{
+   font-size: 18px;
+   color: #717173 !important;
+   font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
 /* Loader CSS */
 .loader {
       width: 100%;
@@ -2076,8 +2109,16 @@ color: #000 !important;
 	}
 }
 
+
+
+
+
 /* === card === */
 .card-link a{
    text-decoration: none;
    color: #000;
+}
+.card-link a:hover{
+   text-decoration: none;
+   color: #FD145A;
 }

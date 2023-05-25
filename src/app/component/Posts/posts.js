@@ -32,7 +32,7 @@ const Posts = () => {
 						const link = post.link.split("/");
 
 						return (
-							<div className="col-lg-3 col-md-2 col-12" key={index}>
+							<div className="col-xl-3 col-lg-4 col-sm-6 " key={index}>
 								<div className="position-relative">
 									<img
 										className="img-fluid rounded p-0 blog-img"
