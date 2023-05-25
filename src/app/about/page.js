@@ -448,7 +448,7 @@ const About = () => {
 											{" "}
 											<img
 												className="img-fluid"
-												src="assets/images/splide/diveWallet.jpg"
+												src="assets/images/splide/diveWallet.png"
 											/>
 										</a>
 									</li>
@@ -573,6 +573,7 @@ const About = () => {
 					</section>
 				</div>
 			</div>
+
 			<div className="bg-color firstsec">
 				<div className="container container-fluid  py-5">
 					<section>
@@ -1086,6 +1087,7 @@ const About = () => {
 													src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
+											{/* DiveWallet Logo */}
 											<h5>DiveWallet</h5>
 											<p>
 												CEO
@@ -1158,8 +1160,6 @@ const About = () => {
 					</section>
 				</div>
 			</div>
-
-
 
 			<div className=" firstsec">
 				<div className="container container-fluid py-5">

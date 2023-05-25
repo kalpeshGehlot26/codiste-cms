@@ -25,7 +25,7 @@ const FeedbackSlider = () => {
                 <SplideSlide className="splide__slide">
                     <div className="p-3">
                         <div className="d-flex align-items-center justify-content-center">
-                            <img className="img-fluid my-4 client-logohome p-0 w-auto" alt="DiveWallet" src="assets/images/client-logos/DiveWallet.png" />
+                            <img className="img-fluid my-4 client-logohome p-0 w-auto" alt="DiveWallet" src="assets/images/client-logos/DiveWallet Logo.png" />
                         </div>
                         <p className="secondsec-p">
                             I am pleased to say that working with Codiste Pvt Ltd has been a positive experience for our community. The project is now complete, and the feedback we have received on the platform has been overwhelmingly positive. Throughout the project, Codiste maintained open communication lines, regularly updating us on progress and following the agreed timeline. They delivered an app with impressive functionalities and accepted every challenge we gave them. Overall, we are satisfied with the outcome of the project and would recommend Codiste for their expertise, professionalism, and commitment to delivering high-quality work.

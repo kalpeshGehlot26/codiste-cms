@@ -133,9 +133,8 @@ const HomePage = () => {
 							</p>
 							<p className="secondsec-p"><strong>Stay ahead with Codiste, Stay ahead with innovation!</strong></p>
 							<div>
-								<button className="book-btn">Book a Call</button>
+								<Link className="book-btn" href="/book-a-call">Book a Call</Link>
 							</div>
-
 						</div>
 					</div>
 				</div>
