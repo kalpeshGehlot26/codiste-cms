@@ -633,7 +633,7 @@ const StartupDevelopmentCompany = () => {
 				</div>
 				<AllServiceBlogSlider items={startupServiceBlogs} />
 				<div className="d-flex align-items-center justify-content-center mt-5">
-					<button className="book-btn mt-3">Read more</button>
+					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
 			</div>
 

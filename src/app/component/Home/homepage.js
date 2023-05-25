@@ -154,7 +154,6 @@ const HomePage = () => {
 					</section>
 				</div>
 			</div>
-
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head">Blog</h1>
@@ -164,10 +163,10 @@ const HomePage = () => {
 				</div>
 				<AllServiceBlogSlider items={homeBlogList} />
 				<div className="d-flex align-items-center justify-content-center mt-5">
-					<button className="book-btn mt-3">Read more</button>
+					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
-
 			</div>
+
 
 			<div className=" py-5 bg-color mt-5">
 				<div className="container container-fluid ">

@@ -19,7 +19,7 @@ const Header = () => {
 		<nav className="navbar navbar-expand-lg navbar-light fixed-top navbarCustom">
 			<div className="container px-0 header-width" style={{ maxWidth: "1800px" }}>
 				<Link className="nav-link active me-auto ms-2" aria-current="page" href="/" >
-					<img style={{ height: "60px" }} src="../../assets/images/logo.png" />
+					<img className="img-fluid" alt="codiste-logo" style={{ height: "60px" }} src="../../assets/images/logo.png" />
 				</Link>
 
 				<button className="navbar-toggler me-2 " type="button"

@@ -543,6 +543,9 @@ const WebDevelopmentCompany = () => {
 					</p>
 				</div>
 				<AllServiceBlogSlider items={webServiceBlogs} />
+				<div className="d-flex align-items-center justify-content-center mt-5">
+					<Link href="/blog" className="book-btn mt-3">Read more</Link>
+				</div>
 			</div>
 
 			<div className="bg-color py-5">

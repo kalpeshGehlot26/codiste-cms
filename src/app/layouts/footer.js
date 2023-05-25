@@ -8,13 +8,16 @@ const Footer = () => {
 				<div className="row">
 					<div className="col-lg-3 col-md-6 col-sm-12">
 						<div className="footer-menu">
-							<img src="../../assets/images/logo.png" />
+							<Link href="/">
+								<img className="img-fluid" alt="codiste-logo" style={{ height: "60px" }} src="../../assets/images/logo.png" />
+							</Link>
+
 							<div className="footer-menu-items">
 								<p className="my-3">
 									Codiste is a leading tech development services provider company, specializing in robust, scalable, and secure enterprise solutions in blockchain, metaverse, AR/VR, AI and other emerging technologies.
 								</p>
 
-								<div className="mt-5">
+								<div className="mt-md-5 mt-0">
 									<h4>Get In Touch</h4>
 									<ul className="p-0 ">
 										<li><i className="fa-brands fa-facebook-f"></i>
@@ -44,7 +47,7 @@ const Footer = () => {
 					<div className="col-lg-3 col-md-6 col-sm-12">
 						<div className="footer-menu footer-top-mr">
 							<h4>Services</h4>
-							<div className="footer-menu-items mt-5">
+							<div className="footer-menu-items mt-md-5 mt-0">
 								<ul className="footer-listtext p-0">
 									<li>
 										<Link href="/blockchain-development-company">
@@ -94,7 +97,7 @@ const Footer = () => {
 					<div className="col-lg-3 col-md-6 col-sm-12">
 						<div className="footer-menu footer-top-mr">
 							<h4>Quick Link</h4>
-							<div className="footer-menu-items mt-5">
+							<div className="footer-menu-items mt-md-5 mt-0">
 								<ul className="footer-listtext p-0">
 									<li>
 										<Link href="/">Home</Link>
@@ -120,7 +123,7 @@ const Footer = () => {
 					<div className="col-lg-3 col-md-6 col-sm-12">
 						<div className="footer-menu footer-top-mgr">
 							<h4>Location</h4>
-							<div className="footer-menu-items mt-5">
+							<div className="footer-menu-items mt-md-5 mt-0">
 								<div className="d-flex mb-3">
 									<img
 										className="img-fluid me-2 "
