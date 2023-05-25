@@ -57,7 +57,7 @@ const DivewalletPortfolio = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center">
-					<h1 className="all-head">Client Requirement</h1>
+					<h1 className="all-head text-center">Client Requirement</h1>
 				</div>
 
 				<div className="container container-fluid">
@@ -96,8 +96,8 @@ const DivewalletPortfolio = () => {
 				<div className="container container-fluid py-5">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head"> Features of Product</h1>
-							<p className="all-p me-5 text-center">
+							<h1 className="all-head text-center text-center"> Features of Product</h1>
+							<p className="all-p me-5 ">
 								Our team incorporated seamless functionalities
 								right from price optimization and swapping to
 								push notifications and NFTs listing. These
@@ -296,7 +296,7 @@ const DivewalletPortfolio = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head text-center my-3 ">
+					<h1 className="all-head text-center text-center my-3 ">
 						{" "}
 						What did we deliver?
 					</h1>
@@ -318,7 +318,7 @@ const DivewalletPortfolio = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+							<h1 className="all-head text-center">
 								Witness How We Drive Soul in Ideas!
 							</h1>
 						</div>
@@ -496,7 +496,7 @@ const DivewalletPortfolio = () => {
 			<div className="container container-fluid py-4">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center">
-						<h1 className="all-head">Technology Stack</h1>
+						<h1 className="all-head text-center">Technology Stack</h1>
 						<p className="all-p me-5 mb-5 text-center">
 							We pride ourselves on our proven track record with
 							20+ technologies and delivering innovative,
@@ -522,7 +522,7 @@ const DivewalletPortfolio = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+							<h1 className="all-head text-center">
 								Satisfied clients is our proof of our excellence
 							</h1>
 							<p className="all-p me-5 text-center">

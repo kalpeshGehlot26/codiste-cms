@@ -12,7 +12,7 @@ const clientLogos = [
         alt: "Bonfite"
     },
     {
-        url: "assets/images/splide/Coinxpad.jpg",
+        url: "assets/images/splide/coinxPadLogo.svg",
         alt: "Coinxpad"
     },
     {

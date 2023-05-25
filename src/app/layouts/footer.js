@@ -17,6 +17,13 @@ const Footer = () => {
 									Codiste is a leading tech development services provider company, specializing in robust, scalable, and secure enterprise solutions in blockchain, metaverse, AR/VR, AI and other emerging technologies.
 								</p>
 
+								<div>
+									<span className="review-bg">
+										<script type="text/javascript" src="https://widget.clutch.co/static/js/widget.js"></script>
+										<div class="clutch-widget" data-url="https://widget.clutch.co" data-widget-type="2" data-height="45" data-nofollow="true" data-expandifr="true" data-scale="100" data-clutchcompany-id="1798117"></div>
+									</span>
+								</div>
+
 								<div className="mt-md-5 mt-0">
 									<h4>Get In Touch</h4>
 									<ul className="p-0 ">

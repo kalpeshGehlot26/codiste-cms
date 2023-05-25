@@ -177,7 +177,12 @@ text-align: left;
 /* ==== nav complete === */
 
 /* ==== footer ==== */
-
+.review-bg{
+   background-color: #fff;
+   padding: 10px;
+   width: 210px;
+   display: block;
+}
 footer {
    background-image: url('../public/assets/images/footerImg.png');
    background-position: center center;
@@ -390,7 +395,18 @@ font-size: 22px !important;
    flex-direction: column;
    padding: 30px;
 }
-
+.ins-newblock{
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   padding: 30px;
+   text-align: center;
+}
+.ins-newblock:hover {
+   transform: scale(1.1);
+   opacity: 1;
+}
 .ins-block p {
    font-family: 'Poppins', sans-serif;
    margin-top: 20px;
@@ -422,7 +438,7 @@ font-size: 22px !important;
 }
 
 .ins-ecommrce {
-   color: #008DCA;
+   color: #e92a2a;
 }
 
 .ins-education {
@@ -695,7 +711,7 @@ select {
 }
 
 .splide__slide img {
-   width: 100%;
+   /* width: 100%; */
    height: auto;
    padding: 30px;
 }
@@ -1636,7 +1652,6 @@ ol.process-chart > li:nth-of-type(6n+2):after {
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
-   margin: -25px;
 }
 
 ul.diwallet-style li {
@@ -1972,9 +1987,12 @@ color: #FD145A;
    .footer-top-mgr {
       margin-left: 0px;
    }
-  
+   .process-circle {
+      width: 35px;
+      height: 35px;
+      font-size: 16px;
  }
-
+ }
  @media (max-width:640px){
    ul.tech-style li {
       flex-basis: 33%;
@@ -2050,12 +2068,13 @@ color: #FD145A;
    margin-top: 180px;
    margin-bottom: 30px;
 }
-.container-width{
-   max-width: 1320px !important;
+.blog-container-width{
+   max-width: 1220px !important;
 }
 .elementor-widget-container a{
    text-decoration: none;
-  color: #000;
+  color: #FF1F23;
+  font-weight: 500;
 }
 .elementor-widget-container a:hover{
    background: linear-gradient(90deg, #FF1F23 3.28%, #FD145A 97.2%);
@@ -2067,54 +2086,35 @@ color: #FD145A;
 color: #000 !important;
 }
 
-/* ==== wordpress css === */ 
-
-/* .elementor-widget-container h2{
-   font-size: 26px !important;
-   font-weight: 600 !important;
-   font-family: 'Poppins', sans-serif;
-}
-.elementor-widget-container h2 strong{
- font-weight: 600 !important;
-}
-.elementor-widget-container h3{
-   font-size: 22px !important;
-   font-family: 'Poppins', sans-serif;
-}
-.elementor-widget-container p{
-   font-family: 'Poppins', sans-serif;
-   color: #717173;
-   font-size: 16px;
-   font-weight: 400;
-   line-height: 25px;
-}
-.elementor-widget-container h2 b{
-   font-size: 26px !important;
-   font-weight: 600 !important;
-   font-family: 'Poppins', sans-serif;
-}
-.wp-block-image{
-   display: flex;
-   justify-content: center;
-   width: 100%;
-} */
-
 .blog-post-custom p{
    font-family: 'Poppins', sans-serif;
    font-size: 18px;
    color: #717173;
+   margin-bottom: 1rem;
 }
+
+.blog-post-custom .elementor-widget-container h2{
+   font-size: 24px;
+   font-weight: 600;
+}
+
+.blog-post-custom .elementor-widget-container h4{
+   font-size: 20px;
+   font-weight: 600;
+}
+
+
 .blog-post-custom h3{
    font-family: 'Poppins', sans-serif;
    font-size: 22px !important;
    color: #000;
-   font-weight: 500px !important;
+   font-weight: 500 !important;
 }
 .blog-post-custom h3 span{
    font-family: 'Poppins', sans-serif;
    font-size: 22px;
    color: #000;
-   font-weight: 600px;
+   font-weight: 600;
 }
 .blog-post-custom .elementor-widget-container ul li{
    font-size: 18px;
@@ -2125,10 +2125,10 @@ color: #000 !important;
    font-family: 'Poppins', sans-serif;
    font-size: 22px;
    color: #000;
-   font-weight: 600px;
+   font-weight: 600;
 }
 .blog-post-custom .elementor-widget-container h4 b{
-   font-weight: 600px !important;
+   font-weight: 600 !important;
 }
 
 

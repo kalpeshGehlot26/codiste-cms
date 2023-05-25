@@ -41,7 +41,7 @@ const BlogContent = () => {
 
 	return (
 		<div className="">
-			<div className="blog-title text-center container mx-auto container-width">
+			<div className="blog-title text-center container mx-auto blog-container-width">
 				<h1 style={{ zIndex: "-1" }}>{post.title.rendered}</h1>
 				<div className="mb-3">
 					<div className=" d-flex align-items-center justify-content-center">
@@ -92,7 +92,7 @@ const BlogContent = () => {
 					alt={post.title.rendered}
 				/>
 			</div>
-			<div className="container mx-auto container-width">
+			<div className="container mx-auto blog-container-width">
 				<div
 					dangerouslySetInnerHTML={{ __html: post.content.rendered }}
 					className="mx-auto"
