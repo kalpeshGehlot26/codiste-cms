@@ -24,6 +24,7 @@ const HomePage = () => {
 				</div>
 				<script src="https://player.vimeo.com/api/player.js"></script> */}
 
+
 				<div class="ratio ratio-16x9" id="video-container">
 					<iframe
 						src="https://player.vimeo.com/video/828259341?background=1&autoplay=1"

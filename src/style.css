@@ -115,7 +115,7 @@ h4{
 }
 .custom-font{
 font-family: 'Poppins', sans-serif;
-font-size: 35px;
+font-size: 30px;
 font-weight: 600;
 line-height: 40px;
 letter-spacing: 0.075em;
@@ -312,30 +312,34 @@ font-size: 22px !important;
 /* ==== accordion complet === */
 
 .service-block {
-   background: #FFFFFF;
+   /* background: #FFFFFF;
    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.1);
    border-radius: 10px;
-   color: #000;
+   color: #000; */
+   border:1px solid #fff;
 }
 
 .service-block:hover {
-   background: linear-gradient(90deg, #FF1F23 3.28%, #FD145A 97.2%);
-
+   /* background: linear-gradient(90deg, #FF1F23 3.28%, #FD145A 97.2%); */
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,.08);
+   border: 1px solid #ededed;
 }
 
 .service-block:hover .secondsec-head {
-   color: #fff;
+   /* color: #fff; */
+   color:#000;
 
 }
 
 .service-block:hover .secondsec-p {
-   color: #fff;
+   /* color: #fff; */
+   color: #717173;
 
 }
 
 .secondsec-head {
    font-family: 'Poppins', sans-serif;
-   font-size: 25px;
+   font-size: 22px;
    font-weight: 600;
    line-height: 30px;
    letter-spacing: 0.05em;
@@ -346,7 +350,7 @@ font-size: 22px !important;
 .secondsec-p {
    font-family: 'Poppins', sans-serif;
    color: #717173;
-   font-size: 18px;
+   font-size: 16px;
    font-weight: 400;
    line-height: 27px;
    letter-spacing: 0.02em;
@@ -1832,14 +1836,18 @@ color: #FD145A;
    .all-head {
      font-size: calc(1.75rem + ((1vw - 3.2px) * 0.75));
    }
-   .secondsec-p, .book-btn, .all-p,.apply-btn{
+    .book-btn, .all-p,.apply-btn{
      font-size: calc(0.875rem + ((1vw - 3.2px) * 0.25));
    }
+   .secondsec-p{
+      font-size: calc(0.875rem + ((1vw - 3.2px) * 0.125));
+   }
+  
    .blackdiv p{
      font-size: calc(1.25rem + ((1vw - 3.2px) * 0.625));
    }
    .secondsec-head {
-     font-size: calc(1.125rem + ((1vw - 3.2px) * 0.4375));
+      font-size: calc(1rem + ((1vw - 3.2px) * 0.375));
    }
   
    .needsec h1 {

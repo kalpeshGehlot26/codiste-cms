@@ -15,7 +15,7 @@
 }
 
 .service-block:hover .custom-font {
-  color: #fff;
+  color: #000;
 }
 
 .compnay-info {
@@ -385,7 +385,7 @@ video {
 
 @media (min-width: 320px) {
   .custom-font {
-    font-size: calc(1.5625rem + ((1vw - 3.2px) * 0.625));
+    font-size: calc(1.375rem + ((1vw - 3.2px) * 0.5));
     min-height: 0vw;
   }
 
