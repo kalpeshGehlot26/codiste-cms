@@ -559,7 +559,7 @@ const DivewalletPortfolio = () => {
 									<div className="my-3">
 										<img
 											className=""
-											src="/assets/images/splide/diveWallet.jpg"
+											src="../assets/images/client-logos/DiveWallet Logo.png"
 										/>
 									</div>
 									<h5>DiveWallet</h5>

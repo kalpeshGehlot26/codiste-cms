@@ -52,12 +52,12 @@ const clientLogos = [
         alt: "Near Pro"
     },
 
-
-
     {
-        url: "assets/images/splide/mumble.jpg",
+        url: "assets/images/splide/MumbleRapperz.svg",
         alt: "Mumble"
     },
+
+
     {
         url: "assets/images/splide/Bloqhodler.jpg",
         alt: "Bloqhodler"
