@@ -406,7 +406,7 @@ const About = () => {
 										<a href="#">
 											<img
 												className="img-fluid"
-												src="assets/images/splide/apollo.jpg"
+												src="assets/images/splide/Apollo.svg"
 											/>{" "}
 										</a>
 									</li>
@@ -422,7 +422,7 @@ const About = () => {
 										<a href="#">
 											<img
 												className="img-fluid"
-												src="assets/images/splide/bonfite-1.jpg"
+												src="assets/images/splide/Bonfire.svg"
 											/>{" "}
 										</a>
 									</li>
@@ -431,7 +431,7 @@ const About = () => {
 											{" "}
 											<img
 												className="img-fluid"
-												src="assets/images/splide/Coinxpad.jpg"
+												src="assets/images/splide/coinxPad.svg"
 											/>{" "}
 										</a>
 									</li>
@@ -439,7 +439,7 @@ const About = () => {
 										<a href="#">
 											<img
 												className="img-fluid"
-												src="assets/images/splide/counterten.jpg"
+												src="assets/images/splide/counterTen.svg"
 											/>{" "}
 										</a>
 									</li>
@@ -448,7 +448,7 @@ const About = () => {
 											{" "}
 											<img
 												className="img-fluid"
-												src="assets/images/splide/diveWallet.png"
+												src="assets/images/splide/diveWallet.svg"
 											/>
 										</a>
 									</li>
@@ -456,7 +456,7 @@ const About = () => {
 										<a href="#">
 											<img
 												className="img-fluid"
-												src="assets/images/splide/ftwDao.jpg"
+												src="assets/images/splide/FTWDAO.svg"
 											/>{" "}
 										</a>
 									</li>
@@ -473,7 +473,7 @@ const About = () => {
 										<a href="#">
 											<img
 												className="img-fluid"
-												src="assets/images/splide/holygrails.jpg"
+												src="assets/images/splide/Holygrails.svg"
 											/>{" "}
 										</a>
 									</li>
@@ -482,7 +482,7 @@ const About = () => {
 											{" "}
 											<img
 												className="img-fluid"
-												src="assets/images/splide/ikaris.jpg"
+												src="assets/images/splide/Ikaris.svg"
 											/>{" "}
 										</a>
 									</li>
@@ -500,7 +500,7 @@ const About = () => {
 											{" "}
 											<img
 												className="img-fluid"
-												src="assets/images/splide/medizen.jpg"
+												src="assets/images/splide/Medizen.svg"
 											/>{" "}
 										</a>
 									</li>
@@ -509,7 +509,7 @@ const About = () => {
 											{" "}
 											<img
 												className="img-fluid"
-												src="assets/images/splide/ml.jpg"
+												src="assets/images/splide/ml.svg"
 											/>{" "}
 										</a>
 									</li>
@@ -527,7 +527,7 @@ const About = () => {
 											{" "}
 											<img
 												className="img-fluid"
-												src="assets/images/splide/nearPro.jpg"
+												src="assets/images/splide/NearPro.svg"
 											/>{" "}
 										</a>
 									</li>
@@ -554,7 +554,7 @@ const About = () => {
 											{" "}
 											<img
 												className="img-fluid"
-												src="assets/images/splide/cypha.jpg"
+												src="assets/images/splide/Cypha.svg"
 											/>
 										</a>
 									</li>
