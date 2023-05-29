@@ -64,14 +64,14 @@ const MetaverseDevelopmentCompany = () => {
 						<h1 className="all-head text-center">
 							Why Choose Codiste for Metaverse Services?
 						</h1>
-						<p className="all-p text-center">
+						{/* <p className="all-p text-center">
 							We are an emerging enterprise-grade metaverse
 							solutions development company with dedicated teams
 							with the right skills and experience in core
 							metaverse technologies, including 3D animation,
 							augmented & virtual reality, blockchain, and
 							artificial intelligence, and several others.
-						</p>
+						</p> */}
 					</div>
 
 					<div className="row">

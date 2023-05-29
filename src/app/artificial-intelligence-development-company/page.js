@@ -62,11 +62,11 @@ const AIDevelopmentCompany = () => {
 							Why Choose Us For Artificial Intelligence
 							Development Services?
 						</h1>
-						<p className="all-p text-center">
+						{/* <p className="all-p text-center">
 							Codiste is a rapidly growing Artificial Intelligence
 							development service provider with years of
 							experience and expertise on board.
-						</p>
+						</p> */}
 					</div>
 
 					<div className="row">

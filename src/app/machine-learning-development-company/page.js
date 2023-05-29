@@ -62,7 +62,7 @@ const MLDevelopmentCompany = () => {
 							Why Should You Trust Codiste For Machine Learning
 							Development Services?
 						</h1>
-						<p className="secondsec-p text-center">Codiste delivers advanced machine learning services, driving business innovation with expertise and tailored solutions.</p>
+						{/* <p className="secondsec-p text-center">Codiste delivers advanced machine learning services, driving business innovation with expertise and tailored solutions.</p> */}
 					</div>
 
 					<div className="row">

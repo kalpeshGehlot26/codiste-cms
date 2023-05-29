@@ -63,12 +63,12 @@ const CryptoDevelopmentCompany = () => {
 							Why Choose Codiste for Cryptocurrency Development
 							Services?
 						</h1>
-						<p className="all-p text-center">
+						{/* <p className="all-p text-center">
 							Codiste offers end-to-end cryptocurrency development
 							support with emerging leading technologies and a
 							wide range of blockchain networks including
 							Ethereum, Solana, Polygon and various others.
-						</p>
+						</p> */}
 					</div>
 
 					<div className="row">

@@ -61,7 +61,7 @@ const NFTDevelopment = () => {
 						<h1 className="all-head text-center">
 							Why Choose Codiste For NFT Development Services?
 						</h1>
-						<p className="all-p text-center">
+						{/* <p className="all-p text-center">
 							Codiste is a one-stop solution for businesses and
 							enterprises exploring NFTs and digital assets for
 							better business growth and user experience. We offer
@@ -70,7 +70,7 @@ const NFTDevelopment = () => {
 							your marketplace per your vision. We provide a
 							development platform for comprehensive
 							enterprise-grade NFT development.
-						</p>
+						</p> */}
 					</div>
 
 					<div className="row">

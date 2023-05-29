@@ -918,8 +918,6 @@ ul.tech-style img:hover {
    margin-top: 20px;
 }
 
-
-
 .contact-block p {
    font-weight: 300;
    color: #717173;
@@ -939,6 +937,7 @@ ul.tech-style img:hover {
    font-size: 16px;
    font-weight: 400;
    margin-top: 10px;
+   line-height: unset !important;
 }
 
 .contact-icon {
@@ -947,13 +946,16 @@ ul.tech-style img:hover {
    align-items: center;
    justify-content: center;
 }
-
-.service-block:hover .contact-icon svg path {
-   fill: white;
+.contact-logo{
+   display: flex;
+   align-items: center;
 }
+/* .service-block:hover .contact-icon svg path {
+   fill: white;
+} */
 
 .service-block:hover .customind h1 {
-   color: #fff;
+   color: #000;
 }
 
 
@@ -2099,6 +2101,7 @@ color: #000 !important;
    font-size: 18px !important;
    color: #717173;
    margin-bottom: 1rem;
+   word-spacing: 0.05rem;
 }
 
 .blog-post-custom .elementor-widget-container h2{
@@ -2118,6 +2121,7 @@ color: #000 !important;
    color: #000;
    font-weight: 500 !important;
 }
+
 .blog-post-custom h3 span{
    font-family: 'Poppins', sans-serif;
    font-size: 22px;
@@ -2137,6 +2141,32 @@ color: #000 !important;
 }
 .blog-post-custom .elementor-widget-container h4 b{
    font-weight: 600 !important;
+}
+.blog-post-custom .elementor-widget-container h6{
+   font-family: 'Poppins', sans-serif;
+   font-size: 18px;
+   color: #000;
+   font-weight: 400;
+}
+.blog-post-custom .elementor-widget-container h6{
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.elementor-widget-container h4{
+   font-size: 20px !important;
+   font-weight: 600;
+}
+.elementor-widget-container p{
+   font-family: 'Poppins', sans-serif;
+   font-size: 18px !important;
+   color: #717173;
+   margin-bottom: 1rem;
+   word-spacing: 0.05rem;
+}
+.elementor-widget-container h2{
+   font-size: 24px !important;
+   font-weight: 600;
 }
 
 

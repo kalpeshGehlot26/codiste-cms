@@ -65,14 +65,14 @@ const MobileAppDevelopmentCompany = () => {
 							Why Choose Codiste For Mobile App Development
 							Services?{" "}
 						</h1>
-						<p className="all-p text-center">
+						{/* <p className="all-p text-center">
 							Our team of mobile app developers is adept at
 							building innovative solutions tailored to specific
 							business needs. At Codiste, our developers work
 							intensively with our clients to realize their vision
 							and ensure that the final product comes out as per
 							their needs.
-						</p>
+						</p> */}
 					</div>
 
 					<div className="row">

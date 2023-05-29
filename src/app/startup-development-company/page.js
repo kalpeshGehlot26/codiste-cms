@@ -101,8 +101,8 @@ const StartupDevelopmentCompany = () => {
 						<h1 className="all-head text-center">
 							Why Choose Codiste For Startup Development Services?
 						</h1>
-						<p className="secondsec-p text-center">As a startup development company, we offer end-to-end solutions customized to your needs, utilizing the latest technologies for innovative solutions to ensure your startup's success.
-						</p>
+						{/* <p className="secondsec-p text-center">As a startup development company, we offer end-to-end solutions customized to your needs, utilizing the latest technologies for innovative solutions to ensure your startup's success.
+						</p> */}
 					</div>
 
 					<div className="row">

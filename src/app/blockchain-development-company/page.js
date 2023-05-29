@@ -82,7 +82,7 @@ const BlockChainDevelopment = () => {
 						<h1 className="all-head text-center">
 							Why Choose Us for Blockchain Development?{" "}
 						</h1>
-						<p className="all-p text-center">
+						{/* <p className="all-p text-center">
 							Codiste is an emerging leader in building robust,
 							secure, scalable blockchain applications and add-on
 							integrations. Our dedicated team has elite
@@ -90,7 +90,7 @@ const BlockChainDevelopment = () => {
 							blockchain solutions. Our blockchain development
 							services offer product and platform customization
 							with various blockchain networks and platforms.
-						</p>
+						</p> */}
 					</div>
 
 					<div className="row">

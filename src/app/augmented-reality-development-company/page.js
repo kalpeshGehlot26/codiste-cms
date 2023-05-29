@@ -61,7 +61,7 @@ const ARVRDevelopmentCompany = () => {
 						<h1 className="all-head text-center">
 							Why Choose Codiste for AR/VR development services?{" "}
 						</h1>
-						<p className="all-p text-center">
+						{/* <p className="all-p text-center">
 							Codiste is an enterprise-grade ar/vr development
 							services provider that assists businesses in
 							building innovation-led 3D ar experiences by
@@ -69,7 +69,7 @@ const ARVRDevelopmentCompany = () => {
 							been the top choice of industry leaders and have
 							helped more than X businesses harness the power of
 							numerous realities and immersive experiences.
-						</p>
+						</p> */}
 					</div>
 
 					<div className="row">

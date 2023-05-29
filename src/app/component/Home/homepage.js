@@ -107,10 +107,9 @@ const HomePage = () => {
 			<div className="container container-fluid  firstsec">
 				<div className=" d-flex align-items-center flex-column justify-content-center">
 					<h1 className="all-head">Codiste As Company </h1>
-					<p className="secondsec-p text-center">Choose Codiste for innovative and creative solutions that keep up with the fast-paced
+					{/* <p className="secondsec-p text-center">Choose Codiste for innovative and creative solutions that keep up with the fast-paced
 						digital world
-
-					</p>
+					</p> */}
 				</div>
 				<div className="container container-fluid">
 					<div className="row">

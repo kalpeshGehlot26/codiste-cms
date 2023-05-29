@@ -63,7 +63,7 @@ const WebDevelopmentCompany = () => {
 							Why Is Codiste The Best Web Design and Development
 							Company?
 						</h1>
-						<p className="secondsec-p text-center">Codiste offers exceptional web design and development services, backed by a team of skilled professionals who bring expertise and creativity to every project. We focus on delivering custom solutions that meet our clients' unique needs, resulting in visually stunning and high-performing websites.</p>
+						{/* <p className="secondsec-p text-center">Codiste offers exceptional web design and development services, backed by a team of skilled professionals who bring expertise and creativity to every project. We focus on delivering custom solutions that meet our clients' unique needs, resulting in visually stunning and high-performing websites.</p> */}
 					</div>
 
 					<div className="row">

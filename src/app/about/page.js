@@ -610,14 +610,15 @@ const About = () => {
 					<div className="col-md-6 col-sm-12 pb-3 ">
 						<div className="service-block p-4 h-100 ">
 							<div className="d-flex justify-content-center align-items-center customind mb-4">
-								<img
+								<div>	<img
 									className="me-4"
 									src="assets/images/india.png"
-								/>
-								<h1>India</h1>
+								/></div>
+								<div><h1 className="mb-0">India</h1></div>
+
 							</div>
 							<div className="contact-content">
-								<div className="d-flex ms-lg-5 ms-0">
+								<div className="ms-lg-5 ms-0 contact-logo">
 									<div className="contact-icon ">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -714,7 +715,7 @@ const About = () => {
 									</div>
 									<div></div>
 								</div>
-								<div className="d-flex ms-lg-5 ms-0 ">
+								<div className="contact-logo ms-lg-5 ms-0 ">
 									<div className="contact-icon">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -749,7 +750,7 @@ const About = () => {
 										</p>
 									</div>
 								</div>
-								<div className="d-flex ms-lg-5 ms-0">
+								<div className="contact-logo ms-lg-5 ms-0">
 									<div className="contact-icon">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -791,14 +792,17 @@ const About = () => {
 					<div className="col-md-6 col-sm-12 pb-3 ">
 						<div className="service-block p-4 h-100 ">
 							<div className="d-flex justify-content-center align-items-center customind mb-4">
-								<img
+								<div><img
 									className="me-4"
 									src="assets/images/south-africa.png"
-								/>
-								<h1>South-Africa</h1>
+								/></div>
+								<div>
+									<h1 className="mb-0">South-Africa</h1>
+								</div>
+
 							</div>
 							<div className="contact-content">
-								<div className="d-flex ms-lg-5 ms-0">
+								<div className="contact-logo ms-lg-5 ms-0">
 									<div className="contact-icon">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -895,7 +899,7 @@ const About = () => {
 										</p>
 									</div>
 								</div>
-								<div className="d-flex ms-lg-5 ms-0">
+								<div className="contact-logo ms-lg-5 ms-0">
 									<div className="contact-icon">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -930,7 +934,7 @@ const About = () => {
 										</p>
 									</div>
 								</div>
-								<div className="d-flex ms-lg-5 ms-0">
+								<div className="contact-logo ms-lg-5 ms-0">
 									<div className="contact-icon">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
