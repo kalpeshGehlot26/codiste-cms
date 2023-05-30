@@ -16,20 +16,21 @@ const CaseStudyList = ({ caseStudyItems, caseStudyCount, setTotalCount }) => {
 				return (
 					<div className="col-lg-4 col-md-6 col-sm-12 mb-5" key={index}>
 						<div className="card h-100">
-							<img
-								className="card-img-top img-fluid casestudy-img"
-								src={item.image}
-								alt={item.title}
-							/>
-							<div className="card-body d-flex justify-content-between flex-column">
-								<h5 className="card-title">{item.title}</h5>
-								<div className="card-link">
-									<Link href={item.url} >
-										Read More &gt;&gt;
-									</Link>
+							<Link href={item.url} className="cardLink">
+								<img
+									className="card-img-top img-fluid casestudy-img"
+									src={item.image}
+									alt={item.title}
+								/>
+								<div className="card-body d-flex justify-content-between flex-column">
+									<h5 className="card-title">{item.title}</h5>
+									<div className="card-link">
+										<Link href={item.url} >
+											Read More &gt;&gt;
+										</Link>
+									</div>
 								</div>
-
-							</div>
+							</Link>
 						</div>
 
 					</div>

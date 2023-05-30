@@ -175,40 +175,43 @@ const HomePage = () => {
 					</div>
 					<div className="row">
 						<div className="col-lg-4 col-md-6 col-sm-12 mb-5">
-							<div className="card" >
-								<img src='assets/images/diwallet-case/Dive Wallet.png' className="card-img-top img-fluid casestudy-img" alt="Divewallet – The Crypto Wallet" />
-								<div className="card-body">
-									<h5 className="card-title">Divewallet – The Crypto Wallet</h5>
-									{/* <Link href="/portfolio/divewallet" className="btn book-btn mt-3">Read More</Link> */}
-									<div className="card-link">
-										<Link href="/portfolio/divewallet" >Read More &gt;&gt;</Link>
+							<div className="card h-100" >
+								<Link href="/portfolio/divewallet" className="cardLink">
+									<img src='assets/images/diwallet-case/Dive Wallet.png' className="card-img-top img-fluid casestudy-img" alt="Divewallet – The Crypto Wallet" />
+									<div className="card-body">
+										<h5 className="card-title">Divewallet – The Crypto Wallet</h5>
+										{/* <Link href="/portfolio/divewallet" className="btn book-btn mt-3">Read More</Link> */}
+										<div className="card-link">
+											<Link href="/portfolio/divewallet" >Read More &gt;&gt;</Link>
+										</div>
 									</div>
-
-								</div>
+								</Link>
 							</div>
 						</div>
 						<div className="col-lg-4 col-md-6 col-sm-12 mb-5">
-							<div className="card" >
-								<img src='assets/images/case-coinxpad/Coinxpad.png' className="card-img-top img-fluid casestudy-img" alt='CoinxPad Launchpad' />
-								<div className="card-body ">
-									<h5 className="card-title">CoinxPad Launchpad</h5>
-									<div className="card-link">
-										<Link href="/portfolio/coinxpad" >Read More &gt;&gt;</Link>
+							<div className="card h-100" >
+								<Link href="/portfolio/coinxpad" className="cardLink">
+									<img src='assets/images/case-coinxpad/Coinxpad.png' className="card-img-top img-fluid casestudy-img" alt='CoinxPad Launchpad' />
+									<div className="card-body ">
+										<h5 className="card-title">CoinxPad Launchpad</h5>
+										<div className="card-link">
+											<Link href="/portfolio/coinxpad" >Read More &gt;&gt;</Link>
+										</div>
 									</div>
-
-								</div>
+								</Link>
 							</div>
 						</div>
 						<div className="col-lg-4 col-md-6 col-sm-12 mb-5">
-							<div className="card" >
-								<img src='assets/images/case-couter10/Counterten.png' className="card-img-top img-fluid casestudy-img" alt='CounterTen – solana Marketplace' />
-								<div className="card-body ">
-									<h5 className="card-title">CounterTen – Solana Marketplace</h5>
-									<div className="card-link">
-										<Link href="/portfolio/counterten-solana-marketplace" >Read More</Link>
+							<div className="card h-100" >
+								<Link href="/portfolio/counterten-solana-marketplace" className="cardLink">
+									<img src='assets/images/case-couter10/Counterten.png' className="card-img-top img-fluid casestudy-img" alt='CounterTen – solana Marketplace' />
+									<div className="card-body ">
+										<h5 className="card-title">CounterTen – Solana Marketplace</h5>
+										<div className="card-link">
+											<Link href="/portfolio/counterten-solana-marketplace" >Read More</Link>
+										</div>
 									</div>
-
-								</div>
+								</Link>
 							</div>
 						</div>
 					</div>

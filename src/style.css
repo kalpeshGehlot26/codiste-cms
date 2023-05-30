@@ -713,7 +713,9 @@ select {
 {
    background-color: rgba(249, 0, 77) !important;
 }
-
+.splide__slide {
+   text-align: center;
+}
 .splide__slide img {
    /* width: 100%; */
    height: auto;
@@ -830,6 +832,18 @@ bottom: -1.5rem !important;
 .card:hover .btn .card:hover::before {
    opacity: 0.8;
    color: #000;
+   text-decoration: none !important;
+}
+.card {
+   background-color: #F2F2F2;
+}
+.cardLink {
+   text-decoration: none;
+   background-color: #fff;
+}
+.cardLink:hover .card-link a {
+   color: #FD145A;
+   text-decoration: none;
 }
 .casestudy-img{
    padding: 20px 30px;
