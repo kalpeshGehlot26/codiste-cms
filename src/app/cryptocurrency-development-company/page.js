@@ -46,11 +46,7 @@ const CryptoDevelopmentCompany = () => {
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h1 className="all-head">Our Services </h1>
-						<p className="all-p text-center">
-							We offer blockchain-based mobile and web application
-							development for emerging cryptocurrency industries &
-							enterprises.{" "}
-						</p>
+
 					</div>
 					<ServiceInnerItems serviceItems={cryptoList} />
 				</section>
@@ -78,10 +74,10 @@ const CryptoDevelopmentCompany = () => {
 								alt=""
 								src="assets/images/Blockchain Network Support.png"
 							/>
-							<h2 className=" text- center secondsec-head">
+							<h2 className=" text-center secondsec-head">
 								10+ Blockchain Network Support
 							</h2>
-							<p className=" text- center secondsec-p">
+							<p className=" text-center secondsec-p">
 								We offer our clients the flexibility to choose
 								from over 10+ blockchain networks for their
 								projects. Our cryptocurrency development team
@@ -97,18 +93,15 @@ const CryptoDevelopmentCompany = () => {
 								alt=""
 								src="assets/images/Immutable Security.png"
 							/>
-							<h2 className=" text- center secondsec-head">
+							<h2 className=" text- center secondsec-head ">
 								Immutable Security with DLT
 							</h2>
-							<p className=" text- center secondsec-p">
+							<p className=" text-center secondsec-p">
 								Our metaverse development team creates custom
 								solutions tailored to specific needs and
 								preferences, ensuring a unique immersive
 								3D-powered metaverse experience that helps you
-								outshine the competition. We offer a
-								personalized approach that enables businesses to
-								improve and enhance their user experience with a
-								highly engaging and immersive experience.
+								outshine the competition.
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
@@ -117,13 +110,11 @@ const CryptoDevelopmentCompany = () => {
 								alt=""
 								src="assets/images/exchange.png"
 							/>
-							<h2 className="text- center secondsec-head">
+							<h2 className="text-center secondsec-head text- center">
 								Peer-to-Peer Trade Facility
 							</h2>
-							<p className="text- center secondsec-p">
-								We understand the importance of enhancing the
-								adoption of peer-to-peer trading in the crypto
-								space. Our cryptocurrency development experts
+							<p className="text-center secondsec-p">
+								Our cryptocurrency development experts
 								offer seamless and secure peer-to-peer
 								transactions on decentralized wallets, allowing
 								you to extend your features and contributing to
@@ -136,10 +127,10 @@ const CryptoDevelopmentCompany = () => {
 								alt=""
 								src="assets/images/best-practice.png"
 							/>
-							<h2 className="text- center secondsec-head">
+							<h2 className="text-center secondsec-head">
 								Customized Development
 							</h2>
-							<p className="text- center secondsec-p">
+							<p className="text-center secondsec-p">
 								We offer platform and feature customization to
 								eliminate limits from your vision. Our experts
 								work closely with you to understand your
@@ -153,19 +144,15 @@ const CryptoDevelopmentCompany = () => {
 								alt=""
 								src="assets/images/iwallet.png"
 							/>
-							<h2 className=" text- center secondsec-head">
+							<h2 className=" text-center secondsec-head">
 								End-to-End Wallet Security
 							</h2>
-							<p className="text- center secondsec-p">
+							<p className="text-center secondsec-p">
 								We focus extensively on providing robust wallet
 								security, ensuring that your users' funds and
 								data are always kept safe, considering that the
 								wallet holds the keys to accessing crypto funds.
-								We have a team of security experts who work on
-								improving the security protocols of a blockchain
-								network to ensure that your crypto
-								wallet/exchange is equipped with the best
-								blockchain security.{" "}
+
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
@@ -174,10 +161,10 @@ const CryptoDevelopmentCompany = () => {
 								alt=""
 								src="assets/images/extension.png"
 							/>
-							<h2 className="secondsec-head text- center">
+							<h2 className="secondsec-head text-center">
 								Mobile & Web Extensions
 							</h2>
-							<p className="secondsec-p text- center">
+							<p className="secondsec-p text-center">
 								We understand that having a mobile or web
 								application helps your brand gain traction,
 								especially if you are a Web3-based organization.
@@ -500,7 +487,7 @@ const CryptoDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-						<p className="text-center all-p">See the impact we have made with our services. </p>
+
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec">
@@ -735,17 +722,14 @@ const CryptoDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
+				<h1 className="all-head text-center mb-5">Place a support inquiry</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
 							<h1>
-								Want to leverage Metaverse for your business?
+								Contact us for reliable and trustworthy cryptocurrency services.
 							</h1>
-							<h2 className="">
-								{" "}
-								Let us know your details in the form. <br />
-								We will contact you hereafter.
-							</h2>
+
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

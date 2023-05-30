@@ -9,11 +9,11 @@ const MLList = [
     },
     {
         title: "Computer Vision Development",
-        description: "Codiste provides computer vision development services that allow businesses to analyze and interpret user-generated visual data more effectively and precisely than ever. We develop customized computer vision solutions enabling machines to accurately identify, classify, and analyze images and videos from the real world, objects, and text. Our computer vision applications can be used in various industries, from healthcare to automotive & education."
+        description: "Codiste provides computer vision development services that allow businesses to analyze and interpret user-generated visual data more effectively and precisely than ever. We develop customized computer vision solutions enabling machines to accurately identify, classify, and analyze images and videos from the real world, objects, and text."
     },
     {
         title: "ML Integration",
-        description: "We specialize in integrating machine learning solutions into existing business processes and platforms. Our team of hands-on experienced individuals can help you identify critical progressive areas where machine learning can provide the most value. We provide strategic development and deployment of custom machine learning models to integrate into multiple systems. We allow you to choose from various technologies to ensure seamless integration with your existing business processes."
+        description: "We specialize in integrating machine learning solutions into existing business processes and platforms. Our team of hands-on experienced individuals can help you identify critical progressive areas where machine learning can provide the most value. We provide strategic development and deployment of custom machine learning models to integrate into multiple systems."
     },
     {
         title: "Deep Learning Development",
@@ -21,7 +21,7 @@ const MLList = [
     },
     {
         title: "Data Analytics and Visualization",
-        description: "Codiste offers data analytics and visualization for machine learning and development services to help you make sense of your data autonomously. Our team of machine learning experts can help you collect and analyze loads of data from multiple sources and develop custom data visualization tools to explore and understand your data quickly. Our data analytics and visualization services can be used to identify trends, make predictions, and gain insights into customer behavior."
+        description: "Codiste offers data analytics and visualization for machine learning and development services to help you make sense of your data autonomously. Our team of machine learning experts can help you collect and analyze loads of data from multiple sources and develop custom data visualization tools to explore and understand your data quickly."
     },
     {
         title: "NLP Development",

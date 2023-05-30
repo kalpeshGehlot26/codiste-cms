@@ -47,10 +47,7 @@ const WebDevelopmentCompany = () => {
 						<h1 className="all-head text-center">
 							Our Web Development Services{" "}
 						</h1>
-						<p className="all-p text-center">
-							We provide end-to-end web application development
-							services for enterprises and businesses.
-						</p>
+
 					</div>
 					<ServiceInnerItems serviceItems={webList} />
 				</section>
@@ -63,7 +60,6 @@ const WebDevelopmentCompany = () => {
 							Why Is Codiste The Best Web Design and Development
 							Company?
 						</h1>
-						{/* <p className="secondsec-p text-center">Codiste offers exceptional web design and development services, backed by a team of skilled professionals who bring expertise and creativity to every project. We focus on delivering custom solutions that meet our clients' unique needs, resulting in visually stunning and high-performing websites.</p> */}
 					</div>
 
 					<div className="row">
@@ -489,10 +485,7 @@ const WebDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-						<p className="text-center all-p">
-							Learn more about our previous work and development
-							process with clients.
-						</p>
+
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec">
@@ -738,16 +731,16 @@ const WebDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
+				<h1 className="all-head text-center mb-5">Drop us an Inquiry</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
 							<h1>
 								Get a Website that truly represents your brand
-								and values.{" "}
-							</h1>
-							<h2 className="">
+								and values.<br />
 								Fill out your details to help us connect!
-							</h2>
+							</h1>
+
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

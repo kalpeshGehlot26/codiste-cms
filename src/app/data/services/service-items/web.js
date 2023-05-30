@@ -5,7 +5,7 @@ const webList = [
     },
     {
         title: "Custom Web Applications Development",
-        description: "We specialize in customizing web development to help businesses leverage web applications to their full potential. We build custom web applications with a personalized touch and deliver them to the user's expectations. Our team has years of experience and the expertise in leadership with a variety of programming languages such as Python, Ruby on Rails, and PHP, as well as popular front-end frameworks such as React, Angular, and Vue. Our custom web applications are scalable, efficient, and user-friendly, ensuring a seamless user experience."
+        description: "We specialize in customizing web development to help businesses leverage web applications to their full potential. We build custom web applications with a personalized touch and deliver them to the user's expectations. Our team has years of experience and the expertise in leadership with a variety of programming languages such as Python, Ruby on Rails, and PHP, as well as popular front-end frameworks such as React, Angular, and Vue."
     },
     {
         title: "REST API Development",
@@ -21,7 +21,7 @@ const webList = [
     },
     {
         title: "Progressive Web Apps",
-        description: "We provides Progressive Web App (PWA) development services that enable clients to deliver web apps that look and feel like native mobile apps, providing a seamless user experience across devices. We use various technologies, such as Service Workers and Web App Manifests, to enable features such as offline caching, push notifications, and app installation. Our PWAs are fast, reliable, and engaging, helping you increase user engagement and retention."
+        description: "We provides Progressive Web App (PWA) development services that enable clients to deliver web apps that look and feel like native mobile apps, providing a seamless user experience across devices. We use various technologies, such as Service Workers and Web App Manifests, to enable features such as offline caching, push notifications, and app installation."
     }
 ];
 

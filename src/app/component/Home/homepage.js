@@ -44,9 +44,9 @@ const HomePage = () => {
 						<h2>Artificial Intelligence</h2>
 						<h2>Augmented & Virtual Reality</h2>
 						<h2>Non-Fungible Tokens & Marketplaces</h2>
-						<h2>Metaverse Technologies</h2>
+						<h2>Metaverse</h2>
 						<h2>Machine Learning</h2>
-						<h2>Cryptocurrency Technologies</h2>
+						<h2>Cryptocurrency</h2>
 					</div>
 				</div>
 			</section>
@@ -224,6 +224,7 @@ const HomePage = () => {
 
 			<div className="">
 				<div className="container container-fluid py-5">
+					<h2 className="all-head mb-4 text-center">Get started with your idea today!</h2>
 					<section>
 						<div className="row  d-flex align-items-center">
 							<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
@@ -231,10 +232,10 @@ const HomePage = () => {
 									Are you looking for a global technology
 									leader to partner for your tech support?
 								</h1>
-								<h2>
-									Get started with your idea today! <br /> Fill out
+								{/* <h2>
+									Fill out
 									the form & reach out to us.
-								</h2>
+								</h2> */}
 							</div>
 							<div className="col-lg-6 col-md-12 ">
 								<div className="need-block h-100">

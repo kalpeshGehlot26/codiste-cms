@@ -50,7 +50,7 @@ const MLDevelopmentCompany = () => {
 						<h1 className="all-head">
 							Our Machine Learning Development Services
 						</h1>
-						<p className="secondsec-p text-center">Codiste revolutionizes businesses with advanced machine learning services, fueling innovation and driving success.</p>
+
 					</div>
 					<ServiceInnerItems serviceItems={MLList} />
 				</section>
@@ -105,23 +105,6 @@ const MLDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
-								alt="Customized Models and Training Platforms"
-								src="assets/images/training.png"
-							/>
-							<h2 className="secondsec-head text-center">
-								Customized Models and Training Platforms
-							</h2>
-							<p className="secondsec-p text-center">
-								We develop custom models and training platforms
-								based on our client's needs and requirements,
-								ensuring they receive the most accurate and
-								effective results for their machine-learning
-								applications.
-							</p>
-						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
-							<img
-								className="img-fluid mb-2"
 								alt="Safe and Secure"
 								src="assets/images/shield.png"
 							/>
@@ -137,6 +120,24 @@ const MLDevelopmentCompany = () => {
 								practices.
 							</p>
 						</div>
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
+							<img
+								className="img-fluid mb-2"
+								alt="Customized Models and Training Platforms"
+								src="assets/images/training.png"
+							/>
+							<h2 className="secondsec-head text-center">
+								Customized Models and Training Platforms
+							</h2>
+							<p className="secondsec-p text-center">
+								We develop custom models and training platforms
+								based on our client's needs and requirements,
+								ensuring they receive the most accurate and
+								effective results for their machine-learning
+								applications.
+							</p>
+						</div>
+
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
@@ -496,11 +497,7 @@ const MLDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-						<p className="text-center all-p">
-							Our case studies will help you understand how we
-							helped these businesses with enterprise machine
-							learning development services.{" "}
-						</p>
+
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec">
@@ -726,17 +723,20 @@ const MLDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
+				<h1 className="all-head text-center mb-5">Request A consultation</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
 							<h1>
-								Fill your details in the form.
+
+								Streamline your Machine Learning operations by connecting with our dedicated tech support team today.
+
 							</h1>
-							<h2 className="">
+							{/* <h2 className="">
 								{" "}
 								Our team will
 								get back to you to take your project further.
-							</h2>
+							</h2> */}
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

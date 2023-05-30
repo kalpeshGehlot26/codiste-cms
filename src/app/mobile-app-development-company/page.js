@@ -52,7 +52,7 @@ const MobileAppDevelopmentCompany = () => {
 						<h1 className="all-head text-center">
 							Our Mobile App Development Services{" "}
 						</h1>
-						<p className="all-p text-center">We offer comprehensive mobile app development services, leveraging the latest technologies and industry best practices to deliver high-quality and innovative solutions tailored to your business needs.</p>
+
 					</div>
 					<ServiceInnerItems serviceItems={mobileList} />
 				</section>
@@ -65,37 +65,28 @@ const MobileAppDevelopmentCompany = () => {
 							Why Choose Codiste For Mobile App Development
 							Services?{" "}
 						</h1>
-						{/* <p className="all-p text-center">
-							Our team of mobile app developers is adept at
-							building innovative solutions tailored to specific
-							business needs. At Codiste, our developers work
-							intensively with our clients to realize their vision
-							and ensure that the final product comes out as per
-							their needs.
-						</p> */}
+
 					</div>
 
 					<div className="row">
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
-								alt="Cross-Platform Mobile Applications"
-								src="assets/images/cross-platform.png"
+								alt="Quality Assurance and Testing"
+								src="assets/images/quality.png"
 							/>
 							<h2 className="secondsec-head text-center">
-								Cross-Platform Mobile Applications
+								Quality Assurance and Testing
 							</h2>
 							<p className="secondsec-p text-center">
-								We offer cross-platform mobile application
-								development services built on technologies that
-								help you bring a similar experience to multiple
-								platforms. Our cross-platform mobile
-								applications seamlessly utilize a single
-								codebase at different platforms, allowing your
-								business to move forward with no-code and
-								low-code development services.
+								Our mobile application development services
+								strongly emphasize quality assurance and testing
+								to ensure our clients receive high-quality
+								mobile applications that meet their
+								expectations.
 							</p>
 						</div>
+
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
@@ -106,9 +97,7 @@ const MobileAppDevelopmentCompany = () => {
 								Customization and Personalization
 							</h2>
 							<p className="secondsec-p text-center">
-								Every business has unique needs, so we offer
-								customization and personalization with our
-								mobile development services. Our mobile
+								Our mobile
 								application development team has the expertise
 								and hands-on experience to build and develop as
 								per your specific requirements and develop
@@ -130,10 +119,7 @@ const MobileAppDevelopmentCompany = () => {
 								hybrid mobile applications that can run
 								seamlessly across multiple platforms and help
 								you save big with one mobile application for
-								Android and iOS platforms. Our developers use
-								the latest technologies to build robust and
-								scalable hybrid mobile applications that deliver
-								an exceptional user experience.
+								Android and iOS platforms.
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
@@ -151,11 +137,7 @@ const MobileAppDevelopmentCompany = () => {
 								up-to-date with the latest mobile app
 								development technologies and trends. We provide
 								the best possible solutions to our clients as
-								per their presence and requirement. Our
-								developers use new-age technologies like React
-								Native, Flutter, and Ionic to build high-quality
-								mobile apps that meet the evolving needs of
-								businesses.
+								per their presence and requirement.
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
@@ -181,22 +163,21 @@ const MobileAppDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
 							<img
 								className="img-fluid mb-2"
-								alt="Quality Assurance and Testing"
-								src="assets/images/quality.png"
+								alt="Cross-Platform Mobile Applications"
+								src="assets/images/cross-platform.png"
 							/>
 							<h2 className="secondsec-head text-center">
-								Quality Assurance and Testing
+								Cross-Platform Mobile Applications
 							</h2>
 							<p className="secondsec-p text-center">
-								Our mobile application development services
-								strongly emphasize quality assurance and testing
-								to ensure our clients receive high-quality
-								mobile applications that meet their
-								expectations. Our QA and testing team performs
-								rigorous testing to identify issues or bugs and
-								ensure the application works seamlessly across
-								different platforms and devices during
-								deployment or project delivery.
+								We offer cross-platform mobile application
+								development services built on technologies that
+								help you bring a similar experience to multiple
+								platforms. Our cross-platform mobile
+								applications seamlessly utilize a single
+								codebase at different platforms, allowing your
+								business to move forward with no-code and
+								low-code development services.
 							</p>
 						</div>
 					</div>
@@ -451,7 +432,7 @@ const MobileAppDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-						<p>Keep an eye on what we have done so far.</p>
+
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec">
@@ -683,11 +664,13 @@ const MobileAppDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
+				<h1 className="all-head text-center mb-5">Seek our help</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
-							<h1>Do you want a Feature-rich mobile app?</h1>
-							<h2 className=""> Get in touch with us!</h2>
+							<h1>Do you want a Feature-rich mobile app?<br />
+								Get in touch with us!</h1>
+
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

@@ -106,11 +106,7 @@ const BlockChainDevelopment = () => {
 								developers have hands-on experience with each
 								platform and can create customized solutions
 								that help you efficiently leverage each
-								network's unique features. With us, you will
-								work with a team with a deep understanding of
-								features from various blockchain networks to
-								deliver efficient and effective blockchain
-								solutions.
+								network's unique features.
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
@@ -123,10 +119,7 @@ const BlockChainDevelopment = () => {
 								extended ongoing maintenance. Our developers
 								work closely with you to understand specific
 								needs and requirements and create customized
-								applications. We prioritize a robust and smooth
-								user experience with scalability in every
-								project, ensuring our solutions are functional,
-								easy to use, and fit the market.
+								applications.
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
@@ -168,11 +161,7 @@ const BlockChainDevelopment = () => {
 								secure and reliable. We conduct regular security
 								audits and implement robust security measures to
 								protect you against fraudulent activities,
-								cyber-attacks, and data breaches. Our team has
-								blockchain security professionals, well-versed
-								in security protocols to ensure that every
-								solution we deliver is secure and meets
-								blockchain industry standards.
+								cyber-attacks, and data breaches.
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5">
@@ -187,11 +176,7 @@ const BlockChainDevelopment = () => {
 								functional and highly scalable. We help
 								businesses to grow and adapt as their needs
 								change with the company scaling with modern
-								technologies. Our team used Layer1 and Layer 2
-								scaling solutions to ensure that our blockchain
-								applications can handle increased volumes of
-								transactions, users, and data without
-								compromising performance or user experience.
+								technologies.
 							</p>
 						</div>
 					</div>
@@ -815,14 +800,12 @@ const BlockChainDevelopment = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
+				<h1 className="all-head text-center mb-5">Have a Project?</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
-							<h1>Have a Project? </h1>
-							<h2 className="">
-								{" "}
-								Let us reach out to you with your details.
-							</h2>
+							<h1>Reach out to our technical support team for immediate assistance and expert guidance.</h1>
+
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

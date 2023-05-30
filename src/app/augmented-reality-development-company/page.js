@@ -46,10 +46,7 @@ const ARVRDevelopmentCompany = () => {
 						<h1 className="all-head text-center">
 							Our AR/VR Development Services{" "}
 						</h1>
-						<p className="all-p text-center">
-							We offer a wide range of ar development services
-							with immersive & interactive experiences.
-						</p>
+
 					</div>
 					<ServiceInnerItems serviceItems={ARVRList} />
 				</section>
@@ -61,15 +58,7 @@ const ARVRDevelopmentCompany = () => {
 						<h1 className="all-head text-center">
 							Why Choose Codiste for AR/VR development services?{" "}
 						</h1>
-						{/* <p className="all-p text-center">
-							Codiste is an enterprise-grade ar/vr development
-							services provider that assists businesses in
-							building innovation-led 3D ar experiences by
-							leveraging a blend of multiple technologies. We have
-							been the top choice of industry leaders and have
-							helped more than X businesses harness the power of
-							numerous realities and immersive experiences.
-						</p> */}
+
 					</div>
 
 					<div className="row">
@@ -83,15 +72,11 @@ const ARVRDevelopmentCompany = () => {
 								Customized Development
 							</h2>
 							<p className="secondsec-p text-center">
-								At Codiste, we understand that every business
+								we understand that every business
 								has unique requirements depending on the user
 								demographics, and we provide customization with
 								our 3D and AR/VR development solutions
-								accordingly. Our expert developers work closely
-								with our clients to identify their needs and
-								create custom-built AR development solutions to
-								provide a competitive edge with emerging
-								technologies.
+								accordingly.
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
@@ -104,9 +89,7 @@ const ARVRDevelopmentCompany = () => {
 								Blending Multiple Realities
 							</h2>
 							<p className="secondsec-p text-center">
-								Our team has experts who are specialized in
-								creating mixed-reality experiences that merge
-								the physical and digital worlds. Our AR
+								Our AR
 								developers use the latest AR/VR technologies and
 								tools to create highly interactive and immersive
 								experiences that allow users to interact with
@@ -140,7 +123,7 @@ const ARVRDevelopmentCompany = () => {
 								Immersive User Experience
 							</h2>
 							<p className="secondsec-p text-center">
-								At Codiste, we create highly immersive 3D and
+								we create highly immersive 3D and
 								AR/VR experiences that add value to your
 								business. Our team uses advanced 3D technologies
 								and tools to design interactive and engaging 3D
@@ -176,14 +159,7 @@ const ARVRDevelopmentCompany = () => {
 								Robust and Scalable Platforms
 							</h2>
 							<p className="secondsec-p text-center">
-								Our AR development team develops robust and
-								scalable 3D and AR/VR platforms that can grow
-								with our client's businesses without starting
-								from scratch. We use the latest technologies and
-								multiple realities to create platforms that can
-								handle large traffic volumes and provide an
-								exceptional user experience, ensuring long-term
-								success for our clients.
+								We utilize advanced technologies to develop scalable 3D and AR/VR platforms. Our solutions handle high traffic volumes and provide exceptional user experiences, ensuring long-term success for our clients.
 							</p>
 						</div>
 					</div>
@@ -570,10 +546,7 @@ const ARVRDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-						<p className="text-center all-p">
-							Discover how we help our clients build AR/VR
-							solutions for various businesses and sectors.
-						</p>
+
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec">
@@ -805,12 +778,13 @@ const ARVRDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
+				<h1 className="all-head text-center mb-5">Get Ahold of Us</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
-							<h1>Give life to your AR/VR vision with Us!</h1>
+							<h1>Give life to your AR/VR vision with Us!<br />Fill out the form Now!</h1>
 							<h2 className="">
-								Fill out the form, and we will get back to you!
+
 							</h2>
 						</div>
 						<div className="col-lg-6 col-md-12 ">

@@ -17,16 +17,6 @@ const Career = () => {
 						Ready to Do Something Great? Explore Career
 						Opportunities
 					</h1>
-					<p className="secondsec-p text-center">
-						Join our team and drive innovation in the rapidly
-						growing tech industry. We are dedicated to empowering
-						businesses with emerging technologies and are always
-						looking for talented individuals to help us shape the
-						future of our enterprise software development services.
-						Explore exciting career opportunities and make your mark
-						with us today.
-					</p>
-					<a href="#apply-now" className="book-btn mt-2">Explore Opportunities</a>
 				</div>
 			</div>
 			<div className="container container-fluid ">
@@ -37,16 +27,17 @@ const Career = () => {
 
 					</div>
 					<div className="col-xl-6 col-md-7 col-sm-12 mb-5 ">
-						<h1 className="all-head  mb-4">Join Our Team</h1>
+
 						<h3 className="mb-3">Are you passionate about technology and looking for a dynamic career in the tech
 							industry? </h3>
-						<p className="secondsec-p">Our company is at the forefront of innovation, providing advanced software and
+						<p className="secondsec-p mb-5">Our company is at the forefront of innovation, providing advanced software and
 							tech solutions that
 							empower and help organizations & businesses to succeed. We seek growth-oriented and talented
 							individuals to empower our team with technical expertise. With a focus on collaboration &
 							creativity, we have exciting opportunities for growth and development in a fast-paced and supportive
 							work environment.
 						</p>
+						<a href="#apply-now" className="book-btn">Explore Opportunities</a>
 					</div>
 				</div>
 			</div>
@@ -221,15 +212,14 @@ const Career = () => {
 			</div>
 
 			<div className="container container-fluid py-lg-5 py-0" id="apply-now">
+				<h1 className="text-center all-head mb-5">	Are you a professional techie?</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec" >
 							<h1 className="">
-								Are you a professional techie?
-							</h1>
-							<h2>
 								Apply now Our HR team will reach out for the further process.
-							</h2>
+							</h1>
+
 
 						</div>
 						<div className="col-lg-6 col-md-12 ">

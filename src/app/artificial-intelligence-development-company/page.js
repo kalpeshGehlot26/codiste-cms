@@ -46,10 +46,7 @@ const AIDevelopmentCompany = () => {
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h1 className="all-head">Our Services </h1>
-						<p className="all-p text-center">
-							We offer various Artificial Intelligence development
-							services for multiple business sectors.
-						</p>
+
 					</div>
 					<ServiceInnerItems serviceItems={AIList} />
 				</section>
@@ -62,11 +59,7 @@ const AIDevelopmentCompany = () => {
 							Why Choose Us For Artificial Intelligence
 							Development Services?
 						</h1>
-						{/* <p className="all-p text-center">
-							Codiste is a rapidly growing Artificial Intelligence
-							development service provider with years of
-							experience and expertise on board.
-						</p> */}
+
 					</div>
 
 					<div className="row">
@@ -84,12 +77,7 @@ const AIDevelopmentCompany = () => {
 								knowledge and experience in Artificial
 								Intelligence development technologies such as
 								Large Language Models, Machine Learning, Deep
-								Learning, and Natural Language Processing. We
-								specialize in developing AI solutions using
-								popular frameworks such as TensorFlow, PyTorch,
-								Keras, etc. We ensure we constantly update our
-								technologies to keep up with the latest
-								developments in AI globally.
+								Learning, and Natural Language Processing.
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
@@ -102,18 +90,7 @@ const AIDevelopmentCompany = () => {
 								Custom AI Solutions
 							</h2>
 							<p className="secondsec-p text-center">
-								At Codiste, we offer customized Artificial
-								Intelligence development services that are
-								tailored to meet the specific requirements of
-								different projects. Our streamlined AI
-								development process thoroughly analyzes your
-								project or business requirements, followed by
-								custom AI solutions insight into modern
-								technologies such as reinforcement learning, GPT
-								models, transfer knowledge, and unsupervised
-								learning. We also integrate AI solutions with
-								conventional channels or systems to deliver
-								seamless and efficient organizational workflows.
+								We provide tailored AI development services that analyze project requirements and utilize modern technologies like reinforcement learning and GPT models. Our solutions integrate AI with existing systems for streamlined workflows.
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
@@ -126,18 +103,7 @@ const AIDevelopmentCompany = () => {
 								Efficient & Optimized Development{" "}
 							</h2>
 							<p className="secondsec-p text-center">
-								Our agile development process ensures fast and
-								efficient development of Artificial Intelligence
-								solutions, allowing us to consistently deliver
-								high-quality solutions on time and within
-								budget. Our AI developers use various project
-								management tools to keep development on track
-								and ensure effective collaboration between our
-								team and the client. We also offer a product
-								customization approach that enables us to
-								quickly adapt to changing requirements and
-								deliver solutions that meet the needs
-								effectively and efficiently.
+								Our agile development process delivers high-quality AI solutions on time and within budget. We use project management tools for effective collaboration and offer product customization to adapt to changing requirements efficiently.
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
@@ -156,13 +122,7 @@ const AIDevelopmentCompany = () => {
 								learning models. We have extensive experience in
 								predictive modeling, utilizing modern algorithms
 								such as decision trees, logistic regression, and
-								random forests. We also use visual analysis
-								techniques such as heat maps, scatter plots, and
-								bar charts to identify patterns and insights in
-								data. As an end-to-end AI development service
-								provider, we use stable diffusion methods to
-								optimize AI models for high performance and
-								scalability.
+								random forests.
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
@@ -175,18 +135,7 @@ const AIDevelopmentCompany = () => {
 								Data Security and Privacy
 							</h2>
 							<p className="secondsec-p text-center">
-								We give utmost importance and attention to data
-								security and privacy while developing AI
-								systems. Our expert-led team of Security
-								professionals and Artificial Intelligence
-								architects implement enterprise-grade security
-								measures to protect our sensitive information,
-								including encryption, multi-factor
-								authentication, and access controls. Our AI
-								systems and software also comply with industry
-								standards and regulations such as GDPR and HIPAA
-								to ensure that data is collected, stored, and
-								used securely and ethically.
+								Our AI systems prioritize data security and privacy. We employ expert security professionals and adhere to industry standards like GDPR and HIPAA. Measures include encryption, multi-factor authentication, and access controls to protect sensitive information.
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
@@ -203,12 +152,7 @@ const AIDevelopmentCompany = () => {
 								maintenance for our Artificial Intelligence
 								solutions to ensure they remain up-to-date and
 								fully functional, delivering maximum value with
-								optimized efficiency. Our team offers tech
-								support to monitor and maintain AI models &
-								prevent degradation in performance and accuracy
-								over time. We provide comprehensive ongoing
-								technical support and training to help you fully
-								utilize the AI solutions developed at Codiste.
+								optimized efficiency.
 							</p>
 						</div>
 					</div>
@@ -509,11 +453,7 @@ const AIDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-						<p className="text-center all-p">
-							Understand our agile artificial intelligence
-							development process and methodology with our case
-							studies.
-						</p>
+
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec">
@@ -579,8 +519,7 @@ const AIDevelopmentCompany = () => {
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head text-center">
-								Client feedback speaks volumes. See for
-								yourself!
+								Hear our clients' resounding praise!
 							</h1>
 						</div>
 
@@ -763,18 +702,17 @@ const AIDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
+				<h1 className="all-head text-center mb-5">
+					Get started with AI Now !
+				</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
 							<h1>
-								Get started with AI development with your
-								details.
-							</h1>
-							<h2 className="">
-								{" "}
-								Reach out to us with your problems, our team
+								Reach out to us with your problems.<br /> Our team
 								will get in touch with you soon.
-							</h2>
+							</h1>
+
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

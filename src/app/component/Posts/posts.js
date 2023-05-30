@@ -30,7 +30,7 @@ const Posts = () => {
 				{posts.length ? (
 					posts?.map((post, index) => {
 						const link = post.link.split("/");
-
+						const image = "/assets/images/default-blog-image.png";
 						return (
 							<div className="col-xl-3 col-lg-4 col-sm-6 " key={index}>
 								<div className="position-relative">
@@ -38,7 +38,7 @@ const Posts = () => {
 										className="img-fluid rounded p-0 blog-img"
 										alt=""
 										src={
-											post._embedded["wp:featuredmedia"]?.["0"]?.source_url
+											post._embedded["wp:featuredmedia"]?.["0"].code ? image : post._embedded["wp:featuredmedia"]?.["0"]?.source_url
 										}
 									/>
 									<div className="blogboxbg-new">

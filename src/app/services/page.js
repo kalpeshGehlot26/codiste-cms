@@ -143,8 +143,7 @@ const Services = () => {
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head">Our Expertise</h1>
 							<p className="all-p me-5 text-center">
-								Why choose us for successful digital
-								transformation
+								Why choose Codiste for successful digital transformation
 							</p>
 						</div>
 
@@ -462,10 +461,7 @@ const Services = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">What Our Clients Say</h1>
-							<p className="all-p me-5 text-center">
-								Their Success Stories are our Valuable Feedback
-							</p>
+							<h1 className="all-head">Their Success Stories are our Valuable Feedback !!</h1>
 						</div>
 
 						<div
@@ -650,16 +646,13 @@ const Services = () => {
 
 			<div className="container container-fluid py-5">
 				<section>
+					<h1 className="all-head text-center mb-5">Getting in touch with Us</h1>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
 							<h1>
-								Getting in touch with Us <br />
-								is now easier!
-							</h1>
-							<h2>
 								Fill out this form and give life <br />
 								to your vision!
-							</h2>
+							</h1>
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

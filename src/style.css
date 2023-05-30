@@ -597,7 +597,7 @@ font-size: 22px !important;
 }
 
 .needsec h2 {
-   font-size: 40px;
+   font-size: 35px;
    font-weight: 300;
    line-height: 50px;
    letter-spacing: 0em;
@@ -608,12 +608,12 @@ font-size: 22px !important;
 }
 
 .needsec h1 {
-   font-size: 60px;
-   font-weight: 700;
-   /* line-height: 50px; */
+   font-size: 36px;
+   font-weight: 300;
    letter-spacing: 0em;
    text-align: left;
-   background: linear-gradient(90deg, #FF1F23 3.28%, #FD145A 97.2%);
+   /* background: linear-gradient(90deg, #FF1F23 3.28%, #FD145A 97.2%); */
+   background: #717173;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
@@ -1867,9 +1867,9 @@ color: #FD145A;
    }
   
    .needsec h1 {
-     font-size: calc(1.875rem + ((1vw - 3.2px) * 1.25));
-  
-   }
+      font-size: calc(1.5rem + ((1vw - 3.2px) * 0.75));
+      min-height: 0vw;
+    }
    .needsec h2 {
      font-size: calc(1.625rem + ((1vw - 3.2px) * 0.875));
      

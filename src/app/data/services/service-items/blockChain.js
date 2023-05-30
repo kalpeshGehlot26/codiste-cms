@@ -21,7 +21,7 @@ const blockChainList = [
     },
     {
         title: "Custom Smart Contracts",
-        description: "We offer customized smart contract developments for enterprises. Our smart contract development team specializes in designing and implementing custom smart contracts that automate business processes and transactions on the blockchain network. We have a team of experienced smart contract developers using a range of programming languages, including Solidity, Python, and Java, to build secure and efficient smart contracts that can help businesses leverage blockchain to streamline their operations and reduce costs."
+        description: "Our smart contract development team specializes in designing and implementing custom smart contracts that automate business processes and transactions on the blockchain network. We have a team of experienced smart contract developers using a range of programming languages, including Solidity, Python, and Java, to build secure and efficient smart contracts that can help businesses leverage blockchain to streamline their operations and reduce costs."
     },
     {
         title: "Defi Solution",

@@ -45,7 +45,7 @@ const StartupDevelopmentCompany = () => {
 						<h1 className="all-head text-center">
 							Our Startup Development Services
 						</h1>
-						<p className="secondsec-p text-center" >We provide startup development solutions that prioritize transparency, ensuring open communication and clear visibility throughout the product development process, resulting in market-viable solutions for your business.</p>
+
 					</div>
 					<div className="row ">
 						<div className=" col-md-6 col-sm-12 pb-3 ">
@@ -579,13 +579,7 @@ const StartupDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-						<p className="text-center all-p">
-							{" "}
-							Learn more about our development and technical
-							support with an eye on some real-life stories where
-							we have helped businesses evolve and achieve growth
-							with our value-adding tech support.{" "}
-						</p>
+
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec">
@@ -827,17 +821,16 @@ const StartupDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
+				<h1 className="all-head text-center mb-5">Get in touch with
+					us here.</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
 							<h1 className="">
 								Are you looking for a cost-effective startup
-								software development company?{" "}
+								software development company?<br />Well, the answer is no more!
 							</h1>
-							<h2>
-								Well, the answer is no more! Get in touch with
-								us here.
-							</h2>
+
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

@@ -46,10 +46,7 @@ const NFTDevelopment = () => {
 						<h1 className="all-head text-center">
 							Our NFT Development Services{" "}
 						</h1>
-						<p className="all-p text-center">
-							We offer a one-stop development platform for NFTs
-							ecosystem development.{" "}
-						</p>
+
 					</div>
 					<ServiceInnerItems serviceItems={nftList} />
 				</section>
@@ -61,16 +58,7 @@ const NFTDevelopment = () => {
 						<h1 className="all-head text-center">
 							Why Choose Codiste For NFT Development Services?
 						</h1>
-						{/* <p className="all-p text-center">
-							Codiste is a one-stop solution for businesses and
-							enterprises exploring NFTs and digital assets for
-							better business growth and user experience. We offer
-							a complete ecosystem for NFTs, including platform
-							and tokenization professionals open to customizing
-							your marketplace per your vision. We provide a
-							development platform for comprehensive
-							enterprise-grade NFT development.
-						</p> */}
+
 					</div>
 
 					<div className="row">
@@ -91,11 +79,7 @@ const NFTDevelopment = () => {
 								development team offers fully customizable NFT
 								marketplaces for various businesses ranging from
 								arts, digital assets, and fashion to sports,
-								domain names, and gaming. Our development team
-								allows you to work closely on your marketplace
-								development to ensure your specific needs are
-								fulfilled, and your vision is carved out
-								perfectly.
+								domain names, and gaming.
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
@@ -108,8 +92,7 @@ const NFTDevelopment = () => {
 								Immutable Security
 							</h2>
 							<p className="secondsec-p text-center">
-								Our NFT development experts prioritize security
-								in our NFT development services. We use emerging
+								We use emerging
 								and Immutable blockchain technology to ensure
 								your NFTs are secure and tamper-proof, backed
 								with Hyperledger. Our team takes all the
@@ -128,9 +111,7 @@ const NFTDevelopment = () => {
 								Tokenization
 							</h2>
 							<p className="secondsec-p text-center">
-								We offer unique and rare physical asset
-								tokenization into non-fungible tokenized digital
-								assets. Our NFT development services help you
+								Our NFT development services help you
 								tokenize holdings of any kind and nature,
 								ranging from music, art, and fashion to a
 								collectible. By tokenizing assets, we enable
@@ -155,10 +136,7 @@ const NFTDevelopment = () => {
 								mainstream virtual ecosystem with your NFT
 								marketplace. Our NFT development services are
 								designed for seamless integration into the
-								metaverse. We can help you explore new
-								possibilities for creators & content
-								monetization for users and creators to engage
-								with immersive experiences and digital assets.
+								metaverse.
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
@@ -176,11 +154,7 @@ const NFTDevelopment = () => {
 								businesses globally. Our NFT development
 								services empower creators and users to provide
 								greater transparency and security with
-								blockchain. Our NFT development team offers a
-								decentralized marketplace development where
-								users can trade in digital assets and NFTs. We
-								prefer a decentralized approach to ensure your
-								platform remains immutable.
+								blockchain.
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
@@ -198,10 +172,7 @@ const NFTDevelopment = () => {
 								Our NFT development team offers the development
 								of digital assets to help clients digitize
 								assets and explore the world of tokenization and
-								decentralization with blockchain. Our NFT
-								development services allow you to customize your
-								immutable digital assets that can be traded,
-								collected, and used in various contexts.
+								decentralization with blockchain.
 							</p>
 						</div>
 					</div>
@@ -438,10 +409,7 @@ const NFTDevelopment = () => {
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-						<p className="text-center all-p">
-							Hang on! We have our resource pack. You would want
-							to take advantage of them!{" "}
-						</p>
+
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec">
@@ -683,17 +651,15 @@ const NFTDevelopment = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
+				<h1 className="all-head text-center mb-5">Want to make your move in NFTs?</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
 							<h1 className="">
-								Want to make your <br />
-								move in NFTs?{" "}
+								Drop your details.<br /> We can
+								take it from here!
 							</h1>
-							<h2>
-								Drop your details. We can <br />
-								take it from here!{" "}
-							</h2>
+
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

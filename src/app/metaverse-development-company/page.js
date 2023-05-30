@@ -64,14 +64,7 @@ const MetaverseDevelopmentCompany = () => {
 						<h1 className="all-head text-center">
 							Why Choose Codiste for Metaverse Services?
 						</h1>
-						{/* <p className="all-p text-center">
-							We are an emerging enterprise-grade metaverse
-							solutions development company with dedicated teams
-							with the right skills and experience in core
-							metaverse technologies, including 3D animation,
-							augmented & virtual reality, blockchain, and
-							artificial intelligence, and several others.
-						</p> */}
+
 					</div>
 
 					<div className="row">
@@ -85,10 +78,7 @@ const MetaverseDevelopmentCompany = () => {
 								End-to-End Development Support
 							</h2>
 							<p className="secondsec-p text-center">
-								We provide complete end-to-end metaverse
-								development support to our clients with the
-								initial consultation and from product design and
-								development to deployment. This ensures a smooth
+								We ensures a smooth
 								and seamless development process and timely
 								delivery of your metaverse experience, making it
 								easier for your enterprise to integrate
@@ -109,10 +99,7 @@ const MetaverseDevelopmentCompany = () => {
 								solutions tailored to specific needs and
 								preferences, ensuring a unique immersive
 								3D-powered metaverse experience that helps you
-								outshine the competition. We offer a
-								personalized approach that enables businesses to
-								improve and enhance their user experience with a
-								highly engaging and immersive experience.
+								outshine the competition.
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
@@ -125,10 +112,7 @@ const MetaverseDevelopmentCompany = () => {
 								3D Immersive Experience
 							</h2>
 							<p className="secondsec-p text-center">
-								Industry experts back our expertise in a 3D
-								immersive experience to help businesses with
-								unmatched interaction and 3D animation
-								integration into simple interfaces. We can
+								We can
 								create 3D experiences leading to higher user
 								retention and engagement, increasing customer
 								loyalty and revenue as Metaverse becomes
@@ -167,11 +151,7 @@ const MetaverseDevelopmentCompany = () => {
 								security of the metaverse development with
 								decentralized security measures and technologies
 								crucial for protecting massive amounts of users'
-								data and identity with the metaverse. With
-								emerging and rapidly growing technologies like
-								Blockchain, we help businesses build trust in
-								the users, which is vital for digital businesses
-								to thrive in the metaverse.
+								data and identity with the metaverse.
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
@@ -187,11 +167,7 @@ const MetaverseDevelopmentCompany = () => {
 								We offer our clientele extensive brand metaverse
 								customization options, allowing them to utilize
 								the immersive 3D virtual experience in catering
-								to specific user needs and requirements. Our
-								metaverse development services provides seamless
-								integration of the metaverse into your existing
-								operations, leading to increased brand
-								efficiency and productivity.
+								to specific user needs and requirements.
 							</p>
 						</div>
 					</div>
@@ -541,10 +517,7 @@ const MetaverseDevelopmentCompany = () => {
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head">What Our Clients Say</h1>
-							<p className="all-p me-5 text-center">
-								Explore our previous work and metaverse
-								development feedback from our valuable customers
-							</p>
+
 						</div>
 
 						<div
@@ -709,17 +682,15 @@ const MetaverseDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
+				<h1 className="all-head text-center mb-5">We will contact you hereafter</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
 							<h1>
 								Want to leverage Metaverse for your business?
+								<br />Let us know your details in the form.
 							</h1>
-							<h2 className="">
-								{" "}
-								Let us know your details in the form. <br />
-								We will contact you hereafter.
-							</h2>
+
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

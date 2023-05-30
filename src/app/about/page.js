@@ -31,6 +31,7 @@ const About = () => {
 										environment and strive to be the ideal partner for companies seeking innovative technological solutions with
 										blockchain and other prominent Web3 technologies.
 									</p>
+									<button className="book-btn">Explore More</button>
 								</div>
 							</div>
 						</div>
@@ -978,11 +979,9 @@ const About = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">What Our Clients Say</h1>
-							<p className="all-p  text-center">
-								Take the word of those who have benefitted from
-								Codiste.{" "}
-							</p>
+							<h1 className="all-head">Take the word of those who have benefitted from
+								Codiste !</h1>
+
 						</div>
 
 						<div
@@ -1167,13 +1166,12 @@ const About = () => {
 
 			<div className=" firstsec">
 				<div className="container container-fluid py-5">
+					<h1 className="all-head mb-5 text-center">Get in touch with us</h1>
 					<section>
 						<div className="row  d-flex align-items-center">
 							<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
-								<h1>Start Building on Your Idea Today!</h1>
-								<h2 className="">
-									Get in touch with our team with this form.
-								</h2>
+								<h1>Start Building on Your Idea Today! <br />Get in touch with our team with this form.</h1>
+
 							</div>
 							<div className="col-lg-6 col-md-12 ">
 								<div className="need-block h-100">

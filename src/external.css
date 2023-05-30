@@ -67,6 +67,7 @@
   animation-duration: 16s;
   animation-iteration-count: infinite;
   opacity: 0;
+  line-height: unset !important;
 }
 
 .rotating-text-wrapper h2:nth-child(1) {
