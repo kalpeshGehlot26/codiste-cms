@@ -65,8 +65,8 @@ h4{
    background: #fff;
 }
 .active,
-.navbar-nav a:hover {
-   color: #f9004d;
+.nav-item .nav-link:hover {
+   color: #f9004d ;
 }
 .dropdown-item {
    margin: 0 !important;
