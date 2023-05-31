@@ -204,45 +204,53 @@ const NFTDevelopment = () => {
 								<ul className="tech-style">
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Binance_Logo"
 											src="assets/images/tech/Binance_Logo.png"
 										/>
+										<p className="text-uppercase">Binance</p>
+
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="ethereum"
 											src="assets/images/tech/ethereum.png"
 										/>
+										<p className="text-uppercase">ethereum</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Solana"
 											src="assets/images/tech/Solana.png"
 										/>
+										<p className="text-uppercase">Solana</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="tron"
 											src="assets/images/tech/tron logo.png"
 										/>
+										<p className="text-uppercase">Binance</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="fantom"
 											src="assets/images/tech/fantom.png"
 										/>
+										<p className="text-uppercase">fantom</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="polygon"
 											src="assets/images/tech/polygon.png"
 										/>
+										<p className="text-uppercase">polygon</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Corda"
 											src="assets/images/tech/Corda.png"
 										/>
+										<p className="text-uppercase">Corda</p>
 									</li>
 								</ul>
 							</div>

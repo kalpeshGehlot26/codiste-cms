@@ -42,8 +42,8 @@ const EmployeeSlider = () => {
                                             {testimonial.designation}
                                         </span>
                                     </div>
-                                    <div className="col-12 col-lg-8 mt-4  secondsec-p">
-                                        <p className="careerblock-margin">
+                                    <div className="col-12 col-lg-7 mt-4  secondsec-p">
+                                        <p className="careerblock-margin text-start">
                                             {testimonial.testimonial}
                                         </p>
                                     </div>

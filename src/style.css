@@ -506,14 +506,17 @@ font-size: 22px !important;
    color: #FFFFFF;
    padding: 20px;
 }
-
+.process-block:hover {
+   transform: scale(1.02);
+   opacity: 1;
+}
 .process-block h3 {
    font-size: 22px;
    font-weight: 600;
    line-height: 40px;
    letter-spacing: 0em;
    text-align: center;
-   margin-top: 50px;
+   margin-top: 30px;
 }
 
 .process-block p {

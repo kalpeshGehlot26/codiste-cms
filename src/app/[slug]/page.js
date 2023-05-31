@@ -102,13 +102,10 @@ const BlogContent = () => {
 			<div className="bg-color py-5 mt-5">
 				<div className="container container-fluid ">
 					<section>
+						<div className="all-head text-center mb-5">Stuck with your idea?</div>
 						<div className="row  d-flex align-items-center">
 							<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-5">
-								<h1>Stuck with your idea?</h1>
-								<h2 className="">
-									Connect with our experts with this lead form
-									and bring your vision to reality.
-								</h2>
+								<h1>Connect with our experts with this lead form and bring your tech idea to reality.</h1>
 							</div>
 							<div className="col-lg-6 col-md-12 ">
 								<div className="need-block h-100">

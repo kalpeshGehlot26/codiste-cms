@@ -186,68 +186,79 @@ const AIDevelopmentCompany = () => {
 								<ul className="tech-style">
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Apache_Spark_"
 											src="assets/images/tech/Apache_Spark_.png"
+
 										/>
+										<p>Apache Spark</p>
 									</li>
 
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Azure"
 											src="assets/images/tech/Azure.png"
 										/>
+										<p>Azure</p>
 									</li>
 
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="gensim"
 											src="assets/images/tech/gensim.png"
 										/>
+										<p>Gensim</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="go"
 											src="assets/images/tech/go.png"
 										/>
+										<p>Go</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="icons8"
 											src="assets/images/tech/icons8-ios-logo-150.png"
 										/>
+										<p>iOS</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="python"
 											src="assets/images/tech/python.png"
 										/>
+										<p>Python</p>
 									</li>
 
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="solidity"
 											src="assets/images/tech/solidity.png"
 										/>
+										<p>Solidity</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Scikit_learn"
 											src="assets/images/tech/Scikit_learn.png"
 										/>
+										<p>Scikit Learn</p>
 									</li>
 
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt=""
 											src="assets/images/tech/tensorflow.png"
 										/>
+										<p>Tensor Flow</p>
 									</li>
 
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Theano_logo"
 											src="assets/images/tech/Theano_logo.svg.png"
 										/>
+										<p>Theano</p>
 									</li>
 								</ul>
 							</div>

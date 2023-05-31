@@ -12,7 +12,7 @@ const TechStack = () => {
 							src={tech.url}
 							alt={tech.alt}
 						/>
-						<p>
+						<p className="text-uppercase">
 							{tech.name}
 						</p>
 					</li>

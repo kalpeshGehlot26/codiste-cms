@@ -517,16 +517,17 @@ const MedizenPortfolio = () => {
 
 			<div className="container container-fluid py-5">
 				<section>
+					<div>
+						<h1 className="all-head text-center mb-5">
+							Reach out to us
+						</h1>
+					</div>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
 							<h1>
-								Getting in touch with Us <br />
-								is now easier!
+								Get expert advice on adopting and integrating advanced technologies.<br />
+								Stay compliant, stay ahead.
 							</h1>
-							<h2>
-								Fill out this form and give life <br />
-								to your vision!
-							</h2>
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

@@ -202,69 +202,80 @@ const CryptoDevelopmentCompany = () => {
 								<ul className="tech-style">
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="NEO"
 											src="assets/images/tech/NEO.png"
 										/>
+										<p>NEO</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="hyperledger"
 											src="assets/images/tech/hyperledger.png"
 										/>
+										<p className="text-uppercase">hyperledger</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Multichain"
 											src="assets/images/tech/Multichain.png"
 										/>
+										<p className="text-uppercase">Multichain</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="ethereum"
 											src="assets/images/tech/ethereum.png"
 										/>
+										<p className="text-uppercase">ethereum</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Hydra"
 											src="assets/images/tech/Hydra chain.png"
 										/>
+										<p className="text-uppercase">Hydra chain</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="openchain"
 											src="assets/images/tech/openchain.png"
 										/>
+										<p className="text-uppercase">openchain</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="IOTA"
 											src="assets/images/tech/IOTA.png"
 										/>
+										<p className="text-uppercase">IOTA</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="BigChainDB"
 											src="assets/images/tech/BigChainDB.png"
 										/>
+										<p className="text-uppercase">BigChainDB</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Stellar"
 											src="assets/images/tech/Stellar.png"
 										/>
+										<p className="text-uppercase">Stellar</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Symbiont"
 											src="assets/images/tech/Symbiont Assembly.png"
 										/>
+										<p className="text-uppercase">Symbiont Assembly</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="NEM"
 											src="assets/images/tech/NEM Framework.png"
 										/>
+										<p className="text-uppercase">NEM Framework</p>
 									</li>
 								</ul>
 							</div>

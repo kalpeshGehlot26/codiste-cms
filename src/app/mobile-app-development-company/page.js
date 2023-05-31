@@ -211,65 +211,75 @@ const MobileAppDevelopmentCompany = () => {
 								<ul className="tech-style">
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Swift"
 											src="assets/images/tech/Swift.png"
 										/>
+										<p className="text-uppercase">Swift</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Objective"
 											src="assets/images/tech/Objective-c.png"
 										/>
+										<p className="text-uppercase">Objective-c</p>
 									</li>
 
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="xcode"
 											src="assets/images/tech/xcode.png"
 										/>
+										<p className="text-uppercase">xcode</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Java"
 											src="assets/images/tech/Java.png"
 										/>
+										<p className="text-uppercase">Java</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Kotlin"
 											src="assets/images/tech/Kotlin-logo.png"
 										/>
+										<p className="text-uppercase">Kotlin</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Android"
 											src="assets/images/tech/Android Studio.png"
 										/>
+										<p className="text-uppercase">Android Studio</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="flutter"
 											src="assets/images/tech/flutter.png"
 										/>
+										<p className="text-uppercase">flutter</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Ionic"
 											src="assets/images/tech/Ionic.png"
 										/>
+										<p className="text-uppercase">Ionic</p>
 									</li>
 
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="java script"
 											src="assets/images/tech/java script.png"
 										/>
+										<p className="text-uppercase">java script</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="html"
 											src="assets/images/tech/html-5.png"
 										/>
+										<p className="text-uppercase">html-5</p>
 									</li>
 								</ul>
 							</div>

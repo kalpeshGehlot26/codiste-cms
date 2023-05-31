@@ -11,8 +11,8 @@ export const metadata = {
 const Career = () => {
 	return (
 		<div>
-			<div className="container container-fluid py-4 firstsec">
-				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+			<div className="container container-fluid py-4 firstsec ">
+				<div className=" d-flex align-items-center flex-column justify-content-center about-mainsec">
 					<h1 className="all-head text-center my-3 ">
 						Ready to Do Something Great? Explore Career
 						Opportunities
@@ -122,7 +122,7 @@ const Career = () => {
 					</div>
 					<div className="col-xl-3 col-md-6 col-sm-12 pb-3 ">
 						<div className="service-block p-4 h-100">
-							<img src="assets/images/career/community.png" />
+							<img src="assets/images/career/Collaborative Environment.png" />
 							<h3 className="secondsec-head mt-4">
 								Collaborative Environment
 							</h3>

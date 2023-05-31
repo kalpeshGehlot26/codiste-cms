@@ -205,63 +205,73 @@ const MLDevelopmentCompany = () => {
 								<ul className="tech-style">
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="python"
 											src="assets/images/tech/python.png"
 										/>
+										<p className="text-uppercase">python</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="tensorflow"
 											src="assets/images/tech/tensorflow.png"
 										/>
+										<p className="text-uppercase">tensorflow</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Scikit_learn"
 											src="assets/images/tech/Scikit_learn.png"
 										/>
+										<p className="text-uppercase">Scikit Learn</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Apache_Spark_"
 											src="assets/images/tech/Apache_Spark_.png"
 										/>
+										<p className="text-uppercase">Apache Spark</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="solidity"
 											src="assets/images/tech/solidity.png"
 										/>
+										<p className="text-uppercase">solidity</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Theano_logo"
 											src="assets/images/tech/Theano_logo.svg.png"
 										/>
+										<p className="text-uppercase">Theano</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="go"
 											src="assets/images/tech/go.png"
 										/>
+										<p className="text-uppercase">go</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="gensim"
 											src="assets/images/tech/gensim.png"
 										/>
+										<p className="text-uppercase">gensim</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Azure"
 											src="assets/images/tech/Azure.png"
 										/>
+										<p className="text-uppercase">Azure</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="icons8"
 											src="assets/images/tech/icons8-ios-logo-150.png"
 										/>
+										<p className="">iOS</p>
 									</li>
 								</ul>
 							</div>

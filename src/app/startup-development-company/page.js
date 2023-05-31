@@ -218,75 +218,87 @@ const StartupDevelopmentCompany = () => {
 								<ul className="tech-style">
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="hyperledger"
 											src="assets/images/tech/hyperledger.png"
 										/>
+										<p className="text-uppercase">hyperledger</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="tron"
 											src="assets/images/tech/tron logo.png"
 										/>
+										<p className="text-uppercase">tron</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Graphene"
 											src="assets/images/tech/Graphene.png"
 										/>
+										<p className="text-uppercase">Graphene</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Binance_Logo"
 											src="assets/images/tech/Binance_Logo.png"
 										/>
+										<p className="text-uppercase">Binance</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Solana"
 											src="assets/images/tech/Solana.png"
 										/>
+										<p className="text-uppercase">Solana</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Corda"
 											src="assets/images/tech/Corda.png"
 										/>
+										<p className="text-uppercase">Corda</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="ethereum"
 											src="assets/images/tech/ethereum.png"
 										/>
+										<p className="text-uppercase">ethereum</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="polygon"
 											src="assets/images/tech/polygon.png"
 										/>
+										<p className="text-uppercase">polygon</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt=""
 											src="assets/images/tech/fantom.png"
 										/>
+										<p className="text-uppercase">fantom</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="solidity"
 											src="assets/images/tech/solidity.png"
 										/>
+										<p className="text-uppercase">solidity</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="python"
 											src="assets/images/tech/python.png"
 										/>
+										<p className="text-uppercase">python</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Java"
 											src="assets/images/tech/Java.png"
 										/>
+										<p className="text-uppercase">Java</p>
 									</li>
 								</ul>
 							</div>

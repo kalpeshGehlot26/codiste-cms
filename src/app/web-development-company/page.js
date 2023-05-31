@@ -199,52 +199,54 @@ const WebDevelopmentCompany = () => {
 								<ul className="tech-style">
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Laravel"
 											src="assets/images/tech/Laravel.png"
 										/>
+										<p className="text-uppercase">Laravel</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Ruby"
 											src="assets/images/tech/Ruby.png"
 										/>
+										<p className="text-uppercase">Ruby</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Node"
 											src="assets/images/tech/Node.png"
 										/>
+										<p className="text-uppercase">Node</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Angular"
 											src="assets/images/tech/Angular.png"
 										/>
+										<p className="text-uppercase">Angular</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="PHP"
 											src="assets/images/tech/PHP.png"
 										/>
+										<p className="text-uppercase">PHP</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="python"
 											src="assets/images/tech/python.png"
 										/>
+										<p className="text-uppercase">python</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="WordPress"
 											src="assets/images/tech/WordPress.png"
 										/>
+										<p className="text-uppercase">WordPress</p>
 									</li>
-									<li>
-										<img
-											className="img-fluid"
-											src="assets/images/tech/custom development.png"
-										/>
-									</li>
+
 								</ul>
 							</div>
 						</div>

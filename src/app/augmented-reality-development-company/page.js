@@ -197,102 +197,118 @@ const ARVRDevelopmentCompany = () => {
 								<ul className="tech-style">
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="APPGAMEKIT"
 											src="assets/images/tech/APPGAMEKIT VR.png"
 										/>
+										<p>APPGAMEKIT VR</p>
+
 									</li>
 
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Apple"
 											src="assets/images/tech/Apple arkit.png"
 										/>
+										<p>APPLE ARKIT</p>
 									</li>
 
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Ar"
 											src="assets/images/tech/Ar Toolkit.png"
 										/>
+										<p>ARTOOLKIT</p>
 									</li>
 
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt=""
 											src="assets/images/tech/BLENDER.png"
 										/>
+										<p>BLENDER</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="CRY"
 											src="assets/images/tech/CRY ENGINE.png"
 										/>
+										<p>CRY ENGINE</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Deep"
 											src="assets/images/tech/Deep AR.png"
 										/>
+										<p>DEEP AR</p>
 									</li>
 
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="GOOGLE"
 											src="assets/images/tech/GOOGLE-ARCORE.png"
 										/>
+										<p>GOOGLE-ARCORE</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="SKETCH"
 											src="assets/images/tech/GOOGLE SKETCH UP.png"
 										/>
+										<p>GOOGLE SKETCH UP</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="KUDAN"
 											src="assets/images/tech/KUDAN.png"
 										/>
+										<p>KUDAN</p>
 									</li>
 
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="LIBGDX"
 											src="assets/images/tech/LIBGDX.png"
 										/>
+										<p>LIBGDX</p>
 									</li>
 
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Maxst"
 											src="assets/images/tech/Maxst.png"
 										/>
+										<p>MAXST</p>
 									</li>
 
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="tilt"
 											src="assets/images/tech/tilt-brush.png"
 										/>
+										<p>TILT BRUSH</p>
 									</li>
 
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="UNREAL"
 											src="assets/images/tech/UNREAL ENGINE.png"
 										/>
+										<p>UNREAL ENGINE</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="VUFORIA"
 											src="assets/images/tech/VUFORIA.png"
 										/>
+										<p>VUFORIA</p>
 									</li>
 
 									<li>
 										<img
-											className="img-fluid"
+											className="img-fluid" alt="Wikitude_Logo"
 											src="assets/images/tech/Wikitude_Logo.png"
 										/>
+										<p>WIKITUDE</p>
 									</li>
 								</ul>
 							</div>

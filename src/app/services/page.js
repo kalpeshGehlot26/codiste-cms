@@ -151,7 +151,7 @@ const Services = () => {
 							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
-										className="my-3"
+										className="mb-3"
 										src="assets/images/solution.png"
 										alt="Personalized Solutions"
 									/>
@@ -172,7 +172,7 @@ const Services = () => {
 							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
-										className="my-3"
+										className="mb-3"
 										src="assets/images/iBusiness.png"
 										alt="Synergistic Strategy"
 									/>
@@ -193,7 +193,7 @@ const Services = () => {
 							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
-										className="my-3"
+										className="mb-3"
 										src="assets/images/natural-language-processing.png"
 										alt="Technology Experts"
 									/>
@@ -214,7 +214,7 @@ const Services = () => {
 							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
-										className="my-3"
+										className="mb-3"
 										src="assets/images/agile.png"
 										alt="End-to-End Development"
 									/>
@@ -236,7 +236,7 @@ const Services = () => {
 							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
-										className="my-3"
+										className="mb-3"
 										src="assets/images/internet.png"
 										alt="Robust Security Solutions"
 									/>
@@ -257,7 +257,7 @@ const Services = () => {
 							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
-										className="my-3"
+										className="mb-3"
 										src="assets/images/iSupport.png"
 										alt="Post Sales Support & Assistance"
 									/>
@@ -290,7 +290,7 @@ const Services = () => {
 					</p>
 				</div>
 
-				<div className="row g-3">
+				<div className="row g-4">
 					<div className="col-xl-4 col-md-6 col-sm-12 pb-3 position-relative">
 						<div className="process-block process-block1 h-100">
 							<div className="process-circle process-circle1">
