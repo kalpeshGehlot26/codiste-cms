@@ -71,7 +71,7 @@ const MLDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Comprehensive Development"
-								src="assets/images/development.png"
+								src="assets/images/Comprehensive Development.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Comprehensive Development
@@ -106,7 +106,7 @@ const MLDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Safe and Secure"
-								src="assets/images/shield.png"
+								src="assets/images/Safe and Secure.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Safe and Secure
@@ -160,7 +160,7 @@ const MLDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Seamless Integration & Deployment"
-								src="assets/images/distributed.png"
+								src="assets/images/Seamless Integration & Deployment.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Seamless Integration & Deployment{" "}

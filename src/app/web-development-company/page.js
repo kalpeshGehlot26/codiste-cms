@@ -152,7 +152,7 @@ const WebDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Secure and Scalable"
-								src="assets/images/security.png"
+								src="assets/images/Secure and Scalable.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Secure and Scalable

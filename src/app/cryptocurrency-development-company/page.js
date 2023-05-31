@@ -108,7 +108,7 @@ const CryptoDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt=""
-								src="assets/images/exchange.png"
+								src="assets/images/Peer-to-Peer Trade Facility.png"
 							/>
 							<h2 className="text-center secondsec-head text- center">
 								Peer-to-Peer Trade Facility
@@ -159,7 +159,7 @@ const CryptoDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt=""
-								src="assets/images/extension.png"
+								src="assets/images/Mobile & Web Extensions.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Mobile & Web Extensions
