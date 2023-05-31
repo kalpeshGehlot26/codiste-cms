@@ -110,7 +110,7 @@ const AIDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Advanced Analytics Capabilities"
-								src="assets/images/increasing.png"
+								src="assets/images/Advanced Analytics Capabilities.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Advanced Analytics Capabilities

@@ -72,7 +72,7 @@ const MetaverseDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt=""
-								src="assets/images/iSupport.png"
+								src="assets/images/Post Sales Support & Assistance.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								End-to-End Development Support

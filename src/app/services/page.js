@@ -258,7 +258,7 @@ const Services = () => {
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
-										src="assets/images/iSupport.png"
+										src="assets/images/Post Sales Support & Assistance.png"
 										alt="Post Sales Support & Assistance"
 									/>
 									<h3 className="">

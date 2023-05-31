@@ -66,7 +66,7 @@ const ARVRDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Customized Development"
-								src="assets/images/developer.png"
+								src="assets/images/Customized Development.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Customized Development
