@@ -50,7 +50,6 @@ const MLDevelopmentCompany = () => {
 						<h1 className="all-head">
 							Our Machine Learning Development Services
 						</h1>
-
 					</div>
 					<ServiceInnerItems serviceItems={MLList} />
 				</section>
@@ -193,7 +192,7 @@ const MLDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
-							<h1 className="all-head">Technology Stack</h1>
+							<h1 className="all-head text-center">Technology Stack</h1>
 							<p className="all-p me-5 text-center mb-4">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
@@ -283,7 +282,7 @@ const MLDevelopmentCompany = () => {
 			<div className="py-5">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">FAQ</h1>
+						<h1 className="all-head">FAQs</h1>
 					</div>
 					<div
 						className="accordion accordion-flush"
@@ -544,7 +543,7 @@ const MLDevelopmentCompany = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Blog</h1>
+					<h1 className="all-head">Blogs</h1>
 					<p className="all-p text-center">
 						Discover expert insights and helpful tips on emerging
 						machine learning algorithms and technologies with our
@@ -733,14 +732,12 @@ const MLDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
-				<h1 className="all-head text-center mb-5">Request A consultation</h1>
+				<h1 className="all-head text-center mb-5">Request A Consultation!</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
 							<h1>
-
 								Streamline your Machine Learning operations by connecting with our dedicated tech support team today.
-
 							</h1>
 							{/* <h2 className="">
 								{" "}

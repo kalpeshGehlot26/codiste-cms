@@ -96,8 +96,8 @@ const DivewalletPortfolio = () => {
 				<div className="container container-fluid py-5">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head text-center text-center"> Features of Product</h1>
-							<p className="all-p me-5 ">
+							<h1 className="all-head text-center"> Features of Product</h1>
+							<p className="all-p me-5 text-center">
 								Our team incorporated seamless functionalities
 								right from price optimization and swapping to
 								push notifications and NFTs listing. These
@@ -523,11 +523,9 @@ const DivewalletPortfolio = () => {
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head text-center">
-								Satisfied clients is our proof of our excellence
+								Satisfied clients is our proof of our excellence!
 							</h1>
-							<p className="all-p me-5 text-center">
-								Their Success Stories are our Valuable Feedback
-							</p>
+
 						</div>
 
 						<div className="carousel-inner career-block">
@@ -575,14 +573,14 @@ const DivewalletPortfolio = () => {
 				<section>
 					<div>
 						<h1 className="all-head text-center mb-5">
-							Reach out to us
+							Reach out to Us!
 						</h1>
 					</div>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
 							<h1>
 								Get expert advice on adopting and integrating advanced technologies.<br />
-								Stay compliant, stay ahead.
+								Stay compliant, stay ahead!
 							</h1>
 						</div>
 						<div className="col-lg-6 col-md-12 ">

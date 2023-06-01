@@ -136,7 +136,7 @@ text-align: left;
 
 .all-p {
    font-family: 'Poppins', sans-serif;
-   font-size: 18px;
+   font-size: 16px;
    font-weight: 400;
    line-height: 27px;
    letter-spacing: 0.05em;
@@ -285,7 +285,7 @@ ul.footer-icon li:hover svg path{
 
 /* ==== accordion === */
 .accordion-button{
-font-size: 22px !important;
+font-size: 20px !important;
 }
 
 .accordion-button:not(.collapsed) {
@@ -682,7 +682,7 @@ select {
 }
 
 .custom-crousel h3 {
-   font-size: 20px;
+   font-size: 18px;
    font-weight: 400;
    line-height: 30px;
    letter-spacing: 0.05em;
@@ -1078,6 +1078,7 @@ ul.tech-style img:hover {
    opacity: 0.19;
    z-index: -1;
    font-family: 'Poppins', sans-serif;
+  
 }
 
 @media all and (max-width: 600px) {
@@ -1140,7 +1141,10 @@ ul.tech-style img:hover {
    border-bottom: 10px solid transparent;
    content: " ";
 }
-
+.timeline .timeline-box:hover span{
+   transform: scale(1.1);
+   opacity: 1;
+} 
 @media all and (min-width: 600px) {
    .timeline .timeline-box:nth-of-type(2n) {
       margin-top: 3em;
@@ -1157,6 +1161,7 @@ ul.tech-style img:hover {
    transform: translate(0, -5px);
    -webkit-transform: translate(0, -5px);
    -ms-transform: translate(0, -5px);
+  
 }
 
 .timeline-box:hover,
@@ -1164,6 +1169,7 @@ ul.tech-style img:hover {
    -webkit-box-shadow: 0px 3px 0px 0px #FF1F23;
    -moz-box-shadow: 0px 3px 0px 0px #FF1F23;
    box-shadow: 0px 3px 0px 0px #FF1F23;
+   
 }
 
 .timeline-box {
@@ -1425,7 +1431,7 @@ margin-bottom: 25px;
   box-sizing: border-box;
 }
 
-.process {
+.processNew {
   width: 100%;
   padding: 0 15px;
   text-align: center;
@@ -1458,25 +1464,26 @@ margin-bottom: 25px;
 }
 .process__title {
   display: block;
-  font-family: "Roboto Condensed";
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   letter-spacing: 1.5px;
   font-size: 35px;
   color: #717173;
   text-transform: uppercase;
   margin-top: 30px;
+  
 }
 .process__subtitle {
   display: block;
-  font-family: "Josefin Slab";
-  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
   color: #717173;
   margin-top: 30px;
   line-height: 1.5;
 }
 
 @media (min-width: 768px) {
-  .process {
+  .processNew {
     display: inline-block;
   }
   .process__item {
@@ -1485,7 +1492,7 @@ margin-bottom: 25px;
   }
 }
 @media (min-width: 1200px) {
-  .process {
+  .processNew {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1962,13 +1969,15 @@ color: #FD145A;
    .all-head {
      font-size: calc(1.75rem + ((1vw - 3.2px) * 0.75));
    }
-    .book-btn, .all-p,.apply-btn{
+    .book-btn,.apply-btn{
      font-size: calc(0.875rem + ((1vw - 3.2px) * 0.25));
    }
-   .secondsec-p{
+   .secondsec-p ,.process__subtitle{
       font-size: calc(0.875rem + ((1vw - 3.2px) * 0.125));
    }
-  
+   .all-p{
+      font-size: calc(0.875rem + ((1vw - 3.2px) * 0.125));
+   }
    .blackdiv p{
      font-size: calc(1.25rem + ((1vw - 3.2px) * 0.625));
    }
@@ -1988,18 +1997,23 @@ color: #FD145A;
      font-size: calc(1.25rem + ((1vw - 3.2px) * 0.625));
   
    }
-   .custom-crousel h3 {
-      font-size: calc(0.875rem + ((1vw - 3.2px) * 0.375));
-      min-height: 0vw;
-    }
+  
+      .custom-crousel h3 {
+         font-size: calc(1rem + ((1vw - 3.2px) * 0.125));
+         min-height: 0vw;
+       }
+    
     .process-chart p {
       font-size: calc(0.875rem + ((1vw - 3.2px) * 0.125));
      
     }
-    .accordion-button {
-      font-size: calc(1rem + ((1vw - 3.2px) * 0.375)) !important;
    
-    }
+   .accordion-button {
+         font-size: calc(1rem + ((1vw - 3.2px) * 0.25)) !important;
+         min-height: 0vw;
+       } 
+   
+
     .accordion-body {
       font-size: calc(0.875rem + ((1vw - 3.2px) * 0.125));
     }

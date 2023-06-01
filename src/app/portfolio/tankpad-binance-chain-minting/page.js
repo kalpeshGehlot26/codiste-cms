@@ -416,42 +416,14 @@ const TankpadPortfolio = () => {
 					</section>
 				</div>
 			</div> */}
-
-			<div className="container container-fluid py-4">
-				<section>
-					<div className=" d-flex align-items-center flex-column justify-content-center">
-						<h1 className="all-head">Technology Stack</h1>
-						<p className="all-p me-5 mb-5 text-center">
-							We pride ourselves on our proven track record with
-							20+ technologies and delivering innovative,
-							customized IT solutions.
-						</p>
-					</div>
-					<div className="row">
-						<div className="col-lg-12">
-							<ul className="tech-style">
-								<li>
-									<img
-										className="img-fluid"
-										src="/assets/images/tech/React-icon.svg.png"
-									/>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-			</div>
-
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head">
-								Satisfied clients is our proof of our excellence
+								Satisfied clients is our proof of our excellence!
 							</h1>
-							<p className="all-p me-5 text-center">
-								Their Success Stories are our Valuable Feedback
-							</p>
+
 						</div>
 
 						<div className="carousel-inner career-block">
@@ -495,18 +467,43 @@ const TankpadPortfolio = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5">
+			<div className="container container-fluid py-4">
+				<section>
+					<div className=" d-flex align-items-center flex-column justify-content-center">
+						<h1 className="all-head">Technology Stack</h1>
+						<p className="all-p me-5 mb-5 text-center">
+							We pride ourselves on our proven track record with
+							20+ technologies and delivering innovative,
+							customized IT solutions.
+						</p>
+					</div>
+					<div className="row">
+						<div className="col-lg-12">
+							<ul className="tech-style">
+								<li>
+									<img
+										className="img-fluid"
+										src="/assets/images/tech/React-icon.svg.png"
+									/>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</div>
+
+			<div className="bg-color"><div className="container container-fluid py-5">
 				<section>
 					<div>
 						<h1 className="all-head text-center mb-5">
-							Reach out to us
+							Reach out to Us!
 						</h1>
 					</div>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
 							<h1>
 								Get expert advice on adopting and integrating advanced technologies.<br />
-								Stay compliant, stay ahead.
+								Stay compliant, stay ahead!
 							</h1>
 						</div>
 						<div className="col-lg-6 col-md-12 ">
@@ -519,7 +516,8 @@ const TankpadPortfolio = () => {
 						</div>
 					</div>
 				</section>
-			</div>
+			</div></div>
+
 		</div>
 	);
 };

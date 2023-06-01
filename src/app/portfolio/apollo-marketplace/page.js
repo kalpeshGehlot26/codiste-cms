@@ -433,7 +433,7 @@ const ApolloPortfolio = () => {
 			<div className="container container-fluid py-4">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center">
-						<h1 className="all-head">Technology Stack</h1>
+						<h1 className="all-head text-center">Technology Stack</h1>
 						<p className="all-p me-5 mb-5 text-center">
 							We pride ourselves on our proven track record with
 							20+ technologies and delivering innovative,
@@ -510,14 +510,14 @@ const ApolloPortfolio = () => {
 				<section>
 					<div>
 						<h1 className="all-head text-center mb-5">
-							Reach out to us
+							Reach out to Us!
 						</h1>
 					</div>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
 							<h1>
 								Get expert advice on adopting and integrating advanced technologies.<br />
-								Stay compliant, stay ahead.
+								Stay compliant, stay ahead!
 							</h1>
 						</div>
 						<div className="col-lg-6 col-md-12 ">

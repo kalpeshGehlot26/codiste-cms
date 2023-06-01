@@ -16,7 +16,7 @@ const ServiceInnerItems = ({ serviceItems }) => {
 					if (serviceCount < index + 1) return;
 					return (
 						<div
-							className="col-md-6 col-sm-12 pb-3 "
+							className=" col-xl-4 col-md-6 col-sm-12 pb-3 "
 							key={index}
 						>
 							<div className="service-block p-4 h-100">

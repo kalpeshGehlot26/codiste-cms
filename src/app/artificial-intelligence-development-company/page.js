@@ -270,7 +270,7 @@ const AIDevelopmentCompany = () => {
 			<div className="py-5">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">FAQ</h1>
+						<h1 className="all-head">FAQs</h1>
 					</div>
 					<div
 						className="accordion accordion-flush"
@@ -513,7 +513,7 @@ const AIDevelopmentCompany = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Blog</h1>
+					<h1 className="all-head">Blogs</h1>
 					<p className="all-p text-center">
 						Read more about artificial intelligence and modern
 						technological developments in space with our blogs.
@@ -714,16 +714,15 @@ const AIDevelopmentCompany = () => {
 
 			<div className="container container-fluid py-5">
 				<h1 className="all-head text-center mb-5">
-					Get started with AI Now !
+					Get started with AI Now!
 				</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
 							<h1>
-								Reach out to us with your problems.<br /> Our team
+								Reach out to us with your problems!<br /> Our team
 								will get in touch with you soon.
 							</h1>
-
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

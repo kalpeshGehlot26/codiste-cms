@@ -445,7 +445,7 @@ const Services = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Blog</h1>
+					<h1 className="all-head">Blogs</h1>
 					<p className="all-p text-center">
 						Keep yourself updated with emerging technologies and new
 						developments in the industry with us.
@@ -461,7 +461,7 @@ const Services = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">Their Success Stories are our Valuable Feedback !!</h1>
+							<h1 className="all-head">Their Success Stories are our Valuable Feedback!</h1>
 						</div>
 
 						<div
@@ -645,15 +645,15 @@ const Services = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
+				<h1 className="all-head text-center mb-5">Getting in touch with Us!</h1>
 				<section>
-					<h1 className="all-head text-center mb-5">Getting in touch with Us</h1>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
 							<h1>
-								Fill out this form and give life <br />
-								to your vision!
+								Fill out this form and give your imagination into reality!
 							</h1>
 						</div>
+
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">
 								<h2 className="">

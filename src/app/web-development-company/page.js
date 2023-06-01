@@ -47,13 +47,12 @@ const WebDevelopmentCompany = () => {
 						<h1 className="all-head text-center">
 							Our Web Development Services{" "}
 						</h1>
-
 					</div>
 					<ServiceInnerItems serviceItems={webList} />
 				</section>
 			</div>
 
-			<div className="py-5">
+			<div className="py-5 bg-color mt-5">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head text-center">
@@ -61,7 +60,6 @@ const WebDevelopmentCompany = () => {
 							Company?
 						</h1>
 					</div>
-
 					<div className="row">
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
@@ -257,7 +255,7 @@ const WebDevelopmentCompany = () => {
 			<div className="py-5">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">FAQ</h1>
+						<h1 className="all-head">FAQs</h1>
 					</div>
 					<div
 						className="accordion accordion-flush"
@@ -530,7 +528,7 @@ const WebDevelopmentCompany = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Blog</h1>
+					<h1 className="all-head">Blogs</h1>
 					<p className="all-p text-center">
 						Read our Blogs here to get continuous insights and
 						updates on new technologies and development across the
@@ -733,7 +731,7 @@ const WebDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
-				<h1 className="all-head text-center mb-5">Drop us an Inquiry</h1>
+				<h1 className="all-head text-center mb-5">Drop us an Inquiry!</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">

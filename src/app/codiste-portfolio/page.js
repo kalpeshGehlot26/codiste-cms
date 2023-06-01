@@ -141,17 +141,14 @@ const CodistePortfolio = () => {
 
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
+					<h1 className="all-head text-center mb-5">Drop us a line!</h1>
 					<section>
 						<div className="row  d-flex align-items-center">
 							<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
 								<h1>
-									Ready to take your business to the next level?
+									Take a proactive approach to technical challenges.<br />Contact us today for efficient support and solutions!
 								</h1>
-								<h2 >
-									Fill out our lead form to contact our team and
-									learn how Codiste can help you drive growth and
-									success.
-								</h2>
+
 							</div>
 							<div className="col-lg-6 col-md-12 ">
 								<div className="need-block h-100">

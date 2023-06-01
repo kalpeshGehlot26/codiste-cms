@@ -36,7 +36,6 @@ const StartupDevelopmentCompany = () => {
 					</section>
 				</div>
 			</div>
-
 			<ClientSlider />
 
 			<div className="container container-fluid py-5">
@@ -45,7 +44,6 @@ const StartupDevelopmentCompany = () => {
 						<h1 className="all-head text-center">
 							Our Startup Development Services
 						</h1>
-
 					</div>
 					<div className="row ">
 						<div className=" col-md-6 col-sm-12 pb-3 ">
@@ -101,9 +99,7 @@ const StartupDevelopmentCompany = () => {
 						<h1 className="all-head text-center">
 							Why Choose Codiste For Startup Development Services?
 						</h1>
-
 					</div>
-
 					<div className="row">
 						<div className="col-12 col-md-6 text-center p-5 Crosssec-1">
 							<img
@@ -189,9 +185,6 @@ const StartupDevelopmentCompany = () => {
 				</div>
 			</div>
 
-
-
-
 			<div className="blackdiv px-3">
 				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>Let’s build your dream business together! </p>
@@ -200,6 +193,125 @@ const StartupDevelopmentCompany = () => {
 					</Link>
 				</div>
 			</div>
+
+
+
+			<div className="container container-fluid py-5 firstsec">
+				<h1 className="all-head text-center">
+					Startup Process Idea
+				</h1>
+				<ul class="processNew">
+					<li class="process__item">
+						<span class="process__number">1</span>
+						<span class="process__title">Analysis &amp; Strategy</span>
+						<span class="process__subtitle">codiste offers startup development services for
+							entrepreneurs with comprehensive support and guidance to
+							navigate each step towards success.</span>
+					</li>
+
+					<li class="process__item">
+						<span class="process__number">2</span>
+						<span class="process__title">Make an offer</span>
+						<span class="process__subtitle">We evaluate the feasibility and
+							marketability of the startup idea. We assess
+							the best and most efficient technologies
+							based on the market research, and validate
+							the technical requirements to ensure that
+							the solution remains efficient.</span>
+					</li>
+
+					<li class="process__item">
+						<span class="process__number">3</span>
+						<span class="process__title">Development</span>
+						<span class="process__subtitle">We start working on prototype platforms or
+							services before giving it a final go. With
+							this prototype we understand bug and patch
+							immunity to ensure a safe and secure end
+							product from scratch.</span>
+					</li>
+
+					<li class="process__item">
+						<span class="process__number">4</span>
+						<span class="process__title">Finalize</span>
+						<span class="process__subtitle">	When you launch and gain traction with your
+							audience, we help you with handling the
+							traffic and scale your systems accordingly.
+							Our extended tech support helps you in
+							dealing with system upgrades and customer
+							tech support.</span>
+					</li>
+				</ul>
+			</div>
+
+			{/* <div id="container" className="container container-fluid py-5 firstsec"
+			>
+				<h1 className="all-head text-center">
+					Startup Process Idea{" "}
+				</h1>
+				<p className="secondsec-p text-center">
+					codiste offers startup development services for
+					entrepreneurs with comprehensive support and guidance to
+					navigate each step towards success.
+				</p>
+
+				<ol className="process-chart">
+					<li>
+						<div>
+							<h2> Idea & Tech Validation</h2>
+							<p>
+								We evaluate the feasibility and
+								marketability of the startup idea. We assess
+								the best and most efficient technologies
+								based on the market research, and validate
+								the technical requirements to ensure that
+								the solution remains efficient.
+							</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<h2>Prototype Development</h2>
+							<p>
+								We start working on prototype platforms or
+								services before giving it a final go. With
+								this prototype we understand bug and patch
+								immunity to ensure a safe and secure end
+								product from scratch.
+							</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<h2>MVP Development</h2>
+							<p>
+								Once the prototype is tested and finalized,
+								we start building the final product to help
+								startups with funding and other crucial
+								processes like investor pooling. We develop
+								a minimum viable product and help you with
+								brainstorming for new creative ideas and
+								develop the end product simultaneously.
+							</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<h2>Post Launch Tech Support</h2>
+							<p>
+								When you launch and gain traction with your
+								audience, we help you with handling the
+								traffic and scale your systems accordingly.
+								Our extended tech support helps you in
+								dealing with system upgrades and customer
+								tech support.
+							</p>
+						</div>
+					</li>
+				</ol>
+			</div> */}
+
+
+
 
 			<div className="bg-color py-5 mt-5">
 				<div className="container container-fluid">
@@ -306,102 +418,6 @@ const StartupDevelopmentCompany = () => {
 				</div>
 			</div>
 
-
-			<div id="container" className="container container-fluid py-5 firstsec"
-			>
-				<h1 className="all-head text-center">
-					Startup Process Idea{" "}
-				</h1>
-				<p className="secondsec-p text-center">
-					codiste offers startup development services for
-					entrepreneurs with comprehensive support and guidance to
-					navigate each step towards success.
-				</p>
-
-				<ol className="process-chart">
-					<li>
-						<div>
-							<h2> Idea & Tech Validation</h2>
-							<p>
-								We evaluate the feasibility and
-								marketability of the startup idea. We assess
-								the best and most efficient technologies
-								based on the market research, and validate
-								the technical requirements to ensure that
-								the solution remains efficient.
-							</p>
-						</div>
-					</li>
-					<li>
-						<div>
-							<h2>Prototype Development</h2>
-							<p>
-								We start working on prototype platforms or
-								services before giving it a final go. With
-								this prototype we understand bug and patch
-								immunity to ensure a safe and secure end
-								product from scratch.
-							</p>
-						</div>
-					</li>
-					<li>
-						<div>
-							<h2>MVP Development</h2>
-							<p>
-								Once the prototype is tested and finalized,
-								we start building the final product to help
-								startups with funding and other crucial
-								processes like investor pooling. We develop
-								a minimum viable product and help you with
-								brainstorming for new creative ideas and
-								develop the end product simultaneously.
-							</p>
-						</div>
-					</li>
-					<li>
-						<div>
-							<h2>Post Launch Tech Support</h2>
-							<p>
-								When you launch and gain traction with your
-								audience, we help you with handling the
-								traffic and scale your systems accordingly.
-								Our extended tech support helps you in
-								dealing with system upgrades and customer
-								tech support.
-							</p>
-						</div>
-					</li>
-				</ol>
-			</div>
-
-			{/* <div className="container container-fluid py-5 firstsec">
-				<ul class="processNew">
-					<li class="process__item">
-						<span class="process__number">1</span>
-						<span class="process__title">Analysis &amp; Strategy</span>
-						<span class="process__subtitle">We analyse your problem and develop a strategy</span>
-					</li>
-
-					<li class="process__item">
-						<span class="process__number">2</span>
-						<span class="process__title">Make an offer</span>
-						<span class="process__subtitle">We analyse your problem and develop a strategy</span>
-					</li>
-
-					<li class="process__item">
-						<span class="process__number">3</span>
-						<span class="process__title">Development</span>
-						<span class="process__subtitle">We analyse your problem and develop a strategy</span>
-					</li>
-
-					<li class="process__item">
-						<span class="process__number">4</span>
-						<span class="process__title">Finalize</span>
-						<span class="process__subtitle">We analyse your problem and develop a strategy</span>
-					</li>
-				</ul>
-			</div> */}
-
 			<div className="py-5">
 				<div className="container container-fluid">
 					<div
@@ -409,7 +425,7 @@ const StartupDevelopmentCompany = () => {
 						id="accordionFlushExample"
 					>
 						<div className="">
-							<h1 className="all-head text-center">FAQ</h1>
+							<h1 className="all-head text-center">FAQs</h1>
 						</div>
 						<div className="accordion-item">
 							<h2
@@ -656,7 +672,7 @@ const StartupDevelopmentCompany = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Blog</h1>
+					<h1 className="all-head">Blogs</h1>
 					<p className="all-p text-center">
 						Knowledge will never be the less, so keep exploring our
 						blogs.
@@ -858,14 +874,14 @@ const StartupDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
-				<h1 className="all-head text-center mb-5">Get in touch with
-					us here.</h1>
+				<h1 className="all-head text-center mb-5">Get in touch with Us Now!
+				</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
 							<h1 className="">
 								Are you looking for a cost-effective startup
-								software development company?<br />Well, the answer is no more!
+								software development company?<br />Well, the question is no more!
 							</h1>
 
 						</div>

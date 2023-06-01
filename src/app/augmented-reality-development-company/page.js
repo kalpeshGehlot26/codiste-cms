@@ -320,7 +320,7 @@ const ARVRDevelopmentCompany = () => {
 			<div className="py-5">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">FAQ</h1>
+						<h1 className="all-head">FAQs</h1>
 					</div>
 					<div
 						className="accordion accordion-flush"
@@ -603,7 +603,7 @@ const ARVRDevelopmentCompany = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Blog</h1>
+					<h1 className="all-head">Blogs</h1>
 					<p className="all-p text-center">
 						Explore more about immersive technologies and AR/VR
 						development with our blogs.{" "}
@@ -794,11 +794,11 @@ const ARVRDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
-				<h1 className="all-head text-center mb-5">Get Ahold of Us</h1>
+				<h1 className="all-head text-center mb-5">Get Ahold of Us!</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
-							<h1>Give life to your AR/VR vision with Us!<br />Fill out the form Now!</h1>
+							<h1>Give life to your AR/VR vision with Us!<br />Fill Out the form Now!</h1>
 							<h2 className="">
 
 							</h2>

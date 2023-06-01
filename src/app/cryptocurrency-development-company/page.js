@@ -190,7 +190,7 @@ const CryptoDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
-							<h1 className="all-head">Technology Stack</h1>
+							<h1 className="all-head text-center">Technology Stack</h1>
 							<p className="all-p me-5 text-center">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
@@ -287,7 +287,7 @@ const CryptoDevelopmentCompany = () => {
 			<div className="py-5">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">FAQ</h1>
+						<h1 className="all-head">FAQs</h1>
 					</div>
 					<div
 						className="accordion accordion-flush"
@@ -544,7 +544,7 @@ const CryptoDevelopmentCompany = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Blog</h1>
+					<h1 className="all-head">Blogs</h1>
 					<p className="all-p text-center">
 						Knowledge will never be the less, so keep exploring our
 						blogs.
@@ -733,12 +733,12 @@ const CryptoDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
-				<h1 className="all-head text-center mb-5">Place a support inquiry</h1>
+				<h1 className="all-head text-center mb-5">Place a Support Inquiry!</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
 							<h1>
-								Contact us for reliable and trustworthy cryptocurrency services.
+								Contact us for reliable and trustworthy cryptocurrency Services.
 							</h1>
 
 						</div>

@@ -66,7 +66,7 @@ const CyphaPortfolio = () => {
 							<img
 								className="img-fluid"
 								style={{ width: "auto", padding: "20px" }}
-								src="/assets/images/case-cypha/Problem_06.png"
+								src="/assets/images/case-cypha/Client Requirement.png"
 							/>
 						</div>
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">
@@ -471,14 +471,14 @@ const CyphaPortfolio = () => {
 					<section>
 						<div>
 							<h1 className="all-head text-center mb-5">
-								Reach out to us
+								Reach out to Us!
 							</h1>
 						</div>
 						<div className="row  d-flex align-items-center">
 							<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
 								<h1>
 									Get expert advice on adopting and integrating advanced technologies.<br />
-									Stay compliant, stay ahead.
+									Stay compliant, stay ahead!
 								</h1>
 							</div>
 							<div className="col-lg-6 col-md-12 ">

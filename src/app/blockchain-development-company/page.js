@@ -200,7 +200,7 @@ const BlockChainDevelopment = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
-							<h1 className="all-head">Technology Stack</h1>
+							<h1 className="all-head text-center">Technology Stack</h1>
 							<p className="all-p me-5 text-center">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
@@ -312,7 +312,7 @@ const BlockChainDevelopment = () => {
 			<div className="py-5">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">FAQ</h1>
+						<h1 className="all-head">FAQs</h1>
 					</div>
 					<div
 						className="accordion accordion-flush"
@@ -564,10 +564,7 @@ const BlockChainDevelopment = () => {
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-						<p className="text-center all-p">
-							Hang on! We have our resource pack. You would want
-							to take advantage of them!{" "}
-						</p>
+
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec">
@@ -613,7 +610,7 @@ const BlockChainDevelopment = () => {
 			</div>
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Blog</h1>
+					<h1 className="all-head">Blogs</h1>
 					<p className="all-p text-center">
 						Knowledge will never be the less, so keep exploring our
 						blogs.
