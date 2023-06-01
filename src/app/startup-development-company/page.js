@@ -196,14 +196,19 @@ const StartupDevelopmentCompany = () => {
 
 
 
-			<div className="container container-fluid py-5 firstsec">
+			<div className="container container-fluid py-5 ulnodisc">
 				<h1 className="all-head text-center">
 					Startup Process Idea
 				</h1>
+				<p className="secondsec-p text-center">
+					codiste offers startup development services for
+					entrepreneurs with comprehensive support and guidance to
+					navigate each step towards success.
+				</p>
 				<ul class="processNew">
 					<li class="process__item">
 						<span class="process__number">1</span>
-						<span class="process__title">Analysis &amp; Strategy</span>
+						<span class="process__title">Idea & Tech<br />Validation</span>
 						<span class="process__subtitle">codiste offers startup development services for
 							entrepreneurs with comprehensive support and guidance to
 							navigate each step towards success.</span>
@@ -211,7 +216,7 @@ const StartupDevelopmentCompany = () => {
 
 					<li class="process__item">
 						<span class="process__number">2</span>
-						<span class="process__title">Make an offer</span>
+						<span class="process__title">Prototype <br />Development</span>
 						<span class="process__subtitle">We evaluate the feasibility and
 							marketability of the startup idea. We assess
 							the best and most efficient technologies
@@ -222,7 +227,7 @@ const StartupDevelopmentCompany = () => {
 
 					<li class="process__item">
 						<span class="process__number">3</span>
-						<span class="process__title">Development</span>
+						<span class="process__title">MVP<br />Development</span>
 						<span class="process__subtitle">We start working on prototype platforms or
 							services before giving it a final go. With
 							this prototype we understand bug and patch
@@ -232,7 +237,7 @@ const StartupDevelopmentCompany = () => {
 
 					<li class="process__item">
 						<span class="process__number">4</span>
-						<span class="process__title">Finalize</span>
+						<span class="process__title">Launch Tech<br />Support</span>
 						<span class="process__subtitle">	When you launch and gain traction with your
 							audience, we help you with handling the
 							traffic and scale your systems accordingly.

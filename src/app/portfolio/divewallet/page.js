@@ -1,6 +1,7 @@
 import CaseStudyForm from "@/app/component/caseStudyForm/caseStudyForm";
 import React from "react";
 import Link from "next/link";
+
 export const metadata = {
 	title: "DiveWallet | Crypto Development services | Codiste",
 	description: "Codiste develops a highly-secured crypto wallet - ‘Divewallet’ that supports well known EVM-based blockchains such as Ethereum, Binance, Polygon, and Solana."
@@ -492,6 +493,7 @@ const DivewalletPortfolio = () => {
 					</section>
 				</div>
 			</div>
+
 
 			<div className="container container-fluid py-4">
 				<section>

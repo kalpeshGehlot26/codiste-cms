@@ -2,6 +2,7 @@ import React from "react";
 import EventSlider from "../component/career/eventSlider";
 import EmployeeSlider from "../component/career/employeeSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
+// import Diwalletslider from "../component/career/diwalletcaseSlider";
 
 export const metadata = {
 	title: "Explore Career Opportunities with Blockchain Development Company | Codiste",
@@ -138,23 +139,28 @@ const Career = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid  firstsec">
-				<h1 className="all-head text-center">
-					Codiste Reflections Through the Lens!
-				</h1>
-				<EventSlider />
-			</div>
-			<div className="py-5">
+			<div className="bg-color py-5">
 				<div className="container container-fluid  firstsec">
 					<h1 className="all-head text-center">
-						Our People, Our Success: The Codiste Team Speaks Out
+						Codiste Reflections Through the Lens!
 					</h1>
-					<EmployeeSlider />
+					<EventSlider />
 				</div>
 			</div>
 
+			{/* <div className="bg-color py-5">
+				<div className="container container-fluid  firstsec">
+					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+						<h1 className="all-head text-center">
+							Witness How We Drive Soul in Ideas!
+						</h1>
+					</div>
+					<Diwalletslider />
+				</div>
+			</div> */}
 
-			<div className="firstsec bg-color">
+
+			<div className="firstsec">
 				<div className="container container-fluid mb-5  py-5">
 					<div className="mb-5">
 						<h1 className="all-head text-center">Discover Your Dream Job: Current Openings at Codiste</h1>
@@ -190,7 +196,7 @@ const Career = () => {
 
 							</div>
 						</div>
-						<div className="col-lg-4 col-md-6 col-12 pb-3 ">
+						{/* <div className="col-lg-4 col-md-6 col-12 pb-3 ">
 							<div className="service-block p-4 h-100 d-flex flex-column justify-content-between">
 								<div>
 									<h3 className="secondsec-head">
@@ -206,13 +212,24 @@ const Career = () => {
 								</div>
 
 							</div>
-						</div>
+						</div> */}
 					</div>
+				</div>
+			</div>
+			<div>
+			</div>
+
+			<div className="py-5 bg-color">
+				<div className="container container-fluid">
+					<h1 className="all-head text-center">
+						Our People, Our Success: The Codiste Team Speaks Out
+					</h1>
+					<EmployeeSlider />
 				</div>
 			</div>
 
 			<div className="container container-fluid py-lg-5 py-0" id="apply-now">
-				<h1 className="text-center all-head mb-5">	Are you a professional techie?</h1>
+				<h1 className="text-center all-head mb-5">Are you a professional techie?</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec" >

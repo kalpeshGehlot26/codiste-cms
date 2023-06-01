@@ -1072,7 +1072,7 @@ ul.tech-style img:hover {
    position: absolute;
    top: -15px;
    right: 24px;
-   font-size: 8em;
+   font-size: 100px;
    font-weight: 700;
    color: #FFC2C2;
    opacity: 0.19;
@@ -1422,10 +1422,6 @@ margin-bottom: 25px;
 
 
 
-
-
-
-
 *::before,
 *::after {
   box-sizing: border-box;
@@ -1454,11 +1450,11 @@ margin-bottom: 25px;
   color: #FF1F23;
 }
 .process__number {
-  font-size: 90px;
+  font-size: 80px;
   -webkit-text-stroke: 1px #FF1F23;
   display: block;
   color: transparent;
-  font-family: "Roboto Condensed";
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   transition: 0.4s ease-in-out;
 }
@@ -1467,24 +1463,49 @@ margin-bottom: 25px;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   letter-spacing: 1.5px;
-  font-size: 35px;
+  font-size: 30px;
   color: #717173;
   text-transform: uppercase;
-  margin-top: 30px;
-  
+  margin-top: 10px;
+}
+.process__item .process__title:hover{
+   transform: scale(1.1);
+   opacity: 1;
 }
 .process__subtitle {
   display: block;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: #717173;
-  margin-top: 30px;
+  margin-top: 10px;
   line-height: 1.5;
 }
+.process__item .process__subtitle:hover{
+   transform: scale(1.1);
+   opacity: 1;
+}
+.ulnodisc ul{
+   list-style: none !important;
+}
 
+
+@media (max-width: 576px){
+   .process__item{
+      padding: 50 0;
+   }
+   
+}@media (max-width: 1199px){
+   .process__item:hover{
+      box-shadow: #01C638 !important;
+      border: 1px solid #ededed;
+      padding: 50 0px;
+   }
+   
+}
 @media (min-width: 768px) {
   .processNew {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
   }
   .process__item {
     width: 49%;
@@ -1494,6 +1515,7 @@ margin-bottom: 25px;
 @media (min-width: 1200px) {
   .processNew {
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -1504,15 +1526,25 @@ margin-bottom: 25px;
     content: "";
     width: 1px;
     height: 75%;
-    background: #8c8c8c;
+    background: #3a3636;
     position: absolute;
     right: 0;
     top: 50%;
-    opacity: 0.2;
+    opacity: 0.3;
     transform: translateY(-50%);
   }
 }
 
+@media (min-width: 320px) {
+   .process__number {
+      font-size: calc(3.75rem + ((1vw - 3.2px) * 1.25));
+     min-height: 0vw;
+   }
+   .process__title {
+      font-size: calc(1.375rem + ((1vw - 3.2px) * 0.5));
+      min-height: 0vw;
+    }
+ }
 
 
 

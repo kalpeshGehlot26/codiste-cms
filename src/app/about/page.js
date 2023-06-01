@@ -575,7 +575,7 @@ const About = () => {
 				</div>
 			</div>
 
-			<div className="bg-color firstsec">
+			<div className="bg-color">
 				<div className="container container-fluid  py-5">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -1164,9 +1164,9 @@ const About = () => {
 				</div>
 			</div>
 
-			<div className=" firstsec">
+			<div className="">
 				<div className="container container-fluid py-5">
-					<h1 className="all-head mb-5 text-center">Get in touch with us</h1>
+					<h1 className="all-head mb-5 text-center">Get in touch with Us!</h1>
 					<section>
 						<div className="row  d-flex align-items-center">
 							<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
