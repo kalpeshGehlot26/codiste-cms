@@ -1,7 +1,6 @@
 import React from "react";
 import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
-import arServiceBlogs from "../data/services/service-blogs/arServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
@@ -13,6 +12,9 @@ export const metadata = {
 	description:
 		"Using ARtoolkit, Google ARCore, Apple AR Kit, and Web3 apps, we deliver innovative and immersive virtual reality and AR development solutions for enterprises.",
 };
+
+const limit = 3
+const category = 55
 
 const ARVRDevelopmentCompany = () => {
 	return (
@@ -609,7 +611,7 @@ const ARVRDevelopmentCompany = () => {
 						development with our blogs.{" "}
 					</p>
 				</div>
-				<AllServiceBlogSlider items={arServiceBlogs} />
+				<AllServiceBlogSlider limit={limit} category={category} />
 				<div className="d-flex align-items-center justify-content-center mt-5">
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
@@ -808,7 +810,7 @@ const ARVRDevelopmentCompany = () => {
 								<h2 className="">
 									How Can We <b>Help?</b>{" "}
 								</h2>
-								<CaseStudyForm />
+								<CaseStudyForm text="Discuss your Project" />
 							</div>
 						</div>
 					</div>

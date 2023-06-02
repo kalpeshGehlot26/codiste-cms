@@ -1,7 +1,6 @@
 import React from "react";
 import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
-import cryptoServiceBlogs from "../data/services/service-blogs/cryptoServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
@@ -13,6 +12,9 @@ export const metadata = {
 	description:
 		"As a leading cryptocurrency services provider, we're specialized in delivering blockchain, hyper ledger, and smart contract solutions that guarantee a seamless user experience in crypto trading and investment.",
 };
+
+const limit = 3
+const category = 54
 
 const CryptoDevelopmentCompany = () => {
 	return (
@@ -550,7 +552,7 @@ const CryptoDevelopmentCompany = () => {
 						blogs.
 					</p>
 				</div>
-				<AllServiceBlogSlider items={cryptoServiceBlogs} />
+				<AllServiceBlogSlider limit={limit} category={category} />
 				<div className="d-flex align-items-center justify-content-center mt-5">
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
@@ -747,7 +749,7 @@ const CryptoDevelopmentCompany = () => {
 								<h2 className="">
 									How Can We <b>Help?</b>{" "}
 								</h2>
-								<CaseStudyForm />
+								<CaseStudyForm text="Collaborate on Your Project" />
 							</div>
 						</div>
 					</div>

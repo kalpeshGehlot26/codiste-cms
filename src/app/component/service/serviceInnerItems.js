@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 
 const ServiceInnerItems = ({ serviceItems }) => {
-	const [serviceCount, setServiceCount] = useState(3);
+	const [serviceCount, setServiceCount] = useState(6);
 	const [totalServiceCount, setTotalServiceCount] = useState(null);
 
 	useEffect(() => {
@@ -36,7 +36,7 @@ const ServiceInnerItems = ({ serviceItems }) => {
 					<button
 						className="book-btn mt-3 mb-3"
 						onClick={() =>
-							setServiceCount((prevState) => prevState + 3)
+							setServiceCount((prevState) => prevState + 6)
 						}
 					>
 						Show more

@@ -1,7 +1,6 @@
 import React from "react";
 import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
-import blockChainServiceBlogs from "../data/services/service-blogs/blockChainServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
@@ -13,6 +12,9 @@ export const metadata = {
 	description:
 		"Our comprehensive Web3 blockchain development services to streamlined integrations of decentralized technological infrastructure in payments, applications, hyper ledgers, supply chains, and more..",
 };
+
+const limit = 3
+const category = 47
 
 const BlockChainDevelopment = () => {
 	return (
@@ -616,7 +618,7 @@ const BlockChainDevelopment = () => {
 						blogs.
 					</p>
 				</div>
-				<AllServiceBlogSlider items={blockChainServiceBlogs} />
+				<AllServiceBlogSlider limit={limit} category={category} />
 				<div className="d-flex align-items-center justify-content-center mt-5">
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
@@ -821,7 +823,7 @@ const BlockChainDevelopment = () => {
 								<h2 className="">
 									How Can We <b>Help?</b>{" "}
 								</h2>
-								<CaseStudyForm />
+								<CaseStudyForm text="Start a Conversation" />
 							</div>
 						</div>
 					</div>

@@ -508,7 +508,7 @@ const BornfirePortfolio = () => {
 								<h2 className="">
 									How Can We <b>Help?</b>{" "}
 								</h2>
-								<CaseStudyForm />
+								<CaseStudyForm text="Collaborate on Your Project" />
 							</div>
 						</div>
 					</div>

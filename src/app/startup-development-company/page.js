@@ -1,7 +1,6 @@
 import React from "react";
 import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
-import startupServiceBlogs from "../data/services/service-blogs/startupServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
 import jsonData from "../data/schema";
@@ -11,6 +10,9 @@ export const metadata = {
 	description:
 		"Codiste offers startup development services for entrepreneurs with comprehensive tech-support and guidance to navigate each step towards success.",
 };
+
+const limit = 3;
+const category = 45;
 
 const StartupDevelopmentCompany = () => {
 	return (
@@ -683,7 +685,7 @@ const StartupDevelopmentCompany = () => {
 						blogs.
 					</p>
 				</div>
-				<AllServiceBlogSlider items={startupServiceBlogs} />
+				<AllServiceBlogSlider limit={limit} category={category} />
 				<div className="d-flex align-items-center justify-content-center mt-5">
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
@@ -895,7 +897,7 @@ const StartupDevelopmentCompany = () => {
 								<h2 className="">
 									How Can We <b>Help?</b>{" "}
 								</h2>
-								<CaseStudyForm />
+								<CaseStudyForm text="Contact us" />
 							</div>
 						</div>
 					</div>

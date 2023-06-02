@@ -244,7 +244,7 @@ const Career = () => {
 								<h2 className="">
 									Apply for your dream job
 								</h2>
-								<CaseStudyForm />
+								<CaseStudyForm text="Contact us" />
 							</div>
 						</div>
 					</div>

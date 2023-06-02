@@ -310,7 +310,7 @@ const CounterTenPortfolio = () => {
             <div className="col-lg-6 col-md-12 ">
               <div className="need-block h-100">
                 <h2 className="">How Can We <b>Help?</b> </h2>
-                <CaseStudyForm />
+                <CaseStudyForm text="Let's Discuss" />
 
               </div>
             </div>

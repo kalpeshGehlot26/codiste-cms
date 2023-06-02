@@ -8,9 +8,11 @@ import Link from "next/link";
 import CaseStudyForm from "../caseStudyForm/caseStudyForm";
 import serviceItems from "../../data/serviceItems";
 import AllServiceBlogSlider from "../BlogSlider/allServiceBlogSlider";
-import homeBlogList from "@/app/data/homeBlogList";
 import "../../../style.css";
 import "../../../external.css";
+
+const limit = 5;
+const category = "47,43,55,6,57";
 
 const HomePage = () => {
 	const [serviceCount, setServiceCount] = useState(6);
@@ -160,7 +162,7 @@ const HomePage = () => {
 						Keep yourself updated with emerging technologies and new developments in the industry with us.
 					</p>
 				</div>
-				<AllServiceBlogSlider items={homeBlogList} />
+				<AllServiceBlogSlider limit={limit} category={category} />
 				<div className="d-flex align-items-center justify-content-center mt-5">
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
@@ -242,7 +244,7 @@ const HomePage = () => {
 									<h2 className="">
 										How Can We <b>Help?</b>{" "}
 									</h2>
-									<CaseStudyForm />
+									<CaseStudyForm text="Start a Conversation" />
 								</div>
 							</div>
 						</div>

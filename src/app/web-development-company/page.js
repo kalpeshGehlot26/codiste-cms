@@ -1,7 +1,6 @@
 import React from "react";
 import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
-import webServiceBlogs from "../data/services/service-blogs/webServiceBlogs copy";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
@@ -13,6 +12,9 @@ export const metadata = {
 	description:
 		"Codiste web development services offer website development support and technical assistance to build secure, scalable, stunning, and robust web applications.",
 };
+
+const limit = 3;
+const category = 3;
 
 const WebDevelopmentCompany = () => {
 	return (
@@ -535,7 +537,7 @@ const WebDevelopmentCompany = () => {
 						globe.{" "}
 					</p>
 				</div>
-				<AllServiceBlogSlider items={webServiceBlogs} />
+				<AllServiceBlogSlider limit={limit} category={category} />
 				<div className="d-flex align-items-center justify-content-center mt-5">
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
@@ -747,7 +749,7 @@ const WebDevelopmentCompany = () => {
 								<h2 className="">
 									How Can We <b>Help?</b>{" "}
 								</h2>
-								<CaseStudyForm />
+								<CaseStudyForm text="Discuss your Project" />
 							</div>
 						</div>
 					</div>

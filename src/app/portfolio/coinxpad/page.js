@@ -666,7 +666,7 @@ const CoinxpadPortfolio = () => {
 								<h2 className="">
 									How Can We <b>Help?</b>{" "}
 								</h2>
-								<CaseStudyForm />
+								<CaseStudyForm text="Discuss your Project" />
 							</div>
 						</div>
 					</div>

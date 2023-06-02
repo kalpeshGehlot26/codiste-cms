@@ -5,6 +5,7 @@ import "../external.css"
 import { Inter } from "next/font/google";
 import Header from "./layouts/header";
 import Footer from "./layouts/footer";
+import Analytics from './component/Analytics';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +24,9 @@ export default function RootLayout({ children }) {
 			</head>
 			<body className={inter.className}>
 				<Header />
-					{children}
+					<Analytics>
+						{children}
+					</Analytics>
 				<Footer />
 				<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 			</body>

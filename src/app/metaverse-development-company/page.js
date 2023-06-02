@@ -1,7 +1,6 @@
 import React from "react";
 import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
-import metaServiceBlogs from "../data/services/service-blogs/metaVerseServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
@@ -13,6 +12,9 @@ export const metadata = {
 	description:
 		"Explore our metaverse development services and embark on a journey into the decentralized digital universe. Embrace the power of the Metaverse services now!!",
 };
+
+const limit = 3;
+const category = 6;
 
 const MetaverseDevelopmentCompany = () => {
 	return (
@@ -513,7 +515,7 @@ const MetaverseDevelopmentCompany = () => {
 						development.
 					</p>
 				</div>
-				<AllServiceBlogSlider items={metaServiceBlogs} />
+				<AllServiceBlogSlider limit={limit} category={category} />
 				<div className="d-flex align-items-center justify-content-center mt-5">
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
@@ -704,7 +706,7 @@ const MetaverseDevelopmentCompany = () => {
 								<h2 className="">
 									How Can We <b>Help?</b>{" "}
 								</h2>
-								<CaseStudyForm />
+								<CaseStudyForm text="Collaborate on Your Project" />
 							</div>
 						</div>
 					</div>

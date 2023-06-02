@@ -1,7 +1,6 @@
 import React from "react";
 import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
-import mlServiceBlogs from "../data/services/service-blogs/mlServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
@@ -14,6 +13,9 @@ export const metadata = {
 	description:
 		"Codiste machine learning development team helps you leverage the power of machine learning to boost your organizational growth and efficiency.",
 };
+
+const limit = 3;
+const category = 56;
 
 const MLDevelopmentCompany = () => {
 	return (
@@ -550,7 +552,7 @@ const MLDevelopmentCompany = () => {
 						blogs.
 					</p>
 				</div>
-				<AllServiceBlogSlider items={mlServiceBlogs} />
+				<AllServiceBlogSlider limit={limit} category={category} />
 				<div className="d-flex align-items-center justify-content-center mt-5">
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
@@ -750,7 +752,7 @@ const MLDevelopmentCompany = () => {
 								<h2 className="">
 									How Can We <b>Help?</b>{" "}
 								</h2>
-								<CaseStudyForm />
+								<CaseStudyForm text="Start a Conversation" />
 							</div>
 						</div>
 					</div>

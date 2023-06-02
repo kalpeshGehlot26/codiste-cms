@@ -1,7 +1,6 @@
 import React from "react";
 import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
-import aiServiceBlogs from "../data/services/service-blogs/aiServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
@@ -13,6 +12,9 @@ export const metadata = {
 	description:
 		"Our Artificial Intelligence development services offer customized development for automating software with modern AI technologies. We build automation software for businesses to get enhanced operational efficiency.",
 };
+
+const limit = 3
+const category = 43
 
 const AIDevelopmentCompany = () => {
 	return (
@@ -519,7 +521,7 @@ const AIDevelopmentCompany = () => {
 						technological developments in space with our blogs.
 					</p>
 				</div>
-				<AllServiceBlogSlider items={aiServiceBlogs} />
+				<AllServiceBlogSlider limit={limit} category={category}  />
 				<div className="d-flex align-items-center justify-content-center mt-5">
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
@@ -729,7 +731,7 @@ const AIDevelopmentCompany = () => {
 								<h2 className="">
 									How Can We <b>Help?</b>{" "}
 								</h2>
-								<CaseStudyForm />
+								<CaseStudyForm text="Contact Now" />
 							</div>
 						</div>
 					</div>

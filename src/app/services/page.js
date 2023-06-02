@@ -5,7 +5,6 @@ import TechStack from "../component/service/techStack";
 import ServiceList from "../component/service/serviceItems";
 import Industries from "../component/service/industries";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
-import allServiceBlogs from "../data/services/service-blogs/allServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import mainServiceList from "../data/services/mainServiceList";
 import Link from "next/link";
@@ -17,14 +16,15 @@ const metadata = {
 		"We are a leading software development company offering a innovative tech and development support ecosystem. We caters immersive solutions to all business across diverse sectors.",
 };
 
+const limit = 4;
+const category = "47,43,55,6,57";
+
 const Services = () => {
 	const [serviceCount, setServiceCount] = useState(6);
 	const [totalServiceCount, setTotalServiceCount] = useState(null);
 
 	return (
 		<div>
-
-
 			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>
@@ -451,7 +451,7 @@ const Services = () => {
 						developments in the industry with us.
 					</p>
 				</div>
-				<AllServiceBlogSlider items={allServiceBlogs} />
+				<AllServiceBlogSlider limit={limit} category={category} />
 				<div className="d-flex align-items-center justify-content-center mt-5">
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
@@ -659,7 +659,7 @@ const Services = () => {
 								<h2 className="">
 									How Can We <b>Help?</b>{" "}
 								</h2>
-								<CaseStudyForm />
+								<CaseStudyForm text="Contact us" />
 							</div>
 						</div>
 					</div>

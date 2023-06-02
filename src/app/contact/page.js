@@ -27,7 +27,7 @@ const page = () => {
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap align-items-center justify-content-between">
 								<div className="col-12 col-lg-6 order-2 order-lg-1">
 									<div className="mx-5">
-										<CaseStudyForm />
+										<CaseStudyForm text="Contact Now" />
 									</div>
 								</div>
 								<div className="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0">

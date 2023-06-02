@@ -1,7 +1,6 @@
 import React from "react";
 import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
-import nftServiceBlogs from "../data/services/service-blogs/nftServiceBlogs";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
@@ -13,6 +12,9 @@ export const metadata = {
 	description:
 		"We are a NFT development company providing end-to-end NFT development, including digital NFTs , NFT marketplaces , NFT gamification and Web3 Identity Platforms.",
 };
+
+const limit = 3;
+const category = 57;
 
 const NFTDevelopment = () => {
 	return (
@@ -470,7 +472,7 @@ const NFTDevelopment = () => {
 						blogs.
 					</p>
 				</div>
-				<AllServiceBlogSlider items={nftServiceBlogs} />
+				<AllServiceBlogSlider limit={limit} category={category} />
 				<div className="d-flex align-items-center justify-content-center mt-5">
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
@@ -674,7 +676,7 @@ const NFTDevelopment = () => {
 								<h2 className="">
 									How Can We <b>Help?</b>{" "}
 								</h2>
-								<CaseStudyForm />
+								<CaseStudyForm text="Let's Discuss" />
 							</div>
 						</div>
 					</div>

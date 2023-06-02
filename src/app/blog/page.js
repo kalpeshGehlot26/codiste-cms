@@ -66,7 +66,7 @@ const Blogs = () => {
 									<h2 className="">
 										How Can We <b>Help?</b>{" "}
 									</h2>
-									<CaseStudyForm />
+									<CaseStudyForm text="Let's Discuss" />
 								</div>
 							</div>
 						</div>
