@@ -6,13 +6,13 @@ const caseStudyItems = [
         className: "casediwallet-block"
     },
     {
-        title: "Tankpad – Binance chain Mintingankpad – Binance chain Minting",
+        title: "Tankpad – Binance chain Minting",
         url: "/portfolio/tankpad-binance-chain-minting/",
         image: "assets/images/Casestudy-img/Tankpad 1.png",
         className: "tankpad-block"
     },
     {
-        title: "CounterTen – solana Marketplace",
+        title: "CounterTen – Solana Marketplace",
         url: "/portfolio/counterten-solana-marketplace/",
         image: "assets/images/Casestudy-img/counterten 1.png",
         className: "counterten-block"

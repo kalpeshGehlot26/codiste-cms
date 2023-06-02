@@ -385,8 +385,8 @@ const Services = () => {
 				</div>
 			</div>
 
-			<div className=" py-5 bg-color">
-				<div className="container container-fluid py-5">
+			<div className="bg-color py-5">
+				<div className="container container-fluid ">
 					<div className="text-center">
 						<h2 className="all-head mb-5">
 							Innovation in Action: Real-World Case Studies from
@@ -394,7 +394,7 @@ const Services = () => {
 						</h2>
 					</div>
 					<div className="container container-fluid py-5">
-						<div className="firstsec row g-5">
+						<div className="row g-5">
 							<div className="col-lg-4 col-md-6 col-sm-12">
 								<div className="casediwallet-block ">
 									<div className=" case-position">

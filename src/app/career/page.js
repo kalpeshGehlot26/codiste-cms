@@ -2,7 +2,11 @@ import React from "react";
 import EventSlider from "../component/career/eventSlider";
 import EmployeeSlider from "../component/career/employeeSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
+<<<<<<< Updated upstream
 import DiveWalletSlider from "../component/career/diwalletcaseSlider";
+=======
+// import Diwalletslider from "../component/career/diwalletcaseSlider";
+>>>>>>> Stashed changes
 
 export const metadata = {
 	title: "Explore Career Opportunities with Blockchain Development Company | Codiste",
@@ -148,7 +152,7 @@ const Career = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5">
+			{/* <div className="bg-color py-5">
 				<div className="container container-fluid  firstsec">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head text-center">
@@ -157,7 +161,7 @@ const Career = () => {
 					</div>
 					<DiveWalletSlider />
 				</div>
-			</div>
+			</div> */}
 
 
 			<div className="firstsec">

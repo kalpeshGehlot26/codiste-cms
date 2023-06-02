@@ -175,7 +175,7 @@ const HomePage = () => {
 						<h2 className="all-head mb-4">Innovation in Action: Real-World Case Studies from Codiste</h2>
 					</div>
 					<div className="container container-fluid py-5">
-						<div className=" firstsec row g-5">
+						<div className="row g-5">
 							<div className="col-lg-4 col-md-6 col-sm-12">
 								<div className="casediwallet-block ">
 									<div className=" case-position">

@@ -2121,6 +2121,11 @@ color: #000 !important;
    line-height: 24px;
    letter-spacing: 0.05em;
    text-align: left;
+   text-decoration: none;
+}
+
+.case-pera:hover{
+   color: #FD145A;
 }
 
 

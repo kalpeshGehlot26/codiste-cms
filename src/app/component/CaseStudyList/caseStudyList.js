@@ -14,7 +14,7 @@ const CaseStudyList = () => {
 	return (
 		<Fragment>
 			<div className="container container-fluid py-5">
-				<div className="firstsec row g-5">
+				<div className="row g-5">
 					{caseStudyItems?.map((item, index) => {
 						if (caseStudyCount < index + 1) return;
 						return (

@@ -10,7 +10,7 @@ export const metadata = {
 		"Explore our portfolio and see what we delivered to figure out how it helped drive forward the development of tech and software solutions for various industries.",
 };
 
-const CodistePortfolio = () => {	
+const CodistePortfolio = () => {
 	return (
 		<div>
 
@@ -35,18 +35,21 @@ const CodistePortfolio = () => {
 					</section>
 				</div>
 			</div>
-
 			<ClientSlider />
 
-			<div className="container container-fluid py-5" id="caseStudyList">
-				<div className="text-center">
-					<h2 className="all-head mb-5">
-						Innovation in Action: Real-World Case Studies from
-						Codiste
-					</h2>
+			<div className="bg-color py-5 mt-5">
+				<div className="container container-fluid " id="caseStudyList">
+					<div className="text-center">
+						<h2 className="all-head mb-5">
+							Innovation in Action: Real-World Case Studies from
+							Codiste
+						</h2>
+					</div>
+					<CaseStudyList />
 				</div>
-				<CaseStudyList/>
 			</div>
+
+
 
 			<div className="container container-fluid py-5">
 				<h2 className="text-center all-head">Let’s Get Started </h2>
