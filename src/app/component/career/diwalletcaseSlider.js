@@ -2,7 +2,7 @@
 import React from "react";
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import diwalletItems from "../../data/diwalletitems";
+import diwalletItems from "../../data/diwalletItems";
 
 const diwalletSlider = () => {
   return (
@@ -12,7 +12,7 @@ const diwalletSlider = () => {
         type: 'loop',
         drag: 'free',
         pagination: true,
-        autoplay: true,
+        autoplay: false,
         interval: 2000,
         perPage: 5,
         arrows: false,
