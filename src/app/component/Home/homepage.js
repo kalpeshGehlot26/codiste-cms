@@ -173,174 +173,72 @@ const HomePage = () => {
 				<div className="container container-fluid ">
 					<div className="text-center">
 						<h2 className="all-head mb-4">Innovation in Action: Real-World Case Studies from Codiste</h2>
-
 					</div>
-					<div className="row">
-						<div className="col-lg-4 col-md-6 col-sm-12 mb-5">
-							<div className="card h-100" >
-								<Link href="/portfolio/divewallet" className="cardLink">
-									<img src='assets/images/diwallet-case/Dive Wallet.png' className="card-img-top img-fluid casestudy-img" alt="Divewallet – The Crypto Wallet" />
-									<div className="card-body">
-										<h5 className="card-title">Divewallet – The Crypto Wallet</h5>
-										{/* <Link href="/portfolio/divewallet" className="btn book-btn mt-3">Read More</Link> */}
-										<div className="card-link">
-											<Link href="/portfolio/divewallet" >Read More &gt;&gt;</Link>
-										</div>
+					<div className="container container-fluid py-5">
+						<div className=" firstsec row g-5">
+							<div className="col-lg-4 col-md-6 col-sm-12">
+								<div className="casediwallet-block ">
+									<div className=" case-position">
+										{" "}
+										<img
+											className="img-fluid "
+											alt=" "
+											src="assets/images/Casestudy-img/DiveWallet.png"
+										/>
 									</div>
-								</Link>
+									<div className="mb-5">
+										<h6 className="case-head">
+											Divewallet – The Crypto Wallet
+										</h6>
+										<Link href="/portfolio/divewallet" className="case-pera">
+											Read More &gt;&gt;
+										</Link>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div className="col-lg-4 col-md-6 col-sm-12 mb-5">
-							<div className="card h-100" >
-								<Link href="/portfolio/coinxpad" className="cardLink">
-									<img src='assets/images/case-coinxpad/Coinxpad.png' className="card-img-top img-fluid casestudy-img" alt='CoinxPad Launchpad' />
-									<div className="card-body ">
-										<h5 className="card-title">CoinxPad Launchpad</h5>
-										<div className="card-link">
-											<Link href="/portfolio/coinxpad" >Read More &gt;&gt;</Link>
-										</div>
+							<div className="col-lg-4 col-md-6 col-sm-12">
+								<div className="counterten-block">
+									<div className=" case-position">
+										{" "}
+										<img
+											className="img-fluid "
+											alt=" "
+											src="assets/images/Casestudy-img/counterten 1.png"
+										/>
 									</div>
-								</Link>
+									<div className="mb-5">
+										<h6 className="case-head">
+											CounterTen – Solana Marketplace
+										</h6>
+										<Link href="/portfolio/counterten-solana-marketplace" className="case-pera">Read More &gt;&gt;</Link>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div className="col-lg-4 col-md-6 col-sm-12 mb-5">
-							<div className="card h-100" >
-								<Link href="/portfolio/counterten-solana-marketplace" className="cardLink">
-									<img src='assets/images/case-couter10/Counterten.png' className="card-img-top img-fluid casestudy-img" alt='CounterTen – solana Marketplace' />
-									<div className="card-body ">
-										<h5 className="card-title">CounterTen – Solana Marketplace</h5>
-										<div className="card-link">
-											<Link href="/portfolio/counterten-solana-marketplace" >Read More</Link>
-										</div>
+							<div className="col-lg-4 col-md-6 col-sm-12">
+								<div className="tankpad-block">
+									<div className=" case-position">
+										{" "}
+										<img
+											className="img-fluid "
+											alt=" "
+											src="assets/images/Casestudy-img/Tankpad 1.png"
+										/>
 									</div>
-								</Link>
+									<div className="mb-5">
+										<h6 className="case-head">
+											Tankpad – Binance chain Minting
+										</h6>
+										<Link href="/portfolio/tankpad-binance-chain-minting" className="case-pera">Read More &gt;&gt;</Link>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 					<div className="text-center">
 						<Link href="/codiste-portfolio" className="book-btn">Explore More</Link>
 					</div>
-
 				</div>
 			</div>
-
-
-			<div className="container container-fluid py-5">
-				<div className=" firstsec row g-5">
-					<div className="col-lg-4 col-md-6 col-sm-12">
-						<div className="casediwallet-block ">
-							<div className=" case-position"> <img className="img-fluid " alt=" "
-								src="assets/images/Casestudy-img/DiveWallet.png" /></div>
-							<div className="mb-5">
-								<h6 className="case-head">Divewallet – The Crypto Wallet</h6>
-								<p className="case-pera">Read More &gt;&gt;</p>
-							</div>
-
-						</div>
-					</div>
-					<div className="col-lg-4 col-md-6 col-sm-12">
-						<div className="counterten-block">
-							<div className=" case-position"> <img className="img-fluid " alt=" "
-								src="assets/images/Casestudy-img/counterten 1.png" /></div>
-							<div className="mb-5">
-								<h6 className="case-head">CounterTen – Solana Marketplace</h6>
-								<p className="case-pera">Read More &gt;&gt;</p>
-							</div>
-
-						</div>
-					</div>
-					<div className="col-lg-4 col-md-6 col-sm-12">
-						<div className="tankpad-block">
-							<div className=" case-position"> <img className="img-fluid " alt=" "
-								src="assets/images/Casestudy-img/Tankpad 1.png" /></div>
-							<div className="mb-5">
-								<h6 className="case-head">Tankpad – Binance chain Minting</h6>
-								<p className="case-pera">Read More &gt;&gt;</p>
-							</div>
-
-						</div>
-					</div>
-					<div className="col-lg-4 col-md-6 col-sm-12">
-						<div className="ml-block">
-							<div className=" case-position"> <img className="img-fluid " alt=" "
-								src="assets/images/Casestudy-img/mlestimation 4.png" /></div>
-							<div className="mb-5">
-								<h6 className="case-head">Machine Learning Estimation</h6>
-								<p className="case-pera">Read More &gt;&gt;</p>
-							</div>
-						</div>
-					</div>
-					<div className="col-lg-4 col-md-6 col-sm-12">
-						<div className="coinxpad-block">
-							<div className=" case-position"> <img className="img-fluid " alt=" "
-								src="assets/images/Casestudy-img/coinxpad 1.png" /></div>
-							<div className="mb-5">
-								<h6 className="case-head">CoinxPad Launchpad</h6>
-								<p className="case-pera">Read More &gt;&gt;</p>
-							</div>
-
-						</div>
-					</div>
-					<div className="col-lg-4 col-md-6 col-sm-12">
-						<div className="pixi-block">
-							<div className=" case-position"> <img className="img-fluid " alt=" "
-								src="assets/images/Casestudy-img/Pixi pages 1.png" /></div>
-							<div className="mb-5">
-								<h6 className="case-head">Pixipages</h6>
-								<p className="case-pera">Read More &gt;&gt;</p>
-							</div>
-
-						</div>
-					</div>
-					<div className="col-lg-4 col-md-6 col-sm-12">
-						<div className="cypha-block">
-							<div className=" case-position"> <img className="img-fluid " alt=" "
-								src="assets/images/Casestudy-img/CYPHA 1.png" /></div>
-							<div className="mb-5">
-								<h6 className="case-head">CYPHA – Your Sound</h6>
-								<p className="case-pera">Read More &gt;&gt;</p>
-							</div>
-						</div>
-					</div>
-					<div className="col-lg-4 col-md-6 col-sm-12">
-						<div className="medizen-block">
-							<div className=" case-position"> <img className="img-fluid " alt=" "
-								src="assets/images/Casestudy-img/Medizen 2 1.png" /></div>
-							<div className="mb-5">
-								<h6 className="case-head">Medizen</h6>
-								<p className="case-pera">Read More &gt;&gt;</p>
-							</div>
-
-						</div>
-					</div>
-					<div className="col-lg-4 col-md-6 col-sm-12">
-						<div className="bonfire-block">
-							<div className=" case-position"> <img className="img-fluid " alt=" "
-								src="assets/images/Casestudy-img/Bonfire2 1.png" /></div>
-							<div className="mb-5">
-								<h6 className="case-head">Bonfire</h6>
-								<p className="case-pera">Read More &gt;&gt;</p>
-							</div>
-
-						</div>
-					</div>
-
-					<div className="col-lg-4 col-md-6 col-sm-12">
-						<div className="applo-block">
-							<div className=" case-position"> <img className="img-fluid " alt=" "
-								src="assets/images/Casestudy-img/Apollo Marketplace 1.png" /></div>
-							<div className="mb-5">
-								<h6 className="case-head">Apollo Marketplace</h6>
-								<p className="case-pera">Read More &gt;&gt;</p>
-							</div>
-
-						</div>
-					</div>
-
-				</div>
-			</div>
-
-
 			<div className="">
 				<div className="container container-fluid py-5">
 					<h2 className="all-head mb-4 text-center">Get started with your idea today!</h2>

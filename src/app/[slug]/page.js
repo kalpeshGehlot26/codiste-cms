@@ -20,8 +20,6 @@ const BlogContent = () => {
 		}
 	}, []);
 
-	console.log(post);
-
 	if (!post) {
 		return (
 			<div className="loader">

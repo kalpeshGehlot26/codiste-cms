@@ -2,7 +2,12 @@ import React from "react";
 import ClientSlider from "../component/Home/clientSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Posts from "../component/Posts/posts";
-import Link from "next/link";
+
+export const metadata = {
+	title: "Stay informed on emerging technologies | Codiste",
+	description:
+		"Our blog provides comprehensive coverage of emerging technologies like Blockchain, Metaverse, NFTs, Augmented reality, Virtual Reality, AI, ML and more.",
+};
 
 const Blogs = () => {
 	return (

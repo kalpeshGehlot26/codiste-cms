@@ -2,52 +2,62 @@ const caseStudyItems = [
     {
         title: "Divewallet – The Crypto Wallet",
         url: "/portfolio/divewallet/",
-        image: "assets/images/diwallet-case/Dive Wallet.png"
+        image: "assets/images/Casestudy-img/DiveWallet.png",
+        className: "casediwallet-block"
     },
     {
         title: "Tankpad – Binance chain Mintingankpad – Binance chain Minting",
         url: "/portfolio/tankpad-binance-chain-minting/",
-        image: "assets/images/case-tankpad/Tankpad.png"
+        image: "assets/images/Casestudy-img/Tankpad 1.png",
+        className: "tankpad-block"
     },
     {
         title: "CounterTen – solana Marketplace",
         url: "/portfolio/counterten-solana-marketplace/",
-        image: "assets/images/case-couter10/Counterten.png"
+        image: "assets/images/Casestudy-img/counterten 1.png",
+        className: "counterten-block"
     },
     {
         title: "Machine Learning Estimation",
         url: "/portfolio/ml-estimation/",
-        image: "assets/images/case-ml/MLEstimation.png"
+        image: "assets/images/Casestudy-img/mlestimation 4.png",
+        className: "ml-block"
     },
     {
         title: "CoinxPad Launchpad",
         url: "/portfolio/coinxpad/",
-        image: "assets/images/case-coinxpad/Coinxpad.png"
+        image: "assets/images/Casestudy-img/coinxpad 1.png",
+        className: "coinxpad-block"
     },
     {
         title: "Pixipages",
         url: "/portfolio/pixipages/",
-        image: "assets/images/case-pixi/Pixipages.png"
+        image: "assets/images/Casestudy-img/Pixi pages 1.png",
+        className: "pixi-block"
     },
     {
         title: "CYPHA – Your Sound",
         url: "/portfolio/cypha-your-sound/",
-        image: "assets/images/case-cypha/Cypha.png"
+        image: "assets/images/Casestudy-img/CYPHA 1.png",
+        className: "cypha-block"
     },
     {
         title: "Medizen",
         url: "/portfolio/medizen/",
-        image: "assets/images/case-medizen/Medizen.png"
+        image: "assets/images/Casestudy-img/Medizen 2 1.png",
+        className: "medizen-block"
     },
     {
         title: "Bonfire",
         url: "/portfolio/bonfire/",
-        image: "assets/images/case-bonfire/Bonfire.png"
+        image: "assets/images/Casestudy-img/Bonfire2 1.png",
+        className: "bonfire-block"
     },
     {
         title: "Apollo Marketplace",
         url: "/portfolio/apollo-marketplace/",
-        image: "assets/images/case-appolo/Apollo.png"
+        image: "assets/images/Casestudy-img/Apollo Marketplace 1.png",
+        className: "applo-block"
     }
 ];
 

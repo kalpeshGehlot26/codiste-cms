@@ -1,52 +1,67 @@
 "use client";
 import Link from "next/link";
-import React, { useEffect } from "react";
+import React, { Fragment, useEffect, useState } from "react";
+import caseStudyItems from "@/app/data/caseStudyItems";
 
-const CaseStudyList = ({ caseStudyItems, caseStudyCount, setTotalCount }) => {
+const CaseStudyList = () => {
+	const [caseStudyCount, setCaseStudyCount] = useState(3);
+	const [totalCount, setTotalCount] = useState(null);
+
 	useEffect(() => {
 		setTotalCount(caseStudyItems.length);
 	}, [caseStudyItems]);
 
 	return (
-
-		<div className="row">
-
-			{caseStudyItems?.map((item, index) => {
-				if (caseStudyCount < index + 1) return;
-				return (
-					<div className="col-lg-4 col-md-6 col-sm-12 mb-5" key={index}>
-						<div className="card h-100">
-							<Link href={item.url} className="cardLink">
-								<img
-									className="card-img-top img-fluid casestudy-img"
-									src={item.image}
-									alt={item.title}
-								/>
-								<div className="card-body d-flex justify-content-between flex-column">
-									<h5 className="card-title">{item.title}</h5>
-									<div className="card-link">
-										<Link href={item.url} >
+		<Fragment>
+			<div className="container container-fluid py-5">
+				<div className="firstsec row g-5">
+					{caseStudyItems?.map((item, index) => {
+						if (caseStudyCount < index + 1) return;
+						return (
+							<div
+								className="col-lg-4 col-md-6 col-sm-12"
+								key={index}
+							>
+								<div className={item.className}>
+									<div className="case-position">
+										{" "}
+										<img
+											className="img-fluid "
+											alt={item.title}
+											src={item.image}
+										/>
+									</div>
+									<div className="mb-5">
+										<h6 className="case-head">
+											{item.title}
+										</h6>
+										<Link
+											href={item.url}
+											className="case-pera"
+										>
 											Read More &gt;&gt;
 										</Link>
 									</div>
 								</div>
-							</Link>
-						</div>
-
-					</div>
-				);
-			})}
-		</div>
+							</div>
+						);
+					})}
+				</div>
+			</div>
+			{totalCount > caseStudyCount ? (
+				<div className="text-center">
+					<button
+						className="book-btn"
+						onClick={() =>
+							setCaseStudyCount((prevState) => prevState + 3)
+						}
+					>
+						Explore More
+					</button>
+				</div>
+			) : null}
+		</Fragment>
 	);
 };
 
 export default CaseStudyList;
-
-<div className="card-body">
-	<h5 className="card-title">Divewallet – The Crypto Wallet</h5>
-	{/* <Link href="/portfolio/divewallet" className="btn book-btn mt-3">Read More</Link> */}
-	<div className="card-link">
-		<Link href="/portfolio/divewallet" >Read More &gt;&gt;</Link>
-	</div>
-
-</div>

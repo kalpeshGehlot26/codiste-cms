@@ -1,22 +1,16 @@
-"use client";
-import React, { useState } from "react";
+import React from "react";
 import ClientSlider from "../component/Home/clientSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
-import caseStudyItems from "../data/caseStudyItems";
 import CaseStudyList from "../component/CaseStudyList/caseStudyList";
 import Link from "next/link";
 
-const metadata = {
+export const metadata = {
 	title: "Showcasing Our Blockchain Development Solutions | Portfolio | Codiste",
 	description:
 		"Explore our portfolio and see what we delivered to figure out how it helped drive forward the development of tech and software solutions for various industries.",
 };
 
-const CodistePortfolio = () => {
-
-	const [caseStudyCount, setCaseStudyCount] = useState(3);
-	const [totalCount, setTotalCount] = useState(null);
-
+const CodistePortfolio = () => {	
 	return (
 		<div>
 
@@ -51,23 +45,7 @@ const CodistePortfolio = () => {
 						Codiste
 					</h2>
 				</div>
-				<CaseStudyList
-					caseStudyItems={caseStudyItems}
-					caseStudyCount={caseStudyCount}
-					setTotalCount={setTotalCount}
-				/>
-				{totalCount > caseStudyCount ? (
-
-					<div className="text-center">
-						<button className="book-btn"
-							onClick={() =>
-								setCaseStudyCount(
-									(prevState) => prevState + 3
-								)
-							}>Explore More</button>
-					</div>
-
-				) : null}
+				<CaseStudyList/>
 			</div>
 
 			<div className="container container-fluid py-5">
