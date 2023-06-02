@@ -5,7 +5,7 @@ import ReactGA from "react-ga4";
 ReactGA.initialize("G-MEV81K2PQF");
 
 const logPageView = () => {
-	ReactGA.send({ page: window.location.pathname });
+	ReactGA.send({ page: typeof window !== 'undefined' ? window.location.pathname : "/" });
 };
 
 const Analytics = ({ children }) => {
@@ -13,7 +13,7 @@ const Analytics = ({ children }) => {
 		if (typeof window !== "undefined") {
 			logPageView();
 		}
-	}, [window.location.pathname]);
+	}, []);
 	return <>{children}</>;
 };
 
