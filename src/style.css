@@ -170,7 +170,10 @@ text-align: left;
    font-size: 18px;
    text-decoration: none;
 }
-
+.service-block:hover .apply-btn{
+   background: #d44242 !important;
+   color: #fff !important;
+}
  a:hover{
    color: #fff;
 }
@@ -2083,6 +2086,11 @@ color: #000 !important;
 .elementor-widget-container h2{
    font-size: 24px !important;
    font-weight: 600;
+}
+.blog-post-custom-img img{
+   display: flex !important;
+   align-items: center !important;
+   justify-content: center !important;
 }
 /* ====== blog-css completed ===== */
 
