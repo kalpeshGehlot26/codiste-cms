@@ -2,7 +2,7 @@ import React from "react";
 import EventSlider from "../component/career/eventSlider";
 import EmployeeSlider from "../component/career/employeeSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
-import Diwalletslider from "../component/career/diwalletcaseSlider";
+import DiveWalletSlider from "../component/career/diwalletcaseSlider";
 
 export const metadata = {
 	title: "Explore Career Opportunities with Blockchain Development Company | Codiste",
@@ -155,7 +155,7 @@ const Career = () => {
 							Witness How We Drive Soul in Ideas!
 						</h1>
 					</div>
-					<Diwalletslider />
+					<DiveWalletSlider />
 				</div>
 			</div>
 

@@ -4,7 +4,7 @@ import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import diwalletItems from "../../data/diwalletItems";
 
-const diwalletSlider = () => {
+const DiveWalletSlider = () => {
   return (
     <Splide
       hasTrack={false}
@@ -52,4 +52,4 @@ const diwalletSlider = () => {
   );
 };
 
-export default diwalletSlider;
+export default DiveWalletSlider;
