@@ -10,9 +10,12 @@ export const metadata = {
 };
 
 const Blogs = () => {
+
+
+
 	return (
 		<div>
-			<div className="bg-color">
+			<div className="bg-color py-3">
 				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec ">
