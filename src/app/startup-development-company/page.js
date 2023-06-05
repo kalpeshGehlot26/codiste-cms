@@ -207,19 +207,19 @@ const StartupDevelopmentCompany = () => {
 					entrepreneurs with comprehensive support and guidance to
 					navigate each step towards success.
 				</p>
-				<ul class="processNew">
-					<li class="process__item">
-						<span class="process__number">1</span>
-						<span class="process__title">Idea & Tech<br />Validation</span>
-						<span class="process__subtitle">codiste offers startup development services for
+				<ul className="processNew">
+					<li className="process__item">
+						<span className="process__number">1</span>
+						<span className="process__title">Idea & Tech<br />Validation</span>
+						<span className="process__subtitle">codiste offers startup development services for
 							entrepreneurs with comprehensive support and guidance to
 							navigate each step towards success.</span>
 					</li>
 
-					<li class="process__item">
-						<span class="process__number">2</span>
-						<span class="process__title">Prototype <br />Development</span>
-						<span class="process__subtitle">We evaluate the feasibility and
+					<li className="process__item">
+						<span className="process__number">2</span>
+						<span className="process__title">Prototype <br />Development</span>
+						<span className="process__subtitle">We evaluate the feasibility and
 							marketability of the startup idea. We assess
 							the best and most efficient technologies
 							based on the market research, and validate
@@ -227,20 +227,20 @@ const StartupDevelopmentCompany = () => {
 							the solution remains efficient.</span>
 					</li>
 
-					<li class="process__item">
-						<span class="process__number">3</span>
-						<span class="process__title">MVP<br />Development</span>
-						<span class="process__subtitle">We start working on prototype platforms or
+					<li className="process__item">
+						<span className="process__number">3</span>
+						<span className="process__title">MVP<br />Development</span>
+						<span className="process__subtitle">We start working on prototype platforms or
 							services before giving it a final go. With
 							this prototype we understand bug and patch
 							immunity to ensure a safe and secure end
 							product from scratch.</span>
 					</li>
 
-					<li class="process__item">
-						<span class="process__number">4</span>
-						<span class="process__title">Launch Tech<br />Support</span>
-						<span class="process__subtitle">	When you launch and gain traction with your
+					<li className="process__item">
+						<span className="process__number">4</span>
+						<span className="process__title">Launch Tech<br />Support</span>
+						<span className="process__subtitle">	When you launch and gain traction with your
 							audience, we help you with handling the
 							traffic and scale your systems accordingly.
 							Our extended tech support helps you in
