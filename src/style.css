@@ -271,12 +271,12 @@ ul.footer-icon li:hover svg path{
    text-decoration: none !important;
 }
 .footer-top-mr {
-   margin-top: 40px;
+   /* margin-top: 40px; */
    margin-left: 80px;
 }
 
 .footer-top-mgr {
-   margin-top: 40px;
+   /* margin-top: 40px; */
    margin-left: 20px;
 }
 

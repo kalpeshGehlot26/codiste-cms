@@ -6,7 +6,7 @@ const Footer = () => {
 		<footer>
 			<div className="container container-fluid py-5">
 				<div className="row">
-					<div className="col-lg-3 col-md-6 col-sm-12">
+					<div className="col-lg-3 col-md-6 col-sm-12 mb-5 mb-lg-0">
 						<div className="footer-menu">
 							<Link href="/">
 								<img className="img-fluid" alt="codiste-logo" style={{ height: "60px" }} src="../../assets/images/logo.png" />
@@ -51,7 +51,7 @@ const Footer = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-lg-3 col-md-6 col-sm-12">
+					<div className="col-lg-3 col-md-6 col-sm-12 mb-5 mb-lg-0">
 						<div className="footer-menu footer-top-mr">
 							<h4>Services</h4>
 							<div className="footer-menu-items mt-md-5 mt-0">
@@ -101,7 +101,7 @@ const Footer = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-lg-3 col-md-6 col-sm-12">
+					<div className="col-lg-3 col-md-6 col-sm-12 mb-5 mb-lg-0">
 						<div className="footer-menu footer-top-mr">
 							<h4>Quick Link</h4>
 							<div className="footer-menu-items mt-md-5 mt-0">
