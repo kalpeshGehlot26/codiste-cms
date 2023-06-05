@@ -28,7 +28,7 @@ const WebDevelopmentCompany = () => {
 					<section>
 						<div className="row firstsec ">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
-								<div className="col-12 col-lg-5 order-2 order-lg-1">
+								<div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
 									<h1 className="all-head">Web Development Company</h1>
 									<p className="all-p me-5 my-4">Experience our comprehensive web development services, providing expert support and technical assistance to create secure, visually captivating, and resilient web applications. We offer website development end-to-end solutions for enterprises and businesses, ensuring scalable and robust web application development.
 									</p>
@@ -183,12 +183,12 @@ const WebDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5 mt-5">
+			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
 							<h1 className="all-head">Technology Stack</h1>
-							<p className="all-p me-5 text-center">
+							<p className="all-p  text-center">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
 								customized IT solutions.
@@ -530,7 +530,7 @@ const WebDevelopmentCompany = () => {
 
 			{/* <div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Blogs</h1>
+					<h1 className="all-blog">Blogs</h1>
 					<p className="all-p text-center">
 						Read our Blogs here to get continuous insights and
 						updates on new technologies and development across the

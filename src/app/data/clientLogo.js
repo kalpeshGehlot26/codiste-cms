@@ -31,8 +31,6 @@ const clientLogos = [
         url: "assets/images/splide/Holygrails.svg",
         alt: "Holygrails"
     },
-
-
     {
         url: "assets/images/splide/Ikaris.svg",
         alt: "Ikaris"

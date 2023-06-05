@@ -28,7 +28,7 @@ const BlockChainDevelopment = () => {
 					<section>
 						<div className="row firstsec ">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
-								<div className="col-12 col-lg-5 order-2 order-lg-1">
+								<div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
 									<h1 className="all-head">
 										Blockchain Development Company
 									</h1>
@@ -84,15 +84,6 @@ const BlockChainDevelopment = () => {
 						<h1 className="all-head text-center">
 							Why Choose Us for Blockchain Development?{" "}
 						</h1>
-						{/* <p className="all-p text-center">
-							Codiste is an emerging leader in building robust,
-							secure, scalable blockchain applications and add-on
-							integrations. Our dedicated team has elite
-							experience and expertise in building enterprise
-							blockchain solutions. Our blockchain development
-							services offer product and platform customization
-							with various blockchain networks and platforms.
-						</p> */}
 					</div>
 
 					<div className="row">
@@ -100,7 +91,7 @@ const BlockChainDevelopment = () => {
 							<h2 className="secondsec-head text-center">
 								10+ Blockchain Network Support
 							</h2>
-							<p className="secondsec-p text-center">
+							<p className="secondsec-p">
 								We have expertise in developing
 								blockchain solutions using more than 10
 								blockchain networks, including Ethereum,
@@ -198,12 +189,12 @@ const BlockChainDevelopment = () => {
 			</div>
 
 
-			<div className="bg-color py-5 mt-5">
+			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
 							<h1 className="all-head text-center">Technology Stack</h1>
-							<p className="all-p me-5 text-center">
+							<p className="all-p text-center">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
 								customized IT solutions.
@@ -612,7 +603,7 @@ const BlockChainDevelopment = () => {
 			</div>
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Blogs</h1>
+					<h1 className="all-blog">Blogs</h1>
 					<p className="all-p text-center">
 						Knowledge will never be the less, so keep exploring our
 						blogs.

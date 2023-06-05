@@ -29,7 +29,7 @@ const MLDevelopmentCompany = () => {
 					<section>
 						<div className="row firstsec ">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
-								<div className="col-12 col-lg-5 order-2 order-lg-1">
+								<div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
 									<h1 className="all-head">Machine Learning Development Company</h1>
 									<p className="all-p me-5 my-4">We offer machine learning development services for businesses &
 										enterprises to help them automate repetitive and recursive tasks. Our machine learning
@@ -190,12 +190,12 @@ const MLDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5 mt-5">
+			<div className="bg-color py-5 ">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
 							<h1 className="all-head text-center">Technology Stack</h1>
-							<p className="all-p me-5 text-center mb-4">
+							<p className="all-p  text-center mb-4">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
 								customized IT solutions.
@@ -545,7 +545,7 @@ const MLDevelopmentCompany = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Blogs</h1>
+					<h1 className="all-blog">Blogs</h1>
 					<p className="all-p text-center">
 						Discover expert insights and helpful tips on emerging
 						machine learning algorithms and technologies with our

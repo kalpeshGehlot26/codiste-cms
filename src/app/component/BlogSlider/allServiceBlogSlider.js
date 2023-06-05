@@ -35,7 +35,7 @@ const AllServiceBlogSlider = ({ limit, category }) => {
                 pagination: true,
                 autoplay: true,
                 interval: 2000,
-                perPage: 3,
+                perPage: 4,
                 arrows: false,
                 autoScroll: {
                     speed: 2,
@@ -70,7 +70,7 @@ const AllServiceBlogSlider = ({ limit, category }) => {
                                         <div className="blogboxbg">
                                             <div className="blogfont-pos">
                                                 <p>{post._embedded["wp:term"][0][0]?.name}{" "}Development Service</p>
-                                                <h4>{post.title.rendered}</h4>
+                                                <h5>{post.title.rendered}</h5>
                                                 <Link href={link[3]} className="blogfont-btn mt-2">Read More</Link>
                                             </div>
                                         </div>

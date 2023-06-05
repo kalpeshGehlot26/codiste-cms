@@ -54,7 +54,7 @@ const page = () => {
 
 			<div className="container container-fluid mb-5 py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center  mb-5 contact-block">
-					<h1 className="all-head">
+					<h1 className="all-head text-center">
 						Serving Clients With Our Global Network
 					</h1>
 
@@ -77,7 +77,7 @@ const page = () => {
 
 							</div>
 							<div className="contact-content">
-								<div className="ms-lg-5 ms-0 contact-logo">
+								<div className="contact-logo ms-lg-5 ms-0">
 									<div className="contact-icon ">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -166,13 +166,14 @@ const page = () => {
 												</g>
 											</g>
 										</svg>
-										<p className="secondsec-p ms-2">
+									</div>
+									<div>
+										<p className="secondsec-p">
 											915,Ganesh glory,S.G Highway,
 											<br />
 											Ahmedabad,382441
 										</p>
 									</div>
-									<div></div>
 								</div>
 								<div className="contact-logo ms-lg-5 ms-0 ">
 									<div className="contact-icon">

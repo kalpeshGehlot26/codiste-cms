@@ -146,7 +146,7 @@ const HomePage = () => {
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head">Industries We Serve</h1>
-							<p className="all-p me-5 text-center">
+							<p className="all-p text-center">
 								Codiste serves diverse industries providing
 								tailored solutions to help businesses grow.
 							</p>
@@ -157,7 +157,7 @@ const HomePage = () => {
 			</div>
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Blog</h1>
+					<h1 className="all-blog">Blogs</h1>
 					<p className="all-p text-center">
 						Keep yourself updated with emerging technologies and new developments in the industry with us.
 					</p>

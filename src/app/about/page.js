@@ -14,15 +14,15 @@ const About = () => {
 
 
 			<div className="bg-color careersec">
-				<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-0 mb-lg-5">
+				<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-0 mb-lg-5 p-4">
 					<h1 className="all-head">Enterprise Grade Blockchain Development Company</h1>
 				</div>
 				<div className="container container-fluid about-mainsec" >
 					<section>
 						<div className="row">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap  align-items-center justify-content-between">
-								<div className="col-12 col-lg-5  mb-5 mb-lg-0"><img className='img-fluid' alt='Blockchain Development' src="assets/images/about/about-us.png" /></div>
-								<div className="col-12 col-lg-5">
+								<div className="col-12 col-lg-5 mb-5 mb-lg-0 p-4"><img className='img-fluid' alt='Blockchain Development' src="assets/images/about/about-us.png" /></div>
+								<div className="col-12 col-lg-5 p-4">
 									<h3 className="mb-3">Driving Decentralization with Codiste</h3>
 									<p className="secondsec-p">Codiste is an emerging leader in software and technology solutions that enable businesses to thrive in the
 										constantly evolving digital landscape. We firmly believe that evolving technologies such as Blockchain,
@@ -43,7 +43,7 @@ const About = () => {
 				<div className="container container-fluid">
 					<div className="row justify-content-between">
 						<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap  align-items-center justify-content-between">
-							<div className="col-12 col-lg-5 order-2 order-lg-1">
+							<div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
 								<h1 className="all-head ">MISSION</h1>
 								<p className="secondsec-p ">Strive, Innovate and Succeed in delivering tangible business value to clients across the
 									globe by ensuring the highest quality within available time frames in each of our IT solutions we provide.
@@ -55,7 +55,7 @@ const About = () => {
 
 						<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap  align-items-center justify-content-between">
 							<div className="col-12 col-lg-4 mt-5 mt-lg-0"><img className='img-fluid' alt='VISION' src="assets/images/about/vision.png" /></div>
-							<div className="col-12 col-lg-5 ">
+							<div className="col-12 col-lg-5 p-4">
 								<h1 className="all-head ">VISION</h1>
 								<p className="secondsec-p ">We at Codiste have a vision of becoming the most eminent software development company
 									with the highest customer life cycle for offshore service seekers globally. Codiste services have to define
@@ -73,7 +73,7 @@ const About = () => {
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head">Our Values</h1>
-							<p className="all-p me-5 text-center">
+							<p className="all-p text-center">
 								We strive to deliver secure, scalable, decentralized
 								software solutions that empower businesses to
 								succeed in the fast-paced digital landscape.
@@ -327,10 +327,10 @@ const About = () => {
 				<div className="container container-fluid">
 					<h1 className="all-head text-center mb-5">Leadership Team</h1>
 					<div className="row">
-						<div className="col-xl-2 col-md-4 mb-5">
+						<div className="col-xl-2 col-md-4 p-4 ">
 							<img className='img-fluid ' src="assets/images/about/Nishant.png" alt="Nishant Bijani" />
 						</div>
-						<div className="col-xl-10 col-md-8 mb-5 aboutall-p">
+						<div className="col-xl-10 col-md-8 aboutall-p p-4">
 							<div>
 								<div className="d-flex flex-wrap">
 									<h1 className="me-4 aboutall-h">Nishant Bijani</h1>
@@ -360,10 +360,10 @@ const About = () => {
 						</div>
 					</div>
 					<div className="row">
-						<div className="col-xl-2 col-md-4 mb-5">
+						<div className="col-xl-2 col-md-4  p-4">
 							<img className='img-fluid' src="assets/images/about/Nic.png" alt="Nic" />
 						</div>
-						<div className="col-xl-10 col-md-8 mb-5 aboutall-p">
+						<div className="col-xl-10 col-md-8  aboutall-p p-4">
 							<div>
 								<div className="d-flex flex-wrap">
 									<h1 className="me-4 aboutall-h">Nic Roux</h1>
@@ -411,14 +411,7 @@ const About = () => {
 											/>{" "}
 										</a>
 									</li>
-									<li>
-										<a href="#">
-											<img
-												className="img-fluid"
-												src="assets/images/splide/Bloqhodler.jpg"
-											/>{" "}
-										</a>
-									</li>
+
 									<li>
 										<a href="#">
 											<img
@@ -427,6 +420,7 @@ const About = () => {
 											/>{" "}
 										</a>
 									</li>
+
 									<li>
 										<a href="#">
 											{" "}
@@ -436,6 +430,7 @@ const About = () => {
 											/>{" "}
 										</a>
 									</li>
+
 									<li>
 										<a href="#">
 											<img
@@ -444,6 +439,7 @@ const About = () => {
 											/>{" "}
 										</a>
 									</li>
+
 									<li>
 										<a href="#">
 											{" "}
@@ -453,6 +449,7 @@ const About = () => {
 											/>
 										</a>
 									</li>
+
 									<li>
 										<a href="#">
 											<img
@@ -461,95 +458,7 @@ const About = () => {
 											/>{" "}
 										</a>
 									</li>
-									<li>
-										<a href="#">
-											{" "}
-											<img
-												className="img-fluid"
-												src="assets/images/splide/galaxyCoin.jpg"
-											/>{" "}
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<img
-												className="img-fluid"
-												src="assets/images/splide/Holygrails.svg"
-											/>{" "}
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											{" "}
-											<img
-												className="img-fluid"
-												src="assets/images/splide/Ikaris.svg"
-											/>{" "}
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											{" "}
-											<img
-												className="img-fluid"
-												src="assets/images/splide/Staysafe.png"
-											/>{" "}
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											{" "}
-											<img
-												className="img-fluid"
-												src="assets/images/splide/Medizen.svg"
-											/>{" "}
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											{" "}
-											<img
-												className="img-fluid"
-												src="assets/images/splide/ml.svg"
-											/>{" "}
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											{" "}
-											<img
-												className="img-fluid"
-												src="assets/images/splide/mumble.jpg"
-											/>{" "}
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											{" "}
-											<img
-												className="img-fluid"
-												src="assets/images/splide/NearPro.svg"
-											/>{" "}
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											{" "}
-											<img
-												className="img-fluid"
-												src="assets/images/splide/No_brainers.png"
-											/>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											{" "}
-											<img
-												className="img-fluid"
-												src="assets/images/splide/Unykornz-logo.png"
-											/>
-										</a>
-									</li>
+
 									<li>
 										<a href="#">
 											{" "}
@@ -559,15 +468,86 @@ const About = () => {
 											/>
 										</a>
 									</li>
+
+									<li>
+										<a href="#">
+											<img
+												className="img-fluid"
+												src="assets/images/splide/Holygrails.svg"
+											/>{" "}
+										</a>
+									</li>
+
 									<li>
 										<a href="#">
 											{" "}
 											<img
 												className="img-fluid"
-												src="assets/images/splide/image12.png"
-											/>
+												src="assets/images/splide/Ikaris.svg"
+											/>{" "}
 										</a>
 									</li>
+
+									<li>
+										<a href="#">
+											{" "}
+											<img
+												className="img-fluid"
+												src="assets/images/splide/Medizen.svg"
+											/>{" "}
+										</a>
+									</li>
+
+									<li>
+										<a href="#">
+											{" "}
+											<img
+												className="img-fluid"
+												src="assets/images/splide/ml.svg"
+											/>{" "}
+										</a>
+									</li>
+
+									<li>
+										<a href="#">
+											{" "}
+											<img
+												className="img-fluid"
+												src="assets/images/splide/MumbleRapperz.svg"
+											/>{" "}
+										</a>
+									</li>
+
+									<li>
+										<a href="#">
+											{" "}
+											<img
+												className="img-fluid"
+												src="assets/images/splide/NearPro.svg"
+											/>{" "}
+										</a>
+									</li>
+
+									<li>
+										<a href="#">
+											<img
+												className="img-fluid"
+												src="assets/images/splide/Bloqhodler.jpg"
+											/>{" "}
+										</a>
+									</li>
+
+									<li>
+										<a href="#">
+											{" "}
+											<img
+												className="img-fluid"
+												src="assets/images/splide/galaxyCoin.jpg"
+											/>{" "}
+										</a>
+									</li>
+
+
 								</ul>
 							</div>
 						</div>
@@ -619,7 +599,7 @@ const About = () => {
 
 							</div>
 							<div className="contact-content">
-								<div className="ms-lg-5 ms-0 contact-logo">
+								<div className="contact-logo ms-lg-5 ms-0">
 									<div className="contact-icon ">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -708,13 +688,14 @@ const About = () => {
 												</g>
 											</g>
 										</svg>
-										<p className="secondsec-p ms-2">
+									</div>
+									<div>
+										<p className="secondsec-p">
 											915,Ganesh glory,S.G Highway,
 											<br />
 											Ahmedabad,382441
 										</p>
 									</div>
-									<div></div>
 								</div>
 								<div className="contact-logo ms-lg-5 ms-0 ">
 									<div className="contact-icon">

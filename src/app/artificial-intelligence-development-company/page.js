@@ -28,7 +28,7 @@ const AIDevelopmentCompany = () => {
 					<section>
 						<div className="row firstsec ">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
-								<div className="col-12 col-lg-5 order-2 order-lg-1">
+								<div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
 									<h1 className="all-head">Artificial Intelligence Development Company</h1>
 									<p className="all-p me-5 my-4">We build automation tools and software for businesses to get
 										enhanced operational efficiency. Our Artificial Intelligence development services offer
@@ -48,7 +48,6 @@ const AIDevelopmentCompany = () => {
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h1 className="all-head">Our Services </h1>
-
 					</div>
 					<ServiceInnerItems serviceItems={AIList} />
 				</section>
@@ -61,7 +60,6 @@ const AIDevelopmentCompany = () => {
 							Why Choose Us For Artificial Intelligence
 							Development Services?
 						</h1>
-
 					</div>
 
 					<div className="row">
@@ -173,7 +171,7 @@ const AIDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5 mt-5">
+			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -515,13 +513,13 @@ const AIDevelopmentCompany = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Blogs</h1>
+					<h1 className="all-blog">Blogs</h1>
 					<p className="all-p text-center">
 						Read more about artificial intelligence and modern
 						technological developments in space with our blogs.
 					</p>
 				</div>
-				<AllServiceBlogSlider limit={limit} category={category}  />
+				<AllServiceBlogSlider limit={limit} category={category} />
 				<div className="d-flex align-items-center justify-content-center mt-5">
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>

@@ -19,7 +19,7 @@ const CodistePortfolio = () => {
 					<section>
 						<div className="row firstsec ">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
-								<div className="col-12 col-lg-5 order-2 order-lg-1">
+								<div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
 									<h1 className="all-head">Our Portfolio</h1>
 									<p className="all-p me-5 my-4">Discover how our expertise and innovation have helped businesses like yours
 										achieve success. Explore our case studies and see what we delivered to figure out how it helped drive forward the

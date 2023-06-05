@@ -28,7 +28,7 @@ const NFTDevelopment = () => {
 					<section>
 						<div className="row firstsec ">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
-								<div className="col-12 col-lg-5 order-2 order-lg-1">
+								<div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
 									<h1 className="all-head">NFT Development Company</h1>
 									<p className="all-p me-5 my-4">We are a non-fungible token development company providing end-to-end NFT development, including digital NFTs and marketplaces for enterprises entering the digital collectibles space. Our NFT market development services offer a comprehensive marketplace development equipped with seamless NFT minting and trading user experience for better user experience and feedback.
 									</p>
@@ -195,7 +195,7 @@ const NFTDevelopment = () => {
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
 							<h1 className="all-head text-center">Technology Stack</h1>
-							<p className="all-p me-5 mb-5 text-center">
+							<p className="all-p  mb-5 text-center">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
 								customized IT solutions.
@@ -466,7 +466,7 @@ const NFTDevelopment = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Blogs</h1>
+					<h1 className="all-blog">Blogs</h1>
 					<p className="all-p text-center">
 						Knowledge will never be the less, so keep exploring our
 						blogs.

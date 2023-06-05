@@ -28,7 +28,7 @@ const MobileAppDevelopmentCompany = () => {
 					<section>
 						<div className="row firstsec ">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
-								<div className="col-12 col-lg-6 order-2 order-lg-1">
+								<div className="col-12 col-lg-6 order-2 order-lg-1 p-4">
 									<h1 className="all-head">Mobile App Development Company</h1>
 									<p className="all-p me-5 my-4">We are a digital mobile application development company that
 										offers the best-in-class end-user experience with a mobile application. Our application
@@ -197,7 +197,7 @@ const MobileAppDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5 mt-5">
+			<div className="bg-color py-5 ">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -485,7 +485,7 @@ const MobileAppDevelopmentCompany = () => {
 
 			{/* <div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Blogs</h1>
+					<h1 className="all-blog">Blogs</h1>
 					<p className="all-p text-center">
 						Learn more about new developments and breakthroughs in
 						mobile application development with our blogs.

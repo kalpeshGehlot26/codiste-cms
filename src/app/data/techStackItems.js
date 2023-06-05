@@ -54,11 +54,7 @@ const techStackItems = [
         alt: "BLENDER",
         name: "BLENDER"
     },
-    {
-        url: "assets/images/tech/custom development.png",
-        alt: "Custom Development",
-        name: "Custom Development"
-    },
+
     {
         url: "assets/images/tech/Corda.png",
         alt: "Corda",

@@ -28,7 +28,7 @@ const ARVRDevelopmentCompany = () => {
 					<section>
 						<div className="row firstsec ">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
-								<div className="col-12 col-lg-5 order-2 order-lg-1">
+								<div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
 									<h1 className="all-head">AR/VR Development Company</h1>
 									<p className="all-p me-5 my-4">We offer complete AR/VR development for enterprise-level platforms, avatars and more with leading technologies and frameworks like ARtoolkit, Google-ARCore, and Apple AR Kit to help you leverage Web3 applications and immersive technologies.
 									</p>
@@ -183,12 +183,12 @@ const ARVRDevelopmentCompany = () => {
 
 
 
-			<div className="bg-color py-5 mt-5">
+			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
 							<h1 className="all-head text-center">Technology Stack</h1>
-							<p className="all-p me-5 text-center">
+							<p className="all-p  text-center">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
 								customized IT solutions.
@@ -605,7 +605,7 @@ const ARVRDevelopmentCompany = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Blogs</h1>
+					<h1 className="all-blog">Blogs</h1>
 					<p className="all-p text-center">
 						Explore more about immersive technologies and AR/VR
 						development with our blogs.{" "}

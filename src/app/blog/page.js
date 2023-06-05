@@ -10,18 +10,15 @@ export const metadata = {
 };
 
 const Blogs = () => {
-
-
-
 	return (
 		<div>
-			<div className="bg-color py-3">
+			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec ">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
-								<div className="col-12 col-lg-5 order-2 order-lg-1">
-									<h1 className="all-head">Our Blog</h1>
+								<div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
+									<h1 className="all-blog">Our Blog</h1>
 									<p className="all-p me-5 my-4">
 										Read our blogs for a comprehensive
 										understanding of resources from industry
@@ -55,7 +52,7 @@ const Blogs = () => {
 
 			<div className="container py-5" id="blogSection">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-4">
-					<h1 className="all-head">Blogs</h1>
+					<h1 className="all-blog">Blogs</h1>
 				</div>
 				<Posts />
 			</div>

@@ -28,7 +28,7 @@ const CryptoDevelopmentCompany = () => {
 					<section>
 						<div className="row firstsec ">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
-								<div className="col-12 col-lg-5 order-2 order-lg-1">
+								<div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
 									<h1 className="all-head">Cryptocurrency Development Company</h1>
 									<p className="all-p me-5 my-4">We offer innovative decentralized crypto solutions development
 										services with robust security and privacy standards. We are equipped with blockchain, hyper
@@ -188,12 +188,12 @@ const CryptoDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5 mt-5">
+			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
 							<h1 className="all-head text-center">Technology Stack</h1>
-							<p className="all-p me-5 text-center">
+							<p className="all-p text-center">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
 								customized IT solutions.
