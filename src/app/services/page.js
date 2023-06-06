@@ -107,7 +107,7 @@ const Services = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
-							<h1 className="all-head">Technology Stack</h1>
+							<h1 className="all-blog">Technology Stack</h1>
 							<p className="all-p  mb-5 text-center">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
@@ -401,7 +401,7 @@ const Services = () => {
 										{" "}
 										<img
 											className="img-fluid "
-											alt=" "
+											alt="Divewallet"
 											src="assets/images/Casestudy-img/DiveWallet.png"
 										/>
 									</div>
@@ -421,7 +421,7 @@ const Services = () => {
 										{" "}
 										<img
 											className="img-fluid "
-											alt=" "
+											alt="Counterten"
 											src="assets/images/Casestudy-img/counterten 1.png"
 										/>
 									</div>
@@ -439,7 +439,7 @@ const Services = () => {
 										{" "}
 										<img
 											className="img-fluid "
-											alt=" "
+											alt="Tankpad"
 											src="assets/images/Casestudy-img/Tankpad 1.png"
 										/>
 									</div>
@@ -479,7 +479,7 @@ const Services = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">Their Success Stories are our Valuable Feedback!</h1>
+							<h1 className="all-blog">Their Success Stories are our Valuable Feedback!</h1>
 						</div>
 
 						<div
@@ -663,7 +663,7 @@ const Services = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
-				<h1 className="all-head text-center mb-5">Getting in touch with Us!</h1>
+				<h1 className="all-blog text-center mb-5">Getting in touch with Us!</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">

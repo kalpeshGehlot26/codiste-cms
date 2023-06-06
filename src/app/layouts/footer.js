@@ -31,6 +31,7 @@ const Footer = () => {
 											<img
 												className="me-2"
 												src="../../assets/images/email.png"
+												alt="Email"
 											/>
 											<a href="mailto:manager@codiste.com">
 												{" "}
@@ -41,6 +42,7 @@ const Footer = () => {
 											<img
 												className="me-2"
 												src="../../assets/images/phone-call.png"
+												alt="Phone-call"
 											/>
 											<a href="tel:+91 94290 05987">
 												+91 94290 05987
@@ -135,6 +137,7 @@ const Footer = () => {
 									<img
 										className="img-fluid me-2 "
 										src="../../assets/images/india.png"
+										alt="india"
 									/>
 									<p className="mt-2">
 										915, Ganesh Glory, S.G Highway,
@@ -145,6 +148,7 @@ const Footer = () => {
 									<img
 										className="img-fluid me-2"
 										src="../../assets/images/south-africa.png"
+										alt="south-africa"
 									/>
 									<p className="mt-2">
 										1 Galway Rd, Parkview, Jhb, South

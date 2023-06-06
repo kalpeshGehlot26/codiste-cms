@@ -182,14 +182,14 @@ const HomePage = () => {
 										{" "}
 										<img
 											className="img-fluid "
-											alt=" "
+											alt="Diwallet"
 											src="assets/images/Casestudy-img/DiveWallet.png"
 										/>
 									</div>
 									<div className="mb-5">
-										<h6 className="case-head">
+										<h3 className="case-head">
 											Divewallet – The Crypto Wallet
-										</h6>
+										</h3>
 										<Link href="/portfolio/divewallet" className="case-pera">
 											Read More &gt;&gt;
 										</Link>
@@ -202,14 +202,14 @@ const HomePage = () => {
 										{" "}
 										<img
 											className="img-fluid "
-											alt=" "
+											alt="counterten"
 											src="assets/images/Casestudy-img/counterten 1.png"
 										/>
 									</div>
 									<div className="mb-5">
-										<h6 className="case-head">
+										<h3 className="case-head">
 											CounterTen – Solana Marketplace
-										</h6>
+										</h3>
 										<Link href="/portfolio/counterten-solana-marketplace" className="case-pera">Read More &gt;&gt;</Link>
 									</div>
 								</div>
@@ -220,14 +220,14 @@ const HomePage = () => {
 										{" "}
 										<img
 											className="img-fluid "
-											alt=" "
+											alt="Tankpad"
 											src="assets/images/Casestudy-img/Tankpad 1.png"
 										/>
 									</div>
 									<div className="mb-5">
-										<h6 className="case-head">
+										<h3 className="case-head">
 											Tankpad – Binance chain Minting
-										</h6>
+										</h3>
 										<Link href="/portfolio/tankpad-binance-chain-minting" className="case-pera">Read More &gt;&gt;</Link>
 									</div>
 								</div>

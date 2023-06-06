@@ -1892,6 +1892,13 @@ color: #000 !important;
    align-items: center !important;
    justify-content: center !important;
 }
+.elementor-widget-image .elementor-widget-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
 /* ====== blog-css completed ===== */
 
 

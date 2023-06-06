@@ -246,7 +246,7 @@ const CounterTenPortfolio = () => {
       <div className="container container-fluid py-4">
         <section>
           <div className=" d-flex align-items-center flex-column justify-content-center">
-            <h1 className="all-head">Technology Stack</h1>
+            <h1 className="all-blog">Technology Stack</h1>
             <p className="all-p  mb-5 text-center">We pride ourselves on our proven track record with 20+ technologies and delivering innovative, customized IT solutions.
             </p>
           </div>

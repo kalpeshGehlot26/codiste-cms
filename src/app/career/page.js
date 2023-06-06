@@ -2,7 +2,7 @@ import React from "react";
 import EventSlider from "../component/career/eventSlider";
 import EmployeeSlider from "../component/career/employeeSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
-// import DiveWalletSlider from "../component/career/diwalletcaseSlider";
+
 
 export const metadata = {
 	title: "Explore Career Opportunities with Blockchain Development Company | Codiste",
@@ -14,7 +14,7 @@ const Career = () => {
 		<div>
 			<div className="container container-fluid py-4 firstsec ">
 				<div className=" d-flex align-items-center flex-column justify-content-center about-mainsec">
-					<h1 className="all-head text-center my-3 ">
+					<h1 className="all-blog text-center my-3 ">
 						Ready to Do Something Great? Explore Career
 						Opportunities
 					</h1>
@@ -68,7 +68,7 @@ const Career = () => {
 			</div>
 
 			<div className="container container-fluid firstsec">
-				<h1 className="all-head text-center">
+				<h1 className="all-blog text-center">
 					Beyond the Code: Exploring Life at Codiste
 				</h1>
 				<p className="secondsec-p text-center mb-5">A Peek into Codiste's Dynamic Culture</p>
@@ -141,29 +141,20 @@ const Career = () => {
 
 			<div className="bg-color py-5">
 				<div className="container container-fluid  firstsec">
-					<h1 className="all-head text-center">
+					<h1 className="all-blog text-center">
 						Codiste Reflections Through the Lens!
 					</h1>
 					<EventSlider />
 				</div>
 			</div>
 
-			{/* <div className="bg-color py-5">
-				<div className="container container-fluid  firstsec">
-					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head text-center">
-							Witness How We Drive Soul in Ideas!
-						</h1>
-					</div>
-					<DiveWalletSlider />
-				</div>
-			</div> */}
+
 
 
 			<div className="firstsec">
 				<div className="container container-fluid mb-5  py-5">
 					<div className="mb-5">
-						<h1 className="all-head text-center">Discover Your Dream Job: Current Openings at Codiste</h1>
+						<h1 className="all-blog text-center">Discover Your Dream Job: Current Openings at Codiste</h1>
 					</div>
 					<div className="row">
 						<div className="col-lg-4 col-md-6 col-12 pb-3 ">
@@ -196,15 +187,15 @@ const Career = () => {
 
 							</div>
 						</div>
-						{/* <div className="col-lg-4 col-md-6 col-12 pb-3 ">
+						<div className="col-lg-4 col-md-6 col-12 pb-3 ">
 							<div className="service-block p-4 h-100 d-flex flex-column justify-content-between">
 								<div>
 									<h3 className="secondsec-head">
-										Mernstack developer
+										Python developer
 									</h3>
 									<p className="secondsec-p">
 										No of vacancy : 1 <br />
-										Experience : 2 -3 yrs
+										Experience : 0-1 yrs
 									</p>
 								</div>
 								<div>
@@ -212,7 +203,7 @@ const Career = () => {
 								</div>
 
 							</div>
-						</div> */}
+						</div>
 					</div>
 				</div>
 			</div>

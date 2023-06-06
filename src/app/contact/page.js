@@ -54,7 +54,7 @@ const page = () => {
 
 			<div className="container container-fluid mb-5 py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center  mb-5 contact-block">
-					<h1 className="all-head text-center">
+					<h1 className="all-blog text-center">
 						Serving Clients With Our Global Network
 					</h1>
 

@@ -32,9 +32,9 @@ const CaseStudyList = () => {
 										/>
 									</div>
 									<div className="mb-5">
-										<h6 className="case-head">
+										<h3 className="case-head">
 											{item.title}
-										</h6>
+										</h3>
 										<Link
 											href={item.url}
 											className="case-pera"
