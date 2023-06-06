@@ -15,7 +15,7 @@ const Blogs = () => {
 			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>
-						<div className="row firstsec ">
+						<div className="row firstsec py-4">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
 								<div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
 									<h1 className="all-blog">Our Blog</h1>
