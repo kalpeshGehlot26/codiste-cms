@@ -149,7 +149,7 @@ const Services = () => {
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
-										src="assets/images/solution.png"
+										src="assets/images/Our-service/solution.png"
 										alt="Personalized Solutions"
 									/>
 									<h3 className="">Personalized Solutions</h3>
@@ -170,7 +170,7 @@ const Services = () => {
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
-										src="assets/images/iBusiness.png"
+										src="assets/images/Our-service/iBusiness.png"
 										alt="Synergistic Strategy"
 									/>
 									<h3 className="">Synergistic Strategy</h3>
@@ -191,7 +191,7 @@ const Services = () => {
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
-										src="assets/images/natural-language-processing.png"
+										src="assets/images/Our-service/natural-language-processing.png"
 										alt="Technology Experts"
 									/>
 									<h3 className="">Technology Experts</h3>
@@ -212,7 +212,7 @@ const Services = () => {
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
-										src="assets/images/agile.png"
+										src="assets/images/Our-service/agile.png"
 										alt="End-to-End Development"
 									/>
 									<h3 className="">
@@ -234,7 +234,7 @@ const Services = () => {
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
-										src="assets/images/internet.png"
+										src="assets/images/Our-service/internet.png"
 										alt="Robust Security Solutions"
 									/>
 									<h3 className="">
@@ -255,7 +255,7 @@ const Services = () => {
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
-										src="assets/images/Post Sales Support & Assistance.png"
+										src="assets/images/Service-meta/Post Sales Support & Assistance.png"
 										alt="Post Sales Support & Assistance"
 									/>
 									<h3 className="">
