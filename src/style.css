@@ -1627,8 +1627,8 @@ height: auto;
   max-width:100%;
 }
 .about-mainsec{
-   padding-top: 80px;
-   padding-bottom: 80px;
+   /* padding-top: 80px; */
+   /* padding-bottom: 80px; */
 }
 
 
