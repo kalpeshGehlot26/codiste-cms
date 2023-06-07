@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import dynamic from 'next/dynamic';
+import TawkChatBot from "../component/TawkChatBot";
 
 const Clutch = dynamic(() => import("../component/ClutchReview"), {
 	ssr: false,
@@ -191,6 +192,7 @@ const Footer = () => {
 							</ul>
 						</div>
 					</div>
+					<TawkChatBot />
 					<div className="footer-center">
 						<p>
 							© 2021-2023. All rights reserved by{" "}

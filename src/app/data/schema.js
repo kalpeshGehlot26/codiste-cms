@@ -551,7 +551,36 @@ const jsonData = {
 				},
 			},
 		],
-	}
+	},
+	aboutUs: {
+		"@context": "https://schema.org/",
+		"@type": "Person",
+		name: "Nishant Bijani",
+		url: "https://www.codiste.com/about",
+		image: "https://www.codiste.com/assets/images/about/Nishant.png",
+		sameAs: [
+			"https://twitter.com/bijani_nishant",
+			"https://www.linkedin.com/in/nishantbijani/",
+		],
+		jobTitle: "CTO",
+		worksFor: {
+			"@type": "Organization",
+			name: "Codiste Pvt Ltd",
+		},
+	},
+	aboutUsV1: {
+		"@context": "https://schema.org/",
+		"@type": "Person",
+		name: "Nicolas Roux",
+		url: "https://www.codiste.com/about",
+		image: "https://www.codiste.com/assets/images/about/Nic.png",
+		sameAs: "https://www.linkedin.com/in/nicolas-roux-2a847518a/",
+		jobTitle: "Co-Founder",
+		worksFor: {
+			"@type": "Organization",
+			name: "Codiste Pvt Ltd",
+		},
+	},
 };
 
 export default jsonData;

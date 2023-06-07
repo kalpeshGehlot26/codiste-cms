@@ -1,6 +1,7 @@
 import React from "react";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
+import jsonData from "../data/schema";
 
 export const metadata = {
 	title: "Enterprise Grade Blockchain Development Company | Codiste",
@@ -11,8 +12,14 @@ export const metadata = {
 const About = () => {
 	return (
 		<div>
-
-
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.aboutUs) }}
+			/>
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.aboutUsV1) }}
+			/>
 			<div className="bg-color careersec">
 				<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-0 mb-lg-5 p-4">
 					<h1 className="all-head">Enterprise Grade Blockchain Development Company</h1>
