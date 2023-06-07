@@ -166,7 +166,7 @@ const MobileAppDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Cross-Platform Mobile Applications"
-								src="assets/images/cross-platform.png"
+								src="assets/images/Service-mobile/cross-platform.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Cross-Platform Mobile Applications
