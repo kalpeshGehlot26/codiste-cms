@@ -67,7 +67,7 @@ const WebDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Comprehensive Development Support"
-								src="assets/images/cell-analysis.png"
+								src="assets/images/Service-web/cell-analysis.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Comprehensive Development Support
@@ -85,7 +85,7 @@ const WebDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Efficient Solutions"
-								src="assets/images/reviewing.png"
+								src="assets/images/Service-web/reviewing.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Efficient Solutions
@@ -102,7 +102,7 @@ const WebDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Visually Stunning Applications"
-								src="assets/images/focus.png"
+								src="assets/images/Service-web/focus.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Visually Stunning Applications
@@ -119,7 +119,7 @@ const WebDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Customized and Personalized CX"
-								src="assets/images/technology2.png"
+								src="assets/images/Service-web/technology2.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Customized and Personalized CX
@@ -136,7 +136,7 @@ const WebDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="24/7 Customer Support"
-								src="assets/images/24-hours.png"
+								src="assets/images/Service-web/24-hours.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								24/7 Customer Support
@@ -152,7 +152,7 @@ const WebDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Secure and Scalable"
-								src="assets/images/Secure and Scalable.png"
+								src="assets/images/Service-web/Secure and Scalable.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Secure and Scalable

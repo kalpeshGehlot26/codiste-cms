@@ -44,7 +44,7 @@ const Services = () => {
 
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid'
-									src="assets/images/firstsecimg.png" alt="Services" /></div>
+									src="assets/images/main/firstsecimg.png" alt="Services" /></div>
 							</div>
 						</div>
 					</section>

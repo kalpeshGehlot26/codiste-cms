@@ -24,7 +24,7 @@ const About = () => {
 				<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-0 mb-lg-5 p-4">
 					<h1 className="all-head">Enterprise Grade Blockchain Development Company</h1>
 				</div>
-				<div className="container container-fluid about-mainsec" >
+				<div className="container container-fluid" >
 					<section>
 						<div className="row">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap  align-items-center justify-content-between">
@@ -38,7 +38,7 @@ const About = () => {
 										environment and strive to be the ideal partner for companies seeking innovative technological solutions with
 										blockchain and other prominent Web3 technologies.
 									</p>
-									<button className="book-btn">Explore More</button>
+									<a href="#servicesOffer" className="book-btn">Explore More</a>
 								</div>
 							</div>
 						</div>
@@ -177,7 +177,7 @@ const About = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid  py-5">
+			<div className="container container-fluid  py-5" id="servicesOffer">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Services We Offer</h1>
