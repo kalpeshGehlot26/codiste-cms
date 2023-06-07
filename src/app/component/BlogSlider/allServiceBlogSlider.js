@@ -24,8 +24,6 @@ const AllServiceBlogSlider = ({ limit, category }) => {
         getBlogs();
     }, [limit, category]);
 
-    console.log("posts", posts)
-
     return (
         <Splide
             hasTrack={false}

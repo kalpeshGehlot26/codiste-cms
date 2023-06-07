@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export async function getPosts(page) {
-    const response = await axios.get(`${process.env.NEXT_PUBLIC_WP_API}/posts?_embed&per_page=12&page=${page}&filter[orderby]=date&order=desc`, {
+    const response = await axios.get(`${process.env.NEXT_PUBLIC_WP_API}/posts?_embed&per_page=8&page=${page}&filter[orderby]=date&order=desc`, {
         
         headers: 'X-WP-Total'
     });

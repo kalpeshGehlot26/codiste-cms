@@ -3,6 +3,7 @@ import { usePathname } from "next/navigation";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import React, { useEffect, useState } from "react";
 import { getPostBySlug } from "../lib/lib";
+import { Helmet } from 'react-helmet';
 import moment from "moment";
 
 const BlogContent = () => {
@@ -39,6 +40,10 @@ const BlogContent = () => {
 
 	return (
 		<div className="">
+			<Helmet>
+				<title>{post?.yoast_head_json.og_title}</title>
+				<meta name="description" content={post?.yoast_head_json.og_description} />
+			</Helmet>
 			<div className="blog-title text-center container mx-auto blog-container-width">
 				<h1 style={{ zIndex: "-1" }}>{post.title.rendered}</h1>
 				<div className="mb-3">

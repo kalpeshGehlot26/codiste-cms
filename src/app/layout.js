@@ -9,9 +9,10 @@ import Analytics from './component/Analytics';
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata  = {
-	title: "Blockchain Service Provider",
-	description: "Discover innovative tech solutions for business with our leading blockchain and software development company. We offer a wide range of services and expertise to cater to your unique needs.",
+export const metadata = {
+	title: "Leading Blockchain and Software Development Company | Codiste",
+	description:
+		"Codiste a leading blockchain and software development company offers tailored expertise for advanced tech solutions. Discover innovation to business solutions.",
 };
 
 export default function RootLayout({ children }) {
