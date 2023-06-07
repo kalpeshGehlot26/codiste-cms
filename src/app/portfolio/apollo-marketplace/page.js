@@ -514,7 +514,7 @@ const ApolloPortfolio = () => {
 						</h1>
 					</div>
 					<div className="row  d-flex align-items-center">
-						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
+						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-4">
 							<h1>
 								Get expert advice on adopting and integrating advanced technologies.<br />
 								Stay compliant, stay ahead!

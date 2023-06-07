@@ -2,7 +2,7 @@ import React from "react";
 
 const ClutchReview = () => {
 	return (
-		<div className="review-bg">
+		<div className="review-bg my-3 my-lg-0">
 			<div
 				className="clutch-widget"
 				data-url="https://widget.clutch.co"

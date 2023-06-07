@@ -22,12 +22,12 @@ const Career = () => {
 			</div>
 			<div className="container container-fluid ">
 				<div className="row careermain">
-					<div className="col-xl-6 col-md-5 col-sm-12 mb-5">
+					<div className="col-xl-6 col-md-5 col-sm-12 mb-5 p-4">
 						<img className='img-fluid d-flex align-items-center justify-content-center' src="assets/images/main/Career_.png"
 							alt="Team" />
 
 					</div>
-					<div className="col-xl-6 col-md-7 col-sm-12 mb-5 ">
+					<div className="col-xl-6 col-md-7 col-sm-12 mb-5 p-4">
 
 						<h3 className="mb-3">Are you passionate about technology and looking for a dynamic career in the tech
 							industry? </h3>
@@ -223,7 +223,7 @@ const Career = () => {
 				<h1 className="text-center all-head mb-5">Are you a professional techie?</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
-						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec" >
+						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-4" >
 							<h1 className="">
 								Apply now Our HR team will reach out for the further process.
 							</h1>

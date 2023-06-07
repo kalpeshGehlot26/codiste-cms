@@ -467,7 +467,7 @@ const AIDevelopmentCompany = () => {
 
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
-						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec">
+						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
 							<div className=" ">
 								<h1 className="">CYPHA – Your Sound</h1>
 								<p className="all-p">

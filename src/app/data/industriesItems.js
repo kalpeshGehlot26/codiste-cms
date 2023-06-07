@@ -44,7 +44,6 @@ const industryItems = [
         title: "Gaming & Entertainment"
     },
 
-
     {
         url: "assets/images/industries/artificial-intelligence.png",
         className: "ins-health",
@@ -55,7 +54,6 @@ const industryItems = [
         className: "ins-education",
         title: "Loyalty Programs"
     },
-
 
     {
         url: "assets/images/industries/iot.png",

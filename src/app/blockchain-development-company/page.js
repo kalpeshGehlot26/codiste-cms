@@ -560,7 +560,7 @@ const BlockChainDevelopment = () => {
 
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
-						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec">
+						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
 							<div className=" ">
 								<h1 className="">
 									CounterTen – Solana Marketplace
@@ -805,7 +805,7 @@ const BlockChainDevelopment = () => {
 				<h1 className="all-head text-center mb-5">Have a Project?</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
-						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
+						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-4">
 							<h1>Reach out to our technical support team for immediate assistance and expert guidance.</h1>
 
 						</div>

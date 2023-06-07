@@ -27,9 +27,8 @@ const Services = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec ">
-							<div
-								className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
-								<div className="col-12 col-lg-5 order-2 order-lg-1">
+							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
+								<div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
 									<h1 className="all-head">Our Services</h1>
 									<p className="all-p me-5 my-4">We bring the best people for a one-stop tech & dev support
 										ecosystem catering to businesses, startups, and enterprises from various sectors and industries. We are
@@ -40,7 +39,7 @@ const Services = () => {
 										Contact Us
 									</Link>
 								</div>
-								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid'
+								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2 p-4"><img className='img-fluid'
 									src="assets/images/main/firstsecimg.png" alt="Services" /></div>
 							</div>
 						</div>
@@ -281,7 +280,7 @@ const Services = () => {
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head text-center">Our Proven Development Cycle </h1>
-					<p className="all-p me-5 text-center">
+					<p className="all-p  text-center">
 						We follow an extensive step by step development cycle to
 						ensure timely yet quality-assured product deliveries.{" "}
 					</p>
@@ -476,7 +475,7 @@ const Services = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-blog">Their Success Stories are our Valuable Feedback!</h1>
+							<h1 className="all-blog text-center">Their Success Stories are our Valuable Feedback!</h1>
 						</div>
 
 						<div

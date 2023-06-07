@@ -967,7 +967,7 @@ const About = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">Take the word of those who have benefitted from
+							<h1 className="all-head text-center">Take the word of those who have benefitted from
 								Codiste !</h1>
 
 						</div>
@@ -1157,7 +1157,7 @@ const About = () => {
 					<h1 className="all-head mb-5 text-center">Get in touch with Us!</h1>
 					<section>
 						<div className="row  d-flex align-items-center">
-							<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
+							<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-4">
 								<h1>Start Building on Your Idea Today! <br />Get in touch with our team with this form.</h1>
 
 							</div>

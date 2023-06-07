@@ -470,7 +470,7 @@ const MetaverseDevelopmentCompany = () => {
 						</p>
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
-						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec">
+						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
 							<div className="">
 								<h1 className="">
 									DiveWallet <br /> Your next-gen crypto asset
@@ -694,7 +694,7 @@ const MetaverseDevelopmentCompany = () => {
 				<h1 className="all-head text-center mb-5">We will contact you hereafte!</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
-						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
+						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-4">
 							<h1>
 								Want to leverage Metaverse for your business?
 								<br />Let us know your details in the form.
