@@ -4,7 +4,7 @@ import React, { Fragment, useEffect, useState } from "react";
 import caseStudyItems from "@/app/data/caseStudyItems";
 
 const CaseStudyList = () => {
-	const [caseStudyCount, setCaseStudyCount] = useState(3);
+	const [caseStudyCount, setCaseStudyCount] = useState(6);
 	const [totalCount, setTotalCount] = useState(null);
 
 	useEffect(() => {

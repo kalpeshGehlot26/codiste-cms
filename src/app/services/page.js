@@ -7,14 +7,8 @@ import Industries from "../component/service/industries";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import mainServiceList from "../data/services/mainServiceList";
+import { Helmet } from 'react-helmet';
 import Link from "next/link";
-
-
-const metadata = {
-	title: "Software Development Company | Empowering IT Solutions | Codiste",
-	description:
-		"We are a leading software development company offering a innovative tech and development support ecosystem. We caters immersive solutions to all business across diverse sectors.",
-};
 
 const limit = 4;
 const category = "47,43,55,6,57";
@@ -25,6 +19,10 @@ const Services = () => {
 
 	return (
 		<div>
+			<Helmet>
+				<title>Software Development Company I Empowering IT Solutions I Codiste</title>
+				<meta name="description" content="We are a leading software development company offering a innovative tech and development support ecosystem. We caters immersive solutions to all business across diverse sectors." />
+			</Helmet>
 			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>
@@ -41,7 +39,6 @@ const Services = () => {
 									<Link href="/contact" className="book-btn">
 										Contact Us
 									</Link>
-
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid'
 									src="assets/images/main/firstsecimg.png" alt="Services" /></div>
