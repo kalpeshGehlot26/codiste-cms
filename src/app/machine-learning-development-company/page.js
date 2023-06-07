@@ -72,7 +72,7 @@ const MLDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Comprehensive Development"
-								src="assets/images/Comprehensive Development.png"
+								src="assets/images/Service-machine/Comprehensive Development.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Comprehensive Development
@@ -90,7 +90,7 @@ const MLDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Enterprise Automation Tools"
-								src="assets/images/Automation Tools.png"
+								src="assets/images/Service-machine/Automation Tools.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Enterprise Automation Tools
@@ -107,7 +107,7 @@ const MLDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Safe and Secure"
-								src="assets/images/Safe and Secure.png"
+								src="assets/images/Service-machine/Safe and Secure.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Safe and Secure
@@ -125,7 +125,7 @@ const MLDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Customized Models and Training Platforms"
-								src="assets/images/training.png"
+								src="assets/images/Service-machine/training.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Customized Models and Training Platforms
@@ -143,7 +143,7 @@ const MLDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Expert-Led Development Process"
-								src="assets/images/iteration.png"
+								src="assets/images/Service-machine/iteration.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Expert-Led Development Process
@@ -161,7 +161,7 @@ const MLDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Seamless Integration & Deployment"
-								src="assets/images/Seamless Integration & Deployment.png"
+								src="assets/images/Service-machine/Seamless Integration & Deployment.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Seamless Integration & Deployment{" "}

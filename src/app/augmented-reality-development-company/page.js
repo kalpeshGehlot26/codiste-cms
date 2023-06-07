@@ -68,7 +68,7 @@ const ARVRDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Customized Development"
-								src="assets/images/Customized Development.png"
+								src="assets/images/Service-AR/Customized Development.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Customized Development
@@ -85,7 +85,7 @@ const ARVRDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Blending Multiple Realities"
-								src="assets/images/augmented-reality.png"
+								src="assets/images/Service-AR/augmented-reality.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Blending Multiple Realities
@@ -102,7 +102,7 @@ const ARVRDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Seamless Deployment and Integration"
-								src="assets/images/ar.png"
+								src="assets/images/Service-AR/ar.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Seamless Deployment and Integration
@@ -119,7 +119,7 @@ const ARVRDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Immersive User Experience"
-								src="assets/images/3600-degrees.png"
+								src="assets/images/Service-AR/3600-degrees.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Immersive User Experience
@@ -137,7 +137,7 @@ const ARVRDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Streamline Development Process"
-								src="assets/images/supply-chain.png"
+								src="assets/images/Service-AR/supply-chain.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Streamline Development Process
@@ -155,7 +155,7 @@ const ARVRDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Robust and Scalable Platforms"
-								src="assets/images/robust.png"
+								src="assets/images/Service-AR/robust.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Robust and Scalable Platforms

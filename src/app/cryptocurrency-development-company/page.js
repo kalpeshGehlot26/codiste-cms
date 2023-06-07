@@ -61,20 +61,15 @@ const CryptoDevelopmentCompany = () => {
 							Why Choose Codiste for Cryptocurrency Development
 							Services?
 						</h1>
-						{/* <p className="all-p text-center">
-							Codiste offers end-to-end cryptocurrency development
-							support with emerging leading technologies and a
-							wide range of blockchain networks including
-							Ethereum, Solana, Polygon and various others.
-						</p> */}
+
 					</div>
 
 					<div className="row">
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
-								alt=""
-								src="assets/images/Blockchain Network Support.png"
+								alt="Blockchain Network Support"
+								src="assets/images/Service-crypto/Blockchain Network Support.png"
 							/>
 							<h2 className=" text-center secondsec-head">
 								10+ Blockchain Network Support
@@ -92,8 +87,8 @@ const CryptoDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
-								alt=""
-								src="assets/images/Immutable Security.png"
+								alt="Immutable Security"
+								src="assets/images/Service-crypto/Immutable Security.png"
 							/>
 							<h2 className=" text- center secondsec-head ">
 								Immutable Security with DLT
@@ -109,8 +104,8 @@ const CryptoDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
-								alt=""
-								src="assets/images/Peer-to-Peer Trade Facility.png"
+								alt="Peer-to-Peer"
+								src="assets/images/Service-crypto/Peer-to-Peer Trade Facility.png"
 							/>
 							<h2 className="text-center secondsec-head text- center">
 								Peer-to-Peer Trade Facility
@@ -126,8 +121,8 @@ const CryptoDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
 							<img
 								className="img-fluid mb-2"
-								alt=""
-								src="assets/images/best-practice.png"
+								alt="best-practice"
+								src="assets/images/Service-crypto/best-practice.png"
 							/>
 							<h2 className="text-center secondsec-head">
 								Customized Development
@@ -143,8 +138,8 @@ const CryptoDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
-								alt=""
-								src="assets/images/iwallet.png"
+								alt="iwallet"
+								src="assets/images/Service-crypto/iwallet.png"
 							/>
 							<h2 className=" text-center secondsec-head">
 								End-to-End Wallet Security
@@ -160,8 +155,8 @@ const CryptoDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
 							<img
 								className="img-fluid mb-2"
-								alt=""
-								src="assets/images/Mobile & Web Extensions.png"
+								alt="Mobile"
+								src="assets/images/Service-crypto/Mobile & Web Extensions.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Mobile & Web Extensions

@@ -75,7 +75,7 @@ const MobileAppDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Quality Assurance and Testing"
-								src="assets/images/quality.png"
+								src="assets/images/Service-mobile/quality.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Quality Assurance and Testing
@@ -93,7 +93,7 @@ const MobileAppDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Customization and Personalization"
-								src="assets/images/customer-behavior.png"
+								src="assets/images/Service-mobile/customer-behavior.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Customization and Personalization
@@ -103,7 +103,7 @@ const MobileAppDevelopmentCompany = () => {
 								application development team has the expertise
 								and hands-on experience to build and develop as
 								per your specific requirements and develop
-								solutions that align with your brand images and
+								solutions that align with your brand images Service-mobile/and
 								add value to your business goals.
 							</p>
 						</div>
@@ -111,7 +111,7 @@ const MobileAppDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Hybrid Mobile Applications"
-								src="assets/images/application.png"
+								src="assets/images/Service-mobile/application.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Hybrid Mobile Applications
@@ -128,7 +128,7 @@ const MobileAppDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Emerging Technologies"
-								src="assets/images/digital.png"
+								src="assets/images/Service-mobile/digital.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Emerging Technologies
@@ -146,7 +146,7 @@ const MobileAppDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Expertise in Multiple Industries"
-								src="assets/images/supplier.png"
+								src="assets/images/Service-mobile/supplier.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Expertise in Multiple Industries

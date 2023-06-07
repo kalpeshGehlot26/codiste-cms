@@ -67,7 +67,7 @@ const AIDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="A multitude of AI Technologies"
-								src="assets/images/ai.png"
+								src="assets/images/Service-AI/ai.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								A multitude of AI Technologies{" "}
@@ -84,7 +84,7 @@ const AIDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Custom AI Solutions"
-								src="assets/images/replacement.png"
+								src="assets/images/Service-AI/replacement.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Custom AI Solutions
@@ -97,7 +97,7 @@ const AIDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Efficient & Optimized Development"
-								src="assets/images/air.png"
+								src="assets/images/Service-AI/air.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Efficient & Optimized Development{" "}
@@ -110,7 +110,7 @@ const AIDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Advanced Analytics Capabilities"
-								src="assets/images/Advanced Analytics Capabilities.png"
+								src="assets/images/Service-AI/Advanced Analytics Capabilities.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Advanced Analytics Capabilities
@@ -129,7 +129,7 @@ const AIDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Data Security and Privacy"
-								src="assets/images/cloud.png"
+								src="assets/images/Service-AI/cloud.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Data Security and Privacy
@@ -142,7 +142,7 @@ const AIDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Post Sales Assistance"
-								src="assets/images/support.png"
+								src="assets/images/Service-AI/support.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Post Sales Assistance{" "}

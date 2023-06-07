@@ -73,8 +73,8 @@ const MetaverseDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
-								alt=""
-								src="assets/images/Post Sales Support & Assistance.png"
+								alt="Post Sales"
+								src="assets/images/Service-meta/Post Sales Support & Assistance.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								End-to-End Development Support
@@ -90,8 +90,8 @@ const MetaverseDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
-								alt=""
-								src="assets/images/personalized.png"
+								alt="personalized"
+								src="assets/images/Service-meta/personalized.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Personalized Development
@@ -107,8 +107,8 @@ const MetaverseDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
-								alt=""
-								src="assets/images/360-degrees.png"
+								alt="3D Immersive Experience"
+								src="assets/images/Service-meta/360-degrees.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								3D Immersive Experience
@@ -124,8 +124,8 @@ const MetaverseDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
 							<img
 								className="img-fluid mb-2"
-								alt=""
-								src="assets/images/vr-glasses.png"
+								alt="Virtual Avatars"
+								src="assets/images/Service-meta/vr-glasses.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Virtual Avatars
@@ -142,8 +142,8 @@ const MetaverseDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
-								alt=""
-								src="assets/images/decentralization.png"
+								alt="Decentralized Security"
+								src="assets/images/Service-meta/decentralization.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Decentralized Security
@@ -159,8 +159,8 @@ const MetaverseDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
 							<img
 								className="img-fluid mb-2"
-								alt=""
-								src="assets/images/autumn.png"
+								alt="Extensive Customization"
+								src="assets/images/Service-meta/autumn.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Extensive Customization
