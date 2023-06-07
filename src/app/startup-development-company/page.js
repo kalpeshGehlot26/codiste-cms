@@ -107,7 +107,7 @@ const StartupDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Cost Efficient Development"
-								src="assets/images/Cost Efficient Development.png"
+								src="assets/images/Service-startup/Cost Efficient Development.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Cost Efficient Development
@@ -127,7 +127,7 @@ const StartupDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Immersive Experience Integration"
-								src="assets/images/isolution.png"
+								src="assets/images/Service-startup/isolution.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Immersive Experience Integration
@@ -147,7 +147,7 @@ const StartupDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Blockchain Solutions"
-								src="assets/images/Blockchain Solutions.png"
+								src="assets/images/Service-startup/Blockchain Solutions.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Blockchain Solutions
@@ -167,7 +167,7 @@ const StartupDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Tech & Dev Hub"
-								src="assets/images/Tech & Dev Hub.png"
+								src="assets/images/Service-startup/Tech & Dev Hub.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Tech & Dev Hub{" "}
@@ -249,75 +249,6 @@ const StartupDevelopmentCompany = () => {
 					</li>
 				</ul>
 			</div>
-
-			{/* <div id="container" className="container container-fluid py-5 firstsec"
-			>
-				<h1 className="all-head text-center">
-					Startup Process Idea{" "}
-				</h1>
-				<p className="secondsec-p text-center">
-					codiste offers startup development services for
-					entrepreneurs with comprehensive support and guidance to
-					navigate each step towards success.
-				</p>
-
-				<ol className="process-chart">
-					<li>
-						<div>
-							<h2> Idea & Tech Validation</h2>
-							<p>
-								We evaluate the feasibility and
-								marketability of the startup idea. We assess
-								the best and most efficient technologies
-								based on the market research, and validate
-								the technical requirements to ensure that
-								the solution remains efficient.
-							</p>
-						</div>
-					</li>
-					<li>
-						<div>
-							<h2>Prototype Development</h2>
-							<p>
-								We start working on prototype platforms or
-								services before giving it a final go. With
-								this prototype we understand bug and patch
-								immunity to ensure a safe and secure end
-								product from scratch.
-							</p>
-						</div>
-					</li>
-					<li>
-						<div>
-							<h2>MVP Development</h2>
-							<p>
-								Once the prototype is tested and finalized,
-								we start building the final product to help
-								startups with funding and other crucial
-								processes like investor pooling. We develop
-								a minimum viable product and help you with
-								brainstorming for new creative ideas and
-								develop the end product simultaneously.
-							</p>
-						</div>
-					</li>
-					<li>
-						<div>
-							<h2>Post Launch Tech Support</h2>
-							<p>
-								When you launch and gain traction with your
-								audience, we help you with handling the
-								traffic and scale your systems accordingly.
-								Our extended tech support helps you in
-								dealing with system upgrades and customer
-								tech support.
-							</p>
-						</div>
-					</li>
-				</ol>
-			</div> */}
-
-
 
 
 			<div className="bg-color py-5 mt-5">

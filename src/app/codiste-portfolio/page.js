@@ -29,7 +29,7 @@ const CodistePortfolio = () => {
 										Let's Connect
 									</Link>
 								</div>
-								<div className="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0"><img className='img-fluid' alt='OurPortfolio' src="assets/images/Our Portfolio.png" /></div>
+								<div className="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0"><img className='img-fluid' alt='OurPortfolio' src="assets/images/main/Our Portfolio.png" /></div>
 							</div>
 						</div>
 					</section>

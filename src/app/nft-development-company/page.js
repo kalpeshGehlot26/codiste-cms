@@ -65,11 +65,6 @@ const NFTDevelopment = () => {
 
 					<div className="row">
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
-							<img
-								className="img-fluid mb-2"
-								alt=""
-								src="./Images/marketplace.png"
-							/>
 							<h2 className="secondsec-head text-center">
 								Customizable Marketplaces
 							</h2>
@@ -85,11 +80,6 @@ const NFTDevelopment = () => {
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
-							<img
-								className="img-fluid mb-2"
-								alt=""
-								src="./Images/security.png"
-							/>
 							<h2 className="secondsec-head text-center">
 								Immutable Security
 							</h2>
@@ -104,11 +94,6 @@ const NFTDevelopment = () => {
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
-							<img
-								className="img-fluid mb-2"
-								alt=""
-								src="./Images/tokenization.png"
-							/>
 							<h2 className="secondsec-head text-center">
 								Tokenization
 							</h2>
@@ -123,11 +108,6 @@ const NFTDevelopment = () => {
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
-							<img
-								className="img-fluid mb-2"
-								alt=""
-								src="./Images/integration.png"
-							/>
 							<h2 className="secondsec-head text-center">
 								Metaverse Integration
 							</h2>
@@ -142,11 +122,6 @@ const NFTDevelopment = () => {
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
-							<img
-								className="img-fluid mb-2"
-								alt=""
-								src="./Images/decentralization.png"
-							/>
 							<h2 className="secondsec-head text-center">
 								Decentralized Ecosystem
 							</h2>
@@ -160,11 +135,7 @@ const NFTDevelopment = () => {
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
-							<img
-								className="img-fluid mb-2"
-								alt=""
-								src="./Images/cryptocurrency.png"
-							/>
+
 							<h2 className="secondsec-head text-center">
 								Digitized Assets
 							</h2>
