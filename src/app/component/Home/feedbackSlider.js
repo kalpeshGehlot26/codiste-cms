@@ -22,16 +22,20 @@ const FeedbackSlider = () => {
             }}
         >
             <SplideTrack>
-                {/* <SplideSlide className="splide__slide">
+
+
+                <SplideSlide className="splide__slide">
                     <div className="p-3">
                         <div className="d-flex align-items-center justify-content-center">
-                            <img className="img-fluid my-4 client-logohome p-0 w-auto" alt="DiveWallet" src="assets/images/client-logos/DiveWallet Logo.png" />
+                            <img className="img-fluid my-4 client-logohome p-0 w-auto" alt="Ninza NFT" src="assets/images/client-logos/Danketsu-Logo-Blue (Ninja NFT).png" />
                         </div>
                         <p className="secondsec-p">
-                            I am pleased to say that working with Codiste Pvt Ltd has been a positive experience for our community. The project is now complete, and the feedback we have received on the platform has been overwhelmingly positive. Throughout the project, Codiste maintained open communication lines, regularly updating us on progress and following the agreed timeline. They delivered an app with impressive functionalities and accepted every challenge we gave them.
+                            They communicate clearly and outline the product roadmap for us. It has been very easy to work with them. Made us profitaable on NFT Marketplace and which made amazing journey.
                         </p>
+                        <h5>Ninza NFT</h5>
+                        <p className="mb-5">CoFounder</p>
                     </div>
-                </SplideSlide> */}
+                </SplideSlide>
                 <SplideSlide className="splide__slide">
                     <div className="p-3">
                         <div className="d-flex align-items-center justify-content-center">
