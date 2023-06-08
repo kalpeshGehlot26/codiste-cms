@@ -424,6 +424,7 @@ const About = () => {
 											<img
 												className="img-fluid"
 												src="assets/images/splide/Bonfire.svg"
+												loading="lazy"
 											/>{" "}
 										</a>
 									</li>
@@ -481,6 +482,7 @@ const About = () => {
 											<img
 												className="img-fluid"
 												src="assets/images/splide/Holygrails.svg"
+												loading="lazy"
 											/>{" "}
 										</a>
 									</li>
@@ -491,6 +493,7 @@ const About = () => {
 											<img
 												className="img-fluid"
 												src="assets/images/splide/Ikaris.svg"
+												loading="lazy"
 											/>{" "}
 										</a>
 									</li>
@@ -501,6 +504,7 @@ const About = () => {
 											<img
 												className="img-fluid"
 												src="assets/images/splide/Medizen.svg"
+												loading="lazy"
 											/>{" "}
 										</a>
 									</li>
@@ -511,6 +515,7 @@ const About = () => {
 											<img
 												className="img-fluid"
 												src="assets/images/splide/ml.svg"
+												loading="lazy"
 											/>{" "}
 										</a>
 									</li>

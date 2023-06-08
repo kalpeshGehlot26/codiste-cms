@@ -419,6 +419,7 @@ const Services = () => {
 											className="img-fluid "
 											alt="Counterten"
 											src="assets/images/Casestudy-img/counterten 1.png"
+											loading="lazy"
 										/>
 									</div>
 									<div className="mb-5">
@@ -437,6 +438,7 @@ const Services = () => {
 											className="img-fluid "
 											alt="Tankpad"
 											src="assets/images/Casestudy-img/Tankpad 1.png"
+											loading="lazy"
 										/>
 									</div>
 									<div className="mb-5">

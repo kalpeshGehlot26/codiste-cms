@@ -41,12 +41,12 @@ const mainServiceList = [
     },
     {
         title: "Start-Up",
-        url: "assets/images/services/startup.png",
+        url: "assets/images/services/Start up.png",
         description: "We can assist you in product development and initial tech support to help you get started on your dream business with our startup development services. We have end-to-end ITSM and technical development support for your start-up. Our start-up development team ensures you are well backed up regarding techno support and development solutions to help you tackle post-launch hurdles like scaling solutions and web services maintenance."
     },
     {
         title: "Mobile App",
-        url: "assets/images/services/mobile-app-development.png",
+        url: "assets/images/services/Mobile App Development.png",
         description: "We have industry experts and professionals to build you a visionary application for your business on iOS and Android platforms. Explore our mobile application development services for a seamless and connected user experience. Our mobile application development team also offers end-to-end development for hybrid mobile applications. It ensures a bug-free application code with low code and no code development, followed by rigorous automated and manual testing."
     }
 ];

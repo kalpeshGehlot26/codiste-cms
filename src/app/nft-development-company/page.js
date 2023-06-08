@@ -65,6 +65,11 @@ const NFTDevelopment = () => {
 
 					<div className="row">
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
+							<img
+								className="img-fluid mb-2"
+								alt="Customizable Marketplaces"
+								src="assets/images/Service-Nft/Customizable Marketplaces.png"
+							/>
 							<h2 className="secondsec-head text-center">
 								Customizable Marketplaces
 							</h2>
@@ -80,6 +85,11 @@ const NFTDevelopment = () => {
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
+							<img
+								className="img-fluid mb-2"
+								alt="Immutable Security"
+								src="assets/images/Service-Nft/Immutable Security.png"
+							/>
 							<h2 className="secondsec-head text-center">
 								Immutable Security
 							</h2>
@@ -94,6 +104,11 @@ const NFTDevelopment = () => {
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
+							<img
+								className="img-fluid mb-2"
+								alt="Tokenization"
+								src="assets/images/Service-Nft/Tokenization.png"
+							/>
 							<h2 className="secondsec-head text-center">
 								Tokenization
 							</h2>
@@ -108,6 +123,11 @@ const NFTDevelopment = () => {
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
+							<img
+								className="img-fluid mb-2"
+								alt="Metaverse Integration"
+								src="assets/images/Service-Nft/Metaverse Integration.png"
+							/>
 							<h2 className="secondsec-head text-center">
 								Metaverse Integration
 							</h2>
@@ -122,6 +142,11 @@ const NFTDevelopment = () => {
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
+							<img
+								className="img-fluid mb-2"
+								alt="Decentralized Ecosystem"
+								src="assets/images/Service-Nft/Decentralized Ecosystem.png"
+							/>
 							<h2 className="secondsec-head text-center">
 								Decentralized Ecosystem
 							</h2>
@@ -135,7 +160,11 @@ const NFTDevelopment = () => {
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
-
+							<img
+								className="img-fluid mb-2"
+								alt="Digitized Assets"
+								src="assets/images/Service-Nft/Digitized Assets.png"
+							/>
 							<h2 className="secondsec-head text-center">
 								Digitized Assets
 							</h2>

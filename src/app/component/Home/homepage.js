@@ -122,7 +122,7 @@ const HomePage = () => {
 									width: "auto",
 									margin: "auto",
 									padding: "20px",
-								}} src="assets/images/home/Codiste_Company.png" alt="Codiste As Company" />
+								}} src="assets/images/home/Codiste_Company.png" alt="Codiste As Company" loading="lazy" />
 
 						</div>
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">
@@ -173,7 +173,7 @@ const HomePage = () => {
 					<div className="text-center">
 						<h2 className="all-head">Innovation in Action: Real-World Case Studies from Codiste</h2>
 					</div>
-					<div className="row  mb-5 mt-4">
+					<div className="row mb-5 mt-4 g-4">
 						<div className="col-lg-4 col-md-6 col-sm-12">
 							<div className="casediwallet-block ">
 								<div className=" case-position">
@@ -202,6 +202,7 @@ const HomePage = () => {
 										className="img-fluid "
 										alt="counterten"
 										src="assets/images/Casestudy-img/counterten 1.png"
+										loading="lazy"
 									/>
 								</div>
 								<div className="mb-5">
@@ -220,6 +221,7 @@ const HomePage = () => {
 										className="img-fluid "
 										alt="Tankpad"
 										src="assets/images/Casestudy-img/Tankpad 1.png"
+										loading="lazy"
 									/>
 								</div>
 								<div className="mb-5">

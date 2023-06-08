@@ -271,12 +271,10 @@ ul.footer-icon li:hover svg path{
    text-decoration: none !important;
 }
 .footer-top-mr {
-   /* margin-top: 40px; */
-   margin-left: 80px;
+   margin-left: 80px !important;
 }
 
 .footer-top-mgr {
-   /* margin-top: 40px; */
    margin-left: 20px;
 }
 
@@ -2220,6 +2218,10 @@ box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.05);
    ul.About-style li {
       flex-basis: 50%;
    }
+   .footer-top-mr {
+      margin-left: 0px !important;
+   }
+   
 
  }
 

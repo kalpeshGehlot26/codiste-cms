@@ -67,7 +67,7 @@ const AllServiceBlogSlider = ({ limit, category }) => {
                                         />
                                         <div className="blogboxbg">
                                             <div className="blogfont-pos">
-                                                <p>{post._embedded["wp:term"][0][0]?.name}{" "}Development Service</p>
+                                                <p>{post._embedded["wp:term"][0][0]?.name}{" "}</p>
                                                 <h5>{post.title.rendered}</h5>
                                                 <Link href={link[3]} className="blogfont-btn mt-2">Read More</Link>
                                             </div>

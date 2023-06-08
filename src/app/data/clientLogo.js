@@ -5,7 +5,8 @@ const clientLogos = [
     },
     {
         url: "assets/images/splide/Bonfire.svg",
-        alt: "Bonfite"
+        alt: "Bonfire",
+        loading: "lazy",
     },
     {
         url: "assets/images/splide/coinxPad.svg",
@@ -29,11 +30,13 @@ const clientLogos = [
     },
     {
         url: "assets/images/splide/Holygrails.svg",
-        alt: "Holygrails"
+        alt: "Holygrails",
+        loading: "lazy"
     },
     {
         url: "assets/images/splide/Ikaris.svg",
-        alt: "Ikaris"
+        alt: "Ikaris",
+        loading: "lazy",
     },
     {
         url: "assets/images/splide/Medizen.svg",
@@ -42,7 +45,8 @@ const clientLogos = [
 
     {
         url: "assets/images/splide/ml.svg",
-        alt: "ML"
+        alt: "ML",
+        loading: "lazy"
     },
 
     {

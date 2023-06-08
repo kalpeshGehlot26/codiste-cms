@@ -40,14 +40,18 @@ const FeedbackSlider = () => {
                         <p className="secondsec-p">
                             They communicate clearly and outline the product roadmap for us. It has been very easy to work with them. Made us profitaable on NFT Marketplace and which made amazing journey.
                         </p>
+                        <h5>Ninza NFT</h5>
+                        <p className="mb-5">CoFounder</p>
                     </div>
                 </SplideSlide>
                 <SplideSlide className="splide__slide">
                     <div className="p-3">
-                        <div className="d-flex align-items-center justify-content-center"><img className="img-fluid my-4 client-logohome p-0 w-auto" alt="DiveWallet" src="assets/images/client-logos/bonfire.png" /></div>
+                        <div className="d-flex align-items-center justify-content-center"><img className="img-fluid my-4 client-logohome p-0 w-auto" alt="bonfire" src="assets/images/client-logos/bonfire.png" /></div>
                         <p className="secondsec-p">
                             They truly do everything up to a very high standard. Codiste pvt ltd has successfully delivered a functional app praised in many publications for its neatness and speed. They have frequently communicated via Slack and managed the project efficiently using Jira. Their extensive knowledge and humble attitude have been hallmarks of their work.
                         </p>
+                        <h5>The Real Estate Investment platform</h5>
+                        <p className="mb-5">CTO and Co-Founder</p>
                     </div>
                 </SplideSlide>
                 <SplideSlide className="splide__slide">
@@ -58,6 +62,8 @@ const FeedbackSlider = () => {
                         <p className="secondsec-p">
                             Codiste pvt ltd delivered the project within the given timeline and budget. Their communication and collaboration were outstanding using Slack, Lucidhart, and Miro. The team was reliable, well-organized, and proactive.
                         </p>
+                        <h5>Medizen App</h5>
+                        <p className="mb-5">CEO</p>
                     </div>
                 </SplideSlide>
             </SplideTrack>
