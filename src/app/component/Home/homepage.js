@@ -141,6 +141,7 @@ const HomePage = () => {
 					</div>
 				</div>
 			</div>
+
 			<div className="bg-color">
 				<div className="container container-fluid py-5">
 					<section>
@@ -155,6 +156,7 @@ const HomePage = () => {
 					</section>
 				</div>
 			</div>
+
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-4">
 					<h1 className="all-blog">Blogs</h1>
