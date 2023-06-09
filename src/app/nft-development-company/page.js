@@ -107,7 +107,7 @@ const NFTDevelopment = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Tokenization"
-								src="assets/images/Service-Nft/Tokenization.png"
+								src="assets/images/Service-Nft/tokenization.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Tokenization

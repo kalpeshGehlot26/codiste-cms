@@ -24,18 +24,7 @@ const FeedbackSlider = () => {
             <SplideTrack>
 
 
-                <SplideSlide className="splide__slide">
-                    <div className="p-3">
-                        <div className="d-flex align-items-center justify-content-center">
-                            <img className="img-fluid my-4 client-logohome p-0 w-auto" alt="Ninza NFT" src="assets/images/client-logos/Danketsu-Logo-Blue (Ninja NFT).png" />
-                        </div>
-                        <p className="secondsec-p">
-                            They communicate clearly and outline the product roadmap for us. It has been very easy to work with them. Made us profitaable on NFT Marketplace and which made amazing journey.
-                        </p>
-                        <h5>Ninza NFT</h5>
-                        <p className="mb-5">CoFounder</p>
-                    </div>
-                </SplideSlide>
+
                 <SplideSlide className="splide__slide">
                     <div className="p-3">
                         <div className="d-flex align-items-center justify-content-center">

@@ -98,7 +98,7 @@ h5{
    border: 2px solid #fff !important;
    border-radius: 6px;
    border-color: white;
-   color: #fff;
+   color: #fff !important;
 }
 
 .header-btn:hover {
@@ -172,6 +172,7 @@ text-align: left;
 }
 .book-btn:hover{
    background: #d44242 !important;
+   color: #fff !important;
 }
 .apply-btn {
    font-family: 'Poppins', sans-serif;

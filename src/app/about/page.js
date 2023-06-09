@@ -276,7 +276,7 @@ const About = () => {
 									<img
 										className="img-fluid"
 										alt="Mobile App Development Service"
-										src="assets/images/services/mobile-app-development.png"
+										src="assets/images/services/Mobile App Development.png"
 									/>
 									<Link href="/mobile-app-development-company">
 										<span className="fs-3">Mobile App</span>
@@ -304,7 +304,7 @@ const About = () => {
 									<img
 										className="img-fluid"
 										alt="Mobile App Development Service"
-										src="assets/images/services/startup.png"
+										src="assets/images/services/Start up.png"
 									/>
 									<Link href="/startup-development-company">
 										<span className="fs-3">Startup</span>
