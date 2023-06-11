@@ -21,7 +21,7 @@ const CounterTenPortfolio = () => {
                   </p>
                   <Link className="book-btn" href='https://www.counterten.com/' target="_blank">Live Project</Link>
                 </div>
-                <div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="/assets/images/case-couter10/Counterten.png" alt="Counterten" /></div>
+                <div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="/assets/images/case-couter10/Counterten.png" alt="CounterTen - Digital Collectible platform for Loyalty, Brands and events" /></div>
               </div>
             </div>
           </section>
@@ -258,7 +258,7 @@ const CounterTenPortfolio = () => {
                   <img className='img-fluid' alt='react' src="/assets/images/tech/React-icon.svg.png" />
                 </li>
                 <li>
-                  <img className='img-fluid' alt='node' src="/assets/images/tech/Node.png" />
+                  <img className='img-fluid' alt='Node.js' src="/assets/images/tech/Node.png" />
                 </li>
               </ul>
             </div>

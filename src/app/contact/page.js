@@ -72,6 +72,7 @@ const page = () => {
 								<div>	<img
 									className="me-4"
 									src="assets/images/india.png"
+									alt="India Office"
 								/></div>
 								<div><h1 className="mb-0">India</h1></div>
 
@@ -255,6 +256,7 @@ const page = () => {
 								<div><img
 									className="me-4"
 									src="assets/images/south-africa.png"
+									alt="south-africa office"
 								/></div>
 								<div>
 									<h1 className="mb-0">South-Africa</h1>

@@ -34,7 +34,7 @@ const ARVRDevelopmentCompany = () => {
 									</p>
 									<Link href="/contact" className="book-btn">Contact Us</Link>
 								</div>
-								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="assets/images/main/AR_VR.png" /></div>
+								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="assets/images/main/AR_VR.png" alt="AR /VR Development service by Codiste" /></div>
 							</div>
 						</div>
 					</section>
@@ -597,6 +597,7 @@ const ARVRDevelopmentCompany = () => {
 									padding: "20px",
 								}}
 								src="assets/images/case-bonfire/Bonfire.png"
+								alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
 							/>
 						</div>
 					</div>

@@ -36,7 +36,7 @@ const MLPortfolio = () => {
 									<img
 										className="img-fluid"
 										src="/assets/images/case-ml/MLEstimation.png"
-										alt="MLEstimation"
+										alt="MLEstimation - AI Tool to Analyse your Building material"
 									/>
 								</div>
 							</div>
@@ -447,6 +447,7 @@ const MLPortfolio = () => {
 									<img
 										className="img-fluid"
 										src="/assets/images/tech/flutter.png"
+										alt="flutter"
 									/>
 								</li>
 							</ul>

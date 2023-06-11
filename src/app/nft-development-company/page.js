@@ -458,6 +458,7 @@ const NFTDevelopment = () => {
 									padding: "20px",
 								}}
 								src="assets/images/case-couter10/Counterten.png"
+								alt="CounterTen - Digital Collectible platform for Loyalty, Brands and events"
 							/>
 						</div>
 					</div>
@@ -569,7 +570,7 @@ const NFTDevelopment = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="The Real Estate "
+													alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
 													src="assets/images/client-logos/bonfire.png"
 												/>
 											</div>
@@ -617,7 +618,7 @@ const NFTDevelopment = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="DiveWallet"
+													alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
 													src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>

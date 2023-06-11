@@ -42,7 +42,7 @@ const MedizenPortfolio = () => {
 									<img
 										className="img-fluid"
 										src="/assets/images/case-medizen/Medizen.png"
-										alt="Medizen"
+										alt="Medizen - Pill Reminder and Drug interaction Detection app"
 									/>
 								</div>
 							</div>
@@ -458,7 +458,7 @@ const MedizenPortfolio = () => {
 								<li>
 									<img
 										className="img-fluid"
-										alt="Node"
+										alt="Node.js"
 										src="/assets/images/tech/Node.png"
 									/>
 								</li>
@@ -500,7 +500,7 @@ const MedizenPortfolio = () => {
 									<div className="my-3">
 										<img
 											className="img-fluid"
-											alt=""
+											alt="Medizen - Pill Reminder and Drug interaction Detection app"
 											src="/assets/images/client-logos/Medizen.png"
 										/>
 									</div>

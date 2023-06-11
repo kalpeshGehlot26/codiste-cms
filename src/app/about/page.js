@@ -415,6 +415,7 @@ const About = () => {
 											<img
 												className="img-fluid"
 												src="assets/images/splide/Apollo.svg"
+												alt="Apollo - Apollo Crypto Launchpad"
 											/>{" "}
 										</a>
 									</li>
@@ -425,6 +426,7 @@ const About = () => {
 												className="img-fluid"
 												src="assets/images/splide/Bonfire.svg"
 												loading="lazy"
+												alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
 											/>{" "}
 										</a>
 									</li>
@@ -435,6 +437,7 @@ const About = () => {
 											<img
 												className="img-fluid"
 												src="assets/images/splide/coinxPad.svg"
+												alt="CoinXpad - Coinxpad Decentralised Crypto Launchpad"
 											/>{" "}
 										</a>
 									</li>
@@ -444,6 +447,7 @@ const About = () => {
 											<img
 												className="img-fluid"
 												src="assets/images/splide/counterTen.svg"
+												alt="CounterTen - Digital Collectible platform for Loyalty, Brands and events"
 											/>{" "}
 										</a>
 									</li>
@@ -454,6 +458,7 @@ const About = () => {
 											<img
 												className="img-fluid"
 												src="assets/images/splide/DiveWallet.svg"
+												alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
 											/>
 										</a>
 									</li>
@@ -463,6 +468,7 @@ const About = () => {
 											<img
 												className="img-fluid"
 												src="assets/images/splide/FTWDAO.svg"
+												alt="FTWDao - Diversifying the venture investing ecosystem"
 											/>{" "}
 										</a>
 									</li>
@@ -473,6 +479,7 @@ const About = () => {
 											<img
 												className="img-fluid"
 												src="assets/images/splide/Cypha.svg"
+												alt="Cypha - Make your Music using Cypha app"
 											/>
 										</a>
 									</li>
@@ -483,6 +490,7 @@ const About = () => {
 												className="img-fluid"
 												src="assets/images/splide/Holygrails.svg"
 												loading="lazy"
+												alt="Holygrails - Solana NFT Marketplace"
 											/>{" "}
 										</a>
 									</li>
@@ -494,6 +502,7 @@ const About = () => {
 												className="img-fluid"
 												src="assets/images/splide/Ikaris.svg"
 												loading="lazy"
+												alt="Ikaris - NFT Showcase Mobile App"
 											/>{" "}
 										</a>
 									</li>
@@ -505,6 +514,7 @@ const About = () => {
 												className="img-fluid"
 												src="assets/images/splide/Medizen.svg"
 												loading="lazy"
+												alt="Medizen - Pill Reminder and Drug interaction Detection app"
 											/>{" "}
 										</a>
 									</li>
@@ -516,6 +526,7 @@ const About = () => {
 												className="img-fluid"
 												src="assets/images/splide/ml.svg"
 												loading="lazy"
+												alt="MLEstimation - AI Tool to Analyse your Building material"
 											/>{" "}
 										</a>
 									</li>
@@ -526,6 +537,7 @@ const About = () => {
 											<img
 												className="img-fluid"
 												src="assets/images/splide/MumbleRapperz.svg"
+												alt="MumbleRapperz - NFT Minting platform"
 											/>{" "}
 										</a>
 									</li>
@@ -536,6 +548,7 @@ const About = () => {
 											<img
 												className="img-fluid"
 												src="assets/images/splide/NearPro.svg"
+												alt="NearPro - Connecting Homeowner and top Contractor"
 											/>{" "}
 										</a>
 									</li>
@@ -545,6 +558,7 @@ const About = () => {
 											<img
 												className="img-fluid"
 												src="assets/images/splide/Bloqhodler.jpg"
+												alt="Bloqhodler - Hedge fund investment app"
 											/>{" "}
 										</a>
 									</li>
@@ -555,6 +569,7 @@ const About = () => {
 											<img
 												className="img-fluid"
 												src="assets/images/splide/galaxyCoin.jpg"
+												alt="Galaxy Coin - Governance Token & Stacking Defi app"
 											/>{" "}
 										</a>
 									</li>
@@ -606,6 +621,7 @@ const About = () => {
 								<div>	<img
 									className="me-4"
 									src="assets/images/india.png"
+									alt="India Office"
 								/></div>
 								<div><h1 className="mb-0">India</h1></div>
 
@@ -789,6 +805,7 @@ const About = () => {
 								<div><img
 									className="me-4"
 									src="assets/images/south-africa.png"
+									alt="south-africa office"
 								/></div>
 								<div>
 									<h1 className="mb-0">South-Africa</h1>
@@ -1031,7 +1048,7 @@ const About = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="bonfire"
+													alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
 													src="assets/images/client-logos/bonfire.png"
 												/>
 											</div>
@@ -1079,7 +1096,7 @@ const About = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="DiveWallet"
+													alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
 													src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
@@ -1114,7 +1131,7 @@ const About = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="Medizen"
+													alt="Medizen - Pill Reminder and Drug interaction Detection app"
 													src="assets/images/client-logos/Medizen.png"
 												/>
 											</div>

@@ -46,7 +46,7 @@ const CoinxpadPortfolio = () => {
 									<img
 										className="img-fluid"
 										src="/assets/images/case-coinxpad/Coinxpad.png"
-										alt="Coinxpad"
+										alt="CoinXpad - Coinxpad Decentralised Crypto Launchpad"
 									/>
 								</div>
 							</div>
@@ -461,7 +461,7 @@ const CoinxpadPortfolio = () => {
 									<img
 										className="img-fluid"
 										src="/assets/images/tech/Node.png"
-										alt="Node"
+										alt="Node.js"
 									/>
 								</li>
 							</ul>

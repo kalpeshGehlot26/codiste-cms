@@ -456,6 +456,7 @@ const TankpadPortfolio = () => {
 										<img
 											className=""
 											src="../assets/images/client-logos/DiveWallet Logo.png"
+											alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
 										/>
 									</div>
 									<h5>DiveWallet</h5>

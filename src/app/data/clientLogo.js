@@ -1,72 +1,72 @@
 const clientLogos = [
     {
         url: "assets/images/splide/Apollo.svg",
-        alt: "Apollo",
+        alt: "Apollo - Apollo Crypto Launchpad",
     },
     {
         url: "assets/images/splide/Bonfire.svg",
-        alt: "Bonfire",
+        alt: "BonFire - Bonfire Real-Estate Fractionalized Marketplace",
         loading: "lazy",
     },
     {
         url: "assets/images/splide/coinxPad.svg",
-        alt: "Coinxpad"
+        alt: "CoinXpad - Coinxpad Decentralised Crypto Launchpad"
     },
     {
         url: "assets/images/splide/counterTen.svg",
-        alt: "counterTen"
+        alt: "CounterTen - Digital Collectible platform for Loyalty, Brands and events"
     },
     {
         url: "assets/images/splide/Cypha.svg",
-        alt: "Cypha"
+        alt: "Cypha - Make your Music using Cypha app"
     },
     {
         url: "assets/images/splide/DiveWallet.svg",
-        alt: "DiveWallet"
+        alt: "DiveWallet - Decentralised Safest Crypto and digital assets wallet"
     },
     {
         url: "assets/images/splide/FTWDAO.svg",
-        alt: "FtwDao"
+        alt: "FTWDao - Diversifying the venture investing ecosystem"
     },
     {
         url: "assets/images/splide/Holygrails.svg",
-        alt: "Holygrails",
+        alt: "Holygrails - Solana NFT Marketplace",
         loading: "lazy"
     },
     {
         url: "assets/images/splide/Ikaris.svg",
-        alt: "Ikaris",
+        alt: "Ikaris - NFT Showcase Mobile App",
         loading: "lazy",
     },
     {
         url: "assets/images/splide/Medizen.svg",
-        alt: "Medizen"
+        alt: "Medizen - Pill Reminder and Drug interaction Detection app"
     },
 
     {
         url: "assets/images/splide/ml.svg",
-        alt: "ML",
+        alt: "MLEstimation - AI Tool to Analyse your Building material",
         loading: "lazy"
     },
 
     {
         url: "assets/images/splide/NearPro.svg",
-        alt: "Near Pro"
+        alt: "NearPro - Connecting Homeowner and top Contractor"
     },
 
     {
         url: "assets/images/splide/MumbleRapperz.svg",
-        alt: "Mumble"
+        alt: "MumbleRapperz - NFT Minting platform"
     },
 
 
     {
         url: "assets/images/splide/Bloqhodler.jpg",
-        alt: "Bloqhodler"
+        alt: "Bloqhodler - Hedge fund investment app"
     },
     {
         url: "assets/images/splide/galaxyCoin.jpg",
-        alt: "Galaxy Coin"
+        alt: "Galaxy Coin - Governance Token & Stacking Defi app"
     },
 
 ];

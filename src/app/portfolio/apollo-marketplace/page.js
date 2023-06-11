@@ -42,6 +42,7 @@ const ApolloPortfolio = () => {
 									<img
 										className="img-fluid"
 										src="/assets/images/case-appolo/Apollo.png"
+										alt="Apollo - Apollo Crypto Launchpad"
 									/>
 								</div>
 							</div>
@@ -79,6 +80,7 @@ const ApolloPortfolio = () => {
 								className="img-fluid"
 								style={{ width: "auto", padding: "20px" }}
 								src="/assets/images/case-appolo/Problem 02.png"
+								alt="Problem Statement"
 							/>
 						</div>
 					</div>
@@ -453,6 +455,7 @@ const ApolloPortfolio = () => {
 									<img
 										className="img-fluid"
 										src="/assets/images/tech/Node.png"
+										alt="Node.js"
 									/>
 								</li>
 							</ul>
@@ -493,7 +496,7 @@ const ApolloPortfolio = () => {
 									<div className="my-3">
 										<img
 											className=""
-											alt="Case-Appolo"
+											alt="Apollo - Apollo Crypto Launchpad"
 											src="/assets/images/client-logos/apollo.png"
 										/>
 									</div>

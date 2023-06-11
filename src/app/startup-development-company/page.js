@@ -601,7 +601,7 @@ const StartupDevelopmentCompany = () => {
 									padding: "20px",
 								}}
 								src="assets/images/case-appolo/Apollo.png"
-								alt="counter"
+								alt="Apollo - Apollo Crypto Launchpad"
 							/>
 						</div>
 					</div>
@@ -684,7 +684,7 @@ const StartupDevelopmentCompany = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="bonfire"
+													alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
 													src="assets/images/client-logos/bonfire.png"
 												/>
 											</div>
@@ -732,7 +732,7 @@ const StartupDevelopmentCompany = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="DiveWallet"
+													alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
 													src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
@@ -766,7 +766,7 @@ const StartupDevelopmentCompany = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="Medizen"
+													alt="Medizen - Pill Reminder and Drug interaction Detection app"
 													src="assets/images/client-logos/Medizen.png"
 												/>
 											</div>

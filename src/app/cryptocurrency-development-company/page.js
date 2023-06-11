@@ -533,6 +533,7 @@ const CryptoDevelopmentCompany = () => {
 									padding: "20px",
 								}}
 								src="assets/images/case-coinxpad/Coinxpad.png"
+								alt="CoinXpad - Coinxpad Decentralised Crypto Launchpad"
 							/>
 						</div>
 					</div>

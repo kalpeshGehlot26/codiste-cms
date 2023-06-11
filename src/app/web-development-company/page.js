@@ -213,7 +213,7 @@ const WebDevelopmentCompany = () => {
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="Node"
+											className="img-fluid" alt="Node.js"
 											src="assets/images/tech/Node.png"
 										/>
 										<p className="text-uppercase">Node</p>
@@ -522,6 +522,7 @@ const WebDevelopmentCompany = () => {
 									padding: "20px",
 								}}
 								src="assets/images/case-medizen/Medizen.png"
+								alt="Medizen - Pill Reminder and Drug interaction Detection app"
 							/>
 						</div>
 					</div>
@@ -607,7 +608,7 @@ const WebDevelopmentCompany = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="bonfire"
+													alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
 													src="assets/images/client-logos/bonfire.png"
 												/>
 											</div>
@@ -655,7 +656,7 @@ const WebDevelopmentCompany = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="DiveWallet"
+													alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
 													src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
@@ -689,7 +690,7 @@ const WebDevelopmentCompany = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="Medizen"
+													alt="Medizen - Pill Reminder and Drug interaction Detection app"
 													src="assets/images/client-logos/Medizen.png"
 												/>
 											</div>

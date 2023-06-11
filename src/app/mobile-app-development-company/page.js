@@ -249,7 +249,7 @@ const MobileAppDevelopmentCompany = () => {
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="Android"
+											className="img-fluid" alt="Android Studio"
 											src="assets/images/tech/Android Studio.png"
 										/>
 										<p className="text-uppercase">Android Studio</p>
@@ -477,6 +477,7 @@ const MobileAppDevelopmentCompany = () => {
 									padding: "20px",
 								}}
 								src="assets/images/case-pixi/Pixipages.png"
+								alt="StoryTelling App"
 							/>
 						</div>
 					</div>
@@ -596,7 +597,7 @@ const MobileAppDevelopmentCompany = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="DiveWallet"
+													alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
 													src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
@@ -630,7 +631,7 @@ const MobileAppDevelopmentCompany = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="Medizen App"
+													alt="Medizen - Pill Reminder and Drug interaction Detection app"
 													src="assets/images/client-logos/Medizen.png"
 												/>
 											</div>

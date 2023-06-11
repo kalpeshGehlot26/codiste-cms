@@ -138,7 +138,7 @@ const Footer = () => {
 									<img
 										className="img-fluid me-2 "
 										src="../../assets/images/india.png"
-										alt="india"
+										alt="India Office"
 									/>
 									<p className="mt-2">
 										915, Ganesh Glory, S.G Highway,
@@ -149,7 +149,7 @@ const Footer = () => {
 									<img
 										className="img-fluid me-2"
 										src="../../assets/images/south-africa.png"
-										alt="south-africa"
+										alt="south-africa office"
 									/>
 									<p className="mt-2">
 										1 Galway Rd, Parkview, Jhb, South

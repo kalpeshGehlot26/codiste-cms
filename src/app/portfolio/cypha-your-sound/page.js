@@ -47,6 +47,7 @@ const CyphaPortfolio = () => {
 									<img
 										className="img-fluid"
 										src="/assets/images/case-cypha/Cypha.png"
+										alt="Cypha - Make your Music using Cypha app"
 									/>
 								</div>
 							</div>
@@ -67,6 +68,7 @@ const CyphaPortfolio = () => {
 								className="img-fluid"
 								style={{ width: "auto", padding: "20px" }}
 								src="/assets/images/case-cypha/Client Requirement.png"
+								alt="Client Requirement"
 							/>
 						</div>
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">
@@ -109,6 +111,7 @@ const CyphaPortfolio = () => {
 								className="img-fluid"
 								style={{ width: "auto", padding: "20px" }}
 								src="/assets/images/case-cypha/Problem 06.png"
+								alt="Problem Statement"
 							/>
 						</div>
 					</div>
@@ -452,12 +455,14 @@ const CyphaPortfolio = () => {
 									<img
 										className="img-fluid"
 										src="/assets/images/tech/Android Studio.png"
+										alt="Android Studio"
 									/>
 								</li>
 								<li>
 									<img
 										className="img-fluid"
 										src="/assets/images/tech/Swift.png"
+										alt="Swift"
 									/>
 								</li>
 							</ul>

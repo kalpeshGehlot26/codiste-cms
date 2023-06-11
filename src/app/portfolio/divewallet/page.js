@@ -46,7 +46,7 @@ const DivewalletPortfolio = () => {
 									<img
 										className="img-fluid"
 										src="/assets/images/diwallet-case/Dive Wallet.png"
-										alt="DiveWallet"
+										alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
 									/>
 								</div>
 							</div>
@@ -88,6 +88,7 @@ const DivewalletPortfolio = () => {
 									padding: "20px",
 								}}
 								src="/assets/images/diwallet-case/Case Study.png"
+								alt="Case Study"
 							/>
 						</div>
 					</div>
@@ -347,6 +348,7 @@ const DivewalletPortfolio = () => {
 									<img
 										className="img-fluid"
 										src="/assets/images/tech/flutter.png"
+										alt="flutter"
 									/>
 								</li>
 							</ul>
@@ -395,6 +397,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className=""
 											src="../assets/images/client-logos/DiveWallet Logo.png"
+											alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
 										/>
 									</div>
 									<h5>DiveWallet</h5>

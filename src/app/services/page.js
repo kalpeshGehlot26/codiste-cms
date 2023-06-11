@@ -533,7 +533,7 @@ const Services = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="bonfire"
+													alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
 													src="assets/images/client-logos/bonfire.png"
 												/>
 											</div>
@@ -581,7 +581,7 @@ const Services = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="DiveWallet"
+													alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
 													src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
@@ -615,7 +615,7 @@ const Services = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="Medizen"
+													alt="Medizen - Pill Reminder and Drug interaction Detection app"
 													src="assets/images/client-logos/Medizen.png"
 												/>
 											</div>

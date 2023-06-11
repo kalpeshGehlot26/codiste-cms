@@ -36,7 +36,7 @@ const AIDevelopmentCompany = () => {
 									</p>
 									<Link href="/contact" className="book-btn">Contact Us!</Link>
 								</div>
-								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="assets/images/main/AI_Development_.png" /></div>
+								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="assets/images/main/AI_Development_.png" alt="Ai Development by Codiste" /></div>
 							</div>
 						</div>
 					</section>
@@ -505,6 +505,7 @@ const AIDevelopmentCompany = () => {
 									padding: "20px",
 								}}
 								src="assets/images/case-cypha/Cypha.png"
+								alt="Cypha - Make your Music using Cypha app"
 							/>
 						</div>
 					</div>
@@ -587,7 +588,7 @@ const AIDevelopmentCompany = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="bonfire"
+													alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
 													src="assets/images/client-logos/bonfire.png"
 												/>
 											</div>
@@ -635,7 +636,7 @@ const AIDevelopmentCompany = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="DiveWallet"
+													alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
 													src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
@@ -669,7 +670,7 @@ const AIDevelopmentCompany = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="Medizen"
+													alt="Medizen - Pill Reminder and Drug interaction Detection app"
 													src="assets/images/client-logos/Medizen.png"
 												/>
 											</div>

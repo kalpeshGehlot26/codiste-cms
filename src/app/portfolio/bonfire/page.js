@@ -40,7 +40,7 @@ const BornfirePortfolio = () => {
 									<img
 										className="img-fluid"
 										src="/assets/images/case-bonfire/Bonfire.png"
-										alt="Bonfire"
+										alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
 									/>
 								</div>
 							</div>
@@ -436,7 +436,7 @@ const BornfirePortfolio = () => {
 									<img
 										className="img-fluid"
 										src="/assets/images/tech/Node.png"
-										alt="Node"
+										alt="Node.js"
 									/>
 								</li>
 							</ul>
@@ -476,7 +476,7 @@ const BornfirePortfolio = () => {
 									<div className="my-3">
 										<img
 											className="img-fluid"
-											alt="Real Estate"
+											alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
 											src="/assets/images/client-logos/bonfire.png"
 										/>
 									</div>

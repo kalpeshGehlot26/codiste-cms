@@ -39,7 +39,7 @@ const FeedbackSlider = () => {
                 </SplideSlide>
                 <SplideSlide className="splide__slide">
                     <div className="p-3">
-                        <div className="d-flex align-items-center justify-content-center"><img className="img-fluid my-4 client-logohome p-0 w-auto" alt="bonfire" src="assets/images/client-logos/bonfire.png" /></div>
+                        <div className="d-flex align-items-center justify-content-center"><img className="img-fluid my-4 client-logohome p-0 w-auto" alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace" src="assets/images/client-logos/bonfire.png" /></div>
                         <p className="secondsec-p">
                             They truly do everything up to a very high standard. Codiste pvt ltd has successfully delivered a functional app praised in many publications for its neatness and speed. They have frequently communicated via Slack and managed the project efficiently using Jira. Their extensive knowledge and humble attitude have been hallmarks of their work.
                         </p>
@@ -50,7 +50,7 @@ const FeedbackSlider = () => {
                 <SplideSlide className="splide__slide">
                     <div className="p-3">
                         <div className="d-flex align-items-center justify-content-center">
-                            <img className="img-fluid my-4 client-logohome p-0  w-auto" alt="DiveWallet" src="assets/images/client-logos/Medizen.png" />
+                            <img className="img-fluid my-4 client-logohome p-0  w-auto" alt="Medizen - Pill Reminder and Drug interaction Detection app" src="assets/images/client-logos/Medizen.png" />
                         </div>
                         <p className="secondsec-p">
                             Codiste pvt ltd delivered the project within the given timeline and budget. Their communication and collaboration were outstanding using Slack, Lucidhart, and Miro. The team was reliable, well-organized, and proactive.

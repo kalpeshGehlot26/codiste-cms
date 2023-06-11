@@ -501,6 +501,7 @@ const MetaverseDevelopmentCompany = () => {
 									padding: "20px",
 								}}
 								src="assets/images/diwallet-case/Dive Wallet.png"
+								alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
 							/>
 						</div>
 					</div>
@@ -647,7 +648,7 @@ const MetaverseDevelopmentCompany = () => {
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
-													alt="Medizen"
+													alt="Medizen - Pill Reminder and Drug interaction Detection app"
 													src="assets/images/client-logos/Medizen.png"
 												/>
 											</div>

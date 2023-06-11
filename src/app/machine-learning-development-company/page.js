@@ -537,6 +537,7 @@ const MLDevelopmentCompany = () => {
 									padding: "20px",
 								}}
 								src="assets/images/case-ml/MLEstimation.png"
+								alt="MLEstimation - AI Tool to Analyse your Building material"
 							/>
 						</div>
 					</div>
