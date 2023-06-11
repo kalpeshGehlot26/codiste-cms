@@ -70,7 +70,7 @@ const Footer = () => {
 										</Link>
 									</li>
 									<li>
-										<Link href="augmented-reality-development-company">
+										<Link href="/augmented-reality-development-company">
 											AR /VR Development Services
 										</Link>
 									</li>
@@ -85,7 +85,7 @@ const Footer = () => {
 										</Link>
 									</li>
 									<li>
-										<Link href="artificial-intelligence-development-company">
+										<Link href="/artificial-intelligence-development-company">
 											AI Development Services
 										</Link>
 									</li>
