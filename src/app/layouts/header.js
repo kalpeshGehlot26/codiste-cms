@@ -57,7 +57,7 @@ const Header = () => {
 									</Link>
 								</li>
 								<li>
-									<Link onClick={defNavClose} className="dropdown-item" href="augmented-reality-development-company">
+									<Link onClick={defNavClose} className="dropdown-item" href="/augmented-reality-development-company">
 										AR /VR Development Services
 									</Link>
 								</li>
@@ -72,7 +72,7 @@ const Header = () => {
 									</Link>
 								</li>
 								<li>
-									<Link onClick={defNavClose} className="dropdown-item" href="artificial-intelligence-development-company">
+									<Link onClick={defNavClose} className="dropdown-item" href="/artificial-intelligence-development-company">
 										AI Development Services
 									</Link>
 								</li>
