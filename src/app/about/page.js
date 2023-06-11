@@ -453,7 +453,7 @@ const About = () => {
 											{" "}
 											<img
 												className="img-fluid"
-												src="assets/images/splide/diveWallet.svg"
+												src="assets/images/splide/DiveWallet.svg"
 											/>
 										</a>
 									</li>

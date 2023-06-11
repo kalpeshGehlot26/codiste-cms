@@ -91,7 +91,7 @@ const BlockChainDevelopment = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Blockchain Network"
-								src="assets/images/Serevice-blockchain/10+ Blockchain Network Support.png"
+								src="assets/images/Serevice-blockchain/10+_Blockchain_Network_Support.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								10+ Blockchain Network Support
