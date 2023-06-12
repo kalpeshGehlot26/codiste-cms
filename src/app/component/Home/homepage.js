@@ -11,8 +11,6 @@ import AllServiceBlogSlider from "../BlogSlider/allServiceBlogSlider";
 import "../../../style.css";
 import "../../../external.css";
 
-
-
 const limit = 5;
 const category = "47,43,55,6,57";
 
@@ -23,6 +21,12 @@ const HomePage = () => {
 	return (
 		<div>
 			<section className="video-containeraa videosec">
+				{/* <div className="ratio ratio-16x9" id="video-container">
+					<iframe src="https://player.vimeo.com/video/828259341?autoplay=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen webkitallowfullscreen mozallowfullscreen title="Codiste_Home"></iframe>
+				</div>
+				<script src="https://player.vimeo.com/api/player.js"></script> */}
+
+
 				<div className="ratio ratio-16x9" id="video-container">
 					<iframe
 						src="https://player.vimeo.com/video/828259341?background=1&autoplay=1"
@@ -32,18 +36,8 @@ const HomePage = () => {
 						webkitallowfullscreen
 						mozallowfullscreen
 						title="Codiste_Home"
-						loading="lazy"
 					></iframe>
 				</div>
-				{/* <div className="ratio ratio-16x9" id="video-container"> */}
-				{/* <lite-vimeo
-						videoid="828259341"
-						videotitle="Codiste_Home"
-						loading="lazy"
-						autoload autoplay
-					></lite-vimeo> */}
-				{/* <lite-vimeo videoid="364402896" autoload autoplay start="0m10s"></lite-vimeo> */}
-				{/* </div> */}
 
 				<div className="rotate-box">
 					<h2>We craft innovation in</h2>
@@ -58,6 +52,7 @@ const HomePage = () => {
 					</div>
 				</div>
 			</section>
+
 			<ClientSlider />
 
 			<div className="container container-fluid py-5">
@@ -102,7 +97,7 @@ const HomePage = () => {
 						<div className="col-xl-6 col-md-12">
 							<section className="video-containerSmall">
 								<div className="ratio ratio-16x9" id="video-container" >
-									<iframe src="https://player.vimeo.com/video/828259500" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen webkitallowfullscreen mozallowfullscreen title="Clientele Video" loading="lazy"></iframe>
+									<iframe src="https://player.vimeo.com/video/828259500" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen webkitallowfullscreen mozallowfullscreen title="Clientele Video"></iframe>
 								</div>
 								<script src="https://player.vimeo.com/api/player.js"></script>
 							</section>
@@ -118,12 +113,14 @@ const HomePage = () => {
 				<div className="container container-fluid">
 					<div className="row">
 						<div className="col-xl-6 col-sm-12 mb-5">
+
 							<img className='img-fluid d-flex align-items-center justify-content-center'
 								style={{
 									width: "auto",
 									margin: "auto",
 									padding: "20px",
 								}} src="assets/images/home/Codiste_Company.png" alt="Codiste As Company" loading="lazy" />
+
 						</div>
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">
 							<h3 className="mb-3">Looking to stay ahead of the curve?
@@ -252,7 +249,10 @@ const HomePage = () => {
 									Are you looking for a global technology
 									leader to partner for your tech support?
 								</h1>
-
+								{/* <h2>
+									Fill out
+									the form & reach out to us.
+								</h2> */}
 							</div>
 							<div className="col-lg-6 col-md-12 ">
 								<div className="need-block h-100">
