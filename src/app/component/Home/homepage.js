@@ -10,7 +10,7 @@ import serviceItems from "../../data/serviceItems";
 import AllServiceBlogSlider from "../BlogSlider/allServiceBlogSlider";
 import "../../../style.css";
 import "../../../external.css";
-import '@slightlyoff/lite-vimeo';
+
 
 
 const limit = 5;
@@ -104,7 +104,7 @@ const HomePage = () => {
 								<div className="ratio ratio-16x9" id="video-container" >
 									<iframe src="https://player.vimeo.com/video/828259500" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen webkitallowfullscreen mozallowfullscreen title="Clientele Video" loading="lazy"></iframe>
 								</div>
-								{/* <script src="https://player.vimeo.com/api/player.js"></script> */}
+								<script src="https://player.vimeo.com/api/player.js"></script>
 							</section>
 						</div>
 					</div>
