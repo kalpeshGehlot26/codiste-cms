@@ -10,6 +10,8 @@ import serviceItems from "../../data/serviceItems";
 import AllServiceBlogSlider from "../BlogSlider/allServiceBlogSlider";
 import "../../../style.css";
 import "../../../external.css";
+import '@slightlyoff/lite-vimeo';
+
 
 const limit = 5;
 const category = "47,43,55,6,57";
@@ -21,11 +23,6 @@ const HomePage = () => {
 	return (
 		<div>
 			<section className="video-containeraa videosec">
-				{/* <div className="ratio ratio-16x9" id="video-container">
-					<iframe src="https://player.vimeo.com/video/828259341?autoplay=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen webkitallowfullscreen mozallowfullscreen title="Codiste_Home"></iframe>
-				</div>
-				<script src="https://player.vimeo.com/api/player.js"></script> */}
-
 
 				<div className="ratio ratio-16x9" id="video-container">
 					<iframe
@@ -36,6 +33,7 @@ const HomePage = () => {
 						webkitallowfullscreen
 						mozallowfullscreen
 						title="Codiste_Home"
+						loading="lazy"
 					></iframe>
 				</div>
 
