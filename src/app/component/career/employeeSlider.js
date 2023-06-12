@@ -33,6 +33,7 @@ const EmployeeSlider = () => {
                                             className="career-cirimg"
                                             src={testimonial.url}
                                             alt={testimonial.name}
+                                            loading="lazy"
                                         />
                                         <span className="aboutall-h">
                                             {testimonial.name}

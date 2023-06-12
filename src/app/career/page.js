@@ -75,7 +75,7 @@ const Career = () => {
 				<div className="row mt-5">
 					<div className="col-xl-3 col-md-6 col-sm-12 pb-3 ">
 						<div className="service-block p-4 h-100">
-							<img src="assets/images/career/coworking.png" alt="Competitive Compensation"/>
+							<img src="assets/images/career/coworking.png" alt="Competitive Compensation" />
 							<h2 className="secondsec-head mt-4">
 								Competitive Compensation
 							</h2>
@@ -106,7 +106,7 @@ const Career = () => {
 					</div>
 					<div className="col-xl-3 col-md-6 col-sm-12 pb-3 ">
 						<div className="service-block p-4 h-100">
-							<img src="assets/images/career/increase.png" alt="Opportunity"/>
+							<img src="assets/images/career/increase.png" alt="Opportunity" />
 							<h3 className="secondsec-head mt-4">
 								{" "}
 								Opportunities <br />
@@ -147,9 +147,6 @@ const Career = () => {
 					<EventSlider />
 				</div>
 			</div>
-
-
-
 
 			<div className="firstsec">
 				<div className="container container-fluid mb-5  py-5">
@@ -201,7 +198,6 @@ const Career = () => {
 								<div>
 									<a href="#apply-now" className="apply-btn">Apply Now</a>
 								</div>
-
 							</div>
 						</div>
 					</div>

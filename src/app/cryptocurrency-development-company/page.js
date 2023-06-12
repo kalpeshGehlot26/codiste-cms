@@ -68,6 +68,7 @@ const CryptoDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Blockchain Network Support"
 								src="assets/images/Service-crypto/Blockchain Network Support.png"
 							/>
@@ -87,6 +88,7 @@ const CryptoDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Immutable Security"
 								src="assets/images/Service-crypto/Immutable Security.png"
 							/>
@@ -104,6 +106,7 @@ const CryptoDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Peer-to-Peer"
 								src="assets/images/Service-crypto/Peer-to-Peer Trade Facility.png"
 							/>
@@ -121,6 +124,7 @@ const CryptoDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="best-practice"
 								src="assets/images/Service-crypto/best-practice.png"
 							/>
@@ -138,6 +142,7 @@ const CryptoDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="iwallet"
 								src="assets/images/Service-crypto/iwallet.png"
 							/>
@@ -155,6 +160,7 @@ const CryptoDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Mobile"
 								src="assets/images/Service-crypto/Mobile & Web Extensions.png"
 							/>
@@ -199,77 +205,77 @@ const CryptoDevelopmentCompany = () => {
 								<ul className="tech-style">
 									<li>
 										<img
-											className="img-fluid" alt="NEO"
+											className="img-fluid" loading="lazy" alt="NEO"
 											src="assets/images/tech/NEO.png"
 										/>
 										<p>NEO</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="hyperledger"
+											className="img-fluid" loading="lazy" alt="hyperledger"
 											src="assets/images/tech/hyperledger.png"
 										/>
 										<p className="text-uppercase">hyperledger</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="Multichain"
+											className="img-fluid" loading="lazy" alt="Multichain"
 											src="assets/images/tech/Multichain.png"
 										/>
 										<p className="text-uppercase">Multichain</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="ethereum"
+											className="img-fluid" loading="lazy" alt="ethereum"
 											src="assets/images/tech/ethereum.png"
 										/>
 										<p className="text-uppercase">ethereum</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="Hydra"
+											className="img-fluid" loading="lazy" alt="Hydra"
 											src="assets/images/tech/Hydra chain.png"
 										/>
 										<p className="text-uppercase">Hydra chain</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="openchain"
+											className="img-fluid" loading="lazy" alt="openchain"
 											src="assets/images/tech/openchain.png"
 										/>
 										<p className="text-uppercase">openchain</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="IOTA"
+											className="img-fluid" loading="lazy" alt="IOTA"
 											src="assets/images/tech/IOTA.png"
 										/>
 										<p className="text-uppercase">IOTA</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="BigChainDB"
+											className="img-fluid" loading="lazy" alt="BigChainDB"
 											src="assets/images/tech/BigChainDB.png"
 										/>
 										<p className="text-uppercase">BigChainDB</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="Stellar"
+											className="img-fluid" loading="lazy" alt="Stellar"
 											src="assets/images/tech/Stellar.png"
 										/>
 										<p className="text-uppercase">Stellar</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="Symbiont"
+											className="img-fluid" loading="lazy" alt="Symbiont"
 											src="assets/images/tech/Symbiont Assembly.png"
 										/>
 										<p className="text-uppercase">Symbiont Assembly</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="NEM"
+											className="img-fluid" loading="lazy" alt="NEM"
 											src="assets/images/tech/NEM Framework.png"
 										/>
 										<p className="text-uppercase">NEM Framework</p>
@@ -534,6 +540,7 @@ const CryptoDevelopmentCompany = () => {
 								}}
 								src="assets/images/case-coinxpad/Coinxpad.png"
 								alt="CoinXpad - Coinxpad Decentralised Crypto Launchpad"
+								loading="lazy"
 							/>
 						</div>
 					</div>
@@ -619,6 +626,7 @@ const CryptoDevelopmentCompany = () => {
 													className="img-fluid my-4 client-logo"
 													alt="Cryptography"
 													src="assets/images/client-logos/Mumble Rapperz.png"
+													loading="lazy"
 												/>
 											</div>
 											<h5>Cryptography Company</h5>
@@ -655,6 +663,7 @@ const CryptoDevelopmentCompany = () => {
 													className="img-fluid my-4 client-logo"
 													alt="FTW"
 													src="assets/images/client-logos/FTW Dao Logo.png"
+													loading="lazy"
 												/>
 											</div>
 											<h5>FTW Dao</h5>
@@ -689,6 +698,7 @@ const CryptoDevelopmentCompany = () => {
 													className="img-fluid my-4 client-logo"
 													alt="White Hat"
 													src="assets/images/client-logos/White Hat DAO.png"
+													loading="lazy"
 												/>
 											</div>
 											<h5>White Hat DAO</h5>

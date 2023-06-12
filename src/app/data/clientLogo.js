@@ -6,7 +6,6 @@ const clientLogos = [
     {
         url: "assets/images/splide/Bonfire.svg",
         alt: "BonFire - Bonfire Real-Estate Fractionalized Marketplace",
-        loading: "lazy",
     },
     {
         url: "assets/images/splide/coinxPad.svg",
@@ -31,12 +30,12 @@ const clientLogos = [
     {
         url: "assets/images/splide/Holygrails.svg",
         alt: "Holygrails - Solana NFT Marketplace",
-        loading: "lazy"
+
     },
     {
         url: "assets/images/splide/Ikaris.svg",
         alt: "Ikaris - NFT Showcase Mobile App",
-        loading: "lazy",
+
     },
     {
         url: "assets/images/splide/Medizen.svg",
@@ -46,7 +45,7 @@ const clientLogos = [
     {
         url: "assets/images/splide/ml.svg",
         alt: "MLEstimation - AI Tool to Analyse your Building material",
-        loading: "lazy"
+
     },
 
     {
@@ -58,7 +57,6 @@ const clientLogos = [
         url: "assets/images/splide/MumbleRapperz.svg",
         alt: "MumbleRapperz - NFT Minting platform"
     },
-
 
     {
         url: "assets/images/splide/Bloqhodler.jpg",

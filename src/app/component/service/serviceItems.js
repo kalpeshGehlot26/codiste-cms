@@ -22,6 +22,7 @@ const ServiceList = ({ serviceItems, serviceCount, setTotalServiceCount }) => {
 										className="img-fluid firstsecimg-style"
 										src={service.url}
 										alt={`${service.title} Development services`}
+										loading="lazy"
 									/>
 								</div>
 								<div className="ms-3">

@@ -95,6 +95,7 @@ const About = () => {
 											className="img-fluid"
 											alt="Collaboration"
 											src="assets/images/about/Collaboration.png"
+											loading="lazy"
 										/>
 										<p className="secondsec-p text-center">Collaboration</p>
 									</li>
@@ -103,6 +104,7 @@ const About = () => {
 											className="img-fluid"
 											alt="Continuous Improvement"
 											src="assets/images/about/continuous-improvement.png"
+											loading="lazy"
 										/>
 										<p className="secondsec-p text-center">
 											Continuous Improvement
@@ -113,6 +115,7 @@ const About = () => {
 											className="img-fluid"
 											alt="Customer Focus"
 											src="assets/images/about/Customer Focus.png"
+											loading="lazy"
 										/>
 										<p className="secondsec-p text-center">
 											Customer Focus
@@ -123,6 +126,7 @@ const About = () => {
 											className="img-fluid"
 											alt="Diversity & Inclusion"
 											src="assets/images/about/diversity.png"
+											loading="lazy"
 										/>
 										<p className="secondsec-p text-center">
 											Diversity & Inclusion
@@ -133,6 +137,7 @@ const About = () => {
 											className="img-fluid"
 											alt="Excellence"
 											src="assets/images/about/excellence.png"
+											loading="lazy"
 										/>
 										<p className="secondsec-p text-center">Excellence</p>
 									</li>
@@ -141,6 +146,7 @@ const About = () => {
 											className="img-fluid"
 											alt="Innovation"
 											src="assets/images/about/innovation.png"
+											loading="lazy"
 										/>
 										<p className="secondsec-p text-center">Innovation</p>
 									</li>
@@ -149,6 +155,7 @@ const About = () => {
 											className="img-fluid"
 											alt="Agility"
 											src="assets/images/about/iteration.png"
+											loading="lazy"
 										/>
 										<p className="secondsec-p text-center">Agility</p>
 									</li>
@@ -157,6 +164,7 @@ const About = () => {
 											className="img-fluid"
 											alt="Integrity"
 											src="assets/images/about/Integrity.png"
+											loading="lazy"
 										/>
 										<p className="secondsec-p text-center">Integrity</p>
 									</li>
@@ -165,6 +173,7 @@ const About = () => {
 											className="img-fluid"
 											alt="Accountability"
 											src="assets/images/about/responsibility.png"
+											loading="lazy"
 										/>
 										<p className="secondsec-p text-center">
 											Accountability
@@ -196,7 +205,8 @@ const About = () => {
 									<img
 										className="img-fluid"
 										alt="Blockchain Development Service"
-										src="assets/images/services/on_chain 1.png"
+										src="assets/images/services/Blockchain Development Services.webp"
+										loading="lazy"
 									/>
 									<Link href="/blockchain-development-company">
 										<span className="fs-3">Blockchain</span>
@@ -208,7 +218,8 @@ const About = () => {
 									<img
 										className="img-fluid"
 										alt="Artificial Intelligence Development services"
-										src="assets/images/services/AI Development.png"
+										src="assets/images/services/AI Development.webp"
+										loading="lazy"
 									/>
 									<Link href="/artificial-intelligence-development-company">
 										<span className="fs-3">
@@ -222,7 +233,8 @@ const About = () => {
 									<img
 										className="img-fluid"
 										alt="AR VR Development Service"
-										src="assets/images/services/AR VR.png"
+										src="assets/images/services/AR VR.webp"
+										loading="lazy"
 									/>
 									<Link href="/augmented-reality-development-company">
 										<span className="fs-3">AR/VR</span>
@@ -234,7 +246,8 @@ const About = () => {
 									<img
 										className="img-fluid"
 										alt="Cryptocurrency Development Service"
-										src="assets/images/services/Cryptocurrency.png"
+										src="assets/images/services/Cryptocurrency.webp"
+										loading="lazy"
 									/>
 									<Link href="/cryptocurrency-development-company">
 										<span className="fs-3">
@@ -248,7 +261,8 @@ const About = () => {
 									<img
 										className="img-fluid"
 										alt="Machine Learning Development Service"
-										src="assets/images/services/machine.png"
+										src="assets/images/services/ML Development Services.webp"
+										loading="lazy"
 									/>
 									<Link href="/machine-learning-development-company">
 										<span className="fs-3">
@@ -262,7 +276,8 @@ const About = () => {
 									<img
 										className="img-fluid"
 										alt="Metaverse Development Service"
-										src="assets/images/services/metaverse.png"
+										src="assets/images/services/metaverse.webp"
+										loading="lazy"
 									/>
 									<Link href="/metaverse-development-company">
 										<span className="fs-3">Metaverse</span>
@@ -276,7 +291,8 @@ const About = () => {
 									<img
 										className="img-fluid"
 										alt="Mobile App Development Service"
-										src="assets/images/services/Mobile App Development.png"
+										src="assets/images/services/Mobile App Development.webp"
+										loading="lazy"
 									/>
 									<Link href="/mobile-app-development-company">
 										<span className="fs-3">Mobile App</span>
@@ -289,7 +305,8 @@ const About = () => {
 									<img
 										className="img-fluid"
 										alt="NFT Marketplace Development Service"
-										src="assets/images/services/Nftimg.png"
+										src="assets/images/services/NFTMarketplace Development Services.webp"
+										loading="lazy"
 									/>
 									<Link href="/nft-development-company">
 										<span className="fs-3">
@@ -304,7 +321,8 @@ const About = () => {
 									<img
 										className="img-fluid"
 										alt="Mobile App Development Service"
-										src="assets/images/services/Start up.png"
+										src="assets/images/services/Start up.webp"
+										loading="lazy"
 									/>
 									<Link href="/startup-development-company">
 										<span className="fs-3">Startup</span>
@@ -316,7 +334,8 @@ const About = () => {
 									<img
 										className="img-fluid"
 										alt="Web Development Service"
-										src="assets/images/services/Web Development.png"
+										src="assets/images/services/Web Development.webp"
+										loading="lazy"
 									/>
 									<Link href="/web-development-company">
 										<span className="fs-3">Web</span>
@@ -335,7 +354,7 @@ const About = () => {
 					<h1 className="all-head text-center mb-5">Leadership Team</h1>
 					<div className="row">
 						<div className="col-xl-2 col-md-4 p-4 ">
-							<img className='img-fluid ' src="assets/images/about/Nishant.png" alt="Nishant Bijani" />
+							<img className='img-fluid ' src="assets/images/about/Nishant.png" alt="Nishant Bijani" loading="lazy" />
 						</div>
 						<div className="col-xl-10 col-md-8 aboutall-p p-4">
 							<div>
@@ -368,7 +387,7 @@ const About = () => {
 					</div>
 					<div className="row">
 						<div className="col-xl-2 col-md-4  p-4">
-							<img className='img-fluid' src="assets/images/about/Nic.png" alt="Nic" />
+							<img className='img-fluid' src="assets/images/about/Nic.png" alt="Nic" loading="lazy" />
 						</div>
 						<div className="col-xl-10 col-md-8  aboutall-p p-4">
 							<div>
@@ -416,6 +435,7 @@ const About = () => {
 												className="img-fluid"
 												src="assets/images/splide/Apollo.svg"
 												alt="Apollo - Apollo Crypto Launchpad"
+												loading="lazy"
 											/>{" "}
 										</a>
 									</li>
@@ -427,6 +447,7 @@ const About = () => {
 												src="assets/images/splide/Bonfire.svg"
 												loading="lazy"
 												alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
+
 											/>{" "}
 										</a>
 									</li>
@@ -438,6 +459,7 @@ const About = () => {
 												className="img-fluid"
 												src="assets/images/splide/coinxPad.svg"
 												alt="CoinXpad - Coinxpad Decentralised Crypto Launchpad"
+												loading="lazy"
 											/>{" "}
 										</a>
 									</li>
@@ -448,6 +470,7 @@ const About = () => {
 												className="img-fluid"
 												src="assets/images/splide/counterTen.svg"
 												alt="CounterTen - Digital Collectible platform for Loyalty, Brands and events"
+												loading="lazy"
 											/>{" "}
 										</a>
 									</li>
@@ -459,6 +482,7 @@ const About = () => {
 												className="img-fluid"
 												src="assets/images/splide/DiveWallet.svg"
 												alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
+												loading="lazy"
 											/>
 										</a>
 									</li>
@@ -469,6 +493,7 @@ const About = () => {
 												className="img-fluid"
 												src="assets/images/splide/FTWDAO.svg"
 												alt="FTWDao - Diversifying the venture investing ecosystem"
+												loading="lazy"
 											/>{" "}
 										</a>
 									</li>
@@ -480,6 +505,7 @@ const About = () => {
 												className="img-fluid"
 												src="assets/images/splide/Cypha.svg"
 												alt="Cypha - Make your Music using Cypha app"
+												loading="lazy"
 											/>
 										</a>
 									</li>
@@ -491,6 +517,7 @@ const About = () => {
 												src="assets/images/splide/Holygrails.svg"
 												loading="lazy"
 												alt="Holygrails - Solana NFT Marketplace"
+
 											/>{" "}
 										</a>
 									</li>
@@ -502,6 +529,7 @@ const About = () => {
 												className="img-fluid"
 												src="assets/images/splide/Ikaris.svg"
 												loading="lazy"
+												style={{ width: "250px", height: "60px" }}
 												alt="Ikaris - NFT Showcase Mobile App"
 											/>{" "}
 										</a>
@@ -538,6 +566,7 @@ const About = () => {
 												className="img-fluid"
 												src="assets/images/splide/MumbleRapperz.svg"
 												alt="MumbleRapperz - NFT Minting platform"
+												loading="lazy"
 											/>{" "}
 										</a>
 									</li>
@@ -549,6 +578,7 @@ const About = () => {
 												className="img-fluid"
 												src="assets/images/splide/NearPro.svg"
 												alt="NearPro - Connecting Homeowner and top Contractor"
+												loading="lazy"
 											/>{" "}
 										</a>
 									</li>
@@ -559,6 +589,7 @@ const About = () => {
 												className="img-fluid"
 												src="assets/images/splide/Bloqhodler.jpg"
 												alt="Bloqhodler - Hedge fund investment app"
+												loading="lazy"
 											/>{" "}
 										</a>
 									</li>
@@ -570,6 +601,7 @@ const About = () => {
 												className="img-fluid"
 												src="assets/images/splide/galaxyCoin.jpg"
 												alt="Galaxy Coin - Governance Token & Stacking Defi app"
+												loading="lazy"
 											/>{" "}
 										</a>
 									</li>
@@ -599,7 +631,8 @@ const About = () => {
 						<img
 							className="img-fluid"
 							src="assets/images/about/World Map.png"
-							alt=""
+							alt="World Map"
+							loading="lazy"
 						/>
 					</div>
 				</div>
@@ -622,6 +655,7 @@ const About = () => {
 									className="me-4"
 									src="assets/images/india.png"
 									alt="India Office"
+									loading="lazy"
 								/></div>
 								<div><h1 className="mb-0">India</h1></div>
 
@@ -806,6 +840,7 @@ const About = () => {
 									className="me-4"
 									src="assets/images/south-africa.png"
 									alt="south-africa office"
+									loading="lazy"
 								/></div>
 								<div>
 									<h1 className="mb-0">South-Africa</h1>

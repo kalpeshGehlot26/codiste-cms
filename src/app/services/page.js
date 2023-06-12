@@ -148,7 +148,7 @@ const Services = () => {
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
-										src="assets/images/Our-service/solution.png"
+										loading="lazy" src="assets/images/Our-service/solution.png"
 										alt="Personalized Solutions"
 									/>
 									<h3 className="">Personalized Solutions</h3>
@@ -169,7 +169,7 @@ const Services = () => {
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
-										src="assets/images/Our-service/iBusiness.png"
+										loading="lazy" src="assets/images/Our-service/iBusiness.png"
 										alt="Synergistic Strategy"
 									/>
 									<h3 className="">Synergistic Strategy</h3>
@@ -190,7 +190,7 @@ const Services = () => {
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
-										src="assets/images/Our-service/natural-language-processing.png"
+										loading="lazy" src="assets/images/Our-service/natural-language-processing.png"
 										alt="Technology Experts"
 									/>
 									<h3 className="">Technology Experts</h3>
@@ -211,7 +211,7 @@ const Services = () => {
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
-										src="assets/images/Our-service/agile.png"
+										loading="lazy" src="assets/images/Our-service/agile.png"
 										alt="End-to-End Development"
 									/>
 									<h3 className="">
@@ -233,7 +233,7 @@ const Services = () => {
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
-										src="assets/images/Our-service/internet.png"
+										loading="lazy" src="assets/images/Our-service/internet.png"
 										alt="Robust Security Solutions"
 									/>
 									<h3 className="">
@@ -254,7 +254,7 @@ const Services = () => {
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
-										src="assets/images/Service-meta/Post Sales Support & Assistance.png"
+										loading="lazy" src="assets/images/Service-meta/Post Sales Support & Assistance.png"
 										alt="Post Sales Support & Assistance"
 									/>
 									<h3 className="">
@@ -393,12 +393,13 @@ const Services = () => {
 						<div className="row g-5">
 							<div className="col-lg-4 col-md-6 col-sm-12">
 								<div className="casediwallet-block ">
-									<div className=" case-position">
+									<div className="case-position">
 										{" "}
 										<img
 											className="img-fluid "
 											alt="Divewallet"
 											src="assets/images/Casestudy-img/DiveWallet.png"
+											loading="lazy"
 										/>
 									</div>
 									<div className="mb-5">
@@ -525,7 +526,7 @@ const Services = () => {
 										</h3>
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												loading="lazy" src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -534,7 +535,7 @@ const Services = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
-													src="assets/images/client-logos/bonfire.png"
+													loading="lazy" src="assets/images/client-logos/bonfire.png"
 												/>
 											</div>
 											<h5>
@@ -574,7 +575,7 @@ const Services = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												loading="lazy" src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -582,7 +583,7 @@ const Services = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
-													src="assets/images/client-logos/DiveWallet Logo.png"
+													loading="lazy" src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
 											<h5>DiveWallet</h5>
@@ -608,7 +609,7 @@ const Services = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												loading="lazy" src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -616,7 +617,7 @@ const Services = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="Medizen - Pill Reminder and Drug interaction Detection app"
-													src="assets/images/client-logos/Medizen.png"
+													loading="lazy" src="assets/images/client-logos/Medizen.png"
 												/>
 											</div>
 											<h5>Medizen App</h5>

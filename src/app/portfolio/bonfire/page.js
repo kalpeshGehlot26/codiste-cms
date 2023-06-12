@@ -62,6 +62,7 @@ const BornfirePortfolio = () => {
 								style={{ padding: "20px" }}
 								src="/assets/images/case-bonfire/Problem 01.png"
 								alt="Client Requirement"
+								loading="lazy"
 							/>
 						</div>
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">
@@ -108,6 +109,7 @@ const BornfirePortfolio = () => {
 									style={{ padding: "20px" }}
 									src="/assets/images/case-bonfire/finalProduct.png"
 									alt="Client Requirement"
+									loading="lazy"
 								/>
 							</div>
 						</div>
@@ -135,7 +137,7 @@ const BornfirePortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Cross-border Investment"
-											src="/assets/images/case-coinxpad/Multi-chain Launchpad.png"
+											loading="lazy" src="/assets/images/case-coinxpad/Multi-chain Launchpad.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -154,7 +156,7 @@ const BornfirePortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Income from rental properties"
-											src="/assets/images/case-coinxpad/Blockchain platforms.png"
+											loading="lazy" src="/assets/images/case-coinxpad/Blockchain platforms.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -171,7 +173,7 @@ const BornfirePortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Easy Browsing"
-											src="/assets/images/case-coinxpad/Launch Platform.png"
+											loading="lazy" src="/assets/images/case-coinxpad/Launch Platform.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -190,7 +192,7 @@ const BornfirePortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Fractionalization of the property"
-											src="/assets/images/case-coinxpad/Secure Launchpad.png"
+											loading="lazy" src="/assets/images/case-coinxpad/Secure Launchpad.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -275,7 +277,7 @@ const BornfirePortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Bonfire"
-												src="/assets/images/case-bonfire/Bonfire-0.png"
+												loading="lazy" src="/assets/images/case-bonfire/Bonfire-0.png"
 											/>
 										</div>
 									</div>
@@ -286,7 +288,7 @@ const BornfirePortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Bonfire"
-												src="/assets/images/case-bonfire/Bonfire-1.png"
+												loading="lazy" src="/assets/images/case-bonfire/Bonfire-1.png"
 											/>
 										</div>
 									</div>
@@ -297,7 +299,7 @@ const BornfirePortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Bonfire"
-												src="/assets/images/case-bonfire/Bonfire-2.png"
+												loading="lazy" src="/assets/images/case-bonfire/Bonfire-2.png"
 											/>
 										</div>
 									</div>
@@ -308,7 +310,7 @@ const BornfirePortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Bonfire"
-												src="/assets/images/case-bonfire/Bonfire-3.png"
+												loading="lazy" src="/assets/images/case-bonfire/Bonfire-3.png"
 											/>
 										</div>
 									</div>
@@ -319,7 +321,7 @@ const BornfirePortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Bonfire"
-												src="/assets/images/case-bonfire/Bonfire-4.png"
+												loading="lazy" src="/assets/images/case-bonfire/Bonfire-4.png"
 											/>
 										</div>
 									</div>
@@ -330,7 +332,7 @@ const BornfirePortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Bonfire"
-												src="/assets/images/case-bonfire/Bonfire-5.png"
+												loading="lazy" src="/assets/images/case-bonfire/Bonfire-5.png"
 											/>
 										</div>
 									</div>
@@ -341,7 +343,7 @@ const BornfirePortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Bonfire"
-												src="/assets/images/case-bonfire/Bonfire-6.png"
+												loading="lazy" src="/assets/images/case-bonfire/Bonfire-6.png"
 											/>
 										</div>
 									</div>
@@ -352,7 +354,7 @@ const BornfirePortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Bonfire"
-												src="/assets/images/case-bonfire/Bonfire-7.png"
+												loading="lazy" src="/assets/images/case-bonfire/Bonfire-7.png"
 											/>
 										</div>
 									</div>
@@ -363,7 +365,7 @@ const BornfirePortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Bonfire"
-												src="/assets/images/case-bonfire/Bonfire-8.png"
+												loading="lazy" src="/assets/images/case-bonfire/Bonfire-8.png"
 											/>
 										</div>
 									</div>
@@ -374,7 +376,7 @@ const BornfirePortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Bonfire"
-												src="/assets/images/case-bonfire/Bonfire-9.png"
+												loading="lazy" src="/assets/images/case-bonfire/Bonfire-9.png"
 											/>
 										</div>
 									</div>
@@ -429,6 +431,7 @@ const BornfirePortfolio = () => {
 										className="img-fluid"
 										src="/assets/images/tech/React-icon.svg.png"
 										alt="React"
+										loading="lazy"
 									/>
 								</li>
 
@@ -437,6 +440,7 @@ const BornfirePortfolio = () => {
 										className="img-fluid"
 										src="/assets/images/tech/Node.png"
 										alt="Node.js"
+										loading="lazy"
 									/>
 								</li>
 							</ul>
@@ -472,12 +476,14 @@ const BornfirePortfolio = () => {
 										src="/assets/images/iCrowsel.png"
 										className=" "
 										alt="iCrowsel"
+										loading="lazy"
 									/>
 									<div className="my-3">
 										<img
 											className="img-fluid"
 											alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
 											src="/assets/images/client-logos/bonfire.png"
+											loading="lazy"
 										/>
 									</div>
 									<h5>The Real Estate Investment platform</h5>

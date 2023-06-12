@@ -56,7 +56,7 @@ const MLPortfolio = () => {
 							<img
 								className="img-fluid"
 								style={{ padding: "20px" }}
-								src="/assets/images/case-ml/Problem 05.png"
+								loading="lazy" src="/assets/images/case-ml/Problem 05.png"
 								alt="Client Requirement"
 							/>
 						</div>
@@ -100,7 +100,7 @@ const MLPortfolio = () => {
 							<img
 								className="img-fluid"
 								style={{ padding: "20px" }}
-								src="/assets/images/case-ml/Challange 04.png"
+								loading="lazy" src="/assets/images/case-ml/Challange 04.png"
 								alt="Challenges"
 							/>
 						</div>
@@ -122,7 +122,7 @@ const MLPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Data Extraction Algorithms"
-											src="/assets/images/case-ml/Data Extraction Algorithms.png"
+											loading="lazy" src="/assets/images/case-ml/Data Extraction Algorithms.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -141,7 +141,7 @@ const MLPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Detailed & Accurate Project Information"
-											src="/assets/images/case-ml/Detailed & Accurate Project Information.png"
+											loading="lazy" src="/assets/images/case-ml/Detailed & Accurate Project Information.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -159,7 +159,7 @@ const MLPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="User-Friendly Interface"
-											src="/assets/images/case-ml/User-Friendly Interface.png"
+											loading="lazy" src="/assets/images/case-ml/User-Friendly Interface.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -177,7 +177,7 @@ const MLPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Reduce Time and Cost"
-											src="/assets/images/case-ml/Reduce Time and Cos.png"
+											loading="lazy" src="/assets/images/case-ml/Reduce Time and Cos.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -196,7 +196,7 @@ const MLPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Enhanced Bid Precision and Competitiveness"
-											src="/assets/images/case-ml/Enhanced Bid Precision and Competitiveness.png"
+											loading="lazy" src="/assets/images/case-ml/Enhanced Bid Precision and Competitiveness.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -215,7 +215,7 @@ const MLPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Facility Maintenance Planning"
-											src="/assets/images/case-ml/Facility Maintenance Planning.png"
+											loading="lazy" src="/assets/images/case-ml/Facility Maintenance Planning.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -305,7 +305,7 @@ const MLPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-ml/ML Estimation-1.png"
+												loading="lazy" src="/assets/images/case-ml/ML Estimation-1.png"
 											/>
 										</div>
 									</div>
@@ -316,7 +316,7 @@ const MLPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-ml/ML Estimation-2.png"
+												loading="lazy" src="/assets/images/case-ml/ML Estimation-2.png"
 											/>
 										</div>
 									</div>
@@ -327,7 +327,7 @@ const MLPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-ml/ML Estimation-3.png"
+												loading="lazy" src="/assets/images/case-ml/ML Estimation-3.png"
 											/>
 										</div>
 									</div>
@@ -338,7 +338,7 @@ const MLPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-ml/ML Estimation-4.png"
+												loading="lazy" src="/assets/images/case-ml/ML Estimation-4.png"
 											/>
 										</div>
 									</div>
@@ -349,7 +349,7 @@ const MLPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-ml/ML Estimation-5.png"
+												loading="lazy" src="/assets/images/case-ml/ML Estimation-5.png"
 											/>
 										</div>
 									</div>
@@ -360,7 +360,7 @@ const MLPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-ml/ML Estimation-6 .png"
+												loading="lazy" src="/assets/images/case-ml/ML Estimation-6 .png"
 											/>
 										</div>
 									</div>
@@ -371,7 +371,7 @@ const MLPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-ml/ML Estimation-7.png"
+												loading="lazy" src="/assets/images/case-ml/ML Estimation-7.png"
 											/>
 										</div>
 									</div>
@@ -382,7 +382,7 @@ const MLPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-ml/ML Estimation-8.png"
+												loading="lazy" src="/assets/images/case-ml/ML Estimation-8.png"
 											/>
 										</div>
 									</div>
@@ -393,7 +393,7 @@ const MLPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-ml/ML Estimation-9.png"
+												loading="lazy" src="/assets/images/case-ml/ML Estimation-9.png"
 											/>
 										</div>
 									</div>
@@ -446,7 +446,7 @@ const MLPortfolio = () => {
 								<li>
 									<img
 										className="img-fluid"
-										src="/assets/images/tech/flutter.png"
+										loading="lazy" src="/assets/images/tech/flutter.png"
 										alt="flutter"
 									/>
 								</li>
@@ -481,14 +481,14 @@ const MLPortfolio = () => {
 								</h3>
 								<div className="d-flex align-items-center flex-column">
 									<img
-										src="/assets/images/iCrowsel.png"
+										loading="lazy" src="/assets/images/iCrowsel.png"
 										className="img-fluid"
 										alt="iCrowsel"
 									/>
 									<div className="my-3">
 										<img
 											className="img-fluid"
-											src="/assets/images/client-logos/Ml Estimation.png"
+											loading="lazy" src="/assets/images/client-logos/Ml Estimation.png"
 											alt="MLEstimation"
 										/>
 									</div>

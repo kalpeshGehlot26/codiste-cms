@@ -58,7 +58,7 @@ const PixipagesPortfolio = () => {
 							<img
 								className="img-fluid"
 								style={{ padding: "20px" }}
-								src="/assets/images/case-pixi/Problem 08.png"
+								loading="lazy" src="/assets/images/case-pixi/Problem 08.png"
 								alt="Client Requirement"
 							/>
 						</div>
@@ -98,7 +98,7 @@ const PixipagesPortfolio = () => {
 							<img
 								className="img-fluid"
 								style={{ padding: "20px" }}
-								src="/assets/images/case-pixi/Challange 07.png"
+								loading="lazy" src="/assets/images/case-pixi/Challange 07.png"
 								alt="Challenges"
 							/>
 						</div>
@@ -120,7 +120,7 @@ const PixipagesPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Dream Stories"
-											src="/assets/images/case-pixi/dream stories.png"
+											loading="lazy" src="/assets/images/case-pixi/dream stories.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -138,7 +138,7 @@ const PixipagesPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Easy Guide"
-											src="/assets/images/case-pixi/Easy Guide.png"
+											loading="lazy" src="/assets/images/case-pixi/Easy Guide.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -154,7 +154,7 @@ const PixipagesPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Diverse Themes"
-											src="/assets/images/case-pixi/Diverse Themes.png"
+											loading="lazy" src="/assets/images/case-pixi/Diverse Themes.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -171,7 +171,7 @@ const PixipagesPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt=""
-											src="/assets/images/case-pixi/Shareable Moments.png"
+											loading="lazy" src="/assets/images/case-pixi/Shareable Moments.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -187,7 +187,7 @@ const PixipagesPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Comforting Presence"
-											src="/assets/images/case-pixi/Comforting Presence.png"
+											loading="lazy" src="/assets/images/case-pixi/Comforting Presence.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -202,7 +202,7 @@ const PixipagesPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Treasured Memories"
-											src="/assets/images/case-pixi/Treasured Memories-1.png"
+											loading="lazy" src="/assets/images/case-pixi/Treasured Memories-1.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -284,7 +284,7 @@ const PixipagesPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Pixi"
-												src="/assets/images/case-pixi/Pixipages-1png.png"
+												loading="lazy" src="/assets/images/case-pixi/Pixipages-1png.png"
 											/>
 										</div>
 									</div>
@@ -295,7 +295,7 @@ const PixipagesPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Pixi"
-												src="/assets/images/case-pixi/Pixipages 03.png"
+												loading="lazy" src="/assets/images/case-pixi/Pixipages 03.png"
 											/>
 										</div>
 									</div>
@@ -349,7 +349,7 @@ const PixipagesPortfolio = () => {
 									<img
 										className="img-fluid"
 										alt="Swift"
-										src="/assets/images/tech/Swift.png"
+										loading="lazy" src="/assets/images/tech/Swift.png"
 									/>
 								</li>
 
@@ -357,7 +357,7 @@ const PixipagesPortfolio = () => {
 									<img
 										className="img-fluid"
 										alt="xcode"
-										src="/assets/images/tech/xcode.png"
+										loading="lazy" src="/assets/images/tech/xcode.png"
 									/>
 								</li>
 							</ul>
@@ -392,14 +392,14 @@ const PixipagesPortfolio = () => {
 								</h3>
 								<div className="d-flex align-items-center flex-column">
 									<img
-										src="/assets/images/iCrowsel.png"
+										loading="lazy" src="/assets/images/iCrowsel.png"
 										className=" "
 										alt="iCrowsel"
 									/>
 									<div className="my-3">
 										<img
 											className=""
-											src="/assets/images/splide/diveWallet.jpg"
+											loading="lazy" src="/assets/images/splide/diveWallet.jpg"
 										/>
 									</div>
 									<h5>Mike Walton</h5>
@@ -465,7 +465,7 @@ const PixipagesPortfolio = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="../assets/images/iCrowsel.png"
+												loading="lazy" src="../assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -473,7 +473,7 @@ const PixipagesPortfolio = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="White Hat DAO"
-													src="../assets/images/client-logos/White Hat DAO.png"
+													loading="lazy" src="../assets/images/client-logos/White Hat DAO.png"
 												/>
 											</div>
 											<h5>White Hat DAO</h5>
@@ -511,7 +511,7 @@ const PixipagesPortfolio = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="../assets/images/iCrowsel.png"
+												loading="lazy" src="../assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -519,7 +519,7 @@ const PixipagesPortfolio = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
-													src="../assets/images/client-logos/DiveWallet Logo.png"
+													loading="lazy" src="../assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
 											<h5>DiveWallet</h5>
@@ -544,7 +544,7 @@ const PixipagesPortfolio = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="../assets/images/iCrowsel.png"
+												loading="lazy" src="../assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -552,7 +552,7 @@ const PixipagesPortfolio = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="Ninza NFT"
-													src="../assets/images/client-logos/Danketsu-Logo-Blue (Ninja NFT).png"
+													loading="lazy" src="../assets/images/client-logos/Danketsu-Logo-Blue (Ninja NFT).png"
 												/>
 											</div>
 											<h5>Ninza NFT</h5>

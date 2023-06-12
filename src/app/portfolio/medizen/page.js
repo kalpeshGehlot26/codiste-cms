@@ -62,7 +62,7 @@ const MedizenPortfolio = () => {
 							<img
 								className="img-fluid"
 								style={{ width: "auto", padding: "20px" }}
-								src="/assets/images/case-medizen/Problem 04.png"
+								loading="lazy" src="/assets/images/case-medizen/Problem 04.png"
 								alt="Client Requirement"
 							/>
 						</div>
@@ -110,7 +110,7 @@ const MedizenPortfolio = () => {
 							<img
 								className="img-fluid"
 								style={{ width: "auto", padding: "20px" }}
-								src="/assets/images/case-medizen/Challange 01.png"
+								loading="lazy" src="/assets/images/case-medizen/Challange 01.png"
 								alt="Challenges"
 							/>
 						</div>
@@ -132,7 +132,7 @@ const MedizenPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Medication Tracker"
-											src="/assets/images/case-medizen/Medication Tracker.png"
+											loading="lazy" src="/assets/images/case-medizen/Medication Tracker.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -149,7 +149,7 @@ const MedizenPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Reminders"
-											src="/assets/images/case-medizen/Reminders.png"
+											loading="lazy" src="/assets/images/case-medizen/Reminders.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -167,7 +167,7 @@ const MedizenPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Drug Interaction Checker"
-											src="/assets/images/case-medizen/Drug Interaction Checker.png"
+											loading="lazy" src="/assets/images/case-medizen/Drug Interaction Checker.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -185,7 +185,7 @@ const MedizenPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Refill Reminders"
-											src="/assets/images/case-medizen/Refill Reminders.png"
+											loading="lazy" src="/assets/images/case-medizen/Refill Reminders.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -202,7 +202,7 @@ const MedizenPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Family Sharing"
-											src="/assets/images/case-medizen/Family Sharing.png"
+											loading="lazy" src="/assets/images/case-medizen/Family Sharing.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -288,7 +288,7 @@ const MedizenPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Medizen"
-												src="/assets/images/case-medizen/Medizen-1.png"
+												loading="lazy" src="/assets/images/case-medizen/Medizen-1.png"
 											/>
 										</div>
 									</div>
@@ -299,7 +299,7 @@ const MedizenPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Medizen"
-												src="/assets/images/case-medizen/Medizen-2.png "
+												loading="lazy" src="/assets/images/case-medizen/Medizen-2.png "
 											/>
 										</div>
 									</div>
@@ -310,7 +310,7 @@ const MedizenPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Medizen"
-												src="/assets/images/case-medizen/Medizen-3.png "
+												loading="lazy" src="/assets/images/case-medizen/Medizen-3.png "
 											/>
 										</div>
 									</div>
@@ -321,7 +321,7 @@ const MedizenPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Medizen"
-												src="/assets/images/case-medizen/Medizen-4.png "
+												loading="lazy" src="/assets/images/case-medizen/Medizen-4.png "
 											/>
 										</div>
 									</div>
@@ -332,7 +332,7 @@ const MedizenPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Medizen"
-												src="/assets/images/case-medizen/Medizen-5.png "
+												loading="lazy" src="/assets/images/case-medizen/Medizen-5.png "
 											/>
 										</div>
 									</div>
@@ -343,7 +343,7 @@ const MedizenPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Medizen"
-												src="/assets/images/case-medizen/Medizen-6.png"
+												loading="lazy" src="/assets/images/case-medizen/Medizen-6.png"
 											/>
 										</div>
 									</div>
@@ -354,7 +354,7 @@ const MedizenPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Medizen"
-												src="/assets/images/case-medizen/Medizen-7.png "
+												loading="lazy" src="/assets/images/case-medizen/Medizen-7.png "
 											/>
 										</div>
 									</div>
@@ -365,7 +365,7 @@ const MedizenPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Medizen"
-												src="/assets/images/case-medizen/Medizen-8.png "
+												loading="lazy" src="/assets/images/case-medizen/Medizen-8.png "
 											/>
 										</div>
 									</div>
@@ -376,7 +376,7 @@ const MedizenPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Medizen"
-												src="/assets/images/case-medizen/Medizen-9.png "
+												loading="lazy" src="/assets/images/case-medizen/Medizen-9.png "
 											/>
 										</div>
 									</div>
@@ -387,7 +387,7 @@ const MedizenPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Medizen"
-												src="/assets/images/case-medizen/Medizen-10.png "
+												loading="lazy" src="/assets/images/case-medizen/Medizen-10.png "
 											/>
 										</div>
 									</div>
@@ -398,7 +398,7 @@ const MedizenPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Medizen"
-												src="/assets/images/case-medizen/Medizen-11.png "
+												loading="lazy" src="/assets/images/case-medizen/Medizen-11.png "
 											/>
 										</div>
 									</div>
@@ -452,14 +452,14 @@ const MedizenPortfolio = () => {
 									<img
 										className="img-fluid"
 										alt="flutter"
-										src="/assets/images/tech/flutter.png"
+										loading="lazy" src="/assets/images/tech/flutter.png"
 									/>
 								</li>
 								<li>
 									<img
 										className="img-fluid"
 										alt="Node.js"
-										src="/assets/images/tech/Node.png"
+										loading="lazy" src="/assets/images/tech/Node.png"
 									/>
 								</li>
 							</ul>
@@ -493,7 +493,7 @@ const MedizenPortfolio = () => {
 								</h3>
 								<div className="d-flex align-items-center flex-column">
 									<img
-										src="/assets/images/iCrowsel.png"
+										loading="lazy" src="/assets/images/iCrowsel.png"
 										className=" "
 										alt="iCrowsel"
 									/>
@@ -501,7 +501,7 @@ const MedizenPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Medizen - Pill Reminder and Drug interaction Detection app"
-											src="/assets/images/client-logos/Medizen.png"
+											loading="lazy" src="/assets/images/client-logos/Medizen.png"
 										/>
 									</div>
 									<h5>Medizen App</h5>

@@ -67,7 +67,7 @@ const CyphaPortfolio = () => {
 							<img
 								className="img-fluid"
 								style={{ width: "auto", padding: "20px" }}
-								src="/assets/images/case-cypha/Client Requirement.png"
+								loading="lazy" src="/assets/images/case-cypha/Client Requirement.png"
 								alt="Client Requirement"
 							/>
 						</div>
@@ -110,7 +110,7 @@ const CyphaPortfolio = () => {
 							<img
 								className="img-fluid"
 								style={{ width: "auto", padding: "20px" }}
-								src="/assets/images/case-cypha/Problem 06.png"
+								loading="lazy" src="/assets/images/case-cypha/Problem 06.png"
 								alt="Problem Statement"
 							/>
 						</div>
@@ -132,7 +132,7 @@ const CyphaPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt=""
-											src="/assets/images/case-cypha/Instrumental Voiceovers.png"
+											loading="lazy" src="/assets/images/case-cypha/Instrumental Voiceovers.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -147,7 +147,7 @@ const CyphaPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt=""
-											src="/assets/images/case-cypha/Record & Share.png"
+											loading="lazy" src="/assets/images/case-cypha/Record & Share.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -163,7 +163,7 @@ const CyphaPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt=""
-											src="/assets/images/case-cypha/Token Rewards.png"
+											loading="lazy" src="/assets/images/case-cypha/Token Rewards.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -179,7 +179,7 @@ const CyphaPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt=""
-											src="/assets/images/case-cypha/Global Discovery.png"
+											loading="lazy" src="/assets/images/case-cypha/Global Discovery.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -195,7 +195,7 @@ const CyphaPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt=""
-											src="/assets/images/case-cypha/Expand Reach.png"
+											loading="lazy" src="/assets/images/case-cypha/Expand Reach.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -211,7 +211,7 @@ const CyphaPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt=""
-											src="/assets/images/case-cypha/Talent Discovery.png"
+											loading="lazy" src="/assets/images/case-cypha/Talent Discovery.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -296,7 +296,7 @@ const CyphaPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-cypha/CYPHA-1.png"
+												loading="lazy" src="/assets/images/case-cypha/CYPHA-1.png"
 											/>
 										</div>
 									</div>
@@ -307,7 +307,7 @@ const CyphaPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-cypha/CYPHA-2.png "
+												loading="lazy" src="/assets/images/case-cypha/CYPHA-2.png "
 											/>
 										</div>
 									</div>
@@ -318,7 +318,7 @@ const CyphaPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-cypha/CYPHA-3.png "
+												loading="lazy" src="/assets/images/case-cypha/CYPHA-3.png "
 											/>
 										</div>
 									</div>
@@ -329,7 +329,7 @@ const CyphaPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-cypha/CYPHA-4.png "
+												loading="lazy" src="/assets/images/case-cypha/CYPHA-4.png "
 											/>
 										</div>
 									</div>
@@ -340,7 +340,7 @@ const CyphaPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-cypha/CYPHA-5.png "
+												loading="lazy" src="/assets/images/case-cypha/CYPHA-5.png "
 											/>
 										</div>
 									</div>
@@ -351,7 +351,7 @@ const CyphaPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-cypha/CYPHA-6.png"
+												loading="lazy" src="/assets/images/case-cypha/CYPHA-6.png"
 											/>
 										</div>
 									</div>
@@ -362,7 +362,7 @@ const CyphaPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-cypha/CYPHA-7.png "
+												loading="lazy" src="/assets/images/case-cypha/CYPHA-7.png "
 											/>
 										</div>
 									</div>
@@ -373,7 +373,7 @@ const CyphaPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-cypha/CYPHA-8.png "
+												loading="lazy" src="/assets/images/case-cypha/CYPHA-8.png "
 											/>
 										</div>
 									</div>
@@ -384,7 +384,7 @@ const CyphaPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-cypha/CYPHA-9.png "
+												loading="lazy" src="/assets/images/case-cypha/CYPHA-9.png "
 											/>
 										</div>
 									</div>
@@ -395,7 +395,7 @@ const CyphaPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-cypha/Cypha-10.png "
+												loading="lazy" src="/assets/images/case-cypha/Cypha-10.png "
 											/>
 										</div>
 									</div>
@@ -448,20 +448,20 @@ const CyphaPortfolio = () => {
 								<li>
 									<img
 										className="img-fluid"
-										src="/assets/images/tech/Laravel.png"
+										loading="lazy" src="/assets/images/tech/Laravel.png"
 									/>
 								</li>
 								<li>
 									<img
 										className="img-fluid"
-										src="/assets/images/tech/Android Studio.png"
+										loading="lazy" src="/assets/images/tech/Android Studio.png"
 										alt="Android Studio"
 									/>
 								</li>
 								<li>
 									<img
 										className="img-fluid"
-										src="/assets/images/tech/Swift.png"
+										loading="lazy" src="/assets/images/tech/Swift.png"
 										alt="Swift"
 									/>
 								</li>

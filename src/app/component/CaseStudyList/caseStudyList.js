@@ -29,6 +29,7 @@ const CaseStudyList = () => {
 											className="img-fluid "
 											alt={item.title}
 											src={item.image}
+											loading="lazy"
 										/>
 									</div>
 									<div className="mb-5">

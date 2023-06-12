@@ -41,7 +41,7 @@ const ClientSlider = () => {
                     clientLogo?.map((logo, index) => {
                         return (
                             <SplideSlide className="splide__slide" key={index}>
-                                <img className="img-fluid" src={logo.url} alt={logo.alt} />
+                                <img className="img-fluid" src={logo.url} alt={logo.alt} loading="lazy" />
                             </SplideSlide>
                         )
                     })

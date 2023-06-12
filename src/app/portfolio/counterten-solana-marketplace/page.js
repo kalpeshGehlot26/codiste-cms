@@ -58,7 +58,7 @@ const CounterTenPortfolio = () => {
               <img
                 className='img-fluid'
                 style={{ width: "auto", padding: "20px" }}
-                src="/assets/images/case-couter10/challanges.png" alt="Diwallet-Case" />
+                loading="lazy" src="/assets/images/case-couter10/challanges.png" alt="Diwallet-Case" />
 
             </div>
             <div className="col-lg-6 col-12 mb-5  d-flex  justify-content-center flex-column">
@@ -81,18 +81,18 @@ const CounterTenPortfolio = () => {
               <div className="col-lg-12">
                 <ul className="diwallet-style">
                   <li className="">
-                    <img className='img-fluid' alt='Tamper -proof' src="/assets/images/case-couter10/Tamper -proof.png" />
+                    <img className='img-fluid' alt='Tamper -proof' loading="lazy" src="/assets/images/case-couter10/Tamper -proof.png" />
                     <p><span className="fs-3">Tamper -proof </span><br /><span className="secondsec-p">CounterTEN is built on the Solana blockchain, providing tamper-proof and easily verifiable digital assets. </span>
                     </p>
                   </li>
                   <li >
-                    <img className='img-fluid' alt='Purpose Flexibility' src="/assets/images/case-couter10/Purpose Flexibility.png" />
+                    <img className='img-fluid' alt='Purpose Flexibility' loading="lazy" src="/assets/images/case-couter10/Purpose Flexibility.png" />
                     <p><span className="fs-3">Purpose Flexibility</span><br /><span className="secondsec-p">Brands can create NFTs for a wide range of purposes, including event access, specialized VIP perks, product launches, memberships, property rentals, collectibles, and more. </span>
                     </p>
 
                   </li>
                   <li>
-                    <img className='img-fluid' alt='Revenue' src="/assets/images/case-couter10/Revenue and Engagement.png" />
+                    <img className='img-fluid' alt='Revenue' loading="lazy" src="/assets/images/case-couter10/Revenue and Engagement.png" />
                     <p><span className="fs-3">Revenue and Engagement</span><br /><span className="secondsec-p">CounterTEN offers flexibility to businesses looking to increase revenue, engagement, or both.</span>
                     </p>
 
@@ -138,21 +138,21 @@ const CounterTenPortfolio = () => {
                 <div className="carousel-item active">
                   <div className="d-flex align-items-center text-center flex-column custom-crousel">
                     <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" src="/assets/images/case-couter10/CounterTEN-1.png" />
+                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-1.png" />
                     </div>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <div className="d-flex align-items-center text-center flex-column custom-crousel">
                     <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" src="/assets/images/case-couter10/CounterTEN-2.png" />
+                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-2.png" />
                     </div>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <div className="d-flex align-items-center text-center flex-column custom-crousel">
                     <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" src="/assets/images/case-couter10/CounterTEN-3.png" />
+                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-3.png" />
                     </div>
                   </div>
 
@@ -160,70 +160,70 @@ const CounterTenPortfolio = () => {
                 <div className="carousel-item">
                   <div className="d-flex align-items-center text-center flex-column custom-crousel">
                     <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" src="/assets/images/case-couter10/CounterTEN-4.png" />
+                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-4.png" />
                     </div>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <div className="d-flex align-items-center text-center flex-column custom-crousel">
                     <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" src="/assets/images/case-couter10/CounterTEN-5.png" />
+                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-5.png" />
                     </div>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <div className="d-flex align-items-center text-center flex-column custom-crousel">
                     <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" src="/assets/images/case-couter10/CounterTEN-6.png" />
+                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-6.png" />
                     </div>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <div className="d-flex align-items-center text-center flex-column custom-crousel">
                     <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" src="/assets/images/case-couter10/CounterTEN-7.png" />
+                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-7.png" />
                     </div>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <div className="d-flex align-items-center text-center flex-column custom-crousel">
                     <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" src="/assets/images/case-couter10/CounterTEN-8.png" />
+                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-8.png" />
                     </div>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <div className="d-flex align-items-center text-center flex-column custom-crousel">
                     <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" src="/assets/images/case-couter10/CounterTEN-9.png" />
+                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-9.png" />
                     </div>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <div className="d-flex align-items-center text-center flex-column custom-crousel">
                     <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" src="/assets/images/case-couter10/CounterTEN-10.png" />
+                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-10.png" />
                     </div>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <div className="d-flex align-items-center text-center flex-column custom-crousel">
                     <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" src="/assets/images/case-couter10/CounterTEN-11 (1).png" />
+                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-11 (1).png" />
                     </div>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <div className="d-flex align-items-center text-center flex-column custom-crousel">
                     <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" src="/assets/images/case-couter10/CounterTEN-12.png" />
+                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-12.png" />
                     </div>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <div className="d-flex align-items-center text-center flex-column custom-crousel">
                     <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" src="/assets/images/case-couter10/CounterTEN-13 (1).png" />
+                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-13 (1).png" />
                     </div>
                   </div>
                 </div>
@@ -255,10 +255,10 @@ const CounterTenPortfolio = () => {
               <ul className="tech-style">
 
                 <li>
-                  <img className='img-fluid' alt='react' src="/assets/images/tech/React-icon.svg.png" />
+                  <img className='img-fluid' alt='react' loading="lazy" src="/assets/images/tech/React-icon.svg.png" />
                 </li>
                 <li>
-                  <img className='img-fluid' alt='Node.js' src="/assets/images/tech/Node.png" />
+                  <img className='img-fluid' alt='Node.js' loading="lazy" src="/assets/images/tech/Node.png" />
                 </li>
               </ul>
             </div>
@@ -281,8 +281,8 @@ const CounterTenPortfolio = () => {
                 <h3>I am pleased to say that working with Codiste Pvt Ltd has been a positive experience for our community. The project is now complete, and the feedback we have received on the platform has been overwhelmingly positive. Throughout the project, Codiste maintained open communication lines, regularly updating us on progress and following the agreed timeline. They delivered an app with impressive functionalities and accepted every challenge we gave them. Overall, we are satisfied with the outcome of the project and would recommend Codiste for their expertise, professionalism, and commitment to delivering high-quality work.
                 </h3>
                 <div className="d-flex align-items-center flex-column">
-                  <img src="/assets/images/iCrowsel.png" className=" " alt="iCrowsel" />
-                  <div className="my-3"><img className="img-fluid" alt='Ninza NFT' src="/assets/images/client-logos/Danketsu-Logo-Blue (Ninja NFT).png" /></div>
+                  <img loading="lazy" src="/assets/images/iCrowsel.png" className=" " alt="iCrowsel" />
+                  <div className="my-3"><img className="img-fluid" alt='Ninza NFT' loading="lazy" src="/assets/images/client-logos/Danketsu-Logo-Blue (Ninja NFT).png" /></div>
                   <h5>Ninza NFT</h5>
                   <p>CoFounder</p>
                 </div>

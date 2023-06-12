@@ -107,7 +107,7 @@ const StartupDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Cost Efficient Development"
-								src="assets/images/Service-startup/Cost Efficient Development.png"
+								loading="lazy" src="assets/images/Service-startup/Cost Efficient Development.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Cost Efficient Development
@@ -127,7 +127,7 @@ const StartupDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Immersive Experience Integration"
-								src="assets/images/Service-startup/isolution.png"
+								loading="lazy" src="assets/images/Service-startup/isolution.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Immersive Experience Integration
@@ -147,7 +147,7 @@ const StartupDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Blockchain Solutions"
-								src="assets/images/Service-startup/Blockchain Solutions.png"
+								loading="lazy" src="assets/images/Service-startup/Blockchain Solutions.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Blockchain Solutions
@@ -167,7 +167,7 @@ const StartupDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Tech & Dev Hub"
-								src="assets/images/Service-startup/Tech & Dev Hub.png"
+								loading="lazy" src="assets/images/Service-startup/Tech & Dev Hub.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Tech & Dev Hub{" "}
@@ -268,84 +268,84 @@ const StartupDevelopmentCompany = () => {
 									<li>
 										<img
 											className="img-fluid" alt="hyperledger"
-											src="assets/images/tech/hyperledger.png"
+											loading="lazy" src="assets/images/tech/hyperledger.png"
 										/>
 										<p className="text-uppercase">hyperledger</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="tron"
-											src="assets/images/tech/tron logo.png"
+											loading="lazy" src="assets/images/tech/tron logo.png"
 										/>
 										<p className="text-uppercase">tron</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="Graphene"
-											src="assets/images/tech/Graphene.png"
+											loading="lazy" src="assets/images/tech/Graphene.png"
 										/>
 										<p className="text-uppercase">Graphene</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="Binance_Logo"
-											src="assets/images/tech/Binance_Logo.png"
+											loading="lazy" src="assets/images/tech/Binance_Logo.png"
 										/>
 										<p className="text-uppercase">Binance</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="Solana"
-											src="assets/images/tech/Solana.png"
+											loading="lazy" src="assets/images/tech/Solana.png"
 										/>
 										<p className="text-uppercase">Solana</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="Corda"
-											src="assets/images/tech/Corda.png"
+											loading="lazy" src="assets/images/tech/Corda.png"
 										/>
 										<p className="text-uppercase">Corda</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="ethereum"
-											src="assets/images/tech/ethereum.png"
+											loading="lazy" src="assets/images/tech/ethereum.png"
 										/>
 										<p className="text-uppercase">ethereum</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="polygon"
-											src="assets/images/tech/polygon.png"
+											loading="lazy" src="assets/images/tech/polygon.png"
 										/>
 										<p className="text-uppercase">polygon</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt=""
-											src="assets/images/tech/fantom.png"
+											loading="lazy" src="assets/images/tech/fantom.png"
 										/>
 										<p className="text-uppercase">fantom</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="solidity"
-											src="assets/images/tech/solidity.png"
+											loading="lazy" src="assets/images/tech/solidity.png"
 										/>
 										<p className="text-uppercase">solidity</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="python"
-											src="assets/images/tech/python.png"
+											loading="lazy" src="assets/images/tech/python.png"
 										/>
 										<p className="text-uppercase">python</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="Java"
-											src="assets/images/tech/Java.png"
+											loading="lazy" src="assets/images/tech/Java.png"
 										/>
 										<p className="text-uppercase">Java</p>
 									</li>
@@ -677,7 +677,7 @@ const StartupDevelopmentCompany = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												loading="lazy" src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -685,7 +685,7 @@ const StartupDevelopmentCompany = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
-													src="assets/images/client-logos/bonfire.png"
+													loading="lazy" src="assets/images/client-logos/bonfire.png"
 												/>
 											</div>
 											<h5>
@@ -725,7 +725,7 @@ const StartupDevelopmentCompany = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												loading="lazy" src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -733,7 +733,7 @@ const StartupDevelopmentCompany = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
-													src="assets/images/client-logos/DiveWallet Logo.png"
+													loading="lazy" src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
 											<h5>DiveWallet</h5>
@@ -759,7 +759,7 @@ const StartupDevelopmentCompany = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												loading="lazy" src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -767,7 +767,7 @@ const StartupDevelopmentCompany = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="Medizen - Pill Reminder and Drug interaction Detection app"
-													src="assets/images/client-logos/Medizen.png"
+													loading="lazy" src="assets/images/client-logos/Medizen.png"
 												/>
 											</div>
 											<h5>Medizen App</h5>

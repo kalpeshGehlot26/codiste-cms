@@ -11,6 +11,7 @@ const TechStack = () => {
 							className="img-fluid"
 							src={tech.url}
 							alt={tech.alt}
+							loading="lazy"
 						/>
 						<p className="text-uppercase">
 							{tech.name}

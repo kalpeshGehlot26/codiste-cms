@@ -92,6 +92,7 @@ const BlockChainDevelopment = () => {
 								className="img-fluid mb-2"
 								alt="Blockchain Network"
 								src="assets/images/Serevice-blockchain/10+_Blockchain_Network_Support.png"
+								loading="lazy"
 							/>
 							<h2 className="secondsec-head text-center">
 								10+ Blockchain Network Support
@@ -112,6 +113,7 @@ const BlockChainDevelopment = () => {
 								className="img-fluid mb-2"
 								alt="End-To-End Development"
 								src="assets/images/Serevice-blockchain/End-to-End Development.png"
+								loading="lazy"
 							/>
 							<h2 className="secondsec-head text-center">
 								End-To-End Development
@@ -130,6 +132,7 @@ const BlockChainDevelopment = () => {
 								className="img-fluid mb-2"
 								alt="Customized Solutions"
 								src="assets/images/Serevice-blockchain/Customized Solutions.png"
+								loading="lazy"
 							/>
 							<h2 className="secondsec-head text-center">
 								Customized Solutions
@@ -149,6 +152,7 @@ const BlockChainDevelopment = () => {
 								className="img-fluid mb-2"
 								alt="Organizational Transparency"
 								src="assets/images/Serevice-blockchain/Organizational Transparency.png"
+								loading="lazy"
 							/>
 							<h2 className="secondsec-head text-center">
 								Organizational Transparency
@@ -168,6 +172,7 @@ const BlockChainDevelopment = () => {
 								className="img-fluid mb-2"
 								alt="Better Security"
 								src="assets/images/Serevice-blockchain/Better Security.png"
+								loading="lazy"
 							/>
 							<h2 className="secondsec-head text-center">
 								Better Security
@@ -187,6 +192,7 @@ const BlockChainDevelopment = () => {
 								className="img-fluid mb-2"
 								alt="Enhanced Scalability"
 								src="assets/images/Serevice-blockchain/Enhanced Scalability.png"
+								loading="lazy"
 							/>
 							<h2 className="secondsec-head text-center">
 								Enhanced Scalability
@@ -235,7 +241,7 @@ const BlockChainDevelopment = () => {
 								<ul className="tech-style">
 									<li>
 										<img
-											className="img-fluid" alt="Binance_Logo"
+											className="img-fluid" loading="lazy" alt="Binance_Logo"
 											src="assets/images/tech/Binance_Logo.png"
 										/>
 										<p className="text-uppercase">Binance</p>
@@ -243,7 +249,7 @@ const BlockChainDevelopment = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="Corda"
+											className="img-fluid" loading="lazy" alt="Corda"
 											src="assets/images/tech/Corda.png"
 										/>
 										<p className="text-uppercase">Corda</p>
@@ -251,7 +257,7 @@ const BlockChainDevelopment = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="ethereum"
+											className="img-fluid" loading="lazy" alt="ethereum"
 											src="assets/images/tech/ethereum.png"
 										/>
 										<p className="text-uppercase">ethereum</p>
@@ -259,7 +265,7 @@ const BlockChainDevelopment = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="fantom"
+											className="img-fluid" loading="lazy" alt="fantom"
 											src="assets/images/tech/fantom.png"
 										/>
 										<p className="text-uppercase">fantom</p>
@@ -267,7 +273,7 @@ const BlockChainDevelopment = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="Graphene"
+											className="img-fluid" loading="lazy" alt="Graphene"
 											src="assets/images/tech/Graphene.png"
 										/>
 										<p className="text-uppercase">Graphene</p>
@@ -275,7 +281,7 @@ const BlockChainDevelopment = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="hyperledger"
+											className="img-fluid" loading="lazy" alt="hyperledger"
 											src="assets/images/tech/hyperledger.png"
 										/>
 										<p className="text-uppercase">hyperledger</p>
@@ -283,14 +289,14 @@ const BlockChainDevelopment = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="Java"
+											className="img-fluid" loading="lazy" alt="Java"
 											src="assets/images/tech/Java.png"
 										/>
 										<p className="text-uppercase">Java</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="polygon"
+											className="img-fluid" loading="lazy" alt="polygon"
 											src="assets/images/tech/polygon.png"
 										/>
 										<p className="text-uppercase">polygon</p>
@@ -298,14 +304,14 @@ const BlockChainDevelopment = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="python"
+											className="img-fluid" loading="lazy" alt="python"
 											src="assets/images/tech/python.png"
 										/>
 										<p className="text-uppercase">python</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="tron"
+											className="img-fluid" loading="lazy" alt="tron"
 											src="assets/images/tech/tron logo.png"
 										/>
 										<p className="text-uppercase">tron</p>
@@ -313,14 +319,14 @@ const BlockChainDevelopment = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="solidity"
+											className="img-fluid" loading="lazy" alt="solidity"
 											src="assets/images/tech/solidity.png"
 										/>
 										<p className="text-uppercase">solidity</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="Solana"
+											className="img-fluid" loading="lazy" alt="Solana"
 											src="assets/images/tech/Solana.png"
 										/>
 										<p className="text-uppercase">Solana</p>
@@ -701,6 +707,7 @@ const BlockChainDevelopment = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
+												loading="lazy"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -709,6 +716,7 @@ const BlockChainDevelopment = () => {
 													className="img-fluid my-4 client-logo"
 													alt="White Hat DAO"
 													src="assets/images/client-logos/White Hat DAO.png"
+													loading="lazy"
 												/>
 											</div>
 											<h5>White Hat DAO</h5>
@@ -748,6 +756,7 @@ const BlockChainDevelopment = () => {
 											<img
 												src="assets/images/iCrowsel.png"
 												className="img-fluid"
+												loading="lazy"
 												alt="iCrowsel"
 											/>
 											<div>
@@ -755,6 +764,7 @@ const BlockChainDevelopment = () => {
 													className="img-fluid my-4 client-logo"
 													alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
 													src="assets/images/client-logos/DiveWallet Logo.png"
+													loading="lazy"
 												/>
 											</div>
 											<h5>DiveWallet</h5>
@@ -781,6 +791,7 @@ const BlockChainDevelopment = () => {
 											<img
 												src="assets/images/iCrowsel.png"
 												className="img-fluid"
+												loading="lazy"
 												alt="iCrowsel"
 											/>
 											<div>
@@ -788,6 +799,7 @@ const BlockChainDevelopment = () => {
 													className="img-fluid my-4 client-logo"
 													alt="Ninza NFT"
 													src="assets/images/client-logos/Danketsu-Logo-Blue (Ninja NFT).png"
+													loading="lazy"
 												/>
 											</div>
 											<h5>Ninza NFT</h5>

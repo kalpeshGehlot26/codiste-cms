@@ -116,7 +116,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Price Optimization"
-											src="/assets/images/diwallet-case/speedometer.png"
+											loading="lazy" src="/assets/images/diwallet-case/speedometer.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -134,7 +134,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Wallet Connect"
-											src="/assets/images/diwallet-case/wallet.png"
+											loading="lazy" src="/assets/images/diwallet-case/wallet.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -151,7 +151,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="ManageToken"
-											src="/assets/images/diwallet-case/tokenization.png"
+											loading="lazy" src="/assets/images/diwallet-case/tokenization.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -169,7 +169,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Swapping"
-											src="/assets/images/diwallet-case/switch.png"
+											loading="lazy" src="/assets/images/diwallet-case/switch.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -187,7 +187,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Price Alert"
-											src="/assets/images/diwallet-case/notification-bell.png"
+											loading="lazy" src="/assets/images/diwallet-case/notification-bell.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -205,7 +205,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Push Notification"
-											src="/assets/images/diwallet-case/payment.png"
+											loading="lazy" src="/assets/images/diwallet-case/payment.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -222,7 +222,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Wallet Security"
-											src="/assets/images/diwallet-case/notification.png"
+											loading="lazy" src="/assets/images/diwallet-case/notification.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -239,7 +239,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Multicoin Wallet"
-											src="/assets/images/diwallet-case/wallet1.png"
+											loading="lazy" src="/assets/images/diwallet-case/wallet1.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -257,7 +257,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Dusting Attack Alert"
-											src="/assets/images/diwallet-case/hacker.png"
+											loading="lazy" src="/assets/images/diwallet-case/hacker.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -276,7 +276,7 @@ const DivewalletPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Listing of NFTs"
-											src="/assets/images/diwallet-case/card.png"
+											loading="lazy" src="/assets/images/diwallet-case/card.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -347,7 +347,7 @@ const DivewalletPortfolio = () => {
 								<li>
 									<img
 										className="img-fluid"
-										src="/assets/images/tech/flutter.png"
+										loading="lazy" src="/assets/images/tech/flutter.png"
 										alt="flutter"
 									/>
 								</li>
@@ -389,14 +389,14 @@ const DivewalletPortfolio = () => {
 								</h3>
 								<div className="d-flex align-items-center flex-column">
 									<img
-										src="/assets/images/iCrowsel.png"
+										loading="lazy" src="/assets/images/iCrowsel.png"
 										className=" "
 										alt="iCrowsel"
 									/>
 									<div className="my-3">
 										<img
 											className=""
-											src="../assets/images/client-logos/DiveWallet Logo.png"
+											loading="lazy" src="../assets/images/client-logos/DiveWallet Logo.png"
 											alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
 										/>
 									</div>

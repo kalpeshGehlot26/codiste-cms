@@ -67,6 +67,7 @@ const ARVRDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Customized Development"
 								src="assets/images/Service-AR/Customized Development.png"
 							/>
@@ -84,6 +85,7 @@ const ARVRDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Blending Multiple Realities"
 								src="assets/images/Service-AR/augmented-reality.png"
 							/>
@@ -101,6 +103,7 @@ const ARVRDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Seamless Deployment and Integration"
 								src="assets/images/Service-AR/ar.png"
 							/>
@@ -118,6 +121,7 @@ const ARVRDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Immersive User Experience"
 								src="assets/images/Service-AR/3600-degrees.png"
 							/>
@@ -136,6 +140,7 @@ const ARVRDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Streamline Development Process"
 								src="assets/images/Service-AR/supply-chain.png"
 							/>
@@ -154,6 +159,7 @@ const ARVRDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Robust and Scalable Platforms"
 								src="assets/images/Service-AR/robust.png"
 							/>
@@ -181,8 +187,6 @@ const ARVRDevelopmentCompany = () => {
 			</div>
 
 
-
-
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
@@ -199,7 +203,7 @@ const ARVRDevelopmentCompany = () => {
 								<ul className="tech-style">
 									<li>
 										<img
-											className="img-fluid" alt="APPGAMEKIT"
+											className="img-fluid" loading="lazy" alt="APPGAMEKIT"
 											src="assets/images/tech/APPGAMEKIT VR.png"
 										/>
 										<p>APPGAMEKIT VR</p>
@@ -208,7 +212,7 @@ const ARVRDevelopmentCompany = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="Apple"
+											className="img-fluid" loading="lazy" alt="Apple"
 											src="assets/images/tech/Apple arkit.png"
 										/>
 										<p>APPLE ARKIT</p>
@@ -216,7 +220,7 @@ const ARVRDevelopmentCompany = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="Ar"
+											className="img-fluid" loading="lazy" alt="Ar"
 											src="assets/images/tech/Ar Toolkit.png"
 										/>
 										<p>ARTOOLKIT</p>
@@ -224,21 +228,21 @@ const ARVRDevelopmentCompany = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt=""
+											className="img-fluid" loading="lazy" alt=""
 											src="assets/images/tech/BLENDER.png"
 										/>
 										<p>BLENDER</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="CRY"
+											className="img-fluid" loading="lazy" alt="CRY"
 											src="assets/images/tech/CRY ENGINE.png"
 										/>
 										<p>CRY ENGINE</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="Deep"
+											className="img-fluid" loading="lazy" alt="Deep"
 											src="assets/images/tech/Deep AR.png"
 										/>
 										<p>DEEP AR</p>
@@ -246,21 +250,21 @@ const ARVRDevelopmentCompany = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="GOOGLE"
+											className="img-fluid" loading="lazy" alt="GOOGLE"
 											src="assets/images/tech/GOOGLE-ARCORE.png"
 										/>
 										<p>GOOGLE-ARCORE</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="SKETCH"
+											className="img-fluid" loading="lazy" alt="SKETCH"
 											src="assets/images/tech/GOOGLE SKETCH UP.png"
 										/>
 										<p>GOOGLE SKETCH UP</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="KUDAN"
+											className="img-fluid" loading="lazy" alt="KUDAN"
 											src="assets/images/tech/KUDAN.png"
 										/>
 										<p>KUDAN</p>
@@ -268,7 +272,7 @@ const ARVRDevelopmentCompany = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="LIBGDX"
+											className="img-fluid" loading="lazy" alt="LIBGDX"
 											src="assets/images/tech/LIBGDX.png"
 										/>
 										<p>LIBGDX</p>
@@ -276,7 +280,7 @@ const ARVRDevelopmentCompany = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="Maxst"
+											className="img-fluid" loading="lazy" alt="Maxst"
 											src="assets/images/tech/Maxst.png"
 										/>
 										<p>MAXST</p>
@@ -284,7 +288,7 @@ const ARVRDevelopmentCompany = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="tilt"
+											className="img-fluid" loading="lazy" alt="tilt"
 											src="assets/images/tech/tilt-brush.png"
 										/>
 										<p>TILT BRUSH</p>
@@ -292,14 +296,14 @@ const ARVRDevelopmentCompany = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="UNREAL"
+											className="img-fluid" loading="lazy" alt="UNREAL"
 											src="assets/images/tech/UNREAL ENGINE.png"
 										/>
 										<p>UNREAL ENGINE</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="VUFORIA"
+											className="img-fluid" loading="lazy" alt="VUFORIA"
 											src="assets/images/tech/VUFORIA.png"
 										/>
 										<p>VUFORIA</p>
@@ -307,7 +311,7 @@ const ARVRDevelopmentCompany = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="Wikitude_Logo"
+											className="img-fluid" loading="lazy" alt="Wikitude_Logo"
 											src="assets/images/tech/Wikitude_Logo.png"
 										/>
 										<p>WIKITUDE</p>
@@ -389,7 +393,7 @@ const ARVRDevelopmentCompany = () => {
 									immersive experiences that engage customers
 									and allow them to interact with products
 									uniquely. This leads to increased customer
-									satisfaction and brand loyalty.
+									satisfaction and brand lo yalty.
 								</div>
 							</div>
 						</div>
@@ -598,6 +602,7 @@ const ARVRDevelopmentCompany = () => {
 								}}
 								src="assets/images/case-bonfire/Bonfire.png"
 								alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
+								loading="lazy"
 							/>
 						</div>
 					</div>
@@ -682,6 +687,7 @@ const ARVRDevelopmentCompany = () => {
 													className="img-fluid my-4 client-logo"
 													alt="White"
 													src="assets/images/client-logos/White Hat DAO.png"
+													loading="lazy"
 												/>
 											</div>
 											<h5>White Hat DAO</h5>
@@ -715,12 +721,14 @@ const ARVRDevelopmentCompany = () => {
 												src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
+
 											/>
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="MoonTrust"
 													src="assets/images/client-logos/MoonTrust.png"
+													loading="lazy"
 												/>
 											</div>
 											<h5>Cryptography Company</h5>
@@ -754,6 +762,7 @@ const ARVRDevelopmentCompany = () => {
 													className="img-fluid my-4 client-logo"
 													alt="Danketsu"
 													src="assets/images/client-logos/Danketsu-Logo-Blue (Ninja NFT).png"
+													loading="lazy"
 												/>
 											</div>
 											<h5>Ninza NFT</h5>

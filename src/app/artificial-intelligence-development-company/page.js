@@ -66,6 +66,7 @@ const AIDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="A multitude of AI Technologies"
 								src="assets/images/Service-AI/ai.png"
 							/>
@@ -83,6 +84,7 @@ const AIDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Custom AI Solutions"
 								src="assets/images/Service-AI/replacement.png"
 							/>
@@ -96,6 +98,7 @@ const AIDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Efficient & Optimized Development"
 								src="assets/images/Service-AI/air.png"
 							/>
@@ -109,6 +112,7 @@ const AIDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Advanced Analytics Capabilities"
 								src="assets/images/Service-AI/Advanced Analytics Capabilities.png"
 							/>
@@ -128,6 +132,7 @@ const AIDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Data Security and Privacy"
 								src="assets/images/Service-AI/cloud.png"
 							/>
@@ -141,6 +146,7 @@ const AIDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Post Sales Assistance"
 								src="assets/images/Service-AI/support.png"
 							/>
@@ -186,7 +192,7 @@ const AIDevelopmentCompany = () => {
 								<ul className="tech-style">
 									<li>
 										<img
-											className="img-fluid" alt="Apache_Spark_"
+											className="img-fluid" loading="lazy" alt="Apache_Spark_"
 											src="assets/images/tech/Apache_Spark_.png"
 
 										/>
@@ -195,7 +201,7 @@ const AIDevelopmentCompany = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="Azure"
+											className="img-fluid" loading="lazy" alt="Azure"
 											src="assets/images/tech/Azure.png"
 										/>
 										<p>Azure</p>
@@ -203,28 +209,28 @@ const AIDevelopmentCompany = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="gensim"
+											className="img-fluid" loading="lazy" alt="gensim"
 											src="assets/images/tech/gensim.png"
 										/>
 										<p>Gensim</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="go"
+											className="img-fluid" loading="lazy" alt="go"
 											src="assets/images/tech/go.png"
 										/>
 										<p>Go</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="icons8"
+											className="img-fluid" loading="lazy" alt="icons8"
 											src="assets/images/tech/icons8-ios-logo-150.png"
 										/>
 										<p>iOS</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="python"
+											className="img-fluid" loading="lazy" alt="python"
 											src="assets/images/tech/python.png"
 										/>
 										<p>Python</p>
@@ -232,14 +238,14 @@ const AIDevelopmentCompany = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="solidity"
+											className="img-fluid" loading="lazy" alt="solidity"
 											src="assets/images/tech/solidity.png"
 										/>
 										<p>Solidity</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="Scikit_learn"
+											className="img-fluid" loading="lazy" alt="Scikit_learn"
 											src="assets/images/tech/Scikit_learn.png"
 										/>
 										<p>Scikit Learn</p>
@@ -247,7 +253,7 @@ const AIDevelopmentCompany = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt=""
+											className="img-fluid" loading="lazy" alt=""
 											src="assets/images/tech/tensorflow.png"
 										/>
 										<p>Tensor Flow</p>
@@ -255,7 +261,7 @@ const AIDevelopmentCompany = () => {
 
 									<li>
 										<img
-											className="img-fluid" alt="Theano_logo"
+											className="img-fluid" loading="lazy" alt="Theano_logo"
 											src="assets/images/tech/Theano_logo.svg.png"
 										/>
 										<p>Theano</p>
@@ -584,12 +590,14 @@ const AIDevelopmentCompany = () => {
 												src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
+												loading="lazy"
 											/>
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
 													src="assets/images/client-logos/bonfire.png"
+													loading="lazy"
 												/>
 											</div>
 											<h5>
@@ -632,6 +640,7 @@ const AIDevelopmentCompany = () => {
 												src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
+												loading="lazy"
 											/>
 											<div>
 												<img
@@ -666,12 +675,14 @@ const AIDevelopmentCompany = () => {
 												src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
+												loading="lazy"
 											/>
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="Medizen - Pill Reminder and Drug interaction Detection app"
 													src="assets/images/client-logos/Medizen.png"
+													loading="lazy"
 												/>
 											</div>
 											<h5>Medizen App</h5>

@@ -60,7 +60,7 @@ const TankpadPortfolio = () => {
 									margin: "auto",
 									padding: "20px",
 								}}
-								src="/assets/images/case-tankpad/Problem 03.png"
+								loading="lazy" src="/assets/images/case-tankpad/Problem 03.png"
 								alt="Tankpad"
 							/>
 						</div>
@@ -101,7 +101,7 @@ const TankpadPortfolio = () => {
 						<div className="col-xl-6 col-sm-12 mb-5 text-center order-1 order-xl-2">
 							<img
 								className="img-fluid"
-								src="/assets/images/case-tankpad/Challange.png"
+								loading="lazy" src="/assets/images/case-tankpad/Challange.png"
 								alt="Tankpad"
 							/>
 						</div>
@@ -124,7 +124,7 @@ const TankpadPortfolio = () => {
 									<li className="">
 										<img
 											className="img-fluid"
-											src="/assets/images/case-tankpad/ownership.png"
+											loading="lazy" src="/assets/images/case-tankpad/ownership.png"
 											alt="Ownership"
 										/>
 										<p>
@@ -141,7 +141,7 @@ const TankpadPortfolio = () => {
 									<li>
 										<img
 											className="img-fluid"
-											src="/assets/images/case-tankpad/NFT Portfolio.png"
+											loading="lazy" src="/assets/images/case-tankpad/NFT Portfolio.png"
 											alt="NFT Portfolio"
 										/>
 										<p>
@@ -159,7 +159,7 @@ const TankpadPortfolio = () => {
 									<li>
 										<img
 											className="img-fluid"
-											src="/assets/images/case-tankpad/User friendly.png"
+											loading="lazy" src="/assets/images/case-tankpad/User friendly.png"
 											alt="User friendly"
 										/>
 										<p>
@@ -178,7 +178,7 @@ const TankpadPortfolio = () => {
 									<li>
 										<img
 											className="img-fluid"
-											src="/assets/images/case-tankpad/Showcase creativities.png"
+											loading="lazy" src="/assets/images/case-tankpad/Showcase creativities.png"
 											alt="Showcase creativities"
 										/>
 										<p>
@@ -195,7 +195,7 @@ const TankpadPortfolio = () => {
 									<li>
 										<img
 											className="img-fluid"
-											src="/assets/images/case-tankpad/Ease of transfer.png"
+											loading="lazy" src="/assets/images/case-tankpad/Ease of transfer.png"
 											alt="Ease of transfer"
 										/>
 										<p>
@@ -283,7 +283,7 @@ const TankpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Divewallet"
-												src="/assets/images/diwallet-case/Divewallet-1.png"
+												loading="lazy" src="/assets/images/diwallet-case/Divewallet-1.png"
 											/>
 										</div>
 									</div>
@@ -294,7 +294,7 @@ const TankpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/diwallet-case/Divewallet-2.png"
+												loading="lazy" src="/assets/images/diwallet-case/Divewallet-2.png"
 											/>
 										</div>
 									</div>
@@ -305,7 +305,7 @@ const TankpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/diwallet-case/Divewallet-1.png"
+												loading="lazy" src="/assets/images/diwallet-case/Divewallet-1.png"
 											/>
 										</div>
 									</div>
@@ -316,7 +316,7 @@ const TankpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/diwallet-case/Divewallet-3.png"
+												loading="lazy" src="/assets/images/diwallet-case/Divewallet-3.png"
 											/>
 										</div>
 									</div>
@@ -327,7 +327,7 @@ const TankpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/diwallet-case/Divewallet-4.png"
+												loading="lazy" src="/assets/images/diwallet-case/Divewallet-4.png"
 											/>
 										</div>
 									</div>
@@ -338,7 +338,7 @@ const TankpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/diwallet-case/Divewallet-5.png"
+												loading="lazy" src="/assets/images/diwallet-case/Divewallet-5.png"
 											/>
 										</div>
 									</div>
@@ -349,7 +349,7 @@ const TankpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/diwallet-case/Divewallet-5.png"
+												loading="lazy" src="/assets/images/diwallet-case/Divewallet-5.png"
 											/>
 										</div>
 									</div>
@@ -360,7 +360,7 @@ const TankpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/diwallet-case/Divewallet-6.png"
+												loading="lazy" src="/assets/images/diwallet-case/Divewallet-6.png"
 											/>
 										</div>
 									</div>
@@ -371,7 +371,7 @@ const TankpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/diwallet-case/Divewallet-7.png"
+												loading="lazy" src="/assets/images/diwallet-case/Divewallet-7.png"
 											/>
 										</div>
 									</div>
@@ -382,7 +382,7 @@ const TankpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/diwallet-case/Divewallet-8.png"
+												loading="lazy" src="/assets/images/diwallet-case/Divewallet-8.png"
 											/>
 										</div>
 									</div>
@@ -448,14 +448,14 @@ const TankpadPortfolio = () => {
 								</h3>
 								<div className="d-flex align-items-center flex-column">
 									<img
-										src="/assets/images/iCrowsel.png"
+										loading="lazy" src="/assets/images/iCrowsel.png"
 										className=" "
 										alt="iCrowsel"
 									/>
 									<div className="my-3">
 										<img
 											className=""
-											src="../assets/images/client-logos/DiveWallet Logo.png"
+											loading="lazy" src="../assets/images/client-logos/DiveWallet Logo.png"
 											alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
 										/>
 									</div>
@@ -484,7 +484,7 @@ const TankpadPortfolio = () => {
 								<li>
 									<img
 										className="img-fluid"
-										src="/assets/images/tech/React-icon.svg.png"
+										loading="lazy" src="/assets/images/tech/React-icon.svg.png"
 									/>
 								</li>
 							</ul>

@@ -67,7 +67,7 @@ const WebDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Comprehensive Development Support"
-								src="assets/images/Service-web/cell-analysis.png"
+								loading="lazy" src="assets/images/Service-web/cell-analysis.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Comprehensive Development Support
@@ -85,7 +85,7 @@ const WebDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Efficient Solutions"
-								src="assets/images/Service-web/reviewing.png"
+								loading="lazy" src="assets/images/Service-web/reviewing.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Efficient Solutions
@@ -102,7 +102,7 @@ const WebDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Visually Stunning Applications"
-								src="assets/images/Service-web/focus.png"
+								loading="lazy" src="assets/images/Service-web/focus.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Visually Stunning Applications
@@ -119,7 +119,7 @@ const WebDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Customized and Personalized CX"
-								src="assets/images/Service-web/technology2.png"
+								loading="lazy" src="assets/images/Service-web/technology2.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Customized and Personalized CX
@@ -136,7 +136,7 @@ const WebDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="24/7 Customer Support"
-								src="assets/images/Service-web/24-hours.png"
+								loading="lazy" src="assets/images/Service-web/24-hours.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								24/7 Customer Support
@@ -152,7 +152,7 @@ const WebDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Secure and Scalable"
-								src="assets/images/Service-web/Secure and Scalable.png"
+								loading="lazy" src="assets/images/Service-web/Secure and Scalable.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Secure and Scalable
@@ -200,49 +200,49 @@ const WebDevelopmentCompany = () => {
 									<li>
 										<img
 											className="img-fluid" alt="Laravel"
-											src="assets/images/tech/Laravel.png"
+											loading="lazy" src="assets/images/tech/Laravel.png"
 										/>
 										<p className="text-uppercase">Laravel</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="Ruby"
-											src="assets/images/tech/Ruby.png"
+											loading="lazy" src="assets/images/tech/Ruby.png"
 										/>
 										<p className="text-uppercase">Ruby</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="Node.js"
-											src="assets/images/tech/Node.png"
+											loading="lazy" src="assets/images/tech/Node.png"
 										/>
 										<p className="text-uppercase">Node</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="Angular"
-											src="assets/images/tech/Angular.png"
+											loading="lazy" src="assets/images/tech/Angular.png"
 										/>
 										<p className="text-uppercase">Angular</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="PHP"
-											src="assets/images/tech/PHP.png"
+											loading="lazy" src="assets/images/tech/PHP.png"
 										/>
 										<p className="text-uppercase">PHP</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="python"
-											src="assets/images/tech/python.png"
+											loading="lazy" src="assets/images/tech/python.png"
 										/>
 										<p className="text-uppercase">python</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="WordPress"
-											src="assets/images/tech/WordPress.png"
+											loading="lazy" src="assets/images/tech/WordPress.png"
 										/>
 										<p className="text-uppercase">WordPress</p>
 									</li>
@@ -521,7 +521,7 @@ const WebDevelopmentCompany = () => {
 								style={{
 									padding: "20px",
 								}}
-								src="assets/images/case-medizen/Medizen.png"
+								loading="lazy" src="assets/images/case-medizen/Medizen.png"
 								alt="Medizen - Pill Reminder and Drug interaction Detection app"
 							/>
 						</div>
@@ -600,7 +600,7 @@ const WebDevelopmentCompany = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												loading="lazy" src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -609,7 +609,7 @@ const WebDevelopmentCompany = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
-													src="assets/images/client-logos/bonfire.png"
+													loading="lazy" src="assets/images/client-logos/bonfire.png"
 												/>
 											</div>
 											<h5>
@@ -649,7 +649,7 @@ const WebDevelopmentCompany = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												loading="lazy" src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -657,7 +657,7 @@ const WebDevelopmentCompany = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
-													src="assets/images/client-logos/DiveWallet Logo.png"
+													loading="lazy" src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
 											<h5>DiveWallet</h5>
@@ -683,7 +683,7 @@ const WebDevelopmentCompany = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												loading="lazy" src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -691,7 +691,7 @@ const WebDevelopmentCompany = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="Medizen - Pill Reminder and Drug interaction Detection app"
-													src="assets/images/client-logos/Medizen.png"
+													loading="lazy" src="assets/images/client-logos/Medizen.png"
 												/>
 											</div>
 											<h5>Medizen App</h5>

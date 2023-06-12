@@ -74,7 +74,7 @@ const MetaverseDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Post Sales"
-								src="assets/images/Service-meta/Post Sales Support & Assistance.png"
+								loading="lazy" src="assets/images/Service-meta/Post Sales Support & Assistance.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								End-to-End Development Support
@@ -91,7 +91,7 @@ const MetaverseDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="personalized"
-								src="assets/images/Service-meta/personalized.png"
+								loading="lazy" src="assets/images/Service-meta/personalized.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Personalized Development
@@ -108,7 +108,7 @@ const MetaverseDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="3D Immersive Experience"
-								src="assets/images/Service-meta/360-degrees.png"
+								loading="lazy" src="assets/images/Service-meta/360-degrees.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								3D Immersive Experience
@@ -125,7 +125,7 @@ const MetaverseDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Virtual Avatars"
-								src="assets/images/Service-meta/vr-glasses.png"
+								loading="lazy" src="assets/images/Service-meta/vr-glasses.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Virtual Avatars
@@ -143,7 +143,7 @@ const MetaverseDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Decentralized Security"
-								src="assets/images/Service-meta/decentralization.png"
+								loading="lazy" src="assets/images/Service-meta/decentralization.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Decentralized Security
@@ -160,7 +160,7 @@ const MetaverseDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Extensive Customization"
-								src="assets/images/Service-meta/autumn.png"
+								loading="lazy" src="assets/images/Service-meta/autumn.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Extensive Customization
@@ -205,7 +205,7 @@ const MetaverseDevelopmentCompany = () => {
 									<li>
 										<img
 											className="img-fluid" alt="Binance_Logo"
-											src="assets/images/tech/Binance_Logo.png"
+											loading="lazy" src="assets/images/tech/Binance_Logo.png"
 										/>
 										<p className="text-uppercase">Binance</p>
 									</li>
@@ -213,7 +213,7 @@ const MetaverseDevelopmentCompany = () => {
 									<li>
 										<img
 											className="img-fluid" alt="Corda"
-											src="assets/images/tech/Corda.png"
+											loading="lazy" src="assets/images/tech/Corda.png"
 										/>
 										<p className="text-uppercase">Corda</p>
 									</li>
@@ -221,7 +221,7 @@ const MetaverseDevelopmentCompany = () => {
 									<li>
 										<img
 											className="img-fluid" alt="ethereum"
-											src="assets/images/tech/ethereum.png"
+											loading="lazy" src="assets/images/tech/ethereum.png"
 										/>
 										<p className="text-uppercase">ethereum</p>
 									</li>
@@ -229,7 +229,7 @@ const MetaverseDevelopmentCompany = () => {
 									<li>
 										<img
 											className="img-fluid" alt="fantom"
-											src="assets/images/tech/fantom.png"
+											loading="lazy" src="assets/images/tech/fantom.png"
 										/>
 										<p className="text-uppercase">fantom</p>
 									</li>
@@ -237,21 +237,21 @@ const MetaverseDevelopmentCompany = () => {
 									<li>
 										<img
 											className="img-fluid" alt="polygon"
-											src="assets/images/tech/polygon.png"
+											loading="lazy" src="assets/images/tech/polygon.png"
 										/>
 										<p className="text-uppercase">polygon</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="tron"
-											src="assets/images/tech/tron logo.png"
+											loading="lazy" src="assets/images/tech/tron logo.png"
 										/>
 										<p className="text-uppercase">tron</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="Solana"
-											src="assets/images/tech/Solana.png"
+											loading="lazy" src="assets/images/tech/Solana.png"
 										/>
 										<p className="text-uppercase">Solana</p>
 									</li>
@@ -502,6 +502,7 @@ const MetaverseDevelopmentCompany = () => {
 								}}
 								src="assets/images/diwallet-case/Dive Wallet.png"
 								alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
+								loading="lazy"
 							/>
 						</div>
 					</div>
@@ -588,6 +589,7 @@ const MetaverseDevelopmentCompany = () => {
 													className="img-fluid my-4 client-logo"
 													alt="Holygrails"
 													src="assets/images/client-logos/Holygrails.png"
+													loading="lazy"
 												/>
 											</div>
 											<h5>Holygrails</h5>
@@ -620,6 +622,7 @@ const MetaverseDevelopmentCompany = () => {
 													className="img-fluid my-4 client-logo"
 													alt="Ninza"
 													src="assets/images/client-logos/Danketsu-Logo-Blue (Ninja NFT).png"
+													loading="lazy"
 												/>
 											</div>
 											<h5>Ninza NFT</h5>
@@ -650,6 +653,7 @@ const MetaverseDevelopmentCompany = () => {
 													className="img-fluid my-4 client-logo"
 													alt="Medizen - Pill Reminder and Drug interaction Detection app"
 													src="assets/images/client-logos/Medizen.png"
+													loading="lazy"
 												/>
 											</div>
 											<h5>Medizen App</h5>

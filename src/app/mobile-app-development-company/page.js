@@ -75,7 +75,7 @@ const MobileAppDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Quality Assurance and Testing"
-								src="assets/images/Service-mobile/quality.png"
+								loading="lazy" src="assets/images/Service-mobile/quality.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Quality Assurance and Testing
@@ -93,7 +93,7 @@ const MobileAppDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Customization and Personalization"
-								src="assets/images/Service-mobile/customer-behavior.png"
+								loading="lazy" src="assets/images/Service-mobile/customer-behavior.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Customization and Personalization
@@ -111,7 +111,7 @@ const MobileAppDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Hybrid Mobile Applications"
-								src="assets/images/Service-mobile/application.png"
+								loading="lazy" src="assets/images/Service-mobile/application.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Hybrid Mobile Applications
@@ -128,7 +128,7 @@ const MobileAppDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Emerging Technologies"
-								src="assets/images/Service-mobile/digital.png"
+								loading="lazy" src="assets/images/Service-mobile/digital.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Emerging Technologies
@@ -146,7 +146,7 @@ const MobileAppDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Expertise in Multiple Industries"
-								src="assets/images/Service-mobile/supplier.png"
+								loading="lazy" src="assets/images/Service-mobile/supplier.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Expertise in Multiple Industries
@@ -166,7 +166,7 @@ const MobileAppDevelopmentCompany = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Cross-Platform Mobile Applications"
-								src="assets/images/Service-mobile/cross-platform.png"
+								loading="lazy" src="assets/images/Service-mobile/cross-platform.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Cross-Platform Mobile Applications
@@ -214,14 +214,14 @@ const MobileAppDevelopmentCompany = () => {
 									<li>
 										<img
 											className="img-fluid" alt="Swift"
-											src="assets/images/tech/Swift.png"
+											loading="lazy" src="assets/images/tech/Swift.png"
 										/>
 										<p className="text-uppercase">Swift</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="Objective"
-											src="assets/images/tech/Objective-c.png"
+											loading="lazy" src="assets/images/tech/Objective-c.png"
 										/>
 										<p className="text-uppercase">Objective-c</p>
 									</li>
@@ -229,42 +229,42 @@ const MobileAppDevelopmentCompany = () => {
 									<li>
 										<img
 											className="img-fluid" alt="xcode"
-											src="assets/images/tech/xcode.png"
+											loading="lazy" src="assets/images/tech/xcode.png"
 										/>
 										<p className="text-uppercase">xcode</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="Java"
-											src="assets/images/tech/Java.png"
+											loading="lazy" src="assets/images/tech/Java.png"
 										/>
 										<p className="text-uppercase">Java</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="Kotlin"
-											src="assets/images/tech/Kotlin-logo.png"
+											loading="lazy" src="assets/images/tech/Kotlin-logo.png"
 										/>
 										<p className="text-uppercase">Kotlin</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="Android Studio"
-											src="assets/images/tech/Android Studio.png"
+											loading="lazy" src="assets/images/tech/Android Studio.png"
 										/>
 										<p className="text-uppercase">Android Studio</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="flutter"
-											src="assets/images/tech/flutter.png"
+											loading="lazy" src="assets/images/tech/flutter.png"
 										/>
 										<p className="text-uppercase">flutter</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="Ionic"
-											src="assets/images/tech/Ionic.png"
+											loading="lazy" src="assets/images/tech/Ionic.png"
 										/>
 										<p className="text-uppercase">Ionic</p>
 									</li>
@@ -272,14 +272,14 @@ const MobileAppDevelopmentCompany = () => {
 									<li>
 										<img
 											className="img-fluid" alt="java script"
-											src="assets/images/tech/java script.png"
+											loading="lazy" src="assets/images/tech/java script.png"
 										/>
 										<p className="text-uppercase">java script</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="html"
-											src="assets/images/tech/html-5.png"
+											loading="lazy" src="assets/images/tech/html-5.png"
 										/>
 										<p className="text-uppercase">html-5</p>
 									</li>
@@ -548,7 +548,7 @@ const MobileAppDevelopmentCompany = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												loading="lazy" src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -556,7 +556,7 @@ const MobileAppDevelopmentCompany = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="MoonTrust"
-													src="assets/images/client-logos/MoonTrust.png"
+													loading="lazy" src="assets/images/client-logos/MoonTrust.png"
 												/>
 											</div>
 											<h5> MoonTrust</h5>
@@ -590,7 +590,7 @@ const MobileAppDevelopmentCompany = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												loading="lazy" src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -598,7 +598,7 @@ const MobileAppDevelopmentCompany = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
-													src="assets/images/client-logos/DiveWallet Logo.png"
+													loading="lazy" src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
 											<h5>DiveWallet</h5>
@@ -624,7 +624,7 @@ const MobileAppDevelopmentCompany = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												loading="lazy" src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -632,7 +632,7 @@ const MobileAppDevelopmentCompany = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="Medizen - Pill Reminder and Drug interaction Detection app"
-													src="assets/images/client-logos/Medizen.png"
+													loading="lazy" src="assets/images/client-logos/Medizen.png"
 												/>
 											</div>
 											<h5>Medizen App</h5>

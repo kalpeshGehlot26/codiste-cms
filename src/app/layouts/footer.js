@@ -15,7 +15,7 @@ const Footer = () => {
 					<div className="col-lg-3 col-md-6 col-sm-12 mb-5 mb-lg-0">
 						<div className="footer-menu">
 							<Link href="/">
-								<img className="img-fluid" alt="codiste-logo" style={{ height: "60px" }} src="../../assets/images/logo.png" />
+								<img className="img-fluid" alt="codiste-logo" style={{ height: "60px" }} src="../../assets/images/logo.png" loading="lazy" />
 							</Link>
 
 							<div className="footer-menu-items">
@@ -139,6 +139,7 @@ const Footer = () => {
 										className="img-fluid me-2 "
 										src="../../assets/images/india.png"
 										alt="India Office"
+										loading="lazy"
 									/>
 									<p className="mt-2">
 										915, Ganesh Glory, S.G Highway,
@@ -150,6 +151,7 @@ const Footer = () => {
 										className="img-fluid me-2"
 										src="../../assets/images/south-africa.png"
 										alt="south-africa office"
+										loading="lazy"
 									/>
 									<p className="mt-2">
 										1 Galway Rd, Parkview, Jhb, South

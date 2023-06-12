@@ -66,7 +66,7 @@ const CoinxpadPortfolio = () => {
 							<img
 								className="img-fluid"
 								style={{ padding: "20px" }}
-								src="/assets/images/case-coinxpad/Problem 07.png"
+								loading="lazy" src="/assets/images/case-coinxpad/Problem 07.png"
 								alt="Client Requirement"
 							/>
 						</div>
@@ -106,7 +106,7 @@ const CoinxpadPortfolio = () => {
 							<img
 								className="img-fluid"
 								style={{ padding: "20px" }}
-								src="/assets/images/case-coinxpad/Challange 05.png"
+								loading="lazy" src="/assets/images/case-coinxpad/Challange 05.png"
 								alt="Challenges"
 							/>
 						</div>
@@ -128,7 +128,7 @@ const CoinxpadPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Multi-chain Launchpad"
-											src="/assets/images/case-coinxpad/Multi-chain Launchpad.png"
+											loading="lazy" src="/assets/images/case-coinxpad/Multi-chain Launchpad.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -145,7 +145,7 @@ const CoinxpadPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Blockchain platforms"
-											src="/assets/images/case-coinxpad/Blockchain platforms.png"
+											loading="lazy" src="/assets/images/case-coinxpad/Blockchain platforms.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -162,7 +162,7 @@ const CoinxpadPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Launch Platform"
-											src="/assets/images/case-coinxpad/Launch Platform.png"
+											loading="lazy" src="/assets/images/case-coinxpad/Launch Platform.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -179,7 +179,7 @@ const CoinxpadPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Project Details"
-											src="/assets/images/case-coinxpad/Project Details.png"
+											loading="lazy" src="/assets/images/case-coinxpad/Project Details.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -196,7 +196,7 @@ const CoinxpadPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt="Secure Launchpad"
-											src="/assets/images/case-coinxpad/Secure Launchpad.png"
+											loading="lazy" src="/assets/images/case-coinxpad/Secure Launchpad.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -281,7 +281,7 @@ const CoinxpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Conixpad"
-												src="/assets/images/case-coinxpad/Conixpad-1.png"
+												loading="lazy" src="/assets/images/case-coinxpad/Conixpad-1.png"
 											/>
 										</div>
 									</div>
@@ -292,7 +292,7 @@ const CoinxpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Conixpad"
-												src="/assets/images/case-coinxpad/Conixpad-2.png"
+												loading="lazy" src="/assets/images/case-coinxpad/Conixpad-2.png"
 											/>
 										</div>
 									</div>
@@ -303,7 +303,7 @@ const CoinxpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Conixpad"
-												src="/assets/images/case-coinxpad/Conixpad-3.png"
+												loading="lazy" src="/assets/images/case-coinxpad/Conixpad-3.png"
 											/>
 										</div>
 									</div>
@@ -314,7 +314,7 @@ const CoinxpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Conixpad"
-												src="/assets/images/case-coinxpad/Conixpad-4.png"
+												loading="lazy" src="/assets/images/case-coinxpad/Conixpad-4.png"
 											/>
 										</div>
 									</div>
@@ -325,7 +325,7 @@ const CoinxpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Conixpad"
-												src="/assets/images/case-coinxpad/Conixpad-5.png"
+												loading="lazy" src="/assets/images/case-coinxpad/Conixpad-5.png"
 											/>
 										</div>
 									</div>
@@ -336,7 +336,7 @@ const CoinxpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Conixpad"
-												src="/assets/images/case-coinxpad/Conixpad-6.png"
+												loading="lazy" src="/assets/images/case-coinxpad/Conixpad-6.png"
 											/>
 										</div>
 									</div>
@@ -347,7 +347,7 @@ const CoinxpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Conixpad"
-												src="/assets/images/case-coinxpad/Conixpad-7.png"
+												loading="lazy" src="/assets/images/case-coinxpad/Conixpad-7.png"
 											/>
 										</div>
 									</div>
@@ -358,7 +358,7 @@ const CoinxpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Conixpad"
-												src="/assets/images/case-coinxpad/Conixpad-8.png"
+												loading="lazy" src="/assets/images/case-coinxpad/Conixpad-8.png"
 											/>
 										</div>
 									</div>
@@ -369,7 +369,7 @@ const CoinxpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Conixpad"
-												src="/assets/images/case-coinxpad/Conixpad-9.png"
+												loading="lazy" src="/assets/images/case-coinxpad/Conixpad-9.png"
 											/>
 										</div>
 									</div>
@@ -380,7 +380,7 @@ const CoinxpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Conixpad"
-												src="/assets/images/case-coinxpad/Conixpad-10.png"
+												loading="lazy" src="/assets/images/case-coinxpad/Conixpad-10.png"
 											/>
 										</div>
 									</div>
@@ -391,7 +391,7 @@ const CoinxpadPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt="Conixpad"
-												src="/assets/images/case-coinxpad/Conixpad11.png"
+												loading="lazy" src="/assets/images/case-coinxpad/Conixpad11.png"
 											/>
 										</div>
 									</div>
@@ -444,7 +444,7 @@ const CoinxpadPortfolio = () => {
 								<li>
 									<img
 										className="img-fluid"
-										src="/assets/images/tech/solidity.png"
+										loading="lazy" src="/assets/images/tech/solidity.png"
 										alt="Solidity"
 									/>
 								</li>
@@ -452,7 +452,7 @@ const CoinxpadPortfolio = () => {
 								<li>
 									<img
 										className="img-fluid"
-										src="/assets/images/tech/React-icon.svg.png"
+										loading="lazy" src="/assets/images/tech/React-icon.svg.png"
 										alt="React"
 									/>
 								</li>
@@ -460,7 +460,7 @@ const CoinxpadPortfolio = () => {
 								<li>
 									<img
 										className="img-fluid"
-										src="/assets/images/tech/Node.png"
+										loading="lazy" src="/assets/images/tech/Node.png"
 										alt="Node.js"
 									/>
 								</li>
@@ -527,7 +527,7 @@ const CoinxpadPortfolio = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="../assets/images/iCrowsel.png"
+												loading="lazy" src="../assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -535,7 +535,7 @@ const CoinxpadPortfolio = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="Cryptography"
-													src="../assets/images/client-logos/Mumble Rapperz.png"
+													loading="lazy" src="../assets/images/client-logos/Mumble Rapperz.png"
 												/>
 											</div>
 											<h5>Cryptography Company</h5>
@@ -563,7 +563,7 @@ const CoinxpadPortfolio = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="../assets/images/iCrowsel.png"
+												loading="lazy" src="../assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -571,7 +571,7 @@ const CoinxpadPortfolio = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="FTW"
-													src="../assets/images/client-logos/FTW Dao Logo.png"
+													loading="lazy" src="../assets/images/client-logos/FTW Dao Logo.png"
 												/>
 											</div>
 											<h5>FTW Dao</h5>
@@ -600,12 +600,14 @@ const CoinxpadPortfolio = () => {
 												src="../assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
+												loading="lazy"
 											/>
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="White Hat"
 													src="../assets/images/client-logos/White Hat DAO.png"
+													loading="lazy"
 												/>
 											</div>
 											<h5>White Hat DAO</h5>

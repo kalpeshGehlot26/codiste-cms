@@ -71,6 +71,7 @@ const MLDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Comprehensive Development"
 								src="assets/images/Service-machine/Comprehensive Development.png"
 							/>
@@ -89,6 +90,7 @@ const MLDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Enterprise Automation Tools"
 								src="assets/images/Service-machine/Automation Tools.png"
 							/>
@@ -106,6 +108,7 @@ const MLDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Safe and Secure"
 								src="assets/images/Service-machine/Safe and Secure.png"
 							/>
@@ -124,6 +127,7 @@ const MLDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Customized Models and Training Platforms"
 								src="assets/images/Service-machine/training.png"
 							/>
@@ -142,6 +146,7 @@ const MLDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Expert-Led Development Process"
 								src="assets/images/Service-machine/iteration.png"
 							/>
@@ -160,6 +165,7 @@ const MLDevelopmentCompany = () => {
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
 							<img
 								className="img-fluid mb-2"
+								loading="lazy"
 								alt="Seamless Integration & Deployment"
 								src="assets/images/Service-machine/Seamless Integration & Deployment.png"
 							/>
@@ -206,70 +212,70 @@ const MLDevelopmentCompany = () => {
 								<ul className="tech-style">
 									<li>
 										<img
-											className="img-fluid" alt="python"
+											className="img-fluid" loading="lazy" alt="python"
 											src="assets/images/tech/python.png"
 										/>
 										<p className="text-uppercase">python</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="tensorflow"
+											className="img-fluid" loading="lazy" alt="tensorflow"
 											src="assets/images/tech/tensorflow.png"
 										/>
 										<p className="text-uppercase">tensorflow</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="Scikit_learn"
+											className="img-fluid" loading="lazy" alt="Scikit_learn"
 											src="assets/images/tech/Scikit_learn.png"
 										/>
 										<p className="text-uppercase">Scikit Learn</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="Apache_Spark_"
+											className="img-fluid" loading="lazy" alt="Apache_Spark_"
 											src="assets/images/tech/Apache_Spark_.png"
 										/>
 										<p className="text-uppercase">Apache Spark</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="solidity"
+											className="img-fluid" loading="lazy" alt="solidity"
 											src="assets/images/tech/solidity.png"
 										/>
 										<p className="text-uppercase">solidity</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="Theano_logo"
+											className="img-fluid" loading="lazy" alt="Theano_logo"
 											src="assets/images/tech/Theano_logo.svg.png"
 										/>
 										<p className="text-uppercase">Theano</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="go"
+											className="img-fluid" loading="lazy" alt="go"
 											src="assets/images/tech/go.png"
 										/>
 										<p className="text-uppercase">go</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="gensim"
+											className="img-fluid" loading="lazy" alt="gensim"
 											src="assets/images/tech/gensim.png"
 										/>
 										<p className="text-uppercase">gensim</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="Azure"
+											className="img-fluid" loading="lazy" alt="Azure"
 											src="assets/images/tech/Azure.png"
 										/>
 										<p className="text-uppercase">Azure</p>
 									</li>
 									<li>
 										<img
-											className="img-fluid" alt="icons8"
+											className="img-fluid" loading="lazy" alt="icons8"
 											src="assets/images/tech/icons8-ios-logo-150.png"
 										/>
 										<p className="">iOS</p>
@@ -538,6 +544,7 @@ const MLDevelopmentCompany = () => {
 								}}
 								src="assets/images/case-ml/MLEstimation.png"
 								alt="MLEstimation - AI Tool to Analyse your Building material"
+								loading="lazy"
 							/>
 						</div>
 					</div>
@@ -625,6 +632,7 @@ const MLDevelopmentCompany = () => {
 													className="img-fluid my-4 client-logo"
 													alt="MLEstimation"
 													src="assets/images/client-logos/Ml Estimation.png"
+													loading="lazy"
 												/>
 											</div>
 											<h5>MLEstimation</h5>
@@ -661,6 +669,7 @@ const MLDevelopmentCompany = () => {
 													className="img-fluid my-4 client-logo"
 													alt="Holygrails"
 													src="assets/images/client-logos/Holygrails.png"
+													loading="lazy"
 												/>
 											</div>
 											<h5>Holygrails</h5>
@@ -694,6 +703,7 @@ const MLDevelopmentCompany = () => {
 													className="img-fluid my-4 client-logo"
 													alt="MoonTrust"
 													src="assets/images/client-logos/MoonTrust.png"
+													loading="lazy"
 												/>
 											</div>
 											<h5> MoonTrust</h5>

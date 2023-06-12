@@ -36,7 +36,7 @@ const EventSlider = () => {
                     eventItems?.map((event, index) => {
                         return (
                             <SplideSlide className="splide__slide" key={index}>
-                                <img className="img-fluid career-compnyimg" alt={event.alt} src={event.url} />
+                                <img className="img-fluid career-compnyimg" alt={event.alt} src={event.url} loading="lazy" />
                             </SplideSlide>
                         )
                     })

@@ -68,7 +68,7 @@ const NFTDevelopment = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Customizable Marketplaces"
-								src="assets/images/Service-Nft/Customizable Marketplaces.png"
+								loading="lazy" src="assets/images/Service-Nft/Customizable Marketplaces.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Customizable Marketplaces
@@ -88,7 +88,7 @@ const NFTDevelopment = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Immutable Security"
-								src="assets/images/Service-Nft/Immutable Security.png"
+								loading="lazy" src="assets/images/Service-Nft/Immutable Security.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Immutable Security
@@ -107,7 +107,7 @@ const NFTDevelopment = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Tokenization"
-								src="assets/images/Service-Nft/tokenization.png"
+								loading="lazy" src="assets/images/Service-Nft/tokenization.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Tokenization
@@ -126,7 +126,7 @@ const NFTDevelopment = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Metaverse Integration"
-								src="assets/images/Service-Nft/Metaverse Integration.png"
+								loading="lazy" src="assets/images/Service-Nft/Metaverse Integration.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Metaverse Integration
@@ -145,7 +145,7 @@ const NFTDevelopment = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Decentralized Ecosystem"
-								src="assets/images/Service-Nft/Decentralized Ecosystem.png"
+								loading="lazy" src="assets/images/Service-Nft/Decentralized Ecosystem.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Decentralized Ecosystem
@@ -163,7 +163,7 @@ const NFTDevelopment = () => {
 							<img
 								className="img-fluid mb-2"
 								alt="Digitized Assets"
-								src="assets/images/Service-Nft/Digitized Assets.png"
+								loading="lazy" src="assets/images/Service-Nft/Digitized Assets.png"
 							/>
 							<h2 className="secondsec-head text-center">
 								Digitized Assets
@@ -207,7 +207,7 @@ const NFTDevelopment = () => {
 									<li>
 										<img
 											className="img-fluid" alt="Binance_Logo"
-											src="assets/images/tech/Binance_Logo.png"
+											loading="lazy" src="assets/images/tech/Binance_Logo.png"
 										/>
 										<p className="text-uppercase">Binance</p>
 
@@ -215,42 +215,42 @@ const NFTDevelopment = () => {
 									<li>
 										<img
 											className="img-fluid" alt="ethereum"
-											src="assets/images/tech/ethereum.png"
+											loading="lazy" src="assets/images/tech/ethereum.png"
 										/>
 										<p className="text-uppercase">ethereum</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="Solana"
-											src="assets/images/tech/Solana.png"
+											loading="lazy" src="assets/images/tech/Solana.png"
 										/>
 										<p className="text-uppercase">Solana</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="tron"
-											src="assets/images/tech/tron logo.png"
+											loading="lazy" src="assets/images/tech/tron logo.png"
 										/>
 										<p className="text-uppercase">Binance</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="fantom"
-											src="assets/images/tech/fantom.png"
+											loading="lazy" src="assets/images/tech/fantom.png"
 										/>
 										<p className="text-uppercase">fantom</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="polygon"
-											src="assets/images/tech/polygon.png"
+											loading="lazy" src="assets/images/tech/polygon.png"
 										/>
 										<p className="text-uppercase">polygon</p>
 									</li>
 									<li>
 										<img
 											className="img-fluid" alt="Corda"
-											src="assets/images/tech/Corda.png"
+											loading="lazy" src="assets/images/tech/Corda.png"
 										/>
 										<p className="text-uppercase">Corda</p>
 									</li>
@@ -457,7 +457,7 @@ const NFTDevelopment = () => {
 								style={{
 									padding: "20px",
 								}}
-								src="assets/images/case-couter10/Counterten.png"
+								loading="lazy" src="assets/images/case-couter10/Counterten.png"
 								alt="CounterTen - Digital Collectible platform for Loyalty, Brands and events"
 							/>
 						</div>
@@ -529,7 +529,7 @@ const NFTDevelopment = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												loading="lazy" src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -537,7 +537,7 @@ const NFTDevelopment = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="Ninza NFT"
-													src="assets/images/client-logos/Danketsu-Logo-Blue (Ninja NFT).png"
+													loading="lazy" src="assets/images/client-logos/Danketsu-Logo-Blue (Ninja NFT).png"
 												/>
 											</div>
 											<h5>Ninza NFT</h5>
@@ -563,7 +563,7 @@ const NFTDevelopment = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												loading="lazy" src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -571,7 +571,7 @@ const NFTDevelopment = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
-													src="assets/images/client-logos/bonfire.png"
+													loading="lazy" src="assets/images/client-logos/bonfire.png"
 												/>
 											</div>
 											<h5>
@@ -611,7 +611,7 @@ const NFTDevelopment = () => {
 
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
-												src="assets/images/iCrowsel.png"
+												loading="lazy" src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
@@ -619,7 +619,7 @@ const NFTDevelopment = () => {
 												<img
 													className="img-fluid my-4 client-logo"
 													alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
-													src="assets/images/client-logos/DiveWallet Logo.png"
+													loading="lazy" src="assets/images/client-logos/DiveWallet Logo.png"
 												/>
 											</div>
 											<h5>DiveWallet</h5>

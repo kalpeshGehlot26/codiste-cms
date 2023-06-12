@@ -41,7 +41,7 @@ const ApolloPortfolio = () => {
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2">
 									<img
 										className="img-fluid"
-										src="/assets/images/case-appolo/Apollo.png"
+										loading="lazy" src="/assets/images/case-appolo/Apollo.png"
 										alt="Apollo - Apollo Crypto Launchpad"
 									/>
 								</div>
@@ -79,7 +79,7 @@ const ApolloPortfolio = () => {
 							<img
 								className="img-fluid"
 								style={{ width: "auto", padding: "20px" }}
-								src="/assets/images/case-appolo/Problem 02.png"
+								loading="lazy" src="/assets/images/case-appolo/Problem 02.png"
 								alt="Problem Statement"
 							/>
 						</div>
@@ -109,7 +109,7 @@ const ApolloPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt=""
-											src="/assets/images/case-appolo/Decentralized Launchpad Platform.png"
+											loading="lazy" src="/assets/images/case-appolo/Decentralized Launchpad Platform.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -127,7 +127,7 @@ const ApolloPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt=""
-											src="/assets/images/case-appolo/Decentralized Exchange Tool with Liquidity Management.png"
+											loading="lazy" src="/assets/images/case-appolo/Decentralized Exchange Tool with Liquidity Management.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -147,7 +147,7 @@ const ApolloPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt=""
-											src="/assets/images/case-appolo/Staking Module.png"
+											loading="lazy" src="/assets/images/case-appolo/Staking Module.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -164,7 +164,7 @@ const ApolloPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt=""
-											src="/assets/images/case-appolo/Token Creation Module.png"
+											loading="lazy" src="/assets/images/case-appolo/Token Creation Module.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -183,7 +183,7 @@ const ApolloPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt=""
-											src="/assets/images/case-appolo/HighAPY Module.png"
+											loading="lazy" src="/assets/images/case-appolo/HighAPY Module.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -201,7 +201,7 @@ const ApolloPortfolio = () => {
 										<img
 											className="img-fluid"
 											alt=""
-											src="/assets/images/case-appolo/Admin panel.png"
+											loading="lazy" src="/assets/images/case-appolo/Admin panel.png"
 										/>
 										<p>
 											<span className="fs-3">
@@ -318,7 +318,7 @@ const ApolloPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-appolo/Apollo MArketplace-1.png"
+												loading="lazy" src="/assets/images/case-appolo/Apollo MArketplace-1.png"
 											/>
 										</div>
 									</div>
@@ -329,7 +329,7 @@ const ApolloPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-appolo/Apollo MArketplace-2.png"
+												loading="lazy" src="/assets/images/case-appolo/Apollo MArketplace-2.png"
 											/>
 										</div>
 									</div>
@@ -340,7 +340,7 @@ const ApolloPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-appolo/Apollo MArketplace-3.png"
+												loading="lazy" src="/assets/images/case-appolo/Apollo MArketplace-3.png"
 											/>
 										</div>
 									</div>
@@ -351,7 +351,7 @@ const ApolloPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-appolo/Apollo MArketplace-4.png"
+												loading="lazy" src="/assets/images/case-appolo/Apollo MArketplace-4.png"
 											/>
 										</div>
 									</div>
@@ -362,7 +362,7 @@ const ApolloPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-appolo/Apollo MArketplace-5.png"
+												loading="lazy" src="/assets/images/case-appolo/Apollo MArketplace-5.png"
 											/>
 										</div>
 									</div>
@@ -373,7 +373,7 @@ const ApolloPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-appolo/Apollo MArketplace-6.png"
+												loading="lazy" src="/assets/images/case-appolo/Apollo MArketplace-6.png"
 											/>
 										</div>
 									</div>
@@ -384,7 +384,7 @@ const ApolloPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-appolo/Apollo MArketplace-7.png"
+												loading="lazy" src="/assets/images/case-appolo/Apollo MArketplace-7.png"
 											/>
 										</div>
 									</div>
@@ -395,7 +395,7 @@ const ApolloPortfolio = () => {
 											<img
 												className="img-fluid diwallet-img"
 												alt=" "
-												src="/assets/images/case-appolo/Apollo MArketplace-8.png"
+												loading="lazy" src="/assets/images/case-appolo/Apollo MArketplace-8.png"
 											/>
 										</div>
 									</div>
@@ -448,12 +448,14 @@ const ApolloPortfolio = () => {
 								<li>
 									<img
 										className="img-fluid"
+										loading="lazy"
 										src="/assets/images/tech/React-icon.svg.png"
 									/>
 								</li>
 								<li>
 									<img
 										className="img-fluid"
+										loading="lazy"
 										src="/assets/images/tech/Node.png"
 										alt="Node.js"
 									/>
@@ -489,7 +491,7 @@ const ApolloPortfolio = () => {
 								</h3>
 								<div className="d-flex align-items-center flex-column">
 									<img
-										src="/assets/images/iCrowsel.png"
+										loading="lazy" src="/assets/images/iCrowsel.png"
 										className=" "
 										alt="iCrowsel"
 									/>
@@ -497,7 +499,7 @@ const ApolloPortfolio = () => {
 										<img
 											className=""
 											alt="Apollo - Apollo Crypto Launchpad"
-											src="/assets/images/client-logos/apollo.png"
+											loading="lazy" src="/assets/images/client-logos/apollo.png"
 										/>
 									</div>
 									<h5>Appolo Marketplace</h5>
