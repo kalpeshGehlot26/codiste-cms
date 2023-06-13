@@ -108,7 +108,7 @@ const ApolloPortfolio = () => {
 									<li className="">
 										<img
 											className="img-fluid"
-											alt=""
+											alt="Decentralized"
 											loading="lazy" src="/assets/images/case-appolo/Decentralized Launchpad Platform.png"
 										/>
 										<p>
@@ -126,7 +126,7 @@ const ApolloPortfolio = () => {
 									<li>
 										<img
 											className="img-fluid"
-											alt=""
+											alt="Decentralized Exchange"
 											loading="lazy" src="/assets/images/case-appolo/Decentralized Exchange Tool with Liquidity Management.png"
 										/>
 										<p>
@@ -146,7 +146,7 @@ const ApolloPortfolio = () => {
 									<li>
 										<img
 											className="img-fluid"
-											alt=""
+											alt="Staking Module"
 											loading="lazy" src="/assets/images/case-appolo/Staking Module.png"
 										/>
 										<p>
@@ -163,7 +163,7 @@ const ApolloPortfolio = () => {
 									<li>
 										<img
 											className="img-fluid"
-											alt=""
+											alt="Token"
 											loading="lazy" src="/assets/images/case-appolo/Token Creation Module.png"
 										/>
 										<p>
@@ -182,7 +182,7 @@ const ApolloPortfolio = () => {
 									<li>
 										<img
 											className="img-fluid"
-											alt=""
+											alt="HighAPY Module"
 											loading="lazy" src="/assets/images/case-appolo/HighAPY Module.png"
 										/>
 										<p>
@@ -200,7 +200,7 @@ const ApolloPortfolio = () => {
 									<li>
 										<img
 											className="img-fluid"
-											alt=""
+											alt="Admin panel"
 											loading="lazy" src="/assets/images/case-appolo/Admin panel.png"
 										/>
 										<p>
@@ -317,7 +317,7 @@ const ApolloPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="Apollo MArketplace-1"
 												loading="lazy" src="/assets/images/case-appolo/Apollo MArketplace-1.png"
 											/>
 										</div>
@@ -328,7 +328,7 @@ const ApolloPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="Apollo MArketplace-2"
 												loading="lazy" src="/assets/images/case-appolo/Apollo MArketplace-2.png"
 											/>
 										</div>
@@ -339,7 +339,7 @@ const ApolloPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="Apollo MArketplace-3"
 												loading="lazy" src="/assets/images/case-appolo/Apollo MArketplace-3.png"
 											/>
 										</div>
@@ -350,7 +350,7 @@ const ApolloPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="Apollo MArketplace-4"
 												loading="lazy" src="/assets/images/case-appolo/Apollo MArketplace-4.png"
 											/>
 										</div>
@@ -361,7 +361,7 @@ const ApolloPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="Apollo MArketplace-5"
 												loading="lazy" src="/assets/images/case-appolo/Apollo MArketplace-5.png"
 											/>
 										</div>
@@ -372,7 +372,7 @@ const ApolloPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="Apollo MArketplace-6"
 												loading="lazy" src="/assets/images/case-appolo/Apollo MArketplace-6.png"
 											/>
 										</div>
@@ -383,7 +383,7 @@ const ApolloPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="Apollo MArketplace-7"
 												loading="lazy" src="/assets/images/case-appolo/Apollo MArketplace-7.png"
 											/>
 										</div>
@@ -394,7 +394,7 @@ const ApolloPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="Apollo MArketplace-8"
 												loading="lazy" src="/assets/images/case-appolo/Apollo MArketplace-8.png"
 											/>
 										</div>
@@ -450,6 +450,7 @@ const ApolloPortfolio = () => {
 										className="img-fluid"
 										loading="lazy"
 										src="/assets/images/tech/React-icon.svg.png"
+										alt="React-icon"
 									/>
 								</li>
 								<li>

@@ -36,7 +36,7 @@ const Posts = () => {
 								<div className="position-relative">
 									<img
 										className="img-fluid rounded p-0 blog-img"
-										alt=""
+										alt="Development Service"
 										src={
 											post._embedded["wp:featuredmedia"]?.["0"].code ? image : post._embedded["wp:featuredmedia"]?.["0"]?.source_url
 										}

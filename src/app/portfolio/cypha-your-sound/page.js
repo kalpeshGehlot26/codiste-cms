@@ -131,7 +131,7 @@ const CyphaPortfolio = () => {
 									<li className="">
 										<img
 											className="img-fluid"
-											alt=""
+											alt="Instrumental Voiceovers"
 											loading="lazy" src="/assets/images/case-cypha/Instrumental Voiceovers.png"
 										/>
 										<p>
@@ -146,7 +146,7 @@ const CyphaPortfolio = () => {
 									<li>
 										<img
 											className="img-fluid"
-											alt=""
+											alt="Record"
 											loading="lazy" src="/assets/images/case-cypha/Record & Share.png"
 										/>
 										<p>
@@ -162,7 +162,7 @@ const CyphaPortfolio = () => {
 									<li>
 										<img
 											className="img-fluid"
-											alt=""
+											alt="Token Rewards"
 											loading="lazy" src="/assets/images/case-cypha/Token Rewards.png"
 										/>
 										<p>
@@ -178,7 +178,7 @@ const CyphaPortfolio = () => {
 									<li>
 										<img
 											className="img-fluid"
-											alt=""
+											alt="Global Discovery"
 											loading="lazy" src="/assets/images/case-cypha/Global Discovery.png"
 										/>
 										<p>
@@ -194,7 +194,7 @@ const CyphaPortfolio = () => {
 									<li>
 										<img
 											className="img-fluid"
-											alt=""
+											alt="Expand Reach"
 											loading="lazy" src="/assets/images/case-cypha/Expand Reach.png"
 										/>
 										<p>
@@ -210,7 +210,7 @@ const CyphaPortfolio = () => {
 									<li>
 										<img
 											className="img-fluid"
-											alt=""
+											alt="Talent Discovery"
 											loading="lazy" src="/assets/images/case-cypha/Talent Discovery.png"
 										/>
 										<p>
@@ -295,7 +295,7 @@ const CyphaPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="CYPHA-1"
 												loading="lazy" src="/assets/images/case-cypha/CYPHA-1.png"
 											/>
 										</div>
@@ -306,7 +306,7 @@ const CyphaPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="CYPHA-2"
 												loading="lazy" src="/assets/images/case-cypha/CYPHA-2.png "
 											/>
 										</div>
@@ -317,7 +317,7 @@ const CyphaPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="CYPHA-3"
 												loading="lazy" src="/assets/images/case-cypha/CYPHA-3.png "
 											/>
 										</div>
@@ -328,7 +328,7 @@ const CyphaPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="CYPHA-4"
 												loading="lazy" src="/assets/images/case-cypha/CYPHA-4.png "
 											/>
 										</div>
@@ -339,7 +339,7 @@ const CyphaPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="CYPHA-5"
 												loading="lazy" src="/assets/images/case-cypha/CYPHA-5.png "
 											/>
 										</div>
@@ -350,7 +350,7 @@ const CyphaPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="CYPHA-6"
 												loading="lazy" src="/assets/images/case-cypha/CYPHA-6.png"
 											/>
 										</div>
@@ -361,7 +361,7 @@ const CyphaPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="CYPHA-7"
 												loading="lazy" src="/assets/images/case-cypha/CYPHA-7.png "
 											/>
 										</div>
@@ -372,7 +372,7 @@ const CyphaPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="CYPHA-8"
 												loading="lazy" src="/assets/images/case-cypha/CYPHA-8.png "
 											/>
 										</div>
@@ -383,7 +383,7 @@ const CyphaPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="CYPHA-9"
 												loading="lazy" src="/assets/images/case-cypha/CYPHA-9.png "
 											/>
 										</div>
@@ -394,7 +394,7 @@ const CyphaPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="CYPHA-10"
 												loading="lazy" src="/assets/images/case-cypha/Cypha-10.png "
 											/>
 										</div>

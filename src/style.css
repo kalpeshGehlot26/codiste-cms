@@ -329,29 +329,49 @@ font-size: 20px !important;
 /* ==== accordion complet === */
 
 .service-block {
-   /* background: #FFFFFF;
-   box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.1);
-   border-radius: 10px;
-   color: #000; */
    border:1px solid #fff;
 }
 
 .service-block:hover {
-   /* background: linear-gradient(90deg, #FF1F23 3.28%, #FD145A 97.2%); */
    box-shadow: 0 4px 8px 0 rgba(0,0,0,.08);
    border: 1px solid #ededed;
 }
 
 .service-block:hover .secondsec-head {
-   /* color: #fff; */
    color:#000;
-
 }
 
 .service-block:hover .secondsec-p {
-   /* color: #fff; */
    color: #717173;
+}
 
+.Newservice-block a{
+   border:1px solid #fff;
+   text-decoration: none;
+   display: block;
+}
+.Newservice-block a .secondsec-head {
+   color:#000;
+}
+.Newservice-block a .custom-font {
+   color:#000;
+}
+
+.Newservice-block a:hover {
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,.08);
+   border: 1px solid #ededed;
+   display: block;
+}
+
+.Newservice-block a:hover .secondsec-head {
+   color:#000;
+}
+.Newservice-block a:hover .custom-font {
+   color:#000;
+}
+
+.Newservice-block a:hover .secondsec-p {
+   color: #717173;
 }
 
 .secondsec-head {

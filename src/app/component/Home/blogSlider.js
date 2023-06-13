@@ -59,7 +59,7 @@ const BlogSlider = () => {
                 </SplideSlide>
                 <SplideSlide className="splide__slide p-2">
                     <div className="position-relative">
-                        <img className="img-fluid rounded p-0" alt="" src="assets/images/blogs/Blog2.jpg" />
+                        <img className="img-fluid rounded p-0" alt="Blockchain" src="assets/images/blogs/Blog2.jpg" />
                         <div className="blogboxbg">
                             <div className="blogfont-pos">
                                 <p>Blockchain</p>
@@ -77,7 +77,7 @@ const BlogSlider = () => {
                 </SplideSlide>
                 <SplideSlide className="splide__slide p-2">
                     <div className="position-relative">
-                        <img className="img-fluid rounded p-0" alt="" src="assets/images/blogs/Blog3.jpg" />
+                        <img className="img-fluid rounded p-0" alt="Blockchain" src="assets/images/blogs/Blog3.jpg" />
                         <div className="blogboxbg">
                             <div className="blogfont-pos">
                                 <p>Blockchain</p>
@@ -95,7 +95,7 @@ const BlogSlider = () => {
                 </SplideSlide>
                 <SplideSlide className="splide__slide p-2">
                     <div className="position-relative">
-                        <img className="img-fluid rounded p-0" alt="" src="assets/images/blogs/Blog4.jpg" />
+                        <img className="img-fluid rounded p-0" alt="Blockchain" src="assets/images/blogs/Blog4.jpg" />
                         <div className="blogboxbg">
                             <div className="blogfont-pos">
                                 <p>Blockchain</p>
@@ -113,7 +113,7 @@ const BlogSlider = () => {
                 </SplideSlide>
                 <SplideSlide className="splide__slide p-2">
                     <div className="position-relative">
-                        <img className="img-fluid rounded p-0" alt="" src="assets/images/blogs/Blog5.jpg" />
+                        <img className="img-fluid rounded p-0" alt="Blockchain" src="assets/images/blogs/Blog5.jpg" />
                         <div className="blogboxbg">
                             <div className="blogfont-pos">
                                 <p>Blockchain</p>
@@ -131,7 +131,7 @@ const BlogSlider = () => {
                 </SplideSlide>
                 <SplideSlide className="splide__slide p-2">
                     <div className="position-relative">
-                        <img className="img-fluid rounded p-0" alt="" src="assets/images/blogs/Blog6.jpg" />
+                        <img className="img-fluid rounded p-0" alt="Blockchain" src="assets/images/blogs/Blog6.jpg" />
                         <div className="blogboxbg">
                             <div className="blogfont-pos">
                                 <p>Blockchain</p>
@@ -149,7 +149,7 @@ const BlogSlider = () => {
                 </SplideSlide>
                 <SplideSlide className="splide__slide p-2">
                     <div className="position-relative">
-                        <img className="img-fluid rounded p-0" alt="" src="assets/images/blogs/Blog6.jpg" />
+                        <img className="img-fluid rounded p-0" alt="Blockchain" src="assets/images/blogs/Blog6.jpg" />
                         <div className="blogboxbg">
                             <div className="blogfont-pos">
                                 <p>Blockchain</p>

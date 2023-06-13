@@ -304,7 +304,7 @@ const MLPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="ML Estimation-1"
 												loading="lazy" src="/assets/images/case-ml/ML Estimation-1.png"
 											/>
 										</div>
@@ -315,7 +315,7 @@ const MLPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="ML Estimation-2"
 												loading="lazy" src="/assets/images/case-ml/ML Estimation-2.png"
 											/>
 										</div>
@@ -326,7 +326,7 @@ const MLPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="ML Estimation-3"
 												loading="lazy" src="/assets/images/case-ml/ML Estimation-3.png"
 											/>
 										</div>
@@ -337,7 +337,7 @@ const MLPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="ML Estimation-4"
 												loading="lazy" src="/assets/images/case-ml/ML Estimation-4.png"
 											/>
 										</div>
@@ -348,7 +348,7 @@ const MLPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="ML Estimation-5"
 												loading="lazy" src="/assets/images/case-ml/ML Estimation-5.png"
 											/>
 										</div>
@@ -359,7 +359,7 @@ const MLPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="ML Estimation-6"
 												loading="lazy" src="/assets/images/case-ml/ML Estimation-6 .png"
 											/>
 										</div>
@@ -370,7 +370,7 @@ const MLPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="ML Estimation-7"
 												loading="lazy" src="/assets/images/case-ml/ML Estimation-7.png"
 											/>
 										</div>
@@ -381,7 +381,7 @@ const MLPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="ML Estimation-8"
 												loading="lazy" src="/assets/images/case-ml/ML Estimation-8.png"
 											/>
 										</div>
@@ -392,7 +392,7 @@ const MLPortfolio = () => {
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												className="img-fluid diwallet-img"
-												alt=" "
+												alt="ML Estimation-9"
 												loading="lazy" src="/assets/images/case-ml/ML Estimation-9.png"
 											/>
 										</div>
