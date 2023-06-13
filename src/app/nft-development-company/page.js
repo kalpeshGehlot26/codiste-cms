@@ -48,7 +48,6 @@ const NFTDevelopment = () => {
 						<h1 className="all-head text-center">
 							Our NFT Development Services{" "}
 						</h1>
-
 					</div>
 					<ServiceInnerItems serviceItems={nftList} />
 				</section>
@@ -60,7 +59,6 @@ const NFTDevelopment = () => {
 						<h1 className="all-head text-center">
 							Why Choose Codiste For NFT Development Services?
 						</h1>
-
 					</div>
 
 					<div className="row">
@@ -190,7 +188,7 @@ const NFTDevelopment = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5 mt-5">
+			<div className="bg-color py-5 ">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">

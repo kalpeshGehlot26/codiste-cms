@@ -200,7 +200,7 @@ const StartupDevelopmentCompany = () => {
 
 			<div className="container container-fluid py-5 ulnodisc">
 				<h1 className="all-head text-center">
-					Startup Process Idea
+					Startup Development Idea Process
 				</h1>
 				<p className="secondsec-p text-center">
 					codiste offers startup development services for

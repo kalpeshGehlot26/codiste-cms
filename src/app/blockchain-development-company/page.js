@@ -66,7 +66,7 @@ const BlockChainDevelopment = () => {
 			<div className="container container-fluid">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-						<h1 className="all-head">Our Services </h1>
+						<h1 className="all-head">Our Blockchain Development Services</h1>
 						<p className="all-p text-center">
 							We offer businesses a complete range of blockchain
 							solutions for secure scaling and transparent
@@ -82,7 +82,7 @@ const BlockChainDevelopment = () => {
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head text-center">
-							Why Choose Us for Blockchain Development?{" "}
+							Why Choose Us for Blockchain Development Services ?
 						</h1>
 					</div>
 
