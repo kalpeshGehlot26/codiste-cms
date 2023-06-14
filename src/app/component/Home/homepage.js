@@ -10,6 +10,8 @@ import serviceItems from "../../data/serviceItems";
 import AllServiceBlogSlider from "../BlogSlider/allServiceBlogSlider";
 import "../../../style.css";
 import "../../../external.css";
+import VideoPlayer from "./Videoplayer";
+import LazyLoad from 'react-lazy-load';
 
 const limit = 5;
 const category = "47,43,55,6,57";
@@ -27,7 +29,7 @@ const HomePage = () => {
 				<script src="https://player.vimeo.com/api/player.js"></script> */}
 
 
-				<div className="ratio ratio-16x9" id="video-container">
+				{/* <div className="ratio ratio-16x9" id="video-container">
 					<iframe
 						src="https://player.vimeo.com/video/828259341?background=1&autoplay=1"
 						frameborder="0"
@@ -37,6 +39,9 @@ const HomePage = () => {
 						mozallowfullscreen
 						title="Codiste_Home"
 					></iframe>
+				</div> */}
+				<div>
+					<VideoPlayer />
 				</div>
 
 				<div className="rotate-box">
@@ -94,11 +99,29 @@ const HomePage = () => {
 							</div>
 						</div>
 
-						<div className="col-xl-6 col-md-12">
+						{/* <div className="col-xl-6 col-md-12">
 							<section className="video-containerSmall">
 								<div className="ratio ratio-16x9" id="video-container" >
 									<iframe src="https://player.vimeo.com/video/828259500" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen webkitallowfullscreen mozallowfullscreen title="Clientele Video"></iframe>
 								</div>
+								<script src="https://player.vimeo.com/api/player.js"></script>
+							</section>
+						</div> */}
+						<div className="col-xl-6 col-md-12">
+							<section className="video-containerSmall">
+								<LazyLoad offsetVertical={500}>
+									<div className="ratio ratio-16x9" id="video-container">
+										<iframe
+											src="https://player.vimeo.com/video/828259500"
+											frameborder="0"
+											allow="fullscreen; picture-in-picture"
+											allowFullScreen
+											webkitAllowFullScreen
+											mozAllowFullScreen
+											title="Clientele Video"
+										></iframe>
+									</div>
+								</LazyLoad>
 								<script src="https://player.vimeo.com/api/player.js"></script>
 							</section>
 						</div>
