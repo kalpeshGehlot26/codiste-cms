@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ClientSlider from "./clientSlider";
 import FeedbackSlider from "./feedbackSlider";
 import ServiceList from "../service/serviceItems";
@@ -19,6 +19,20 @@ const category = "47,43,55,6,57";
 const HomePage = () => {
 	const [serviceCount, setServiceCount] = useState(6);
 	const [totalServiceCount, setTotalServiceCount] = useState(null);
+	useEffect(() => {
+		const handleScroll = () => {
+			// Handle scroll event here
+		};
+
+		// Add the event listener with passive: true option
+		window.addEventListener('scroll', handleScroll, { passive: true });
+
+		// Clean up the event listener on component unmount
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+		};
+	}, []);
+
 
 	return (
 		<div>
