@@ -31,11 +31,9 @@ const Header = () => {
 
 					<ul
 						className="navbar-nav my-2 my-lg-0 ms-auto align-items-center"
-
 					>
 						<li className="nav-item dropdown dropdown-sec">
 							<Link
-
 								className="nav-link dropdown-toggle"
 								href="/services"
 								id="navbarScrollingDropdown"

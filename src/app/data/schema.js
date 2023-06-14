@@ -1,24 +1,38 @@
 const jsonData = {
 	home: {
 		"@context": "https://schema.org",
-		"@type": "Corporation",
-		name: "Codiste Pvt Ltd",
-		alternateName: "codiste",
-		url: "https://codiste.com/",
-		logo: "https://codiste.com/",
-		contactPoint: {
-			"@type": "ContactPoint",
-			telephone: "+91 94290 05987",
-			contactType: "technical support",
-			areaServed: "US",
-			availableLanguage: "en",
+		"@type": "LocalBusiness",
+		"name": "Codiste Pvt Ltd",
+		"image": "https://www.codiste.com/assets/images/logo.png",
+		"@id": "manager@codiste.com",
+		"url": "https://www.codiste.com/",
+		"telephone": "+91 94290 05987",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "915, Ganesh Glory, S.G Highway,",
+			"addressLocality": "Ahmedabad",
+			"postalCode": "382481",
+			"addressCountry": "IN"
 		},
-		sameAs: [
+		"openingHoursSpecification": {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": [
+				"Monday",
+				"Tuesday",
+				"Wednesday",
+				"Thursday",
+				"Friday"
+			],
+			"opens": "09:00",
+			"closes": "07:00"
+		},
+		"sameAs": [
+			"https://www.facebook.com/people/Codiste-Pvt-Ltd/100075937369150/?_rdr",
 			"https://twitter.com/codistepvtltd",
 			"https://www.instagram.com/codistepvtltd/",
 			"https://www.youtube.com/@YourTechPartnerCodiste",
-			"https://in.linkedin.com/company/codiste-pvt-ltd",
-		],
+			"https://www.linkedin.com/company/codiste-pvt-ltd/"
+		]
 	},
 	metaService: {
 		"@context": "https://schema.org",
