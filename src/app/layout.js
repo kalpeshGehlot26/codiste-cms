@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
 	title: "Leading Blockchain and Software Development Company | Codiste",
 	description:
-		"Codiste a leading blockchain and software development company offers tailored expertise for advanced tech solutions. Discover innovation to business solutions.",
+		"Experience innovative IT services from Codiste, a leading blockchain development company. Specializing in blockchain, metaverse, AI, ML, cryptocurrency and NFT.",
 };
 
 export default function RootLayout({ children }) {

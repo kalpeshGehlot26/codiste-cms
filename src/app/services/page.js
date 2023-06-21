@@ -13,6 +13,8 @@ import Link from "next/link";
 const limit = 4;
 const category = "47,43,55,6,57";
 
+
+
 const Services = () => {
 	const [serviceCount, setServiceCount] = useState(6);
 	const [totalServiceCount, setTotalServiceCount] = useState(null);
@@ -20,7 +22,7 @@ const Services = () => {
 	return (
 		<div>
 			<Helmet>
-				<title>Software Development Company I Empowering IT Solutions I Codiste</title>
+				<title>Blockchian Development Company I Empowering IT Solutions I Codiste</title>
 				<meta name="description" content="We are a leading software development company offering a innovative tech and development support ecosystem. We caters immersive solutions to all business across diverse sectors." />
 			</Helmet>
 			<div className="bg-color">
