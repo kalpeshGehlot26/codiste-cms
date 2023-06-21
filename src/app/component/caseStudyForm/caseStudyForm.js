@@ -16,7 +16,7 @@ const CaseStudyForm = ({text}) => {
 
 	const handleSubmit = async (event) => {
 		event.preventDefault();
-
+		
 		await axios.post('/api/contact', values, {
 			headers: {
 				'Content-Type': 'application/json'
@@ -37,7 +37,8 @@ const CaseStudyForm = ({text}) => {
 		const value = event.target.value;
 		setValues({
 			...values,
-			[name]: value
+			[name]: value,
+			path: path
 		});
 	}
 
@@ -45,6 +46,7 @@ const CaseStudyForm = ({text}) => {
 
 		<div>
 			<form method="post" onSubmit={handleSubmit} ref={formRef}>
+				<input type="hidden" name="path" value={path} />
 				<input
 					className="need-form"
 					type="text"
@@ -69,12 +71,15 @@ const CaseStudyForm = ({text}) => {
 					className="need-form"
 					type="text"
 					id="number"
-					name=" Mobile number"
+					name="number"
 					placeholder="Mobile number*"
-					// pattern="^\+(?:[0-9]●?){6,14}[0-9]$"
-					pattern="^\d{10,}$"
 					required
 					onChange={onFormChange}
+					onKeyPress={(event) => {
+						if (!/[0-9]/.test(event.key)) {
+							event.preventDefault();
+						}
+					}}
 				/>
 				<br />
 				<select name="services" id="_services" className="need-form" onChange={onFormChange} required>

@@ -29,6 +29,18 @@ export async function POST(req, res) {
 				<h4>Service: ${data.services}</h4>				
 				<h4>Message: ${data.message}</h4>
 			</body></html>`;
+			
+		const path = data.path.split("/");
+
+		var subject = `Inquiry for service ${data.services}`;
+
+		if(path[1] === "contact") {
+			subject = "Discover Project Potential Inquiry";
+		}
+
+		if(path[1] === "career") {
+			subject = "Career Query Submission or Appling for Job";
+		}
 
 		var transporter = nodemailer.createTransport(
 			smtpTransport({
@@ -47,7 +59,8 @@ export async function POST(req, res) {
 		var mailOptions = {
 			from: process.env.NEXT_PUBLIC_EMAIL,
 			to: "manager@codiste.com",
-			subject: `Inquiry for service ${data.services}`,
+			// to: "sonali.p@codiste.com",
+			subject: subject,
 			html: html,
 		};
 
