@@ -346,6 +346,13 @@ const DivewalletPortfolio = () => {
 										alt="flutter"
 									/>
 								</li>
+								<li>
+									<img
+										className="img-fluid"
+										loading="lazy" src="/assets/images/tech/Node.png"
+										alt="Node.js"
+									/>
+								</li>
 							</ul>
 						</div>
 					</div>
