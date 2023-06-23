@@ -124,7 +124,6 @@ const MedizenPortfolio = () => {
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head"> Features of Product</h1>
 						</div>
-
 						<div className="row">
 							<div className="col-lg-12">
 								<ul className="diwallet-style">
@@ -142,7 +141,6 @@ const MedizenPortfolio = () => {
 											<span className="secondsec-p">The app allows users to track their
 												medications, including dosage,
 												frequency, and duration.</span>
-
 										</p>
 									</li>
 									<li>
@@ -160,7 +158,6 @@ const MedizenPortfolio = () => {
 												take their medications on time,
 												ensuring that they never miss a
 												dose.</span>
-
 										</p>
 									</li>
 									<li>
@@ -178,7 +175,6 @@ const MedizenPortfolio = () => {
 												interactions between medications and
 												alerts users if there is a risk of
 												harm.</span>
-
 										</p>
 									</li>
 									<li>
@@ -195,7 +191,6 @@ const MedizenPortfolio = () => {
 											<span className="secondsec-p">The app alerts users when it's time
 												to refill their medications,
 												ensuring that they never run out.</span>
-
 										</p>
 									</li>{" "}
 									<li>
@@ -214,7 +209,6 @@ const MedizenPortfolio = () => {
 												members, making it easier for loved
 												ones to keep track of their
 												medications</span>
-
 										</p>
 									</li>
 								</ul>
@@ -244,7 +238,14 @@ const MedizenPortfolio = () => {
 					</p>
 				</div>
 			</div>
-
+			<div className="blackdiv px-3">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between flex-wrap py-3">
+					<p>How you transform your ideas into reality?</p>
+					<Link href="https://www.codiste.com/mobile-app-development-company" className="book-btn">
+						Explore more
+					</Link>
+				</div>
+			</div>
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>

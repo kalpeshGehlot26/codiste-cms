@@ -114,7 +114,6 @@ const MLPortfolio = () => {
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head"> Features of Product</h1>
 						</div>
-
 						<div className="row">
 							<div className="col-lg-12">
 								<ul className="diwallet-style">
@@ -134,7 +133,6 @@ const MLPortfolio = () => {
 												provide detailed and accurate
 												information about materials and
 												equipment needed for a project.</span>
-
 										</p>
 									</li>
 									<li>
@@ -152,7 +150,6 @@ const MLPortfolio = () => {
 											<span className="secondsec-p">		Software provides detailed and
 												accurate project resource and cost
 												information.</span>
-
 										</p>
 									</li>
 									<li>
@@ -170,7 +167,6 @@ const MLPortfolio = () => {
 												interface for efficient and
 												effective use. Helps clients make
 												the most out of its functionalities.</span>
-
 										</p>
 									</li>
 									<li>
@@ -189,7 +185,6 @@ const MLPortfolio = () => {
 												allowing the client to focus on
 												other aspects of their business and
 												complete projects efficiently.</span>
-
 										</p>
 									</li>
 									<li>
@@ -208,7 +203,6 @@ const MLPortfolio = () => {
 												competitive bidding through accurate
 												and detailed material and equipment
 												information extraction.</span>
-
 										</p>
 									</li>
 									<li>
@@ -226,7 +220,6 @@ const MLPortfolio = () => {
 												Maintenance Planning, Prolongs
 												Equipment Life and Reduces
 												Maintenance Costs.</span>
-
 										</p>
 									</li>
 								</ul>
@@ -261,7 +254,14 @@ const MLPortfolio = () => {
 					</p>
 				</div>
 			</div>
-
+			<div className="blackdiv px-3">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between flex-wrap py-3">
+					<p>How you transform your ideas into reality?</p>
+					<Link href="https://www.codiste.com/machine-learning-development-company" className="book-btn">
+						Explore more
+					</Link>
+				</div>
+			</div>
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>

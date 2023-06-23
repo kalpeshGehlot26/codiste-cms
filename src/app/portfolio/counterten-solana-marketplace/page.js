@@ -74,7 +74,6 @@ const CounterTenPortfolio = () => {
           <section>
             <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
               <h1 className="all-head"> Features of Product</h1>
-
             </div>
 
             <div className="row">
@@ -89,15 +88,12 @@ const CounterTenPortfolio = () => {
                     <img className='img-fluid' alt='Purpose Flexibility' loading="lazy" src="/assets/images/case-couter10/Purpose Flexibility.png" />
                     <p><span className="fs-3">Purpose Flexibility</span><br /><span className="secondsec-p">Brands can create NFTs for a wide range of purposes, including event access, specialized VIP perks, product launches, memberships, property rentals, collectibles, and more. </span>
                     </p>
-
                   </li>
                   <li>
                     <img className='img-fluid' alt='Revenue' loading="lazy" src="/assets/images/case-couter10/Revenue and Engagement.png" />
                     <p><span className="fs-3">Revenue and Engagement</span><br /><span className="secondsec-p">CounterTEN offers flexibility to businesses looking to increase revenue, engagement, or both.</span>
                     </p>
-
                   </li>
-
                 </ul>
               </div>
             </div>
@@ -110,13 +106,17 @@ const CounterTenPortfolio = () => {
         <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
           <h1 className="all-head text-center my-3 "> What did we deliver?</h1>
           <p className="secondsec-p text-center">CounterTEN provides a game-changing solution for brands looking to connect with customers in a new and innovative way. The platform offers endless possibilities for creating and selling NFTs, enabling businesses to monetize their work and engage with customers beyond traditional marketing channels. With CounterTEN, brands can deepen their relationship with customers and increase revenue. The Solana blockchain provides a reliable and tamper-proof platform for creating and managing NFTs. CounterTEN has already been used successfully by luxury car manufacturers and clothing brands for NFTs that offer exclusive access and early product launches.
-
           </p>
-
         </div>
-
       </div>
-
+      <div className="blackdiv px-3">
+        <div className=" container container-fluid d-flex align-items-center justify-content-between flex-wrap py-3">
+          <p>How you transform your ideas into reality?</p>
+          <Link href="https://www.codiste.com/nft-development-company" className="book-btn">
+            Explore more
+          </Link>
+        </div>
+      </div>
 
       <div className="bg-color py-5">
         <div className="container container-fluid">
@@ -124,7 +124,6 @@ const CounterTenPortfolio = () => {
             <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
               <h1 className="all-head">Witness How We Drive Soul in Ideas!</h1>
             </div>
-
             <div id="carouselExampleDark" className="carousel carousel-dark slide carousel-box" data-bs-ride="carousel">
               <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active"

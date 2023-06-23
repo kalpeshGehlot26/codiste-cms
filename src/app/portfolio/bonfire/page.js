@@ -149,7 +149,6 @@ const BornfirePortfolio = () => {
 												industry is a marketplace where
 												investors can buy property without
 												hassles.</span>
-
 										</p>
 									</li>
 									<li>
@@ -166,7 +165,6 @@ const BornfirePortfolio = () => {
 											<span className="secondsec-p">	Unleash the potential of
 												digitization by renting property to
 												boost revenue with ease.</span>
-
 										</p>
 									</li>
 									<li>
@@ -184,7 +182,6 @@ const BornfirePortfolio = () => {
 												type, and cash-on-cash returns to
 												make lucrative real estate
 												investments easily.</span>
-
 										</p>
 									</li>
 
@@ -205,7 +202,6 @@ const BornfirePortfolio = () => {
 												Buying and trading fractions of the
 												property into smaller units or
 												shares becomes easy now!</span>
-
 										</p>
 									</li>
 								</ul>
@@ -214,7 +210,6 @@ const BornfirePortfolio = () => {
 					</section>
 				</div>
 			</div>
-
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -234,6 +229,14 @@ const BornfirePortfolio = () => {
 				</div>
 			</div>
 
+			<div className="blackdiv px-3">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between flex-wrap py-3">
+					<p>How you transform your ideas into reality?</p>
+					<Link href="https://www.codiste.com/cryptocurrency-development-company" className="book-btn">
+						Explore more
+					</Link>
+				</div>
+			</div>
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
@@ -456,7 +459,6 @@ const BornfirePortfolio = () => {
 							<h1 className="all-head">
 								Satisfied clients is our proof of our excellence!
 							</h1>
-
 						</div>
 
 						<div className="carousel-inner career-block">

@@ -131,7 +131,6 @@ const PixipagesPortfolio = () => {
 											<span className="secondsec-p">		Professional sounding bedtime
 												stories with music and a personal
 												note</span>
-
 										</p>
 									</li>
 									<li>
@@ -147,7 +146,6 @@ const PixipagesPortfolio = () => {
 											<br />
 											<span className="secondsec-p">	User-friendly app with simple,
 												step-by-step instructions</span>
-
 										</p>
 									</li>
 									<li>
@@ -164,7 +162,6 @@ const PixipagesPortfolio = () => {
 											<span className="secondsec-p">	A variety of themes to choose
 												from, such as bedtime stories and
 												lullabies</span>
-
 										</p>
 									</li>
 									<li>
@@ -180,7 +177,6 @@ const PixipagesPortfolio = () => {
 											<br />
 											<span className="secondsec-p">Easy sharing with loved ones, even
 												when away</span>
-
 										</p>
 									</li>
 									<li>
@@ -240,7 +236,14 @@ const PixipagesPortfolio = () => {
 					</p>
 				</div>
 			</div>
-
+			<div className="blackdiv px-3">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between flex-wrap py-3">
+					<p>How you transform your ideas into reality?</p>
+					<Link href="https://www.codiste.com/mobile-app-development-company" className="book-btn">
+						Explore more
+					</Link>
+				</div>
+			</div>
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>

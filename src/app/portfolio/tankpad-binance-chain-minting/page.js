@@ -1,8 +1,8 @@
 import CaseStudyForm from "@/app/component/caseStudyForm/caseStudyForm";
 import React from "react";
-
+import Link from "next/link";
 export const metadata = {
-	title: "Tankpad | Binance Chain Minting | NFT Marketplace Development Services | Codiste",
+	title: "Tankpad | Binance Chain Minting | NFT Marketplace | Codiste",
 	description:
 		"Tankpad has a curated selection of NFTs, a fair marketplace with purchasing limits, and allows users to easily manage their digital assets by transferring NFTs to other wallet",
 };
@@ -49,7 +49,6 @@ const TankpadPortfolio = () => {
 				<div className=" d-flex align-items-center flex-column justify-content-center">
 					<h1 className="all-head">Client Requirement </h1>
 				</div>
-
 				<div className="container container-fluid">
 					<div className="row">
 						<div className="col-xl-6 col-sm-12 mb-5 text-center">
@@ -85,7 +84,6 @@ const TankpadPortfolio = () => {
 				<div className=" d-flex align-items-center flex-column justify-content-center">
 					<h1 className="all-head">Challenges </h1>
 				</div>
-
 				<div className="container container-fluid">
 					<div className="row">
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column order-2 order-xl-1">
@@ -117,7 +115,6 @@ const TankpadPortfolio = () => {
 								Features of product
 							</h1>
 						</div>
-
 						<div className="row">
 							<div className="col-lg-12">
 								<ul className="diwallet-style">
@@ -135,7 +132,6 @@ const TankpadPortfolio = () => {
 												digital content that is entirely
 												unique and original to them.
 											</span>
-
 										</p>
 									</li>
 									<li>
@@ -153,7 +149,6 @@ const TankpadPortfolio = () => {
 												list of all the NFTs. The list
 												serves as a reference and a
 												portfolio of the user's work.</span>
-
 										</p>
 									</li>
 									<li>
@@ -172,7 +167,6 @@ const TankpadPortfolio = () => {
 												to the world and easily transfer
 												their NFTs to other wallets
 											</span>
-
 										</p>
 									</li>
 									<li>
@@ -189,7 +183,6 @@ const TankpadPortfolio = () => {
 											<span className="secondsec-p">Tankpad opens up a world of
 												possibilities for creators to
 												monetize their work globally.</span>
-
 										</p>
 									</li>
 									<li>
@@ -209,7 +202,6 @@ const TankpadPortfolio = () => {
 												marketplaces, providing flexibility
 												and control over their digital
 												assets.</span>
-
 										</p>
 									</li>
 								</ul>
@@ -240,7 +232,14 @@ const TankpadPortfolio = () => {
 				</div>
 			</div>
 
-
+			<div className="blackdiv px-3">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between flex-wrap py-3">
+					<p>How you transform your ideas into reality?</p>
+					<Link href="https://www.codiste.com/blockchain-development-company" className="book-btn">
+						Explore more
+					</Link>
+				</div>
+			</div>
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>

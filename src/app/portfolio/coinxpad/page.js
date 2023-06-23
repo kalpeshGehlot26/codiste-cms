@@ -155,7 +155,6 @@ const CoinxpadPortfolio = () => {
 											<br />
 											<span className="secondsec-p">Supports multiple blockchain
 												platforms</span>
-
 										</p>
 									</li>
 									<li>
@@ -172,7 +171,6 @@ const CoinxpadPortfolio = () => {
 											<span className="secondsec-p">Provides a streamlined process for
 												projects to launch and investors to
 												participate</span>
-
 										</p>
 									</li>
 									<li>
@@ -189,7 +187,6 @@ const CoinxpadPortfolio = () => {
 											<span className="secondsec-p">Includes all necessary project
 												information such as team,
 												tokenomics, and use case</span>
-
 										</p>
 									</li>
 									<li>
@@ -206,7 +203,6 @@ const CoinxpadPortfolio = () => {
 											<span className="secondsec-p">High level of security using
 												advanced security protocols and
 												strict KYC/AML process</span>
-
 										</p>
 									</li>
 								</ul>
@@ -238,6 +234,15 @@ const CoinxpadPortfolio = () => {
 				</div>
 			</div>
 
+			<div className="blackdiv px-3">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between flex-wrap py-3">
+					<p>How you transform your ideas into reality?</p>
+					<Link href="https://www.codiste.com/cryptocurrency-development-company" className="book-btn">
+						Explore more
+					</Link>
+				</div>
+			</div>
+
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
@@ -246,7 +251,6 @@ const CoinxpadPortfolio = () => {
 								Witness How We Drive Soul in Ideas!
 							</h1>
 						</div>
-
 						<div
 							id="carouselExampleDark"
 							className="carousel carousel-dark slide carousel-box"

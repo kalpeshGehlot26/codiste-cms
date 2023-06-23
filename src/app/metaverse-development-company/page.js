@@ -35,7 +35,7 @@ const MetaverseDevelopmentCompany = () => {
 										integrating with traditional website/mobile and stand-alone metaverse service applications built on
 										secure, scalable, and reliable blockchain networks, APIs, and mixed realities.
 									</p>
-									<button className="book-btn">Let’s Talk</button>
+									<Link href="/contact" className="book-btn">Let’s Talk</Link>
 								</div>
 								<div className="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0"><img className='img-fluid' src="assets/images/main/metaverse.png"
 									alt="Enterprise-Grade Metaverse" /></div>
