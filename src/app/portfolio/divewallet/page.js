@@ -32,11 +32,11 @@ const DivewalletPortfolio = () => {
 										Polygon, and Solana.
 									</p>
 									<Link
-										className="book-btn"
-										href="//www.divewallet.net/"
 										target="_blank"
+										href="/contact"
+										className="book-btn"
 									>
-										Live Project
+										Sync Up for the Project
 									</Link>
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2">
@@ -51,8 +51,6 @@ const DivewalletPortfolio = () => {
 					</section>
 				</div>
 			</div>
-
-
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -279,6 +277,15 @@ const DivewalletPortfolio = () => {
 								</ul>
 							</div>
 						</div>
+						<div className="d-flex justify-content-center">
+							<Link
+								className="book-btn"
+								href="//www.divewallet.net/"
+								target="_blank"
+							>
+								Live Project
+							</Link>
+						</div>
 					</section>
 				</div>
 			</div>
@@ -299,16 +306,6 @@ const DivewalletPortfolio = () => {
 						which means no password would be stored on any device,
 						enhancing the security.
 					</p>
-				</div>
-			</div>
-
-
-			<div className="blackdiv px-3">
-				<div className=" container container-fluid d-flex align-items-center justify-content-between flex-wrap py-3">
-					<p>How you transform your ideas into reality?</p>
-					<Link href="https://www.codiste.com/cryptocurrency-development-company" className="book-btn">
-						Explore more
-					</Link>
 				</div>
 			</div>
 
@@ -358,7 +355,14 @@ const DivewalletPortfolio = () => {
 					</div>
 				</section>
 			</div>
-
+			<div className="blackdiv px-3">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between flex-wrap py-3">
+					<p>How you transform your ideas into reality?</p>
+					<Link href="https://www.codiste.com/cryptocurrency-development-company" className="book-btn">
+						Explore more
+					</Link>
+				</div>
+			</div>
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>

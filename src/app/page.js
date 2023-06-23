@@ -4,7 +4,7 @@ import jsonData from "./data/schema";
 export const metadata = {
 	title: "Leading Blockchain and Software Development Company | Codiste",
 	description:
-		"Codiste a leading blockchain and software development company offers tailored expertise for advanced tech solutions. Discover innovation to business solutions.",
+		"Experience innovative IT services from Codiste, a leading blockchain development company. Specializing in Blockchain, Metaverse, AI, ML, AR&VR,Cryptocurrency and NFT.",
 };
 
 export default function Home() {

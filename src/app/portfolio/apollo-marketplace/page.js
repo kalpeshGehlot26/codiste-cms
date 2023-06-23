@@ -32,10 +32,10 @@ const ApolloPortfolio = () => {
 									</p>
 									<Link
 										target="_blank"
-										href="https://app.a11.finance/services"
+										href="/contact"
 										className="book-btn"
 									>
-										Live Project
+										Kick start the Project
 									</Link>
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2">
@@ -211,6 +211,16 @@ const ApolloPortfolio = () => {
 								</ul>
 							</div>
 						</div>
+						<div className="d-flex justify-content-center">
+							<Link
+								target="_blank"
+								href="https://app.a11.finance/services"
+								className="book-btn "
+							>
+								Live Project
+							</Link>
+						</div>
+
 					</section>
 				</div>
 			</div>
@@ -260,14 +270,7 @@ const ApolloPortfolio = () => {
 					</p>
 				</div>
 			</div>
-			<div className="blackdiv px-3">
-				<div className=" container container-fluid d-flex align-items-center justify-content-between flex-wrap py-3">
-					<p>How you transform your ideas into reality?</p>
-					<Link href="https://www.codiste.com/nft-development-company" className="book-btn">
-						Explore more
-					</Link>
-				</div>
-			</div>
+
 
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
@@ -429,6 +432,7 @@ const ApolloPortfolio = () => {
 				</div>
 			</div>
 
+
 			<div className="container container-fluid py-4">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -463,7 +467,14 @@ const ApolloPortfolio = () => {
 					</div>
 				</section>
 			</div>
-
+			<div className="blackdiv px-3">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between flex-wrap py-3">
+					<p>How you transform your ideas into reality?</p>
+					<Link href="https://www.codiste.com/nft-development-company" className="book-btn">
+						Explore more
+					</Link>
+				</div>
+			</div>
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>

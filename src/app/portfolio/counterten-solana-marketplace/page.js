@@ -19,7 +19,13 @@ const CounterTenPortfolio = () => {
                   <h1 className="all-head">CounterTen – Solana Marketplace</h1>
                   <p className="all-p me-5 my-4">CounterTEN is a Solana-based NFT platform that enables brands to create and sell NFTs for a variety of purposes, from event access and product launches to collectibles and memberships. The platform provides flexibility for businesses to increase revenue and engagement, and has already been used successfully by luxury car and clothing brands. CounterTEN is a game-changer for brands looking to connect with their customers in an innovative way using NFTs.
                   </p>
-                  <Link className="book-btn" href='https://www.counterten.com/' target="_blank">Live Project</Link>
+                  <Link
+                    target="_blank"
+                    href="/contact"
+                    className="book-btn"
+                  >
+                    Plan Your Project Meeting
+                  </Link>
                 </div>
                 <div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="/assets/images/case-couter10/Counterten.png" alt="CounterTen - Digital Collectible platform for Loyalty, Brands and events" /></div>
               </div>
@@ -49,7 +55,7 @@ const CounterTenPortfolio = () => {
 
       <div className="container container-fluid py-5">
         <div className=" d-flex align-items-center flex-column justify-content-center">
-          <h1 className="all-head">Challenges </h1>
+          <h1 className="all-blog">Challenges </h1>
         </div>
 
         <div className="container container-fluid">
@@ -95,6 +101,9 @@ const CounterTenPortfolio = () => {
                 </ul>
               </div>
             </div>
+            <div className="d-flex justify-content-center">
+              <Link className="book-btn" href='https://www.counterten.com/' target="_blank">Live Project</Link>
+            </div>
           </section>
         </div>
       </div>
@@ -107,14 +116,7 @@ const CounterTenPortfolio = () => {
           </p>
         </div>
       </div>
-      <div className="blackdiv px-3">
-        <div className=" container container-fluid d-flex align-items-center justify-content-between flex-wrap py-3">
-          <p>How you transform your ideas into reality?</p>
-          <Link href="https://www.codiste.com/nft-development-company" className="book-btn">
-            Explore more
-          </Link>
-        </div>
-      </div>
+
 
       <div className="bg-color py-5">
         <div className="container container-fluid">
@@ -261,7 +263,14 @@ const CounterTenPortfolio = () => {
           </div>
         </section>
       </div>
-
+      <div className="blackdiv px-3">
+        <div className=" container container-fluid d-flex align-items-center justify-content-between flex-wrap py-3">
+          <p>How you transform your ideas into reality?</p>
+          <Link href="https://www.codiste.com/nft-development-company" className="book-btn">
+            Explore more
+          </Link>
+        </div>
+      </div>
       <div className="bg-color py-5">
         <div className="container container-fluid">
           <section>

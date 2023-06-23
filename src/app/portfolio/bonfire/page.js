@@ -29,11 +29,11 @@ const BornfirePortfolio = () => {
 										investments and list the properties.
 									</p>
 									<Link
-										className="book-btn"
-										href="https://www.bonfire.capital/"
 										target="_blank"
+										href="/contact"
+										className="book-btn"
 									>
-										Live Project
+										Discuss Your Project
 									</Link>
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2">
@@ -126,7 +126,6 @@ const BornfirePortfolio = () => {
 								features
 							</p>
 						</div>
-
 						<div className="row">
 							<div className="col-lg-12">
 								<ul className="diwallet-style">
@@ -207,7 +206,7 @@ const BornfirePortfolio = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5">
+			<div className="container container-fluid pb-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head text-center my-3 ">
 						Final Product
@@ -222,16 +221,17 @@ const BornfirePortfolio = () => {
 						by 45%.
 					</p>
 				</div>
-			</div>
-
-			<div className="blackdiv px-3">
-				<div className=" container container-fluid d-flex align-items-center justify-content-between flex-wrap py-3">
-					<p>How you transform your ideas into reality?</p>
-					<Link href="https://www.codiste.com/cryptocurrency-development-company" className="book-btn">
-						Explore more
+				<div className="d-flex justify-content-center">
+					<Link
+						className="book-btn"
+						href="https://www.bonfire.capital/"
+						target="_blank"
+					>
+						Live Project
 					</Link>
 				</div>
 			</div>
+
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
@@ -444,7 +444,14 @@ const BornfirePortfolio = () => {
 					</div>
 				</section>
 			</div>
-
+			<div className="blackdiv px-3">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between flex-wrap py-3">
+					<p>How you transform your ideas into reality?</p>
+					<Link href="https://www.codiste.com/cryptocurrency-development-company" className="book-btn">
+						Explore more
+					</Link>
+				</div>
+			</div>
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>

@@ -16,7 +16,7 @@ const TankpadPortfolio = () => {
 						<div className="row firstsec ">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
 								<div className="col-12 col-lg-5 order-2 order-lg-1">
-									<h1 className="all-head">Tankpad – Binance chain Minting</h1>
+									<h1 className="all-blog">Tankpad – Binance chain Minting</h1>
 									<p className="all-p me-5 my-4">
 										<strong>
 											Tankpad is a user-friendly platform
@@ -30,6 +30,13 @@ const TankpadPortfolio = () => {
 										digital assets by transferring NFTs to
 										other wallets.
 									</p>
+									<Link
+										target="_blank"
+										href="/contact"
+										className="book-btn"
+									>
+										Kick start the Project
+									</Link>
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2">
 									<img
@@ -80,7 +87,7 @@ const TankpadPortfolio = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center">
-					<h1 className="all-head">Challenges </h1>
+					<h1 className="all-blog">Challenges </h1>
 				</div>
 				<div className="container container-fluid">
 					<div className="row">
