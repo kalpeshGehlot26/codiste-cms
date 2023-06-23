@@ -60,7 +60,6 @@ const CyphaPortfolio = () => {
 				<div className=" d-flex align-items-center flex-column justify-content-center">
 					<h1 className="all-head">Client Requirement</h1>
 				</div>
-
 				<div className="container container-fluid">
 					<div className="row">
 						<div className="col-xl-6 col-sm-12 mb-5 text-center">
@@ -124,7 +123,6 @@ const CyphaPortfolio = () => {
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head"> Features of Product</h1>
 						</div>
-
 						<div className="row">
 							<div className="col-lg-12">
 								<ul className="diwallet-style">
@@ -140,7 +138,6 @@ const CyphaPortfolio = () => {
 											</span>
 											<br />
 											<span className="secondsec-p">	Record voice over instrumentals</span>
-
 										</p>
 									</li>
 									<li>
@@ -156,7 +153,6 @@ const CyphaPortfolio = () => {
 											<br />
 											<span className="secondsec-p">	Share content with friends and
 												followers on social media</span>
-
 										</p>
 									</li>
 									<li>
@@ -172,7 +168,6 @@ const CyphaPortfolio = () => {
 											<br />
 											<span className="secondsec-p">		Gamification aspect with tokens that
 												can be exchanged for rewards</span>
-
 										</p>
 									</li>
 									<li>
@@ -188,7 +183,6 @@ const CyphaPortfolio = () => {
 											<br />
 											<span className="secondsec-p">	Discover new talent from all over
 												the world</span>
-
 										</p>
 									</li>
 									<li>
@@ -204,7 +198,6 @@ const CyphaPortfolio = () => {
 											<br />
 											<span className="secondsec-p">Great platform for established music
 												artists to reach a wider audience</span>
-
 										</p>
 									</li>
 									<li>
@@ -221,7 +214,6 @@ const CyphaPortfolio = () => {
 											<span className="secondsec-p">	New way for music producers and
 												record labels to discover and sign
 												new talent</span>
-
 										</p>
 									</li>
 								</ul>
@@ -234,7 +226,6 @@ const CyphaPortfolio = () => {
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head text-center my-3 ">
-						{" "}
 						What did we deliver?
 					</h1>
 					<p className="secondsec-p text-center">
@@ -268,7 +259,6 @@ const CyphaPortfolio = () => {
 								Witness How We Drive Soul in Ideas!
 							</h1>
 						</div>
-
 						<div
 							id="carouselExampleDark"
 							className="carousel carousel-dark slide carousel-box"

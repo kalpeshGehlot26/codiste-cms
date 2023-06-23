@@ -13,7 +13,7 @@ const CaseStudySlider = () => {
                 focus: 'center',
                 pagination: true,
                 autoplay: false,
-                interval: 2000, 
+                interval: 2000,
                 perPage: 4,
                 arrows: false,
                 autoScroll: {
@@ -40,8 +40,6 @@ const CaseStudySlider = () => {
                         </div>
                     </div>
                 </SplideSlide>
-
-               
             </SplideTrack>
         </Splide>
     );

@@ -21,13 +21,9 @@ const HomePage = () => {
 	const [totalServiceCount, setTotalServiceCount] = useState(null);
 	useEffect(() => {
 		const handleScroll = () => {
-			// Handle scroll event here
+
 		};
-
-		// Add the event listener with passive: true option
 		window.addEventListener('scroll', handleScroll, { passive: true });
-
-		// Clean up the event listener on component unmount
 		return () => {
 			window.removeEventListener('scroll', handleScroll);
 		};
@@ -37,23 +33,6 @@ const HomePage = () => {
 	return (
 		<div>
 			<section className="video-containeraa videosec">
-				{/* <div className="ratio ratio-16x9" id="video-container">
-					<iframe src="https://player.vimeo.com/video/828259341?autoplay=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen webkitallowfullscreen mozallowfullscreen title="Codiste_Home"></iframe>
-				</div>
-				<script src="https://player.vimeo.com/api/player.js"></script> */}
-
-
-				{/* <div className="ratio ratio-16x9" id="video-container">
-					<iframe
-						src="https://player.vimeo.com/video/828259341?background=1&autoplay=1"
-						frameborder="0"
-						allow="autoplay; fullscreen; picture-in-picture"
-						allowfullscreen
-						webkitallowfullscreen
-						mozallowfullscreen
-						title="Codiste_Home"
-					></iframe>
-				</div> */}
 				<div>
 					<VideoPlayer />
 				</div>
@@ -71,7 +50,6 @@ const HomePage = () => {
 					</div>
 				</div>
 			</section>
-
 			<ClientSlider />
 
 			<div className="container container-fluid py-5">
@@ -113,14 +91,6 @@ const HomePage = () => {
 							</div>
 						</div>
 
-						{/* <div className="col-xl-6 col-md-12">
-							<section className="video-containerSmall">
-								<div className="ratio ratio-16x9" id="video-container" >
-									<iframe src="https://player.vimeo.com/video/828259500" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen webkitallowfullscreen mozallowfullscreen title="Clientele Video"></iframe>
-								</div>
-								<script src="https://player.vimeo.com/api/player.js"></script>
-							</section>
-						</div> */}
 						<div className="col-xl-6 col-md-12">
 							<section className="video-containerSmall">
 								<LazyLoad offsetVertical={500}>
@@ -145,23 +115,20 @@ const HomePage = () => {
 
 			<div className="container container-fluid  firstsec">
 				<div className=" d-flex align-items-center flex-column justify-content-center">
-					<h1 className="all-head">Codiste As Company </h1>
+					<h1 className="all-head">Codiste As Company</h1>
 				</div>
 				<div className="container container-fluid">
 					<div className="row">
 						<div className="col-xl-6 col-sm-12 mb-5">
-
 							<img className='img-fluid d-flex align-items-center justify-content-center'
 								style={{
 									width: "auto",
 									margin: "auto",
 									padding: "20px",
 								}} src="assets/images/home/Codiste_Company.png" alt="Codiste As Company" loading="lazy" />
-
 						</div>
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">
-							<h3 className="mb-3">Looking to stay ahead of the curve?
-							</h3>
+							<h3 className="mb-3">Looking to stay ahead of the curve?</h3>
 							<p className="secondsec-p">Codiste's expertise in end-to-end IT development support and services has you covered.
 								We have the experience, expertise, and zeal to continuously innovate and build better solutions with the
 								latest technologies to cater to businesses. As your one-stop IT services solution, we provide tailored
@@ -213,7 +180,6 @@ const HomePage = () => {
 						<div className="col-lg-4 col-md-6 col-sm-12">
 							<div className="casediwallet-block ">
 								<div className=" case-position">
-									{" "}
 									<img
 										className="img-fluid "
 										alt="Diwallet"
@@ -234,7 +200,6 @@ const HomePage = () => {
 						<div className="col-lg-4 col-md-6 col-sm-12">
 							<div className="counterten-block">
 								<div className=" case-position">
-									{" "}
 									<img
 										className="img-fluid "
 										alt="counterten"
@@ -253,7 +218,6 @@ const HomePage = () => {
 						<div className="col-lg-4 col-md-6 col-sm-12">
 							<div className="tankpad-block">
 								<div className=" case-position">
-									{" "}
 									<img
 										className="img-fluid "
 										alt="Tankpad"
@@ -286,10 +250,6 @@ const HomePage = () => {
 									Are you looking for a global technology
 									leader to partner for your tech support?
 								</h1>
-								{/* <h2>
-									Fill out
-									the form & reach out to us.
-								</h2> */}
 							</div>
 							<div className="col-lg-6 col-md-12 ">
 								<div className="need-block h-100">

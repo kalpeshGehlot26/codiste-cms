@@ -25,10 +25,8 @@ const Career = () => {
 					<div className="col-xl-6 col-md-5 col-sm-12 mb-5 p-4">
 						<img className='img-fluid d-flex align-items-center justify-content-center' src="assets/images/main/Career_.png"
 							alt="Team" />
-
 					</div>
 					<div className="col-xl-6 col-md-7 col-sm-12 mb-5 p-4">
-
 						<h3 className="mb-3">Are you passionate about technology and looking for a dynamic career in the tech
 							industry? </h3>
 						<p className="secondsec-p mb-5">Our company is at the forefront of innovation, providing advanced software and
@@ -95,7 +93,6 @@ const Career = () => {
 								<br />
 								Balance
 							</h3>
-
 							<p className="secondsec-p">
 								Codiste values work-life balance and supports
 								employees' well-being with flexible work
@@ -112,7 +109,6 @@ const Career = () => {
 								Opportunities <br />
 								for Growth
 							</h3>
-
 							<p className="secondsec-p">
 								Our employees have access to a range of
 								opportunities for growth and development,
@@ -127,7 +123,6 @@ const Career = () => {
 							<h3 className="secondsec-head mt-4">
 								Collaborative Environment
 							</h3>
-
 							<p className="secondsec-p">
 								From brainstorming sessions to cross-functional
 								projects, we encourage open communication and
@@ -223,8 +218,6 @@ const Career = () => {
 							<h1 className="">
 								Apply now Our HR team will reach out for the further process.
 							</h1>
-
-
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

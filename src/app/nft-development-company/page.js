@@ -60,7 +60,6 @@ const NFTDevelopment = () => {
 							Why Choose Codiste For NFT Development Services?
 						</h1>
 					</div>
-
 					<div className="row">
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
@@ -208,7 +207,6 @@ const NFTDevelopment = () => {
 											loading="lazy" src="assets/images/tech/Binance_Logo.png"
 										/>
 										<p className="text-uppercase">Binance</p>
-
 									</li>
 									<li>
 										<img
@@ -417,7 +415,6 @@ const NFTDevelopment = () => {
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
@@ -485,7 +482,6 @@ const NFTDevelopment = () => {
 								We are proud to have your trust in us!{" "}
 							</h1>
 						</div>
-
 						<div
 							id="carouselExampleDark"
 							className="carousel carousel-dark slide carousel-box"
@@ -524,7 +520,6 @@ const NFTDevelopment = () => {
 											Marketplace and which made amazing
 											journey.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												loading="lazy" src="assets/images/iCrowsel.png"
@@ -558,7 +553,6 @@ const NFTDevelopment = () => {
 											attitude have been hallmarks of
 											their work.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												loading="lazy" src="assets/images/iCrowsel.png"
@@ -606,7 +600,6 @@ const NFTDevelopment = () => {
 											professionalism, and commitment to
 											delivering high-quality work.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												loading="lazy" src="assets/images/iCrowsel.png"
@@ -668,7 +661,6 @@ const NFTDevelopment = () => {
 								Drop your details.<br /> We can
 								take it from here!
 							</h1>
-
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

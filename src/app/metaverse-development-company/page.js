@@ -66,7 +66,6 @@ const MetaverseDevelopmentCompany = () => {
 						<h1 className="all-head text-center">
 							Why Choose Codiste for Metaverse Services?
 						</h1>
-
 					</div>
 
 					<div className="row">
@@ -209,7 +208,6 @@ const MetaverseDevelopmentCompany = () => {
 										/>
 										<p className="text-uppercase">Binance</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" alt="Corda"
@@ -217,7 +215,6 @@ const MetaverseDevelopmentCompany = () => {
 										/>
 										<p className="text-uppercase">Corda</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" alt="ethereum"
@@ -225,7 +222,6 @@ const MetaverseDevelopmentCompany = () => {
 										/>
 										<p className="text-uppercase">ethereum</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" alt="fantom"
@@ -233,7 +229,6 @@ const MetaverseDevelopmentCompany = () => {
 										/>
 										<p className="text-uppercase">fantom</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" alt="polygon"
@@ -522,15 +517,12 @@ const MetaverseDevelopmentCompany = () => {
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
 			</div>
-
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head">What Our Clients Say</h1>
-
 						</div>
-
 						<div
 							id="carouselExampleDark"
 							className="carousel carousel-dark slide carousel-box"
@@ -576,14 +568,12 @@ const MetaverseDevelopmentCompany = () => {
 											being responsive and accessible even
 											during weekends.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
-
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
@@ -610,7 +600,6 @@ const MetaverseDevelopmentCompany = () => {
 											Marketplace and which made amazing
 											journey.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
@@ -641,7 +630,6 @@ const MetaverseDevelopmentCompany = () => {
 											was reliable, well-organized, and
 											proactive.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
@@ -704,7 +692,6 @@ const MetaverseDevelopmentCompany = () => {
 								Want to leverage Metaverse for your business?
 								<br />Let us know your details in the form.
 							</h1>
-
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

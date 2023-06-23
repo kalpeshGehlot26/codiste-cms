@@ -54,7 +54,6 @@ const MobileAppDevelopmentCompany = () => {
 						<h1 className="all-head text-center">
 							Our Mobile App Development Services{" "}
 						</h1>
-
 					</div>
 					<ServiceInnerItems serviceItems={mobileList} />
 				</section>
@@ -67,7 +66,6 @@ const MobileAppDevelopmentCompany = () => {
 							Why Choose Codiste For Mobile App Development
 							Services?{" "}
 						</h1>
-
 					</div>
 
 					<div className="row">
@@ -268,7 +266,6 @@ const MobileAppDevelopmentCompany = () => {
 										/>
 										<p className="text-uppercase">Ionic</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" alt="java script"
@@ -444,7 +441,6 @@ const MobileAppDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
@@ -460,7 +456,6 @@ const MobileAppDevelopmentCompany = () => {
 									away.
 								</p>
 							</div>
-
 							<div className="mt-4">
 								<Link
 									href="/portfolio/pixipages"
@@ -483,7 +478,6 @@ const MobileAppDevelopmentCompany = () => {
 					</div>
 				</div>
 			</div>
-
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-blog">Blogs</h1>
@@ -506,7 +500,6 @@ const MobileAppDevelopmentCompany = () => {
 								We take pride in your trust!
 							</h1>
 						</div>
-
 						<div
 							id="carouselExampleDark"
 							className="carousel carousel-dark slide carousel-box"
@@ -587,7 +580,6 @@ const MobileAppDevelopmentCompany = () => {
 											professionalism, and commitment to
 											delivering high-quality work.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												loading="lazy" src="assets/images/iCrowsel.png"
@@ -621,7 +613,6 @@ const MobileAppDevelopmentCompany = () => {
 											was reliable, well-organized, and
 											proactive.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												loading="lazy" src="assets/images/iCrowsel.png"
@@ -683,7 +674,6 @@ const MobileAppDevelopmentCompany = () => {
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-4">
 							<h1>Do you want a Feature-rich mobile app?<br />
 								Get in touch with us!</h1>
-
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

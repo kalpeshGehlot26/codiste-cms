@@ -8,7 +8,6 @@ const Posts = () => {
 	const [totalPostCount, setTotalPostCount] = useState(null);
 	const [page, setPage] = useState(1);
 	const [loading, setLoading] = useState(false);
-
 	const getBlogs = async () => {
 		setLoading(true);
 		getPosts(page)
@@ -19,7 +18,6 @@ const Posts = () => {
 			.catch((error) => console.error(error))
 			.finally(() => setLoading(false));
 	};
-
 	useEffect(() => {
 		getBlogs();
 	}, [page]);

@@ -48,7 +48,6 @@ const CryptoDevelopmentCompany = () => {
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h1 className="all-head">Our Cryptocurrency Development Services</h1>
-
 					</div>
 					<ServiceInnerItems serviceItems={cryptoList} />
 				</section>
@@ -61,7 +60,6 @@ const CryptoDevelopmentCompany = () => {
 							Why Choose Codiste for Cryptocurrency Development
 							Services?
 						</h1>
-
 					</div>
 
 					<div className="row">
@@ -154,7 +152,6 @@ const CryptoDevelopmentCompany = () => {
 								security, ensuring that your users' funds and
 								data are always kept safe, considering that the
 								wallet holds the keys to accessing crypto funds.
-
 							</p>
 						</div>
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
@@ -569,7 +566,6 @@ const CryptoDevelopmentCompany = () => {
 								Success Stories from our clientele!
 							</h1>
 						</div>
-
 						<div
 							id="carouselExampleDark"
 							className="carousel carousel-dark slide carousel-box"
@@ -614,7 +610,6 @@ const CryptoDevelopmentCompany = () => {
 											been instrumental in the project’s
 											success.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
@@ -651,7 +646,6 @@ const CryptoDevelopmentCompany = () => {
 											recommended for Blockchain
 											professional studio.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
@@ -686,7 +680,6 @@ const CryptoDevelopmentCompany = () => {
 											major issues or vulnerabilities were
 											found in the final platform.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
@@ -748,7 +741,6 @@ const CryptoDevelopmentCompany = () => {
 							<h1>
 								Contact us for reliable and trustworthy cryptocurrency Services.
 							</h1>
-
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

@@ -470,7 +470,6 @@ const AIDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
@@ -494,7 +493,6 @@ const AIDevelopmentCompany = () => {
 									lovers.
 								</p>
 							</div>
-
 							<div className="mt-4">
 								<Link
 									href="/portfolio/cypha-your-sound"
@@ -540,7 +538,6 @@ const AIDevelopmentCompany = () => {
 								Hear our clients' resounding praise!
 							</h1>
 						</div>
-
 						<div
 							id="carouselExampleDark"
 							className="carousel carousel-dark slide carousel-box"
@@ -584,7 +581,6 @@ const AIDevelopmentCompany = () => {
 											attitude have been hallmarks of
 											their work.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
@@ -634,7 +630,6 @@ const AIDevelopmentCompany = () => {
 											professionalism, and commitment to
 											delivering high-quality work.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
@@ -669,7 +664,6 @@ const AIDevelopmentCompany = () => {
 											was reliable, well-organized, and
 											proactive.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"

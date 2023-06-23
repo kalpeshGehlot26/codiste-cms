@@ -27,7 +27,6 @@ const diwalletItems = [
     url: "/assets/images/diwallet-case/diwallet7.png",
     alt: "diwallet7"
   },
-
   {
     url: "/assets/images/diwallet-case/diwallet9.png",
     alt: "diwallet9"
@@ -80,8 +79,6 @@ const diwalletItems = [
     url: "/assets/images/diwallet-case/diwallet21.png",
     alt: "diwallet21"
   },
-
-
 ];
 
 export default diwalletItems;

@@ -11,8 +11,6 @@ export const metadata = {
 const DivewalletPortfolio = () => {
 	return (
 		<div>
-
-
 			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>
@@ -23,10 +21,9 @@ const DivewalletPortfolio = () => {
 										manager</h1>
 									<p className="all-p me-5 my-4">
 										<strong>
-											{" "}
 											Creating a 360-Degree Decentralized
 											Crypto Wallet
-										</strong>{" "}
+										</strong>
 										<br />
 										As Blockchain experts, Codiste develops a
 										highly-secured crypto wallet - ‘Divewallet’
@@ -66,7 +63,6 @@ const DivewalletPortfolio = () => {
 					<div className="row">
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">
 							<p className="secondsec-p">
-								{" "}
 								The client needed the crypto wallet to possess
 								the functionalities of Passcode and Biometrics
 								for better financial security at the users’ end.
@@ -108,7 +104,6 @@ const DivewalletPortfolio = () => {
 								optimum best to the end users.
 							</p>
 						</div>
-
 						<div className="row">
 							<div className="col-lg-12">
 								<ul className="diwallet-style">
@@ -123,11 +118,10 @@ const DivewalletPortfolio = () => {
 												Price Optimization
 											</span>
 											<br />
-											<span className="secondsec-p">		With third-party applications -
+											<span className="secondsec-p">With third-party applications -
 												Coingecko, CoinGapp, and LynxCrypto
 												for the best price analysis, the
 												end-user always gets the best price.</span>
-
 										</p>
 									</li>
 									<li>
@@ -144,7 +138,6 @@ const DivewalletPortfolio = () => {
 											<span className="secondsec-p">It helps users connect with the Web3
 												websites through the QR code and do
 												the required transactions.</span>
-
 										</p>
 									</li>
 									<li>
@@ -158,11 +151,10 @@ const DivewalletPortfolio = () => {
 												ManageToken
 											</span>
 											<br />
-											<span className="secondsec-p">	This feature automatically adds 500
+											<span className="secondsec-p">This feature automatically adds 500
 												tokens within the Divewallet once
 												the user creates the account, hence
 												saving time.</span>
-
 										</p>
 									</li>
 									<li>
@@ -176,11 +168,10 @@ const DivewalletPortfolio = () => {
 												Swapping
 											</span>
 											<br />
-											<span className="secondsec-p">	Backed by a third-party application,
+											<span className="secondsec-p">Backed by a third-party application,
 												ChangeNow, this feature helps the
 												end user swap coins within the
 												Divewallet.</span>
-
 										</p>
 									</li>
 									<li>
@@ -194,11 +185,10 @@ const DivewalletPortfolio = () => {
 												Price Alert
 											</span>
 											<br />
-											<span className="secondsec-p">	This unique feature facilitates the
+											<span className="secondsec-p">This unique feature facilitates the
 												end users to keep a watch on the
 												fluctuating prices of coins like
 												Bitcoin, Ether, etc.</span>
-
 										</p>
 									</li>
 									<li>
@@ -229,10 +219,9 @@ const DivewalletPortfolio = () => {
 												Wallet Security
 											</span>
 											<br />
-											<span className="secondsec-p">			It allows end users to enable or
+											<span className="secondsec-p">It allows end users to enable or
 												disable the Passcode and Password as
 												per their needs.</span>
-
 										</p>
 									</li>
 									<li>
@@ -246,11 +235,10 @@ const DivewalletPortfolio = () => {
 												Multicoin Wallet
 											</span>
 											<br />
-											<span className="secondsec-p">		This feature allows end users to add
+											<span className="secondsec-p">This feature allows end users to add
 												multiple accounts and create
 												multiple wallets within the
 												Divewallet.</span>
-
 										</p>
 									</li>
 									<li>
@@ -264,12 +252,11 @@ const DivewalletPortfolio = () => {
 												Dusting Attack Alert
 											</span>
 											<br />
-											<span className="secondsec-p">			This functionality helps the end
+											<span className="secondsec-p">This functionality helps the end
 												users of the Divewallet to secure
 												their accounts by giving them
 												real-time alerts in case of any
 												breach.</span>
-
 										</p>
 									</li>
 									<li>
@@ -287,7 +274,6 @@ const DivewalletPortfolio = () => {
 												holds any NFTs related to Ethereum
 												or Binance, those NFTs will be
 												listed within the Divewallet.</span>
-
 										</p>
 									</li>
 								</ul>
@@ -300,7 +286,6 @@ const DivewalletPortfolio = () => {
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head text-center text-center my-3 ">
-						{" "}
 						What did we deliver?
 					</h1>
 					<p className="secondsec-p text-center">
@@ -374,7 +359,6 @@ const DivewalletPortfolio = () => {
 							<h1 className="all-head text-center">
 								Satisfied clients is our proof of our excellence!
 							</h1>
-
 						</div>
 
 						<div className="carousel-inner career-block">

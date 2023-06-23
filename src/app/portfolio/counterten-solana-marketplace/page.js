@@ -59,7 +59,6 @@ const CounterTenPortfolio = () => {
                 className='img-fluid'
                 style={{ width: "auto", padding: "20px" }}
                 loading="lazy" src="/assets/images/case-couter10/challanges.png" alt="Diwallet-Case" />
-
             </div>
             <div className="col-lg-6 col-12 mb-5  d-flex  justify-content-center flex-column">
               <p className="secondsec-p"> The NFT market is rapidly expanding, and brands need a reliable platform to create, sell, and manage NFTs. Additionally, there is a need for a platform that provides flexibility to businesses looking to monetize their work and engage with their customers beyond traditional marketing channels.
@@ -75,7 +74,6 @@ const CounterTenPortfolio = () => {
             <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
               <h1 className="all-head"> Features of Product</h1>
             </div>
-
             <div className="row">
               <div className="col-lg-12">
                 <ul className="diwallet-style">
@@ -252,7 +250,6 @@ const CounterTenPortfolio = () => {
           <div className="row">
             <div className="col-lg-12">
               <ul className="tech-style">
-
                 <li>
                   <img className='img-fluid' alt='react' loading="lazy" src="/assets/images/tech/React-icon.svg.png" />
                 </li>
@@ -270,12 +267,8 @@ const CounterTenPortfolio = () => {
           <section>
             <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
               <h1 className="all-head text-center">Satisfied clients is our proof of our excellence!</h1>
-
             </div>
-
-
             <div className="carousel-inner career-block">
-
               <div className="d-flex align-items-center text-center flex-column custom-crousel">
                 <h3>I am pleased to say that working with Codiste Pvt Ltd has been a positive experience for our community. The project is now complete, and the feedback we have received on the platform has been overwhelmingly positive. Throughout the project, Codiste maintained open communication lines, regularly updating us on progress and following the agreed timeline. They delivered an app with impressive functionalities and accepted every challenge we gave them. Overall, we are satisfied with the outcome of the project and would recommend Codiste for their expertise, professionalism, and commitment to delivering high-quality work.
                 </h3>
@@ -286,7 +279,6 @@ const CounterTenPortfolio = () => {
                   <p>CoFounder</p>
                 </div>
               </div>
-
             </div>
           </section>
         </div>
@@ -310,7 +302,6 @@ const CounterTenPortfolio = () => {
               <div className="need-block h-100">
                 <h2 className="">How Can We <b>Help?</b> </h2>
                 <CaseStudyForm text="Let's Discuss" />
-
               </div>
             </div>
           </div>

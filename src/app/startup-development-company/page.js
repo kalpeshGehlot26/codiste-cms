@@ -170,7 +170,7 @@ const StartupDevelopmentCompany = () => {
 								loading="lazy" src="assets/images/Service-startup/Tech & Dev Hub.png"
 							/>
 							<h2 className="secondsec-head text-center">
-								Tech & Dev Hub{" "}
+								Tech & Dev Hub
 							</h2>
 							<p className="secondsec-p text-center">
 								We offer complete ecosystem development for
@@ -196,8 +196,6 @@ const StartupDevelopmentCompany = () => {
 				</div>
 			</div>
 
-
-
 			<div className="container container-fluid py-5 ulnodisc">
 				<h1 className="all-head text-center">
 					Startup Development Idea Process
@@ -215,7 +213,6 @@ const StartupDevelopmentCompany = () => {
 							entrepreneurs with comprehensive support and guidance to
 							navigate each step towards success.</span>
 					</li>
-
 					<li className="process__item">
 						<span className="process__number">2</span>
 						<span className="process__title">Prototype <br />Development</span>
@@ -226,7 +223,6 @@ const StartupDevelopmentCompany = () => {
 							the technical requirements to ensure that
 							the solution remains efficient.</span>
 					</li>
-
 					<li className="process__item">
 						<span className="process__number">3</span>
 						<span className="process__title">MVP<br />Development</span>
@@ -236,7 +232,6 @@ const StartupDevelopmentCompany = () => {
 							immunity to ensure a safe and secure end
 							product from scratch.</span>
 					</li>
-
 					<li className="process__item">
 						<span className="process__number">4</span>
 						<span className="process__title">Launch Tech<br />Support</span>
@@ -249,7 +244,6 @@ const StartupDevelopmentCompany = () => {
 					</li>
 				</ul>
 			</div>
-
 
 			<div className="bg-color py-5 mt-5">
 				<div className="container container-fluid">
@@ -565,12 +559,10 @@ const StartupDevelopmentCompany = () => {
 				</div>
 			</div>
 
-
 			<div className="py-5 bg-color">
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
@@ -584,7 +576,6 @@ const StartupDevelopmentCompany = () => {
 									possible.
 								</p>
 							</div>
-
 							<div className="mt-4">
 								<Link
 									href="/portfolio/apollo-marketplace"
@@ -621,7 +612,6 @@ const StartupDevelopmentCompany = () => {
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
 			</div>
-
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
@@ -630,7 +620,6 @@ const StartupDevelopmentCompany = () => {
 								Our work speaks in their words!
 							</h1>
 						</div>
-
 						<div
 							id="carouselExampleDark"
 							className="carousel carousel-dark slide carousel-box"
@@ -674,7 +663,6 @@ const StartupDevelopmentCompany = () => {
 											attitude have been hallmarks of
 											their work.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												loading="lazy" src="assets/images/iCrowsel.png"
@@ -722,7 +710,6 @@ const StartupDevelopmentCompany = () => {
 											professionalism, and commitment to
 											delivering high-quality work.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												loading="lazy" src="assets/images/iCrowsel.png"
@@ -756,7 +743,6 @@ const StartupDevelopmentCompany = () => {
 											was reliable, well-organized, and
 											proactive.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												loading="lazy" src="assets/images/iCrowsel.png"
@@ -821,12 +807,11 @@ const StartupDevelopmentCompany = () => {
 								Are you looking for a cost-effective startup
 								software development company?<br />Well, the question is no more!
 							</h1>
-
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">
 								<h2 className="">
-									How Can We <b>Help?</b>{" "}
+									How Can We <b>Help?</b>
 								</h2>
 								<CaseStudyForm text="Contact us" />
 							</div>

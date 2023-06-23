@@ -68,9 +68,7 @@ const About = () => {
 									with the highest customer life cycle for offshore service seekers globally. Codiste services have to define
 									the best “collaborative experience” for our clients and solution users.</p>
 							</div>
-
 						</div>
-
 					</div>
 				</div>
 			</div>
@@ -285,8 +283,6 @@ const About = () => {
 										Development Service
 									</Link>
 								</li>
-
-
 								<li>
 									<img
 										className="img-fluid"
@@ -300,7 +296,6 @@ const About = () => {
 										Development Service
 									</Link>
 								</li>
-
 								<li>
 									<img
 										className="img-fluid"
@@ -316,7 +311,6 @@ const About = () => {
 										Development Service
 									</Link>
 								</li>
-
 								<li>
 									<img
 										className="img-fluid"
@@ -367,10 +361,8 @@ const About = () => {
 											alt="linkedin"
 										/>
 									</a>
-
 								</div>
 								<p className="aboutall-p"> Co-Founder & CTO</p>
-
 							</div>
 							<div className="secondsec-p">
 								<p>
@@ -402,7 +394,6 @@ const About = () => {
 									</a>
 								</div>
 								<p className="aboutall-p">Co-Founder</p>
-
 							</div>
 							<div className="secondsec-p">
 								<p>
@@ -439,7 +430,6 @@ const About = () => {
 											/>{" "}
 										</a>
 									</li>
-
 									<li>
 										<a href="#">
 											<img
@@ -451,7 +441,6 @@ const About = () => {
 											/>{" "}
 										</a>
 									</li>
-
 									<li>
 										<a href="#">
 											{" "}
@@ -463,7 +452,6 @@ const About = () => {
 											/>{" "}
 										</a>
 									</li>
-
 									<li>
 										<a href="#">
 											<img
@@ -474,7 +462,6 @@ const About = () => {
 											/>{" "}
 										</a>
 									</li>
-
 									<li>
 										<a href="#">
 											{" "}
@@ -486,7 +473,6 @@ const About = () => {
 											/>
 										</a>
 									</li>
-
 									<li>
 										<a href="#">
 											<img
@@ -497,7 +483,6 @@ const About = () => {
 											/>{" "}
 										</a>
 									</li>
-
 									<li>
 										<a href="#">
 											{" "}
@@ -509,7 +494,6 @@ const About = () => {
 											/>
 										</a>
 									</li>
-
 									<li>
 										<a href="#">
 											<img
@@ -517,72 +501,61 @@ const About = () => {
 												src="assets/images/splide/Holygrails.svg"
 												loading="lazy"
 												alt="Holygrails - Solana NFT Marketplace"
-
-											/>{" "}
+											/>
 										</a>
 									</li>
-
 									<li>
 										<a href="#">
-											{" "}
 											<img
 												className="img-fluid"
 												src="assets/images/splide/Ikaris.svg"
 												loading="lazy"
 												style={{ width: "250px", height: "60px" }}
 												alt="Ikaris - NFT Showcase Mobile App"
-											/>{" "}
+											/>
 										</a>
 									</li>
-
 									<li>
 										<a href="#">
-											{" "}
 											<img
 												className="img-fluid"
 												src="assets/images/splide/Medizen.svg"
 												loading="lazy"
 												alt="Medizen - Pill Reminder and Drug interaction Detection app"
-											/>{" "}
+											/>
 										</a>
 									</li>
-
 									<li>
 										<a href="#">
-											{" "}
 											<img
 												className="img-fluid"
 												src="assets/images/splide/ml.svg"
 												loading="lazy"
 												alt="MLEstimation - AI Tool to Analyse your Building material"
-											/>{" "}
+											/>
 										</a>
 									</li>
-
 									<li>
 										<a href="#">
-											{" "}
 											<img
 												className="img-fluid"
 												src="assets/images/splide/MumbleRapperz.svg"
 												alt="MumbleRapperz - NFT Minting platform"
 												loading="lazy"
-											/>{" "}
+											/>
 										</a>
 									</li>
-
 									<li>
 										<a href="#">
-											{" "}
+
 											<img
 												className="img-fluid"
 												src="assets/images/splide/NearPro.svg"
 												alt="NearPro - Connecting Homeowner and top Contractor"
 												loading="lazy"
-											/>{" "}
+											/>
 										</a>
 									</li>
-
 									<li>
 										<a href="#">
 											<img
@@ -590,23 +563,20 @@ const About = () => {
 												src="assets/images/splide/Bloqhodler.jpg"
 												alt="Bloqhodler - Hedge fund investment app"
 												loading="lazy"
-											/>{" "}
+											/>
 										</a>
 									</li>
-
 									<li>
 										<a href="#">
-											{" "}
+
 											<img
 												className="img-fluid"
 												src="assets/images/splide/galaxyCoin.jpg"
 												alt="Galaxy Coin - Governance Token & Stacking Defi app"
 												loading="lazy"
-											/>{" "}
+											/>
 										</a>
 									</li>
-
-
 								</ul>
 							</div>
 						</div>
@@ -625,7 +595,6 @@ const About = () => {
 								development leader.
 							</p>
 						</div>
-
 					</section>
 					<div className="d-flex align-items-center justify-content-center">
 						<img
@@ -658,7 +627,6 @@ const About = () => {
 									loading="lazy"
 								/></div>
 								<div><h1 className="mb-0">India</h1></div>
-
 							</div>
 							<div className="contact-content">
 								<div className="contact-logo ms-lg-5 ms-0">
@@ -845,7 +813,6 @@ const About = () => {
 								<div>
 									<h1 className="mb-0">South-Africa</h1>
 								</div>
-
 							</div>
 							<div className="contact-content">
 								<div className="contact-logo ms-lg-5 ms-0">
@@ -1026,7 +993,6 @@ const About = () => {
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head text-center">Take the word of those who have benefitted from
 								Codiste !</h1>
-
 						</div>
 
 						<div
@@ -1072,14 +1038,12 @@ const About = () => {
 											attitude have been hallmarks of
 											their work.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
-
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
@@ -1121,7 +1085,6 @@ const About = () => {
 											professionalism, and commitment to
 											delivering high-quality work.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
@@ -1156,7 +1119,6 @@ const About = () => {
 											was reliable, well-organized, and
 											proactive.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
@@ -1216,12 +1178,11 @@ const About = () => {
 						<div className="row  d-flex align-items-center">
 							<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-4">
 								<h1>Start Building on Your Idea Today! <br />Get in touch with our team with this form.</h1>
-
 							</div>
 							<div className="col-lg-6 col-md-12 ">
 								<div className="need-block h-100">
 									<h2 className="">
-										How Can We <b>Help?</b>{" "}
+										How Can We <b>Help?</b>
 									</h2>
 									<CaseStudyForm text="Collaborate on Your Project" />
 								</div>

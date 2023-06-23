@@ -53,7 +53,6 @@ const BornfirePortfolio = () => {
 				<div className=" d-flex align-items-center flex-column justify-content-center">
 					<h1 className="all-head">Client Requirement</h1>
 				</div>
-
 				<div className="container container-fluid">
 					<div className="row">
 						<div className="col-xl-6 col-sm-12 mb-5 text-center">
@@ -90,10 +89,8 @@ const BornfirePortfolio = () => {
 					<div className=" d-flex align-items-center flex-column justify-content-center">
 						<h1 className="all-head">What did we deliver?</h1>
 					</div>
-
 					<div className="container container-fluid">
 						<div className="row">
-
 							<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">
 								<p className="secondsec-p">
 									Codiste team has developed a marketplace that allows
@@ -184,7 +181,6 @@ const BornfirePortfolio = () => {
 												investments easily.</span>
 										</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid"
@@ -214,7 +210,6 @@ const BornfirePortfolio = () => {
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head text-center my-3 ">
-						{" "}
 						Final Product
 					</h1>
 					<p className="secondsec-p text-center">
@@ -245,7 +240,6 @@ const BornfirePortfolio = () => {
 								Witness How We Drive Soul in Ideas!
 							</h1>
 						</div>
-
 						<div
 							id="carouselExampleDark"
 							className="carousel carousel-dark slide carousel-box"
@@ -437,7 +431,6 @@ const BornfirePortfolio = () => {
 										loading="lazy"
 									/>
 								</li>
-
 								<li>
 									<img
 										className="img-fluid"
@@ -460,7 +453,6 @@ const BornfirePortfolio = () => {
 								Satisfied clients is our proof of our excellence!
 							</h1>
 						</div>
-
 						<div className="carousel-inner career-block">
 							<div className="d-flex align-items-center text-center flex-column custom-crousel">
 								<h3>
@@ -496,7 +488,6 @@ const BornfirePortfolio = () => {
 					</section>
 				</div>
 			</div>
-
 			<div className="container container-fluid py-5">
 				<section>
 					<div>

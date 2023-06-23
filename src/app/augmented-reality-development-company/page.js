@@ -48,7 +48,6 @@ const ARVRDevelopmentCompany = () => {
 						<h1 className="all-head text-center">
 							Our AR/VR Development Services{" "}
 						</h1>
-
 					</div>
 					<ServiceInnerItems serviceItems={ARVRList} />
 				</section>
@@ -60,7 +59,6 @@ const ARVRDevelopmentCompany = () => {
 						<h1 className="all-head text-center">
 							Why Choose Codiste for AR/VR development services?{" "}
 						</h1>
-
 					</div>
 
 					<div className="row">
@@ -207,9 +205,7 @@ const ARVRDevelopmentCompany = () => {
 											src="assets/images/tech/APPGAMEKIT VR.png"
 										/>
 										<p>APPGAMEKIT VR</p>
-
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" loading="lazy" alt="Apple"
@@ -217,7 +213,6 @@ const ARVRDevelopmentCompany = () => {
 										/>
 										<p>APPLE ARKIT</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" loading="lazy" alt="Ar"
@@ -225,7 +220,6 @@ const ARVRDevelopmentCompany = () => {
 										/>
 										<p>ARTOOLKIT</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" loading="lazy" alt=""
@@ -247,7 +241,6 @@ const ARVRDevelopmentCompany = () => {
 										/>
 										<p>DEEP AR</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" loading="lazy" alt="GOOGLE"
@@ -269,7 +262,6 @@ const ARVRDevelopmentCompany = () => {
 										/>
 										<p>KUDAN</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" loading="lazy" alt="LIBGDX"
@@ -277,7 +269,6 @@ const ARVRDevelopmentCompany = () => {
 										/>
 										<p>LIBGDX</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" loading="lazy" alt="Maxst"
@@ -285,7 +276,6 @@ const ARVRDevelopmentCompany = () => {
 										/>
 										<p>MAXST</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" loading="lazy" alt="tilt"
@@ -293,7 +283,6 @@ const ARVRDevelopmentCompany = () => {
 										/>
 										<p>TILT BRUSH</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" loading="lazy" alt="UNREAL"
@@ -308,7 +297,6 @@ const ARVRDevelopmentCompany = () => {
 										/>
 										<p>VUFORIA</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" loading="lazy" alt="Wikitude_Logo"
@@ -568,7 +556,6 @@ const ARVRDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
@@ -584,7 +571,6 @@ const ARVRDevelopmentCompany = () => {
 									investments and list the properties.
 								</p>
 							</div>
-
 							<div className="mt-4">
 								<Link
 									href="/portfolio/bonfire"
@@ -675,7 +661,6 @@ const ARVRDevelopmentCompany = () => {
 											major issues or vulnerabilities were
 											found in the final platform.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
@@ -715,13 +700,11 @@ const ARVRDevelopmentCompany = () => {
 											been instrumental in the project’s
 											success.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
-
 											/>
 											<div>
 												<img
@@ -750,7 +733,6 @@ const ARVRDevelopmentCompany = () => {
 											Marketplace and which made amazing
 											journey.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
@@ -804,16 +786,12 @@ const ARVRDevelopmentCompany = () => {
 					</section>
 				</div>
 			</div>
-
 			<div className="container container-fluid py-5">
 				<h1 className="all-head text-center mb-5">Get Ahold of Us!</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-4">
 							<h1>Give life to your AR/VR vision with Us!<br />Fill Out the form Now!</h1>
-							<h2 className="">
-
-							</h2>
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

@@ -41,7 +41,6 @@ const EventSlider = () => {
                         )
                     })
                 }
-
             </SplideTrack>
         </Splide>
     );

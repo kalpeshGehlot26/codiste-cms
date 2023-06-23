@@ -22,7 +22,6 @@ const MLPortfolio = () => {
 									</h1>
 									<p className="all-p me-5 my-4">
 										ML estimation - Streamline HVAC project bidding with ML estimation, automating drawing annotation and generating accurate bill of materials. Save time, differentiate yourself in the industry, and leverage innovative technology for detailed quantity take-offs.
-
 									</p>
 									<Link
 										className="book-btn"
@@ -62,7 +61,6 @@ const MLPortfolio = () => {
 						</div>
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">
 							<p className="secondsec-p">
-								{" "}
 								Our client, a HVAC contractor, required a
 								software solution that could help them create
 								detailed quantity take-offs from construction
@@ -86,7 +84,6 @@ const MLPortfolio = () => {
 					<div className="row">
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column order-2 order-xl-1">
 							<p className="secondsec-p">
-								{" "}
 								The client faced the challenge of time-consuming
 								and tedious manual counting, which took valuable
 								time away from other aspects of their business.
@@ -232,7 +229,6 @@ const MLPortfolio = () => {
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head text-center my-3 ">
-						{" "}
 						What did we deliver?
 					</h1>
 					<p className="secondsec-p text-center">
@@ -270,7 +266,6 @@ const MLPortfolio = () => {
 								Witness How We Drive Soul in Ideas!
 							</h1>
 						</div>
-
 						<div
 							id="carouselExampleDark"
 							className="carousel carousel-dark slide carousel-box"

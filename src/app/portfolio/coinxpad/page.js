@@ -59,7 +59,6 @@ const CoinxpadPortfolio = () => {
 				<div className=" d-flex align-items-center flex-column justify-content-center">
 					<h1 className="all-head">Client Requirement</h1>
 				</div>
-
 				<div className="container container-fluid">
 					<div className="row">
 						<div className="col-xl-6 col-sm-12 mb-5 text-center">
@@ -90,7 +89,6 @@ const CoinxpadPortfolio = () => {
 				<div className=" d-flex align-items-center flex-column justify-content-center">
 					<h1 className="all-head">Challenges </h1>
 				</div>
-
 				<div className="container container-fluid">
 					<div className="row">
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column order-2 order-xl-1">
@@ -120,7 +118,6 @@ const CoinxpadPortfolio = () => {
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head"> Features of Product</h1>
 						</div>
-
 						<div className="row">
 							<div className="col-lg-12">
 								<ul className="diwallet-style">
@@ -215,7 +212,6 @@ const CoinxpadPortfolio = () => {
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head text-center my-3 ">
-						{" "}
 						What did we deliver?
 					</h1>
 					<p className="secondsec-p text-center">
@@ -242,7 +238,6 @@ const CoinxpadPortfolio = () => {
 					</Link>
 				</div>
 			</div>
-
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
@@ -452,7 +447,6 @@ const CoinxpadPortfolio = () => {
 										alt="Solidity"
 									/>
 								</li>
-
 								<li>
 									<img
 										className="img-fluid"
@@ -460,7 +454,6 @@ const CoinxpadPortfolio = () => {
 										alt="React"
 									/>
 								</li>
-
 								<li>
 									<img
 										className="img-fluid"
@@ -474,7 +467,6 @@ const CoinxpadPortfolio = () => {
 				</section>
 			</div>
 
-
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
@@ -483,7 +475,6 @@ const CoinxpadPortfolio = () => {
 								Satisfied clients is our proof of our excellence!
 							</h1>
 						</div>
-
 						<div
 							id="carouselExampleDark"
 							className="carousel carousel-dark slide carousel-box"
@@ -528,7 +519,6 @@ const CoinxpadPortfolio = () => {
 											been instrumental in the project’s
 											success.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												loading="lazy" src="../assets/images/iCrowsel.png"
@@ -583,7 +573,6 @@ const CoinxpadPortfolio = () => {
 										</div>
 									</div>
 								</div>
-
 								<div className="carousel-item">
 									<div className="d-flex align-items-center text-center flex-column custom-crousel">
 										<h3>
@@ -598,7 +587,6 @@ const CoinxpadPortfolio = () => {
 											major issues or vulnerabilities were
 											found in the final platform.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="../assets/images/iCrowsel.png"

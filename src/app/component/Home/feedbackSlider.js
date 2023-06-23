@@ -22,9 +22,6 @@ const FeedbackSlider = () => {
             }}
         >
             <SplideTrack>
-
-
-
                 <SplideSlide className="splide__slide">
                     <div className="p-3">
                         <div className="d-flex align-items-center justify-content-center">

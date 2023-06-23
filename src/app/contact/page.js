@@ -45,7 +45,7 @@ const page = () => {
 						<p className="custom-manager secondsec-p">
 							If you prefer to use something other than the form
 							below, you can contact our team directly at{" "}
-							<b><a href="mailto:manager@codiste.com">manager@codiste.com</a></b> or <b><a href="tel:+91 9429005987">+91 9429005987</a>.</b>
+							<b><a href="mailto:manager@codiste.com">manager@codiste.com</a></b> or <b><a href="tel:+91 9429005987">+91 9429005987</a></b>
 							<br />
 						</p>
 					</div>
@@ -57,7 +57,6 @@ const page = () => {
 					<h1 className="all-blog text-center">
 						Serving Clients With Our Global Network
 					</h1>
-
 					<p className="all-p text-center">
 						Codiste has a global presence with offices across
 						different continents. We can offer seamless development
@@ -75,7 +74,6 @@ const page = () => {
 									alt="India Office"
 								/></div>
 								<div><h1 className="mb-0">India</h1></div>
-
 							</div>
 							<div className="contact-content">
 								<div className="contact-logo ms-lg-5 ms-0">
@@ -261,7 +259,6 @@ const page = () => {
 								<div>
 									<h1 className="mb-0">South-Africa</h1>
 								</div>
-
 							</div>
 							<div className="contact-content">
 								<div className="contact-logo ms-lg-5 ms-0">

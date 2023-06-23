@@ -68,7 +68,6 @@ const MedizenPortfolio = () => {
 						</div>
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">
 							<p className="secondsec-p">
-								{" "}
 								The client, who was a healthcare professional,
 								had identified a growing need for a tool that
 								could help patients manage their medications
@@ -94,7 +93,6 @@ const MedizenPortfolio = () => {
 					<div className="row">
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex justify-content-center flex-column order-2 order-lg-1">
 							<p className="secondsec-p">
-								{" "}
 								During the development of the Medizen app, the
 								team faced significant challenges, including
 								designing an easy-to-use interface for users of
@@ -192,7 +190,7 @@ const MedizenPortfolio = () => {
 												to refill their medications,
 												ensuring that they never run out.</span>
 										</p>
-									</li>{" "}
+									</li>
 									<li>
 										<img
 											className="img-fluid"
@@ -221,7 +219,6 @@ const MedizenPortfolio = () => {
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head text-center my-3 ">
-						{" "}
 						What did we deliver?
 					</h1>
 					<p className="secondsec-p text-center">
@@ -254,7 +251,6 @@ const MedizenPortfolio = () => {
 								Witness How We Drive Soul in Ideas!
 							</h1>
 						</div>
-
 						<div
 							id="carouselExampleDark"
 							className="carousel carousel-dark slide carousel-box"
@@ -475,7 +471,6 @@ const MedizenPortfolio = () => {
 							<h1 className="all-head">
 								Satisfied clients is our proof of our excellence!
 							</h1>
-
 						</div>
 
 						<div className="carousel-inner career-block">

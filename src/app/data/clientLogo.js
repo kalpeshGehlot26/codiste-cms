@@ -30,12 +30,10 @@ const clientLogos = [
     {
         url: "assets/images/splide/Holygrails.svg",
         alt: "Holygrails - Solana NFT Marketplace",
-
     },
     {
         url: "assets/images/splide/Ikaris.svg",
         alt: "Ikaris - NFT Showcase Mobile App",
-
     },
     {
         url: "assets/images/splide/Medizen.svg",
@@ -45,7 +43,6 @@ const clientLogos = [
     {
         url: "assets/images/splide/ml.svg",
         alt: "MLEstimation - AI Tool to Analyse your Building material",
-
     },
 
     {

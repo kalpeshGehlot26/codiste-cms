@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 const BookACALL = () => {
-	return (
+    return (
         <div className="container container-fluid py-4 firstsec">
             <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
                 <h1 className="all-head text-center my-3 ">Book a Call</h1>
@@ -20,5 +20,4 @@ const BookACALL = () => {
         </div>
     );
 };
-
 export default BookACALL;

@@ -7,7 +7,6 @@ import ServiceInnerItems from "../component/service/serviceInnerItems";
 import MLList from "../data/services/service-items/ML";
 import jsonData from "../data/schema";
 
-
 export const metadata = {
 	title: "Machine Learning Development Company | Codiste",
 	description:
@@ -64,7 +63,6 @@ const MLDevelopmentCompany = () => {
 							Why Should You Trust Codiste For Machine Learning
 							Development Services?
 						</h1>
-						{/* <p className="secondsec-p text-center">Codiste delivers advanced machine learning services, driving business innovation with expertise and tailored solutions.</p> */}
 					</div>
 
 					<div className="row">
@@ -142,7 +140,6 @@ const MLDevelopmentCompany = () => {
 								applications.
 							</p>
 						</div>
-
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
@@ -514,7 +511,6 @@ const MLDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
@@ -526,7 +522,6 @@ const MLDevelopmentCompany = () => {
 									Streamline HVAC project bidding with ML estimation, automating drawing annotation and generating accurate bill of materials. Save time, differentiate yourself in the industry, and leverage innovative technology for detailed quantity take-offs.
 								</p>
 							</div>
-
 							<div className="mt-4">
 								<Link
 									href="/portfolio/ml-estimation"
@@ -574,7 +569,6 @@ const MLDevelopmentCompany = () => {
 								Satisfied clients is our proof of our excellence!
 							</h1>
 						</div>
-
 						<div
 							id="carouselExampleDark"
 							className="carousel carousel-dark slide carousel-box"
@@ -620,7 +614,6 @@ const MLDevelopmentCompany = () => {
 											about it. honest work, you get what
 											you pay for.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
@@ -657,7 +650,6 @@ const MLDevelopmentCompany = () => {
 											being responsive and accessible even
 											during weekends.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
@@ -691,7 +683,6 @@ const MLDevelopmentCompany = () => {
 											everything in life was going
 											sideways.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
@@ -752,11 +743,6 @@ const MLDevelopmentCompany = () => {
 							<h1>
 								Streamline your Machine Learning operations by connecting with our dedicated tech support team today.
 							</h1>
-							{/* <h2 className="">
-								{" "}
-								Our team will
-								get back to you to take your project further.
-							</h2> */}
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

@@ -29,16 +29,15 @@ export async function POST(req, res) {
 				<h4>Service: ${data.services}</h4>				
 				<h4>Message: ${data.message}</h4>
 			</body></html>`;
-			
-		const path = data.path.split("/");
 
+		const path = data.path.split("/");
 		var subject = `Inquiry for service ${data.services}`;
 
-		if(path[1] === "contact") {
+		if (path[1] === "contact") {
 			subject = "Discover Project Potential Inquiry";
 		}
 
-		if(path[1] === "career") {
+		if (path[1] === "career") {
 			subject = "Career Query Submission or Appling for Job";
 		}
 
@@ -46,7 +45,7 @@ export async function POST(req, res) {
 			smtpTransport({
 				pool: true,
 				port: 587,
-				secure: true, 
+				secure: true,
 				service: "gmail",
 				host: "smtp.gmail.com",
 				auth: {
@@ -65,8 +64,8 @@ export async function POST(req, res) {
 		};
 
 		const isSend = await transporter.sendMail(mailOptions)
-			
-		if(!isSend.rejected.length) {
+
+		if (!isSend.rejected.length) {
 			return NextResponse.json({
 				status: true,
 				message: "Thank you for contacting us! We'll reach out to you soon",

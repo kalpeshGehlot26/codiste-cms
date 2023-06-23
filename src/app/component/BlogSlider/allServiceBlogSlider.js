@@ -6,10 +6,8 @@ import { getPostsByCategory } from "@/app/lib/lib";
 import Link from "next/link";
 
 const AllServiceBlogSlider = ({ limit, category }) => {
-
     const [posts, setPosts] = useState([]);
     const [loading, setLoading] = useState(false);
-
     const getBlogs = async () => {
         setLoading(true);
         getPostsByCategory(limit, category)
@@ -19,11 +17,9 @@ const AllServiceBlogSlider = ({ limit, category }) => {
             .catch((error) => console.error(error))
             .finally(() => setLoading(false));
     };
-
     useEffect(() => {
         getBlogs();
     }, [limit, category]);
-
     return (
         <Splide
             hasTrack={false}

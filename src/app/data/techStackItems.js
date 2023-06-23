@@ -54,7 +54,6 @@ const techStackItems = [
         alt: "BLENDER",
         name: "BLENDER"
     },
-
     {
         url: "assets/images/tech/Corda.png",
         alt: "Corda",
@@ -65,7 +64,6 @@ const techStackItems = [
         alt: "CRY ENGINE",
         name: "CRY ENGINE"
     },
-
     {
         url: "assets/images/tech/Deep AR.png",
         alt: "Deep AR",

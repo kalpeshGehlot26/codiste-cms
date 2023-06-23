@@ -9,7 +9,6 @@ import moment from "moment";
 const BlogContent = () => {
 	const pathname = usePathname();
 	const pathUrl = pathname.split("/");
-
 	const [post, setPost] = useState(null);
 
 	useEffect(() => {
@@ -37,7 +36,6 @@ const BlogContent = () => {
 	}
 
 	const image = post._embedded["wp:featuredmedia"]["0"].source_url;
-
 	return (
 		<div className="">
 			<Helmet>
@@ -125,5 +123,4 @@ const BlogContent = () => {
 		</div>
 	);
 };
-
 export default BlogContent;

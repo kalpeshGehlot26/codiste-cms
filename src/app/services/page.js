@@ -13,8 +13,6 @@ import Link from "next/link";
 const limit = 4;
 const category = "47,43,55,6,57";
 
-
-
 const Services = () => {
 	const [serviceCount, setServiceCount] = useState(6);
 	const [totalServiceCount, setTotalServiceCount] = useState(null);
@@ -127,10 +125,9 @@ const Services = () => {
 						<h1 className="all-head">Industries We Serve</h1>
 						<p className="all-p me-5 text-center">
 							Trusted by leaders among different industries and
-							enterprise sectors.{" "}
+							enterpri
 						</p>
 					</div>
-
 					<Industries />
 				</section>
 			</div>
@@ -217,7 +214,7 @@ const Services = () => {
 										alt="End-to-End Development"
 									/>
 									<h3 className="">
-										End-to-End Development{" "}
+										End-to-End
 									</h3>
 									<p>
 										Our team offers comprehensive end-to-end
@@ -284,7 +281,7 @@ const Services = () => {
 					<h1 className="all-head text-center">Our Proven Development Cycle </h1>
 					<p className="all-p  text-center">
 						We follow an extensive step by step development cycle to
-						ensure timely yet quality-assured product deliveries.{" "}
+						ensure timely yet quality-assured product
 					</p>
 				</div>
 
@@ -327,7 +324,7 @@ const Services = () => {
 								3
 							</div>
 							<h3 className="">
-								Prototype and Product Designing{" "}
+								Prototype and Produc
 							</h3>
 							<p>
 								From training data to dealing with unstructured
@@ -396,7 +393,6 @@ const Services = () => {
 							<div className="col-lg-4 col-md-6 col-sm-12">
 								<div className="casediwallet-block ">
 									<div className="case-position">
-										{" "}
 										<img
 											className="img-fluid "
 											alt="Divewallet"
@@ -417,7 +413,6 @@ const Services = () => {
 							<div className="col-lg-4 col-md-6 col-sm-12">
 								<div className="counterten-block">
 									<div className=" case-position">
-										{" "}
 										<img
 											className="img-fluid "
 											alt="Counterten"
@@ -436,7 +431,6 @@ const Services = () => {
 							<div className="col-lg-4 col-md-6 col-sm-12">
 								<div className="tankpad-block">
 									<div className=" case-position">
-										{" "}
 										<img
 											className="img-fluid "
 											alt="Tankpad"
@@ -475,14 +469,12 @@ const Services = () => {
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
 			</div>
-
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-blog text-center">Their Success Stories are our Valuable Feedback!</h1>
 						</div>
-
 						<div
 							id="carouselExampleDark"
 							className="carousel carousel-dark slide carousel-box"
@@ -532,7 +524,6 @@ const Services = () => {
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
-
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
@@ -574,7 +565,6 @@ const Services = () => {
 											professionalism, and commitment to
 											delivering high-quality work.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												loading="lazy" src="assets/images/iCrowsel.png"
@@ -608,7 +598,6 @@ const Services = () => {
 											was reliable, well-organized, and
 											proactive.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												loading="lazy" src="assets/images/iCrowsel.png"
@@ -672,7 +661,6 @@ const Services = () => {
 								Fill out this form and give your imagination into reality!
 							</h1>
 						</div>
-
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">
 								<h2 className="">

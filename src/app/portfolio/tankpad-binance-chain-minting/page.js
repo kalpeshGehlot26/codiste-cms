@@ -19,11 +19,10 @@ const TankpadPortfolio = () => {
 									<h1 className="all-head">Tankpad – Binance chain Minting</h1>
 									<p className="all-p me-5 my-4">
 										<strong>
-											{" "}
 											Tankpad is a user-friendly platform
 											for purchasing and transferring NFTs
 											on the Binance Chain.
-										</strong>{" "}
+										</strong>
 										<br />
 										It has a curated selection of NFTs, a
 										fair marketplace with purchasing limits,
@@ -65,7 +64,6 @@ const TankpadPortfolio = () => {
 						</div>
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">
 							<p className="secondsec-p">
-								{" "}
 								The client has requested a contract for NFT
 								minting and a user-friendly frontend that
 								includes a listing section for viewing all NFTs.
@@ -88,7 +86,6 @@ const TankpadPortfolio = () => {
 					<div className="row">
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column order-2 order-xl-1">
 							<p className="secondsec-p">
-								{" "}
 								The main challenge of the Tankpad case study was
 								to deliver the product with advanced features
 								within a shorter time frame, which required the
@@ -111,7 +108,6 @@ const TankpadPortfolio = () => {
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head">
-								{" "}
 								Features of product
 							</h1>
 						</div>
@@ -142,7 +138,7 @@ const TankpadPortfolio = () => {
 										/>
 										<p>
 											<span className="fs-3">
-												NFT Portfolio{" "}
+												NFT Portfolio
 											</span>
 											<br />
 											<span className="secondsec-p" >Users can create a comprehensive
@@ -214,7 +210,6 @@ const TankpadPortfolio = () => {
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head text-center my-3 ">
-						{" "}
 						What did we deliver?
 					</h1>
 					<p className="secondsec-p text-center">
@@ -247,9 +242,7 @@ const TankpadPortfolio = () => {
 							<h1 className="all-head">
 								Satisfied clients is our proof of our excellence!
 							</h1>
-
 						</div>
-
 						<div className="carousel-inner career-block">
 							<div className="d-flex align-items-center text-center flex-column custom-crousel">
 								<h3>

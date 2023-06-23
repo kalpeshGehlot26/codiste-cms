@@ -8,7 +8,6 @@ const VideoPlayer = () => {
       const videoContainer = document.getElementById('video-container');
       const rect = videoContainer.getBoundingClientRect();
       const isVisible = rect.top < window.innerHeight;
-
       if (isVisible) {
         setLoadVideo(true);
         window.removeEventListener('scroll', handleScroll);
@@ -17,7 +16,6 @@ const VideoPlayer = () => {
 
     window.addEventListener('scroll', handleScroll);
     handleScroll(); // Check if the video is visible on initial render
-
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };

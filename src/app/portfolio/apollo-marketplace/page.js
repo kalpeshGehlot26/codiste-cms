@@ -55,12 +55,10 @@ const ApolloPortfolio = () => {
 				<div className=" d-flex align-items-center flex-column justify-content-center">
 					<h1 className="all-head">Client Requirement</h1>
 				</div>
-
 				<div className="container container-fluid">
 					<div className="row">
 						<div className="col-xl-6 col-sm-12 d-flex  justify-content-center flex-column order-2 order-lg-1">
 							<p className="secondsec-p">
-								{" "}
 								The key requirement from the client was to
 								develop a platform that could function as an
 								ecosystem enabling users to profitably diversify
@@ -101,7 +99,6 @@ const ApolloPortfolio = () => {
 								Investment Platform.
 							</p>
 						</div>
-
 						<div className="row">
 							<div className="col-lg-12">
 								<ul className="diwallet-style">
@@ -120,7 +117,6 @@ const ApolloPortfolio = () => {
 												with ease and gain visibility in the
 												market. This helps users to invest
 												in new projects at the ground level.</span>
-
 										</p>
 									</li>
 									<li>
@@ -140,7 +136,6 @@ const ApolloPortfolio = () => {
 												tool, while the liquidity management
 												ensures that there is always enough
 												liquidity for trading.</span>
-
 										</p>
 									</li>
 									<li>
@@ -157,7 +152,6 @@ const ApolloPortfolio = () => {
 											<span className="secondsec-p">	Users can earn rewards for staking
 												or holding tokens and get incentives
 												to hold onto their assets.</span>
-
 										</p>
 									</li>
 									<li>
@@ -176,7 +170,6 @@ const ApolloPortfolio = () => {
 												new projects to quickly launch their
 												own tokens and gain exposure to the
 												market.</span>
-
 										</p>
 									</li>
 									<li>
@@ -194,7 +187,6 @@ const ApolloPortfolio = () => {
 												staking tokens, giving them a way to
 												earn more tokens and participate in
 												the growth of the project.</span>
-
 										</p>
 									</li>
 									<li>
@@ -214,7 +206,6 @@ const ApolloPortfolio = () => {
 												to stay up to date with new
 												developments and changes in the
 												market.</span>
-
 										</p>
 									</li>
 								</ul>
@@ -227,7 +218,6 @@ const ApolloPortfolio = () => {
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-3">
 					<h1 className="all-head text-center my-3 ">
-						{" "}
 						What did we deliver?
 					</h1>
 					<p className="secondsec-p text-center">
@@ -270,7 +260,6 @@ const ApolloPortfolio = () => {
 					</p>
 				</div>
 			</div>
-
 			<div className="blackdiv px-3">
 				<div className=" container container-fluid d-flex align-items-center justify-content-between flex-wrap py-3">
 					<p>How you transform your ideas into reality?</p>
@@ -292,7 +281,6 @@ const ApolloPortfolio = () => {
 								and HighAPY Module.
 							</p>
 						</div>
-
 						<div
 							id="carouselExampleDark"
 							className="carousel carousel-dark slide carousel-box"
@@ -483,7 +471,6 @@ const ApolloPortfolio = () => {
 							<h1 className="all-head">
 								Satisfied clients is our proof of our excellence!
 							</h1>
-
 						</div>
 						<div className="carousel-inner career-block">
 							<div className="d-flex align-items-center text-center flex-column custom-crousel">

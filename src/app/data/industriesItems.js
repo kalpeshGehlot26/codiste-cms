@@ -26,8 +26,6 @@ const industryItems = [
         className: "ins-ecommrce",
         title: "Retail & E-Commerce"
     },
-
-
     {
         url: "assets/images/industries/inft.png",
         className: "ins-nft ",
@@ -43,7 +41,6 @@ const industryItems = [
         className: "ins-game",
         title: "Gaming & Entertainment"
     },
-
     {
         url: "assets/images/industries/artificial-intelligence.png",
         className: "ins-health",
@@ -54,7 +51,6 @@ const industryItems = [
         className: "ins-education",
         title: "Loyalty Programs"
     },
-
     {
         url: "assets/images/industries/iot.png",
         className: "ins-iot",

@@ -5,30 +5,24 @@ import "../../style.css";
 import "../../external.css";
 
 const Header = () => {
-
-	// const [navShow, setNavShow] = useState("show")
 	const defNavClose = () => {
 		const navbarSupportedContent = document.getElementById('navbarSupportedContent')
 		if (navbarSupportedContent.classList.contains("show")) {
 			navbarSupportedContent.classList.remove("show")
 		}
 	}
-
 	return (
-
 		<nav className="navbar navbar-expand-lg navbar-light fixed-top navbarCustom">
 			<div className="container px-0 header-width" style={{ maxWidth: "1800px" }}>
 				<Link className="nav-link active me-auto ms-2" aria-current="page" href="/" >
 					<img className="img-fluid" alt="codiste-logo" style={{ height: "60px" }} src="../../assets/images/logo.png" />
 				</Link>
-
 				<button className="navbar-toggler me-2 " type="button"
 					data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
 				>
 					<span className="navbar-toggler-icon"></span>
 				</button>
 				<div className={`collapse navbar-collapse`} id="navbarSupportedContent">
-
 					<ul
 						className="navbar-nav my-2 my-lg-0 ms-auto align-items-center"
 					>
@@ -94,7 +88,6 @@ const Header = () => {
 										Mobile App Development Services
 									</Link>
 								</li>
-
 							</ul>
 						</li>
 						<li className="nav-item">
@@ -102,13 +95,11 @@ const Header = () => {
 								Portfolio
 							</Link>
 						</li>
-
 						<li className="nav-item">
 							<Link onClick={defNavClose} className="nav-link" href={"/blog"}>
 								Blog
 							</Link>
 						</li>
-
 						<li className="nav-item">
 							<Link onClick={defNavClose} href="/contact" className="nav-link">Contact Us</Link>
 						</li>
@@ -118,7 +109,6 @@ const Header = () => {
 							</Link>
 						</li>
 					</ul>
-
 				</div>
 			</div>
 		</nav>

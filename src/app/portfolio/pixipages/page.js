@@ -64,7 +64,6 @@ const PixipagesPortfolio = () => {
 						</div>
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">
 							<p className="secondsec-p">
-								{" "}
 								The client, Pixipages, aimed to create an app
 								that would allow parents to easily record
 								professional-sounding bedtime stories for their
@@ -112,7 +111,6 @@ const PixipagesPortfolio = () => {
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 							<h1 className="all-head"> Features of Product</h1>
 						</div>
-
 						<div className="row">
 							<div className="col-lg-12">
 								<ul className="diwallet-style">
@@ -124,7 +122,7 @@ const PixipagesPortfolio = () => {
 										/>
 										<p>
 											<span className="fs-3">
-												{" "}
+
 												Dream Stories
 											</span>
 											<br />
@@ -219,7 +217,6 @@ const PixipagesPortfolio = () => {
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head text-center my-3 ">
-						{" "}
 						What did we deliver?
 					</h1>
 					<p className="secondsec-p text-center">
@@ -252,7 +249,6 @@ const PixipagesPortfolio = () => {
 								Witness How We Drive Soul in Ideas!
 							</h1>
 						</div>
-
 						<div
 							id="carouselExampleDark"
 							className="carousel carousel-dark slide carousel-box"
@@ -355,7 +351,6 @@ const PixipagesPortfolio = () => {
 										loading="lazy" src="/assets/images/tech/Swift.png"
 									/>
 								</li>
-
 								<li>
 									<img
 										className="img-fluid"
@@ -369,51 +364,6 @@ const PixipagesPortfolio = () => {
 				</section>
 			</div>
 
-			{/* <div className="bg-color py-5">
-				<div className="container container-fluid">
-					<section>
-						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
-								Satisfied clients is our proof of our excellence!
-							</h1>
-
-						</div>
-
-						<div className="carousel-inner career-block">
-							<div className="d-flex align-items-center text-center flex-column custom-crousel">
-								<h3>
-									It was an absolute pleasure working with
-									Nishant and his team for our Blockchain
-									Product. Not only is Nishant an engineer in
-									making the product, he also cares and gives
-									his opinion on the outcome of the design.
-									When it comes to delivery, the breakdown of
-									the milestone is fair and accurate. Lastly,
-									we had a lot of changes near the end of the
-									sprint and the team was flexible about it.
-									honest work, you get what you pay for.
-								</h3>
-								<div className="d-flex align-items-center flex-column">
-									<img
-										loading="lazy" src="/assets/images/iCrowsel.png"
-										className=" "
-										alt="iCrowsel"
-									/>
-									<div className="my-3">
-										<img
-											className=""
-											loading="lazy" src="/assets/images/splide/diveWallet.jpg"
-										/>
-									</div>
-									<h5>Mike Walton</h5>
-									<p>Founder</p>
-								</div>
-							</div>
-						</div>
-					</section>
-				</div>
-			</div> */}
-
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
@@ -422,7 +372,6 @@ const PixipagesPortfolio = () => {
 								Satisfied clients is our proof of our excellence!
 							</h1>
 						</div>
-
 						<div
 							id="carouselExampleDark"
 							className="carousel carousel-dark slide carousel-box"
@@ -465,7 +414,6 @@ const PixipagesPortfolio = () => {
 											major issues or vulnerabilities were
 											found in the final platform.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												loading="lazy" src="../assets/images/iCrowsel.png"
@@ -511,7 +459,6 @@ const PixipagesPortfolio = () => {
 											professionalism, and commitment to
 											delivering high-quality work.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												loading="lazy" src="../assets/images/iCrowsel.png"
@@ -544,7 +491,6 @@ const PixipagesPortfolio = () => {
 											Marketplace and which made amazing
 											journey.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												loading="lazy" src="../assets/images/iCrowsel.png"
@@ -616,7 +562,7 @@ const PixipagesPortfolio = () => {
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">
 								<h2 className="">
-									How Can We <b>Help?</b>{" "}
+									How Can We <b>Help?</b>
 								</h2>
 								<CaseStudyForm text="Discuss your Project" />
 							</div>

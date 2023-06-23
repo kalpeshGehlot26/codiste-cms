@@ -9,7 +9,6 @@ const EmployeeSlider = () => {
         <Splide
             hasTrack={false}
             options={{
-                // type: 'loop',
                 drag: 'free',
                 focus: 'center',
                 pagination: true,
@@ -53,8 +52,6 @@ const EmployeeSlider = () => {
                         );
                     })
                 }
-
-
             </SplideTrack>
         </Splide>
     );

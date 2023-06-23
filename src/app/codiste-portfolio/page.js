@@ -13,7 +13,6 @@ export const metadata = {
 const CodistePortfolio = () => {
 	return (
 		<div>
-
 			<div className="bg-color py-lg-3">
 				<div className="container container-fluid">
 					<section>
@@ -48,8 +47,6 @@ const CodistePortfolio = () => {
 					<CaseStudyList />
 				</div>
 			</div>
-
-
 
 			<div className="container container-fluid py-5">
 				<h2 className="text-center all-head">Let’s Get Started </h2>

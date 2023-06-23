@@ -60,7 +60,6 @@ const BlockChainDevelopment = () => {
 					</section>
 				</div>
 			</div>
-
 			<ClientSlider />
 
 			<div className="container container-fluid">
@@ -85,7 +84,6 @@ const BlockChainDevelopment = () => {
 							Why Choose Us for Blockchain Development Services ?
 						</h1>
 					</div>
-
 					<div className="row">
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
@@ -246,7 +244,6 @@ const BlockChainDevelopment = () => {
 										/>
 										<p className="text-uppercase">Binance</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" loading="lazy" alt="Corda"
@@ -254,7 +251,6 @@ const BlockChainDevelopment = () => {
 										/>
 										<p className="text-uppercase">Corda</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" loading="lazy" alt="ethereum"
@@ -262,7 +258,6 @@ const BlockChainDevelopment = () => {
 										/>
 										<p className="text-uppercase">ethereum</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" loading="lazy" alt="fantom"
@@ -270,7 +265,6 @@ const BlockChainDevelopment = () => {
 										/>
 										<p className="text-uppercase">fantom</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" loading="lazy" alt="Graphene"
@@ -278,7 +272,6 @@ const BlockChainDevelopment = () => {
 										/>
 										<p className="text-uppercase">Graphene</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" loading="lazy" alt="hyperledger"
@@ -286,7 +279,6 @@ const BlockChainDevelopment = () => {
 										/>
 										<p className="text-uppercase">hyperledger</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" loading="lazy" alt="Java"
@@ -301,7 +293,6 @@ const BlockChainDevelopment = () => {
 										/>
 										<p className="text-uppercase">polygon</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" loading="lazy" alt="python"
@@ -316,7 +307,6 @@ const BlockChainDevelopment = () => {
 										/>
 										<p className="text-uppercase">tron</p>
 									</li>
-
 									<li>
 										<img
 											className="img-fluid" loading="lazy" alt="solidity"
@@ -593,7 +583,6 @@ const BlockChainDevelopment = () => {
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
@@ -615,7 +604,6 @@ const BlockChainDevelopment = () => {
 									customers in an innovative way using NFTs.
 								</p>
 							</div>
-
 							<div className="mt-4">
 								<Link
 									href="/portfolio/counterten-solana-marketplace"
@@ -660,7 +648,6 @@ const BlockChainDevelopment = () => {
 								Their Skyrocketing Success is Our Feedback!
 							</h1>
 						</div>
-
 						<div
 							id="carouselExampleDark"
 							className="carousel carousel-dark slide carousel-box"
@@ -703,7 +690,6 @@ const BlockChainDevelopment = () => {
 											major issues or vulnerabilities were
 											found in the final platform.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
@@ -751,7 +737,6 @@ const BlockChainDevelopment = () => {
 											professionalism, and commitment to
 											delivering high-quality work.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
@@ -786,7 +771,6 @@ const BlockChainDevelopment = () => {
 											Marketplace and which made amazing
 											journey.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												src="assets/images/iCrowsel.png"
@@ -850,7 +834,6 @@ const BlockChainDevelopment = () => {
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-4">
 							<h1>Reach out to our technical support team for immediate assistance and expert guidance.</h1>
-
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

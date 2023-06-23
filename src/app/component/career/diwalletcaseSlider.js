@@ -46,7 +46,6 @@ const DiveWalletSlider = () => {
             )
           })
         }
-
       </SplideTrack>
     </Splide>
   );

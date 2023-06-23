@@ -2,7 +2,7 @@
 import axios from "axios";
 import React, { useEffect, useRef, useState } from "react";
 
-const CaseStudyForm = ({text}) => {
+const CaseStudyForm = ({ text }) => {
 	const [values, setValues] = useState(null);
 	const [success, setSuccess] = useState(false);
 	const [path, setPath] = useState(null);
@@ -16,7 +16,6 @@ const CaseStudyForm = ({text}) => {
 
 	const handleSubmit = async (event) => {
 		event.preventDefault();
-		
 		await axios.post('/api/contact', values, {
 			headers: {
 				'Content-Type': 'application/json'
@@ -41,9 +40,7 @@ const CaseStudyForm = ({text}) => {
 			path: path
 		});
 	}
-
 	return (
-
 		<div>
 			<form method="post" onSubmit={handleSubmit} ref={formRef}>
 				<input type="hidden" name="path" value={path} />
@@ -99,7 +96,6 @@ const CaseStudyForm = ({text}) => {
 					className="need-form" id="exampleFormControlTextarea1" rows="3" name="message" type="text" placeholder="Message*" onChange={onFormChange} required
 				></textarea>
 				<button className="book-btn" type="submit">
-					{/* {path === '/career' ? "Apply Now" : "Book a Call"} */}
 					{text}
 				</button>
 				{

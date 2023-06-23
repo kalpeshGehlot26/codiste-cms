@@ -40,14 +40,13 @@ const WebDevelopmentCompany = () => {
 					</section>
 				</div>
 			</div>
-
 			<ClientSlider />
 
 			<div className="container container-fluid">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h1 className="all-head text-center">
-							Our Web Development Services{" "}
+							Our Web Development Services
 						</h1>
 					</div>
 					<ServiceInnerItems serviceItems={webList} />
@@ -246,7 +245,6 @@ const WebDevelopmentCompany = () => {
 										/>
 										<p className="text-uppercase">WordPress</p>
 									</li>
-
 								</ul>
 							</div>
 						</div>
@@ -487,7 +485,6 @@ const WebDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
@@ -505,7 +502,6 @@ const WebDevelopmentCompany = () => {
 									improve health outcomes for users.
 								</p>
 							</div>
-
 							<div className="mt-4">
 								<Link
 									href="/portfolio/medizen"
@@ -535,7 +531,7 @@ const WebDevelopmentCompany = () => {
 					<p className="all-p text-center">
 						Read our Blogs here to get continuous insights and
 						updates on new technologies and development across the
-						globe.{" "}
+						globe.
 					</p>
 				</div>
 				<AllServiceBlogSlider limit={limit} category={category} />
@@ -553,7 +549,6 @@ const WebDevelopmentCompany = () => {
 								notes!
 							</h1>
 						</div>
-
 						<div
 							id="carouselExampleDark"
 							className="carousel carousel-dark slide carousel-box"
@@ -597,14 +592,12 @@ const WebDevelopmentCompany = () => {
 											attitude have been hallmarks of
 											their work.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												loading="lazy" src="assets/images/iCrowsel.png"
 												className="img-fluid"
 												alt="iCrowsel"
 											/>
-
 											<div>
 												<img
 													className="img-fluid my-4 client-logo"
@@ -646,7 +639,6 @@ const WebDevelopmentCompany = () => {
 											professionalism, and commitment to
 											delivering high-quality work.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												loading="lazy" src="assets/images/iCrowsel.png"
@@ -680,7 +672,6 @@ const WebDevelopmentCompany = () => {
 											was reliable, well-organized, and
 											proactive.
 										</h3>
-
 										<div className="d-flex align-items-center flex-column custom-crousel">
 											<img
 												loading="lazy" src="assets/images/iCrowsel.png"
@@ -748,7 +739,7 @@ const WebDevelopmentCompany = () => {
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">
 								<h2 className="">
-									How Can We <b>Help?</b>{" "}
+									How Can We <b>Help?</b>
 								</h2>
 								<CaseStudyForm text="Discuss your Project" />
 							</div>
