@@ -213,11 +213,10 @@ const BlockChainDevelopment = () => {
 			<div className="blackdiv px-3">
 				<div className="container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>
-						Get Transparent, Decentralized, and Scalable Blockchain
-						Applications{" "}
+						Let Hire Blockchain Developers for your next project
 					</p>
 					<Link href="/book-a-call" className="book-btn">
-						Contact Us!
+						Hire Developer
 					</Link>
 				</div>
 			</div>
@@ -829,10 +828,10 @@ const BlockChainDevelopment = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
-				<h1 className="all-head text-center mb-5">Have a Project?</h1>
+				<h1 className="all-head text-center mb-lg-5 mb-0">Have a Project?</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
-						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-4">
+						<div className="col-lg-6 col-md-12 p-4 mb-lg-0 needsec p-4">
 							<h1>Reach out to our technical support team for immediate assistance and expert guidance.</h1>
 						</div>
 						<div className="col-lg-6 col-md-12 ">

@@ -653,10 +653,10 @@ const Services = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
-				<h1 className="all-blog text-center mb-5">Getting in touch with Us!</h1>
+				<h1 className="all-blog text-center mb-lg-5 mb-0">Getting in touch with Us!</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
-						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
+						<div className="col-lg-6 col-md-12 p-4 needsec">
 							<h1>
 								Fill out this form and give your imagination into reality!
 							</h1>

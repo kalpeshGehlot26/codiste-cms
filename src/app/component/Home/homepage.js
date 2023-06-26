@@ -242,10 +242,10 @@ const HomePage = () => {
 
 			<div className="">
 				<div className="container container-fluid py-5">
-					<h2 className="all-head mb-4 text-center">Get started with your idea today!</h2>
+					<h2 className="all-head mb-lg-5 mb-0 text-center">Get started with your idea today!</h2>
 					<section>
 						<div className="row  d-flex align-items-center">
-							<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-4">
+							<div className="col-lg-6 col-md-12  needsec p-4">
 								<h1>
 									Are you looking for a global technology
 									leader to partner for your tech support?

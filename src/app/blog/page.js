@@ -58,10 +58,10 @@ const Blogs = () => {
 
 			<div className="bg-color py-5">
 				<div className="container container-fluid ">
-					<div className="all-head text-center mb-5">Stuck with your idea?</div>
+					<div className="all-head text-center mb-lg-5 mb-0 mb-sm-0">Stuck with your idea?</div>
 					<section>
 						<div className="row  d-flex align-items-center">
-							<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-4" >
+							<div className="col-lg-6 col-md-12 needsec p-4" >
 								<h1>Connect with our experts with this lead form and bring your tech idea to reality.</h1>
 							</div>
 							<div className="col-lg-6 col-md-12 ">

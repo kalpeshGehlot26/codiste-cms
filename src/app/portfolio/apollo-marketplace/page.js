@@ -522,12 +522,12 @@ const ApolloPortfolio = () => {
 			<div className="container container-fluid py-5">
 				<section>
 					<div>
-						<h1 className="all-head text-center mb-5">
+						<h1 className="all-head text-center mb-lg-5 mb-0">
 							Reach out to Us!
 						</h1>
 					</div>
 					<div className="row  d-flex align-items-center">
-						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-4">
+						<div className="col-lg-6 col-md-12  needsec p-4">
 							<h1>
 								Get expert advice on adopting and integrating advanced technologies.<br />
 								Stay compliant, stay ahead!

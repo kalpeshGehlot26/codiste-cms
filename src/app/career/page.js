@@ -210,11 +210,11 @@ const Career = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-lg-5 py-0" id="apply-now">
-				<h1 className="text-center all-head mb-5">Are you a professional techie?</h1>
+			<div className="container container-fluid py-lg-5 py-5" id="apply-now">
+				<h1 className="text-center all-head mb-lg-5 mb-0">Are you a professional techie?</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
-						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-4" >
+						<div className="col-lg-6 col-md-12  needsec p-4" >
 							<h1 className="">
 								Apply now Our HR team will reach out for the further process.
 							</h1>

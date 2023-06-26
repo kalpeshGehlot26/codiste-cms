@@ -1173,10 +1173,10 @@ const About = () => {
 
 			<div className="">
 				<div className="container container-fluid py-5">
-					<h1 className="all-head mb-5 text-center">Get in touch with Us!</h1>
+					<h1 className="all-head mb-lg-5 mb-0 text-center">Get in touch with Us!</h1>
 					<section>
 						<div className="row  d-flex align-items-center">
-							<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-4">
+							<div className="col-lg-6 col-md-12  mb-lg-0 needsec p-4">
 								<h1>Start Building on Your Idea Today! <br />Get in touch with our team with this form.</h1>
 							</div>
 							<div className="col-lg-6 col-md-12 ">

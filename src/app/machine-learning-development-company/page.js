@@ -736,10 +736,10 @@ const MLDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
-				<h1 className="all-head text-center mb-5">Request A Consultation!</h1>
+				<h1 className="all-head text-center mb-lg-5 mb-0">Request A Consultation!</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
-						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-4">
+						<div className="col-lg-6 col-md-12  needsec p-4">
 							<h1>
 								Streamline your Machine Learning operations by connecting with our dedicated tech support team today.
 							</h1>

@@ -168,11 +168,10 @@ const AIDevelopmentCompany = () => {
 			<div className="blackdiv px-3">
 				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>
-						Ready to bring your idea to life with Artificial
-						Intelligence ?
+						Hire an AI developer now
 					</p>
 					<Link href="/book-a-call" className="book-btn">
-						Book a Call
+						Let's Connect
 					</Link>
 				</div>
 			</div>
@@ -719,12 +718,12 @@ const AIDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
-				<h1 className="all-head text-center mb-5">
+				<h1 className="all-head text-center mb-lg-5 mb-0">
 					Get started with AI Now!
 				</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
-						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec">
+						<div className="col-lg-6 col-md-12 p-4 mb-lg-0 needsec">
 							<h1>
 								Reach out to us with your problems!<br /> Our team
 								will get in touch with you soon.

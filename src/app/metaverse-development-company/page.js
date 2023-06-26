@@ -684,10 +684,10 @@ const MetaverseDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
-				<h1 className="all-head text-center mb-5">We will contact you hereafte!</h1>
+				<h1 className="all-head text-center mb-lg-5 mb-0">We will contact you hereafte!</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
-						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-4">
+						<div className="col-lg-6 col-md-12  needsec p-4">
 							<h1>
 								Want to leverage Metaverse for your business?
 								<br />Let us know your details in the form.

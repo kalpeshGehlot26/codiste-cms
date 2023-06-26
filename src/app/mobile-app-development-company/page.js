@@ -668,10 +668,10 @@ const MobileAppDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5">
-				<h1 className="all-head text-center mb-5">Seek Our Help!</h1>
+				<h1 className="all-head text-center mb-lg-5 mb-0">Seek Our Help!</h1>
 				<section>
 					<div className="row  d-flex align-items-center">
-						<div className="col-lg-6 col-md-12 mb-5 mb-lg-0 needsec p-4">
+						<div className="col-lg-6 col-md-12  needsec p-4">
 							<h1>Do you want a Feature-rich mobile app?<br />
 								Get in touch with us!</h1>
 						</div>
