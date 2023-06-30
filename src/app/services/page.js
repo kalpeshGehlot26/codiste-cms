@@ -20,8 +20,8 @@ const Services = () => {
 	return (
 		<div>
 			<Helmet>
-				<title>Blockchian Development Company I Empowering IT Solutions I Codiste</title>
-				<meta name="description" content="We are a leading software development company offering a innovative tech and development support ecosystem. We caters immersive solutions to all business across diverse sectors." />
+				<title>Leading Blockchain and AI Development Services Provider Company</title>
+				<meta name="description" content="Capitalize on the synergy of blockchain and AI development, as we provide tailored solutions for tokenization, decentralized data and AI-powered Solution." />
 			</Helmet>
 			<div className="bg-color">
 				<div className="container container-fluid">

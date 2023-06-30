@@ -2,9 +2,9 @@ import React from "react";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 
 export const metadata = {
-	title: "Leading Blockchain Development Company | Contact Us | Codiste",
+	title: "Best Blockchain and AI Development Company | Contact Us | Codiste",
 	description:
-		"We'd be happy to hear from you and discuss how we can help turn your ideas into reality. Contact our team directly at manager@codiste.com or +91 9429005987.",
+		"Contact us to learn how our blockchain and AI development solutions can enhance the security, transparency, and efficiency of your tech operations.",
 };
 
 const page = () => {

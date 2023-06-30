@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow:/blog.codiste.com/
 Disallow:/blog.codiste.com/wp-admin/
 Sitemap: https://www.codiste.com/sitemap.xml

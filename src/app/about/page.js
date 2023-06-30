@@ -4,9 +4,9 @@ import Link from "next/link";
 import jsonData from "../data/schema";
 
 export const metadata = {
-	title: "Enterprise Grade Blockchain Development Company | Codiste",
+	title: "Enterprise Grade Blockchain and AI Development Company | Codiste",
 	description:
-		"Codiste is an emerging leader in blockchain development services that enable businesses to thrive in the constantly evolving digital decentralized.",
+		"Codiste is an emerging Top leader in blockchain and AI development services that enable businesses to thrive in the constantly evolving digital decentralized.",
 };
 
 const About = () => {

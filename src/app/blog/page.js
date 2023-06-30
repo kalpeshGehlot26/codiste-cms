@@ -6,7 +6,7 @@ import Posts from "../component/Posts/posts";
 export const metadata = {
 	title: "Stay informed on emerging technologies | Codiste",
 	description:
-		"Our blog provides comprehensive coverage of emerging technologies like Blockchain, Metaverse, NFTs, Augmented reality, Virtual Reality, AI, ML and more.",
+		"Our blog provides comprehensive coverage of emerging technologies like Blockchain and AI, Metaverse, NFTs, Augmented reality, Virtual Reality, ML and more.",
 };
 
 const Blogs = () => {

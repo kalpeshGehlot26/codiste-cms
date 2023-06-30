@@ -10,9 +10,8 @@ import Analytics from './component/Analytics';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-	title: "Leading Blockchain and Software Development Company | Codiste",
-	description:
-		"Experience innovative IT services from Codiste, a leading blockchain development company. Specializing in blockchain, metaverse, AI, ML, cryptocurrency and NFT.",
+	title: "Top Blockchain and AI Development Company | Codiste",
+	description: "Leverage the decentralized and immutable nature of blockchain tech in conjunction with the advanced algo of AI development to revolutionize business operations.",
 };
 
 export default function RootLayout({ children }) {
@@ -22,6 +21,9 @@ export default function RootLayout({ children }) {
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+				<meta property="og:image" content="../../public/assets/images/featuredImg.png" />
+				<meta property="og:url" content="https://codiste.com/" />
+				<meta property="og:type" content="website" />
 			</head>
 			<body className={inter.className}>
 				<Header />

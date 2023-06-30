@@ -5,9 +5,9 @@ import CaseStudyList from "../component/CaseStudyList/caseStudyList";
 import Link from "next/link";
 
 export const metadata = {
-	title: "Showcasing Our Blockchain Development Solutions | Portfolio | Codiste",
+	title: "Showcasing Our Blockchain and AI Development Solutions | Portfolio",
 	description:
-		"Explore our portfolio and see what we delivered to figure out how it helped drive forward the development of tech & software solutions for various industries.",
+		"Gain valuable knowledge from our case studies, showcasing the strategic implementation of blockchain and AI technologies to achieve remarkable results.",
 };
 
 const CodistePortfolio = () => {
