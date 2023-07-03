@@ -7,6 +7,7 @@ import Header from "./layouts/header";
 import Footer from "./layouts/footer";
 import Analytics from './component/Analytics';
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -21,9 +22,11 @@ export default function RootLayout({ children }) {
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-				<meta property="og:image" content="../../public/assets/images/featuredImg.png" />
+				<meta property="og:image" content="assets/images/featuredImg.webp" />
 				<meta property="og:url" content="https://codiste.com/" />
 				<meta property="og:type" content="website" />
+				<meta property="og:title" content="Codiste - A leading Blockchain and AI Development Company" />
+				<meta property="og:description" content="Empowering Businesses with Blockchain, AI, AR/VR, Metaverse, NFT Marketplace, and Cryptocurrency development Solutions for business future success." />
 			</head>
 			<body className={inter.className}>
 				<Header />

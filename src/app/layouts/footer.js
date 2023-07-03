@@ -20,7 +20,7 @@ const Footer = () => {
 
 							<div className="footer-menu-items">
 								<p className="my-3">
-									Codiste is a leading tech development services provider company, specializing in robust, scalable, and secure enterprise solutions in blockchain, metaverse, AR/VR, AI and other emerging technologies.
+									Codiste is a Top Blockchain and AI development company that offers robust, secure, and scalable business solutions.
 								</p>
 
 								<Clutch />

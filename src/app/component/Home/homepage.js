@@ -13,6 +13,7 @@ import "../../../external.css";
 import VideoPlayer from "./Videoplayer";
 import LazyLoad from 'react-lazy-load';
 
+
 const limit = 5;
 const category = "47,43,55,6,57";
 
@@ -53,6 +54,7 @@ const HomePage = () => {
 			<ClientSlider />
 
 			<div className="container container-fluid py-5">
+				<div className="d-none"><img src="assets/images/featuredImg.webp" alt="featuredImg" loading="lazy" /></div>
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center  mb-5">
 						<h1 className="all-head">Services We Offer</h1>
