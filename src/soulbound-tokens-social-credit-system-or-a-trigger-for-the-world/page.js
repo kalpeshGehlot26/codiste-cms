@@ -1,9 +1,18 @@
+import { DefaultSeo, NextSeo } from 'next-seo';
 import React from 'react'
 
 const soulboundtokenssocial = () => {
   return (
-    <div>soulboundtokenssocial</div>
-  )
+    <>
+      <DefaultSeo
+        noindex={true}
+      />
+      <NextSeo
+        noindex={true}
+      />
+      <div>EasyWaysToNFTWhiteListing</div>
+    </>
+  );
 }
 
 export default soulboundtokenssocial;

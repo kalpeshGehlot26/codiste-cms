@@ -77,7 +77,16 @@ module.exports = {
         destination: '/blockchain-healthcare-use-cases-benefits',
         permanent: true
       },
-
+      {
+        source: '/4-pillars-of-oops',
+        destination: '/empowering-token-sales-decentralised-launchpad',
+        permanent: true
+      },
+      {
+        source: '/soulbound-tokens-social-credit-system-or-a-trigger-for-the-world',
+        destination: '/explore-future-possibilities-soulbound-tokens',
+        permanent: true
+      },
 
     ]
   },

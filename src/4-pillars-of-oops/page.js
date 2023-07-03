@@ -1,7 +1,7 @@
 import { DefaultSeo, NextSeo } from 'next-seo';
 import React from 'react'
 
-const whatisblockchainthe = () => {
+const pillarsof = () => {
   return (
     <>
       <DefaultSeo
@@ -15,4 +15,4 @@ const whatisblockchainthe = () => {
   );
 }
 
-export default whatisblockchainthe
+export default pillarsof
