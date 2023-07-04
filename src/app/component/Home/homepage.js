@@ -99,11 +99,11 @@ const HomePage = () => {
 									<div className="ratio ratio-16x9" id="video-container">
 										<iframe
 											src="https://player.vimeo.com/video/828259500"
-											frameborder="0"
+											frameBorder="0"
 											allow="fullscreen; picture-in-picture"
 											allowFullScreen
-											webkitAllowFullScreen
-											mozAllowFullScreen
+											webkitallowfullscreen="true"
+											mozallowfullscreen="true"
 											title="Clientele Video"
 										></iframe>
 									</div>
@@ -117,7 +117,7 @@ const HomePage = () => {
 
 			<div className="container container-fluid  firstsec">
 				<div className=" d-flex align-items-center flex-column justify-content-center">
-					<h1 className="all-head">Codiste As Company</h1>
+					<h2 className="all-head">Codiste As Company</h2>
 				</div>
 				<div className="container container-fluid">
 					<div className="row">
@@ -127,7 +127,7 @@ const HomePage = () => {
 									width: "auto",
 									margin: "auto",
 									padding: "20px",
-								}} src="assets/images/home/Codiste_Company.png" alt="Codiste As Company" loading="lazy" />
+								}} src="assets/images/home/Codiste_Company.webp" alt="Codiste As Company" loading="lazy" />
 						</div>
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">
 							<h3 className="mb-3">Looking to stay ahead of the curve?</h3>
@@ -149,7 +149,7 @@ const HomePage = () => {
 				<div className="container container-fluid py-5">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">Industries We Serve</h1>
+							<h2 className="all-head">Industries We Serve</h2>
 							<p className="all-p text-center">
 								Codiste serves diverse industries providing
 								tailored solutions to help businesses grow.
@@ -162,7 +162,7 @@ const HomePage = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-4">
-					<h1 className="all-blog">Blogs</h1>
+					<h2 className="all-blog">Blogs</h2>
 					<p className="all-p text-center">
 						Keep yourself updated with emerging technologies and new developments in the industry with us.
 					</p>
@@ -244,7 +244,7 @@ const HomePage = () => {
 
 			<div className="">
 				<div className="container container-fluid py-5">
-					<h2 className="all-head mb-lg-5 mb-0 text-center">Get started with your idea today!</h2>
+					<h1 className="all-head mb-lg-5 mb-0 text-center">Get started with your idea today!</h1>
 					<section>
 						<div className="row  d-flex align-items-center">
 							<div className="col-lg-6 col-md-12  needsec p-4">
@@ -256,7 +256,7 @@ const HomePage = () => {
 							<div className="col-lg-6 col-md-12 ">
 								<div className="need-block h-100">
 									<h2 className="">
-										How Can We <b>Help?</b>{" "}
+										How Can We <b>Help?</b>
 									</h2>
 									<CaseStudyForm text="Start a Conversation" />
 								</div>

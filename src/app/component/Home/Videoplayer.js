@@ -26,11 +26,11 @@ const VideoPlayer = () => {
       {loadVideo && (
         <iframe
           src="https://player.vimeo.com/video/828259341?background=1&autoplay=1"
-          frameborder="0"
+          frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen
-          webkitAllowFullScreen
-          mozAllowFullScreen
+          webkitallowfullscreen="true"
+          mozallowfullscreen="true"
           title="Codiste_Home"
         ></iframe>
       )}

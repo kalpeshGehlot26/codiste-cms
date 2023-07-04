@@ -29,9 +29,13 @@ const ClientSlider = () => {
                     },
                     600: {
                         perPage: 2,
+                        pagination: false,
+                        arrows: true,
                     },
                     400: {
                         perPage: 1,
+                        pagination: false,
+                        arrows: true,
                     }
                 }
             }}
