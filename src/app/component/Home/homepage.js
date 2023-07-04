@@ -99,11 +99,11 @@ const HomePage = () => {
 									<div className="ratio ratio-16x9" id="video-container">
 										<iframe
 											src="https://player.vimeo.com/video/828259500"
-											frameBorder="0"
+											frameborder="0"
 											allow="fullscreen; picture-in-picture"
 											allowFullScreen
-											webkitallowfullscreen="true"
-											mozallowfullscreen="true"
+											webkitAllowFullScreen
+											mozAllowFullScreen
 											title="Clientele Video"
 										></iframe>
 									</div>
@@ -116,7 +116,6 @@ const HomePage = () => {
 			</div>
 
 			<div className="container container-fluid  firstsec">
-				<div className="d-none"><img src="assets/images/featuredImg.webp" alt="featuredImg" loading="lazy" /></div>
 				<div className=" d-flex align-items-center flex-column justify-content-center">
 					<h2 className="all-head">Codiste As Company</h2>
 				</div>
