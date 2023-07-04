@@ -8,6 +8,7 @@ module.exports = {
   async redirects() {
     return [
       {
+
         source: '/4-pillars-of-oops',
         destination: '/empowering-token-sales-decentralised-launchpad',
         permanent: true,

@@ -1,7 +1,7 @@
 import { DefaultSeo, NextSeo } from 'next-seo';
-// import Head from 'next/head';
+import Head from 'next/head';
 import React from 'react'
-// import { Helmet } from 'react-helmet';
+
 
 const PillarsOf = () => {
   return (
@@ -12,9 +12,9 @@ const PillarsOf = () => {
       {/* <NextSeo
         noindex={true}
       /> */}
-      {/* <Head>
+      <Head>
         <meta name="robots" content="noindex" />
-      </Head> */}
+      </Head>
       <div>EasyWaysToNFTWhiteListing</div>
     </>
   );
