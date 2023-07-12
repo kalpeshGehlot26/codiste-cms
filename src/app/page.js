@@ -1,6 +1,7 @@
 import HomePage from "./component/Home/homepage";
 import jsonData from "./data/schema";
 
+
 export const metadata = {
 	title: "Top Blockchain and AI Development Company | Codiste",
 	description:
