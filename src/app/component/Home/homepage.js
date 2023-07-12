@@ -32,7 +32,7 @@ const HomePage = () => {
 
 
 	return (
-		<div>
+		<div data-aos="fade-up" data-aos-duration="3000">
 			<section className="video-containeraa videosec">
 				<div>
 					<VideoPlayer />
@@ -53,7 +53,7 @@ const HomePage = () => {
 			</section>
 			<ClientSlider />
 
-			<div className="container container-fluid py-5">
+			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="d-none"><img src="assets/images/featuredImg.webp" alt="featuredImg" loading="lazy" /></div>
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center  mb-5">
@@ -81,7 +81,7 @@ const HomePage = () => {
 				</section>
 			</div>
 
-			<div className="bg-color py-5">
+			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid ">
 					<h1 className="all-head text-center mb-5">
 						Feedback that inspires us to consistently be our best!
@@ -115,7 +115,7 @@ const HomePage = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid  firstsec">
+			<div className="container container-fluid  firstsec" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center">
 					<h2 className="all-head">Codiste As Company</h2>
 				</div>
@@ -145,7 +145,7 @@ const HomePage = () => {
 				</div>
 			</div>
 
-			<div className="bg-color">
+			<div className="bg-color" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid py-5">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -160,7 +160,7 @@ const HomePage = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5">
+			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-4">
 					<h2 className="all-blog">Blogs</h2>
 					<p className="all-p text-center">
@@ -173,7 +173,7 @@ const HomePage = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5 mt-md-5 mt-0">
+			<div className="bg-color py-5 mt-md-5 mt-0" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className="text-center">
 						<h2 className="all-head">Innovation in Action: Real-World Case Studies from Codiste</h2>
@@ -242,7 +242,7 @@ const HomePage = () => {
 				</div>
 			</div>
 
-			<div className="">
+			<div className="" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid py-5">
 					<h1 className="all-head mb-lg-5 mb-0 text-center">Get started with your idea today!</h1>
 					<section>

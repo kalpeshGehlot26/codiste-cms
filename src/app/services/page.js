@@ -23,14 +23,14 @@ const Services = () => {
 				<title>Leading Blockchain and AI Development Services Provider Company</title>
 				<meta name="description" content="Capitalize on the synergy of blockchain and AI development, as we provide tailored solutions for tokenization, decentralized data and AI-powered Solution." />
 			</Helmet>
-			<div className="bg-color">
+			<div className="bg-color" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec ">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
 								<div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
 									<h1 className="all-head">Our Services</h1>
-									<p className="all-p me-5 my-4">We bring the best people for a one-stop tech & dev support
+									<p className="all-p mb-4">We bring the best people for a one-stop tech & dev support
 										ecosystem catering to businesses, startups, and enterprises from various sectors and industries. We are
 										your partner in accelerating innovation and growth with web and app solutions in emerging, rapidly
 										growing technologies to help you elevate your user and customer experience.
@@ -48,7 +48,7 @@ const Services = () => {
 			</div>
 			<ClientSlider />
 
-			<div className="container container-fluid py-5">
+			<div className="container container-fluid py-5" >
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h1 className="all-head">Services We Offer</h1>
@@ -75,7 +75,7 @@ const Services = () => {
 				</section>
 			</div>
 
-			<div className="container-fluid p-0">
+			<div className="container-fluid p-0" data-aos="fade-up" data-aos-duration="3000">
 				<section>
 					<div className="blacksec">
 						<h1>Why Codiste?</h1>
@@ -99,7 +99,7 @@ const Services = () => {
 				</section>
 			</div>
 
-			<div className="bg-color py-5">
+			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -110,7 +110,7 @@ const Services = () => {
 								customized IT solutions.
 							</p>
 						</div>
-						<div className="row">
+						<div className="row" data-aos="fade-up" data-aos-duration="3000">
 							<div className="col-lg-12">
 								<TechStack />
 							</div>
@@ -119,7 +119,7 @@ const Services = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5">
+			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Industries We Serve</h1>
@@ -132,7 +132,7 @@ const Services = () => {
 				</section>
 			</div>
 
-			<div className="bg-color py-5">
+			<div className="bg-color py-5" >
 				<div className="container container-fluid ">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -142,8 +142,8 @@ const Services = () => {
 							</p>
 						</div>
 
-						<div className="row">
-							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
+						<div className="row" >
+							<div data-aos="fade-up" data-aos-duration="3000" className="col-xl-4 col-md-6 col-sm-12 pb-3">
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
@@ -164,7 +164,7 @@ const Services = () => {
 									</p>
 								</div>
 							</div>
-							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
+							<div data-aos="fade-up" data-aos-duration="3000" className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
@@ -185,7 +185,7 @@ const Services = () => {
 									</p>
 								</div>
 							</div>
-							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
+							<div data-aos="fade-up" data-aos-duration="3000" className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
@@ -206,7 +206,7 @@ const Services = () => {
 									</p>
 								</div>
 							</div>
-							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
+							<div data-aos="fade-up" data-aos-duration="3000" className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
@@ -228,7 +228,7 @@ const Services = () => {
 									</p>
 								</div>
 							</div>
-							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
+							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 " data-aos="fade-up" data-aos-duration="3000">
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
@@ -249,7 +249,7 @@ const Services = () => {
 									</p>
 								</div>
 							</div>
-							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
+							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 " data-aos="fade-up" data-aos-duration="3000">
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
@@ -276,7 +276,7 @@ const Services = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5">
+			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head text-center">Our Proven Development Cycle </h1>
 					<p className="all-p  text-center">
@@ -285,7 +285,7 @@ const Services = () => {
 					</p>
 				</div>
 
-				<div className="row g-4">
+				<div className="row g-4" data-aos="fade-up" data-aos-duration="3000">
 					<div className="col-xl-4 col-md-6 col-sm-12 pb-3 position-relative">
 						<div className="process-block process-block1 h-100">
 							<div className="process-circle process-circle1">
@@ -380,7 +380,7 @@ const Services = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5">
+			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid ">
 					<div className="text-center">
 						<h2 className="all-head mb-5">
@@ -388,7 +388,7 @@ const Services = () => {
 							Codiste
 						</h2>
 					</div>
-					<div className="container container-fluid py-5">
+					<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 						<div className="row g-5">
 							<div className="col-lg-4 col-md-6 col-sm-12">
 								<div className="casediwallet-block ">
@@ -456,7 +456,7 @@ const Services = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5">
+			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-blog">Blogs</h1>
 					<p className="all-p text-center">
@@ -469,7 +469,7 @@ const Services = () => {
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
 			</div>
-			<div className="bg-color py-5">
+			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -652,7 +652,7 @@ const Services = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5">
+			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<h1 className="all-blog text-center mb-lg-5 mb-0">Getting in touch with Us!</h1>
 				<section>
 					<div className="row  d-flex align-items-center">

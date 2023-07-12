@@ -20,7 +20,7 @@ const About = () => {
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.aboutUsV1) }}
 			/>
-			<div className="bg-color careersec">
+			<div className="bg-color careersec" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-0 mb-lg-5 p-4">
 					<h1 className="all-head">Enterprise Grade Blockchain Development Company</h1>
 				</div>
@@ -49,7 +49,7 @@ const About = () => {
 			<div className="py-5">
 				<div className="container container-fluid">
 					<div className="row justify-content-between">
-						<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap  align-items-center justify-content-between">
+						<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap  align-items-center justify-content-between" data-aos="fade-up" data-aos-duration="3000">
 							<div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
 								<h1 className="all-head ">MISSION</h1>
 								<p className="secondsec-p ">Strive, Innovate and Succeed in delivering tangible business value to clients across the
@@ -60,7 +60,7 @@ const About = () => {
 							<div className="col-12 col-lg-4 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' alt='MISSION' src="assets/images/about/Mission.png" /></div>
 						</div>
 
-						<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap  align-items-center justify-content-between">
+						<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap  align-items-center justify-content-between" data-aos="fade-up" data-aos-duration="3000">
 							<div className="col-12 col-lg-4 mt-5 mt-lg-0"><img className='img-fluid' alt='VISION' src="assets/images/about/vision.png" /></div>
 							<div className="col-12 col-lg-5 p-4">
 								<h1 className="all-head ">VISION</h1>
@@ -73,7 +73,7 @@ const About = () => {
 				</div>
 			</div>
 
-			<div className="py-5 bg-color">
+			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid ">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -85,7 +85,7 @@ const About = () => {
 							</p>
 						</div>
 
-						<div className="row">
+						<div className="row" data-aos="fade-up" data-aos-duration="3000">
 							<div className="col-lg-12">
 								<ul className="About-style">
 									<li>
@@ -184,9 +184,9 @@ const About = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid  py-5" id="servicesOffer">
+			<div className="container container-fluid  py-5" id="servicesOffer" data-aos="fade-up" data-aos-duration="3000">
 				<section>
-					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+					<div className=" d-flex align-items-center flex-column justify-content-center mb-5" data-aos="fade-up" data-aos-duration="3000">
 						<h1 className="all-head">Services We Offer</h1>
 						<p className="all-p  text-center">
 							We offer a wide range of innovation-led
@@ -196,7 +196,7 @@ const About = () => {
 						</p>
 					</div>
 
-					<div className="row">
+					<div className="row" data-aos="fade-up" data-aos-duration="3000">
 						<div className="col-lg-12">
 							<ul className="AboutService-style">
 								<li>
@@ -343,10 +343,10 @@ const About = () => {
 				</section>
 			</div>
 
-			<div className="py-5  bg-color">
+			<div className="py-5 bg-color" >
 				<div className="container container-fluid">
 					<h1 className="all-head text-center mb-5">Leadership Team</h1>
-					<div className="row">
+					<div className="row" data-aos="fade-up" data-aos-duration="3000">
 						<div className="col-xl-2 col-md-4 p-4 ">
 							<img className='img-fluid ' src="assets/images/about/Nishant.png" alt="Nishant Bijani" loading="lazy" />
 						</div>
@@ -377,7 +377,7 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-					<div className="row">
+					<div className="row" data-aos="fade-up" data-aos-duration="3000">
 						<div className="col-xl-2 col-md-4  p-4">
 							<img className='img-fluid' src="assets/images/about/Nic.png" alt="Nic" loading="lazy" />
 						</div>
@@ -409,7 +409,8 @@ const About = () => {
 					</div>
 				</div>
 			</div>
-			<div className=" py-5 mt-5">
+
+			<div className=" py-5 mt-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -584,7 +585,7 @@ const About = () => {
 				</div>
 			</div>
 
-			<div className="bg-color">
+			<div className="bg-color" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid  py-5">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -606,7 +607,8 @@ const About = () => {
 					</div>
 				</div>
 			</div>
-			<div className="container container-fluid mb-5 firstsec">
+
+			<div className="container container-fluid mb-5 firstsec" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-head">Our Global Presence </h1>
 					<p className="secondsec-p text-center">
@@ -987,7 +989,8 @@ const About = () => {
 					</div>
 				</div>
 			</div>
-			<div className=" bg-color py-5">
+
+			<div className=" bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -1171,7 +1174,7 @@ const About = () => {
 				</div>
 			</div>
 
-			<div className="">
+			<div className="" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid py-5">
 					<h1 className="all-head mb-lg-5 mb-0 text-center">Get in touch with Us!</h1>
 					<section>

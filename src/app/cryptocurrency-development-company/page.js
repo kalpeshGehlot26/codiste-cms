@@ -23,7 +23,7 @@ const CryptoDevelopmentCompany = () => {
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.cryptoService) }}
 			/>
-			<div className="bg-color">
+			<div className="bg-color" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec ">
@@ -44,7 +44,7 @@ const CryptoDevelopmentCompany = () => {
 			</div>
 			<ClientSlider />
 
-			<div className="container container-fluid">
+			<div className="container container-fluid" data-aos="fade-up" data-aos-duration="2000">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h1 className="all-head">Our Cryptocurrency Development Services</h1>
@@ -53,7 +53,7 @@ const CryptoDevelopmentCompany = () => {
 				</section>
 			</div>
 
-			<div className="py-5 bg-color mt-5">
+			<div className="py-5 bg-color mt-5" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head text-center">
@@ -63,7 +63,7 @@ const CryptoDevelopmentCompany = () => {
 					</div>
 
 					<div className="row">
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1" data-aos="fade-up" data-aos-duration="2000">
 							<img
 								className="img-fluid mb-2"
 								loading="lazy"
@@ -83,7 +83,7 @@ const CryptoDevelopmentCompany = () => {
 								product.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2" data-aos="fade-up" data-aos-duration="2000">
 							<img
 								className="img-fluid mb-2"
 								loading="lazy"
@@ -101,7 +101,7 @@ const CryptoDevelopmentCompany = () => {
 								outshine the competition.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3" data-aos="fade-up" data-aos-duration="2000">
 							<img
 								className="img-fluid mb-2"
 								loading="lazy"
@@ -119,7 +119,7 @@ const CryptoDevelopmentCompany = () => {
 								gaining traction in the crypto space.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4" data-aos="fade-up" data-aos-duration="2000">
 							<img
 								className="img-fluid mb-2"
 								loading="lazy"
@@ -137,7 +137,7 @@ const CryptoDevelopmentCompany = () => {
 								ensure that end products meet your needs.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5" data-aos="fade-up" data-aos-duration="2000">
 							<img
 								className="img-fluid mb-2"
 								loading="lazy"
@@ -154,7 +154,7 @@ const CryptoDevelopmentCompany = () => {
 								wallet holds the keys to accessing crypto funds.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5" data-aos="fade-up" data-aos-duration="2000">
 							<img
 								className="img-fluid mb-2"
 								loading="lazy"
@@ -177,7 +177,7 @@ const CryptoDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="blackdiv px-3 ">
+			<div className="blackdiv px-3" data-aos="fade-up" data-aos-duration="2000">
 				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>Let’s make crypto mainstream together! </p>
 					<Link href="/book-a-call" className="book-btn">
@@ -186,7 +186,7 @@ const CryptoDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5">
+			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -197,7 +197,7 @@ const CryptoDevelopmentCompany = () => {
 								customized IT solutions.
 							</p>
 						</div>
-						<div className="row">
+						<div className="row" data-aos="fade-up" data-aos-duration="2000">
 							<div className="col-lg-12">
 								<ul className="tech-style">
 									<li>
@@ -284,7 +284,7 @@ const CryptoDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="py-5">
+			<div className="py-5" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">FAQs</h1>
@@ -292,6 +292,7 @@ const CryptoDevelopmentCompany = () => {
 					<div
 						className="accordion accordion-flush"
 						id="accordionFlushExample"
+						data-aos="fade-up" data-aos-duration="2000"
 					>
 						<div className="accordion-item">
 							<h2
@@ -494,13 +495,12 @@ const CryptoDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="py-5 bg-color">
+			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-
 					</div>
-					<div className="row d-flex align-items-center justify-content-between case-sec">
+					<div className="row d-flex align-items-center justify-content-between case-sec" data-aos="fade-up" data-aos-duration="2000">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
 							<div className=" ">
 								<h1 className="">CoinxPad Launchpad</h1>
@@ -544,7 +544,7 @@ const CryptoDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5">
+			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-blog">Blogs</h1>
 					<p className="all-p text-center">
@@ -558,7 +558,7 @@ const CryptoDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5">
+			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -733,7 +733,7 @@ const CryptoDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5">
+			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
 				<h1 className="all-head text-center mb-lg-5 mb-0">Place a Support Inquiry!</h1>
 				<section>
 					<div className="row  d-flex align-items-center">

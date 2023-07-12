@@ -12,7 +12,7 @@ export const metadata = {
 const Career = () => {
 	return (
 		<div>
-			<div className="container container-fluid py-4 firstsec ">
+			<div className="container container-fluid py-4 firstsec" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center about-mainsec">
 					<h1 className="all-blog text-center my-3 ">
 						Ready to Do Something Great? Explore Career
@@ -20,7 +20,8 @@ const Career = () => {
 					</h1>
 				</div>
 			</div>
-			<div className="container container-fluid ">
+
+			<div className="container container-fluid" data-aos="fade-up" data-aos-duration="3000">
 				<div className="row careermain">
 					<div className="col-xl-6 col-md-5 col-sm-12 mb-5 p-4">
 						<img className='img-fluid d-flex align-items-center justify-content-center' src="assets/images/main/Career_.png"
@@ -41,9 +42,7 @@ const Career = () => {
 				</div>
 			</div>
 
-
-
-			<div className="container-fluid p-0">
+			<div className="container-fluid p-0" data-aos="fade-up" data-aos-duration="3000">
 				<section>
 					<div className="blacksec">
 						<h1>Why Join Codiste?</h1>
@@ -65,12 +64,12 @@ const Career = () => {
 				</section>
 			</div>
 
-			<div className="container container-fluid firstsec">
+			<div className="container container-fluid firstsec" data-aos="fade-up" data-aos-duration="3000">
 				<h1 className="all-blog text-center">
 					Beyond the Code: Exploring Life at Codiste
 				</h1>
 				<p className="secondsec-p text-center mb-5">A Peek into Codiste's Dynamic Culture</p>
-				<div className="row mt-5">
+				<div className="row mt-5" data-aos="fade-up" data-aos-duration="3000">
 					<div className="col-xl-3 col-md-6 col-sm-12 pb-3 ">
 						<div className="service-block p-4 h-100">
 							<img src="assets/images/career/coworking.png" alt="Competitive Compensation" />
@@ -134,7 +133,7 @@ const Career = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5">
+			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid  firstsec">
 					<h1 className="all-blog text-center">
 						Codiste Reflections Through the Lens!
@@ -143,12 +142,12 @@ const Career = () => {
 				</div>
 			</div>
 
-			<div className="firstsec">
+			<div className="firstsec" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid mb-5  py-5">
 					<div className="mb-5">
 						<h1 className="all-blog text-center">Discover Your Dream Job: Current Openings at Codiste</h1>
 					</div>
-					<div className="row">
+					<div className="row" data-aos="fade-up" data-aos-duration="3000">
 						<div className="col-lg-4 col-md-6 col-12 pb-3 ">
 							<div className="service-block p-4 h-100 d-flex flex-column justify-content-between">
 								<div>
@@ -176,7 +175,6 @@ const Career = () => {
 								<div>
 									<a href="#apply-now" className="apply-btn">Apply Now</a>
 								</div>
-
 							</div>
 						</div>
 						<div className="col-lg-4 col-md-6 col-12 pb-3 ">
@@ -201,7 +199,7 @@ const Career = () => {
 			<div>
 			</div>
 
-			<div className="py-5 bg-color">
+			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<h1 className="all-head text-center">
 						Our People, Our Success: The Codiste Team Speaks Out
@@ -210,7 +208,7 @@ const Career = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-lg-5 py-5" id="apply-now">
+			<div className="container container-fluid py-lg-5 py-5" id="apply-now" data-aos="fade-up" data-aos-duration="3000">
 				<h1 className="text-center all-head mb-lg-5 mb-0">Are you a professional techie?</h1>
 				<section>
 					<div className="row  d-flex align-items-center">

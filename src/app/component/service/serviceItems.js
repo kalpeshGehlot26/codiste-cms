@@ -15,7 +15,7 @@ const ServiceList = ({ serviceItems, serviceCount, setTotalServiceCount }) => {
 						: "d-flex align-items-center flex-wrap";
 				if (serviceCount < index + 1) return;
 				return (
-					<div className="col-xl-4 col-md-6 col-sm-12 pb-3 Newservice-block" key={index}>
+					<div className="col-xl-4 col-md-6 col-sm-12 pb-3 Newservice-block" key={index} data-aos="fade-up" data-aos-duration="3000">
 						<Link className=" p-4 h-100" href={service.ServiceLink}>
 							<div className={serviceClass}>
 								<div>

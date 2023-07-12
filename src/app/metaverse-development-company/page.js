@@ -23,14 +23,14 @@ const MetaverseDevelopmentCompany = () => {
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.metaService) }}
 			/>
-			<div className="bg-color">
+			<div className="bg-color" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec ">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
 								<div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
 									<h1 className="all-head">Enterprise-Grade Metaverse Development Company</h1>
-									<p className="all-p me-5 my-4">We are a metaverse development company that helps businesses and
+									<p className="all-p mb-4">We are a metaverse development company that helps businesses and
 										organizations access the decentralized Metaverse. We offer an immersive 3D virtual user experience by
 										integrating with traditional website/mobile and stand-alone metaverse service applications built on
 										secure, scalable, and reliable blockchain networks, APIs, and mixed realities.
@@ -44,10 +44,9 @@ const MetaverseDevelopmentCompany = () => {
 					</section>
 				</div>
 			</div>
-
 			<ClientSlider />
 
-			<div className="container container-fluid">
+			<div className="container container-fluid" data-aos="fade-up" data-aos-duration="3000">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h1 className="all-head">Our Metaverse Services </h1>
@@ -60,7 +59,7 @@ const MetaverseDevelopmentCompany = () => {
 				</section>
 			</div>
 
-			<div className="py-5 bg-color mt-5">
+			<div className="py-5 bg-color mt-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head text-center">
@@ -69,7 +68,7 @@ const MetaverseDevelopmentCompany = () => {
 					</div>
 
 					<div className="row">
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1" data-aos="fade-up" data-aos-duration="3000">
 							<img
 								className="img-fluid mb-2"
 								alt="Post Sales"
@@ -86,7 +85,7 @@ const MetaverseDevelopmentCompany = () => {
 								metaverse.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2" data-aos="fade-up" data-aos-duration="3000">
 							<img
 								className="img-fluid mb-2"
 								alt="personalized"
@@ -103,7 +102,7 @@ const MetaverseDevelopmentCompany = () => {
 								outshine the competition.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3" data-aos="fade-up" data-aos-duration="3000">
 							<img
 								className="img-fluid mb-2"
 								alt="3D Immersive Experience"
@@ -120,7 +119,7 @@ const MetaverseDevelopmentCompany = () => {
 								popular.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4" data-aos="fade-up" data-aos-duration="3000">
 							<img
 								className="img-fluid mb-2"
 								alt="Virtual Avatars"
@@ -138,7 +137,7 @@ const MetaverseDevelopmentCompany = () => {
 								awareness, customer loyalty, and brand advocacy.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5" data-aos="fade-up" data-aos-duration="3000">
 							<img
 								className="img-fluid mb-2"
 								alt="Decentralized Security"
@@ -155,7 +154,7 @@ const MetaverseDevelopmentCompany = () => {
 								data and identity with the metaverse.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5" data-aos="fade-up" data-aos-duration="3000">
 							<img
 								className="img-fluid mb-2"
 								alt="Extensive Customization"
@@ -175,7 +174,7 @@ const MetaverseDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="blackdiv">
+			<div className="blackdiv" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>
 						Level up your CX with a seamless Metaverse integration
@@ -187,7 +186,7 @@ const MetaverseDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5 mb-5">
+			<div className="bg-color py-5 mb-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid py-5">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -198,7 +197,7 @@ const MetaverseDevelopmentCompany = () => {
 								customized IT solutions.
 							</p>
 						</div>
-						<div className="row">
+						<div className="row" data-aos="fade-up" data-aos-duration="3000">
 							<div className="col-lg-12">
 								<ul className="tech-style">
 									<li>
@@ -257,7 +256,7 @@ const MetaverseDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="py-5">
+			<div className="py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">FAQs</h1>
@@ -455,7 +454,7 @@ const MetaverseDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="py-5 bg-color">
+			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
@@ -504,7 +503,7 @@ const MetaverseDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5">
+			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-blog">Blogs</h1>
 					<p className="all-p text-center">
@@ -517,7 +516,7 @@ const MetaverseDevelopmentCompany = () => {
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
 			</div>
-			<div className="bg-color py-5">
+			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -683,7 +682,7 @@ const MetaverseDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5">
+			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<h1 className="all-head text-center mb-lg-5 mb-0">We will contact you hereafte!</h1>
 				<section>
 					<div className="row  d-flex align-items-center">

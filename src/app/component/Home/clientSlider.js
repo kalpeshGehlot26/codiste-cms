@@ -7,6 +7,7 @@ import clientLogo from "../../data/clientLogo";
 const ClientSlider = () => {
     return (
         <Splide
+            data-aos="fade-up" data-aos-duration="3000"
             hasTrack={false}
             options={{
                 type: "loop",

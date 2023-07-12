@@ -10,7 +10,7 @@ export const metadata = {
 const page = () => {
 	return (
 		<div>
-			<div className="bg-color contactsec">
+			<div className="bg-color contactsec" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid  py-5">
 					<div className="mb-5">
 						<h1 className="all-head text-center">
@@ -22,7 +22,7 @@ const page = () => {
 						</p>
 					</div>
 
-					<section>
+					<section data-aos="fade-up" data-aos-duration="3000">
 						<div className="row">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap align-items-center justify-content-between">
 								<div className="col-12 col-lg-6 order-2 order-lg-1">
@@ -52,7 +52,7 @@ const page = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid mb-5 py-5">
+			<div className="container container-fluid mb-5 py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center  mb-5 contact-block">
 					<h1 className="all-blog text-center">
 						Serving Clients With Our Global Network
@@ -64,7 +64,7 @@ const page = () => {
 						global clientele efficiently.
 					</p>
 				</div>
-				<div className="row">
+				<div className="row" data-aos="fade-up" data-aos-duration="3000">
 					<div className="col-md-6 col-sm-12 pb-3 ">
 						<div className="service-block p-4 h-100 ">
 							<div className="d-flex justify-content-center align-items-center customind mb-4">
@@ -248,7 +248,7 @@ const page = () => {
 						</div>
 					</div>
 
-					<div className="col-md-6 col-sm-12 pb-3 ">
+					<div className="col-md-6 col-sm-12 pb-3" data-aos="fade-up" data-aos-duration="3000">
 						<div className="service-block p-4 h-100 ">
 							<div className="d-flex justify-content-center align-items-center customind mb-4">
 								<div><img

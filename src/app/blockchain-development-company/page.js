@@ -23,11 +23,11 @@ const BlockChainDevelopment = () => {
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.blockChainService) }}
 			/>
-			<div className="bg-color">
+			<div className="bg-color" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec ">
-							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
+							<div data-aos="fade-up" data-aos-duration="2000" className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
 								<div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
 									<h1 className="all-head">
 										Blockchain Development Company
@@ -62,7 +62,7 @@ const BlockChainDevelopment = () => {
 			</div>
 			<ClientSlider />
 
-			<div className="container container-fluid">
+			<div className="container container-fluid" >
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h1 className="all-head">Our Blockchain Development Services</h1>
@@ -77,7 +77,7 @@ const BlockChainDevelopment = () => {
 				</section>
 			</div>
 
-			<div className="py-5 bg-color mt-5">
+			<div className="py-5 bg-color mt-5" >
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head text-center">
@@ -85,7 +85,7 @@ const BlockChainDevelopment = () => {
 						</h1>
 					</div>
 					<div className="row">
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
+						<div data-aos="fade-up" data-aos-duration="2000" className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
 								alt="Blockchain Network"
@@ -106,7 +106,7 @@ const BlockChainDevelopment = () => {
 								network's unique features.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
+						<div data-aos="fade-up" data-aos-duration="2000" className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
 								alt="End-To-End Development"
@@ -125,7 +125,7 @@ const BlockChainDevelopment = () => {
 								applications.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
+						<div data-aos="fade-up" data-aos-duration="2000" className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
 								alt="Customized Solutions"
@@ -145,7 +145,7 @@ const BlockChainDevelopment = () => {
 								and pain points.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
+						<div data-aos="fade-up" data-aos-duration="2000" className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
 							<img
 								className="img-fluid mb-2"
 								alt="Organizational Transparency"
@@ -165,7 +165,7 @@ const BlockChainDevelopment = () => {
 								decisions about your project.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
+						<div data-aos="fade-up" data-aos-duration="2000" className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
 								alt="Better Security"
@@ -185,7 +185,7 @@ const BlockChainDevelopment = () => {
 								cyber-attacks, and data breaches.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5">
+						<div data-aos="fade-up" data-aos-duration="2000" className="col-12 col-md-6 col-lg-4 text-center p-5">
 							<img
 								className="img-fluid mb-2"
 								alt="Enhanced Scalability"
@@ -210,7 +210,7 @@ const BlockChainDevelopment = () => {
 				</div>
 			</div>
 
-			<div className="blackdiv px-3">
+			<div className="blackdiv px-3" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>
 						Let Hire Blockchain Developers for your next project
@@ -225,7 +225,7 @@ const BlockChainDevelopment = () => {
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
-						<div className=" d-flex align-items-center flex-column justify-content-center">
+						<div className=" d-flex align-items-center flex-column justify-content-center" data-aos="fade-up" data-aos-duration="3000">
 							<h1 className="all-blog text-center">Technology Stack</h1>
 							<p className="all-p text-center">
 								We pride ourselves on our proven track record
@@ -235,8 +235,8 @@ const BlockChainDevelopment = () => {
 						</div>
 						<div className="row">
 							<div className="col-lg-12">
-								<ul className="tech-style">
-									<li>
+								<ul className="tech-style" data-aos="fade-up" data-aos-duration="2000">
+									<li >
 										<img
 											className="img-fluid" loading="lazy" alt="Binance_Logo"
 											src="assets/images/tech/Binance_Logo.png"
@@ -327,7 +327,7 @@ const BlockChainDevelopment = () => {
 				</div>
 			</div>
 
-			<div className="py-5">
+			<div className="py-5" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">FAQs</h1>
@@ -578,7 +578,7 @@ const BlockChainDevelopment = () => {
 				</div>
 			</div>
 
-			<div className="py-5 bg-color">
+			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
@@ -625,7 +625,8 @@ const BlockChainDevelopment = () => {
 					</div>
 				</div>
 			</div>
-			<div className="container container-fluid py-5">
+
+			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-blog">Blogs</h1>
 					<p className="all-p text-center">
@@ -639,7 +640,7 @@ const BlockChainDevelopment = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5">
+			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -827,9 +828,9 @@ const BlockChainDevelopment = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5">
+			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
 				<h1 className="all-head text-center mb-lg-5 mb-0">Have a Project?</h1>
-				<section>
+				<section data-aos="fade-up" data-aos-duration="2000">
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 p-4 mb-lg-0 needsec p-4">
 							<h1>Reach out to our technical support team for immediate assistance and expert guidance.</h1>

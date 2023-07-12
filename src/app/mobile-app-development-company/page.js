@@ -23,14 +23,14 @@ const MobileAppDevelopmentCompany = () => {
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.mobileService) }}
 			/>
-			<div className="bg-color">
+			<div className="bg-color" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<section>
-						<div className="row firstsec ">
+						<div className="row firstsec">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
 								<div className="col-12 col-lg-6 order-2 order-lg-1 p-4">
 									<h1 className="all-head">Mobile App Development Company</h1>
-									<p className="all-p me-5 my-4">We are a digital mobile application development company that
+									<p className="all-p mb-4">We are a digital mobile application development company that
 										offers the best-in-class end-user experience with a mobile application. Our application
 										development team builds lightning-fast, smooth & bug-free Mobile Apps that exceed
 										expectations and drive better user engagement. We offer iOS, Android, Flutter, and React
@@ -48,7 +48,7 @@ const MobileAppDevelopmentCompany = () => {
 			</div>
 			<ClientSlider />
 
-			<div className="container container-fluid py-5">
+			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h1 className="all-head text-center">
@@ -59,7 +59,7 @@ const MobileAppDevelopmentCompany = () => {
 				</section>
 			</div>
 
-			<div className="py-5 bg-color">
+			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head text-center">
@@ -69,7 +69,7 @@ const MobileAppDevelopmentCompany = () => {
 					</div>
 
 					<div className="row">
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1" data-aos="fade-up" data-aos-duration="3000">
 							<img
 								className="img-fluid mb-2"
 								alt="Quality Assurance and Testing"
@@ -87,7 +87,7 @@ const MobileAppDevelopmentCompany = () => {
 							</p>
 						</div>
 
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2" data-aos="fade-up" data-aos-duration="3000">
 							<img
 								className="img-fluid mb-2"
 								alt="Customization and Personalization"
@@ -105,7 +105,7 @@ const MobileAppDevelopmentCompany = () => {
 								add value to your business goals.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3" data-aos="fade-up" data-aos-duration="3000">
 							<img
 								className="img-fluid mb-2"
 								alt="Hybrid Mobile Applications"
@@ -122,7 +122,7 @@ const MobileAppDevelopmentCompany = () => {
 								Android and iOS platforms.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4" data-aos="fade-up" data-aos-duration="3000">
 							<img
 								className="img-fluid mb-2"
 								alt="Emerging Technologies"
@@ -140,7 +140,7 @@ const MobileAppDevelopmentCompany = () => {
 								per their presence and requirement.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5" data-aos="fade-up" data-aos-duration="3000">
 							<img
 								className="img-fluid mb-2"
 								alt="Expertise in Multiple Industries"
@@ -160,7 +160,7 @@ const MobileAppDevelopmentCompany = () => {
 								markets.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5" data-aos="fade-up" data-aos-duration="3000">
 							<img
 								className="img-fluid mb-2"
 								alt="Cross-Platform Mobile Applications"
@@ -184,7 +184,7 @@ const MobileAppDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="blackdiv px-3">
+			<div className="blackdiv px-3" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>
 						We are your Go-To Expert for Best Mobile App Development{" "}
@@ -195,7 +195,7 @@ const MobileAppDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5 ">
+			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -206,7 +206,7 @@ const MobileAppDevelopmentCompany = () => {
 								customized IT solutions.
 							</p>
 						</div>
-						<div className="row">
+						<div className="row" data-aos="fade-up" data-aos-duration="3000">
 							<div className="col-lg-12">
 								<ul className="tech-style">
 									<li>
@@ -287,7 +287,7 @@ const MobileAppDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="py-5">
+			<div className="py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">FAQs</h1>
@@ -437,7 +437,7 @@ const MobileAppDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="py-5 bg-color">
+			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
@@ -478,7 +478,8 @@ const MobileAppDevelopmentCompany = () => {
 					</div>
 				</div>
 			</div>
-			<div className="container container-fluid py-5">
+
+			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h1 className="all-blog">Blogs</h1>
 					<p className="all-p text-center">
@@ -492,7 +493,7 @@ const MobileAppDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5">
+			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -667,7 +668,7 @@ const MobileAppDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5">
+			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<h1 className="all-head text-center mb-lg-5 mb-0">Seek Our Help!</h1>
 				<section>
 					<div className="row  d-flex align-items-center">

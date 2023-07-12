@@ -13,7 +13,7 @@ export const metadata = {
 const CodistePortfolio = () => {
 	return (
 		<div>
-			<div className="bg-color py-lg-3">
+			<div className="bg-color py-lg-3" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec ">
@@ -36,7 +36,7 @@ const CodistePortfolio = () => {
 			</div>
 			<ClientSlider />
 
-			<div className="bg-color py-5 mt-5">
+			<div className="bg-color py-5 mt-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid " id="caseStudyList">
 					<div className="text-center">
 						<h2 className="all-head mb-5">
@@ -48,7 +48,7 @@ const CodistePortfolio = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5">
+			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<h2 className="text-center all-head">Let’s Get Started </h2>
 				<section className="steps steps-area">
 					<div className="container">
@@ -117,7 +117,7 @@ const CodistePortfolio = () => {
 				</section>
 			</div>
 
-			<div className="bg-color py-5">
+			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<h1 className="all-head text-center mb-lg-5 mb-0">Drop us a line!</h1>
 					<section>
