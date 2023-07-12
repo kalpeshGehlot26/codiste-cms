@@ -19,12 +19,9 @@ export default function RootLayout({ children }) {
 				<meta property="og:image" content="assets/images/featuredImg.webp" />
 				<meta property="og:url" content="https://codiste.com/" />
 				<meta property="og:type" content="website" />
-<<<<<<< Updated upstream
-=======
 				<meta property="og:title" content="Codiste - A leading Blockchain and AI Development Company" />
 				<meta property="og:description" content="Empowering Businesses with Blockchain, AI, AR/VR, Metaverse, NFT Marketplace, and Cryptocurrency development Solutions for business future success." />
 				<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
->>>>>>> Stashed changes
 			</head>
 			<body className={inter.className}>
 				<Header />

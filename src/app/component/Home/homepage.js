@@ -32,7 +32,7 @@ const HomePage = () => {
 
 
 	return (
-		<div data-aos="fade-up" data-aos-duration="3000">
+		<div>
 			<section className="video-containeraa videosec">
 				<div>
 					<VideoPlayer />
