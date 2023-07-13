@@ -137,7 +137,7 @@ const CounterTenPortfolio = () => {
                 <div className="carousel-item active">
                   <div className="d-flex align-items-center text-center flex-column custom-crousel">
                     <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-1.png" />
+                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTen-0.png" />
                     </div>
                   </div>
                 </div>
