@@ -1,6 +1,14 @@
 const eventItems = [
     {
-        url: "assets/images/career/codiste1.png",
+        url: "assets/images/career/Hackathon3.JPG",
+        alt: "Life at Codiste"
+    },
+    {
+        url: "assets/images/career/Hackathon2.JPG",
+        alt: "Life at Codiste"
+    },
+    {
+        url: "assets/images/career/Hackathon1.JPG",
         alt: "Life at Codiste"
     },
     {
@@ -12,7 +20,7 @@ const eventItems = [
         alt: "Life at Codiste"
     },
     {
-        url: "assets/images/career/unnamed1.jpeg",
+        url: "assets/images/career/codiste1.jpeg",
         alt: "Life at Codiste"
     },
     {

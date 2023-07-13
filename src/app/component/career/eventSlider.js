@@ -12,6 +12,7 @@ const EventSlider = () => {
                 type: 'loop',
                 drag: 'free',
                 pagination: true,
+                perMove: 1,
                 autoplay: true,
                 interval: 2000,
                 perPage: 3,
