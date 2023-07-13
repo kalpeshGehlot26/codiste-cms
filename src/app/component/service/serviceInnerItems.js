@@ -17,7 +17,18 @@ const ServiceInnerItems = ({ serviceItems }) => {
 					if (serviceCount < index + 1) return;
 					return (
 
-						<Link
+						<div className="col-xl-4 col-md-6 col-sm-12 pb-3" key={index} >
+							<div className="service-block p-4 h-100" data-aos="fade-up" data-aos-duration="2000">
+								<h2 className="secondsec-head" data-aos="fade-up" data-aos-duration="2000">
+									{service.title}
+								</h2>
+								<p className="secondsec-p" data-aos="fade-up" data-aos-duration="2000">
+									{service.description}
+								</p>
+							</div>
+						</div>
+
+						/* <Link
 							className=" col-xl-4 col-md-6 col-sm-12 pb-3 "
 							key={index} href={`/${service.slug}`}
 						>
@@ -29,7 +40,7 @@ const ServiceInnerItems = ({ serviceItems }) => {
 									{service.description}
 								</p>
 							</div>
-						</Link>
+						</Link> */
 
 					);
 				})}
