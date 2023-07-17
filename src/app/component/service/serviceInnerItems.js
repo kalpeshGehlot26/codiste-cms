@@ -17,9 +17,9 @@ const ServiceInnerItems = ({ serviceItems }) => {
 					if (serviceCount < index + 1) return;
 					return (
 
-						<div
+						<Link
 							className=" col-xl-4 col-md-6 col-sm-12 pb-3 "
-							key={index}
+							key={index} href={`/${service.slug}`}
 						>
 							<div className="service-block p-4 h-100" data-aos="fade-up" data-aos-duration="2000">
 								<h2 className="secondsec-head" data-aos="fade-up" data-aos-duration="2000">
@@ -29,7 +29,7 @@ const ServiceInnerItems = ({ serviceItems }) => {
 									{service.description}
 								</p>
 							</div>
-						</div>
+						</Link>
 
 					);
 				})}

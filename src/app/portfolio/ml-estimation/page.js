@@ -294,6 +294,42 @@ const MLPortfolio = () => {
 									data-bs-slide-to="2"
 									aria-label="Slide 3"
 								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="3"
+									aria-label="Slide 4"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="4"
+									aria-label="Slide 5"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="5"
+									aria-label="Slide 6"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="6"
+									aria-label="Slide 7"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="7"
+									aria-label="Slide 8"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="8"
+									aria-label="Slide 9"
+								></button>
 							</div>
 							<div className="carousel-inner">
 								<div className="carousel-item active">

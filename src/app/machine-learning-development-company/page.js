@@ -29,11 +29,8 @@ const MLDevelopmentCompany = () => {
 						<div className="row firstsec ">
 							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
 								<div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
-									<h1 className="all-head">Machine Learning Development Company</h1>
-									<p className="all-p me-5 my-4">We offer machine learning development services for businesses &
-										enterprises to help them automate repetitive and recursive tasks. Our machine learning
-										development team helps you leverage the power of machine learning to boost your
-										organizational growth and efficiency.
+									<h1 className="all-head">Machine Learning Consulting Services</h1>
+									<p className="all-p me-5 my-4">Let us introduce automation on every step of your business process with our expertise in statistical techniques and data science. Our software developers help businesses to make your organization inherently data-driven by providing custom AI solutions developed using real-time data & dynamic algorithms.
 									</p>
 									<Link href="/contact" className="book-btn">Contact Us</Link>
 								</div>

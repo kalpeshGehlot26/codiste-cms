@@ -3,6 +3,7 @@ const MLList = [
     {
         title: "ML Consulting",
         description: "At Codiste, we offer machine-learning consulting services to help you understand new machine-learning technologies and trends in the industry. Our consulting services help you discover ways to leverage AI technologies for your business. We offer end-to-end machine learning consulting services, including model selection, data preparation, and integration strategy.",
+        slug: "machine-learning-consulting"
 
     },
     {

@@ -2,6 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import "../style.css"
 import "../external.css"
+import "../Newstyle.css"
 import { Inter } from "next/font/google";
 import Header from "./layouts/header";
 import Footer from "./layouts/footer";

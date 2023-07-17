@@ -132,6 +132,12 @@ const CounterTenPortfolio = () => {
                   aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
                   aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                  aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                  aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5"
+                  aria-label="Slide 6"></button>
               </div>
               <div className="carousel-inner">
                 <div className="carousel-item active">
@@ -177,55 +183,7 @@ const CounterTenPortfolio = () => {
                     </div>
                   </div>
                 </div>
-                <div className="carousel-item">
-                  <div className="d-flex align-items-center text-center flex-column custom-crousel">
-                    <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-7.png" />
-                    </div>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="d-flex align-items-center text-center flex-column custom-crousel">
-                    <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-8.png" />
-                    </div>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="d-flex align-items-center text-center flex-column custom-crousel">
-                    <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-9.png" />
-                    </div>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="d-flex align-items-center text-center flex-column custom-crousel">
-                    <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-10.png" />
-                    </div>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="d-flex align-items-center text-center flex-column custom-crousel">
-                    <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-11 (1).png" />
-                    </div>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="d-flex align-items-center text-center flex-column custom-crousel">
-                    <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-12.png" />
-                    </div>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="d-flex align-items-center text-center flex-column custom-crousel">
-                    <div className="d-flex align-items-center flex-column custom-crousel">
-                      <img className="img-fluid diwallet-img" alt="CounterTEN" loading="lazy" src="/assets/images/case-couter10/CounterTEN-13 (1).png" />
-                    </div>
-                  </div>
-                </div>
+
               </div>
               <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
                 data-bs-slide="prev">
