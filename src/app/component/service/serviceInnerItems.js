@@ -14,12 +14,11 @@ const ServiceInnerItems = ({ serviceItems }) => {
 		<div >
 			<div className="row  firstsec-link">
 				{serviceItems?.map((service, index) => {
-					console.log("service", service)
+					{/* console.log("service", service) */ }
 					if (serviceCount < index + 1) return;
 
 					if (service?.slug) {
 						return (
-
 							<Link
 								className=" col-xl-4 col-md-6 col-sm-12 pb-3 "
 								key={index}
@@ -34,7 +33,6 @@ const ServiceInnerItems = ({ serviceItems }) => {
 									</p>
 								</div>
 							</Link>
-
 						);
 					}
 
@@ -43,7 +41,6 @@ const ServiceInnerItems = ({ serviceItems }) => {
 						<div
 							className=" col-xl-4 col-md-6 col-sm-12 pb-3 "
 							key={index}
-
 						>
 							<div className="service-block p-4 h-100" data-aos="fade-up" data-aos-duration="2000">
 								<h2 className="secondsec-head" data-aos="fade-up" data-aos-duration="2000">
@@ -54,10 +51,7 @@ const ServiceInnerItems = ({ serviceItems }) => {
 								</p>
 							</div>
 						</div>
-
 					);
-
-
 				})}
 			</div>
 			{totalServiceCount > serviceCount ? (
