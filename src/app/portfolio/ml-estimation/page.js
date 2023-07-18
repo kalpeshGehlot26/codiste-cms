@@ -21,14 +21,14 @@ const MLPortfolio = () => {
 										Machine Learning Estimation
 									</h1>
 									<p className="all-p me-5 my-4">
-										ML estimation - Streamline HVAC project bidding with ML estimation, automating drawing annotation and generating accurate bill of materials. Save time, differentiate yourself in the industry, and leverage innovative technology for detailed quantity take-offs.
+										Streamline HVAC project bidding with ML estimation, automating drawing annotation, and generating accurate bills of materials. Save time, differentiate yourself in the industry, and leverage innovative technology for detailed quantity take-offs. They raised CA$100K in funding over 1 round demonstrates a commitment to innovation and potential for growth in the HVAC bidding market, further solidifying their position as leaders in the industry.
 									</p>
 									<Link
 										target="_blank"
 										href="/contact"
 										className="book-btn"
 									>
-										Explore Project Opportunities
+										Book an Expert Session
 									</Link>
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2">
@@ -306,30 +306,7 @@ const MLPortfolio = () => {
 									data-bs-slide-to="4"
 									aria-label="Slide 5"
 								></button>
-								<button
-									type="button"
-									data-bs-target="#carouselExampleDark"
-									data-bs-slide-to="5"
-									aria-label="Slide 6"
-								></button>
-								<button
-									type="button"
-									data-bs-target="#carouselExampleDark"
-									data-bs-slide-to="6"
-									aria-label="Slide 7"
-								></button>
-								<button
-									type="button"
-									data-bs-target="#carouselExampleDark"
-									data-bs-slide-to="7"
-									aria-label="Slide 8"
-								></button>
-								<button
-									type="button"
-									data-bs-target="#carouselExampleDark"
-									data-bs-slide-to="8"
-									aria-label="Slide 9"
-								></button>
+
 							</div>
 							<div className="carousel-inner">
 								<div className="carousel-item active">
@@ -387,50 +364,7 @@ const MLPortfolio = () => {
 										</div>
 									</div>
 								</div>
-								<div className="carousel-item">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
-										<div className="d-flex align-items-center flex-column custom-crousel">
-											<img
-												className="img-fluid diwallet-img"
-												alt="ML Estimation-6"
-												loading="lazy" src="/assets/images/case-ml/ML Estimation-6 .png"
-											/>
-										</div>
-									</div>
-								</div>
-								<div className="carousel-item">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
-										<div className="d-flex align-items-center flex-column custom-crousel">
-											<img
-												className="img-fluid diwallet-img"
-												alt="ML Estimation-7"
-												loading="lazy" src="/assets/images/case-ml/ML Estimation-7.png"
-											/>
-										</div>
-									</div>
-								</div>
-								<div className="carousel-item">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
-										<div className="d-flex align-items-center flex-column custom-crousel">
-											<img
-												className="img-fluid diwallet-img"
-												alt="ML Estimation-8"
-												loading="lazy" src="/assets/images/case-ml/ML Estimation-8.png"
-											/>
-										</div>
-									</div>
-								</div>
-								<div className="carousel-item">
-									<div className="d-flex align-items-center text-center flex-column custom-crousel">
-										<div className="d-flex align-items-center flex-column custom-crousel">
-											<img
-												className="img-fluid diwallet-img"
-												alt="ML Estimation-9"
-												loading="lazy" src="/assets/images/case-ml/ML Estimation-9.png"
-											/>
-										</div>
-									</div>
-								</div>
+
 							</div>
 							<button
 								className="carousel-control-prev"

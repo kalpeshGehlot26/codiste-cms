@@ -35,7 +35,7 @@ const MedizenPortfolio = () => {
 										href="/contact"
 										className="book-btn"
 									>
-										Plan Your Project Meeting
+										Consult with Us Today
 									</Link>
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2">

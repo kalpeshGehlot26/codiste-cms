@@ -17,14 +17,14 @@ const CounterTenPortfolio = () => {
               <div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
                 <div className="col-12 col-lg-5 order-2 order-lg-1">
                   <h1 className="all-head">CounterTen – Solana Marketplace</h1>
-                  <p className="all-p me-5 my-4">CounterTEN is a Solana-based NFT platform that enables brands to create and sell NFTs for a variety of purposes, from event access and product launches to collectibles and memberships. The platform provides flexibility for businesses to increase revenue and engagement, and has already been used successfully by luxury car and clothing brands. CounterTEN is a game-changer for brands looking to connect with their customers in an innovative way using NFTs.
+                  <p className="all-p me-5 my-4">CounterTEN has proven to be a revolutionary solution for brands seeking innovative ways to connect with their customers using NFTs. Its success is evident from the $380,000 raised in the funding round which will further reinforce its potential in the NFT market. Solana-based infrastructure and diverse use cases, the platform is positioned to continue making a significant impact on the NFT ecosystem and reshape how businesses engage with their audiences.
                   </p>
                   <Link
                     target="_blank"
                     href="/contact"
                     className="book-btn"
                   >
-                    Plan Your Project Meeting
+                    Get Expert Advice
                   </Link>
                 </div>
                 <div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="/assets/images/case-couter10/Counterten.png" alt="CounterTen - Digital Collectible platform for Loyalty, Brands and events" /></div>
