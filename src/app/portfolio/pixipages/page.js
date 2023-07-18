@@ -31,7 +31,7 @@ const PixipagesPortfolio = () => {
 										href="/contact"
 										className="book-btn"
 									>
-										Discuss Your Project
+										Reach Out for Expert Advice
 									</Link>
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2">
@@ -271,12 +271,7 @@ const PixipagesPortfolio = () => {
 									data-bs-slide-to="1"
 									aria-label="Slide 2"
 								></button>
-								<button
-									type="button"
-									data-bs-target="#carouselExampleDark"
-									data-bs-slide-to="2"
-									aria-label="Slide 3"
-								></button>
+
 							</div>
 							<div className="carousel-inner">
 								<div className="carousel-item active">

@@ -35,7 +35,7 @@ const MedizenPortfolio = () => {
 										href="/contact"
 										className="book-btn"
 									>
-										Plan Your Project Meeting
+										Consult with Us Today
 									</Link>
 								</div>
 								<div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2">
@@ -278,6 +278,54 @@ const MedizenPortfolio = () => {
 									data-bs-target="#carouselExampleDark"
 									data-bs-slide-to="2"
 									aria-label="Slide 3"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="3"
+									aria-label="Slide 4"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="4"
+									aria-label="Slide 5"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="5"
+									aria-label="Slide 6"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="6"
+									aria-label="Slide 7"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="7"
+									aria-label="Slide 8"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="8"
+									aria-label="Slide 9"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="9"
+									aria-label="Slide 10"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="10"
+									aria-label="Slide 11"
 								></button>
 							</div>
 							<div className="carousel-inner">
