@@ -178,9 +178,9 @@ const HomePage = () => {
 					<div className="text-center">
 						<h2 className="all-head">Innovation in Action: Real-World Case Studies from Codiste</h2>
 					</div>
-					<div className="row mb-5 mt-4 g-4">
+					<div className="row mb-5 mt-4 g-4 casestudylink">
 						<div className="col-lg-4 col-md-6 col-sm-12">
-							<div className="casediwallet-block ">
+							<Link className="casediwallet-block " href="/portfolio/divewallet">
 								<div className=" case-position">
 									<img
 										className="img-fluid "
@@ -197,10 +197,10 @@ const HomePage = () => {
 										Read More &gt;&gt;
 									</Link>
 								</div>
-							</div>
+							</Link>
 						</div>
 						<div className="col-lg-4 col-md-6 col-sm-12">
-							<div className="counterten-block">
+							<Link href="/portfolio/counterten-solana-marketplace" className="counterten-block">
 								<div className=" case-position">
 									<img
 										className="img-fluid "
@@ -215,10 +215,10 @@ const HomePage = () => {
 									</h3>
 									<Link href="/portfolio/counterten-solana-marketplace" className="case-pera">Read More &gt;&gt;</Link>
 								</div>
-							</div>
+							</Link>
 						</div>
 						<div className="col-lg-4 col-md-6 col-sm-12">
-							<div className="tankpad-block">
+							<Link href="/portfolio/tankpad-binance-chain-minting" className="tankpad-block">
 								<div className=" case-position">
 									<img
 										className="img-fluid "
@@ -233,7 +233,7 @@ const HomePage = () => {
 									</h3>
 									<Link href="/portfolio/tankpad-binance-chain-minting" className="case-pera">Read More &gt;&gt;</Link>
 								</div>
-							</div>
+							</Link>
 						</div>
 					</div>
 					<div className="text-center">

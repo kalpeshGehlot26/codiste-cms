@@ -8,7 +8,8 @@ const MLList = [
     },
     {
         title: "ML Training and Education",
-        description: "Our machine learning team offers ML training and education services designed to help your business understand required skills and knowledge on AI, ML, and other automation tools and techniques. We offer machine learning training and education sessions for businesses to utilize machine learning solutions effectively."
+        description: "Our machine learning team offers ML training and education services designed to help your business understand required skills and knowledge on AI, ML, and other automation tools and techniques. We offer machine learning training and education sessions for businesses to utilize machine learning solutions effectively.",
+        // slug: "#"
     },
     {
         title: "Computer Vision Development",

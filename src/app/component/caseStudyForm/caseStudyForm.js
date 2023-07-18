@@ -95,6 +95,7 @@ const CaseStudyForm = ({ text }) => {
 				<textarea
 					className="need-form" id="exampleFormControlTextarea1" rows="3" name="message" type="text" placeholder="Message*" onChange={onFormChange} required
 				></textarea>
+
 				<button className="book-btn" type="submit">
 					{text}
 				</button>

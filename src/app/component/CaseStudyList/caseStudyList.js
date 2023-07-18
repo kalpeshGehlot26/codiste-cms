@@ -14,7 +14,7 @@ const CaseStudyList = () => {
 	return (
 		<Fragment>
 			<div className="container container-fluid py-5">
-				<div className="row g-5">
+				<div className="row g-5 casestudylink">
 					{caseStudyItems?.map((item, index) => {
 						if (caseStudyCount < index + 1) return;
 						return (
@@ -22,7 +22,7 @@ const CaseStudyList = () => {
 								className="col-lg-4 col-md-6 col-sm-12"
 								key={index}
 							>
-								<div className={item.className}>
+								<Link href={item.url} className={item.className}>
 									<div className="case-position">
 										{" "}
 										<img
@@ -43,7 +43,7 @@ const CaseStudyList = () => {
 											Read More &gt;&gt;
 										</Link>
 									</div>
-								</div>
+								</Link>
 							</div>
 						);
 					})}
