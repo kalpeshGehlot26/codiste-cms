@@ -52,6 +52,8 @@ const ServiceInnerItems = ({ serviceItems }) => {
 							</div>
 						</div>
 					);
+
+
 				})}
 			</div>
 			{totalServiceCount > serviceCount ? (

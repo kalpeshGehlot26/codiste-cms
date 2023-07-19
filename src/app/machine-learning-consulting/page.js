@@ -904,7 +904,7 @@ const MLConsutling = () => {
           <div className="row  d-flex align-items-center">
             <div className="col-lg-6 col-md-12  needsec p-4">
               <h1>
-                Let us help to optimize, automate, and modernize your business operations
+                Let us help to optimize, automate and modernize your business operations.
               </h1>
             </div>
             <div className="col-lg-6 col-md-12 ">
