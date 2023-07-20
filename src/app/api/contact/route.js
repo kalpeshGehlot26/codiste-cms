@@ -33,6 +33,8 @@ export async function POST(req, res) {
 		const path = data.path.split("/");
 		var subject = `Inquiry for service ${data.services}`;
 		let toAddress = "manager@codiste.com";
+		// let toAddress = "jignesh.v@codiste.com";
+
 
 		if (path[1] === "contact") {
 			subject = "Discover Project Potential Inquiry";

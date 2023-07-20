@@ -181,7 +181,7 @@ const AIDevelopmentCompany = () => {
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center" data-aos="fade-up" data-aos-duration="2000">
 							<h1 className="all-head">Technologies We Offer </h1>
-							<p className="all-p me-5 text-center">
+							<p className="all-p  text-center">
 								We offer you to choose from a wide range of
 								technologies.
 							</p>

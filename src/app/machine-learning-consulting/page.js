@@ -51,7 +51,7 @@ const MLConsutling = () => {
             <h1 className="all-head text-center">
               Our Top-Most Machine Learning Consulting Services
             </h1>
-            <p className="secondsec-p p-4">We are the ML consulting service provider, combining the best technologies with the latest trends while delivering  a well-strategized set of Machine Learning development services that unlock business insights. </p>
+            <p className="secondsec-p text-center p-4">We are the ML consulting service provider, combining the best technologies with the latest trends while delivering  a well-strategized set of Machine Learning development services that unlock business insights. </p>
           </div>
           <ServiceInnerItems serviceItems={MLConsult} />
         </section>
@@ -63,7 +63,7 @@ const MLConsutling = () => {
             <h1 className="all-head text-center">
               Why Choose Us As for Machine Learning Consultation?
             </h1>
-            <p className="secondsec-p">Codiste delivers Machine Learning Consulting combining clients’ requirements with the latest technologies.</p>
+            <p className="secondsec-p text-center">Codiste delivers Machine Learning Consulting combining clients’ requirements with the latest technologies.</p>
           </div>
           <div className='row g-4'>
             <div className='col-xl-4 col-md-6 col-sm-12' data-aos="fade-up" data-aos-duration="3000">
@@ -171,10 +171,10 @@ const MLConsutling = () => {
             <h1 className="all-head text-center">
               Our Machine Learning Consulting Approach
             </h1>
-            <p className="secondsec-p">We assist organizations in a seamless journey of utilizing AI-driven insights, from defining clear business goals to implementing and monitoring ML models.</p>
+            <p className="secondsec-p text-center">We assist organizations in a seamless journey of utilizing AI-driven insights, from defining clear business goals to implementing and monitoring ML models.</p>
           </div>
 
-          <div className="row g-5" data-aos="fade-up" data-aos-duration="3000">
+          <div className="row g-5 mx-0" data-aos="fade-up" data-aos-duration="3000" >
             <div className="col-xl-4 col-md-6 col-sm-12">
               <div className="Approachcard h-100">
                 <div className="background"></div>
