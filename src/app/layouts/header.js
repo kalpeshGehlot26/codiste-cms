@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Link from 'next/link';
 import "../../style.css";
 import "../../external.css";
+import AIDropdown from"../component/Dropdown/AIDropdown";
 
 const Header = () => {
 	const defNavClose = () => {
@@ -63,10 +64,11 @@ const Header = () => {
 										Startup Development Services
 									</Link>
 								</li>
-								<li>
+								<li className="d-flex">
 									<Link onClick={defNavClose} className="dropdown-item" href="/artificial-intelligence-development-company">
 										AI Development Services
 									</Link>
+									{/* <AIDropdown /> */}
 								</li>
 								<li>
 									<Link onClick={defNavClose} className="dropdown-item" href="/machine-learning-development-company">

@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import ClientSlider from "../component/Home/clientSlider";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
@@ -8,23 +7,19 @@ import ServiceInnerItems from "../component/service/serviceInnerItems";
 import MLConsult from "../data/services/service-items/MLConsult";
 import jsonData from "../data/schema";
 import MLindustries from "../component/service/MLindustries";
-import { Helmet } from 'react-helmet';
 
-// export const metadata = {
-//   title: "Machine Learning Consulting | Codiste",
-//   description:
-//     "Maximize potential with expert Machine Learning Consulting. Custom ML model development, seamless integration, efficient data preprocessing, and ongoing support",
-// };
+
+export const metadata = {
+  title: "Machine Learning Consulting | Codiste",
+  description:
+    "Maximize potential with expert Machine Learning Consulting. Custom ML model development, seamless integration, efficient data preprocessing, and ongoing support",
+};
 const limit = 3;
 const category = 56;
 const MLConsutling = () => {
   return (
     <div>
-      <Helmet>
-        <title>Machine Learning Consulting | Codiste</title>
-        <meta name="description" content="Maximize potential with expert Machine Learning Consulting. Custom ML model development, seamless integration, efficient data preprocessing, and ongoing support" />
-      </Helmet>
-
+  
       <div className="bg-color" data-aos="fade-up" data-aos-duration="3000">
         <div className="container container-fluid">
           <section>

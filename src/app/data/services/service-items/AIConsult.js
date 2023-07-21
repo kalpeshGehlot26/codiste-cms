@@ -1,7 +1,7 @@
 const AIConsultItems = [
     {
         title: "Artificial Intelligence Infrastructure Setup",
-        description: "Our expert team carefully examines your requirements and recommends the best hardware and software frameworks. We guarantee a faultless AI environment that can accommodate your expanding data and processing needs by choosing the appropriate servers and GPUs and setting AI frameworks."
+        description: "Our expert team carefully examines your requirements and recommends the best hardware and software frameworks. We guarantee a faultless AI environment that can accommodate your expanding data and processing needs by choosing the appropriate servers and GPUs and setting AI frameworks with industry standard security."
     },
     {
         title: "AI Software Development",
@@ -9,7 +9,7 @@ const AIConsultItems = [
     },
     {
         title: "Data Modeling & Training",
-        description: "Data is the lifeblood of AI. Our knowledgeable data specialists clean, arrange, and optimise your dataset. Choosing high-quality data, we ensure that your AI models are running on accurate and trustworthy data, producing more exact and reliable results. We develop AI models that precisely match business needs and deliver accurate outcomes through ongoing training and improvement."
+        description: "Data is the lifeblood of AI. Our knowledgeable data specialists clean, arrange, and optimise your dataset. Choosing high-quality data, we ensure that your AI models are running on accurate and trustworthy data, producing more accurate and reliable results. We develop AI models that precisely match business needs and deliver accurate outcomes through ongoing training and improvement."
     },
     {
         title: "AI-powered Automation",
@@ -29,7 +29,7 @@ const AIConsultItems = [
     },
     {
         title: "Predictive Analytics",
-        description: "Utilise innovative and advanced machine learning and data analysis algorithms to predict future trends and results. Our predictive analytics solutions allow you to use previous data to create data-driven decisions, differentiating you from your competitors and giving you a competitive edge."
+        description: "Utilise innovative and advanced machine learning and data analysis algorithms to predict future trends and results. Our predictive analytics solutions allow you to use previous data to create data-driven decisions, differentiating you from your competitors and giving you a competitive edge for future prediction."
     },
 ];
 

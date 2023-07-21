@@ -9,9 +9,9 @@ import jsonData from "../data/schema";
 import AIConsutindus from "../component/service/AIConsutindus";
 
 export const metadata = {
-    title: "Artificial Intelligence Development Company | Codiste",
+    title: "AI Consulting | Codiste",
     description:
-        "Our Artificial Intelligence development services offer customized development for automating software with modern AI technologies. We build automation software for businesses to get enhanced operational efficiency.",
+        "We offer AI Consulting Services with advanced algo, ML, and NLP optimized solutions that revolutionize their processes for unprecedented growth.",
 };
 
 const limit = 3
@@ -91,7 +91,6 @@ const AIConsult = () => {
 
                                 <h3>Custom-Fit Solutions for Your Particular Needs</h3>
                                 <p className="secondsec-p">We believe that every company is unique. Our AI consultation services are therefore customised to meet your unique needs. We take the time to fully comprehend your goals and obstacles before developing tailored tactics that will produce the best outcomes for your company.
-
                                 </p>
                             </div>
                         </div>
@@ -105,8 +104,8 @@ const AIConsult = () => {
                                         src="assets/images/Service-AI/AI_consult/Seamless Integration, Real Results.png"
                                     />
                                 </div>
-                                <h3>Seamless Integration, Real Results</h3>
-                                <p className="secondsec-p">We don't simply talk about AI; we put it to work for you. Our consultants offer practical assistance for seamlessly integrating AI technology into your business operations. We guarantee concrete and quantifiable results, whether we're reducing procedures, improving data analysis, or improving client experiences.
+                                <h3>Seamless Integration with Real Results</h3>
+                                <p className="secondsec-p">We don't simply talk about AI. we put it to work for you. Our consultants offer practical assistance for seamlessly integrating AI technology into your business operations. We guarantee concrete and quantifiable results, whether we're reducing procedures, improving data analysis, or improving client experiences.
                                 </p>
                             </div>
                         </div>
@@ -153,7 +152,6 @@ const AIConsult = () => {
                                 </div>
                                 <h3>A Trusted Partner for Your AI Journey</h3>
                                 <p className="secondsec-p">Selecting an AI consultant is a crucial choice. We take great delight in being your reliable partner while you explore AI. Our dedication to your success motivates us to go above and beyond to ensure you reap long-lasting, sustainable benefits from using AI.
-
                                 </p>
                             </div>
                         </div>
@@ -168,6 +166,7 @@ const AIConsult = () => {
                             Our AI Consultation Approach
                         </h1>
                         <p className="secondsec-p text-center">We adopt a practical and customer-centricity strategy to offer tangible outcomes for organisations looking for disruptive AI solutions.
+
                         </p>
                     </div>
 
@@ -176,7 +175,8 @@ const AIConsult = () => {
                             <div className='newservice1-box h-100'>
                                 <div className='newservice1-red'> <div className='newservice1-circle'>1</div></div>
                                 <h3>Understanding Your Objectives</h3>
-                                <p className="secondsec-p">We start by thoroughly understanding your organisation's unique challenges and requirements. Gaining knowledge of your goals enables us to customise our AI consulting approach to tackle your particular problems and coordinate our efforts with your intended AI deployment strategy.</p>
+                                <p className="secondsec-p">We start by thoroughly understanding your organisation's unique challenges and requirements. Gaining knowledge of your goals enables us to customise our AI consulting approach to tackle your particular problems and coordinate our efforts with your intended AI development and deployment strategy.
+                                </p>
                             </div>
                         </div>
                         <div className='col-xl-4 col-md-6 col-sm-12'>
@@ -390,8 +390,7 @@ const AIConsult = () => {
                             <div className="content">
                                 <h2>01</h2>
                                 <h3>Fixed Engagement Model</h3>
-                                <p>Our Fixed Engagement Model best suits tasks with clear objectives and scopes. To provide openness and predictability, we announce a definite price and timetable upfront. With this approach, you can securely schedule your project's budget and significant milestones, knowing we'll produce the desired results.</p>
-
+                                <p>Our Fixed Engagement Model best suits tasks with clear objectives and scopes. To provide openness and predictability, we announce a definite price and timetable upfront. With this approach, you can securely schedule your project's budget and significant milestones, knowing we'll produce the desired results on time phase wise.</p>
                             </div>
                         </div>
                     </div>
@@ -403,7 +402,6 @@ const AIConsult = () => {
                                 <h3>Time and Material Engagement Model</h3>
                                 <p>Our Time and Material Engagement Model is ideal for projects with dynamic scopes and changing requirements. In this case, you only pay for the actual time and materials used on the project. As the project develops, this approach provides the freedom to change the scope and direction, ensuring optimum adaptability to shifting business needs.
                                 </p>
-
                             </div>
                         </div>
                     </div>
@@ -455,7 +453,7 @@ const AIConsult = () => {
                                 data-bs-parent="#accordionFlushExample"
                             >
                                 <div className="accordion-body">
-                                    AI consulting is a specialised service that provides businesses with knowledgeable direction and support when deploying Artificial Intelligence solutions. It entails evaluating your organisation's unique requirements, spotting AI scope, and making tactical suggestions for effective AI deployment. It would help if you had AI consultancy to maximise corporate operations, obtain competitive advantages, and make data-driven decisions that spur innovation and growth.
+                                    AI consulting is a specialised service that provides businesses with knowledgeable direction and support when building and deploying Artificial Intelligence solutions. It entails evaluating your organisation's unique requirements, spotting AI scope, and making tactical suggestions for effective AI deployment. It would help if you had AI consultancy to maximise corporate operations, obtain competitive advantages, and make data-driven decisions that spur innovation and growth.
 
                                 </div>
                             </div>
@@ -483,7 +481,8 @@ const AIConsult = () => {
                                 data-bs-parent="#accordionFlushExample"
                             >
                                 <div className="accordion-body">
-                                    Healthcare, banking, retail, transportation, and many other industries are among those served by Codiste's AI strategy consulting services. Our team of professionals has expertise working with clients in various fields, allowing us to customise our strategy to your particular needs.
+                                    Real estate,Healthcare, banking, retail, transportation, and many other industries are among those served by Codiste's AI strategy consulting services. Our team of professionals has expertise working with clients in various fields, allowing us to customise our strategy to your particular needs.
+
                                 </div>
                             </div>
                         </div>
@@ -513,7 +512,6 @@ const AIConsult = () => {
                                 <div className="accordion-body">
                                     As an AI consulting firm, we begin by comprehending your business objectives and inspecting your current data and technological setup. Then, we collaborate with you to find chances for AI-powered solutions that will aid in achieving those objectives. To make sure that your AI solutions keep adding value, we develop an implementation roadmap and offer
                                     continuous support and maintenance.
-
                                 </div>
                             </div>
                         </div>
@@ -540,8 +538,7 @@ const AIConsult = () => {
                                 data-bs-parent="#accordionFlushExample"
                             >
                                 <div className="accordion-body">
-                                    A variety of AI solutions are available from Codiste, including tools powered by ChatGPT models, Midjourney model-driven solutions, computer vision, natural language processing, machine learning, and more. We collaborate with you to choose the technologies most suitable for your requirements and implement them in a way that connects with your current systems and procedures.
-
+                                    A variety of AI solutions are available from Codiste, including tools powered by LLM model like ChatGPT models, Midjourney model-driven solutions, computer vision, natural language processing, machine learning, and more. We collaborate with you to choose the technologies most suitable for your requirements and implement them in a way that connects with your current systems and procedures.
                                 </div>
                             </div>
                         </div>
@@ -569,7 +566,6 @@ const AIConsult = () => {
                             >
                                 <div className="accordion-body">
                                     The time needed to complete an AI consulting project can change based on size and complexity. To keep you informed and involved, we work with you to develop a clear plan and milestones and offer frequent updates.
-
                                 </div>
                             </div>
                         </div>
@@ -831,13 +827,13 @@ const AIConsult = () => {
 
             <div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
                 <h1 className="all-head text-center mb-lg-5 mb-0">
-                    Get started with AI Now!
+                    Dive into AI Right Now!
                 </h1>
                 <section>
                     <div className="row  d-flex align-items-center" data-aos="fade-up" data-aos-duration="2000">
                         <div className="col-lg-6 col-md-12 p-4 mb-lg-0 needsec">
                             <h1>
-                            Looking for AI experts who guide you throughout the AI solution development journey?  
+                                Looking for AI experts who guide you throughout the AI solution development journey?
                             </h1>
                         </div>
                         <div className="col-lg-6 col-md-12 ">
