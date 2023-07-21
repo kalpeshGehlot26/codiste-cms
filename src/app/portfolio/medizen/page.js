@@ -3,9 +3,9 @@ import Link from "next/link";
 import React from "react";
 
 export const metadata = {
-	title: "Medizen | Application and web Development services | Codiste",
+	title: "Medizen | Application and web Development services",
 	description:
-		"The Medizen app was developed to help patients manage their medications safely and easily. It features a medication tracker, reminders, drug interaction checker, refill reminders, and family sharing.",
+		"The Medizen app is a medication tracker, reminders, drug interaction, checker, refill reminders, and family sharing to track family members.",
 };
 
 const MedizenPortfolio = () => {

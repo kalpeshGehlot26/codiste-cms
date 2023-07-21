@@ -566,6 +566,106 @@ const jsonData = {
 			},
 		],
 	},
+
+
+	MLConsult: {
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [{
+			"@type": "Question",
+			"name": "What is the role of machine learning?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "The role of Machine Learning is to develop algorithms and models that enable computers to learn from unstructured data and make predictions without explicit programming. Machine learning technology is widely used for natural language processing, autonomous vehicles, fraud detection, image and speech recognition."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "What are the 3 basic machine learning algorithms?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "The three basic machine learning algorithms are :Supervised Learning algorithm learns from labeled examples to classify or predict new data. It trains the model by providing input data along with corresponding output labels.Unsupervised Learning algorithm analyzes unlabeled data to identify patterns or structures within the data. This algorithm focuses on finding inherent relationships or clusters in the data as it doesn’t have predefined output labels.Reinforcement learning algorithms learn through an interactive process of trial and error. It maximizes rewards or minimizes penalties by including an agent that learns to make actions from feedback obtained from the environment."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "What is the difference between AI and machine learning?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Artificial Intelligence (AI) encompasses the simulation of human intelligence in machines to perform various tasks where as machine learning refers to the subset of AI that involves developing algorithms and models to identify patterns and make decisions without being explicitly programmed."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is machine learning consulting?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Machine learning consulting is a professional service offered by experts to businesses, who want to leverage ML techniques like clustering, deep learning, decision trees, and so on to address complex challenges and drive data-driven decision-making. These consultants possess expertise in statistical analysis, data science methodologies, and ML algorithms through which they help businesses to harness the power of machine learning to automate processes, gain insights, and achieve their business goals."
+			}
+		}, {
+			"@type": "Question",
+			"name": "Who are machine learning consultants?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Machine learning consultants are professionals, who have in-depth knowledge of machine learning algorithms, data science, and statistical analysis. These consultants provide assistance to businesses looking for ML techniques for solving challenges, automating processes and making data-driven decisions. Consultant Machine Learning also have expertise in working with Machine Learning tools and methodologies and thus, they work with clients to develop customized solutions."
+			}
+		}, {
+			"@type": "Question",
+			"name": "Can I hire developers in less than 48 hours through Codiste?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Of course! You can hire Machine Learning developers or consultants within 48 business hours. Contact us to discuss your requirements with our experts."
+			}
+		}, {
+			"@type": "Question",
+			"name": "Why is machine learning consulting required ?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Machine learning is an emerging technology, and ML consulting helps businesses with technical guidance on historical, labeled data, and helps them to predict the value of targeted value and classification. Further, it also helps them to enhance productivity by searching for valuable insights from the company’s database. We at Codiste offer Machine Learning consulting services that optimize their business operation, improve profitability, and drive innovation and growth."
+			}
+		}]
+	},
+	AIConsult: {
+
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [{
+			"@type": "Question",
+			"name": "What is AI consulting, and why do you need it?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "AI consulting is a specialised service that provides businesses with knowledgeable direction and support when building and deploying Artificial Intelligence solutions. It entails evaluating your organisation's unique requirements, spotting AI scope, and making tactical suggestions for effective AI deployment. It would help if you had AI consultancy to maximize corporate operations, obtain competitive advantages, and make data-driven decisions that spur innovation and growth."
+			}
+		}, {
+			"@type": "Question",
+			"name": "Which are the industries where AI plays a significant role?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Artificial Intelligence becomes the key to success for industries looking to enhance business processes, improve efficiency and decision-making. Industries like real estate, healthcare, banking, retail, transportation, and many others"
+			}
+		}, {
+			"@type": "Question",
+			"name": "How should a project for AI consultancy be approached?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "As an AI consulting firm, we begin by comprehending your business objectives and inspecting your current data and technological setup. Then, we collaborate with you to find chances for AI-powered solutions that will aid in achieving those objectives. To make sure that your AI solutions keep adding value, we develop an implementation roadmap and offer continuous support and maintenance."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What sort of AI services do you offer?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "A variety of AI solutions are available from Codiste, including tools powered by LLM model like ChatGPT models, Midjourney model-driven solutions, computer vision, natural language processing, machine learning, and more. We collaborate with you to choose the technologies most suitable for your requirements and implement them in a way that connects with your current systems and procedures."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How long does a project for an AI consultancy take?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "The time needed to complete an AI consulting project can change based on size and complexity. To keep you informed and involved, we work with you to develop a clear plan and milestones and offer frequent updates."
+			}
+		}]
+
+	},
 	aboutUs: {
 		"@context": "https://schema.org/",
 		"@type": "Person",

@@ -20,7 +20,10 @@ const category = 43
 const AIConsult = () => {
     return (
         <div>
-
+<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.AIConsult) }}
+			/>
             <div className="bg-color" data-aos="fade-up" data-aos-duration="2000">
                 <div className="container container-fluid">
                     <section >
@@ -330,7 +333,7 @@ const AIConsult = () => {
                                     <li>
                                         <img
                                             className="img-fluid" loading="lazy" alt="neuroph"
-                                            src="assets/images/tech/neuroph.jpg"
+                                            src="assets/images/tech/neuroph.png"
                                         />
                                         <p className="text-uppercase">neuroph</p>
                                     </li>
@@ -351,7 +354,7 @@ const AIConsult = () => {
                                     <li>
                                         <img
                                             className="img-fluid" loading="lazy" alt="PySpark"
-                                            src="assets/images/tech/PySpark.jpeg"
+                                            src="assets/images/tech/PySpark.png"
                                         />
                                         <p className="text-uppercase">PySpark</p>
                                     </li>
@@ -573,55 +576,51 @@ const AIConsult = () => {
                 </div>
             </div>
 
-            <div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="2000">
-                <div className="container container-fluid">
-                    <div className="d-flex align-items-center flex-column justify-content-center mb-5">
-                        <h1 className="all-head">Case Study</h1>
-                    </div>
-                    <div className="row d-flex align-items-center justify-content-between case-sec">
-                        <div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
-                            <div className=" ">
-                                <h1 className="">CYPHA – Your Sound</h1>
-                                <p className="all-p">
-                                    CYPHA – Your Pocket music studio.
-                                    <br />
-                                    The case study is about the Talent Search
-                                    App, a gamified platform for aspiring and
-                                    established musicians to showcase their
-                                    talents, connect with other music lovers,
-                                    and earn rewards. The app allows users to
-                                    record their voice over instrumentals and
-                                    share them on social media, while also
-                                    providing a way for music producers and
-                                    record labels to discover and sign new
-                                    talent. The app is available for both
-                                    Android and iOS users and is an enjoyable
-                                    and rewarding experience for all music
-                                    lovers.
-                                </p>
-                            </div>
-                            <div className="mt-4">
-                                <Link
-                                    href="/portfolio/cypha-your-sound"
-                                    className="book-btn"
-                                >
-                                    Read More
-                                </Link>
-                            </div>
-                        </div>
-                        <div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2 mb-5 mb-lg-0">
-                            <img
-                                className="img-fluid"
-                                style={{
-                                    padding: "20px",
-                                }}
-                                src="assets/images/case-cypha/Cypha.png"
-                                alt="Cypha - Make your Music using Cypha app"
-                            />
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
+				<div className="container container-fluid">
+					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
+						<h1 className="all-head">Case Study</h1>
+						
+					</div>
+					<div className="row d-flex align-items-center justify-content-between case-sec">
+						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
+							<div className="">
+								<h1 className="">
+									DiveWallet <br /> Your next-gen crypto asset
+									manager
+								</h1>
+								<p className="all-p">
+									As Blockchain experts, Codiste develops a
+									highly-secured crypto wallet - ‘Divewallet’
+									that supports well known EVM-based
+									blockchains such as Ethereum, Binance,
+									Polygon, and Solana.
+								</p>
+							</div>
+
+							<div className="mt-4">
+								<Link
+									href="/portfolio/divewallet"
+									className="book-btn"
+								>
+									Read More
+								</Link>
+							</div>
+						</div>
+						<div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2 mb-5 mb-lg-0">
+							<img
+								className="img-fluid"
+								style={{
+									padding: "20px",
+								}}
+								src="assets/images/diwallet-case/Dive Wallet.png"
+								alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
+								loading="lazy"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
 
             <div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
                 <div className=" d-flex align-items-center flex-column justify-content-center mb-5">

@@ -22,16 +22,45 @@ const DropdownMenu = () => {
             {isOpen && (
                 <ul className="dropdown-menu navbar-nav">
                     <li>
-                        <a href="/page1" onClick={handleLinkClick}>
-                            lofsfsfsfsfsfsfsfsdfsfsfsdfsfsfsfsfsfsfxyz
+                        <a href="/ai-consulting" onClick={handleLinkClick}>
+                        LLM AI Consultation
                         </a>
                     </li>
                     <li>
-                        <a href="/page2" onClick={handleLinkClick}>
-                            Page 2
+                        <a href="/ai-consulting" onClick={handleLinkClick}>
+                        LLM AI Consultation
                         </a>
                     </li>
-                    {/* Add more items as needed */}
+                    <li>
+                        <a href="/ai-consulting" onClick={handleLinkClick}>
+                        LLM AI Consultation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/ai-consulting" onClick={handleLinkClick}>
+                        LLM AI Consultation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/ai-consulting" onClick={handleLinkClick}>
+                        LLM AI Consultation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/ai-consulting" onClick={handleLinkClick}>
+                        LLM AI Consultation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/ai-consulting" onClick={handleLinkClick}>
+                        LLM AI Consultation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/ai-consulting" onClick={handleLinkClick}>
+                        LLM AI Consultation
+                        </a>
+                    </li>
                 </ul>
             )}
         </div>

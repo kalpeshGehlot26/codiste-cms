@@ -314,7 +314,134 @@ const techStackItems = [
         url: "assets/images/tech/xcode.png",
         alt: "xcode",
         name: "Xcode"
+    },
+    {
+        url: "assets/images/tech/Pandas.svg",
+        alt: "Pandas",
+        name: "Pandas"
+    },
+    {
+        url: "assets/images/tech/github.png",
+        alt: "github",
+        name: "github"
     }
+    ,
+    {
+        url: "assets/images/tech/bitbucket.png",
+        alt: "bitbucket",
+        name: "bitbucket"
+    },
+    {
+        url: "assets/images/tech/git.png",
+        alt: "git",
+        name: "git"
+    },
+    {
+        url: "assets/images/tech/kubernetes.png",
+        alt: "kubernetes",
+        name: "kubernetes"
+    },
+    {
+        url: "assets/images/tech/docker.png",
+        alt: "docker",
+        name: "docker"
+    },
+    {
+        url: "assets/images/tech/Power-BI.svg",
+        alt: "Power-BI",
+        name: "Power-BI"
+    },
+    {
+        url: "assets/images/tech/Tableau.svg",
+        alt: "Tableau",
+        name: "Tableau"
+    },
+    {
+        url: "assets/images/tech/Matplotlib.svg",
+        alt: "Matplotlib",
+        name: "Matplotlib"
+    },
+    {
+        url: "assets/images/tech/Airflow.png",
+        alt: "Airflow",
+        name: "Airflow"
+    },
+    {
+        url: "assets/images/tech/sagemaker.svg",
+        alt: "sagemaker",
+        name: "sagemaker"
+    },
+    {
+        url: "assets/images/tech/Autokeras.png",
+        alt: "Autokeras",
+        name: "Autokeras"
+    },
+    {
+        url: "assets/images/tech/hadoop.png",
+        alt: "hadoop",
+        name: "hadoop"
+    },
+    {
+        url: "assets/images/tech/r.png",
+        alt: "r",
+        name: "r"
+    },
+    {
+        url: "assets/images/tech/LLaMA.svg",
+        alt: "LLaMA",
+        name: "LLaMA"
+    },
+    {
+        url: "assets/images/tech/nvidia.png",
+        alt: "nvidia",
+        name: "nvidia"
+    },
+    {
+        url: "assets/images/tech/MXNet.png",
+        alt: "MXNet",
+        name: "MXNet"
+    },
+    {
+        url:"assets/images/tech/caffe2.png",
+        alt: "caffe2",
+        name: "caffe2"
+    },
+    {
+        url: "assets/images/tech/chainer.png",
+        alt: "chainer",
+        name: "chainer"
+    },
+    {
+        url:"assets/images/tech/coreml.png",
+        alt: "coreml",
+        name: "coreml"
+    },
+    {
+        url: "assets/images/tech/OpenNN.png",
+        alt: "OpenNN",
+        name: "OpenNN"
+    },
+    {
+        url:"assets/images/tech/neuroph.png",
+        alt: "neuroph",
+        name: "neuroph"
+    },
+    {
+        url:"assets/images/tech/Sonnet.png",
+        alt: "Sonnet",
+        name: "Sonnet"
+    },
+    {
+        url:"assets/images/tech/tf-slim.png",
+        alt: "tf-slim",
+        name: "tf-slim"
+    },
+    {
+        url: "assets/images/tech/PySpark.png",
+        alt: "PySpark",
+        name: "PySpark"
+    },
+
 
 ];
 

@@ -19,7 +19,10 @@ const category = 56;
 const MLConsutling = () => {
   return (
     <div>
-  
+  <script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.MLConsult) }}
+			/>
       <div className="bg-color" data-aos="fade-up" data-aos-duration="3000">
         <div className="container container-fluid">
           <section>
@@ -175,13 +178,6 @@ const MLConsutling = () => {
                 <div className="background"></div>
                 <div className="Approachcard-icon">
                   <div className="wrap1">
-                    {/* <img
-                      style={{ width: "50px", height: "50px" }}
-                      className=""
-                      loading="lazy"
-                      alt="Enterprise Automation Tools"
-                      src="assets/images/Service-machine/Automation Tools.png"
-                    /> */}
                     1
                   </div>
                 </div>
@@ -349,35 +345,35 @@ const MLConsutling = () => {
                       className="img-fluid" loading="lazy" alt="Power-BI"
                       src="assets/images/tech/Power-BI.svg"
                     />
-                    <p className="">Power-BI</p>
+                    <p className="text-uppercase">Power-BI</p>
                   </li>
                   <li>
                     <img
                       className="img-fluid" loading="lazy" alt="Tableau"
                       src="assets/images/tech/Tableau.svg"
                     />
-                    <p className="">Tableau</p>
+                    <p className="text-uppercase">Tableau</p>
                   </li>
                   <li>
                     <img
                       className="img-fluid" loading="lazy" alt="Matplotlib"
                       src="assets/images/tech/Matplotlib.svg"
                     />
-                    <p className="">Matplotlib</p>
+                    <p className="text-uppercase">Matplotlib</p>
                   </li>
                   <li>
                     <img
                       className="img-fluid" loading="lazy" alt="Airflow"
                       src="assets/images/tech/Airflow.png"
                     />
-                    <p className="">Apache airflow</p>
+                    <p className="text-uppercase">Apache airflow</p>
                   </li>
                   <li>
                     <img
                       className="img-fluid" loading="lazy" alt="sagemaker"
                       src="assets/images/tech/sagemaker.svg"
                     />
-                    <p className="">sagemaker</p>
+                    <p className="text-uppercase">sagemaker</p>
                   </li>
                   <li>
                     <img
@@ -385,7 +381,7 @@ const MLConsutling = () => {
                       src="assets/images/tech/Autokeras.png"
 
                     />
-                    <p className="">Autokeras</p>
+                    <p className="text-uppercase">Autokeras</p>
                   </li>
 
 

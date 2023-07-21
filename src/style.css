@@ -1765,6 +1765,16 @@ color: #000 !important;
 max-width: 100%;
 height: auto;
 }
+.blog-Authorsection .elementor-container{
+   display: flex !important;
+   
+}
+.elementor-widget-image .elementor-widget-container{
+   display: flex !important;
+   align-items: unset !important; 
+   justify-content: left !important;
+}
+
 /* ====== blog-css completed ===== */
 
 

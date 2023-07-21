@@ -4,9 +4,9 @@ import React from "react";
 
 
 export const metadata = {
-	title: "Apollo Marketplace | Blockchain Development services | Codiste",
+	title: "Apollo Marketplace | Blockchain Development Services",
 	description:
-		"Codiste deploys a decentralized Launchpad platform named Apollo Marketplace, aimed at enabling users with investment diversification in the most profitable way.",
+		"A decentralized Launchpad platform named Apollo Marketplace, aimed at enabling users with investment diversification in the most profitable way.",
 };
 
 const ApolloPortfolio = () => {

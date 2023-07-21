@@ -29,14 +29,14 @@ const Header = () => {
 					>
 						<li className="nav-item dropdown dropdown-sec">
 							<Link
-								className="nav-link dropdown-toggle"
+								className="nav-link dropdown-toggle header-position"
 								href="/services"
 								id="navbarScrollingDropdown"
 							>
 								Services
 							</Link>
 							<ul
-								className="dropdown-menu "
+								className="dropdown-menu header-padding"
 								aria-labelledby="navbarScrollingDropdown"
 							>
 								<li>

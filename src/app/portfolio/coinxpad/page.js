@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 export const metadata = {
-	title: "CoinxPad Launchpad | Blockchain Development services | Codiste",
+	title: "CoinxPad Launchpad | Blockchain Development services",
 	description: "CoinxPad is a launchpad that enables crypto projects to raise funds through an Initial DEX Offering (IDO) on a decentralized exchange (DEX)."
 };
 

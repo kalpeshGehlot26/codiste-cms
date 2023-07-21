@@ -3,8 +3,8 @@ import Link from "next/link";
 import React from "react";
 
 export const metadata = {
-	title: "CYPHA | Mobile App Development services | Codiste",
-	description: "CYPHA – Your Pocket music studio The case study is about the Talent Search App, a gamified platform for aspiring and established musicians to showcase their talents, connect with other music lovers, and earn rewards."
+	title: "CYPHA | Mobile App Development Services | Codiste",
+	description: "Talent Search App is a gamified platform for aspiring and established musicians to showcase their talents, connect with other music lovers, and earn rewards."
 };
 
 const CyphaPortfolio = () => {

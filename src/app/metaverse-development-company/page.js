@@ -458,10 +458,7 @@ const MetaverseDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h1 className="all-head">Case Study</h1>
-						<p className="text-center all-p">
-							Read more and understand how our successful
-							deployments have helped enterprises.
-						</p>
+					
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
