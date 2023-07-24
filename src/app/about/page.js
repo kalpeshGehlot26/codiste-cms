@@ -51,7 +51,7 @@ const About = () => {
 					<div className="row justify-content-between">
 						<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap  align-items-center justify-content-between" data-aos="fade-up" data-aos-duration="3000">
 							<div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
-								<h1 className="all-head ">MISSION</h1>
+								<h2 className="all-head ">MISSION</h2>
 								<p className="secondsec-p ">Strive, Innovate and Succeed in delivering tangible business value to clients across the
 									globe by ensuring the highest quality within available time frames in each of our IT solutions we provide.
 									Through a consistent and rigorous adherence to best procedures and practices prevalent in the industry today,
@@ -63,7 +63,7 @@ const About = () => {
 						<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap  align-items-center justify-content-between" data-aos="fade-up" data-aos-duration="3000">
 							<div className="col-12 col-lg-4 mt-5 mt-lg-0"><img className='img-fluid' alt='VISION' src="assets/images/about/vision.png" /></div>
 							<div className="col-12 col-lg-5 p-4">
-								<h1 className="all-head ">VISION</h1>
+								<h2 className="all-head ">VISION</h2>
 								<p className="secondsec-p ">We at Codiste have a vision of becoming the most eminent software development company
 									with the highest customer life cycle for offshore service seekers globally. Codiste services have to define
 									the best “collaborative experience” for our clients and solution users.</p>
@@ -77,7 +77,7 @@ const About = () => {
 				<div className="container container-fluid ">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">Our Values</h1>
+							<h2 className="all-head">Our Values</h2>
 							<p className="all-p text-center">
 								We strive to deliver secure, scalable, decentralized
 								software solutions that empower businesses to
@@ -187,7 +187,7 @@ const About = () => {
 			<div className="container container-fluid  py-5" id="servicesOffer" data-aos="fade-up" data-aos-duration="3000">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5" data-aos="fade-up" data-aos-duration="3000">
-						<h1 className="all-head">Services We Offer</h1>
+						<h2 className="all-head">Services We Offer</h2>
 						<p className="all-p  text-center">
 							We offer a wide range of innovation-led
 							enterprise-grade development services for various
@@ -345,7 +345,7 @@ const About = () => {
 
 			<div className="py-5 bg-color" >
 				<div className="container container-fluid">
-					<h1 className="all-head text-center mb-5">Leadership Team</h1>
+					<h2 className="all-head text-center mb-5">Leadership Team</h2>
 					<div className="row" data-aos="fade-up" data-aos-duration="3000">
 						<div className="col-xl-2 col-md-4 p-4 ">
 							<img className='img-fluid ' src="assets/images/about/Nishant.png" alt="Nishant Bijani" loading="lazy" />
@@ -353,7 +353,7 @@ const About = () => {
 						<div className="col-xl-10 col-md-8 aboutall-p p-4">
 							<div>
 								<div className="d-flex flex-wrap">
-									<h1 className="me-4 aboutall-h">Nishant Bijani</h1>
+									<h2 className="me-4 aboutall-h">Nishant Bijani</h2>
 									<a href="https://www.linkedin.com/in/nishantbijani/" target="_blank">
 										<img
 											className="img-fluid mb-4 "
@@ -384,7 +384,7 @@ const About = () => {
 						<div className="col-xl-10 col-md-8  aboutall-p p-4">
 							<div>
 								<div className="d-flex flex-wrap">
-									<h1 className="me-4 aboutall-h">Nic Roux</h1>
+									<h2 className="me-4 aboutall-h">Nic Roux</h2>
 									<a href="https://www.linkedin.com/in/nicolas-roux-2a847518a/" target="_blank" >
 										<img
 											className="img-fluid mb-4"
@@ -414,9 +414,9 @@ const About = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
-							<h1 className="all-head text-center">
+							<h2 className="all-head text-center">
 								Brands That Trust Our Work!
-							</h1>
+							</h2>
 						</div>
 						<div className="row">
 							<div className="col-lg-12">
@@ -589,7 +589,7 @@ const About = () => {
 				<div className="container container-fluid  py-5">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">Our Customers</h1>
+							<h2 className="all-head">Our Customers</h2>
 							<p className="all-p  text-center">
 								Serving across 6 continents. <br />
 								We are a global technology and software
@@ -610,7 +610,7 @@ const About = () => {
 
 			<div className="container container-fluid mb-5 firstsec" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head">Our Global Presence </h1>
+					<h2 className="all-head">Our Global Presence </h2>
 					<p className="secondsec-p text-center">
 						Codiste has a global presence with offices in multiple
 						locations worldwide. Our team of experts is located
@@ -628,7 +628,7 @@ const About = () => {
 									alt="India Office"
 									loading="lazy"
 								/></div>
-								<div><h1 className="mb-0">India</h1></div>
+								<div><h2 className="mb-0">India</h2></div>
 							</div>
 							<div className="contact-content">
 								<div className="contact-logo ms-lg-5 ms-0">
@@ -813,7 +813,7 @@ const About = () => {
 									loading="lazy"
 								/></div>
 								<div>
-									<h1 className="mb-0">South-Africa</h1>
+									<h2 className="mb-0">South-Africa</h2>
 								</div>
 							</div>
 							<div className="contact-content">
@@ -994,8 +994,8 @@ const About = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head text-center">Take the word of those who have benefitted from
-								Codiste !</h1>
+							<h2 className="all-head text-center">Take the word of those who have benefitted from
+								Codiste !</h2>
 						</div>
 
 						<div
@@ -1176,11 +1176,11 @@ const About = () => {
 
 			<div className="" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid py-5">
-					<h1 className="all-head mb-lg-5 mb-0 text-center">Get in touch with Us!</h1>
+					<h2 className="all-head mb-lg-5 mb-0 text-center">Get in touch with Us!</h2>
 					<section>
 						<div className="row  d-flex align-items-center">
 							<div className="col-lg-6 col-md-12  mb-lg-0 needsec p-4">
-								<h1>Start Building on Your Idea Today! <br />Get in touch with our team with this form.</h1>
+								<h2>Start Building on Your Idea Today! <br />Get in touch with our team with this form.</h2>
 							</div>
 							<div className="col-lg-6 col-md-12 ">
 								<div className="need-block h-100">

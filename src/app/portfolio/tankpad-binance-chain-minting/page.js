@@ -53,7 +53,7 @@ const TankpadPortfolio = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center">
-					<h1 className="all-head">Client Requirement </h1>
+					<h2 className="all-head">Client Requirement </h2>
 				</div>
 				<div className="container container-fluid">
 					<div className="row">
@@ -87,7 +87,7 @@ const TankpadPortfolio = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center">
-					<h1 className="all-blog">Challenges </h1>
+					<h2 className="all-blog">Challenges </h2>
 				</div>
 				<div className="container container-fluid">
 					<div className="row">
@@ -114,9 +114,9 @@ const TankpadPortfolio = () => {
 				<div className="container container-fluid py-5">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+							<h2 className="all-head">
 								Features of product
-							</h1>
+							</h2>
 						</div>
 						<div className="row">
 							<div className="col-lg-12">
@@ -216,9 +216,9 @@ const TankpadPortfolio = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head text-center my-3 ">
+					<h2 className="all-head text-center my-3 ">
 						What did we deliver?
-					</h1>
+					</h2>
 					<p className="secondsec-p text-center">
 						Our team successfully developed an end-to-end solution
 						that allows users to securely and easily mint, manage,
@@ -247,9 +247,9 @@ const TankpadPortfolio = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+							<h2 className="all-head">
 								Satisfied clients is our proof of our excellence!
-							</h1>
+							</h2>
 						</div>
 						<div className="carousel-inner career-block">
 							<div className="d-flex align-items-center text-center flex-column custom-crousel">
@@ -296,7 +296,7 @@ const TankpadPortfolio = () => {
 			<div className="container container-fluid py-4">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center">
-						<h1 className="all-blog">Technology Stack</h1>
+						<h2 className="all-blog">Technology Stack</h2>
 						<p className="all-p  mb-5 text-center">
 							We pride ourselves on our proven track record with
 							20+ technologies and delivering innovative,
@@ -321,16 +321,16 @@ const TankpadPortfolio = () => {
 			<div className="bg-color"><div className="container container-fluid py-5">
 				<section>
 					<div>
-						<h1 className="all-head text-center mb-lg-5 mb-0">
+						<h2 className="all-head text-center mb-lg-5 mb-0">
 							Reach out to Us!
-						</h1>
+						</h2>
 					</div>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12  needsec p-4">
-							<h1>
+							<h2>
 								Get expert advice on adopting and integrating advanced technologies.<br />
 								Stay compliant, stay ahead!
-							</h1>
+							</h2>
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

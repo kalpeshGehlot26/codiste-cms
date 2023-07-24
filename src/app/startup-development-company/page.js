@@ -43,9 +43,9 @@ const StartupDevelopmentCompany = () => {
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-						<h1 className="all-head text-center">
+						<h2 className="all-head text-center">
 							Our Startup Development Services
-						</h1>
+						</h2>
 					</div>
 					<div className="row ">
 						<div className=" col-md-6 col-sm-12 pb-3 ">
@@ -98,9 +98,9 @@ const StartupDevelopmentCompany = () => {
 			<div className="py-5 bg-color" >
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head text-center">
+						<h2 className="all-head text-center">
 							Why Choose Codiste For Startup Development Services?
-						</h1>
+						</h2>
 					</div>
 					<div className="row">
 						<div className="col-12 col-md-6 text-center p-5 Crosssec-1" data-aos="fade-up" data-aos-duration="3000">
@@ -197,9 +197,9 @@ const StartupDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5 ulnodisc" >
-				<h1 className="all-head text-center" data-aos="fade-up" data-aos-duration="3000">
+				<h2 className="all-head text-center" data-aos="fade-up" data-aos-duration="3000">
 					Startup Development Idea Process
-				</h1>
+				</h2>
 				<p className="secondsec-p text-center" data-aos="fade-up" data-aos-duration="3000">
 					codiste offers startup development services for
 					entrepreneurs with comprehensive support and guidance to
@@ -249,7 +249,7 @@ const StartupDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
-							<h1 className="all-blog">Technology Stack</h1>
+							<h2 className="all-blog">Technology Stack</h2>
 							<p className="all-p  text-center">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
@@ -357,7 +357,7 @@ const StartupDevelopmentCompany = () => {
 						id="accordionFlushExample"
 					>
 						<div className="">
-							<h1 className="all-head text-center">FAQs</h1>
+							<h2 className="all-head text-center">FAQs</h2>
 						</div>
 						<div className="accordion-item">
 							<h2
@@ -562,12 +562,12 @@ const StartupDevelopmentCompany = () => {
 			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">Case Study</h1>
+						<h2 className="all-head">Case Study</h2>
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
 							<div className=" ">
-								<h1 className="">Apollo Marketplace</h1>
+								<h2 className="">Apollo Marketplace</h2>
 								<p className="all-p">
 									Codiste deploys a decentralized Launchpad
 									platform named Apollo Marketplace, aimed at
@@ -601,7 +601,7 @@ const StartupDevelopmentCompany = () => {
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-blog">Blogs</h1>
+					<h2 className="all-blog">Blogs</h2>
 					<p className="all-p text-center">
 						Knowledge will never be the less, so keep exploring our
 						blogs.
@@ -616,9 +616,9 @@ const StartupDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head text-center">
+							<h2 className="all-head text-center">
 								Our work speaks in their words!
-							</h1>
+							</h2>
 						</div>
 						<div
 							id="carouselExampleDark"
@@ -798,15 +798,15 @@ const StartupDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
-				<h1 className="all-head text-center mb-lg-5 mb-0">Get in touch with Us Now!
-				</h1>
+				<h2 className="all-head text-center mb-lg-5 mb-0">Get in touch with Us Now!
+				</h2>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12  needsec p-4">
-							<h1 className="">
+							<h2 className="">
 								Are you looking for a cost-effective startup
 								software development company?<br />Well, the question is no more!
-							</h1>
+							</h2>
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

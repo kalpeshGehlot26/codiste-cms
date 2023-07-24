@@ -54,9 +54,9 @@ const page = () => {
 
 			<div className="container container-fluid mb-5 py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center  mb-5 contact-block">
-					<h1 className="all-blog text-center">
+					<h2 className="all-blog text-center">
 						Serving Clients With Our Global Network
-					</h1>
+					</h2>
 					<p className="all-p text-center">
 						Codiste has a global presence with offices across
 						different continents. We can offer seamless development
@@ -73,7 +73,7 @@ const page = () => {
 									src="assets/images/india.png"
 									alt="India Office"
 								/></div>
-								<div><h1 className="mb-0">India</h1></div>
+								<div><h2 className="mb-0">India</h2></div>
 							</div>
 							<div className="contact-content">
 								<div className="contact-logo ms-lg-5 ms-0">
@@ -257,7 +257,7 @@ const page = () => {
 									alt="south-africa office"
 								/></div>
 								<div>
-									<h1 className="mb-0">South-Africa</h1>
+									<h2 className="mb-0">South-Africa</h2>
 								</div>
 							</div>
 							<div className="contact-content">

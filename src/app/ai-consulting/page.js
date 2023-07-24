@@ -20,10 +20,10 @@ const category = 43
 const AIConsult = () => {
     return (
         <div>
-<script
-				type="application/ld+json"
-				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.AIConsult) }}
-			/>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.AIConsult) }}
+            />
             <div className="bg-color" data-aos="fade-up" data-aos-duration="2000">
                 <div className="container container-fluid">
                     <section >
@@ -47,7 +47,7 @@ const AIConsult = () => {
             <div className="container container-fluid" data-aos="fade-up" data-aos-duration="2000">
                 <section>
                     <div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-                        <h1 className="all-head text-center">Our Expertise in AI Consulting Services</h1>
+                        <h2 className="all-head text-center">Our Expertise in AI Consulting Services</h2>
                         <p className="secondsec-p text-center">Our state-of-the-art AI consulting services are made to help businesses across numerous industries. We provide a wide variety of solutions specifically crafted to match your particular demands as industry pioneers in the AI space.
                         </p>
                     </div>
@@ -58,9 +58,9 @@ const AIConsult = () => {
             <div className="py-5 bg-color mt-5" >
                 <div className="container container-fluid">
                     <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-                        <h1 className="all-head text-center">
+                        <h2 className="all-head text-center">
                             Why Choose Us for AI Consultation?
-                        </h1>
+                        </h2>
                         <p className="secondsec-p text-center">Trying to avoid the complexity of artificial intelligence's disruptive power? Our AI consultation services are intended to demystify AI and provide your company with real outcomes.
                         </p>
                     </div>
@@ -165,9 +165,9 @@ const AIConsult = () => {
             <div className="py-5 mt-5">
                 <div className="container container-fluid">
                     <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-                        <h1 className="all-head text-center">
+                        <h2 className="all-head text-center">
                             Our AI Consultation Approach
-                        </h1>
+                        </h2>
                         <p className="secondsec-p text-center">We adopt a practical and customer-centricity strategy to offer tangible outcomes for organisations looking for disruptive AI solutions.
 
                         </p>
@@ -234,7 +234,7 @@ const AIConsult = () => {
                 <div className="container container-fluid">
                     <section>
                         <div className=" d-flex align-items-center flex-column justify-content-center" data-aos="fade-up" data-aos-duration="2000">
-                            <h1 className="all-head text-center">Technologies We Offer </h1>
+                            <h2 className="all-head text-center">Technologies We Offer </h2>
                             <p className="all-p  text-center">
                                 We offer you to choose from a wide range of
                                 technologies.
@@ -382,9 +382,9 @@ const AIConsult = () => {
             <div className="py-5 bg-color mt-5" data-aos="fade-up" data-aos-duration="3000">
                 <div className="container container-fluid">
                     <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-                        <h1 className="all-head text-center">
+                        <h2 className="all-head text-center">
                             Our Engagement Models
-                        </h1>
+                        </h2>
                     </div>
                 </div>
                 <div className="container cardcontainer">
@@ -426,7 +426,7 @@ const AIConsult = () => {
             <div className="py-5">
                 <div className="container container-fluid">
                     <div className=" d-flex align-items-center flex-column justify-content-center mb-5" data-aos="fade-up" data-aos-duration="2000">
-                        <h1 className="all-head">FAQs</h1>
+                        <h2 className="all-head">FAQs</h2>
                     </div>
                     <div
                         className="accordion accordion-flush"
@@ -577,54 +577,54 @@ const AIConsult = () => {
             </div>
 
             <div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
-				<div className="container container-fluid">
-					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">Case Study</h1>
-						
-					</div>
-					<div className="row d-flex align-items-center justify-content-between case-sec">
-						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
-							<div className="">
-								<h1 className="">
-									DiveWallet <br /> Your next-gen crypto asset
-									manager
-								</h1>
-								<p className="all-p">
-									As Blockchain experts, Codiste develops a
-									highly-secured crypto wallet - ‘Divewallet’
-									that supports well known EVM-based
-									blockchains such as Ethereum, Binance,
-									Polygon, and Solana.
-								</p>
-							</div>
+                <div className="container container-fluid">
+                    <div className="d-flex align-items-center flex-column justify-content-center mb-5">
+                        <h2 className="all-head">Case Study</h2>
 
-							<div className="mt-4">
-								<Link
-									href="/portfolio/divewallet"
-									className="book-btn"
-								>
-									Read More
-								</Link>
-							</div>
-						</div>
-						<div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2 mb-5 mb-lg-0">
-							<img
-								className="img-fluid"
-								style={{
-									padding: "20px",
-								}}
-								src="assets/images/diwallet-case/Dive Wallet.png"
-								alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
-								loading="lazy"
-							/>
-						</div>
-					</div>
-				</div>
-			</div>
+                    </div>
+                    <div className="row d-flex align-items-center justify-content-between case-sec">
+                        <div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
+                            <div className="">
+                                <h2 className="">
+                                    DiveWallet <br /> Your next-gen crypto asset
+                                    manager
+                                </h2>
+                                <p className="all-p">
+                                    As Blockchain experts, Codiste develops a
+                                    highly-secured crypto wallet - ‘Divewallet’
+                                    that supports well known EVM-based
+                                    blockchains such as Ethereum, Binance,
+                                    Polygon, and Solana.
+                                </p>
+                            </div>
+
+                            <div className="mt-4">
+                                <Link
+                                    href="/portfolio/divewallet"
+                                    className="book-btn"
+                                >
+                                    Read More
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2 mb-5 mb-lg-0">
+                            <img
+                                className="img-fluid"
+                                style={{
+                                    padding: "20px",
+                                }}
+                                src="assets/images/diwallet-case/Dive Wallet.png"
+                                alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
+                                loading="lazy"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
                 <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-                    <h1 className="all-blog">Blogs</h1>
+                    <h2 className="all-blog">Blogs</h2>
                     <p className="all-p text-center">
                         Read more about artificial intelligence and modern
                         technological developments in space with our blogs.
@@ -640,9 +640,9 @@ const AIConsult = () => {
                 <div className="container container-fluid">
                     <section>
                         <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-                            <h1 className="all-head text-center">
+                            <h2 className="all-head text-center">
                                 Hear our clients' resounding praise!
-                            </h1>
+                            </h2>
                         </div>
                         <div
                             id="carouselExampleDark"
@@ -825,15 +825,15 @@ const AIConsult = () => {
             </div>
 
             <div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
-                <h1 className="all-head text-center mb-lg-5 mb-0">
+                <h2 className="all-head text-center mb-lg-5 mb-0">
                     Dive into AI Right Now!
-                </h1>
+                </h2>
                 <section>
                     <div className="row  d-flex align-items-center" data-aos="fade-up" data-aos-duration="2000">
                         <div className="col-lg-6 col-md-12 p-4 mb-lg-0 needsec">
-                            <h1>
+                            <h2>
                                 Looking for AI experts who guide you throughout the AI solution development journey?
-                            </h1>
+                            </h2>
                         </div>
                         <div className="col-lg-6 col-md-12 ">
                             <div className="need-block h-100">

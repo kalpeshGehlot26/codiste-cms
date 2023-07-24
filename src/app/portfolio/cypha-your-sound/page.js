@@ -58,7 +58,7 @@ const CyphaPortfolio = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center">
-					<h1 className="all-head">Client Requirement</h1>
+					<h2 className="all-head">Client Requirement</h2>
 				</div>
 				<div className="container container-fluid">
 					<div className="row">
@@ -87,7 +87,7 @@ const CyphaPortfolio = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center">
-					<h1 className="all-blog">Challenges </h1>
+					<h2 className="all-blog">Challenges </h2>
 				</div>
 
 				<div className="container container-fluid">
@@ -121,7 +121,7 @@ const CyphaPortfolio = () => {
 				<div className="container container-fluid py-5">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head"> Features of Product</h1>
+							<h2 className="all-head"> Features of Product</h2>
 						</div>
 						<div className="row">
 							<div className="col-lg-12">
@@ -234,9 +234,9 @@ const CyphaPortfolio = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head text-center my-3 ">
+					<h2 className="all-head text-center my-3 ">
 						What did we deliver?
-					</h1>
+					</h2>
 					<p className="secondsec-p text-center">
 						The Talent Search App delivered a user-friendly platform
 						that allowed aspiring musicians and singers to showcase
@@ -257,9 +257,9 @@ const CyphaPortfolio = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+							<h2 className="all-head">
 								Witness How We Drive Soul in Ideas!
-							</h1>
+							</h2>
 						</div>
 						<div
 							id="carouselExampleDark"
@@ -476,7 +476,7 @@ const CyphaPortfolio = () => {
 			<div className="container container-fluid py-4">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center">
-						<h1 className="all-blog">Technology Stack</h1>
+						<h2 className="all-blog">Technology Stack</h2>
 						<p className="all-p me-5 mb-5 text-center">
 							We pride ourselves on our proven track record with
 							20+ technologies and delivering innovative,
@@ -524,16 +524,16 @@ const CyphaPortfolio = () => {
 				<div className="container container-fluid py-5 ">
 					<section>
 						<div>
-							<h1 className="all-head text-center mb-lg-5 mb-0">
+							<h2 className="all-head text-center mb-lg-5 mb-0">
 								Reach out to Us!
-							</h1>
+							</h2>
 						</div>
 						<div className="row  d-flex align-items-center">
 							<div className="col-lg-6 col-md-12  needsec p-4">
-								<h1>
+								<h2>
 									Get expert advice on adopting and integrating advanced technologies.<br />
 									Stay compliant, stay ahead!
-								</h1>
+								</h2>
 							</div>
 							<div className="col-lg-6 col-md-12 ">
 								<div className="need-block h-100">

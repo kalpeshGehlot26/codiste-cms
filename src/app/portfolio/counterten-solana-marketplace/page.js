@@ -36,7 +36,7 @@ const CounterTenPortfolio = () => {
 
       <div className="container container-fluid py-5">
         <div className=" d-flex align-items-center flex-column justify-content-center">
-          <h1 className="all-head">Client Requirement</h1>
+          <h2 className="all-head">Client Requirement</h2>
         </div>
 
         <div className="container container-fluid">
@@ -55,7 +55,7 @@ const CounterTenPortfolio = () => {
 
       <div className="container container-fluid py-5">
         <div className=" d-flex align-items-center flex-column justify-content-center">
-          <h1 className="all-blog">Challenges </h1>
+          <h2 className="all-blog">Challenges </h2>
         </div>
 
         <div className="container container-fluid">
@@ -78,7 +78,7 @@ const CounterTenPortfolio = () => {
         <div className="container container-fluid py-5">
           <section>
             <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-              <h1 className="all-head"> Features of Product</h1>
+              <h2 className="all-head"> Features of Product</h2>
             </div>
             <div className="row">
               <div className="col-lg-12">
@@ -111,7 +111,7 @@ const CounterTenPortfolio = () => {
 
       <div className="container container-fluid py-5">
         <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-          <h1 className="all-head text-center my-3 "> What did we deliver?</h1>
+          <h2 className="all-head text-center my-3 "> What did we deliver?</h2>
           <p className="secondsec-p text-center">CounterTEN provides a game-changing solution for brands looking to connect with customers in a new and innovative way. The platform offers endless possibilities for creating and selling NFTs, enabling businesses to monetize their work and engage with customers beyond traditional marketing channels. With CounterTEN, brands can deepen their relationship with customers and increase revenue. The Solana blockchain provides a reliable and tamper-proof platform for creating and managing NFTs. CounterTEN has already been used successfully by luxury car manufacturers and clothing brands for NFTs that offer exclusive access and early product launches.
           </p>
         </div>
@@ -122,7 +122,7 @@ const CounterTenPortfolio = () => {
         <div className="container container-fluid">
           <section>
             <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-              <h1 className="all-head">Witness How We Drive Soul in Ideas!</h1>
+              <h2 className="all-head">Witness How We Drive Soul in Ideas!</h2>
             </div>
             <div id="carouselExampleDark" className="carousel carousel-dark slide carousel-box" data-bs-ride="carousel">
               <div className="carousel-indicators">
@@ -203,7 +203,7 @@ const CounterTenPortfolio = () => {
       <div className="container container-fluid py-4">
         <section>
           <div className=" d-flex align-items-center flex-column justify-content-center">
-            <h1 className="all-blog">Technology Stack</h1>
+            <h2 className="all-blog">Technology Stack</h2>
             <p className="all-p  mb-5 text-center">We pride ourselves on our proven track record with 20+ technologies and delivering innovative, customized IT solutions.
             </p>
           </div>
@@ -233,7 +233,7 @@ const CounterTenPortfolio = () => {
         <div className="container container-fluid">
           <section>
             <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-              <h1 className="all-head text-center">Satisfied clients is our proof of our excellence!</h1>
+              <h2 className="all-head text-center">Satisfied clients is our proof of our excellence!</h2>
             </div>
             <div className="carousel-inner career-block">
               <div className="d-flex align-items-center text-center flex-column custom-crousel">
@@ -254,16 +254,16 @@ const CounterTenPortfolio = () => {
       <div className="container container-fluid py-5">
         <section>
           <div>
-            <h1 className="all-head text-center mb-lg-5 mb-0">
+            <h2 className="all-head text-center mb-lg-5 mb-0">
               Reach out to Us!
-            </h1>
+            </h2>
           </div>
           <div className="row  d-flex align-items-center">
             <div className="col-lg-6 col-md-12 needsec p-4">
-              <h1>
+              <h2>
                 Get expert advice on adopting and integrating advanced technologies.<br />
                 Stay compliant, stay ahead!
-              </h1>
+              </h2>
             </div>
             <div className="col-lg-6 col-md-12 ">
               <div className="need-block h-100">

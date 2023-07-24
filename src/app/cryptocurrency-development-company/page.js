@@ -47,7 +47,7 @@ const CryptoDevelopmentCompany = () => {
 			<div className="container container-fluid" data-aos="fade-up" data-aos-duration="2000">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-						<h1 className="all-head">Our Cryptocurrency Development Services</h1>
+						<h2 className="all-head">Our Cryptocurrency Development Services</h2>
 					</div>
 					<ServiceInnerItems serviceItems={cryptoList} />
 				</section>
@@ -56,10 +56,10 @@ const CryptoDevelopmentCompany = () => {
 			<div className="py-5 bg-color mt-5" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head text-center">
+						<h2 className="all-head text-center">
 							Why Choose Codiste for Cryptocurrency Development
 							Services?
-						</h1>
+						</h2>
 					</div>
 
 					<div className="row">
@@ -190,7 +190,7 @@ const CryptoDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
-							<h1 className="all-blog text-center">Technology Stack</h1>
+							<h2 className="all-blog text-center">Technology Stack</h2>
 							<p className="all-p text-center">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
@@ -287,7 +287,7 @@ const CryptoDevelopmentCompany = () => {
 			<div className="py-5" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">FAQs</h1>
+						<h2 className="all-head">FAQs</h2>
 					</div>
 					<div
 						className="accordion accordion-flush"
@@ -498,12 +498,12 @@ const CryptoDevelopmentCompany = () => {
 			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">Case Study</h1>
+						<h2 className="all-head">Case Study</h2>
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec" data-aos="fade-up" data-aos-duration="2000">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
 							<div className=" ">
-								<h1 className="">CoinxPad Launchpad</h1>
+								<h2 className="">CoinxPad Launchpad</h2>
 								<p className="all-p">
 									CoinxPad is a launchpad that enables crypto
 									projects to raise funds through an Initial
@@ -546,7 +546,7 @@ const CryptoDevelopmentCompany = () => {
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-blog">Blogs</h1>
+					<h2 className="all-blog">Blogs</h2>
 					<p className="all-p text-center">
 						Knowledge will never be the less, so keep exploring our
 						blogs.
@@ -562,9 +562,9 @@ const CryptoDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head text-center">
+							<h2 className="all-head text-center">
 								Success Stories from our clientele!
-							</h1>
+							</h2>
 						</div>
 						<div
 							id="carouselExampleDark"
@@ -734,13 +734,13 @@ const CryptoDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
-				<h1 className="all-head text-center mb-lg-5 mb-0">Place a Support Inquiry!</h1>
+				<h2 className="all-head text-center mb-lg-5 mb-0">Place a Support Inquiry!</h2>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12  mb-lg-0 needsec p-4">
-							<h1>
+							<h2>
 								Contact us for reliable and trustworthy cryptocurrency Services.
-							</h1>
+							</h2>
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

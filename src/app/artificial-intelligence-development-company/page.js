@@ -47,7 +47,7 @@ const AIDevelopmentCompany = () => {
 			<div className="container container-fluid" data-aos="fade-up" data-aos-duration="2000">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-						<h1 className="all-head">Our Artificial Intelligence Development Services</h1>
+						<h2 className="all-head">Our Artificial Intelligence Development Services</h2>
 					</div>
 					<ServiceInnerItems serviceItems={AIList} />
 				</section>
@@ -56,10 +56,10 @@ const AIDevelopmentCompany = () => {
 			<div className="py-5 bg-color mt-5" >
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head text-center">
+						<h2 className="all-head text-center">
 							Why Choose Us For Artificial Intelligence
 							Development Services?
-						</h1>
+						</h2>
 					</div>
 
 					<div className="row">
@@ -180,7 +180,7 @@ const AIDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center" data-aos="fade-up" data-aos-duration="2000">
-							<h1 className="all-head">Technologies We Offer </h1>
+							<h2 className="all-head">Technologies We Offer </h2>
 							<p className="all-p  text-center">
 								We offer you to choose from a wide range of
 								technologies.
@@ -275,7 +275,7 @@ const AIDevelopmentCompany = () => {
 			<div className="py-5">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5" data-aos="fade-up" data-aos-duration="2000">
-						<h1 className="all-head">FAQs</h1>
+						<h2 className="all-head">FAQs</h2>
 					</div>
 					<div
 						className="accordion accordion-flush"
@@ -469,12 +469,12 @@ const AIDevelopmentCompany = () => {
 			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">Case Study</h1>
+						<h2 className="all-head">Case Study</h2>
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
 							<div className=" ">
-								<h1 className="">CYPHA – Your Sound</h1>
+								<h2 className="">CYPHA – Your Sound</h2>
 								<p className="all-p">
 									CYPHA – Your Pocket music studio.
 									<br />
@@ -518,7 +518,7 @@ const AIDevelopmentCompany = () => {
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-blog">Blogs</h1>
+					<h2 className="all-blog">Blogs</h2>
 					<p className="all-p text-center">
 						Read more about artificial intelligence and modern
 						technological developments in space with our blogs.
@@ -534,9 +534,9 @@ const AIDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head text-center">
+							<h2 className="all-head text-center">
 								Hear our clients' resounding praise!
-							</h1>
+							</h2>
 						</div>
 						<div
 							id="carouselExampleDark"
@@ -719,16 +719,16 @@ const AIDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
-				<h1 className="all-head text-center mb-lg-5 mb-0">
+				<h2 className="all-head text-center mb-lg-5 mb-0">
 					Get started with AI Now!
-				</h1>
+				</h2>
 				<section>
 					<div className="row  d-flex align-items-center" data-aos="fade-up" data-aos-duration="2000">
 						<div className="col-lg-6 col-md-12 p-4 mb-lg-0 needsec">
-							<h1>
+							<h2>
 								Reach out to us with your problems!<br /> Our team
 								will get in touch with you soon.
-							</h1>
+							</h2>
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

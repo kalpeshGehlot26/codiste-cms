@@ -51,7 +51,7 @@ const Blogs = () => {
 
 			<div className="container py-5" id="blogSection" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-4">
-					<h1 className="all-blog">Blogs</h1>
+					<h2 className="all-blog">Blogs</h2>
 				</div>
 				<Posts />
 			</div>
@@ -62,7 +62,7 @@ const Blogs = () => {
 					<section>
 						<div className="row  d-flex align-items-center">
 							<div className="col-lg-6 col-md-12 needsec p-4" >
-								<h1>Connect with our experts with this lead form and bring your tech idea to reality.</h1>
+								<h2>Connect with our experts with this lead form and bring your tech idea to reality.</h2>
 							</div>
 							<div className="col-lg-6 col-md-12 ">
 								<div className="need-block h-100">

@@ -51,9 +51,9 @@ const MobileAppDevelopmentCompany = () => {
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-						<h1 className="all-head text-center">
+						<h2 className="all-head text-center">
 							Our Mobile App Development Services{" "}
-						</h1>
+						</h2>
 					</div>
 					<ServiceInnerItems serviceItems={mobileList} />
 				</section>
@@ -62,10 +62,10 @@ const MobileAppDevelopmentCompany = () => {
 			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head text-center">
+						<h2 className="all-head text-center">
 							Why Choose Codiste For Mobile App Development
 							Services?{" "}
-						</h1>
+						</h2>
 					</div>
 
 					<div className="row">
@@ -199,7 +199,7 @@ const MobileAppDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
-							<h1 className="all-blog text-center">Technology Stack</h1>
+							<h2 className="all-blog text-center">Technology Stack</h2>
 							<p className="all-p me-5 text-center">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
@@ -290,7 +290,7 @@ const MobileAppDevelopmentCompany = () => {
 			<div className="py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">FAQs</h1>
+						<h2 className="all-head">FAQs</h2>
 					</div>
 					<div
 						className="accordion accordion-flush"
@@ -440,12 +440,12 @@ const MobileAppDevelopmentCompany = () => {
 			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">Case Study</h1>
+						<h2 className="all-head">Case Study</h2>
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
 							<div className=" ">
-								<h1 className="">Pixi pages</h1>
+								<h2 className="">Pixi pages</h2>
 								<p className="all-p">
 									Busy parents stay connected with their
 									children by recording professional-sounding
@@ -481,7 +481,7 @@ const MobileAppDevelopmentCompany = () => {
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-blog">Blogs</h1>
+					<h2 className="all-blog">Blogs</h2>
 					<p className="all-p text-center">
 						Learn more about new developments and breakthroughs in
 						mobile application development with our blogs.
@@ -497,9 +497,9 @@ const MobileAppDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head text-center">
+							<h2 className="all-head text-center">
 								We take pride in your trust!
-							</h1>
+							</h2>
 						</div>
 						<div
 							id="carouselExampleDark"
@@ -669,12 +669,12 @@ const MobileAppDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
-				<h1 className="all-head text-center mb-lg-5 mb-0">Seek Our Help!</h1>
+				<h2 className="all-head text-center mb-lg-5 mb-0">Seek Our Help!</h2>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12  needsec p-4">
-							<h1>Do you want a Feature-rich mobile app?<br />
-								Get in touch with us!</h1>
+							<h2>Do you want a Feature-rich mobile app?<br />
+								Get in touch with us!</h2>
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

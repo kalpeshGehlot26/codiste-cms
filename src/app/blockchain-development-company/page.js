@@ -65,7 +65,7 @@ const BlockChainDevelopment = () => {
 			<div className="container container-fluid" >
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-						<h1 className="all-head">Our Blockchain Development Services</h1>
+						<h2 className="all-head">Our Blockchain Development Services</h2>
 						<p className="all-p text-center">
 							We offer businesses a complete range of blockchain
 							solutions for secure scaling and transparent
@@ -80,9 +80,9 @@ const BlockChainDevelopment = () => {
 			<div className="py-5 bg-color mt-5" >
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head text-center">
+						<h2 className="all-head text-center">
 							Why Choose Us for Blockchain Development Services ?
-						</h1>
+						</h2>
 					</div>
 					<div className="row">
 						<div data-aos="fade-up" data-aos-duration="2000" className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
@@ -226,7 +226,7 @@ const BlockChainDevelopment = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center" data-aos="fade-up" data-aos-duration="3000">
-							<h1 className="all-blog text-center">Technology Stack</h1>
+							<h2 className="all-blog text-center">Technology Stack</h2>
 							<p className="all-p text-center">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
@@ -330,7 +330,7 @@ const BlockChainDevelopment = () => {
 			<div className="py-5" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">FAQs</h1>
+						<h2 className="all-head">FAQs</h2>
 					</div>
 					<div
 						className="accordion accordion-flush"
@@ -581,14 +581,14 @@ const BlockChainDevelopment = () => {
 			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">Case Study</h1>
+						<h2 className="all-head">Case Study</h2>
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
 							<div className=" ">
-								<h1 className="">
+								<h2 className="">
 									CounterTen – Solana Marketplace
-								</h1>
+								</h2>
 								<p className="all-p">
 									CounterTEN is a Solana-based NFT platform
 									that enables brands to create and sell NFTs
@@ -628,7 +628,7 @@ const BlockChainDevelopment = () => {
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-blog">Blogs</h1>
+					<h2 className="all-blog">Blogs</h2>
 					<p className="all-p text-center">
 						Knowledge will never be the less, so keep exploring our
 						blogs.
@@ -644,9 +644,9 @@ const BlockChainDevelopment = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head text-center">
+							<h2 className="all-head text-center">
 								Their Skyrocketing Success is Our Feedback!
-							</h1>
+							</h2>
 						</div>
 						<div
 							id="carouselExampleDark"
@@ -829,11 +829,11 @@ const BlockChainDevelopment = () => {
 			</div>
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
-				<h1 className="all-head text-center mb-lg-5 mb-0">Have a Project?</h1>
+				<h2 className="all-head text-center mb-lg-5 mb-0">Have a Project?</h2>
 				<section data-aos="fade-up" data-aos-duration="2000">
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 p-4 mb-lg-0 needsec p-4">
-							<h1>Reach out to our technical support team for immediate assistance and expert guidance.</h1>
+							<h2>Reach out to our technical support team for immediate assistance and expert guidance.</h2>
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

@@ -53,7 +53,7 @@ const ApolloPortfolio = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center">
-					<h1 className="all-head">Client Requirement</h1>
+					<h2 className="all-head">Client Requirement</h2>
 				</div>
 				<div className="container container-fluid">
 					<div className="row">
@@ -89,7 +89,7 @@ const ApolloPortfolio = () => {
 				<div className="container container-fluid py-5">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head"> Features of Product</h1>
+							<h2 className="all-head"> Features of Product</h2>
 							<p className="secondsec-p text-center">
 								Our panel of experts integrated a comprehensive
 								set of features as required by the client
@@ -227,9 +227,9 @@ const ApolloPortfolio = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-3">
-					<h1 className="all-head text-center my-3 ">
+					<h2 className="all-head text-center my-3 ">
 						What did we deliver?
-					</h1>
+					</h2>
 					<p className="secondsec-p text-center">
 						Our team at Codiste deployed the Apollo Platform decked
 						with all the modules and powered with the right set of
@@ -275,7 +275,7 @@ const ApolloPortfolio = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">Commitment Delivered! </h1>
+							<h2 className="all-head">Commitment Delivered! </h2>
 							<p className="secondsec-p">
 								Were the very first words of our client. We
 								developed the desired Apollo Marketplace with
@@ -465,7 +465,7 @@ const ApolloPortfolio = () => {
 			<div className="container container-fluid py-4">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center">
-						<h1 className="all-blog text-center">Technology Stack</h1>
+						<h2 className="all-blog text-center">Technology Stack</h2>
 						<p className="all-p  mb-5 text-center">
 							We pride ourselves on our proven track record with
 							20+ technologies and delivering innovative,
@@ -508,9 +508,9 @@ const ApolloPortfolio = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+							<h2 className="all-head">
 								Satisfied clients is our proof of our excellence!
-							</h1>
+							</h2>
 						</div>
 						<div className="carousel-inner career-block">
 							<div className="d-flex align-items-center text-center flex-column custom-crousel">
@@ -551,16 +551,16 @@ const ApolloPortfolio = () => {
 			<div className="container container-fluid py-5">
 				<section>
 					<div>
-						<h1 className="all-head text-center mb-lg-5 mb-0">
+						<h2 className="all-head text-center mb-lg-5 mb-0">
 							Reach out to Us!
-						</h1>
+						</h2>
 					</div>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12  needsec p-4">
-							<h1>
+							<h2>
 								Get expert advice on adopting and integrating advanced technologies.<br />
 								Stay compliant, stay ahead!
-							</h1>
+							</h2>
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

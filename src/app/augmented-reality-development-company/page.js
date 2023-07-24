@@ -45,9 +45,9 @@ const ARVRDevelopmentCompany = () => {
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-						<h1 className="all-head text-center">
+						<h2 className="all-head text-center">
 							Our AR/VR Development Services{" "}
-						</h1>
+						</h2>
 					</div>
 					<ServiceInnerItems serviceItems={ARVRList} />
 				</section>
@@ -56,9 +56,9 @@ const ARVRDevelopmentCompany = () => {
 			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head text-center">
+						<h2 className="all-head text-center">
 							Why Choose Codiste for AR/VR development services?{" "}
-						</h1>
+						</h2>
 					</div>
 
 					<div className="row">
@@ -188,7 +188,7 @@ const ARVRDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
-							<h1 className="all-blog text-center">Technology Stack</h1>
+							<h2 className="all-blog text-center">Technology Stack</h2>
 							<p className="all-p  text-center">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
@@ -313,7 +313,7 @@ const ARVRDevelopmentCompany = () => {
 			<div className="py-5" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">FAQs</h1>
+						<h2 className="all-head">FAQs</h2>
 					</div>
 					<div
 						className="accordion accordion-flush"
@@ -554,14 +554,14 @@ const ARVRDevelopmentCompany = () => {
 			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="2000">
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">Case Study</h1>
+						<h2 className="all-head">Case Study</h2>
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
 							<div className=" ">
-								<h1 className="">
+								<h2 className="">
 									Bonfire
-								</h1>
+								</h2>
 								<p className="all-p">
 									A Fractional Real Estate Investment Marketplace.<br />
 									Codiste embraces technology, strategy, and
@@ -596,7 +596,7 @@ const ARVRDevelopmentCompany = () => {
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-blog">Blogs</h1>
+					<h2 className="all-blog">Blogs</h2>
 					<p className="all-p text-center">
 						Explore more about immersive technologies and AR/VR
 						development with our blogs.{" "}
@@ -612,10 +612,10 @@ const ARVRDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head text-center">
+							<h2 className="all-head text-center">
 								Their feedback displays our sheer commitment and
 								expertise!
-							</h1>
+							</h2>
 						</div>
 
 						<div
@@ -787,11 +787,11 @@ const ARVRDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
-				<h1 className="all-head text-center mb-lg-5 mb-0">Get Ahold of Us!</h1>
+				<h2 className="all-head text-center mb-lg-5 mb-0">Get Ahold of Us!</h2>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 p-4 mb-lg-0 needsec p-4">
-							<h1>Give life to your AR/VR vision with Us!<br />Fill Out the form Now!</h1>
+							<h2>Give life to your AR/VR vision with Us!<br />Fill Out the form Now!</h2>
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

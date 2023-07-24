@@ -51,7 +51,7 @@ const Services = () => {
 			<div className="container container-fluid py-5" >
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-						<h1 className="all-head">Services We Offer</h1>
+						<h2 className="all-head">Services We Offer</h2>
 					</div>
 					<ServiceList
 						serviceItems={mainServiceList}
@@ -78,7 +78,7 @@ const Services = () => {
 			<div className="container-fluid p-0" data-aos="fade-up" data-aos-duration="3000">
 				<section>
 					<div className="blacksec">
-						<h1>Why Codiste?</h1>
+						<h2>Why Codiste?</h2>
 						<p className="my-5">
 							Codiste is an emerging leader with the much-required
 							expertise and experience in developing scalable and
@@ -103,7 +103,7 @@ const Services = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
-							<h1 className="all-blog">Technology Stack</h1>
+							<h2 className="all-blog">Technology Stack</h2>
 							<p className="all-p  mb-5 text-center">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
@@ -122,7 +122,7 @@ const Services = () => {
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">Industries We Serve</h1>
+						<h2 className="all-head">Industries We Serve</h2>
 						<p className="all-p me-5 text-center">
 							Trusted by leaders among different industries and
 							enterpri
@@ -136,7 +136,7 @@ const Services = () => {
 				<div className="container container-fluid ">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">Our Expertise</h1>
+							<h2 className="all-head">Our Expertise</h2>
 							<p className="all-p me-5 text-center">
 								Why choose Codiste for successful digital transformation
 							</p>
@@ -278,7 +278,7 @@ const Services = () => {
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head text-center">Our Proven Development Cycle </h1>
+					<h2 className="all-head text-center">Our Proven Development Cycle </h2>
 					<p className="all-p  text-center">
 						We follow an extensive step by step development cycle to
 						ensure timely yet quality-assured product
@@ -310,11 +310,8 @@ const Services = () => {
 								Minimum Viable Product Planning
 							</h3>
 							<p>
-								Before getting into product development, we
-								design an MVP or Prototype. Our team finalizes
-								initial designs, including wireframes and
-								mockups, and rectifies the problems of
-								prototypes.
+								Once we understand your requirement after consultation, we assess the requirement, finalize the prerequisites and create a detailed personalized project development roadmap, including timelines, budgets, milestones, and KPIs.
+
 							</p>
 						</div>
 					</div>
@@ -324,12 +321,11 @@ const Services = () => {
 								3
 							</div>
 							<h3 className="">
-								Prototype and Produc
+								Prototype and Product Designing
 							</h3>
 							<p>
-								From training data to dealing with unstructured
-								text, photos, and videos, we offer Machine
-								Learning services as per your demand.
+								Before getting into product development, we design an MVP or Prototype. Our team finalizes initial designs, including wireframes and mockups, and rectifies the problems of prototypes.
+
 							</p>
 						</div>
 					</div>
@@ -458,7 +454,7 @@ const Services = () => {
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-blog">Blogs</h1>
+					<h2 className="all-blog">Blogs</h2>
 					<p className="all-p text-center">
 						Keep yourself updated with emerging technologies and new
 						developments in the industry with us.
@@ -473,7 +469,7 @@ const Services = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-blog text-center">Their Success Stories are our Valuable Feedback!</h1>
+							<h2 className="all-blog text-center">Their Success Stories are our Valuable Feedback!</h2>
 						</div>
 						<div
 							id="carouselExampleDark"
@@ -653,13 +649,13 @@ const Services = () => {
 			</div>
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
-				<h1 className="all-blog text-center mb-lg-5 mb-0">Getting in touch with Us!</h1>
+				<h2 className="all-blog text-center mb-lg-5 mb-0">Getting in touch with Us!</h2>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 p-4 needsec">
-							<h1>
+							<h2>
 								Fill out this form and give your imagination into reality!
-							</h1>
+							</h2>
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

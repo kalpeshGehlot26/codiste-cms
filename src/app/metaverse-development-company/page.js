@@ -49,7 +49,7 @@ const MetaverseDevelopmentCompany = () => {
 			<div className="container container-fluid" data-aos="fade-up" data-aos-duration="3000">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-						<h1 className="all-head">Our Metaverse Services </h1>
+						<h2 className="all-head">Our Metaverse Services </h2>
 						<p className="all-p text-center">
 							Explore our customized metaverse solutions for a
 							broad spectrum of businesses and enterprises.
@@ -62,9 +62,9 @@ const MetaverseDevelopmentCompany = () => {
 			<div className="py-5 bg-color mt-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head text-center">
+						<h2 className="all-head text-center">
 							Why Choose Codiste for Metaverse Services?
-						</h1>
+						</h2>
 					</div>
 
 					<div className="row">
@@ -190,7 +190,7 @@ const MetaverseDevelopmentCompany = () => {
 				<div className="container container-fluid py-5">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
-							<h1 className="all-blog text-center">Technology Stack</h1>
+							<h2 className="all-blog text-center">Technology Stack</h2>
 							<p className="all-p  mb-5 text-center">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
@@ -259,7 +259,7 @@ const MetaverseDevelopmentCompany = () => {
 			<div className="py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">FAQs</h1>
+						<h2 className="all-head">FAQs</h2>
 					</div>
 					<div
 						className="accordion accordion-flush"
@@ -457,16 +457,16 @@ const MetaverseDevelopmentCompany = () => {
 			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">Case Study</h1>
-					
+						<h2 className="all-head">Case Study</h2>
+
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
 							<div className="">
-								<h1 className="">
+								<h2 className="">
 									DiveWallet <br /> Your next-gen crypto asset
 									manager
-								</h1>
+								</h2>
 								<p className="all-p">
 									As Blockchain experts, Codiste develops a
 									highly-secured crypto wallet - ‘Divewallet’
@@ -502,7 +502,7 @@ const MetaverseDevelopmentCompany = () => {
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-blog">Blogs</h1>
+					<h2 className="all-blog">Blogs</h2>
 					<p className="all-p text-center">
 						Our blogs for the best news and resources on metaverse
 						development.
@@ -517,7 +517,7 @@ const MetaverseDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">What Our Clients Say</h1>
+							<h2 className="all-head">What Our Clients Say</h2>
 						</div>
 						<div
 							id="carouselExampleDark"
@@ -680,14 +680,14 @@ const MetaverseDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
-				<h1 className="all-head text-center mb-lg-5 mb-0">We will contact you hereafte!</h1>
+				<h2 className="all-head text-center mb-lg-5 mb-0">We will contact you hereafte!</h2>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12  needsec p-4">
-							<h1>
+							<h2>
 								Want to leverage Metaverse for your business?
 								<br />Let us know your details in the form.
-							</h1>
+							</h2>
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

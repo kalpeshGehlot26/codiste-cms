@@ -1,4 +1,4 @@
-const metaVerseList = [ 
+const metaVerseList = [
     {
         title: "Metaverse Avatar Development",
         description: "We develop custom virtual 3D avatars for the metaverse and other immersive experiences like AR/VR games, animations, etc. We ensure that your business enhances user engagement with these avatars and backgrounds. Our experts-led team of 3D developers leverages 3D modeling-rendering, artificial intelligence, extended realities, and other technologies to create stunning 3D virtual avatars that are visually appealing and fully functional within the metaverse and can also be integrated with other applications with seamless integration."
@@ -12,7 +12,7 @@ const metaVerseList = [
         description: "We build engaging 3D animation development for traditional and modern channels like Websites, mobile applications, and metaverses with the best 3D animation library Three.JS which is an industry-standard around the globe. Our team uses this powerful 3D animation library to create and integrate 3D animation to help your brand or enterprise boost the end-user experience and enhance engagement. We have a team of experienced individuals who can ensure a high-quality 3D animation creation that adds life to your immersive experience."
     },
     {
-        title: "Metaverse Gallery development",
+        title: "Metaverse Gallery Development",
         description: "We develop innovative new-age metaverse art and design galleries to help enterprises cater to the increased demand for a virtual experience in traditional art galleries and museums. Our Metaverse development services offer end-to-end development to ensure that what you see in Metaverse resembles the real-life experience, if not better. We utilize popular and reliable technologies like Augmented and virtual realities, 3D animations, blockchain, and extensive development to ensure a reliable and scalable end product."
     },
     {

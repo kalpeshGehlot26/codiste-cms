@@ -45,7 +45,7 @@ const Career = () => {
 			<div className="container-fluid p-0" data-aos="fade-up" data-aos-duration="3000">
 				<section>
 					<div className="blacksec">
-						<h1>Why Join Codiste?</h1>
+						<h2>Why Join Codiste?</h2>
 						<p className="my-5">
 							Codiste has a dynamic work environment with a blend
 							of innovation and collaboration for mutual
@@ -65,9 +65,9 @@ const Career = () => {
 			</div>
 
 			<div className="container container-fluid firstsec" data-aos="fade-up" data-aos-duration="3000">
-				<h1 className="all-blog text-center">
+				<h2 className="all-blog text-center">
 					Beyond the Code: Exploring Life at Codiste
-				</h1>
+				</h2>
 				<p className="secondsec-p text-center mb-5">A Peek into Codiste's Dynamic Culture</p>
 				<div className="row mt-5" data-aos="fade-up" data-aos-duration="3000">
 					<div className="col-xl-3 col-md-6 col-sm-12 pb-3 ">
@@ -135,9 +135,9 @@ const Career = () => {
 
 			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid  firstsec">
-					<h1 className="all-blog text-center">
+					<h2 className="all-blog text-center">
 						Codiste Reflections Through the Lens!
-					</h1>
+					</h2>
 					<EventSlider />
 				</div>
 			</div>
@@ -145,7 +145,7 @@ const Career = () => {
 			<div className="firstsec" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid mb-5  py-5">
 					<div className="mb-5">
-						<h1 className="all-blog text-center">Discover Your Dream Job: Current Openings at Codiste</h1>
+						<h2 className="all-blog text-center">Discover Your Dream Job: Current Openings at Codiste</h2>
 					</div>
 					<div className="row" data-aos="fade-up" data-aos-duration="3000">
 						<div className="col-lg-4 col-md-6 col-12 pb-3 ">
@@ -201,21 +201,21 @@ const Career = () => {
 
 			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
-					<h1 className="all-head text-center">
+					<h2 className="all-head text-center">
 						Our People, Our Success: The Codiste Team Speaks Out
-					</h1>
+					</h2>
 					<EmployeeSlider />
 				</div>
 			</div>
 
 			<div className="container container-fluid py-lg-5 py-5" id="apply-now" data-aos="fade-up" data-aos-duration="3000">
-				<h1 className="text-center all-head mb-lg-5 mb-0">Are you a professional techie?</h1>
+				<h2 className="text-center all-head mb-lg-5 mb-0">Are you a professional techie?</h2>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12  needsec p-4" >
-							<h1 className="">
+							<h2 className="">
 								Apply now Our HR team will reach out for the further process.
-							</h1>
+							</h2>
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

@@ -51,7 +51,7 @@ const BornfirePortfolio = () => {
 
 			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center">
-					<h1 className="all-head">Client Requirement</h1>
+					<h2 className="all-head">Client Requirement</h2>
 				</div>
 				<div className="container container-fluid">
 					<div className="row">
@@ -87,7 +87,7 @@ const BornfirePortfolio = () => {
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center">
-						<h1 className="all-head">What did we deliver?</h1>
+						<h2 className="all-head">What did we deliver?</h2>
 					</div>
 					<div className="container container-fluid">
 						<div className="row">
@@ -118,7 +118,7 @@ const BornfirePortfolio = () => {
 				<div className="container container-fluid py-5">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head"> Features of Product</h1>
+							<h2 className="all-head"> Features of Product</h2>
 							<p className="secondsec-p text-center">
 								We partnered with Bonfire to deliver a tangible
 								solution by integrating some of the exceptional
@@ -207,9 +207,9 @@ const BornfirePortfolio = () => {
 
 			<div className="container container-fluid pb-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-head text-center my-3 ">
+					<h2 className="all-head text-center my-3 ">
 						Final Product
-					</h1>
+					</h2>
 					<p className="secondsec-p text-center">
 						Codiste experts incorporated advanced features like
 						Passcode and Biometrics. Codiste worked with Bonfire to
@@ -235,9 +235,9 @@ const BornfirePortfolio = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+							<h2 className="all-head">
 								Witness How We Drive Soul in Ideas!
-							</h1>
+							</h2>
 						</div>
 						<div
 							id="carouselExampleDark"
@@ -454,7 +454,7 @@ const BornfirePortfolio = () => {
 			<div className="container container-fluid py-4">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center">
-						<h1 className="all-blog text-center">Technology Stack</h1>
+						<h2 className="all-blog text-center">Technology Stack</h2>
 						<p className="all-p  mb-5 text-center">
 							We pride ourselves on our proven track record with
 							20+ technologies and delivering innovative,
@@ -497,9 +497,9 @@ const BornfirePortfolio = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head">
+							<h2 className="all-head">
 								Satisfied clients is our proof of our excellence!
-							</h1>
+							</h2>
 						</div>
 						<div className="carousel-inner career-block">
 							<div className="d-flex align-items-center text-center flex-column custom-crousel">
@@ -539,16 +539,16 @@ const BornfirePortfolio = () => {
 			<div className="container container-fluid py-5">
 				<section>
 					<div>
-						<h1 className="all-head text-center mb-lg-5 mb-0">
+						<h2 className="all-head text-center mb-lg-5 mb-0">
 							Reach out to us
-						</h1>
+						</h2>
 					</div>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12  needsec p-4">
-							<h1>
+							<h2>
 								Get expert advice on adopting and integrating advanced technologies.<br />
 								Stay compliant, stay ahead!
-							</h1>
+							</h2>
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">

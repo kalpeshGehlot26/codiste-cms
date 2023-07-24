@@ -45,9 +45,9 @@ const WebDevelopmentCompany = () => {
 			<div className="container container-fluid" data-aos="fade-up" data-aos-duration="3000">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-						<h1 className="all-head text-center">
+						<h2 className="all-head text-center">
 							Our Web Development Services
-						</h1>
+						</h2>
 					</div>
 					<ServiceInnerItems serviceItems={webList} />
 				</section>
@@ -56,10 +56,10 @@ const WebDevelopmentCompany = () => {
 			<div className="py-5 bg-color mt-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head text-center">
+						<h2 className="all-head text-center">
 							Why Is Codiste The Best Web Design and Development
 							Company?
-						</h1>
+						</h2>
 					</div>
 					<div className="row">
 						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1" data-aos="fade-up" data-aos-duration="3000">
@@ -186,7 +186,7 @@ const WebDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
-							<h1 className="all-blog">Technology Stack</h1>
+							<h2 className="all-blog">Technology Stack</h2>
 							<p className="all-p  text-center">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
@@ -255,7 +255,7 @@ const WebDevelopmentCompany = () => {
 			<div className="py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">FAQs</h1>
+						<h2 className="all-head">FAQs</h2>
 					</div>
 					<div
 						className="accordion accordion-flush"
@@ -484,12 +484,12 @@ const WebDevelopmentCompany = () => {
 			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">Case Study</h1>
+						<h2 className="all-head">Case Study</h2>
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
 							<div className=" ">
-								<h1 className="">Medizen</h1>
+								<h2 className="">Medizen</h2>
 								<p className="all-p">
 									The Medizen app was developed to help
 									patients manage their medications safely and
@@ -527,7 +527,7 @@ const WebDevelopmentCompany = () => {
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-blog">Blogs</h1>
+					<h2 className="all-blog">Blogs</h2>
 					<p className="all-p text-center">
 						Read our Blogs here to get continuous insights and
 						updates on new technologies and development across the
@@ -544,10 +544,10 @@ const WebDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head text-center">
+							<h2 className="all-head text-center">
 								We justify our credibility with their success
 								notes!
-							</h1>
+							</h2>
 						</div>
 						<div
 							id="carouselExampleDark"
@@ -725,15 +725,15 @@ const WebDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
-				<h1 className="all-head text-center mb-lg-5 mb-0">Drop us an Inquiry!</h1>
+				<h2 className="all-head text-center mb-lg-5 mb-0">Drop us an Inquiry!</h2>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12  needsec p-4">
-							<h1>
+							<h2>
 								Get a Website that truly represents your brand
 								and values.<br />
 								Fill out your details to help us connect!
-							</h1>
+							</h2>
 
 						</div>
 						<div className="col-lg-6 col-md-12 ">

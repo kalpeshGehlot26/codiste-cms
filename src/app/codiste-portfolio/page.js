@@ -119,13 +119,13 @@ const CodistePortfolio = () => {
 
 			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
-					<h1 className="all-head text-center mb-lg-5 mb-0">Drop us a line!</h1>
+					<h2 className="all-head text-center mb-lg-5 mb-0">Drop us a line!</h2>
 					<section>
 						<div className="row  d-flex align-items-center">
 							<div className="col-lg-6 col-md-12  needsec p-4">
-								<h1>
+								<h2>
 									Take a proactive approach to technical challenges.<br />Contact us today for efficient support and solutions!
-								</h1>
+								</h2>
 
 							</div>
 							<div className="col-lg-6 col-md-12 ">

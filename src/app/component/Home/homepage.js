@@ -83,9 +83,9 @@ const HomePage = () => {
 
 			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid ">
-					<h1 className="all-head text-center mb-5">
+					<h2 className="all-head text-center mb-5">
 						Feedback that inspires us to consistently be our best!
-					</h1>
+					</h2>
 					<div className="row">
 						<div className="col-xl-6 col-md-12 mb-5 mb-xl-0">
 							<div className="career-block h-100">
@@ -244,14 +244,14 @@ const HomePage = () => {
 
 			<div className="" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid py-5">
-					<h1 className="all-head mb-lg-5 mb-0 text-center">Get started with your idea today!</h1>
+					<h2 className="all-head mb-lg-5 mb-0 text-center">Get started with your idea today!</h2>
 					<section>
 						<div className="row  d-flex align-items-center">
 							<div className="col-lg-6 col-md-12  needsec p-4">
-								<h1>
+								<h2>
 									Are you looking for a global technology
 									leader to partner for your tech support?
-								</h1>
+								</h2>
 							</div>
 							<div className="col-lg-6 col-md-12 ">
 								<div className="need-block h-100">

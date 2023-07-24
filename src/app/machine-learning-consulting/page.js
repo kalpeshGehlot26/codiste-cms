@@ -19,10 +19,10 @@ const category = 56;
 const MLConsutling = () => {
   return (
     <div>
-  <script
-				type="application/ld+json"
-				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.MLConsult) }}
-			/>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.MLConsult) }}
+      />
       <div className="bg-color" data-aos="fade-up" data-aos-duration="3000">
         <div className="container container-fluid">
           <section>
@@ -46,9 +46,9 @@ const MLConsutling = () => {
       <div className="container container-fluid" data-aos="fade-up" data-aos-duration="3000">
         <section>
           <div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-            <h1 className="all-head text-center">
+            <h2 className="all-head text-center">
               Our Top-Most Machine Learning Consulting Services
-            </h1>
+            </h2>
             <p className="secondsec-p text-center p-4">We are the ML consulting service provider, combining the best technologies with the latest trends while delivering  a well-strategized set of Machine Learning development services that unlock business insights. </p>
           </div>
           <ServiceInnerItems serviceItems={MLConsult} />
@@ -58,9 +58,9 @@ const MLConsutling = () => {
       <div className="py-5 bg-color mt-5">
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-            <h1 className="all-head text-center">
+            <h2 className="all-head text-center">
               Why Choose Us As for Machine Learning Consultation?
-            </h1>
+            </h2>
             <p className="secondsec-p text-center">Codiste delivers Machine Learning Consulting combining clients’ requirements with the latest technologies.</p>
           </div>
           <div className='row g-4'>
@@ -166,9 +166,9 @@ const MLConsutling = () => {
       <div className="py-5 mt-5">
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-            <h1 className="all-head text-center">
+            <h2 className="all-head text-center">
               Our Machine Learning Consulting Approach
-            </h1>
+            </h2>
             <p className="secondsec-p text-center">We assist organizations in a seamless journey of utilizing AI-driven insights, from defining clear business goals to implementing and monitoring ML models.</p>
           </div>
 
@@ -269,7 +269,7 @@ const MLConsutling = () => {
         <div className="container container-fluid">
           <section>
             <div className=" d-flex align-items-center flex-column justify-content-center">
-              <h1 className="all-blog text-center">Technology Stack</h1>
+              <h2 className="all-blog text-center">Technology Stack</h2>
               <p className="all-p  text-center mb-4">
                 Our experienced team of engineers pack your Machine Learning Consulting with the best technologies ensuring that enable fault-free operations and be ready for transforming and scaling business.
               </p>
@@ -409,9 +409,9 @@ const MLConsutling = () => {
       <div className="py-5 bg-color mt-5" data-aos="fade-up" data-aos-duration="3000">
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-            <h1 className="all-head text-center">
+            <h2 className="all-head text-center">
               Our Engagement Models
-            </h1>
+            </h2>
           </div>
         </div>
         <div className="container cardcontainer">
@@ -456,7 +456,7 @@ const MLConsutling = () => {
       <div className="py-5" data-aos="fade-up" data-aos-duration="3000">
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-            <h1 className="all-head">FAQs</h1>
+            <h2 className="all-head">FAQs</h2>
           </div>
           <div
             className="accordion accordion-flush"
@@ -664,14 +664,14 @@ const MLConsutling = () => {
       <div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
         <div className="container container-fluid">
           <div className="d-flex align-items-center flex-column justify-content-center mb-5">
-            <h1 className="all-head">Case Study</h1>
+            <h2 className="all-head">Case Study</h2>
           </div>
           <div className="row d-flex align-items-center justify-content-between case-sec">
             <div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
               <div className=" ">
-                <h1 className="">
+                <h2 className="">
                   ML Estimation
-                </h1>
+                </h2>
                 <p className="all-p">
                   Streamline HVAC project bidding with ML estimation, automating drawing annotation and generating accurate bill of materials. Save time, differentiate yourself in the industry, and leverage innovative technology for detailed quantity take-offs.
                 </p>
@@ -702,7 +702,7 @@ const MLConsutling = () => {
 
       <div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
         <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-          <h1 className="all-blog">Blogs</h1>
+          <h2 className="all-blog">Blogs</h2>
           <p className="all-p text-center">
             Discover expert insights and helpful tips on emerging
             machine learning algorithms and technologies with our
@@ -719,9 +719,9 @@ const MLConsutling = () => {
         <div className="container container-fluid">
           <section>
             <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-              <h1 className="all-head text-center">
+              <h2 className="all-head text-center">
                 Satisfied clients is our proof of our excellence!
-              </h1>
+              </h2>
             </div>
             <div
               id="carouselExampleDark"
@@ -890,13 +890,13 @@ const MLConsutling = () => {
       </div>
 
       <div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
-        <h1 className="all-head text-center mb-lg-5 mb-0">Ask Us How?</h1>
+        <h2 className="all-head text-center mb-lg-5 mb-0">Ask Us How?</h2>
         <section>
           <div className="row  d-flex align-items-center">
             <div className="col-lg-6 col-md-12  needsec p-4">
-              <h1>
+              <h2>
                 Let us help to optimize, automate and modernize your business operations.
-              </h1>
+              </h2>
             </div>
             <div className="col-lg-6 col-md-12 ">
               <div className="need-block h-100">

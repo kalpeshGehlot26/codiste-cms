@@ -45,9 +45,9 @@ const MLDevelopmentCompany = () => {
 			<div className="container container-fluid" data-aos="fade-up" data-aos-duration="3000">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-						<h1 className="all-head">
+						<h2 className="all-head">
 							Our Machine Learning Development Services
-						</h1>
+						</h2>
 					</div>
 					<ServiceInnerItems serviceItems={MLList} />
 				</section>
@@ -56,10 +56,10 @@ const MLDevelopmentCompany = () => {
 			<div className="py-5 bg-color mt-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head text-center">
+						<h2 className="all-head text-center">
 							Why Should You Trust Codiste For Machine Learning
 							Development Services?
-						</h1>
+						</h2>
 					</div>
 
 					<div className="row">
@@ -194,7 +194,7 @@ const MLDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
-							<h1 className="all-blog text-center">Technology Stack</h1>
+							<h2 className="all-blog text-center">Technology Stack</h2>
 							<p className="all-p  text-center mb-4">
 								We pride ourselves on our proven track record
 								with 20+ technologies and delivering innovative,
@@ -284,7 +284,7 @@ const MLDevelopmentCompany = () => {
 			<div className="py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">FAQs</h1>
+						<h2 className="all-head">FAQs</h2>
 					</div>
 					<div
 						className="accordion accordion-flush"
@@ -507,14 +507,14 @@ const MLDevelopmentCompany = () => {
 			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
-						<h1 className="all-head">Case Study</h1>
+						<h2 className="all-head">Case Study</h2>
 					</div>
 					<div className="row d-flex align-items-center justify-content-between case-sec">
 						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
 							<div className=" ">
-								<h1 className="">
+								<h2 className="">
 									ML Estimation
-								</h1>
+								</h2>
 								<p className="all-p">
 									Streamline HVAC project bidding with ML estimation, automating drawing annotation and generating accurate bill of materials. Save time, differentiate yourself in the industry, and leverage innovative technology for detailed quantity take-offs.
 								</p>
@@ -545,7 +545,7 @@ const MLDevelopmentCompany = () => {
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-					<h1 className="all-blog">Blogs</h1>
+					<h2 className="all-blog">Blogs</h2>
 					<p className="all-p text-center">
 						Discover expert insights and helpful tips on emerging
 						machine learning algorithms and technologies with our
@@ -562,9 +562,9 @@ const MLDevelopmentCompany = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-							<h1 className="all-head text-center">
+							<h2 className="all-head text-center">
 								Satisfied clients is our proof of our excellence!
-							</h1>
+							</h2>
 						</div>
 						<div
 							id="carouselExampleDark"
@@ -733,13 +733,13 @@ const MLDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
-				<h1 className="all-head text-center mb-lg-5 mb-0">Request A Consultation!</h1>
+				<h2 className="all-head text-center mb-lg-5 mb-0">Request A Consultation!</h2>
 				<section>
 					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12  needsec p-4">
-							<h1>
+							<h2>
 								Streamline your Machine Learning operations by connecting with our dedicated tech support team today.
-							</h1>
+							</h2>
 						</div>
 						<div className="col-lg-6 col-md-12 ">
 							<div className="need-block h-100">
