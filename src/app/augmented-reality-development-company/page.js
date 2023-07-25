@@ -6,6 +6,7 @@ import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
 import ARVRList from "../data/services/service-items/ARVR";
 import jsonData from "../data/schema";
+import Head from "next/head";
 
 export const metadata = {
 	title: "AR & VR Development Company | Codiste",
@@ -19,6 +20,9 @@ const category = 55
 const ARVRDevelopmentCompany = () => {
 	return (
 		<div>
+			<Head>
+				<link rel="canonical" href="https://www.codiste.com/augmented-reality-development-company" />
+			</Head>
 			<script
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.ARVRService) }}

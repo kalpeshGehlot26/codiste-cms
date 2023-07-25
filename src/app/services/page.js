@@ -7,8 +7,10 @@ import Industries from "../component/service/industries";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import mainServiceList from "../data/services/mainServiceList";
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
 import Link from "next/link";
+import { DefaultSeo } from "next-seo";
+import Head from "next/head";
 
 const limit = 4;
 const category = "47,43,55,6,57";
@@ -16,13 +18,20 @@ const category = "47,43,55,6,57";
 const Services = () => {
 	const [serviceCount, setServiceCount] = useState(6);
 	const [totalServiceCount, setTotalServiceCount] = useState(null);
-
+	const defaultSEOConfig = {
+		title: "Leading Blockchain and AI Development Services Provider Company",
+		description: "Capitalize on the synergy of blockchain and AI development, as we provide tailored solutions for tokenization, decentralized data and AI-powered Solution.",
+	};
 	return (
 		<div>
-			<Helmet>
+			<DefaultSeo {...defaultSEOConfig} />
+			{/* <Helmet>
 				<title>Leading Blockchain and AI Development Services Provider Company</title>
 				<meta name="description" content="Capitalize on the synergy of blockchain and AI development, as we provide tailored solutions for tokenization, decentralized data and AI-powered Solution." />
-			</Helmet>
+			</Helmet> */}
+			<Head>
+				<link rel="canonical" href="https://www.codiste.com/services" />
+			</Head>
 			<div className="bg-color" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">
 					<section>

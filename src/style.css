@@ -664,25 +664,16 @@ ul.footer-icon li:hover svg path {
 
 /* ==== contact-form section ==== */
 .needsec h2 {
-   font-size: 35px;
-   font-weight: 300;
-   line-height: 50px;
-   letter-spacing: 0em;
-   text-align: left;
-   background: linear-gradient(90deg, #FF1F23 3.28%, #FD145A 97.2%);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-}
-
-.needsec h1 {
    font-size: 36px;
    font-weight: 300;
    letter-spacing: 0em;
+   line-height: 40px;
    text-align: left;
    background: #717173;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
+
 
 .needsec p {
    font-size: 18px;
@@ -2045,6 +2036,20 @@ ul.diwallet-stylee img:hover {
 .blog-Authorsection .elementor-widget-container p {
    margin-bottom: 0 !important;
 }
+.twitter-svg .elementor-widget-container .elementor-icon-wrapper .elementor-icon svg{
+   max-width:30px !important;
+   max-height: 30px !important;
+}
+.socialmedia-section .elementor-container {
+   display: flex !important;
+   border: none !important;
+   align-items: center;
+}
+.socialmedia-section .elementor-col-50 {
+   display: block !important;
+  width:60px;
+  margin-top: 10px;
+}
 
 /* ====== blog-css completed ===== */
 
@@ -2243,10 +2248,7 @@ ul.diwallet-stylee img:hover {
       font-size: calc(1rem + ((1vw - 3.2px) * 0.375));
    }
 
-   .needsec h2 {
-      font-size: calc(1.625rem + ((1vw - 3.2px) * 0.875));
-
-   }
+ 
 
    .need-block h2 {
       font-size: calc(1.25rem + ((1vw - 3.2px) * 0.625));
@@ -2349,9 +2351,16 @@ ul.diwallet-stylee img:hover {
       font-size: calc(1.375rem + ((1vw - 3.2px) * 0.125)) !important;
    }
 
-   .needsec h1 {
+   /* .needsec h1 {
+      font-size: calc(1.5rem + ((1vw - 7.68px) * 1.0417)) !important;
+   } */
+   .needsec h2 {
       font-size: calc(1.5rem + ((1vw - 7.68px) * 1.0417)) !important;
    }
+   /* .needsec h2 {
+      font-size: calc(1.625rem + ((1vw - 3.2px) * 0.875));
+
+   } */
 }
 
 /* === case-study ==== */
@@ -2435,6 +2444,7 @@ ul.diwallet-stylee img:hover {
       text-align: center;
       padding: 20px;
    }
+   
 }
 
 @media (max-width:768px) {

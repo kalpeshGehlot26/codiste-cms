@@ -24,6 +24,10 @@ const eventItems = [
         alt: "Life at Codiste"
     },
     {
+        url: "assets/images/career/codiste4.jpg",
+        alt: "Life at Codiste"
+    },
+    {
         url: "assets/images/career/staff3.png",
         alt: "Life at Codiste"
     },

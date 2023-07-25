@@ -6,6 +6,7 @@ import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
 import metaVerseList from "../data/services/service-items/metaverse";
 import jsonData from "../data/schema";
+import Head from "next/head";
 
 export const metadata = {
 	title: "Enterprise-Grade Metaverse Development Company | Codiste",
@@ -17,6 +18,9 @@ const limit = 3;
 const category = 6;
 
 const MetaverseDevelopmentCompany = () => {
+	<Head>
+		<link rel="canonical" href="https://www.codiste.com/metaverse-development-company" />
+	</Head>
 	return (
 		<div>
 			<script

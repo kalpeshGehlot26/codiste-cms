@@ -6,6 +6,7 @@ import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
 import blockChainList from "../data/services/service-items/blockChain";
 import jsonData from "../data/schema";
+import Head from "next/head";
 
 export const metadata = {
 	title: "Blockchain Development Company | Codiste",
@@ -19,6 +20,9 @@ const category = 47
 const BlockChainDevelopment = () => {
 	return (
 		<div>
+			<Head>
+				<link rel="canonical" href="https://www.codiste.com/blockchain-development-company" />
+			</Head>
 			<script
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.blockChainService) }}

@@ -6,6 +6,7 @@ import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
 import nftList from "../data/services/service-items/nft";
 import jsonData from "../data/schema";
+import Head from "next/head";
 
 export const metadata = {
 	title: "NFT  Development Company | Codiste",
@@ -19,6 +20,9 @@ const category = 57;
 const NFTDevelopment = () => {
 	return (
 		<div>
+			<Head>
+				<link rel="canonical" href="https://www.codiste.com/nft-development-company" />
+			</Head>
 			<script
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.nftService) }}
