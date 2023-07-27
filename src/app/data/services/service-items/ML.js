@@ -7,9 +7,9 @@ const MLList = [
 
     },
     {
-        title: "ML Training and Education",
-        description: "Our machine learning team offers ML training and education services designed to help your business understand required skills and knowledge on AI, ML, and other automation tools and techniques. We offer machine learning training and education sessions for businesses to utilize machine learning solutions effectively.",
-        // slug: "#"
+        title: "ML Model Development",
+        description: "At Codiste,",
+        slug: "machine-learning-model-development"
     },
     {
         title: "Computer Vision Development",
@@ -34,7 +34,12 @@ const MLList = [
     {
         title: "ML Development",
         description: "We provide machine learning development services encompassing the entire machine learning development lifecycle, from data preparation to model deployment. We work with various machine-learning tools and frameworks like TensorFlow, Scikit Learn, and Apache Spark to develop custom machine-learning models to help you eliminate repetitive tasks. We are equipped with a team of experts that can help you identify vital operational areas where machine learning algorithms can add the most value to modern learning models."
-    }
+    },
+    {
+        title: "ML Training and Education",
+        description: "Our machine learning team offers ML training and education services designed to help your business understand required skills and knowledge on AI, ML, and other automation tools and techniques. We offer machine learning training and education sessions for businesses to utilize machine learning solutions effectively.",
+        // slug: "#"
+    },
 ];
 
 export default MLList;

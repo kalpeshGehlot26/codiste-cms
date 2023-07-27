@@ -18,10 +18,11 @@ const limit = 3
 const category = 47
 
 const BlockChainDevelopment = () => {
+	const canonicalUrl = "https://www.codiste.com/blockchain-development-company";
 	return (
 		<div>
 			<Head>
-				<link rel="canonical" href="https://www.codiste.com/blockchain-development-company" />
+				<link rel="canonical" href={canonicalUrl} />
 			</Head>
 			<script
 				type="application/ld+json"

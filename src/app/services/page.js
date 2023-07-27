@@ -18,19 +18,17 @@ const category = "47,43,55,6,57";
 const Services = () => {
 	const [serviceCount, setServiceCount] = useState(6);
 	const [totalServiceCount, setTotalServiceCount] = useState(null);
-	const defaultSEOConfig = {
-		title: "Leading Blockchain and AI Development Services Provider Company",
-		description: "Capitalize on the synergy of blockchain and AI development, as we provide tailored solutions for tokenization, decentralized data and AI-powered Solution.",
-	};
+	const canonicalUrl = "https://www.codiste.com/services";
 	return (
 		<div>
-			<DefaultSeo {...defaultSEOConfig} />
+
 			{/* <Helmet>
 				<title>Leading Blockchain and AI Development Services Provider Company</title>
 				<meta name="description" content="Capitalize on the synergy of blockchain and AI development, as we provide tailored solutions for tokenization, decentralized data and AI-powered Solution." />
 			</Helmet> */}
 			<Head>
-				<link rel="canonical" href="https://www.codiste.com/services" />
+				<link rel="canonical" href={canonicalUrl} />
+				<meta name="Leading Blockchain and AI Development Services Provider Company" content="Capitalize on the synergy of blockchain and AI development, as we provide tailored solutions for tokenization, decentralized data and AI-powered Solution" />
 			</Head>
 			<div className="bg-color" data-aos="fade-up" data-aos-duration="3000">
 				<div className="container container-fluid">

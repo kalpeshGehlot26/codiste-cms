@@ -6,9 +6,10 @@ import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
 import ARVRList from "../data/services/service-items/ARVR";
 import jsonData from "../data/schema";
-import Head from "next/head";
+
 
 export const metadata = {
+	canonical: "https://www.codiste.com/augmented-reality-development-company",
 	title: "AR & VR Development Company | Codiste",
 	description:
 		"Using ARtoolkit, Google ARCore, Apple AR Kit, and Web3 apps, we deliver innovative and immersive virtual reality and AR development solutions for enterprises.",
@@ -20,9 +21,6 @@ const category = 55
 const ARVRDevelopmentCompany = () => {
 	return (
 		<div>
-			<Head>
-				<link rel="canonical" href="https://www.codiste.com/augmented-reality-development-company" />
-			</Head>
 			<script
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.ARVRService) }}
