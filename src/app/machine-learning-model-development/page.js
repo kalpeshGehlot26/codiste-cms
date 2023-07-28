@@ -6,8 +6,7 @@ import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
 import MLConsult from "../data/services/service-items/MLConsult";
 import jsonData from "../data/schema";
-import MLModelindus from "../component/service/MLModelindus";
-
+import MLindustries from "../component/service/MLindustries";
 
 // export const metadata = {
 //   title: "Machine Learning Consulting | Codiste",
@@ -61,7 +60,7 @@ const MLModelDevelopment = () => {
             <h2 className="all-head text-center">
               Why Choose Us For Your ML Model Development?
             </h2>
-            <p className="secondsec-p text-center">Codiste delivers Machine Learning Consulting combining clients’ requirements with the latest technologies.</p>
+            <p className="secondsec-p text-center">Choose Codiste as an expert ML model Development Company to develop a more accurate ML model.</p>
           </div>
           <div className='row g-4'>
             <div className='col-xl-4 col-md-6 col-sm-12' data-aos="fade-up" data-aos-duration="3000">
@@ -71,7 +70,7 @@ const MLModelDevelopment = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/Machine_inner/Faster Go-to-market.png"
+                    src="assets/images/Service-machine/ML_Model/Experience In ML Algorithm.png"
                   />
                 </div>
                 <h3 className="">Experience In ML Algorithm</h3>
@@ -87,7 +86,7 @@ const MLModelDevelopment = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/Machine_inner/Best Tech Stack Inclusion.png"
+                    src="assets/images/Service-machine/ML_Model/Quality of Data and Pre-processing.png"
                   />
                 </div>
 
@@ -103,13 +102,12 @@ const MLModelDevelopment = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/Machine_inner/Real-time updates.png"
+                    src="assets/images/Service-machine/ML_Model/End-to-End Development of Model.png"
                   />
                 </div>
 
                 <h3>End-to-End Development of Model</h3>
-                <p className="secondsec-p">We look after complete ML model engineering and ensure that we can also offer you the best end-to-end model development. It includes assessment of your system, integration, and follow-ups or the development of the model and its maintenance.
-                  From system assessment to data handling, integration, and infrastructure to model development and maintenance, we have the expertise to optimize Machine Learning development cycles that address your business problem and focus on key business areas to maximize ROI.
+                <p className="secondsec-p">From system assessment to data handling, integration, and infrastructure to model development and maintenance, we have the expertise to optimise Machine Learning development cycles that address your business problem and focus on key business areas to maximize ROI.
                 </p>
               </div>
             </div>
@@ -120,7 +118,7 @@ const MLModelDevelopment = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/Machine_inner/Security-first approach.png"
+                    src="assets/images/Service-machine/ML_Model/Optimization of Performance.png"
                   />
                 </div>
                 <h3>Optimization of Performance</h3>
@@ -136,7 +134,7 @@ const MLModelDevelopment = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/Machine_inner/Highly skilled team.png"
+                    src="assets/images/Service-machine/ML_Model/Evaluation Assessment.png"
                   />
                 </div>
 
@@ -152,7 +150,7 @@ const MLModelDevelopment = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/Machine_inner/Custom engagement models.png"
+                    src="assets/images/Service-machine/ML_Model/Customizations.png"
                   />
                 </div>
                 <h3>Customizations</h3>
@@ -402,7 +400,7 @@ const MLModelDevelopment = () => {
                 Being a trusted Machine Learning Consultant, we have worked with a wide range of sectors on a global scale and have been a part of their growth stories.
               </p>
             </div>
-            <MLModelindus />
+            <MLindustries />
           </section>
         </div>
       </div>
@@ -452,7 +450,6 @@ const MLModelDevelopment = () => {
           </div>
         </div>
       </div>
-
 
       <div className="py-5" data-aos="fade-up" data-aos-duration="3000">
         <div className="container container-fluid">
@@ -625,45 +622,21 @@ const MLModelDevelopment = () => {
               >
                 <div className="accordion-body">
                   Most of the ML model techniques can be classified into three main types, i.e.<br />
-
-                  The supervised learning model is trained on labelled data. It requires input-output pairs that include input data with corresponding labelled output data. Linear Regression, Neural Networks, SVM, Decision Trees, etc., are common supervised learning algorithms.<br />
-
-                  An unsupervised learning model is trained on unlabeled data, where the algorithm tries to search out structures or patterns in the input data without explicit output labels. Principal Component Analysis, K-Means Clustering, Hierarchical Clustering, etc., are common unsupervised learning algorithms.<br />
-
-                  The reinforcement Learning Model maximises a cumulative reward by including an agent learning to make decisions and act in an environment based on the feedback. Deep Q Networks (DQNs), Q-Learning, etc., are well-known reinforcement learning algorithms.<br />
-
-                  Other than the above mentioned, Transfer Learning Models, Generative Models, Ensemble Learning Models, and Instance-based Learning Models are some less popular machine learning models.<br />
-
+                  <ul>
+                    <li>
+                      The supervised learning model is trained on labelled data. It requires input-output pairs that include input data with corresponding labelled output data. Linear Regression, Neural Networks, SVM, Decision Trees, etc., are common supervised learning algorithms.
+                    </li>
+                    <li> An unsupervised learning model is trained on unlabeled data, where the algorithm tries to search out structures or patterns in the input data without explicit output labels. Principal Component Analysis, K-Means Clustering, Hierarchical Clustering, etc., are common unsupervised learning algorithms.
+                    </li>
+                    <li>
+                      The reinforcement Learning Model maximises a cumulative reward by including an agent learning to make decisions and act in an environment based on the feedback. Deep Q Networks (DQNs), Q-Learning, etc., are well-known reinforcement learning algorithms.
+                    </li>
+                  </ul>
+                  Other than the above mentioned, Transfer Learning Models, Generative Models, Ensemble Learning Models, and Instance-based Learning Models are some less popular machine learning models.
                 </div>
               </div>
             </div>
-            <div className="accordion-item">
-              <h2
-                className="accordion-header"
-                id="flush-headingseven"
-              >
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseseven"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseseven"
-                >
-                  Why is machine learning consulting required ?
-                </button>
-              </h2>
-              <div
-                id="flush-collapseseven"
-                className="accordion-collapse collapse"
-                aria-labelledby="flush-headingseven"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div className="accordion-body">
-                  Machine learning is an emerging technology, and ML consulting helps businesses with technical guidance on historical, labeled data, and helps them to predict the value of targeted value and classification. Further, it also helps them to enhance productivity by searching for valuable insights from the company’s database. We at Codiste offer Machine Learning consulting services that optimize their business operation, improve profitability, and drive innovation and growth.
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
@@ -897,12 +870,12 @@ const MLModelDevelopment = () => {
       </div>
 
       <div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
-        <h2 className="all-head text-center mb-lg-5 mb-0">Ask Us How?</h2>
+        <h2 className="all-head text-center mb-lg-5 mb-0">Reach out to ML Engineers Now!</h2>
         <section>
           <div className="row  d-flex align-items-center">
             <div className="col-lg-6 col-md-12  needsec p-4">
               <h2>
-                Let us help to optimize, automate and modernize your business operations.
+                Looking to Augment Your Businesses with Our Domain Expertise?
               </h2>
             </div>
             <div className="col-lg-6 col-md-12 ">
