@@ -165,15 +165,14 @@ const CaseStudyForm = ({ text }) => {
 					placeholder="Choose file"
 					onChange={onFileUpload}
 					accept=".doc,.docx,.ppt,.txt,.pdf"
-					style={{color: "#000"}}
+					style={{ color: "#000" }}
 				/>
-				<button className="book-btn" type="submit" disabled={isLoading}>
-					{isLoading ? <div class="spinner-border text-white" role="status">
+				<button className="book-btn d-flex align-items-center" type="submit" disabled={isLoading}>
+					{isLoading ? <div class="spinner-border text-white  me-3" role="status">
 						<span class="sr-only"></span>
 					</div> : null}
 					{text}
 				</button>
-				
 				{success ? (
 					<div
 						className="alert alert-success d-flex align-items-center mt-4"
