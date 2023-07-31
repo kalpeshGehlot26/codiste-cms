@@ -3,14 +3,44 @@ import { usePathname } from "next/navigation";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import React, { useEffect, useState } from "react";
 import { getPostBySlug } from "../lib/lib";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 import moment from "moment";
+import { TwitterShareButton, WhatsappShareButton } from "react-share";
+
+const wordCounter = (input) => {
+	const text = input.split(/\s+/);
+	let wordCount = 0;
+	for (let i = 0; i < text.length; i++) {
+		if (text[i] !== " " && isWord(text[i])) {
+			wordCount++;
+		}
+	}
+	return wordCount;
+};
+
+const isWord = (str) => {
+	let alphaNumericFound = false;
+	for (let i = 0; i < str.length; i++) {
+		const code = str.charCodeAt(i);
+		if (
+			(code > 47 && code < 58) || // numeric (0-9)
+			(code > 64 && code < 91) || // upper alpha (A-Z)
+			(code > 96 && code < 123)
+		) {
+			// lower alpha (a-z)
+			alphaNumericFound = true;
+			return alphaNumericFound;
+		}
+	}
+	return alphaNumericFound;
+};
 
 const BlogContent = () => {
 	const pathname = usePathname();
 	const pathUrl = pathname.split("/");
 	const [post, setPost] = useState(null);
 
+	const wordsPerMinute = 225;
 	useEffect(() => {
 		if (pathUrl) {
 			const slug = pathUrl[1];
@@ -35,15 +65,19 @@ const BlogContent = () => {
 		);
 	}
 
-	const image = post._embedded["wp:featuredmedia"]["0"].source_url;
+	const image = post._embedded["wp:featuredmedia"]["0"]?.source_url;
 	return (
 		<div className="">
 			<Helmet>
-				<title>{post?.yoast_head_json.og_title}</title>
-				<meta name="description" content={post?.yoast_head_json.og_description} />
+				<title>{post?.yoast_head_json?.og_title}</title>
+				<meta
+					name="description"
+					content={post?.yoast_head_json?.og_description}
+				/>
+				<meta property="og:image" content={post?.yoast_head_json?.og_image[0]?.url} />
 			</Helmet>
 			<div className="blog-title text-center container mx-auto blog-container-width">
-				<h1 style={{ zIndex: "-1" }}>{post.title.rendered}</h1>
+				<h1 style={{ zIndex: "-1" }}>{post?.title?.rendered}</h1>
 				<div className="mb-3">
 					<div className=" d-flex align-items-center justify-content-center">
 						<div className="blog-icon d-flex align-items-center justify-content-center me-4">
@@ -60,7 +94,7 @@ const BlogContent = () => {
 									fill="black"
 								/>
 							</svg>
-							{moment(post.date).format("MMMM DD, YYYY")}
+							{moment(post?.date).format("MMMM DD, YYYY")}
 						</div>
 						<div className="blog-icon d-flex align-items-center justify-content-center me-4">
 							<span>
@@ -77,8 +111,38 @@ const BlogContent = () => {
 										fill="black"
 									/>
 								</svg>{" "}
-								{post._embedded["wp:term"][0][0].name}
+								{post._embedded["wp:term"][0][0]?.name}
 							</span>
+						</div>
+						<div className="blog-icon d-flex align-items-center justify-content-center me-4">
+							<span>
+								<svg
+									width="20"
+									height="20"
+									viewBox="0 0 20 20"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M9.99 0C4.47 0 0 4.48 0 10C0 15.52 4.47 20 9.99 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 9.99 0ZM10 18C5.58 18 2 14.42 2 10C2 5.58 5.58 2 10 2C14.42 2 18 5.58 18 10C18 14.42 14.42 18 10 18Z"
+										fill="black"
+									/>
+									<path
+										d="M10.5 5H9V11L14.25 14.15L15 12.92L10.5 10.25V5Z"
+										fill="black"
+									/>
+								</svg>{" "}
+								{`${Math.ceil(wordCounter(post?.content?.rendered) / wordsPerMinute)} min read`}
+								{/* {post?.yoast_head_json?.twitter_misc?.Est. reading time} */}
+							</span>
+						</div>
+						<div className="blog-icon d-flex align-items-center justify-content-center me-4">
+							{/* <WhatsappShareButton url="https://www.codiste.com/spatial-computing-glasses-artificial-intelligence">
+								Whatsap	
+							</WhatsappShareButton> */}
+							{/* <TwitterShareButton url="https://www.codiste.com/spatial-computing-glasses-artificial-intelligence">
+								Twitter
+							</TwitterShareButton> */}
 						</div>
 					</div>
 				</div>
@@ -103,10 +167,15 @@ const BlogContent = () => {
 			<div className="bg-color py-5 mt-5">
 				<div className="container container-fluid ">
 					<section>
-						<div className="all-head text-center mb-lg-5 mb-0">Stuck with your idea?</div>
+						<div className="all-head text-center mb-lg-5 mb-0">
+							Stuck with your idea?
+						</div>
 						<div className="row  d-flex align-items-center">
 							<div className="col-lg-6 col-md-12 mb-lg-0 needsec p-4">
-								<h2>Connect with our experts with this lead form and bring your tech idea to reality.</h2>
+								<h2>
+									Connect with our experts with this lead form
+									and bring your tech idea to reality.
+								</h2>
 							</div>
 							<div className="col-lg-6 col-md-12 ">
 								<div className="need-block h-100">
