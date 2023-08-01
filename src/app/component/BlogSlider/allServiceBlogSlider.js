@@ -22,7 +22,7 @@ const AllServiceBlogSlider = ({ limit, category }) => {
     }, [limit, category]);
     return (
         <Splide
-            data-aos="fade-up" data-aos-duration="3000"
+            // data-aos="fade-up" data-aos-duration="3000"
             hasTrack={false}
             options={{
                 type: 'loop',
@@ -57,7 +57,9 @@ const AllServiceBlogSlider = ({ limit, category }) => {
                             const image = "/assets/images/default-blog-image.png";
                             return (
                                 <SplideSlide className="splide__slide p-2" key={index}>
-                                    <div className="position-relative bloghight-set" data-aos="fade-up" data-aos-duration="3000">
+                                    <div className="position-relative bloghight-set" 
+                                        // data-aos="fade-up" data-aos-duration="3000"
+                                        >
                                         <img className="img-fluid rounded p-0"
                                             alt={post.title.rendered}
                                             src={post._embedded["wp:featuredmedia"]?.["0"].code ? image : post._embedded["wp:featuredmedia"]?.["0"]?.source_url}

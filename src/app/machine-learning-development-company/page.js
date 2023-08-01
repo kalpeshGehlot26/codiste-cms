@@ -23,7 +23,7 @@ const MLDevelopmentCompany = () => {
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.MLService) }}
 			/>
-			<div className="bg-color" data-aos="fade-up" data-aos-duration="3000">
+			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec ">
@@ -42,7 +42,7 @@ const MLDevelopmentCompany = () => {
 			</div>
 			<ClientSlider />
 
-			<div className="container container-fluid" data-aos="fade-up" data-aos-duration="3000">
+			<div className="container container-fluid">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h2 className="all-head">
@@ -53,7 +53,7 @@ const MLDevelopmentCompany = () => {
 				</section>
 			</div>
 
-			<div className="py-5 bg-color mt-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="py-5 bg-color mt-5">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h2 className="all-head text-center">
@@ -63,7 +63,7 @@ const MLDevelopmentCompany = () => {
 					</div>
 
 					<div className="row">
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1" data-aos="fade-up" data-aos-duration="3000">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
 								loading="lazy"
@@ -82,7 +82,7 @@ const MLDevelopmentCompany = () => {
 								effective solution.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2" data-aos="fade-up" data-aos-duration="3000">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
 								loading="lazy"
@@ -100,7 +100,7 @@ const MLDevelopmentCompany = () => {
 								efficiency and better productivity.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3" data-aos="fade-up" data-aos-duration="3000">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
 								loading="lazy"
@@ -119,7 +119,7 @@ const MLDevelopmentCompany = () => {
 								practices.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4" data-aos="fade-up" data-aos-duration="3000">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
 							<img
 								className="img-fluid mb-2"
 								loading="lazy"
@@ -137,7 +137,7 @@ const MLDevelopmentCompany = () => {
 								applications.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5" data-aos="fade-up" data-aos-duration="3000">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
 								loading="lazy"
@@ -156,7 +156,7 @@ const MLDevelopmentCompany = () => {
 								objectives.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5" data-aos="fade-up" data-aos-duration="3000">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5">
 							<img
 								className="img-fluid mb-2"
 								loading="lazy"
@@ -178,7 +178,7 @@ const MLDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="blackdiv px-3" data-aos="fade-up" data-aos-duration="3000">
+			<div className="blackdiv px-3">
 				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>
 						Let's meet our ML experts virtually and Explore
@@ -190,7 +190,7 @@ const MLDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -201,7 +201,7 @@ const MLDevelopmentCompany = () => {
 								customized IT solutions.
 							</p>
 						</div>
-						<div className="row" data-aos="fade-up" data-aos-duration="3000">
+						<div className="row">
 							<div className="col-lg-12">
 								<ul className="tech-style">
 									<li>
@@ -281,7 +281,7 @@ const MLDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="py-5">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h2 className="all-head">FAQs</h2>
@@ -504,7 +504,7 @@ const MLDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
+			<div className="py-5 bg-color">
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h2 className="all-head">Case Study</h2>
@@ -543,7 +543,7 @@ const MLDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h2 className="all-blog">Blogs</h2>
 					<p className="all-p text-center">
@@ -558,7 +558,7 @@ const MLDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -732,7 +732,7 @@ const MLDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="container container-fluid py-5">
 				<h2 className="all-head text-center mb-lg-5 mb-0">Request A Consultation!</h2>
 				<section>
 					<div className="row  d-flex align-items-center">

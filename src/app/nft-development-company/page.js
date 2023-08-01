@@ -27,7 +27,7 @@ const NFTDevelopment = () => {
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.nftService) }}
 			/>
-			<div className="bg-color" data-aos="fade-up" data-aos-duration="3000">
+			<div className="bg-color" >
 				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec ">
@@ -46,7 +46,7 @@ const NFTDevelopment = () => {
 			</div>
 			<ClientSlider />
 
-			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="container container-fluid py-5" >
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h2 className="all-head text-center">
@@ -57,7 +57,7 @@ const NFTDevelopment = () => {
 				</section>
 			</div>
 
-			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
+			<div className="py-5 bg-color" >
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h2 className="all-head text-center">
@@ -65,7 +65,7 @@ const NFTDevelopment = () => {
 						</h2>
 					</div>
 					<div className="row">
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1" data-aos="fade-up" data-aos-duration="3000">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1" >
 							<img
 								className="img-fluid mb-2"
 								alt="Customizable Marketplaces"
@@ -85,7 +85,7 @@ const NFTDevelopment = () => {
 								domain names, and gaming.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2" data-aos="fade-up" data-aos-duration="3000">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2" >
 							<img
 								className="img-fluid mb-2"
 								alt="Immutable Security"
@@ -104,7 +104,7 @@ const NFTDevelopment = () => {
 								experience and data management.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3" data-aos="fade-up" data-aos-duration="3000">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3" >
 							<img
 								className="img-fluid mb-2"
 								alt="Tokenization"
@@ -123,7 +123,7 @@ const NFTDevelopment = () => {
 								creators, investors, and collectors.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4" data-aos="fade-up" data-aos-duration="3000">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4" >
 							<img
 								className="img-fluid mb-2"
 								alt="Metaverse Integration"
@@ -142,7 +142,7 @@ const NFTDevelopment = () => {
 								metaverse.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5" data-aos="fade-up" data-aos-duration="3000">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5" >
 							<img
 								className="img-fluid mb-2"
 								alt="Decentralized Ecosystem"
@@ -160,7 +160,7 @@ const NFTDevelopment = () => {
 								blockchain.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5" data-aos="fade-up" data-aos-duration="3000">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5" >
 							<img
 								className="img-fluid mb-2"
 								alt="Digitized Assets"
@@ -182,7 +182,7 @@ const NFTDevelopment = () => {
 				</div>
 			</div>
 
-			<div className="blackdiv px-3" data-aos="fade-up" data-aos-duration="3000">
+			<div className="blackdiv px-3" >
 				<div className=" container container-fluid d-flex align-items-center justify-content-between flex-wrap py-3">
 					<p>Help us know your project better! </p>
 					<Link href="/book-a-call" className="book-btn">
@@ -191,7 +191,7 @@ const NFTDevelopment = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="bg-color py-5" >
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -202,7 +202,7 @@ const NFTDevelopment = () => {
 								customized IT solutions.
 							</p>
 						</div>
-						<div className="row" data-aos="fade-up" data-aos-duration="3000">
+						<div className="row" >
 							<div className="col-lg-12">
 								<ul className="tech-style">
 									<li>
@@ -261,7 +261,7 @@ const NFTDevelopment = () => {
 				</div>
 			</div>
 
-			<div className="py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="py-5" >
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h2 className="all-head">FAQs</h2>
@@ -415,7 +415,7 @@ const NFTDevelopment = () => {
 				</div>
 			</div>
 
-			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
+			<div className="py-5 bg-color" >
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h2 className="all-head">Case Study</h2>
@@ -464,7 +464,7 @@ const NFTDevelopment = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="container container-fluid py-5" >
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h2 className="all-blog">Blogs</h2>
 					<p className="all-p text-center">
@@ -478,7 +478,7 @@ const NFTDevelopment = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="bg-color py-5" >
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -656,7 +656,7 @@ const NFTDevelopment = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="container container-fluid py-5" >
 				<h2 className="all-head text-center mb-lg-5 mb-0">Want to make your move in NFTs?</h2>
 				<section>
 					<div className="row  d-flex align-items-center">

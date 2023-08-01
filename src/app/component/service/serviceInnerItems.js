@@ -24,11 +24,11 @@ const ServiceInnerItems = ({ serviceItems }) => {
 								key={index}
 								href={`/${service.slug}`}
 							>
-								<div className="service-block p-4 h-100" data-aos="fade-up" data-aos-duration="2000">
-									<h2 className="secondsec-head" data-aos="fade-up" data-aos-duration="2000">
+								<div className="service-block p-4 h-100">
+									<h2 className="secondsec-head">
 										{service.title}
 									</h2>
-									<p className="secondsec-p" data-aos="fade-up" data-aos-duration="2000">
+									<p className="secondsec-p">
 										{service.description}
 									</p>
 								</div>
@@ -42,11 +42,11 @@ const ServiceInnerItems = ({ serviceItems }) => {
 							className=" col-xl-4 col-md-6 col-sm-12 pb-3 "
 							key={index}
 						>
-							<div className="service-block p-4 h-100" data-aos="fade-up" data-aos-duration="2000">
-								<h2 className="secondsec-head" data-aos="fade-up" data-aos-duration="2000">
+							<div className="service-block p-4 h-100">
+								<h2 className="secondsec-head">
 									{service.title}
 								</h2>
-								<p className="secondsec-p" data-aos="fade-up" data-aos-duration="2000">
+								<p className="secondsec-p">
 									{service.description}
 								</p>
 							</div>

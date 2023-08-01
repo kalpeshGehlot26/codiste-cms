@@ -566,8 +566,6 @@ const jsonData = {
 			},
 		],
 	},
-
-
 	MLConsult: {
 		"@context": "https://schema.org",
 		"@type": "FAQPage",
@@ -695,6 +693,46 @@ const jsonData = {
 			name: "Codiste Pvt Ltd",
 		},
 	},
+	MLModelDevelop: {
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [{
+		  "@type": "Question",
+		  "name": "What is an ML Model?",
+		  "acceptedAnswer": {
+			"@type": "Answer",
+			"text": "ML Model or Machine Learning model is a computational algorithm that, by learning the pattern and deciphering the connection between data, aids in making decisions without any explicit programming rules. Using the acquired knowledge, it generalizes and performs tasks on either new data or old ones. It is the root of many kinds of applications namely image recognition, natural language processing, and recommendation engine, among others."
+		  }
+		},{
+		  "@type": "Question",
+		  "name": "How to train an ML model?",
+		  "acceptedAnswer": {
+			"@type": "Answer",
+			"text": "Training the ML model infers that one will teach the model to recognize patterns or algorithms and then generate predictions based on that. Training an ML model is difficult and is usually a professional's work. It includes many steps, like collecting and preprocessing, and splitting the data with their weight. Then comes training the model and adding a hyperparameter. Finally, you can focus on model evaluation as well as optimization. Once you have completely trained the ML model, it is time to deploy the model into your system."
+		  }
+		},{
+		  "@type": "Question",
+		  "name": "How to evaluate ML model performance?",
+		  "acceptedAnswer": {
+			"@type": "Answer",
+			"text": "ML model performance can be evaluated through various techniques like Receiver Operating Characteristic (ROC) Curve, Train-Test Split, Confusion Matrix, Precision-Recall (PR) Curve, R2 Score,  K-Fold Cross Validation, and many more. This will depend on the use case and what we are trying to achieve."
+		  }
+		},{
+		  "@type": "Question",
+		  "name": "What is a classification model in machine learning?",
+		  "acceptedAnswer": {
+			"@type": "Answer",
+			"text": "The classification model in machine learning is a type of supervised learning model. It can help you to infer the categorical class or even label the features of the inputs. A classification model ensures that you can learn from the data that has been labeled. The major focus of a model like the classification model in machine learning is to make any predictions concerning new and unseen data."
+		  }
+		},{
+		  "@type": "Question",
+		  "name": "What are the types of ML Models?",
+		  "acceptedAnswer": {
+			"@type": "Answer",
+			"text": "Linear Regression, Neural Networks, SVM, Decision Trees, etc., are common supervised learning algorithms.Most of the ML model techniques can be classified into three main types, i.e. The supervised learning model is trained on labelled data. It requires input-output pairs that include input data with corresponding labelled output data. Linear Regression, Neural Networks, SVM, Decision Trees, etc., are common supervised learning algorithms. An unsupervised learning model is trained on unlabeled data, where the algorithm tries to search out structures or patterns in the input data without explicit output labels. Principal Component Analysis, K-Means Clustering, Hierarchical Clustering, etc., are common unsupervised learning algorithms. The reinforcement Learning Model maximises a cumulative reward by including an agent learning to make decisions and act in an environment based on the feedback. Deep Q Networks (DQNs), Q-Learning, etc., are well-known reinforcement learning algorithms. Other than the above mentioned, Transfer Learning Models, Generative Models, Ensemble Learning Models, and Instance-based Learning Models are some less popular machine learning models."
+		  }
+		}]
+	}
 };
 
 export default jsonData;

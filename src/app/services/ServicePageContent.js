@@ -24,7 +24,7 @@ const ServicePageContent = () => {
 			<Head>
 				<link rel="canonical" href={canonicalUrl} />
 			</Head>
-			<div className="bg-color" data-aos="fade-up" data-aos-duration="3000">
+			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec ">
@@ -76,7 +76,7 @@ const ServicePageContent = () => {
 				</section>
 			</div>
 
-			<div className="container-fluid p-0" data-aos="fade-up" data-aos-duration="3000">
+			<div className="container-fluid p-0">
 				<section>
 					<div className="blacksec">
 						<h2>Why Codiste?</h2>
@@ -100,7 +100,7 @@ const ServicePageContent = () => {
 				</section>
 			</div>
 
-			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -111,7 +111,7 @@ const ServicePageContent = () => {
 								customized IT solutions.
 							</p>
 						</div>
-						<div className="row" data-aos="fade-up" data-aos-duration="3000">
+						<div className="row">
 							<div className="col-lg-12">
 								<TechStack />
 							</div>
@@ -120,7 +120,7 @@ const ServicePageContent = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="container container-fluid py-5">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h2 className="all-head">Industries We Serve</h2>
@@ -144,7 +144,7 @@ const ServicePageContent = () => {
 						</div>
 
 						<div className="row" >
-							<div data-aos="fade-up" data-aos-duration="3000" className="col-xl-4 col-md-6 col-sm-12 pb-3">
+							<div className="col-xl-4 col-md-6 col-sm-12 pb-3">
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
@@ -165,7 +165,7 @@ const ServicePageContent = () => {
 									</p>
 								</div>
 							</div>
-							<div data-aos="fade-up" data-aos-duration="3000" className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
+							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
@@ -186,7 +186,7 @@ const ServicePageContent = () => {
 									</p>
 								</div>
 							</div>
-							<div data-aos="fade-up" data-aos-duration="3000" className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
+							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
@@ -207,7 +207,7 @@ const ServicePageContent = () => {
 									</p>
 								</div>
 							</div>
-							<div data-aos="fade-up" data-aos-duration="3000" className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
+							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
@@ -229,7 +229,7 @@ const ServicePageContent = () => {
 									</p>
 								</div>
 							</div>
-							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 " data-aos="fade-up" data-aos-duration="3000">
+							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
@@ -250,7 +250,7 @@ const ServicePageContent = () => {
 									</p>
 								</div>
 							</div>
-							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 " data-aos="fade-up" data-aos-duration="3000">
+							<div className="col-xl-4 col-md-6 col-sm-12 pb-3 ">
 								<div className="Exp-block h-100">
 									<img
 										className="mb-3"
@@ -277,7 +277,7 @@ const ServicePageContent = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h2 className="all-head text-center">Our Proven Development Cycle </h2>
 					<p className="all-p  text-center">
@@ -286,7 +286,7 @@ const ServicePageContent = () => {
 					</p>
 				</div>
 
-				<div className="row g-4" data-aos="fade-up" data-aos-duration="3000">
+				<div className="row g-4">
 					<div className="col-xl-4 col-md-6 col-sm-12 pb-3 position-relative">
 						<div className="process-block process-block1 h-100">
 							<div className="process-circle process-circle1">
@@ -377,7 +377,7 @@ const ServicePageContent = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="bg-color py-5">
 				<div className="container container-fluid ">
 					<div className="text-center">
 						<h2 className="all-head mb-5">
@@ -385,7 +385,7 @@ const ServicePageContent = () => {
 							Codiste
 						</h2>
 					</div>
-					<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
+					<div className="container container-fluid py-5">
 						<div className="row g-5">
 							<div className="col-lg-4 col-md-6 col-sm-12">
 								<div className="casediwallet-block ">
@@ -453,7 +453,7 @@ const ServicePageContent = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h2 className="all-blog">Blogs</h2>
 					<p className="all-p text-center">
@@ -466,7 +466,7 @@ const ServicePageContent = () => {
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
 			</div>
-			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -649,7 +649,7 @@ const ServicePageContent = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="container container-fluid py-5">
 				<h2 className="all-blog text-center mb-lg-5 mb-0">Getting in touch with Us!</h2>
 				<section>
 					<div className="row  d-flex align-items-center">

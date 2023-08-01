@@ -23,7 +23,7 @@ const AIDevelopmentCompany = () => {
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.AIService) }}
 			/>
-			<div className="bg-color" data-aos="fade-up" data-aos-duration="2000">
+			<div className="bg-color">
 				<div className="container container-fluid">
 					<section >
 						<div className="row firstsec ">
@@ -44,7 +44,7 @@ const AIDevelopmentCompany = () => {
 			</div>
 			<ClientSlider />
 
-			<div className="container container-fluid" data-aos="fade-up" data-aos-duration="2000">
+			<div className="container container-fluid">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h2 className="all-head">Our Artificial Intelligence Development Services</h2>
@@ -63,7 +63,7 @@ const AIDevelopmentCompany = () => {
 					</div>
 
 					<div className="row">
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1" data-aos="fade-up" data-aos-duration="2000">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
 								loading="lazy"
@@ -81,7 +81,7 @@ const AIDevelopmentCompany = () => {
 								Learning, and Natural Language Processing.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2" data-aos="fade-up" data-aos-duration="2000">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
 								loading="lazy"
@@ -95,7 +95,7 @@ const AIDevelopmentCompany = () => {
 								We provide tailored AI development services that analyze project requirements and utilize modern technologies like reinforcement learning and GPT models. Our solutions integrate AI with existing systems for streamlined workflows.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3" data-aos="fade-up" data-aos-duration="2000">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
 								loading="lazy"
@@ -109,7 +109,7 @@ const AIDevelopmentCompany = () => {
 								Our agile development process delivers high-quality AI solutions on time and within budget. We use project management tools for effective collaboration and offer product customization to adapt to changing requirements efficiently.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4" data-aos="fade-up" data-aos-duration="2000">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
 							<img
 								className="img-fluid mb-2"
 								loading="lazy"
@@ -129,7 +129,7 @@ const AIDevelopmentCompany = () => {
 								random forests.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5" data-aos="fade-up" data-aos-duration="2000">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
 								loading="lazy"
@@ -143,7 +143,7 @@ const AIDevelopmentCompany = () => {
 								Our AI systems prioritize data security and privacy. We employ expert security professionals and adhere to industry standards like GDPR and HIPAA. Measures include encryption, multi-factor authentication, and access controls to protect sensitive information.
 							</p>
 						</div>
-						<div className="col-12 col-md-6 col-lg-4 text-center p-5 " data-aos="fade-up" data-aos-duration="2000">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 ">
 							<img
 								className="img-fluid mb-2"
 								loading="lazy"
@@ -165,7 +165,7 @@ const AIDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="blackdiv px-3" data-aos="fade-up" data-aos-duration="2000">
+			<div className="blackdiv px-3">
 				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>
 						Hire an AI developer now
@@ -179,7 +179,7 @@ const AIDevelopmentCompany = () => {
 			<div className="bg-color py-5" >
 				<div className="container container-fluid">
 					<section>
-						<div className=" d-flex align-items-center flex-column justify-content-center" data-aos="fade-up" data-aos-duration="2000">
+						<div className=" d-flex align-items-center flex-column justify-content-center">
 							<h2 className="all-head">Technologies We Offer </h2>
 							<p className="all-p  text-center">
 								We offer you to choose from a wide range of
@@ -188,7 +188,7 @@ const AIDevelopmentCompany = () => {
 						</div>
 						<div className="row">
 							<div className="col-lg-12">
-								<ul className="tech-style" data-aos="fade-up" data-aos-duration="2000">
+								<ul className="tech-style">
 									<li>
 										<img
 											className="img-fluid" loading="lazy" alt="Apache_Spark_"
@@ -274,13 +274,13 @@ const AIDevelopmentCompany = () => {
 
 			<div className="py-5">
 				<div className="container container-fluid">
-					<div className=" d-flex align-items-center flex-column justify-content-center mb-5" data-aos="fade-up" data-aos-duration="2000">
+					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 						<h2 className="all-head">FAQs</h2>
 					</div>
 					<div
 						className="accordion accordion-flush"
 						id="accordionFlushExample"
-						data-aos="fade-up" data-aos-duration="2000"
+					
 					>
 						<div className="accordion-item">
 							<h2
@@ -466,7 +466,7 @@ const AIDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="2000">
+			<div className="py-5 bg-color">
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h2 className="all-head">Case Study</h2>
@@ -516,7 +516,7 @@ const AIDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
+			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h2 className="all-blog">Blogs</h2>
 					<p className="all-p text-center">
@@ -530,7 +530,7 @@ const AIDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="2000">
+			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -718,12 +718,12 @@ const AIDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
+			<div className="container container-fluid py-5">
 				<h2 className="all-head text-center mb-lg-5 mb-0">
 					Get started with AI Now!
 				</h2>
 				<section>
-					<div className="row  d-flex align-items-center" data-aos="fade-up" data-aos-duration="2000">
+					<div className="row  d-flex align-items-center">
 						<div className="col-lg-6 col-md-12 p-4 mb-lg-0 needsec">
 							<h2>
 								Reach out to us with your problems!<br /> Our team

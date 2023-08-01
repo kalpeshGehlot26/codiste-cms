@@ -21,7 +21,7 @@ const StartupDevelopmentCompany = () => {
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.startupService) }}
 			/>
-			<div className="bg-color" data-aos="fade-up" data-aos-duration="3000">
+			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec ">
@@ -40,7 +40,7 @@ const StartupDevelopmentCompany = () => {
 			</div>
 			<ClientSlider />
 
-			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="container container-fluid py-5">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h2 className="all-head text-center">
@@ -103,7 +103,7 @@ const StartupDevelopmentCompany = () => {
 						</h2>
 					</div>
 					<div className="row">
-						<div className="col-12 col-md-6 text-center p-5 Crosssec-1" data-aos="fade-up" data-aos-duration="3000">
+						<div className="col-12 col-md-6 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
 								alt="Cost Efficient Development"
@@ -123,7 +123,7 @@ const StartupDevelopmentCompany = () => {
 								business quickly.
 							</p>
 						</div>
-						<div className="col-12  col-md-6  text-center p-5 Crosssec-6" data-aos="fade-up" data-aos-duration="3000">
+						<div className="col-12  col-md-6  text-center p-5 Crosssec-6">
 							<img
 								className="img-fluid mb-2"
 								alt="Immersive Experience Integration"
@@ -143,7 +143,7 @@ const StartupDevelopmentCompany = () => {
 								experiences.
 							</p>
 						</div>
-						<div className="col-12  col-md-6 text-center p-5 Crosssec-5" data-aos="fade-up" data-aos-duration="3000">
+						<div className="col-12  col-md-6 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
 								alt="Blockchain Solutions"
@@ -163,7 +163,7 @@ const StartupDevelopmentCompany = () => {
 								your industry.
 							</p>
 						</div>
-						<div className="col-12  col-md-6  text-center p-5" data-aos="fade-up" data-aos-duration="3000">
+						<div className="col-12  col-md-6  text-center p-5">
 							<img
 								className="img-fluid mb-2"
 								alt="Tech & Dev Hub"
@@ -187,7 +187,7 @@ const StartupDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="blackdiv px-3" data-aos="fade-up" data-aos-duration="3000">
+			<div className="blackdiv px-3">
 				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>Let’s build your dream business together! </p>
 					<Link href="/contact" className="book-btn">
@@ -197,15 +197,15 @@ const StartupDevelopmentCompany = () => {
 			</div>
 
 			<div className="container container-fluid py-5 ulnodisc" >
-				<h2 className="all-head text-center" data-aos="fade-up" data-aos-duration="3000">
+				<h2 className="all-head text-center">
 					Startup Development Idea Process
 				</h2>
-				<p className="secondsec-p text-center" data-aos="fade-up" data-aos-duration="3000">
+				<p className="secondsec-p text-center">
 					codiste offers startup development services for
 					entrepreneurs with comprehensive support and guidance to
 					navigate each step towards success.
 				</p>
-				<ul className="processNew" data-aos="fade-up" data-aos-duration="3000">
+				<ul className="processNew">
 					<li className="process__item">
 						<span className="process__number">1</span>
 						<span className="process__title">Idea & Tech<br />Validation</span>
@@ -245,7 +245,7 @@ const StartupDevelopmentCompany = () => {
 				</ul>
 			</div>
 
-			<div className="bg-color py-5 mt-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="bg-color py-5 mt-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -256,7 +256,7 @@ const StartupDevelopmentCompany = () => {
 								customized IT solutions.
 							</p>
 						</div>
-						<div className="row" data-aos="fade-up" data-aos-duration="3000">
+						<div className="row">
 							<div className="col-lg-12">
 								<ul className="tech-style">
 									<li>
@@ -350,7 +350,7 @@ const StartupDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="py-5">
 				<div className="container container-fluid">
 					<div
 						className="accordion accordion-flush"
@@ -559,7 +559,7 @@ const StartupDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
+			<div className="py-5 bg-color">
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h2 className="all-head">Case Study</h2>
@@ -599,7 +599,7 @@ const StartupDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h2 className="all-blog">Blogs</h2>
 					<p className="all-p text-center">
@@ -612,7 +612,7 @@ const StartupDevelopmentCompany = () => {
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
 			</div>
-			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -797,7 +797,7 @@ const StartupDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="container container-fluid py-5">
 				<h2 className="all-head text-center mb-lg-5 mb-0">Get in touch with Us Now!
 				</h2>
 				<section>

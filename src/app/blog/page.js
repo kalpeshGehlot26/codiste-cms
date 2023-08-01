@@ -12,7 +12,7 @@ export const metadata = {
 const Blogs = () => {
 	return (
 		<div>
-			<div className="bg-color" data-aos="fade-up" data-aos-duration="3000">
+			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec py-4">
@@ -49,14 +49,14 @@ const Blogs = () => {
 			</div>
 			<ClientSlider />
 
-			<div className="container py-5" id="blogSection" data-aos="fade-up" data-aos-duration="3000">
+			<div className="container py-5" id="blogSection">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-4">
 					<h2 className="all-blog">Blogs</h2>
 				</div>
 				<Posts />
 			</div>
 
-			<div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="bg-color py-5">
 				<div className="container container-fluid ">
 					<div className="all-head text-center mb-lg-5 mb-0 mb-sm-0">Stuck with your idea?</div>
 					<section>

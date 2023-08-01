@@ -9,21 +9,20 @@ import jsonData from "../data/schema";
 import MLModelindus from "../component/service/MLModelindus";
 
 
-// export const metadata = {
-//   title: "Machine Learning Consulting | Codiste",
-//   description:
-//     "Maximize potential with expert Machine Learning Consulting. Custom ML model development, seamless integration, efficient data preprocessing, and ongoing support",
-// };
+export const metadata = {
+  title: "Machine Learning Model development",
+  description: "Codiste delivers challenging Machine learning  Model development services with scalable, maintainable, and efficient coding standards. Contact us now!!",
+};
 const limit = 3;
 const category = 56;
 const MLModelDevelopment = () => {
   return (
     <div>
-      {/* <script
+      <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.MLConsult) }}
-      /> */}
-      <div className="bg-color" data-aos="fade-up" data-aos-duration="3000">
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.MLModelDevelop) }}
+      />
+      <div className="bg-color">
         <div className="container container-fluid">
           <section>
             <div className="row firstsec ">
@@ -43,7 +42,7 @@ const MLModelDevelopment = () => {
       </div>
       <ClientSlider />
 
-      <div className="container container-fluid" data-aos="fade-up" data-aos-duration="3000">
+      <div className="container container-fluid">
         <section>
           <div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
             <h2 className="all-head text-center">
@@ -64,7 +63,7 @@ const MLModelDevelopment = () => {
             <p className="secondsec-p text-center">Codiste delivers Machine Learning Consulting combining clients’ requirements with the latest technologies.</p>
           </div>
           <div className='row g-4'>
-            <div className='col-xl-4 col-md-6 col-sm-12' data-aos="fade-up" data-aos-duration="3000">
+            <div className='col-xl-4 col-md-6 col-sm-12'>
               <div className='newservice-box h-100'>
                 <div className="text-center">
                   <img
@@ -80,7 +79,7 @@ const MLModelDevelopment = () => {
               </div>
             </div>
 
-            <div className='col-xl-4 col-md-6 col-sm-12' data-aos="fade-up" data-aos-duration="3000">
+            <div className='col-xl-4 col-md-6 col-sm-12'>
               <div className='newservice-box h-100'>
                 <div className="text-center">
                   <img
@@ -96,7 +95,7 @@ const MLModelDevelopment = () => {
                 </p>
               </div>
             </div>
-            <div className='col-xl-4 col-md-6 col-sm-12' data-aos="fade-up" data-aos-duration="3000">
+            <div className='col-xl-4 col-md-6 col-sm-12'>
               <div className='newservice-box h-100'>
                 <div className="text-center">
                   <img
@@ -113,7 +112,7 @@ const MLModelDevelopment = () => {
                 </p>
               </div>
             </div>
-            <div className='col-xl-4 col-md-6 col-sm-12' data-aos="fade-up" data-aos-duration="3000">
+            <div className='col-xl-4 col-md-6 col-sm-12'>
               <div className='newservice-box h-100'>
                 <div className="text-center">
                   <img
@@ -129,7 +128,7 @@ const MLModelDevelopment = () => {
               </div>
             </div>
 
-            <div className='col-xl-4 col-md-6 col-sm-12' data-aos="fade-up" data-aos-duration="3000">
+            <div className='col-xl-4 col-md-6 col-sm-12'>
               <div className='newservice-box h-100'>
                 <div className="text-center">
                   <img
@@ -145,7 +144,7 @@ const MLModelDevelopment = () => {
                 </p>
               </div>
             </div>
-            <div className='col-xl-4 col-md-6 col-sm-12' data-aos="fade-up" data-aos-duration="3000">
+            <div className='col-xl-4 col-md-6 col-sm-12'>
               <div className='newservice-box h-100'>
                 <div className="text-center">
                   <img
@@ -173,7 +172,7 @@ const MLModelDevelopment = () => {
             <p className="secondsec-p text-center">We assist organizations in a seamless journey of utilizing AI-driven insights, from defining clear business goals to implementing and monitoring ML models.</p>
           </div>
 
-          <div className="row g-5 mx-0" data-aos="fade-up" data-aos-duration="3000" >
+          <div className="row g-5 mx-0" >
             <div className="col-xl-4 col-md-6 col-sm-12">
               <div className="Approachcard h-100">
                 <div className="background"></div>
@@ -266,7 +265,7 @@ const MLModelDevelopment = () => {
         </div>
       </div>
 
-      <div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
+      <div className="bg-color py-5">
         <div className="container container-fluid">
           <section>
             <div className=" d-flex align-items-center flex-column justify-content-center">
@@ -393,7 +392,7 @@ const MLModelDevelopment = () => {
         </div>
       </div>
 
-      <div className="" data-aos="fade-up" data-aos-duration="3000">
+      <div className="">
         <div className="container container-fluid py-5">
           <section>
             <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -407,7 +406,7 @@ const MLModelDevelopment = () => {
         </div>
       </div>
 
-      <div className="py-5 bg-color mt-5" data-aos="fade-up" data-aos-duration="3000">
+      <div className="py-5 bg-color mt-5">
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head text-center">
@@ -454,7 +453,7 @@ const MLModelDevelopment = () => {
       </div>
 
 
-      <div className="py-5" data-aos="fade-up" data-aos-duration="3000">
+      <div className="py-5">
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head">FAQs</h2>
@@ -668,7 +667,7 @@ const MLModelDevelopment = () => {
         </div>
       </div>
 
-      <div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
+      <div className="py-5 bg-color">
         <div className="container container-fluid">
           <div className="d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head">Case Study</h2>
@@ -707,7 +706,7 @@ const MLModelDevelopment = () => {
         </div>
       </div>
 
-      <div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
+      <div className="container container-fluid py-5">
         <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
           <h2 className="all-blog">Blogs</h2>
           <p className="all-p text-center">
@@ -722,7 +721,7 @@ const MLModelDevelopment = () => {
         </div>
       </div>
 
-      <div className="bg-color py-5" data-aos="fade-up" data-aos-duration="3000">
+      <div className="bg-color py-5">
         <div className="container container-fluid">
           <section>
             <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -896,7 +895,7 @@ const MLModelDevelopment = () => {
         </div>
       </div>
 
-      <div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
+      <div className="container container-fluid py-5">
         <h2 className="all-head text-center mb-lg-5 mb-0">Ask Us How?</h2>
         <section>
           <div className="row  d-flex align-items-center">

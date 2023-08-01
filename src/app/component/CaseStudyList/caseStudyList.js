@@ -36,12 +36,12 @@ const CaseStudyList = () => {
 										<h3 className="case-head">
 											{item.title}
 										</h3>
-										<Link
-											href={item.url}
+										<span
+											// href={item.url}
 											className="case-pera"
 										>
 											Read More &gt;&gt;
-										</Link>
+										</span>
 									</div>
 								</Link>
 							</div>

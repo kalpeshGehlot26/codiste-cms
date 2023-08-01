@@ -24,7 +24,7 @@ const AIConsult = () => {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.AIConsult) }}
             />
-            <div className="bg-color" data-aos="fade-up" data-aos-duration="2000">
+            <div className="bg-color">
                 <div className="container container-fluid">
                     <section >
                         <div className="row firstsec ">
@@ -44,7 +44,7 @@ const AIConsult = () => {
             </div>
             <ClientSlider />
 
-            <div className="container container-fluid" data-aos="fade-up" data-aos-duration="2000">
+            <div className="container container-fluid">
                 <section>
                     <div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
                         <h2 className="all-head text-center">Our Expertise in AI Consulting Services</h2>
@@ -219,7 +219,7 @@ const AIConsult = () => {
                 </div>
             </div>
 
-            <div className="blackdiv px-3" data-aos="fade-up" data-aos-duration="2000">
+            <div className="blackdiv px-3">
                 <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
                     <p>
                         We Help Our Clients with Result-oriented AI Strategy Consulting Services.
@@ -233,7 +233,7 @@ const AIConsult = () => {
             <div className="bg-color py-5" >
                 <div className="container container-fluid">
                     <section>
-                        <div className=" d-flex align-items-center flex-column justify-content-center" data-aos="fade-up" data-aos-duration="2000">
+                        <div className=" d-flex align-items-center flex-column justify-content-center">
                             <h2 className="all-head text-center">Technologies We Offer </h2>
                             <p className="all-p  text-center">
                                 We offer you to choose from a wide range of
@@ -242,7 +242,7 @@ const AIConsult = () => {
                         </div>
                         <div className="row">
                             <div className="col-lg-12">
-                                <ul className="tech-style" data-aos="fade-up" data-aos-duration="2000">
+                                <ul className="tech-style">
 
                                     <li>
                                         <img
@@ -425,13 +425,13 @@ const AIConsult = () => {
 
             <div className="py-5">
                 <div className="container container-fluid">
-                    <div className=" d-flex align-items-center flex-column justify-content-center mb-5" data-aos="fade-up" data-aos-duration="2000">
+                    <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
                         <h2 className="all-head">FAQs</h2>
                     </div>
                     <div
                         className="accordion accordion-flush"
                         id="accordionFlushExample"
-                        data-aos="fade-up" data-aos-duration="2000"
+                    
                     >
                         <div className="accordion-item">
                             <h2
@@ -622,7 +622,7 @@ const AIConsult = () => {
                 </div>
             </div>
 
-            <div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
+            <div className="container container-fluid py-5">
                 <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
                     <h2 className="all-blog">Blogs</h2>
                     <p className="all-p text-center">
@@ -636,7 +636,7 @@ const AIConsult = () => {
                 </div>
             </div>
 
-            <div className="bg-color py-5" data-aos="fade-up" data-aos-duration="2000">
+            <div className="bg-color py-5">
                 <div className="container container-fluid">
                     <section>
                         <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -824,12 +824,12 @@ const AIConsult = () => {
                 </div>
             </div>
 
-            <div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="2000">
+            <div className="container container-fluid py-5">
                 <h2 className="all-head text-center mb-lg-5 mb-0">
                     Dive into AI Right Now!
                 </h2>
                 <section>
-                    <div className="row  d-flex align-items-center" data-aos="fade-up" data-aos-duration="2000">
+                    <div className="row  d-flex align-items-center">
                         <div className="col-lg-6 col-md-12 p-4 mb-lg-0 needsec">
                             <h2>
                                 Looking for AI experts who guide you throughout the AI solution development journey?
