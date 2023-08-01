@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import { getPostBySlug } from "../lib/lib";
 import { Helmet } from "react-helmet";
 import moment from "moment";
-import { TwitterShareButton, WhatsappShareButton } from "react-share";
+import { LinkedinIcon, LinkedinShareButton, TwitterIcon, TwitterShareButton, WhatsappShareButton } from "react-share";
 
 const wordCounter = (input) => {
 	const text = input.split(/\s+/);
@@ -66,15 +66,21 @@ const BlogContent = () => {
 	}
 
 	const image = post._embedded["wp:featuredmedia"]["0"]?.source_url;
+	const baseURL = `https://www.codiste.com/${pathUrl[1]}`; 
+
 	return (
 		<div className="">
 			<Helmet>
 				<title>{post?.yoast_head_json?.og_title}</title>
-				<meta
-					name="description"
-					content={post?.yoast_head_json?.og_description}
-				/>
+				{/* <meta name="description" content={post?.yoast_head_json?.og_description} />
+				<meta property="og:image" content={post?.yoast_head_json?.og_image[0]?.url} /> */}
+
+				<meta property="og:title" content={post?.yoast_head_json?.og_title} />
 				<meta property="og:image" content={post?.yoast_head_json?.og_image[0]?.url} />
+				<meta property="og:description" content={post?.yoast_head_json?.og_description} />
+				<meta property="og:url" content={baseURL} />
+			
+
 			</Helmet>
 			<div className="blog-title text-center container mx-auto blog-container-width">
 				<h1 style={{ zIndex: "-1" }}>{post?.title?.rendered}</h1>
@@ -137,12 +143,15 @@ const BlogContent = () => {
 							</span>
 						</div>
 						<div className="blog-icon d-flex align-items-center justify-content-center me-4">
-							{/* <WhatsappShareButton url="https://www.codiste.com/spatial-computing-glasses-artificial-intelligence">
-								Whatsap	
-							</WhatsappShareButton> */}
-							{/* <TwitterShareButton url="https://www.codiste.com/spatial-computing-glasses-artificial-intelligence">
-								Twitter
-							</TwitterShareButton> */}
+							<TwitterShareButton url={baseURL}>
+								<img src="assets/images/twitterNew.png" style={{height: "22px"}}/>
+							</TwitterShareButton>
+						</div>
+						<div className="blog-icon d-flex align-items-center justify-content-center me-4">
+							<LinkedinShareButton url={baseURL}>
+								<img src="assets/images/linkedin.png" style={{height: "27px"}}/>
+							</LinkedinShareButton>
+
 						</div>
 					</div>
 				</div>
