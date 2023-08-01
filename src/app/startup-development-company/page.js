@@ -599,7 +599,7 @@ const StartupDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5">
+			{/* <div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h2 className="all-blog">Blogs</h2>
 					<p className="all-p text-center">
@@ -611,7 +611,7 @@ const StartupDevelopmentCompany = () => {
 				<div className="d-flex align-items-center justify-content-center mt-5">
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
-			</div>
+			</div> */}
 			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>

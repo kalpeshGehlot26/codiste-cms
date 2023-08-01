@@ -8,7 +8,7 @@ const MLList = [
     },
     {
         title: "ML Model Development",
-        description: "At Codiste,",
+        description: "Codiste delivers challenging ML Model development services with scalable, maintainable, and efficient coding standards. Our machine learning developers are adaptable in creating ML algorithm models using the transformed training data by applying learning methods for experimental data analysis to deliver the desired business outcome.",
         slug: "machine-learning-model-development"
     },
     {

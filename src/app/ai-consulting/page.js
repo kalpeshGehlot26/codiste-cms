@@ -65,7 +65,7 @@ const AIConsult = () => {
                         </p>
                     </div>
                     <div className='row g-4'>
-                        <div className='col-xl-4 col-md-6 col-sm-12' data-aos="fade-up" data-aos-duration="3000">
+                        <div className='col-xl-4 col-md-6 col-sm-12'>
                             <div className='newservice-box h-100'>
                                 <div className="text-center">
                                     <img
@@ -81,7 +81,7 @@ const AIConsult = () => {
                             </div>
                         </div>
 
-                        <div className='col-xl-4 col-md-6 col-sm-12' data-aos="fade-up" data-aos-duration="3000">
+                        <div className='col-xl-4 col-md-6 col-sm-12'>
                             <div className='newservice-box h-100'>
                                 <div className="text-center">
                                     <img
@@ -97,7 +97,7 @@ const AIConsult = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='col-xl-4 col-md-6 col-sm-12' data-aos="fade-up" data-aos-duration="3000">
+                        <div className='col-xl-4 col-md-6 col-sm-12'>
                             <div className='newservice-box h-100'>
                                 <div className="text-center">
                                     <img
@@ -112,7 +112,7 @@ const AIConsult = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='col-xl-4 col-md-6 col-sm-12' data-aos="fade-up" data-aos-duration="3000">
+                        <div className='col-xl-4 col-md-6 col-sm-12'>
                             <div className='newservice-box h-100'>
                                 <div className="text-center">
                                     <img
@@ -128,7 +128,7 @@ const AIConsult = () => {
                             </div>
                         </div>
 
-                        <div className='col-xl-4 col-md-6 col-sm-12' data-aos="fade-up" data-aos-duration="3000">
+                        <div className='col-xl-4 col-md-6 col-sm-12'>
                             <div className='newservice-box h-100'>
                                 <div className="text-center">
                                     <img
@@ -143,7 +143,7 @@ const AIConsult = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='col-xl-4 col-md-6 col-sm-12' data-aos="fade-up" data-aos-duration="3000">
+                        <div className='col-xl-4 col-md-6 col-sm-12'>
                             <div className='newservice-box h-100'>
                                 <div className="text-center">
                                     <img
@@ -365,7 +365,7 @@ const AIConsult = () => {
                 </div>
             </div>
 
-            <div className="" data-aos="fade-up" data-aos-duration="3000">
+            <div className="">
                 <div className="container container-fluid py-5">
                     <section>
                         <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -379,7 +379,7 @@ const AIConsult = () => {
                 </div>
             </div>
 
-            <div className="py-5 bg-color mt-5" data-aos="fade-up" data-aos-duration="3000">
+            <div className="py-5 bg-color mt-5">
                 <div className="container container-fluid">
                     <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
                         <h2 className="all-head text-center">
@@ -576,7 +576,7 @@ const AIConsult = () => {
                 </div>
             </div>
 
-            <div className="py-5 bg-color" data-aos="fade-up" data-aos-duration="3000">
+            <div className="py-5 bg-color">
                 <div className="container container-fluid">
                     <div className="d-flex align-items-center flex-column justify-content-center mb-5">
                         <h2 className="all-head">Case Study</h2>
@@ -622,7 +622,7 @@ const AIConsult = () => {
                 </div>
             </div>
 
-            <div className="container container-fluid py-5">
+            {/* <div className="container container-fluid py-5">
                 <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
                     <h2 className="all-blog">Blogs</h2>
                     <p className="all-p text-center">
@@ -634,7 +634,7 @@ const AIConsult = () => {
                 <div className="d-flex align-items-center justify-content-center mt-5">
                     <Link href="/blog" className="book-btn mt-3">Read more</Link>
                 </div>
-            </div>
+            </div> */}
 
             <div className="bg-color py-5">
                 <div className="container container-fluid">

@@ -160,7 +160,7 @@ const HomePage = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5">
+			{/* <div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-4">
 					<h2 className="all-blog">Blogs</h2>
 					<p className="all-p text-center">
@@ -171,9 +171,12 @@ const HomePage = () => {
 				<div className="d-flex align-items-center justify-content-center mt-5">
 					<Link href="/blog" className="book-btn mt-3">Read more</Link>
 				</div>
-			</div>
+			</div> */}
 
-			<div className="bg-color py-5 mt-md-5 mt-0">
+			<div 
+				className="py-5 mt-md-5 mt-0"
+				// className="bg-color py-5 mt-md-5 mt-0"
+			>
 				<div className="container container-fluid">
 					<div className="text-center">
 						<h2 className="all-head">Innovation in Action: Real-World Case Studies from Codiste</h2>
