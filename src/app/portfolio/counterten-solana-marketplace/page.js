@@ -4,7 +4,14 @@ import React from "react";
 
 export const metadata = {
   title: "CounterTen | Solana Marketplace | Codiste",
-  description: "CounterTEN is a Solana-based NFT platform that enables brands to create and sell NFTs for a variety of purposes, from event access and product launches to collectibles and memberships."
+  description: "CounterTEN is a Solana-based NFT platform that enables brands to create and sell NFTs for a variety of purposes, from event access and product launches to collectibles and memberships.",
+  images: "https://www.codiste.com/assets/images/case-couter10/Counterten.png",
+	openGraph: {
+		title: "CounterTen | Solana Marketplace | Codiste",
+    description: "CounterTEN is a Solana-based NFT platform that enables brands to create and sell NFTs for a variety of purposes, from event access and product launches to collectibles and memberships.",
+		images: "https://www.codiste.com/assets/images/case-couter10/Counterten.png",
+		url: 'https://www.codiste.com/portfolio/counterten-solana-marketplace/'
+	},
 };
 
 const CounterTenPortfolio = () => {

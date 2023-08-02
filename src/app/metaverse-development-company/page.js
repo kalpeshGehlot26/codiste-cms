@@ -10,17 +10,23 @@ import Head from "next/head";
 
 export const metadata = {
 	title: "Enterprise-Grade Metaverse Development Company | Codiste",
-	description:
-		"Explore our metaverse development services and embark on a journey into the decentralized digital universe. Embrace the power of the Metaverse services now!!",
+	description: "Explore our metaverse development services and embark on a journey into the decentralized digital universe. Embrace the power of the Metaverse services now!!",
+	images: "https://www.codiste.com/assets/images/main/metaverse.png",
+	openGraph: {
+		title: "Enterprise-Grade Metaverse Development Company | Codiste",
+		description: "Explore our metaverse development services and embark on a journey into the decentralized digital universe. Embrace the power of the Metaverse services now!!",
+		images: "https://www.codiste.com/assets/images/main/metaverse.png",
+		url: 'https://www.codiste.com/metaverse-development-company/'
+	},
+	alternates: {
+		canonical: 'https://www.codiste.com/metaverse-development-company',
+	}
 };
 
 const limit = 3;
 const category = 6;
 
 const MetaverseDevelopmentCompany = () => {
-	<Head>
-		<link rel="canonical" href="https://www.codiste.com/metaverse-development-company" />
-	</Head>
 	return (
 		<div>
 			<script

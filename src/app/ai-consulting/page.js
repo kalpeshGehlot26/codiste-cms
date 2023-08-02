@@ -10,8 +10,14 @@ import AIConsutindus from "../component/service/AIConsutindus";
 
 export const metadata = {
     title: "AI Consulting | Codiste",
-    description:
-        "We offer AI Consulting Services with advanced algo, ML, and NLP optimized solutions that revolutionize their processes for unprecedented growth.",
+    description: "We offer AI Consulting Services with advanced algo, ML, and NLP optimized solutions that revolutionize their processes for unprecedented growth.",
+    images: "https://www.codiste.com/assets/images/Service-AI/AI_consult/AI_consult.webp",
+	openGraph: {
+		title: "AI Consulting | Codiste",
+        description: "We offer AI Consulting Services with advanced algo, ML, and NLP optimized solutions that revolutionize their processes for unprecedented growth.",
+		images: "https://www.codiste.com/assets/images/Service-AI/AI_consult/AI_consult.webp",
+		url: 'https://www.codiste.com/ai-consulting/'
+	},
 };
 
 const limit = 3

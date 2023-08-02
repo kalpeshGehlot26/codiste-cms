@@ -11,8 +11,17 @@ import jsonData from "../data/schema";
 export const metadata = {
 	canonical: "https://www.codiste.com/augmented-reality-development-company",
 	title: "AR & VR Development Company | Codiste",
-	description:
-		"Using ARtoolkit, Google ARCore, Apple AR Kit, and Web3 apps, we deliver innovative and immersive virtual reality and AR development solutions for enterprises.",
+	description:"Using ARtoolkit, Google ARCore, Apple AR Kit, and Web3 apps, we deliver innovative and immersive virtual reality and AR development solutions for enterprises.",
+	images: "https://www.codiste.com/assets/images/main/AR_VR.png",
+	openGraph: {
+		title: "AR & VR Development Company | Codiste",
+		description:"Using ARtoolkit, Google ARCore, Apple AR Kit, and Web3 apps, we deliver innovative and immersive virtual reality and AR development solutions for enterprises.",
+		images: "https://www.codiste.com/assets/images/main/AR_VR.png",
+		url: 'https://www.codiste.com/augmented-reality-development-company'
+	},
+	alternates: {
+		canonical: 'https://www.codiste.com/augmented-reality-development-company',
+	}
 };
 
 const limit = 3

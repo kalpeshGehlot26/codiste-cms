@@ -9,8 +9,14 @@ import jsonData from "../data/schema";
 
 export const metadata = {
 	title: "Artificial Intelligence Development Company | Codiste",
-	description:
-		"Our Artificial Intelligence development services offer customized development for automating software with modern AI technologies. We build automation software for businesses to get enhanced operational efficiency.",
+	description: "Our Artificial Intelligence development services offer customized development for automating software with modern AI technologies. We build automation software for businesses to get enhanced operational efficiency.",
+	images: "https://www.codiste.com/assets/images/main/AI_Development_.png",
+	openGraph: {
+		title: "Artificial Intelligence Development Company | Codiste",
+		description: "Our Artificial Intelligence development services offer customized development for automating software with modern AI technologies. We build automation software for businesses to get enhanced operational efficiency.",
+		images: "https://www.codiste.com/assets/images/main/AI_Development_.png",
+		url: 'https://www.codiste.com/artificial-intelligence-development-company/'
+	},
 };
 
 const limit = 3

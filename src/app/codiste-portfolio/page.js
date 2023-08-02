@@ -6,8 +6,14 @@ import Link from "next/link";
 
 export const metadata = {
 	title: "Showcasing Our Blockchain and AI Development Solutions | Portfolio",
-	description:
-		"Gain valuable knowledge from our case studies, showcasing the strategic implementation of blockchain and AI technologies to achieve remarkable results.",
+	description:"Gain valuable knowledge from our case studies, showcasing the strategic implementation of blockchain and AI technologies to achieve remarkable results.",
+	images: "https://www.codiste.com/assets/images/main/Our Portfolio.png",
+	openGraph: {
+		title: "Showcasing Our Blockchain and AI Development Solutions | Portfolio",
+		description:"Gain valuable knowledge from our case studies, showcasing the strategic implementation of blockchain and AI technologies to achieve remarkable results.",
+		images: "https://www.codiste.com/assets/images/main/Our Portfolio.png",
+		url: 'https://www.codiste.com/codiste-portfolio/'
+	},
 };
 
 const CodistePortfolio = () => {

@@ -5,8 +5,14 @@ import jsonData from "../data/schema";
 
 export const metadata = {
 	title: "Enterprise Grade Blockchain and AI Development Company | Codiste",
-	description:
-		"Codiste is an emerging Top leader in blockchain and AI development services that enable businesses to thrive in the constantly evolving digital decentralized.",
+	description: "Codiste is an emerging Top leader in blockchain and AI development services that enable businesses to thrive in the constantly evolving digital decentralized.",
+	images: "https://www.codiste.com/assets/images/about/about-us.png",
+	openGraph: {
+		title: "Enterprise Grade Blockchain and AI Development Company | Codiste",
+		description: "Codiste is an emerging Top leader in blockchain and AI development services that enable businesses to thrive in the constantly evolving digital decentralized.",
+		images: "https://www.codiste.com/assets/images/about/about-us.png",
+		url: 'https://www.codiste.com/about/'
+	},
 };
 
 const About = () => {

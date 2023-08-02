@@ -4,8 +4,14 @@ import React from "react";
 
 export const metadata = {
 	title: "Bonfire | Crypto Development Services | Codiste",
-	description:
-		"Codiste embraces technology, strategy, and design Bonfire platform where users can invest through crypto, view their investments, and list of property.",
+	description:"Codiste embraces technology, strategy, and design Bonfire platform where users can invest through crypto, view their investments, and list of property.",
+	images: "https://www.codiste.com/assets/images/case-bonfire/Bonfire.png",
+	openGraph: {
+		title: "Bonfire | Crypto Development Services | Codiste",
+		description:"Codiste embraces technology, strategy, and design Bonfire platform where users can invest through crypto, view their investments, and list of property.",
+		images: "https://www.codiste.com/assets/images/case-bonfire/Bonfire.png",
+		url: 'https://www.codiste.com/portfolio/bonfire/'
+	},
 };
 
 const BornfirePortfolio = () => {

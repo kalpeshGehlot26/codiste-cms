@@ -16,11 +16,11 @@ export default function RootLayout({ children }) {
 			<head>
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<meta property="og:image" content="https://www.codiste.com/assets/images/featuredImg.webp" />
-				<meta property="og:url" content="https://codiste.com/" />
-				<meta property="og:type" content="website" />
-				<meta property="og:title" content="Codiste - A leading Blockchain and AI Development Company" />
-				<meta property="og:description" content="Empowering Businesses with Blockchain, AI, AR/VR, Metaverse, NFT Marketplace, and Cryptocurrency development Solutions for business future success." />
+				{/* <meta property="og:image" content="https://www.codiste.com/assets/images/featuredImg.webp" /> */}
+				{/* <meta property="og:url" content="https://codiste.com/" /> */}
+				{/* <meta property="og:type" content="website" /> */}
+				{/* <meta property="og:title" content="Codiste - A leading Blockchain and AI Development Company" /> */}
+				{/* <meta property="og:description" content="Empowering Businesses with Blockchain, AI, AR/VR, Metaverse, NFT Marketplace, and Cryptocurrency development Solutions for business future success." /> */}
 				<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 			</head>
 			<body className={inter.className}>

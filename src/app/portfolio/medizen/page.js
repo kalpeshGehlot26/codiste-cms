@@ -4,8 +4,14 @@ import React from "react";
 
 export const metadata = {
 	title: "Medizen | Application and web Development services",
-	description:
-		"The Medizen app is a medication tracker, reminders, drug interaction, checker, refill reminders, and family sharing to track family members.",
+	description: "The Medizen app is a medication tracker, reminders, drug interaction, checker, refill reminders, and family sharing to track family members.",
+	images: "https://www.codiste.com/assets/images/case-medizen/Medizen.png",
+	openGraph: {
+		title: "Medizen | Application and web Development services",
+		description: "The Medizen app is a medication tracker, reminders, drug interaction, checker, refill reminders, and family sharing to track family members.",
+		images: "https://www.codiste.com/assets/images/case-medizen/Medizen.png",
+		url: 'https://www.codiste.com/portfolio/medizen/'
+	},
 };
 
 const MedizenPortfolio = () => {

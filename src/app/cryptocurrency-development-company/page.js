@@ -9,8 +9,14 @@ import jsonData from "../data/schema";
 
 export const metadata = {
 	title: "Cryptocurrency Development Company | Codiste",
-	description:
-		"As a leading cryptocurrency services provider, we're specialized in delivering blockchain, hyper ledger, and smart contract solutions that guarantee a seamless user experience in crypto trading and investment.",
+	description: "As a leading cryptocurrency services provider, we're specialized in delivering blockchain, hyper ledger, and smart contract solutions that guarantee a seamless user experience in crypto trading and investment.",
+	images: "https://www.codiste.com/assets/images/main/Cryptocurrency Development_.png",
+	openGraph: {
+		title: "Cryptocurrency Development Company | Codiste",
+		description: "As a leading cryptocurrency services provider, we're specialized in delivering blockchain, hyper ledger, and smart contract solutions that guarantee a seamless user experience in crypto trading and investment.",
+		images: "https://www.codiste.com/assets/images/main/Cryptocurrency Development_.png",
+		url: 'https://www.codiste.com/cryptocurrency-development-company/'
+	},
 };
 
 const limit = 3

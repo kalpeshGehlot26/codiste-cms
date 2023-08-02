@@ -9,8 +9,14 @@ import jsonData from "../data/schema";
 
 export const metadata = {
 	title: "Machine Learning Development Company | Codiste",
-	description:
-		"Codiste machine learning development team helps you leverage the power of machine learning to boost your organizational growth and efficiency.",
+	description:"Codiste machine learning development team helps you leverage the power of machine learning to boost your organizational growth and efficiency.",
+	images: "https://www.codiste.com/assets/images/main/Machine Learning.png",
+	openGraph: {
+		title: "Machine Learning Development Company | Codiste",
+		description:"Codiste machine learning development team helps you leverage the power of machine learning to boost your organizational growth and efficiency.",
+		images: "https://www.codiste.com/assets/images/main/Machine Learning.png",
+		url: 'https://www.codiste.com/machine-learning-development-company/'
+	},
 };
 
 const limit = 3;

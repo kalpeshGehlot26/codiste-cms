@@ -5,8 +5,14 @@ import Posts from "../component/Posts/posts";
 
 export const metadata = {
 	title: "Stay informed on emerging technologies | Codiste",
-	description:
-		"Our blog provides comprehensive coverage of emerging technologies like Blockchain and AI, Metaverse, NFTs, Augmented reality, Virtual Reality, ML and more.",
+	description: "Our blog provides comprehensive coverage of emerging technologies like Blockchain and AI, Metaverse, NFTs, Augmented reality, Virtual Reality, ML and more.",
+	images: "https://www.codiste.com/assets/images/blog_main.png",
+	openGraph: {
+		title: "Stay informed on emerging technologies | Codiste",
+		description: "Our blog provides comprehensive coverage of emerging technologies like Blockchain and AI, Metaverse, NFTs, Augmented reality, Virtual Reality, ML and more.",
+		images: "https://www.codiste.com/assets/images/blog_main.png",
+		url: 'https://www.codiste.com/blog/'
+	},
 };
 
 const Blogs = () => {
