@@ -13,7 +13,8 @@ const MLList = [
     },
     {
         title: "Computer Vision Development",
-        description: "Codiste provides computer vision development services that allow businesses to analyze and interpret user-generated visual data more effectively and precisely than ever. We develop customized computer vision solutions enabling machines to accurately identify, classify, and analyze images and videos from the real world, objects, and text."
+        description: "Codiste provides computer vision development services that allow businesses to analyze and interpret user-generated visual data more effectively and precisely than ever. We develop customized computer vision solutions enabling machines to accurately identify, classify, and analyze images and videos from the real world, objects, and text.",
+        slug:"computer-vision-development"
     },
     {
         title: "ML Integration",

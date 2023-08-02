@@ -3,25 +3,25 @@ import ClientSlider from "../component/Home/clientSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
-import MLConsult from "../data/services/service-items/MLConsult";
+import ComputerVision from "../data/services/service-items/ComputerVision"
 import jsonData from "../data/schema";
 import MLindustries from "../component/service/MLindustries";
 
 
-export const metadata = {
-  title: "Machine Learning Consulting | Codiste",
-  description:
-    "Maximize potential with expert Machine Learning Consulting. Custom ML model development, seamless integration, efficient data preprocessing, and ongoing support",
-};
+// export const metadata = {
+//   title: "Machine Learning Consulting | Codiste",
+//   description:
+//     "Maximize potential with expert Machine Learning Consulting. Custom ML model development, seamless integration, efficient data preprocessing, and ongoing support",
+// };
 const limit = 3;
 const category = 56;
-const MLConsutling = () => {
+const computervision = () => {
   return (
     <div>
-      <script
+      {/* <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.MLConsult) }}
-      />
+      /> */}
       <div className="bg-color">
         <div className="container container-fluid">
           <section>
@@ -34,7 +34,7 @@ const MLConsutling = () => {
                   </p>
                   <Link href="/contact" className="book-btn">Connect with ML Consultant</Link>
                 </div>
-                <div className="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0"><img className='img-fluid' alt='Machine Learning' src="assets/images/Service-machine/Machine_inner/Machine Learning Consulting Services.webp" /></div>
+                <div className="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0"><img className='img-fluid' alt='Machine Learning' src="assets/images/Service-machine/Computer_Vision/Computer Vision Development.webp" /></div>
               </div>
             </div>
           </section>
@@ -50,7 +50,7 @@ const MLConsutling = () => {
             </h2>
             <p className="secondsec-p text-center p-4">We are the ML consulting service provider, combining the best technologies with the latest trends while delivering  a well-strategized set of Machine Learning development services that unlock business insights. </p>
           </div>
-          <ServiceInnerItems serviceItems={MLConsult} />
+          <ServiceInnerItems serviceItems={ComputerVision} />
         </section>
       </div>
 
@@ -58,7 +58,7 @@ const MLConsutling = () => {
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head text-center">
-              Why Choose Us As for Machine Learning Consultation?
+            Why Us for Computer Vision Software Development Service?
             </h2>
             <p className="secondsec-p text-center">Codiste delivers Machine Learning Consulting combining clients’ requirements with the latest technologies.</p>
           </div>
@@ -70,10 +70,10 @@ const MLConsutling = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/Machine_inner/Faster Go-to-market.png"
+                    src="assets/images/Service-machine/Computer_Vision/Experienced Professionals.png"
                   />
                 </div>
-                <h3 className="">Faster Go-to-market</h3>
+                <h3 className="">Experienced Professionals</h3>
                 <p className="secondsec-p">Using our technical expertise, industrial frameworks, and multi-platform experience, we get you there in record time (usually 40% faster development). How ? as we been in this industry, so Research part can be reduced and we know which technique to use for specific usecase.
                 </p>
               </div>
@@ -86,11 +86,11 @@ const MLConsutling = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/Machine_inner/Best Tech Stack Inclusion.png"
+                    src="assets/images/Service-machine/Computer_Vision/High-Touch Interactions.png"
                   />
                 </div>
 
-                <h3>Best Tech Stack Inclusion</h3>
+                <h3>High-Touch Interactions</h3>
                 <p className="secondsec-p">Ensuring to use the best technology stack to develop Machine Learning solutions with essential features and integrations to make it scalable and efficient. Data is Everything and once we have Data, the right tech will help to analyse data and make it visualisable result, which turns into quick decision for business.
                 </p>
               </div>
@@ -102,11 +102,11 @@ const MLConsutling = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/Machine_inner/Real-time updates.png"
+                    src="assets/images/Service-machine/Computer_Vision/Customized Computer Vision.png"
                   />
                 </div>
 
-                <h3>Real-time updates</h3>
+                <h3>Customized Computer Vision</h3>
                 <p className="secondsec-p">Being a reputed Machine Learning Consultancy, we prioritize seamless communication by adapting clients’ time zones to deliver project’s updates via email and call. We make sure there is daily conversations happening and communication is alive.
                 </p>
               </div>
@@ -118,10 +118,10 @@ const MLConsutling = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/Machine_inner/Security-first approach.png"
+                    src="assets/images/Service-machine/Computer_Vision/Proactive Work.png"
                   />
                 </div>
-                <h3>Security-first approach</h3>
+                <h3>Proactive Work</h3>
                 <p className="secondsec-p">Delivering hack-proof ML solutions by maintaining 100% security in every phase of development lifecycle, right from the conceptualization stage to deployment.
                 </p>
               </div>
@@ -134,11 +134,11 @@ const MLConsutling = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/Machine_inner/Highly skilled team.png"
+                    src="assets/images/Service-machine/Computer_Vision/Comprehensive Solution.png"
                   />
                 </div>
 
-                <h3>Highly skilled team</h3>
+                <h3>Comprehensive Solution</h3>
                 <p className="secondsec-p">We have Domain Expertise and Our ML team consists of Machine Learning Consultants, design and development specialists, QA and deployment engineers, who have potential of delivering industry’s best solutions.
                 </p>
               </div>
@@ -150,10 +150,10 @@ const MLConsutling = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/Machine_inner/Custom engagement models.png"
+                    src="assets/images/Service-machine/Computer_Vision/Support Help.png"
                   />
                 </div>
-                <h3>Custom engagement models</h3>
+                <h3>Support Help</h3>
                 <p className="secondsec-p">Using our technical expertise, industrial frameworks, and multi-platform experience, we get you there in record time (usually 40% faster development).
                 </p>
               </div>
@@ -420,11 +420,9 @@ const MLConsutling = () => {
                 <h2>01</h2>
                 <h3>Fixed Engagement Model</h3>
                 <p>Get a predefined budget and timetable that is tailored for machine learning solutions projects with well defined scope and needs. This strategy, which is best for small to medium projects, guarantees cost predictability and provides the stated deliverables within the scheduled time range.</p>
-
               </div>
             </div>
           </div>
-
           <div className="card">
             <div className="box">
               <div className="content">
@@ -436,7 +434,6 @@ const MLConsutling = () => {
               </div>
             </div>
           </div>
-
           <div className="card">
             <div className="box">
               <div className="content">
@@ -444,7 +441,6 @@ const MLConsutling = () => {
                 <h3>Hire Dedicated Team Model</h3>
                 <p>Strengthen your internal resources by putting together a group of talented ML Consultants and engineers that are only committed to the success of your project. This model offers the benefit of an extended development team that works extremely collaboratively to meet the needs and goals of your organization while guaranteeing smooth communication, control, and transparency.
                 </p>
-
               </div>
             </div>
           </div>
@@ -698,20 +694,6 @@ const MLConsutling = () => {
         </div>
       </div>
 
-      {/* <div className="container container-fluid py-5">
-        <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-          <h2 className="all-blog">Blogs</h2>
-          <p className="all-p text-center">
-            Discover expert insights and helpful tips on emerging
-            machine learning algorithms and technologies with our
-            blogs.
-          </p>
-        </div>
-        <AllServiceBlogSlider limit={limit} category={category} />
-        <div className="d-flex align-items-center justify-content-center mt-5">
-          <Link href="/blog" className="book-btn mt-3">Read more</Link>
-        </div>
-      </div> */}
 
       <div className="bg-color py-5">
         <div className="container container-fluid">
@@ -910,4 +892,4 @@ const MLConsutling = () => {
     </div>
   );
 };
-export default MLConsutling;
+export default computervision;
