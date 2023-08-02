@@ -51,7 +51,7 @@ const Blogs = () => {
 
 			<div className="container py-5" id="blogSection">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-4">
-					<h2 className="all-blog">Blogs</h2>
+					<h2 className="all-blog text-center">Blogs</h2>
 				</div>
 				<Posts />
 			</div>

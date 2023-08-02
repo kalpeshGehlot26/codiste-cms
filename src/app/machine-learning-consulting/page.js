@@ -1,6 +1,5 @@
 import React from "react";
 import ClientSlider from "../component/Home/clientSlider";
-import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";

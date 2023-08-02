@@ -45,7 +45,7 @@ const MLDevelopmentCompany = () => {
 			<div className="container container-fluid">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-						<h2 className="all-head">
+						<h2 className="all-head text-center">
 							Our Machine Learning Development Services
 						</h2>
 					</div>
