@@ -518,7 +518,6 @@ const MLConsutling = () => {
                     <li> Unsupervised Learning algorithm analyzes unlabeled data to identify patterns or structures within the data. This algorithm focuses on finding inherent relationships or clusters in the data as it doesn’t have predefined output labels.</li>
                     <li>Reinforcement learning algorithms learn through an interactive process of trial and error. It maximizes rewards or minimizes penalties by including an agent that learns to make actions from feedback obtained from the environment.</li>
                   </ul>
-
                 </div>
               </div>
             </div>

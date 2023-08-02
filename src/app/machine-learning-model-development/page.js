@@ -128,16 +128,20 @@ const MLModelDevelopment = () => {
 							</div>
 						</div>
 
-						<div className="col-xl-4 col-md-6 col-sm-12">
-							<div className="newservice-box h-100">
-								<div className="text-center">
-									<img
-										className="img-fluid mb-2"
-										loading="lazy"
-										alt="Comprehensive Development"
-										src="assets/images/Service-machine/Machine_inner/Best Tech Stack Inclusion.png"
-									/>
-								</div>
+ 
+        <div className="container container-fluid py-5">
+          <section>
+            <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+              <h2 className="all-head">Industries We Serve</h2>
+              <p className="all-p text-center">
+                Being a trusted Machine Learning Consultant, we have worked with a wide range of sectors on a global scale and have been a part of their growth stories.
+              </p>
+            </div>
+            <MLindustries />
+          </section>
+        </div>
+		
+      </div>
 
 								<h3>Quality of Data and Pre-processing</h3>
 								<p className="secondsec-p">
@@ -225,6 +229,7 @@ const MLModelDevelopment = () => {
 								</p>
 							</div>
 						</div>
+						
 						<div className="col-xl-4 col-md-6 col-sm-12">
 							<div className="newservice-box h-100">
 								<div className="text-center">
@@ -1193,6 +1198,7 @@ const MLModelDevelopment = () => {
 				</div>
 			</div>
 
+<<<<<<< HEAD
 			<div className="container container-fluid py-5">
 				<h2 className="all-head text-center mb-lg-5 mb-0">
 					Ask Us How?
@@ -1218,5 +1224,29 @@ const MLModelDevelopment = () => {
 			</div>
 		</div>
 	);
+=======
+      <div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
+        <h2 className="all-head text-center mb-lg-5 mb-0">Reach out to ML Engineers Now!</h2>
+        <section>
+          <div className="row  d-flex align-items-center">
+            <div className="col-lg-6 col-md-12  needsec p-4">
+              <h2>
+                Looking to Augment Your Businesses with Our Domain Expertise?
+              </h2>
+            </div>
+            <div className="col-lg-6 col-md-12 ">
+              <div className="need-block h-100">
+                <h2 className="">
+                  How Can We <b>Help?</b>{" "}
+                </h2>
+                <CaseStudyForm text="Start a Conversation" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  );
+>>>>>>> origin/production
 };
 export default MLModelDevelopment;
