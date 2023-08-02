@@ -1146,7 +1146,7 @@ const MLModelDevelopment = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5" data-aos="fade-up" data-aos-duration="3000">
+			<div className="container container-fluid py-5">
 				<h2 className="all-head text-center mb-lg-5 mb-0">Reach out to ML Engineers Now!</h2>
 				<section>
 					<div className="row  d-flex align-items-center">
