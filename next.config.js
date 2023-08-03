@@ -18,6 +18,8 @@
 // //   },
 // // }
 module.exports = {
+  reactStrictMode: true,
+  disableServerSideStrictMimeTypes: true,
   async headers() {
     return [
       {
