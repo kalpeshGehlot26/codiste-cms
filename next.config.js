@@ -53,7 +53,7 @@ module.exports = {
       },
       {
         // Set cache control headers for CSS files
-        source: '/.next/static/css/:path*', // Match any CSS file in the _next/static/css directory
+        source: '/_next/static/css/:path*', // Match any CSS file in the _next/static/css directory
         headers: [
           {
             key: 'Cache-Control',
@@ -63,7 +63,7 @@ module.exports = {
       },
       {
         // Set cache control headers for images, videos, and other assets
-        source: '/.next/static/:path*', // Match any asset in the _next/static directory
+        source: '/_next/static/:path*', // Match any asset in the _next/static directory
         headers: [
           {
             key: 'Cache-Control',
