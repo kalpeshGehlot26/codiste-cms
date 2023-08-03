@@ -29,6 +29,27 @@ module.exports = {
           },
         ],
       },
+      {
+        source: '/_next/static/(.*)', // Match next.js static resources (js, css, images, fonts)
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable', // Set caching for Next.js static resources to one year (31536000 seconds)
+          },
+        ],
+      },
+      {
+        source: '/public/(.*)', // Match all assets in the public directory
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable', // Set caching for public assets to one year (31536000 seconds)
+          },
+        ],
+      },
     ];
   },
 };
+
+
+// 315360000
