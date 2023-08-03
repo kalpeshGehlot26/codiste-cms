@@ -8,8 +8,8 @@ import Link from "next/link";
 import CaseStudyForm from "../caseStudyForm/caseStudyForm";
 import serviceItems from "../../data/serviceItems";
 import AllServiceBlogSlider from "../BlogSlider/allServiceBlogSlider";
-import "../../../style.css";
-import "../../../external.css";
+// import "../../../style.css";
+// import "../../../external.css";
 import VideoPlayer from "./Videoplayer";
 import LazyLoad from 'react-lazy-load';
 

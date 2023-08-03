@@ -1,8 +1,8 @@
 // import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.css'
-import "../style.css"
-import "../external.css"
-import "../Newstyle.css"
+// import "../style.css"
+// import "../external.css"
+// import "../Newstyle.css"
 import { Inter } from "next/font/google";
 import Header from "./layouts/header";
 import Footer from "./layouts/footer";
@@ -22,6 +22,11 @@ export default function RootLayout({ children }) {
 				{/* <meta property="og:title" content="Codiste - A leading Blockchain and AI Development Company" /> */}
 				{/* <meta property="og:description" content="Empowering Businesses with Blockchain, AI, AR/VR, Metaverse, NFT Marketplace, and Cryptocurrency development Solutions for business future success." /> */}
 				<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+				<link rel="stylesheet" href="assets/css/style.css" />
+				<link rel="stylesheet" href="assets/css/external.css" />
+				<link rel="stylesheet" href="assets/css/Newstyle.css" />
+
 			</head>
 			<body className={inter.className}>
 				<Header />

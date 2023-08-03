@@ -1,8 +1,8 @@
 'use client'
 import React, { useState } from "react";
 import Link from 'next/link';
-import "../../style.css";
-import "../../external.css";
+// import "../../style.css";
+// import "../../external.css";
 import AIDropdown from"../component/Dropdown/AIDropdown";
 
 const Header = () => {

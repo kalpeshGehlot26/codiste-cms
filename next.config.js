@@ -48,16 +48,7 @@ module.exports = {
             value: 'public, max-age=31536000, immutable', // Set caching for CSS files to one year (31536000 seconds)
           },
         ],
-      },
-      {
-        source: '/(src/style\\.css|src/external\\.css|src/Newstyle\\.css)', // Match specific CSS files
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable', // Set caching for CSS files to one year (31536000 seconds)
-          },
-        ],
-      },
+      }
     ];
   },
 };
