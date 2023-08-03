@@ -27,7 +27,7 @@ module.exports = {
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable', // Set caching for static assets
+            value: 'public, max-age=31536000, immutable', // Set caching for CSS files to one year (31536000 seconds)
           },
         ],
       },
@@ -36,7 +36,7 @@ module.exports = {
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable', // Set caching for Next.js static resources to one year (31536000 seconds)
+            value: 'public, max-age=31536000, immutable', // Set caching for CSS files to one year (31536000 seconds)
           },
         ],
       },
@@ -45,7 +45,16 @@ module.exports = {
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable', // Set caching for public assets to one year (31536000 seconds)
+            value: 'public, max-age=31536000, immutable', // Set caching for CSS files to one year (31536000 seconds)
+          },
+        ],
+      },
+      {
+        source: '/(src/style\\.css|src/external\\.css|src/Newstyle\\.css)', // Match specific CSS files
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable', // Set caching for CSS files to one year (31536000 seconds)
           },
         ],
       },
@@ -54,4 +63,5 @@ module.exports = {
 };
 
 
-// 315360000
+// 315360000 : 10 years
+// 31536000 : 1 year
