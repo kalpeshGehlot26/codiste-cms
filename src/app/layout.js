@@ -23,9 +23,9 @@ export default function RootLayout({ children }) {
 				{/* <meta property="og:description" content="Empowering Businesses with Blockchain, AI, AR/VR, Metaverse, NFT Marketplace, and Cryptocurrency development Solutions for business future success." /> */}
 				<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-				<link rel="stylesheet" href="assets/css/style.css" />
-				<link rel="stylesheet" href="assets/css/external.css" />
-				<link rel="stylesheet" href="assets/css/Newstyle.css" />
+				<link rel="stylesheet" href="/assets/css/style.css" />
+				<link rel="stylesheet" href="/assets/css/external.css" />
+				<link rel="stylesheet" href="/assets/css/Newstyle.css" />
 
 			</head>
 			<body className={inter.className}>
