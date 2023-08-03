@@ -3,9 +3,15 @@ import axios from "axios";
 import React, { useEffect, useRef, useState } from "react";
 
 const CaseStudyForm = ({ text }) => {
-	const [values, setValues] = useState(null);
+	const [values, setValues] = useState({
+		name: "",
+		email: "",
+		number: "",
+		services: "",
+		message: "",
+	});
 	const [success, setSuccess] = useState(false);
-	const [path, setPath] = useState(null);
+	const [path, setPath] = useState("");
 	const [file, setFile] = useState(null);
 	const [isLoading, setIsLoading] = useState(false);
 	const formRef = useRef();
@@ -42,6 +48,15 @@ const CaseStudyForm = ({ text }) => {
 					setSuccess(null);
 				}, 5000);
 				formRef.current.reset();
+				setValues({
+					name: "",
+					email: "",
+					number: "",
+					services: "",
+					message: "",
+				})
+				setPath("")
+				setFile(null);
 			})
 			.catch(function (error) {
 				setIsLoading(false)
@@ -80,6 +95,7 @@ const CaseStudyForm = ({ text }) => {
 					placeholder="Name*"
 					required
 					onChange={onFormChange}
+					value={values?.name}
 				/>
 				<br />
 				<input
@@ -90,6 +106,7 @@ const CaseStudyForm = ({ text }) => {
 					placeholder="Email*"
 					required
 					onChange={onFormChange}
+					value={values?.email}
 				/>
 				<br />
 				<input
@@ -99,6 +116,7 @@ const CaseStudyForm = ({ text }) => {
 					name="number"
 					placeholder="Mobile number*"
 					required
+					value={values?.number}
 					onChange={onFormChange}
 					onKeyPress={(event) => {
 						if (!/[0-9]/.test(event.key)) {
@@ -113,6 +131,7 @@ const CaseStudyForm = ({ text }) => {
 					className="need-form"
 					onChange={onFormChange}
 					required
+					value={values?.services}
 				>
 					<option>Service*</option>
 					<option value="Blockchain Development Services">
@@ -155,6 +174,7 @@ const CaseStudyForm = ({ text }) => {
 					placeholder="Message*"
 					onChange={onFormChange}
 					required
+					value={values?.message}
 				></textarea>
 
 				<input
