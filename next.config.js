@@ -32,11 +32,42 @@ module.exports = {
         ],
       },
       {
-        source: '/_next/static/(.*)', // Match next.js static resources (js, css, images, fonts)
+        // Set cache control headers for images, videos, and other assets
+        source: '/assets/:path*', // Match any asset in the public/assets directory
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable', // Set caching for Next.js static resources to one year (31536000 seconds)
+            value: 'public, max-age=31536000, immutable', // Cache assets for one year (31536000 seconds)
+          },
+        ],
+      },
+      {
+        // Set cache control headers for CSS files
+        source: '/assets/css/:path*', // Match any CSS file in the public/assets/css directory
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable', // Cache CSS files for one year (31536000 seconds)
+          },
+        ],
+      },
+      {
+        // Set cache control headers for CSS files
+        source: '/.next/static/css/:path*', // Match any CSS file in the _next/static/css directory
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable', // Cache CSS files for one year (31536000 seconds)
+          },
+        ],
+      },
+      {
+        // Set cache control headers for images, videos, and other assets
+        source: '/.next/static/:path*', // Match any asset in the _next/static directory
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable', // Cache assets for one year (31536000 seconds)
           },
         ],
       },
