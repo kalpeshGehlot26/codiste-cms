@@ -10,8 +10,17 @@ import Head from "next/head";
 
 export const metadata = {
 	title: "NFT  Development Company | Codiste",
-	description:
-		"We are a NFT development company providing end-to-end NFT development, including digital NFTs , NFT marketplaces , NFT gamification and Web3 Identity Platforms.",
+	description: "We are a NFT development company providing end-to-end NFT development, including digital NFTs , NFT marketplaces , NFT gamification and Web3 Identity Platforms.",
+	images: "https://www.codiste.com/assets/images/main/NFT Development.png",
+	openGraph: {
+		title: "NFT  Development Company | Codiste",
+		description: "We are a NFT development company providing end-to-end NFT development, including digital NFTs , NFT marketplaces , NFT gamification and Web3 Identity Platforms.",
+		images: "https://www.codiste.com/assets/images/main/NFT Development.png",
+		url: 'https://www.codiste.com/nft-development-company/'
+	},
+	alternates: {
+		canonical: 'https://www.codiste.com/nft-development-company',
+	}
 };
 
 const limit = 3;

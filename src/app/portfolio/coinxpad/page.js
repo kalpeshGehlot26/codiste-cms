@@ -4,7 +4,17 @@ import React from "react";
 
 export const metadata = {
 	title: "CoinxPad Launchpad | Blockchain Development services",
-	description: "CoinxPad is a launchpad that enables crypto projects to raise funds through an Initial DEX Offering (IDO) on a decentralized exchange (DEX)."
+	description: "CoinxPad is a launchpad that enables crypto projects to raise funds through an Initial DEX Offering (IDO) on a decentralized exchange (DEX).",
+	images: "https://www.codiste.com/assets/images/case-coinxpad/Coinxpad.png",
+	openGraph: {
+		title: "CoinxPad Launchpad | Blockchain Development services",
+		description: "CoinxPad is a launchpad that enables crypto projects to raise funds through an Initial DEX Offering (IDO) on a decentralized exchange (DEX).",
+		images: "https://www.codiste.com/assets/images/case-coinxpad/Coinxpad.png",
+		url: 'https://www.codiste.com/portfolio/coinxpad/'
+	},
+	alternates: {
+		canonical: 'https://www.codiste.com/portfolio/coinxpad',
+	}
 };
 
 const CoinxpadPortfolio = () => {

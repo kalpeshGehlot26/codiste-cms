@@ -4,7 +4,17 @@ import React from "react";
 
 export const metadata = {
 	title: "Pixi pages | Mobile Application Development Services",
-	description: "Busy parents stay connected with their children by recording professional-sounding bedtime stories, complete with music and personal notes."
+	description: "Busy parents stay connected with their children by recording professional-sounding bedtime stories, complete with music and personal notes.",
+	images: "https://www.codiste.com/assets/images/case-pixi/Pixipages.png",
+	openGraph: {
+		title: "Pixi pages | Mobile Application Development Services",
+		description: "Busy parents stay connected with their children by recording professional-sounding bedtime stories, complete with music and personal notes.",
+		images: "https://www.codiste.com/assets/images/case-pixi/Pixipages.png",
+		url: 'https://www.codiste.com/portfolio/pixipages/'
+	},
+	alternates: {
+		canonical: 'https://www.codiste.com/portfolio/pixipages',
+	}
 };
 
 const PixipagesPortfolio = () => {

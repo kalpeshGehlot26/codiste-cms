@@ -18,6 +18,8 @@
 // //   },
 // // }
 module.exports = {
+  reactStrictMode: true,
+  disableServerSideStrictMimeTypes: true,
   async headers() {
     return [
       {
@@ -25,10 +27,33 @@ module.exports = {
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable', // Set caching for static assets
+            value: 'public, max-age=3600', // Set caching for assets to one hour (3600 seconds)
           },
         ],
       },
+      {
+        source: '/_next/static/(.*)', // Match next.js static resources (js, css, images, fonts)
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=3600', // Set caching for CSS files to one year (31536000 seconds)
+          },
+        ],
+      },
+      {
+        source: '/public/(.*)', // Match all assets in the public directory
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=3600', // Set caching for CSS files to one year (31536000 seconds)
+          },
+        ],
+      }
     ];
   },
+  revalidate: 60
 };
+
+
+// 315360000 : 10 years
+// 31536000 : 1 year

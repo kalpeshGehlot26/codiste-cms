@@ -12,18 +12,24 @@ export const metadata = {
 	title: "Blockchain Development Company | Codiste",
 	description:
 		"Our comprehensive Web3 blockchain development services to streamlined integrations of decentralized technological infrastructure in payments, applications, hyper ledgers, supply chains, and more..",
+	images: "https://www.codiste.com/assets/images/main/Blockchain.png",
+	openGraph: {
+		title: "Blockchain Development Company | Codiste",
+		description: "Our comprehensive Web3 blockchain development services to streamlined integrations of decentralized technological infrastructure in payments, applications, hyper ledgers, supply chains, and more..",
+		images: "https://www.codiste.com/assets/images/main/Blockchain.png",
+		url: 'https://www.codiste.com/blockchain-development-company/'
+	},
+	alternates: {
+		canonical: 'https://www.codiste.com/blockchain-development-company',
+	}
 };
 
 const limit = 3
 const category = 47
 
 const BlockChainDevelopment = () => {
-	const canonicalUrl = "https://www.codiste.com/blockchain-development-company";
 	return (
 		<div>
-			<Head>
-				<link rel="canonical" href={canonicalUrl} />
-			</Head>
 			<script
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.blockChainService) }}

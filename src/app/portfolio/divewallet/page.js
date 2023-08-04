@@ -5,7 +5,17 @@ import DiveWalletSlider from "@/app/component/career/diwalletcaseSlider";
 
 export const metadata = {
 	title: "DiveWallet | Crypto Development services | Codiste",
-	description: "We develops a highly secured crypto wallet ‘Divewallet’ that supports well known EVM based blockchains like Ethereum, Binance, Polygon and Solana."
+	description: "We develops a highly secured crypto wallet ‘Divewallet’ that supports well known EVM based blockchains like Ethereum, Binance, Polygon and Solana.",
+	images: "https://www.codiste.com/assets/images/diwallet-case/Dive Wallet.png",
+	openGraph: {
+		title: "DiveWallet | Crypto Development services | Codiste",
+		description: "We develops a highly secured crypto wallet ‘Divewallet’ that supports well known EVM based blockchains like Ethereum, Binance, Polygon and Solana.",
+		images: "https://www.codiste.com/assets/images/diwallet-case/Dive Wallet.png",
+		url: 'https://www.codiste.com/portfolio/divewallet/'
+	},
+	alternates: {
+		canonical: 'https://www.codiste.com/portfolio/divewallet',
+	}
 };
 
 const DivewalletPortfolio = () => {

@@ -5,8 +5,17 @@ import React from "react";
 
 export const metadata = {
 	title: "Apollo Marketplace | Blockchain Development Services",
-	description:
-		"A decentralized Launchpad platform named Apollo Marketplace, aimed at enabling users with investment diversification in the most profitable way.",
+	description:"A decentralized Launchpad platform named Apollo Marketplace, aimed at enabling users with investment diversification in the most profitable way.",
+	images: "https://www.codiste.com/assets/images/case-appolo/Apollo.png",
+	openGraph: {
+		title: "Apollo Marketplace | Blockchain Development Services",
+		description:"A decentralized Launchpad platform named Apollo Marketplace, aimed at enabling users with investment diversification in the most profitable way.",
+		images: "https://www.codiste.com/assets/images/case-appolo/Apollo.png",
+		url: 'https://www.codiste.com/portfolio/apollo-marketplace/'
+	},
+	alternates: {
+		canonical: 'https://www.codiste.com/portfolio/apollo-marketplace',
+	}
 };
 
 const ApolloPortfolio = () => {

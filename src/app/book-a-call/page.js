@@ -3,7 +3,17 @@ import Calendly from "../component/bookACall/calendar";
 
 export const metadata = {
     title: "Schedule a Call with Codiste Expert Now | Codiste",
-    description: "Got stuck? Get your way out, you're just a click away! Your questions are most welcome."
+    description: "Got stuck? Get your way out, you're just a click away! Your questions are most welcome.",
+    images: "https://www.codiste.com/assets/images/featuredImg.webp",
+	openGraph: {
+		title: "Schedule a Call with Codiste Expert Now | Codiste",
+        description: "Got stuck? Get your way out, you're just a click away! Your questions are most welcome.",
+		images: "https://www.codiste.com/assets/images/featuredImg.webp",
+		url: 'https://www.codiste.com/book-a-call/'
+	},
+    alternates: {
+		canonical: 'https://codiste.com/book-a-call',
+	}
 };
 
 const BookACALL = () => {

@@ -4,8 +4,17 @@ import React from "react";
 
 export const metadata = {
 	title: "ML Estimation | Machine Learning  Services | Codiste",
-	description:
-		"HVAC industry is a highly competitive field, and with so many contractors vying for the same projects, it can be difficult to stand out and win",
+	description:"HVAC industry is a highly competitive field, and with so many contractors vying for the same projects, it can be difficult to stand out and win",
+	images: "https://www.codiste.com/assets/images/case-ml/MLEstimation.png",
+	openGraph: {
+		title: "ML Estimation | Machine Learning  Services | Codiste",
+		description:"HVAC industry is a highly competitive field, and with so many contractors vying for the same projects, it can be difficult to stand out and win",
+		images: "https://www.codiste.com/assets/images/case-ml/MLEstimation.png",
+		url: 'https://www.codiste.com/portfolio/ml-estimation/'
+	},
+	alternates: {
+		canonical: 'https://www.codiste.com/portfolio/ml-estimation',
+	}
 };
 
 const MLPortfolio = () => {

@@ -7,10 +7,11 @@ import Industries from "../component/service/industries";
 import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import mainServiceList from "../data/services/mainServiceList";
-import { Helmet } from 'react-helmet';
 import Link from "next/link";
-import { DefaultSeo } from "next-seo";
-import Head from "next/head";
+import "../../style.css";
+import "../../external.css";
+import "../../Newstyle.css";
+
 
 const limit = 4;
 const category = "47,43,55,6,57";
@@ -18,12 +19,9 @@ const category = "47,43,55,6,57";
 const ServicePageContent = () => {
 	const [serviceCount, setServiceCount] = useState(6);
 	const [totalServiceCount, setTotalServiceCount] = useState(null);
-	const canonicalUrl = "https://www.codiste.com/services";
+
 	return (
 		<div>
-			<Head>
-				<link rel="canonical" href={canonicalUrl} />
-			</Head>
 			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>

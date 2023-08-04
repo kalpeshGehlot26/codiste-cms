@@ -10,8 +10,17 @@ import MLindustries from "../component/service/MLindustries";
 
 export const metadata = {
 	title: "Machine Learning Model development",
-	description:
-		"Codiste delivers challenging Machine learning  Model development services with scalable, maintainable, and efficient coding standards. Contact us now!!",
+	description: "Codiste delivers challenging Machine learning  Model development services with scalable, maintainable, and efficient coding standards. Contact us now!!",
+	images: "https://www.codiste.com/assets/images/Service-machine/ML_Model/ML Model Development.webp",
+	openGraph: {
+		title: "Machine Learning Model development",
+		description: "Codiste delivers challenging Machine learning  Model development services with scalable, maintainable, and efficient coding standards. Contact us now!!",
+		images: "https://www.codiste.com/assets/images/Service-machine/ML_Model/ML Model Development.webp",
+		url: 'https://www.codiste.com/machine-learning-model-development/'
+	},
+	alternates: {
+		canonical: 'https://www.codiste.com/machine-learning-model-development',
+	}
 };
 const limit = 3;
 const category = 56;

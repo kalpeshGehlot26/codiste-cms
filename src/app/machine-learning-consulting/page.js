@@ -10,8 +10,17 @@ import MLindustries from "../component/service/MLindustries";
 
 export const metadata = {
   title: "Machine Learning Consulting | Codiste",
-  description:
-    "Maximize potential with expert Machine Learning Consulting. Custom ML model development, seamless integration, efficient data preprocessing, and ongoing support",
+  description: "Maximize potential with expert Machine Learning Consulting. Custom ML model development, seamless integration, efficient data preprocessing, and ongoing support",
+  images: "https://www.codiste.com/assets/images/Service-machine/Machine_inner/Machine Learning Consulting Services.webp",
+	openGraph: {
+		title: "Machine Learning Consulting | Codiste",
+    description: "Maximize potential with expert Machine Learning Consulting. Custom ML model development, seamless integration, efficient data preprocessing, and ongoing support",
+		images: "https://www.codiste.com/assets/images/Service-machine/Machine_inner/Machine Learning Consulting Services.webp",
+		url: 'https://www.codiste.com/machine-learning-consulting/'
+	},
+  alternates: {
+		canonical: 'https://www.codiste.com/machine-learning-consulting',
+	}
 };
 const limit = 3;
 const category = 56;

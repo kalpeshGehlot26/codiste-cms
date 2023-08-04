@@ -6,7 +6,17 @@ import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 
 export const metadata = {
 	title: "Explore Career Opportunities with Blockchain Development Company | Codiste",
-	description: "As a blockchain development company, we're rapidly growing and seeking innovative team members to join us. Explore exciting career opportunities now!!"
+	description: "As a blockchain development company, we're rapidly growing and seeking innovative team members to join us. Explore exciting career opportunities now!!",
+	images: "https://www.codiste.com/assets/images/main/Career_.png",
+	openGraph: {
+		title: "Enterprise-Grade Metaverse Development Company | Codiste",
+		description: "Explore our metaverse development services and embark on a journey into the decentralized digital universe. Embrace the power of the Metaverse services now!!",
+		images: "https://www.codiste.com/assets/images/main/Career_.png",
+		url: 'https://www.codiste.com/career/'
+	},
+	alternates: {
+		canonical: 'https://www.codiste.com/career',
+	}
 };
 
 const Career = () => {
@@ -177,7 +187,7 @@ const Career = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-4 col-md-6 col-12 pb-3 ">
+						{/* <div className="col-lg-4 col-md-6 col-12 pb-3 ">
 							<div className="service-block p-4 h-100 d-flex flex-column justify-content-between">
 								<div>
 									<h3 className="secondsec-head">
@@ -192,7 +202,7 @@ const Career = () => {
 									<a href="#apply-now" className="apply-btn">Apply Now</a>
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

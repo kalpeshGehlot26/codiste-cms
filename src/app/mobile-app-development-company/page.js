@@ -9,8 +9,17 @@ import jsonData from "../data/schema";
 
 export const metadata = {
 	title: "Mobile App Development Company | Codiste",
-	description:
-		"Let's experience the best-in-class mobile app development services for lightning-fast, bug-free apps that exceed expectations and drive user engagement.",
+	description: "Let's experience the best-in-class mobile app development services for lightning-fast, bug-free apps that exceed expectations and drive user engagement.",
+	images: "https://www.codiste.com/assets/images/main/Mobile App Development.png",
+	openGraph: {
+		title: "Mobile App Development Company | Codiste",
+		description: "Let's experience the best-in-class mobile app development services for lightning-fast, bug-free apps that exceed expectations and drive user engagement.",
+		images: "https://www.codiste.com/assets/images/main/Mobile App Development.png",
+		url: 'https://www.codiste.com/mobile-app-development-company/'
+	},
+	alternates: {
+		canonical: 'https://www.codiste.com/mobile-app-development-company',
+	}
 };
 
 const limit = 3;

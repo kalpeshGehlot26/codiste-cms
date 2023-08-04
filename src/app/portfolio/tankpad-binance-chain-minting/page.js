@@ -3,8 +3,17 @@ import React from "react";
 import Link from "next/link";
 export const metadata = {
 	title: "Tankpad | Binance Chain Minting | NFT Marketplace | Codiste",
-	description:
-		"Tankpad has a curated selection of NFTs, a fair marketplace with purchasing limits, and allows users to easily manage their digital assets by transferring NFTs to other wallet",
+	description: "Tankpad has a curated selection of NFTs, a fair marketplace with purchasing limits, and allows users to easily manage their digital assets by transferring NFTs to other wallet",
+	images: "https://www.codiste.com/assets/images/case-tankpad/Tankpad.png",
+	openGraph: {
+		title: "Tankpad | Binance Chain Minting | NFT Marketplace | Codiste",
+		description: "Tankpad has a curated selection of NFTs, a fair marketplace with purchasing limits, and allows users to easily manage their digital assets by transferring NFTs to other wallet",
+		images: "https://www.codiste.com/assets/images/case-tankpad/Tankpad.png",
+		url: 'https://www.codiste.com/portfolio/tankpad-binance-chain-minting/'
+	},
+	alternates: {
+		canonical: 'https://www.codiste.com/portfolio/tankpad-binance-chain-minting',
+	}
 };
 
 const TankpadPortfolio = () => {

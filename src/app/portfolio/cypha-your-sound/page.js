@@ -4,7 +4,17 @@ import React from "react";
 
 export const metadata = {
 	title: "CYPHA | Mobile App Development Services | Codiste",
-	description: "Talent Search App is a gamified platform for aspiring and established musicians to showcase their talents, connect with other music lovers, and earn rewards."
+	description: "Talent Search App is a gamified platform for aspiring and established musicians to showcase their talents, connect with other music lovers, and earn rewards.",
+	images: "https://www.codiste.com/assets/images/case-cypha/Cypha.png",
+	openGraph: {
+		title: "CYPHA | Mobile App Development Services | Codiste",
+		description: "Talent Search App is a gamified platform for aspiring and established musicians to showcase their talents, connect with other music lovers, and earn rewards.",
+		images: "https://www.codiste.com/assets/images/case-cypha/Cypha.png",
+		url: 'https://www.codiste.com/portfolio/cypha-your-sound/'
+	},
+	alternates: {
+		canonical: 'https://www.codiste.com/portfolio/cypha-your-sound',
+	}
 };
 
 const CyphaPortfolio = () => {

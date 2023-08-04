@@ -1,10 +1,22 @@
 import React from "react";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
+import "../../style.css";
+import "../../external.css";
+import "../../Newstyle.css";
 
 export const metadata = {
 	title: "Best Blockchain and AI Development Company | Contact Us | Codiste",
-	description:
-		"Contact us to learn how our blockchain and AI development solutions can enhance the security, transparency, and efficiency of your tech operations.",
+	description: "Contact us to learn how our blockchain and AI development solutions can enhance the security, transparency, and efficiency of your tech operations.",
+	images: "https://www.codiste.com/assets/images/main/Contact_Us.png",
+	openGraph: {
+		title: "Best Blockchain and AI Development Company | Contact Us | Codiste",
+		description: "Contact us to learn how our blockchain and AI development solutions can enhance the security, transparency, and efficiency of your tech operations.",
+		images: "https://www.codiste.com/assets/images/main/Contact_Us.png",
+		url: 'https://www.codiste.com/contact/'
+	},
+	alternates: {
+		canonical: 'https://www.codiste.com/contact',
+	}
 };
 
 const page = () => {

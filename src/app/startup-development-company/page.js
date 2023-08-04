@@ -7,8 +7,17 @@ import jsonData from "../data/schema";
 
 export const metadata = {
 	title: "Startup Development Company | Codiste",
-	description:
-		"Codiste offers startup development services for entrepreneurs with comprehensive tech-support and guidance to navigate each step towards success.",
+	description: "Codiste offers startup development services for entrepreneurs with comprehensive tech-support and guidance to navigate each step towards success.",
+	images: "https://www.codiste.com/assets/images/main/Start Up Development_.png",
+	openGraph: {
+		title: "Startup Development Company | Codiste",
+		description: "Codiste offers startup development services for entrepreneurs with comprehensive tech-support and guidance to navigate each step towards success.",
+		images: "https://www.codiste.com/assets/images/main/Start Up Development_.png",
+		url: 'https://www.codiste.com/startup-development-company/'
+	},
+	alternates: {
+		canonical: 'https://www.codiste.com/startup-development-company',
+	}
 };
 
 const limit = 3;

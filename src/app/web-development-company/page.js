@@ -9,8 +9,17 @@ import jsonData from "../data/schema";
 
 export const metadata = {
 	title: "Web Development Company | Codiste",
-	description:
-		"Codiste web development services offer website development support and technical assistance to build secure, scalable, stunning, and robust web applications.",
+	description: "Codiste web development services offer website development support and technical assistance to build secure, scalable, stunning, and robust web applications.",
+	images: "https://www.codiste.com/assets/images/main/Web Development_.png",
+	openGraph: {
+		title: "Web Development Company | Codiste",
+		description: "Codiste web development services offer website development support and technical assistance to build secure, scalable, stunning, and robust web applications.",
+		images: "https://www.codiste.com/assets/images/main/Web Development_.png",
+		url: 'https://www.codiste.com/web-development-company/'
+	},
+	alternates: {
+		canonical: 'https://www.codiste.com/web-development-company',
+	}
 };
 
 const limit = 3;
