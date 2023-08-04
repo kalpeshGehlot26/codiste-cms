@@ -11,14 +11,28 @@ export async function getPosts(page) {
     //         page: response.headers['x-wp-totalpages']
     //     };
     // }
-    const data = { page: page }
-    const response = await axios.post("/api/getPosts", data, {
+
+    // const data = { page: page }
+    // const response = await axios.post("/api/getPosts", data, {
+    //     headers: {
+    //         "Content-Type": "application/json",
+    //     }
+	// })
+
+    const response = await fetch(`/api/getPosts?pagesNumbers=${page}`, {
+        method: "GET",
         headers: {
-            "Content-Type": "application/json",
-        }
-	})
-    if(response && response?.data?.data) {
-        return response?.data?.data
+          "Content-Type": "application/json",
+          cache: 'force-cache',
+          revalidate: 60, //3600
+          'Cache-Control': 'public, max-age=3600'
+        },
+    });
+  
+    const _response = await response?.json();
+
+    if(_response && _response?.data) {
+        return _response?.data
     }
     
     return null;

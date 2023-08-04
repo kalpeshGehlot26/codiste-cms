@@ -12,8 +12,8 @@ const Posts = () => {
 		setLoading(true);
 		getPosts(page)
 			.then((data) => {
-				setPosts((prevState) => [...prevState, ...data.data]);
-				setTotalPostCount(data.totalCount);
+				setPosts((prevState) => [...prevState, ...data?.data]);
+				setTotalPostCount(data?.totalCount);
 			})
 			.catch((error) => console.error(error))
 			.finally(() => setLoading(false));
