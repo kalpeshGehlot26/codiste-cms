@@ -1,5 +1,8 @@
 import React from "react";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
+import "../../style.css";
+import "../../external.css";
+import "../../Newstyle.css";
 
 export const metadata = {
 	title: "Best Blockchain and AI Development Company | Contact Us | Codiste",

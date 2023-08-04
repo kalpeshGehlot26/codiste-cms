@@ -11,6 +11,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/main/firstsecimg.png",
 		url: 'https://www.codiste.com/services/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/services',
+	}
 };
 
 const page = () => {

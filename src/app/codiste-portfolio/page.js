@@ -3,6 +3,9 @@ import ClientSlider from "../component/Home/clientSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import CaseStudyList from "../component/CaseStudyList/caseStudyList";
 import Link from "next/link";
+import "../../style.css";
+import "../../external.css";
+import "../../Newstyle.css";
 
 export const metadata = {
 	title: "Showcasing Our Blockchain and AI Development Solutions | Portfolio",
