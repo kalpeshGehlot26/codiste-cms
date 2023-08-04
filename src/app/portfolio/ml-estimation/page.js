@@ -12,6 +12,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/case-ml/MLEstimation.png",
 		url: 'https://www.codiste.com/portfolio/ml-estimation/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/portfolio/ml-estimation',
+	}
 };
 
 const MLPortfolio = () => {

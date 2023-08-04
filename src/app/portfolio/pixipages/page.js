@@ -12,6 +12,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/case-pixi/Pixipages.png",
 		url: 'https://www.codiste.com/portfolio/pixipages/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/portfolio/pixipages',
+	}
 };
 
 const PixipagesPortfolio = () => {

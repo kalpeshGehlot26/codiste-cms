@@ -12,6 +12,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/case-cypha/Cypha.png",
 		url: 'https://www.codiste.com/portfolio/cypha-your-sound/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/portfolio/cypha-your-sound',
+	}
 };
 
 const CyphaPortfolio = () => {

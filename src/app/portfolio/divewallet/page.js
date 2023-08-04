@@ -13,6 +13,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/diwallet-case/Dive Wallet.png",
 		url: 'https://www.codiste.com/portfolio/divewallet/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/portfolio/divewallet',
+	}
 };
 
 const DivewalletPortfolio = () => {

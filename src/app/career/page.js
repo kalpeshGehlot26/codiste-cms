@@ -14,6 +14,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/main/Career_.png",
 		url: 'https://www.codiste.com/career/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/career',
+	}
 };
 
 const Career = () => {
@@ -184,7 +187,7 @@ const Career = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-4 col-md-6 col-12 pb-3 ">
+						{/* <div className="col-lg-4 col-md-6 col-12 pb-3 ">
 							<div className="service-block p-4 h-100 d-flex flex-column justify-content-between">
 								<div>
 									<h3 className="secondsec-head">
@@ -199,7 +202,7 @@ const Career = () => {
 									<a href="#apply-now" className="apply-btn">Apply Now</a>
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

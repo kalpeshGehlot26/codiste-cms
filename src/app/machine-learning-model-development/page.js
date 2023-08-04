@@ -18,6 +18,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/Service-machine/ML_Model/ML Model Development.webp",
 		url: 'https://www.codiste.com/machine-learning-model-development/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/machine-learning-model-development',
+	}
 };
 const limit = 3;
 const category = 56;

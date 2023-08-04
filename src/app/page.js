@@ -12,6 +12,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/featuredImg.webp",
 		url: 'https://www.codiste.com/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/',
+	}
 };
 
 export default function Home() {

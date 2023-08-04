@@ -12,6 +12,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/case-coinxpad/Coinxpad.png",
 		url: 'https://www.codiste.com/portfolio/coinxpad/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/portfolio/coinxpad',
+	}
 };
 
 const CoinxpadPortfolio = () => {

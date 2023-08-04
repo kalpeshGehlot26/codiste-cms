@@ -18,6 +18,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/Service-machine/Machine_inner/Machine Learning Consulting Services.webp",
 		url: 'https://www.codiste.com/machine-learning-consulting/'
 	},
+  alternates: {
+		canonical: 'https://www.codiste.com/machine-learning-consulting',
+	}
 };
 const limit = 3;
 const category = 56;

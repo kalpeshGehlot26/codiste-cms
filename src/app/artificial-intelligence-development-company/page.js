@@ -17,6 +17,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/main/AI_Development_.png",
 		url: 'https://www.codiste.com/artificial-intelligence-development-company/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/artificial-intelligence-development-company',
+	}
 };
 
 const limit = 3

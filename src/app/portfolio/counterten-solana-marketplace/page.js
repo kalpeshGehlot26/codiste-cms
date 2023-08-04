@@ -12,6 +12,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/case-couter10/Counterten.png",
 		url: 'https://www.codiste.com/portfolio/counterten-solana-marketplace/'
 	},
+  alternates: {
+		canonical: 'https://www.codiste.com/portfolio/counterten-solana-marketplace',
+	}
 };
 
 const CounterTenPortfolio = () => {

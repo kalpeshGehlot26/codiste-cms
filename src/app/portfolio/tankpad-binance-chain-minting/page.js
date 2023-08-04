@@ -11,6 +11,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/case-tankpad/Tankpad.png",
 		url: 'https://www.codiste.com/portfolio/tankpad-binance-chain-minting/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/portfolio/tankpad-binance-chain-minting',
+	}
 };
 
 const TankpadPortfolio = () => {

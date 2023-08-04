@@ -14,6 +14,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/main/Contact_Us.png",
 		url: 'https://www.codiste.com/contact/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/contact',
+	}
 };
 
 const page = () => {

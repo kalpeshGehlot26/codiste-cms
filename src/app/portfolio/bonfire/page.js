@@ -12,6 +12,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/case-bonfire/Bonfire.png",
 		url: 'https://www.codiste.com/portfolio/bonfire/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/portfolio/bonfire',
+	}
 };
 
 const BornfirePortfolio = () => {

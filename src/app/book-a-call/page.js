@@ -11,6 +11,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/featuredImg.webp",
 		url: 'https://www.codiste.com/book-a-call/'
 	},
+    alternates: {
+		canonical: 'https://codiste.com/book-a-call',
+	}
 };
 
 const BookACALL = () => {

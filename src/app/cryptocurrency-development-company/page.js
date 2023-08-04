@@ -17,6 +17,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/main/Cryptocurrency Development_.png",
 		url: 'https://www.codiste.com/cryptocurrency-development-company/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/cryptocurrency-development-company',
+	}
 };
 
 const limit = 3

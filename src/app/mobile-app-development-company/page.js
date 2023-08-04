@@ -17,6 +17,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/main/Mobile App Development.png",
 		url: 'https://www.codiste.com/mobile-app-development-company/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/mobile-app-development-company',
+	}
 };
 
 const limit = 3;

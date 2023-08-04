@@ -13,6 +13,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/case-appolo/Apollo.png",
 		url: 'https://www.codiste.com/portfolio/apollo-marketplace/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/portfolio/apollo-marketplace',
+	}
 };
 
 const ApolloPortfolio = () => {

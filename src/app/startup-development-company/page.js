@@ -15,6 +15,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/main/Start Up Development_.png",
 		url: 'https://www.codiste.com/startup-development-company/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/startup-development-company',
+	}
 };
 
 const limit = 3;

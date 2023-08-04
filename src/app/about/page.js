@@ -13,6 +13,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/about/about-us.png",
 		url: 'https://www.codiste.com/about/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/about',
+	}
 };
 
 const About = () => {

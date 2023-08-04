@@ -17,6 +17,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/main/Machine Learning.png",
 		url: 'https://www.codiste.com/machine-learning-development-company/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/machine-learning-development-company',
+	}
 };
 
 const limit = 3;

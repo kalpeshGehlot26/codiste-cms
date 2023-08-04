@@ -17,6 +17,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/main/Our Portfolio.png",
 		url: 'https://www.codiste.com/codiste-portfolio/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/codiste-portfolio',
+	}
 };
 
 const CodistePortfolio = () => {

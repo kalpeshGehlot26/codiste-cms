@@ -18,6 +18,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/Service-AI/AI_consult/AI_consult.webp",
 		url: 'https://www.codiste.com/ai-consulting/'
 	},
+    alternates: {
+		canonical: 'https://www.codiste.com/ai-consulting',
+	}
 };
 
 const limit = 3

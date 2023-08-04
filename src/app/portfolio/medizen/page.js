@@ -12,6 +12,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/case-medizen/Medizen.png",
 		url: 'https://www.codiste.com/portfolio/medizen/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/portfolio/medizen',
+	}
 };
 
 const MedizenPortfolio = () => {

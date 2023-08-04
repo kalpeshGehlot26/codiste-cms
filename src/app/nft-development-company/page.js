@@ -18,6 +18,9 @@ export const metadata = {
 		images: "https://www.codiste.com/assets/images/main/NFT Development.png",
 		url: 'https://www.codiste.com/nft-development-company/'
 	},
+	alternates: {
+		canonical: 'https://www.codiste.com/nft-development-company',
+	}
 };
 
 const limit = 3;
