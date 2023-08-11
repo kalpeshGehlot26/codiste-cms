@@ -7,32 +7,42 @@ import ComputerVision from "../data/services/service-items/ComputerVision"
 import jsonData from "../data/schema";
 import MLindustries from "../component/service/MLindustries";
 
-
-// export const metadata = {
-//   title: "Machine Learning Consulting | Codiste",
-//   description:
-//     "Maximize potential with expert Machine Learning Consulting. Custom ML model development, seamless integration, efficient data preprocessing, and ongoing support",
-// };
+export const metadata = {
+  title: "Computer Vision | Machine Learning | Codiste",
+  description:
+    "From pattern detection to semantic segmentation AI is everywhere. Experience AI-powered computer vision with codiste next-level services.",
+  images: "https://www.codiste.com/assets/images/Service-machine/Computer_Vision/Computer Vision Development.webp",
+  openGraph: {
+    title: "Computer Vision | Machine Learning | Codiste",
+    description:
+      "From pattern detection to semantic segmentation AI is everywhere. Experience AI-powered computer vision with codiste next-level services.",
+    images: "https://www.codiste.com/assets/images/Service-machine/Computer_Vision/Computer Vision Development.webp",
+    url: 'https://www.codiste.com/cryptocurrency-development-company/'
+  },
+  alternates: {
+    canonical: 'https://www.codiste.com/computer-vision-development',
+  }
+};
 const limit = 3;
 const category = 56;
 const computervision = () => {
   return (
     <div>
-      {/* <script
+      <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.MLConsult) }}
-      /> */}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.ComputerVision) }}
+      />
       <div className="bg-color">
         <div className="container container-fluid">
           <section>
             <div className="row firstsec ">
               <div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
                 <div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
-                  <h1 className="all-head">Machine Learning Consulting</h1>
+                  <h1 className="all-head">Computer Vision Development </h1>
                   <p className="all-p ">
-                    Every Business is connected with data, To get the meaningful outcome from existing data which helps business to Analyse, Predict and take corrective actions ML can play major role.Codiste provides Machine Learning consulting which helps data dependent business to Analyse, predict and take corrective action to Grow and be one step ahead from competitor and market.
+                    We build intelligent systems using sophisticated algorithms, frameworks, data processing techniques, and methods. Our expertise lies in modern algorithms and Machine Learning approaches that enable us to deliver unparalleled accuracy and efficiency in various apps related to image recognition, face analysis, visual search, object detection, movement recognition, video analysis, and more.
                   </p>
-                  <Link href="/contact" className="book-btn">Connect with ML Consultant</Link>
+                  <Link href="/contact" className="book-btn">Connect with Experts</Link>
                 </div>
                 <div className="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0"><img className='img-fluid' alt='Machine Learning' src="assets/images/Service-machine/Computer_Vision/Computer Vision Development.webp" /></div>
               </div>
@@ -46,9 +56,9 @@ const computervision = () => {
         <section>
           <div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
             <h2 className="all-head text-center">
-              Our Top-Most Machine Learning Consulting Services
+              The Next-level Computer Vision Services We Offer
             </h2>
-            <p className="secondsec-p text-center p-4">We are the ML consulting service provider, combining the best technologies with the latest trends while delivering  a well-strategized set of Machine Learning development services that unlock business insights. </p>
+            <p className="secondsec-p text-center p-4">We focus on delivering computer vision solutions combining technologies with creativity that empower humans, solve high pain points of businesses, and make their experience more immersive.</p>
           </div>
           <ServiceInnerItems serviceItems={ComputerVision} />
         </section>
@@ -58,9 +68,9 @@ const computervision = () => {
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head text-center">
-            Why Us for Computer Vision Software Development Service?
+              Why Us for Computer Vision Software Development Service?
             </h2>
-            <p className="secondsec-p text-center">Codiste delivers Machine Learning Consulting combining clients’ requirements with the latest technologies.</p>
+            <p className="secondsec-p text-center">Experts at Codiste work with a mission to deliver engaging and intuitive user experiences from enterprises to startups with their computer vision solutions. </p>
           </div>
           <div className='row g-4'>
             <div className='col-xl-4 col-md-6 col-sm-12'>
@@ -74,7 +84,7 @@ const computervision = () => {
                   />
                 </div>
                 <h3 className="">Experienced Professionals</h3>
-                <p className="secondsec-p">Using our technical expertise, industrial frameworks, and multi-platform experience, we get you there in record time (usually 40% faster development). How ? as we been in this industry, so Research part can be reduced and we know which technique to use for specific usecase.
+                <p className="secondsec-p">We have immense knowledge of AI development technologies using techniques while building, managing, and continually improving computer vision software for robotics, medical imaging, and more.
                 </p>
               </div>
             </div>
@@ -91,7 +101,7 @@ const computervision = () => {
                 </div>
 
                 <h3>High-Touch Interactions</h3>
-                <p className="secondsec-p">Ensuring to use the best technology stack to develop Machine Learning solutions with essential features and integrations to make it scalable and efficient. Data is Everything and once we have Data, the right tech will help to analyse data and make it visualisable result, which turns into quick decision for business.
+                <p className="secondsec-p">Our success relies on teamwork, including our clients. We work for our clients as partners in their journey towards digital transformation and have a high-touch interaction to solve possible computer vision challenges.
                 </p>
               </div>
             </div>
@@ -107,7 +117,7 @@ const computervision = () => {
                 </div>
 
                 <h3>Customized Computer Vision</h3>
-                <p className="secondsec-p">Being a reputed Machine Learning Consultancy, we prioritize seamless communication by adapting clients’ time zones to deliver project’s updates via email and call. We make sure there is daily conversations happening and communication is alive.
+                <p className="secondsec-p">We offer a customized computer vision solution pertaining to automating tasks like security, monitoring, etc., through our centralized and standardized sources. This allows our clients to scale their businesses quickly through visual understanding.
                 </p>
               </div>
             </div>
@@ -122,7 +132,7 @@ const computervision = () => {
                   />
                 </div>
                 <h3>Proactive Work</h3>
-                <p className="secondsec-p">Delivering hack-proof ML solutions by maintaining 100% security in every phase of development lifecycle, right from the conceptualization stage to deployment.
+                <p className="secondsec-p">Our computer vision software development services include 24/7 proactive monitoring and advanced analytics capabilities. This helps us to maintain our work efficiency above the par level and to reduce all possible issues as and when detected.
                 </p>
               </div>
             </div>
@@ -139,7 +149,7 @@ const computervision = () => {
                 </div>
 
                 <h3>Comprehensive Solution</h3>
-                <p className="secondsec-p">We have Domain Expertise and Our ML team consists of Machine Learning Consultants, design and development specialists, QA and deployment engineers, who have potential of delivering industry’s best solutions.
+                <p className="secondsec-p">From detecting and recognizing defects, events, actions, and incidents, our computer vision engineers do real-time analysis to foster enterprises with end-to-end computer vision development solutions.
                 </p>
               </div>
             </div>
@@ -154,7 +164,7 @@ const computervision = () => {
                   />
                 </div>
                 <h3>Support Help</h3>
-                <p className="secondsec-p">Using our technical expertise, industrial frameworks, and multi-platform experience, we get you there in record time (usually 40% faster development).
+                <p className="secondsec-p">We are always eager to assist our clients with AI solutions. Reaching our support staff is a simple thing. Just click a button on our chat support and easily access our support services related to object detection, face recognition, OCR data extraction, etc.
                 </p>
               </div>
             </div>
@@ -170,7 +180,6 @@ const computervision = () => {
             </h2>
             <p className="secondsec-p text-center">We assist organizations in a seamless journey of utilizing AI-driven insights, from defining clear business goals to implementing and monitoring ML models.</p>
           </div>
-
           <div className="row g-5 mx-0" >
             <div className="col-xl-4 col-md-6 col-sm-12">
               <div className="Approachcard h-100">
@@ -256,10 +265,10 @@ const computervision = () => {
       <div className="blackdiv px-3">
         <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
           <p>
-            Hire Machine Learning Consultants to Get Strategic Guidance Now!
+            Want to Hire Expert for End-to-end Custom Computer Vision Development Services?
           </p>
           <Link href="/book-a-call" className="book-btn">
-            Get Expert Help
+            Request A Call
           </Link>
         </div>
       </div>
@@ -378,12 +387,9 @@ const computervision = () => {
                     <img
                       className="img-fluid" loading="lazy" alt="Autokeras"
                       src="assets/images/tech/Autokeras.png"
-
                     />
                     <p className="text-uppercase">Autokeras</p>
                   </li>
-
-
                 </ul>
               </div>
             </div>
@@ -396,9 +402,9 @@ const computervision = () => {
           <section>
             <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
               <h2 className="all-head">Industries We Serve</h2>
-              <p className="all-p text-center">
+              {/* <p className="all-p text-center">
                 Being a trusted Machine Learning Consultant, we have worked with a wide range of sectors on a global scale and have been a part of their growth stories.
-              </p>
+              </p> */}
             </div>
             <MLindustries />
           </section>
@@ -447,7 +453,6 @@ const computervision = () => {
         </div>
       </div>
 
-
       <div className="py-5">
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -470,7 +475,7 @@ const computervision = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapseOne"
                 >
-                  What is the role of machine learning?
+                  What is OCR? How does this technology work?
                 </button>
               </h2>
               <div
@@ -480,39 +485,7 @@ const computervision = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  The role of Machine Learning is to develop algorithms and models that enable computers to learn from unstructured data and make predictions without explicit programming. Machine learning technology is widely used for natural language processing, autonomous vehicles, fraud detection, image and speech recognition. As Machine Learning algorithms analyze large amounts of data that are further used to make informed decisions.
-                </div>
-              </div>
-            </div>
-            <div className="accordion-item">
-              <h2
-                className="accordion-header"
-                id="flush-headingTwo"
-              >
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseTwo"
-                >
-                  What are the 3 basic machine learning algorithms?
-                </button>
-              </h2>
-              <div
-                id="flush-collapseTwo"
-                className="accordion-collapse collapse"
-                aria-labelledby="flush-headingTwo"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div className="accordion-body">
-                  <ul>
-                    The three basic machine learning algorithms are:
-                    <li> Supervised Learning algorithm learns from labeled examples to classify or predict new data. It trains the model by providing input data along with corresponding output labels.</li>
-                    <li> Unsupervised Learning algorithm analyzes unlabeled data to identify patterns or structures within the data. This algorithm focuses on finding inherent relationships or clusters in the data as it doesn’t have predefined output labels.</li>
-                    <li>Reinforcement learning algorithms learn through an interactive process of trial and error. It maximizes rewards or minimizes penalties by including an agent that learns to make actions from feedback obtained from the environment.</li>
-                  </ul>
+                  OCR abbreviated as Optical Character Recognition, which is a set of processes that converts a text image into a machine-readable text format. Mainly, this technique is used to detect the presence of printed or handwritten texts in digital images. The OCR technique uses a scanner to copy the texts from the image and utilizes AI-powered software to identify the languages or styles of writing.
                 </div>
               </div>
             </div>
@@ -529,7 +502,7 @@ const computervision = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapseThree"
                 >
-                  What is the difference between AI and machine learning?
+                  Which language is used for Optical Character Recognition (OCR) development?
                 </button>
               </h2>
               <div
@@ -539,7 +512,7 @@ const computervision = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Artificial Intelligence (AI) encompasses the simulation of human intelligence in machines to perform various tasks where as machine learning refers to the subset of AI that involves developing algorithms and models to identify patterns and make decisions without being explicitly programmed.
+                  Optical Character Recognition (OCR) deals with the computer vision problem naturally, so utilizing Python programming would be the best fit. Python is the most widely used simple programming language for computer vision/deep learning functionality. Python OCR technology will be completed by deploying the open-source OCR engine Tesseract.
                 </div>
               </div>
             </div>
@@ -556,7 +529,7 @@ const computervision = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapsefour"
                 >
-                  What is machine learning consulting?
+                  What is semantic segmentation?
                 </button>
               </h2>
               <div
@@ -566,7 +539,7 @@ const computervision = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Machine learning consulting is a professional service offered by experts to businesses, who want to leverage ML techniques like clustering, deep learning, decision trees, and so on to address complex challenges and drive data-driven decision-making. These consultants possess expertise in statistical analysis, data science methodologies, and ML algorithms through which they help businesses to harness the power of machine learning to automate processes, gain insights, and achieve their business goals.
+                  Semantic segmentation is a process of categorizing every pixel of an image into a class. It simply treats multiple objects of a class into a single entity by labeling them differently by using pixel boundaries. Semantic segmentation can easily identify objects like cars, people and so easily from an image.
                 </div>
               </div>
             </div>
@@ -583,7 +556,7 @@ const computervision = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapsefive"
                 >
-                  Who are machine learning consultants?
+                  What is the difference between semantic segmentation and instance segmentation?
                 </button>
               </h2>
               <div
@@ -593,10 +566,46 @@ const computervision = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Machine learning consultants are professionals, who have in-depth knowledge of machine learning algorithms, data science, and statistical analysis. These consultants provide assistance to businesses looking for ML techniques for solving challenges, automating processes and making data-driven decisions. Consultant Machine Learning also have expertise in working with Machine Learning tools and methodologies and thus, they work with clients to develop customized solutions.
+                  Semantic segmentation is a widely used image segmentation process and instance segmentation for basic object recognition in computer vision projects. The semantic segmentation process groups the displayed objects into predefined classes or categories. On the other hand, the instance segmentation process is used to identify the specific entities or objects within a class.
                 </div>
               </div>
             </div>
+
+            <div className="accordion-item">
+              <h2
+                className="accordion-header"
+                id="flush-headingTwo"
+              >
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  How does pattern detection work?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                className="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  <ul>
+                    Pattern detection is a process of identifying the regularities and patterns in the data using Machine Learning (ML) algorithms. The working procedure of data pattern detection depends upon various notions. It can be either supervised or unsupervised approaches. <br />Phases involved in data pattern detections are:
+                    <li> Sensing</li>
+                    <li> Segmentation</li>
+                    <li> Feature Extraction</li>
+                    <li> Classification</li>
+                    <li> Post Processing</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
             <div className="accordion-item">
               <h2
                 className="accordion-header"
@@ -610,7 +619,7 @@ const computervision = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapsesix"
                 >
-                  Can I hire developers in less than 48 hours through Codiste?
+                  What is pattern detection?
                 </button>
               </h2>
               <div
@@ -620,7 +629,7 @@ const computervision = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Of course! You can hire Machine Learning developers or consultants within 48 business hours. Contact us to discuss your requirements with our experts.
+                  Pattern detection can be defined as the process of classifying the data based on the gained knowledge through information extracted from the data analysis. The data pattern distinguishing can be performed using algorithms powered by Artificial Intelligence (AI) and Machine Learning (ML) Tools. It is widely used to make data predictions and to improve decision-making processes.
                 </div>
               </div>
             </div>
@@ -637,7 +646,7 @@ const computervision = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapseseven"
                 >
-                  Why is machine learning consulting required ?
+                  How does an image generator work?
                 </button>
               </h2>
               <div
@@ -647,7 +656,62 @@ const computervision = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Machine learning is an emerging technology, and ML consulting helps businesses with technical guidance on historical, labeled data, and helps them to predict the value of targeted value and classification. Further, it also helps them to enhance productivity by searching for valuable insights from the company’s database. We at Codiste offer Machine Learning consulting services that optimize their business operation, improve profitability, and drive innovation and growth.
+                  Image generators powered by Artificial Intelligence (AI) use the most advanced machine learning (ML) algorithms like Artificial Neural Networks (ANN) to generate realistic images. The presence of biological neural networks in ANN processes the provided information to learn and creates new images interpreting the text prompt and mimicking the art form.
+                </div>
+              </div>
+            </div>
+
+            <div className="accordion-item">
+              <h2
+                className="accordion-header"
+                id="flush-headingeight"
+              >
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseeight"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseeight"
+                >
+                  How is an image generator from the text?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseeight"
+                className="accordion-collapse collapse"
+                aria-labelledby="flush-headingeight"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  In their generative AI models, image generators use neural networks to identify data patterns and structures. The generative AI models combine with the Machine Language (ML) algorithms to learn from large datasets and generate new images according to input parameters.
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2
+                className="accordion-header"
+                id="flush-headingnine"
+              >
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapsenine"
+                  aria-expanded="false"
+                  aria-controls="flush-collapsenine"
+                >
+                  Can I use AI Image Generator Free For My Website Images?
+                </button>
+              </h2>
+              <div
+                id="flush-collapsenine"
+                className="accordion-collapse collapse"
+                aria-labelledby="flush-headingnine"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  Yes! You can make use of an AI Image Generator for Free to create images for your website. So many online AI image generators allow you to create anything that doesn't exist in real life. AI Image generators have the potential to generate highly realistic unique images that are not found in photo libraries, icons, and 3D objects by just using your words and imagination.
                 </div>
               </div>
             </div>
@@ -693,7 +757,6 @@ const computervision = () => {
           </div>
         </div>
       </div>
-
 
       <div className="bg-color py-5">
         <div className="container container-fluid">
@@ -875,7 +938,7 @@ const computervision = () => {
           <div className="row  d-flex align-items-center">
             <div className="col-lg-6 col-md-12  needsec p-4">
               <h2>
-                Let us help to optimize, automate and modernize your business operations.
+                We deliver computer vision solutions with the future in mind
               </h2>
             </div>
             <div className="col-lg-6 col-md-12 ">

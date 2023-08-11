@@ -14,24 +14,25 @@ const MLList = [
     {
         title: "Computer Vision Development",
         description: "Codiste provides computer vision development services that allow businesses to analyze and interpret user-generated visual data more effectively and precisely than ever. We develop customized computer vision solutions enabling machines to accurately identify, classify, and analyze images and videos from the real world, objects, and text.",
-        slug:"computer-vision-development"
+        slug: "computer-vision-development"
     },
     {
         title: "ML Integration",
-        description: "We specialize in integrating machine learning solutions into existing business processes and platforms. Our team of hands-on experienced individuals can help you identify critical progressive areas where machine learning can provide the most value. We provide strategic development and deployment of custom machine learning models to integrate into multiple systems."
+        description: "We specialize in integrating machine learning solutions into existing business processes and platforms. Our team of hands-on experienced individuals can help you identify critical progressive areas where machine learning can provide the most value. We provide strategic development and deployment of custom machine learning models to integrate into multiple systems.",
+        slug: "machine-learning-Integration"
     },
-
     {
-        title: "Data Analytics and Visualization",
-        description: "Codiste offers data analytics and visualization for machine learning and development services to help you make sense of your data autonomously. Our team of machine learning experts can help you collect and analyze loads of data from multiple sources and develop custom data visualization tools to explore and understand your data quickly."
+        title: "Deep Learning Development",
+        description: "Our deep learning development services are catering businesses to use the power of neural networks to solve complex problems. We develop custom-built deep learning models that can analyze and interpret large datasets and provide valuable and accurate insights to help your organization make better decisions.",
+        slug: "deep-learning"
     },
     {
         title: "NLP Development",
         description: "Our natural language processing (NLP) development services allow you to analyze and understand human language in the form of a prompt or input. We develop custom NLP models that can process large volumes of text data and extract relevant information to provide insights to help your business make accurate decisions."
     },
     {
-        title: "Deep Learning Development",
-        description: "Our deep learning development services are catering businesses to use the power of neural networks to solve complex problems. We develop custom-built deep learning models that can analyze and interpret large datasets and provide valuable and accurate insights to help your organization make better decisions. Codiste offers enterprise-grade deep learning solutions that are transformational for various industries, including healthcare, finance, and retail."
+        title: "Data Analytics and Visualization",
+        description: "Codiste offers data analytics and visualization for machine learning and development services to help you make sense of your data autonomously. Our team of machine learning experts can help you collect and analyze loads of data from multiple sources and develop custom data visualization tools to explore and understand your data quickly."
     },
     {
         title: "ML Development",
