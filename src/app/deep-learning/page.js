@@ -81,10 +81,10 @@ const DeepLearning = () => {
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head text-center">
-              Why Codiste for ML Integration Service?
+              Why Us for Deep Learning Service?
             </h2>
             <p className="secondsec-p text-center">
-              We bring innovation with ML Integration. Our services with machine learning deliver experience with quality, transparency and with proper communication.
+              Codiste has expertise to perform analytical and automation with their expertise in deep learning AI methods.
             </p>
           </div>
           <div className="row g-4">
@@ -95,12 +95,12 @@ const DeepLearning = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/ML_Integration/Expertise in Seamless Integration.png"
+                    src="assets/images/Service-machine/Deep_Learning/Neural Architectures Expertise.png"
                   />
                 </div>
-                <h3 className="">Expertise in Seamless Integration</h3>
+                <h3 className="">Neural Architectures Expertise</h3>
                 <p className="secondsec-p">
-                  We have a proven track record of integrating Machine Learning (ML) technologies into ecosystems. Our team is skilled in utilising APIs, microservices and containerization to ensure an effortless connection. Incorporating ML into your existing infrastructure we maximise its potential. Enhance its capabilities.
+                  Our skilled team leads the­ way in designing complex neural archite­ctures. We specialise in creating unique models that show intricate patterns in your data, utilising our expe­rtise in convolutional, perennial, and atte­ntion-based networks. These­ specialised designs offe­r unmatched precision and gene­rate valuable insights.
                 </p>
               </div>
             </div>
@@ -112,12 +112,12 @@ const DeepLearning = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/ML_Integration/Mastering Data Preprocessing.png"
+                    src="assets/images/Service-machine/Deep_Learning/Unleashing Data Insights.png"
                   />
                 </div>
-                <h3>Mastering Data Preprocessing</h3>
+                <h3>Unleashing Data Insights</h3>
                 <p className="secondsec-p">
-                  Data is the foundation of ML. Your data will be cleaned, converted, and formatted for the best model performance thanks to our data preprocessing mastery. We address issues like missing values, outliers, and feature scaling, laying the groundwork for precise forecasts and useful insights.
+                  We have the key to the gems concealed in unstructured data. We derive meaning and structure from raw text, audio, and visual inputs using deep learning techniques such as convolutional neural networks (CNNs) and generative adversarial networks (GANs), translating them into actionable insights.
                 </p>
               </div>
             </div>
@@ -128,13 +128,13 @@ const DeepLearning = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/ML_Integration/Model Performance and Monitoring.png"
+                    src="assets/images/Service-machine/Deep_Learning/Customised Model Optimisation.png"
                   />
                 </div>
 
-                <h3>Model Performance and Monitoring</h3>
+                <h3>Customised Model Optimisation</h3>
                 <p className="secondsec-p">
-                  In addition to integration, we also excel in these areas. Our solution's extensive performance metrics and real-time monitoring can monitor model correctness, spot abnormalities, and get prompt insights for any adjustments that might be required to ensure the long-term success of your ML deployment.
+                  Our deep learning model optimisation approach is nothing short of masterful. We fine-tune hyperparameters, use advanced regularisation, and employ advanced optimisation methods. This painstaking refinement produces models with excellent precision, dependability, and the ability to thrive in turbulent conditions.
                 </p>
               </div>
             </div>
@@ -145,12 +145,12 @@ const DeepLearning = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/ML_Integration/Varied Domain Knowledge.png"
+                    src="assets/images/Service-machine/Deep_Learning/Transfer Learning Approaches.png"
                   />
                 </div>
-                <h3>Varied Domain Knowledge</h3>
+                <h3>Transfer Learning Approaches</h3>
                 <p className="secondsec-p">
-                  We excel in many different industries. We deliver extensive domain expertise that matches ML solutions with particular sector peculiarities across industries including banking, healthcare, manufacturing, and e-commerce. This will assure you that the integrated models will succeed technically and strategically in line with your corporate objectives.
+                  We utilise transfer learning approaches as an innovation accelerator. We accelerate development while guaranteeing that your models can easily overcome unexpected difficulties by rethinking pre-trained models using knowledge distillation and domain adaptation.
                 </p>
               </div>
             </div>
@@ -162,13 +162,13 @@ const DeepLearning = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/ML_Integration/Governance & Compliance Assurance.png"
+                    src="assets/images/Service-machine/Deep_Learning/Explainability Techniques Implementation.png"
                   />
                 </div>
 
-                <h3>Governance & Compliance Assurance</h3>
+                <h3>Explainability Techniques Implementation</h3>
                 <p className="secondsec-p">
-                  Data ethics and legal compliance are our top priorities. Our Governance and Compliance Assurance includes explainability methodologies, model documentation, and version control. We guarantee your ML integration is both responsible and effective by adhering to industry standards and laws like GDPR and HIPAA.
+                  Our AI fabric is knitted with transparency. Explainability techniques such as saliency maps, counterfactual explanations, and concept attribution are used by us to reveal the subtle strands of your deep learning model's decision-making process.  You will acquire insights and create trust with intelligent AI.
                 </p>
               </div>
             </div>
@@ -179,12 +179,12 @@ const DeepLearning = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/ML_Integration/Collaboration-Based Partnership.png"
+                    src="assets/images/Service-machine/Deep_Learning/Support and Collaboration.png"
                   />
                 </div>
-                <h3>Collaboration-Based Partnership</h3>
+                <h3>Support and Collaboration</h3>
                 <p className="secondsec-p">
-                  Not only do we provide solutions, but we also create Collaborative Partnerships. Understanding your particular needs, coordinating with your objectives, and keeping you updated along the integration path are all part of our collaboration. Our experience is complemented by your team's, resulting in a positive synergy that promotes success and innovation.
+                  Our shared experience is your path to profound learning. We provide extensive assistance surpassing  deployment, from data curation and model training to deployment tactics and monitoring systems. We allow your team to navigate the complexities of deep learning and drive innovation independently with a collaborative approach.
                 </p>
               </div>
             </div>
@@ -316,10 +316,10 @@ const DeepLearning = () => {
       <div className="blackdiv px-3">
         <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
           <p>
-            Hire our ML Experts to minimise Application Integration complexities
+            Looking for data scientists to develop Data-driven products and solutions?
           </p>
           <Link href="/book-a-call" className="book-btn">
-            Connect Now!
+            Contact Us Now!
           </Link>
         </div>
       </div>
@@ -617,7 +617,7 @@ const DeepLearning = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapseOne"
                 >
-                  What is ML integration?
+                  What is Deep learning?
                 </button>
               </h2>
               <div
@@ -627,7 +627,7 @@ const DeepLearning = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Machine Learning (ML) integration is about deploying the ML models into the existing systems or databases of a business. Businesses can enhance data processing operations with ML integration. Improving customer servicing operations, automating business processes, and making insightful business decisions become easy for businesses with the ML integration. Also, the accuracy rate of business data improves a lot by the deployment of ML Models.
+                  Deep learning is a kind of technique used on computers to process data easily and naturally. It teaches computers how to learn and handle complex tasks successfully just as the human brain does. These days, deep learning is widely used in all business verticals to gain more accuracy without any human intervention in data processing.
                 </div>
               </div>
             </div>
@@ -644,7 +644,7 @@ const DeepLearning = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapseTwo"
                 >
-                  How to integrate machine learning with an android app?
+                  What is the difference between deep learning vs. machine learning?
                 </button>
               </h2>
               <div
@@ -654,19 +654,13 @@ const DeepLearning = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Integrating Machine learning (ML) with Android apps has become quite common among businesses from all verticals to enhance their business operations.  The integration process can be easily done with the below-given tools and frameworks along with hiring an expert ML developer.
                   <ul>
                     <li>
-                      TensorFlow Lite
+                      Machine Learning (ML) uses AI-based computer algorithms to examine and learn the given data for making informed decisions. On the other hand, Deep Learning uses artificial neural networks to process tasks mimicking human brain operations.
                     </li>
                     <li>
-                      ML Kit
+                      ML works efficiently on smaller data sets. However, deep learning requires a large amount of data.
                     </li>
-                    <li>
-                      PyTorch Mobile
-                    </li>
-                    <li>Caffe2</li>
-                    <li>Scikit-learn</li>
                   </ul>
                 </div>
               </div>
@@ -684,7 +678,7 @@ const DeepLearning = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapseThree"
                 >
-                  What are the 4 types of integration?
+                  What are the real-time case studies of Deep learning?
                 </button>
               </h2>
               <div
@@ -694,20 +688,7 @@ const DeepLearning = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Integrating two businesses through a merger of takeover can be performed based on their nature of operation and the kind of activities they involved. Those two factors determine what type of integration suits better for merging.<br />
-                  Here are the lists of 4 common Integration types widely used by businesses across the world to merge with others.
-                  <ul>
-                    <li>
-                      Horizontal Integration
-                    </li>
-                    <li>
-                      Vertical Backward Integration
-                    </li>
-                    <li>
-                      Vertical Forward Integration
-                    </li>
-                    <li>Conglomerate Integration</li>
-                  </ul>
+                  Deep learning models are very effective in the areas where large volumes of data are used to generate values or make predictions. By using those very diverse and unstructured data, Deep Learning models enable machines to learn and solve complex problems. Some of the real time examples are Virtual assistance, automatic translation, driverless autonomous cars, chatbots, facial recognition and so.
                 </div>
               </div>
             </div>
@@ -724,7 +705,7 @@ const DeepLearning = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapsefour"
                 >
-                  How to integrate machine learning with websites?
+                  How does deep learning work?
                 </button>
               </h2>
               <div
@@ -734,24 +715,64 @@ const DeepLearning = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  As personalization becomes inevitable for businesses, developers integrate Machine Learning (ML) to business websites or web applications to achieve better user experience. Integration ML into web requires appropriate web framework, essential infrastructure, and a perfect ML model for integrating with website/web apps.<br />
-                  Here are the lists of top 3 commonly used ML frameworks by the developers to deploy ML Models on Web platforms.
-                  <ul>
-                    <li>
-                      TensorFlow
-                    </li>
-                    <li>
-                      PyTorch
-                    </li>
-                    <li>
-                      Scikit-learn
-                    </li>
-
-                  </ul>
+                  Deep learning technology makes computer systems learn and process things just as the human brain does. It stimulates the human brain when it comes to recognizing patterns and classifying tasks for successful completion. In simple words, a computer system that uses deep learning does the similar process of a toddler learning and identifying a cat.
                 </div>
               </div>
             </div>
-
+            <div className="accordion-item">
+              <h2
+                className="accordion-header"
+                id="flush-headingfive"
+              >
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapsefive"
+                  aria-expanded="false"
+                  aria-controls="flush-collapsefive"
+                >
+                  How does Deep learning work in the education industry?
+                </button>
+              </h2>
+              <div
+                id="flush-collapsefive"
+                className="accordion-collapse collapse"
+                aria-labelledby="flush-headingfive"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  Deep learning in the education sector helps students to enhance their learning qualities by focusing more on understanding. It promotes students to learn principles and concepts that develop learning skills. Moreover, students engage more in the learning process and develop thinking skills. This makes students more effective in real-world jobs.
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2
+                className="accordion-header"
+                id="flush-headingsix"
+              >
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapsesix"
+                  aria-expanded="false"
+                  aria-controls="flush-collapsesix"
+                >
+                  How is chatbot working with the Deep Learning model?
+                </button>
+              </h2>
+              <div
+                id="flush-collapsesix"
+                className="accordion-collapse collapse"
+                aria-labelledby="flush-headingsix"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  Chatbot with deep learning technology learns everything from the given data or the conversion/interaction between humans. It uses deep neural networks for pattern identification and learning to provide more accurate output. The more data you feed to the chatbot, the more effective and accurate the output.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -797,7 +818,6 @@ const DeepLearning = () => {
           </div>
         </div>
       </div>
-
 
       <div className="bg-color py-5">
         <div className="container container-fluid">
@@ -982,7 +1002,7 @@ const DeepLearning = () => {
           <div className="row  d-flex align-items-center">
             <div className="col-lg-6 col-md-12  needsec p-4">
               <h2>
-                Looking for ML Integration services providers with cross-industry experience?
+                Let’s get connected for comprehensive data analytics services from the best deep learning company.
               </h2>
             </div>
             <div className="col-lg-6 col-md-12 ">
