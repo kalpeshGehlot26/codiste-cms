@@ -622,6 +622,157 @@ const jsonData = {
 			}
 		}]
 	},
+	ComputerVision: {
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [{
+			"@type": "Question",
+			"name": "What is OCR? How does this technology work?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "OCR abbreviated as Optical Character Recognition, which is a set of processes that converts a text image into a machine-readable text format. Mainly, this technique is used to detect the presence of printed or handwritten texts in digital images. The OCR technique uses a scanner to copy the texts from the image and utilizes AI-powered software to identify the languages or styles of writing."
+			}
+		}, {
+			"@type": "Question",
+			"name": "Which language is used for Optical Character Recognition (OCR) development?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Optical Character Recognition (OCR) deals with the computer vision problem naturally, so utilizing Python programming would be the best fit. Python is the most widely used simple programming language for computer vision/deep learning functionality. Python OCR technology will be completed by deploying the open-source OCR engine Tesseract."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is semantic segmentation?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Semantic segmentation is a process of categorizing every pixel of an image into a class. It simply treats multiple objects of a class into a single entity by labeling them differently by using pixel boundaries. Semantic segmentation can easily identify objects like cars, people and so easily from an image."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is the difference between semantic segmentation and instance segmentation?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Semantic segmentation is a widely used image segmentation process and instance segmentation for basic object recognition in computer vision projects. The semantic segmentation process groups the displayed objects into predefined classes or categories. On the other hand, the instance segmentation process is used to identify the specific entities or objects within a class."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How does pattern detection work?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Pattern detection is a process of identifying the regularities and patterns in the data using Machine Learning (ML) algorithms. The working procedure of data pattern detection depends upon various notions. It can be either supervised or unsupervised approaches.Phases involved in data pattern detections are:Sensing, Segmentation, Feature Extraction, Classification,Post Processing."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is pattern detection?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Pattern detection can be defined as the process of classifying the data based on the gained knowledge through information extracted from the data analysis. The data pattern distinguishing can be performed using algorithms powered by Artificial Intelligence (AI) and Machine Learning (ML) Tools. It is widely used to make data predictions and to improve decision-making processes."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How does an image generator work?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Image generators powered by Artificial Intelligence (AI) use the most advanced machine learning (ML) algorithms like Artificial Neural Networks (ANN) to generate realistic images. The presence of biological neural networks in ANN processes the provided information to learn and creates new images interpreting the text prompt and mimicking the art form."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How is an image generator from the text?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "In their generative AI models, image generators use neural networks to identify data patterns and structures. The generative AI models combine with the Machine Language (ML) algorithms to learn from large datasets and generate new images according to input parameters."
+			}
+		}, {
+			"@type": "Question",
+			"name": "Can I use AI Image Generator Free For My Website Images?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Yes! You can make use of an AI Image Generator for Free to create images for your website. So many online AI image generators allow you to create anything that doesn't exist in real life. AI Image generators have the potential to generate highly realistic unique images that are not found in photo libraries, icons, and 3D objects by just using your words and imagination."
+			}
+		}]
+
+	},
+	MLIntegration: {
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [{
+			"@type": "Question",
+			"name": "What is ML integration?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Machine Learning (ML) integration is about deploying the ML models into the existing systems or databases of a business. Businesses can enhance data processing operations with ML integration. Improving customer servicing operations, automating business processes, and making insightful business decisions become easy for businesses with the ML integration. Also, the accuracy rate of business data improves a lot by the deployment of ML Models."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How to integrate machine learning with an android app?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Integrating Machine learning (ML) with Android apps has become quite common among businesses from all verticals to enhance their business operations.  The integration process can be easily done with the below-given tools and frameworks along with hiring an expert ML developer.TensorFlow Lite ML Kit,PyTorch Mobile,Caffe2,Scikit-learn"
+			}
+		}, {
+			"@type": "Question",
+			"name": "What are the 4 types of integration?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Horizontal Integration, Vertical Backward Integration, Vertical Forward Integration, and Conglomerate Integration. Theses 4 common Integration types are widely used by businesses across the world to merge with others. Integrating two businesses through a merger or takeover can be performed based on the nature of the operation and the kind of activities they are involved. Those two factors determine what type of integration suits better for merging."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How to integrate machine learning with websites?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "As personalization becomes inevitable for businesses, developers integrate Machine Learning (ML) to business websites or web applications to achieve better user experience. Integration ML into web requires appropriate web framework, essential infrastructure, and a perfect ML model for integrating with website/web apps.  Here are the lists of top 3 commonly used ML frameworks by the developers to deploy ML Models on Web platforms.TensorFlow,PyTorch,Scikit-learn"
+			}
+		}]
+
+	},
+	DeepLearnig: {
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [{
+			"@type": "Question",
+			"name": "What is Deep learning?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Deep learning is a kind of technique used on computers to process data easily and naturally.It teaches computers how to learn and handle complex tasks successfully just as the human brain does.These days, deep learning is widely used in all business verticals to gain more accuracy without any human intervention in data processing."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is the difference between deep learning vs.machine learning?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Machine Learning(ML) uses AI- based computer algorithms to examine and learn the given data for making informed decisions.On the other hand, Deep Learning uses artificial neural networks to process tasks mimicking human brain operations.ML works efficiently on smaller data sets.However, deep learning requires a large amount of data."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What are the real- time case studies of Deep learning ? ",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Deep learning models are very effective in the areas where large volumes of data are used to generate values or make predictions.By using those very diverse and unstructured data, Deep Learning models enable machines to learn and solve complex problems.Some of the real- time examples are Virtual assistance, automatic translation, driverless autonomous cars, chatbots, facial recognition and so"
+			}
+		}, {
+			"@type": "Question",
+			"name": "How does deep learning work?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Deep learning technology makes computer systems learn and process things just as the human brain does.It stimulates the human brain when it comes to recognizing patterns and classifying tasks for successful completion.In simple words, a computer system that uses deep learning does a similar process to a toddler learning and identifying a cat."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How is chatbot working with the Deep Learning model?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Chatbot with deep learning technology learns everything from the given data or the conversion/ interaction between humans.It uses deep neural networks for pattern identification and learning to provide more accurate output.The more data you feed to the chatbot, the more effective and accurate the output."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How does Deep learning work in the education industry?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Deep learning in the education sector helps students to enhance their learning qualities by focusing more on understanding.It promotes students to learn principles and concepts that develop learning skills.Moreover, students engage more in the learning process and develop thinking skills.This makes students more effective in real- world jobs."
+			}
+		}]
+
+	},
 	AIConsult: {
 
 		"@context": "https://schema.org",
@@ -697,40 +848,84 @@ const jsonData = {
 		"@context": "https://schema.org",
 		"@type": "FAQPage",
 		"mainEntity": [{
-		  "@type": "Question",
-		  "name": "What is an ML Model?",
-		  "acceptedAnswer": {
-			"@type": "Answer",
-			"text": "ML Model or Machine Learning model is a computational algorithm that, by learning the pattern and deciphering the connection between data, aids in making decisions without any explicit programming rules. Using the acquired knowledge, it generalizes and performs tasks on either new data or old ones. It is the root of many kinds of applications namely image recognition, natural language processing, and recommendation engine, among others."
-		  }
-		},{
-		  "@type": "Question",
-		  "name": "How to train an ML model?",
-		  "acceptedAnswer": {
-			"@type": "Answer",
-			"text": "Training the ML model infers that one will teach the model to recognize patterns or algorithms and then generate predictions based on that. Training an ML model is difficult and is usually a professional's work. It includes many steps, like collecting and preprocessing, and splitting the data with their weight. Then comes training the model and adding a hyperparameter. Finally, you can focus on model evaluation as well as optimization. Once you have completely trained the ML model, it is time to deploy the model into your system."
-		  }
-		},{
-		  "@type": "Question",
-		  "name": "How to evaluate ML model performance?",
-		  "acceptedAnswer": {
-			"@type": "Answer",
-			"text": "ML model performance can be evaluated through various techniques like Receiver Operating Characteristic (ROC) Curve, Train-Test Split, Confusion Matrix, Precision-Recall (PR) Curve, R2 Score,  K-Fold Cross Validation, and many more. This will depend on the use case and what we are trying to achieve."
-		  }
-		},{
-		  "@type": "Question",
-		  "name": "What is a classification model in machine learning?",
-		  "acceptedAnswer": {
-			"@type": "Answer",
-			"text": "The classification model in machine learning is a type of supervised learning model. It can help you to infer the categorical class or even label the features of the inputs. A classification model ensures that you can learn from the data that has been labeled. The major focus of a model like the classification model in machine learning is to make any predictions concerning new and unseen data."
-		  }
-		},{
-		  "@type": "Question",
-		  "name": "What are the types of ML Models?",
-		  "acceptedAnswer": {
-			"@type": "Answer",
-			"text": "Linear Regression, Neural Networks, SVM, Decision Trees, etc., are common supervised learning algorithms.Most of the ML model techniques can be classified into three main types, i.e. The supervised learning model is trained on labelled data. It requires input-output pairs that include input data with corresponding labelled output data. Linear Regression, Neural Networks, SVM, Decision Trees, etc., are common supervised learning algorithms. An unsupervised learning model is trained on unlabeled data, where the algorithm tries to search out structures or patterns in the input data without explicit output labels. Principal Component Analysis, K-Means Clustering, Hierarchical Clustering, etc., are common unsupervised learning algorithms. The reinforcement Learning Model maximises a cumulative reward by including an agent learning to make decisions and act in an environment based on the feedback. Deep Q Networks (DQNs), Q-Learning, etc., are well-known reinforcement learning algorithms. Other than the above mentioned, Transfer Learning Models, Generative Models, Ensemble Learning Models, and Instance-based Learning Models are some less popular machine learning models."
-		  }
+			"@type": "Question",
+			"name": "What is an ML Model?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "ML Model or Machine Learning model is a computational algorithm that, by learning the pattern and deciphering the connection between data, aids in making decisions without any explicit programming rules. Using the acquired knowledge, it generalizes and performs tasks on either new data or old ones. It is the root of many kinds of applications namely image recognition, natural language processing, and recommendation engine, among others."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How to train an ML model?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Training the ML model infers that one will teach the model to recognize patterns or algorithms and then generate predictions based on that. Training an ML model is difficult and is usually a professional's work. It includes many steps, like collecting and preprocessing, and splitting the data with their weight. Then comes training the model and adding a hyperparameter. Finally, you can focus on model evaluation as well as optimization. Once you have completely trained the ML model, it is time to deploy the model into your system."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How to evaluate ML model performance?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "ML model performance can be evaluated through various techniques like Receiver Operating Characteristic (ROC) Curve, Train-Test Split, Confusion Matrix, Precision-Recall (PR) Curve, R2 Score,  K-Fold Cross Validation, and many more. This will depend on the use case and what we are trying to achieve."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is a classification model in machine learning?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "The classification model in machine learning is a type of supervised learning model. It can help you to infer the categorical class or even label the features of the inputs. A classification model ensures that you can learn from the data that has been labeled. The major focus of a model like the classification model in machine learning is to make any predictions concerning new and unseen data."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What are the types of ML Models?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Linear Regression, Neural Networks, SVM, Decision Trees, etc., are common supervised learning algorithms.Most of the ML model techniques can be classified into three main types, i.e. The supervised learning model is trained on labelled data. It requires input-output pairs that include input data with corresponding labelled output data. Linear Regression, Neural Networks, SVM, Decision Trees, etc., are common supervised learning algorithms. An unsupervised learning model is trained on unlabeled data, where the algorithm tries to search out structures or patterns in the input data without explicit output labels. Principal Component Analysis, K-Means Clustering, Hierarchical Clustering, etc., are common unsupervised learning algorithms. The reinforcement Learning Model maximises a cumulative reward by including an agent learning to make decisions and act in an environment based on the feedback. Deep Q Networks (DQNs), Q-Learning, etc., are well-known reinforcement learning algorithms. Other than the above mentioned, Transfer Learning Models, Generative Models, Ensemble Learning Models, and Instance-based Learning Models are some less popular machine learning models."
+			}
+		}]
+	},
+	NLPDevelopment: {
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [{
+			"@type": "Question",
+			"name": "How does text classification in Python work?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Text classification in Python involves a human annotator categorizing the texts by interpreting the content. It is a time-consuming and expensive operation but still results in more accuracy.Text classification in Python applies Machine Learning (ML), Natural Language Processing (NLP), and other AI-powered techniques. This method quickly classifies text much faster with more accuracy."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "What is the function of sentiment analysis?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Sentiment analysis, also known as opinion mining, generally classifies the texts into various sentiments. It is closely related to textual emotion recognition, both designed to identify the opinions or attitudes of the given texts."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "How does sentiment analysis work in Python?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Sentiment analysis is computer software designed to work like the human brain in identifying texts. It uses 3 main approaches for classifying the readers, the Rule-based approach, Machine Learning (ML) approach, and the Hybrid approach.When it comes to working in the Python programming language, sentiment analysis goes through various stages, the first stage Pre-processing which involves text tokenization, text lemmatization, and stop-word removal filters. The second stage involves keyword analysis for detecting the text's emotional elements to deliver better outputs."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "What is Speech Recognition?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Speech Recognition is powered by artificial intelligence. The speech recognition model enables devices and computers to understand and convert human speech into computer-readable forms. This tech is widely used in businesses involved in customer service, healthcare, education, entertainment, and so on to analyze the voice and languages of what consumers say and convert them into print-ready dictation."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "What is natural language generation?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "A subfield of AI and NLP, Natural Language Generation (NLG) is a set of processes that transform structured data into a human-like text. Natural Language Generation systems are using techniques from deep learning, Machine Learning, and NLP to convert data into text.  NLG systems can create personalized messages, business reports, product descriptions, etc."
+			}
 		}]
 	}
 };

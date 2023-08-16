@@ -12,7 +12,7 @@ const ServiceInnerItems = ({ serviceItems }) => {
 
 	return (
 		<div >
-			<div className="row  firstsec-link">
+			<div className="row  firstsec-link justify-content-center">
 				{serviceItems?.map((service, index) => {
 					{/* console.log("service", service) */ }
 					if (serviceCount < index + 1) return;

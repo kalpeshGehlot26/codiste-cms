@@ -12,15 +12,15 @@ export const metadata = {
   title: "Machine Learning Consulting | Codiste",
   description: "Maximize potential with expert Machine Learning Consulting. Custom ML model development, seamless integration, efficient data preprocessing, and ongoing support",
   images: "https://www.codiste.com/assets/images/Service-machine/Machine_inner/Machine Learning Consulting Services.webp",
-	openGraph: {
-		title: "Machine Learning Consulting | Codiste",
+  openGraph: {
+    title: "Machine Learning Consulting | Codiste",
     description: "Maximize potential with expert Machine Learning Consulting. Custom ML model development, seamless integration, efficient data preprocessing, and ongoing support",
-		images: "https://www.codiste.com/assets/images/Service-machine/Machine_inner/Machine Learning Consulting Services.webp",
-		url: 'https://www.codiste.com/machine-learning-consulting/'
-	},
+    images: "https://www.codiste.com/assets/images/Service-machine/Machine_inner/Machine Learning Consulting Services.webp",
+    url: 'https://www.codiste.com/machine-learning-consulting/'
+  },
   alternates: {
-		canonical: 'https://www.codiste.com/machine-learning-consulting',
-	}
+    canonical: 'https://www.codiste.com/machine-learning-consulting',
+  }
 };
 const limit = 3;
 const category = 56;
@@ -171,7 +171,7 @@ const MLConsutling = () => {
         </div>
       </div>
 
-      <div className="py-5 mt-5">
+      <div className="py-5">
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head text-center">
@@ -265,7 +265,7 @@ const MLConsutling = () => {
       <div className="blackdiv px-3">
         <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
           <p>
-            Hire Machine Learning Consultants to Get Strategic Guidance
+            Want to Hire Machine Learning Consultants?
           </p>
           <Link href="/book-a-call" className="book-btn">
             Get Expert Help
