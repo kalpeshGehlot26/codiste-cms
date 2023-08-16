@@ -131,7 +131,6 @@ const DeepLearning = () => {
                     src="assets/images/Service-machine/Deep_Learning/Customised Model Optimisation.png"
                   />
                 </div>
-
                 <h3>Customised Model Optimisation</h3>
                 <p className="secondsec-p">
                   Our deep learning model optimisation approach is nothing short of masterful. We fine-tune hyperparameters, use advanced regularisation, and employ advanced optimisation methods. This painstaking refinement produces models with excellent precision, dependability, and the ability to thrive in turbulent conditions.
@@ -1002,7 +1001,7 @@ const DeepLearning = () => {
           <div className="row  d-flex align-items-center">
             <div className="col-lg-6 col-md-12  needsec p-4">
               <h2>
-                Let’s get connected for comprehensive data analytics services from the best deep learning company.
+                Let’s get connected for comprehensive data analytics services from the best deep learning company
               </h2>
             </div>
             <div className="col-lg-6 col-md-12 ">

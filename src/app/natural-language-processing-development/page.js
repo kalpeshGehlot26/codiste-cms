@@ -92,7 +92,7 @@ const NLPDevelopment = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/ML_Integration/Expertise in Seamless Integration.png"
+                    src="assets/images/Service-machine/NLP_Development/AI Expertise.png"
                   />
                 </div>
                 <h3 className="">AI Expertise</h3>
@@ -109,7 +109,7 @@ const NLPDevelopment = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/ML_Integration/Mastering Data Preprocessing.png"
+                    src="assets/images/Service-machine/NLP_Development/Our Flexible Approach.png"
                   />
                 </div>
                 <h3>Our Flexible Approach</h3>
@@ -125,7 +125,7 @@ const NLPDevelopment = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/ML_Integration/Model Performance and Monitoring.png"
+                    src="assets/images/Service-machine/NLP_Development/Prodigious R&D.png"
                   />
                 </div>
                 <h3>Prodigious R&D</h3>
@@ -141,7 +141,7 @@ const NLPDevelopment = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/ML_Integration/Varied Domain Knowledge.png"
+                    src="assets/images/Service-machine/NLP_Development/Exceptional Value-Delivery.png"
                   />
                 </div>
                 <h3>Exceptional Value-Delivery</h3>
@@ -158,7 +158,7 @@ const NLPDevelopment = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/ML_Integration/Governance & Compliance Assurance.png"
+                    src="assets/images/Service-machine/NLP_Development/Cross-Industry Capability.png"
                   />
                 </div>
 
@@ -175,7 +175,7 @@ const NLPDevelopment = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-machine/ML_Integration/Collaboration-Based Partnership.png"
+                    src="assets/images/Service-machine/NLP_Development/Competitive Pricing.png"
                   />
                 </div>
                 <h3>Competitive Pricing</h3>
@@ -188,7 +188,7 @@ const NLPDevelopment = () => {
         </div>
       </div>
 
-      <div className="py-5">
+      {/* <div className="py-5">
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head text-center">
@@ -303,6 +303,77 @@ const NLPDevelopment = () => {
                   model's dependability and efficiency over
                   time.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+      <div className="py-5">
+        <div className="container container-fluid">
+          <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+            <h2 className="all-head text-center">
+              Our Approach Towards NLP
+            </h2>
+          </div>
+          <div className="row g-4">
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              <div className="nlpservice-box">
+                <div className="nlp-backimage1">
+                  <h3 className="text-center">Identifying the issue</h3>
+                  <p className="secondsec-p text-center">
+                    We will pinpoint the crucial areas where AI can add the greatest value while collaborating directly with your business. Meetings with all parties involved are required in order to create a plan for action.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              <div className="nlpservice-box">
+                <div className="nlp-backimage2">
+                  <h3 className="text-center">Data exploration and concept testing</h3>
+                  <p className="secondsec-p text-center">
+                    We'll assess whether you have the business information required to develop useful machine learning models. We locate new data collection frameworks for your business as necessary.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              <div className="nlpservice-box">
+                <div className="nlp-backimage3">
+                  <h3 className="text-center">Draught of the deliverables</h3>
+                  <p className="secondsec-p text-center">
+                    We'll discuss with you potential AI use cases for your business based on our meetings and data analysis. To arrive at an understanding of the desired result, we shall cooperate.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              <div className="nlpservice-box">
+                <div className="nlp-backimage4">
+                  <h3 className="text-center">Model creation</h3>
+                  <p className="secondsec-p text-center">
+                    To discover the optimum solution, we will construct and apply a variety of machine learning models to your company data. We shall therefore create algorithms that achieve the desired result.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              <div className="nlpservice-box">
+                <div className="nlp-backimage5">
+                  <h3 className="text-center">Application launch</h3>
+                  <p className="secondsec-p text-center">
+                    We incorporate a front-end product or API into the machine learning model to make it easy to use and accessible to the ultimate user.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              <div className="nlpservice-box">
+                <div className="nlp-backimage6">
+                  <h3 className="text-center">Maintenance</h3>
+                  <p className="secondsec-p text-center">
+                    Every system may need maintenance from time to time, and we are delighted to help clients with that.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

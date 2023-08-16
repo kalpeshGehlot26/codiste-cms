@@ -21,7 +21,7 @@ const DeepLearn = [
   },
   {
     title: "Speech Recognition",
-    description: "Implement Speech Recognition skills that understand spoken language, you can embark on a sound trip. We turn audio into transcribed text using deep neural networks and recurrent layers, revolutionising voice assistants, transcription services, and accessibility for the differently-abled."
+    description: "Implement Speech Recognition skills that understand spoken language, you can embark on a sound trip. We turn audio into transcribed text using deep neural networks and recurrent layers, revolutionising voice assistants, transcription services, and accessibility for the differently-abled"
   },
   {
     title: "Language Translation",

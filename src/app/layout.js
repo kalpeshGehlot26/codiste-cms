@@ -21,11 +21,11 @@ export default function RootLayout({ children }) {
 				{/* <meta property="og:type" content="website" /> */}
 				{/* <meta property="og:title" content="Codiste - A leading Blockchain and AI Development Company" /> */}
 				{/* <meta property="og:description" content="Empowering Businesses with Blockchain, AI, AR/VR, Metaverse, NFT Marketplace, and Cryptocurrency development Solutions for business future success." /> */}
-				<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-{/* 
-				<link rel="stylesheet" href="assets/css/style.css" />
-				<link rel="stylesheet" href="assets/css/external.css" />
-				<link rel="stylesheet" href="assets/css/Newstyle.css" /> */}
+				{/* <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> */}
+
+				{/* <link rel="stylesheet" href="assets/css/style.css" />
+				<link rel="stylesheet" href="assets/css/external.css" /> */}
+				{/* <link rel="stylesheet" href="assets/css/Newstyle.css" /> */}
 
 			</head>
 			<body className={inter.className}>
@@ -36,10 +36,10 @@ export default function RootLayout({ children }) {
 				<Footer />
 				<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 				<script type="text/javascript" src="https://widget.clutch.co/static/js/widget.js"></script>
-				<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+				{/* <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 				<script>
 					AOS.init();
-				</script>
+				</script> */}
 			</body>
 		</html>
 	);

@@ -70,7 +70,7 @@ const computervision = () => {
             <h2 className="all-head text-center">
               Why Us for Computer Vision Software Development Service?
             </h2>
-            <p className="secondsec-p text-center">Experts at Codiste work with a mission to deliver engaging and intuitive user experiences from enterprises to startups with their computer vision solutions. </p>
+            <p className="secondsec-p text-center">Experts at Codiste work with a mission to deliver engaging and intuitive user experiences from enterprises to startups with their computer vision solutions.</p>
           </div>
           <div className='row g-4'>
             <div className='col-xl-4 col-md-6 col-sm-12'>
@@ -88,7 +88,6 @@ const computervision = () => {
                 </p>
               </div>
             </div>
-
             <div className='col-xl-4 col-md-6 col-sm-12'>
               <div className='newservice-box h-100'>
                 <div className="text-center">
@@ -99,7 +98,6 @@ const computervision = () => {
                     src="assets/images/Service-machine/Computer_Vision/High-Touch Interactions.png"
                   />
                 </div>
-
                 <h3>High-Touch Interactions</h3>
                 <p className="secondsec-p">Our success relies on teamwork, including our clients. We work for our clients as partners in their journey towards digital transformation and have a high-touch interaction to solve possible computer vision challenges.
                 </p>
@@ -115,7 +113,6 @@ const computervision = () => {
                     src="assets/images/Service-machine/Computer_Vision/Customized Computer Vision.png"
                   />
                 </div>
-
                 <h3>Customized Computer Vision</h3>
                 <p className="secondsec-p">We offer a customized computer vision solution pertaining to automating tasks like security, monitoring, etc., through our centralized and standardized sources. This allows our clients to scale their businesses quickly through visual understanding.
                 </p>
@@ -132,11 +129,10 @@ const computervision = () => {
                   />
                 </div>
                 <h3>Proactive Work</h3>
-                <p className="secondsec-p">Our computer vision software development services include 24/7 proactive monitoring and advanced analytics capabilities. This helps us to maintain our work efficiency above the par level and to reduce all possible issues as and when detected.
+                <p className="secondsec-p"> Our computer vision software development services include 24/7 proactive monitoring and advanced analytics capabilities. This helps us to maintain our work efficiency above the par level and to reduce all possible issues as and when detected.
                 </p>
               </div>
             </div>
-
             <div className='col-xl-4 col-md-6 col-sm-12'>
               <div className='newservice-box h-100'>
                 <div className="text-center">
@@ -147,7 +143,6 @@ const computervision = () => {
                     src="assets/images/Service-machine/Computer_Vision/Comprehensive Solution.png"
                   />
                 </div>
-
                 <h3>Comprehensive Solution</h3>
                 <p className="secondsec-p">From detecting and recognizing defects, events, actions, and incidents, our computer vision engineers do real-time analysis to foster enterprises with end-to-end computer vision development solutions.
                 </p>

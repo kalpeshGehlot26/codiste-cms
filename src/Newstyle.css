@@ -328,6 +328,39 @@ box-shadow: 2px 2px 16px 2px rgba(0,0,0,0.3);
   font-size: 24px;
   color:#fff
 }
+.nlpservice-box{
+  border: 1px solid #000;
+  padding: 20px 30px;
+  height: 100%;
+}
+.nlpservice-box:hover{
+  border: none;
+  box-shadow: 2px 2px 16px 2px rgba(0,0,0,0.2);
+}
+.nlp-backimage1{
+  background: url(../public/assets/images/Service-machine/NLP_Development/process.png);
+  background-repeat: no-repeat;
+}
+.nlp-backimage2{
+  background: url(../public/assets/images/Service-machine/NLP_Development/process2.png);
+  background-repeat: no-repeat;
+}
+.nlp-backimage3{
+  background: url(../public/assets/images/Service-machine/NLP_Development/process3.png);
+  background-repeat: no-repeat;
+}
+.nlp-backimage4{
+  background: url(../public/assets/images/Service-machine/NLP_Development/process4.png);
+  background-repeat: no-repeat;
+}
+.nlp-backimage5{
+  background: url(../public/assets/images/Service-machine/NLP_Development/process5.png);
+  background-repeat: no-repeat;
+}
+.nlp-backimage6{
+  background: url(../public/assets/images/Service-machine/NLP_Development/process6.png);
+  background-repeat: no-repeat;
+}
 
 
 
