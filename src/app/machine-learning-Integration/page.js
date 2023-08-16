@@ -199,7 +199,7 @@ const MLIntegration = () => {
         </div>
       </div>
 
-      <div className="py-5 mt-5">
+      <div className="py-5">
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head text-center">
@@ -753,12 +753,10 @@ const MLIntegration = () => {
                     <li>
                       Scikit-learn
                     </li>
-
                   </ul>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>

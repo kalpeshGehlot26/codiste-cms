@@ -884,7 +884,50 @@ const jsonData = {
 			}
 		}]
 	},
-
+	NLPDevelopment: {
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [{
+			"@type": "Question",
+			"name": "How does text classification in Python work?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Text classification in Python involves a human annotator categorizing the texts by interpreting the content. It is a time-consuming and expensive operation but still results in more accuracy.Text classification in Python applies Machine Learning (ML), Natural Language Processing (NLP), and other AI-powered techniques. This method quickly classifies text much faster with more accuracy."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "What is the function of sentiment analysis?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Sentiment analysis, also known as opinion mining, generally classifies the texts into various sentiments. It is closely related to textual emotion recognition, both designed to identify the opinions or attitudes of the given texts."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "How does sentiment analysis work in Python?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Sentiment analysis is computer software designed to work like the human brain in identifying texts. It uses 3 main approaches for classifying the readers, the Rule-based approach, Machine Learning (ML) approach, and the Hybrid approach.When it comes to working in the Python programming language, sentiment analysis goes through various stages, the first stage Pre-processing which involves text tokenization, text lemmatization, and stop-word removal filters. The second stage involves keyword analysis for detecting the text's emotional elements to deliver better outputs."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "What is Speech Recognition?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Speech Recognition is powered by artificial intelligence. The speech recognition model enables devices and computers to understand and convert human speech into computer-readable forms. This tech is widely used in businesses involved in customer service, healthcare, education, entertainment, and so on to analyze the voice and languages of what consumers say and convert them into print-ready dictation."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "What is natural language generation?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "A subfield of AI and NLP, Natural Language Generation (NLG) is a set of processes that transform structured data into a human-like text. Natural Language Generation systems are using techniques from deep learning, Machine Learning, and NLP to convert data into text.  NLG systems can create personalized messages, business reports, product descriptions, etc."
+			}
+		}]
+	}
 };
 
 export default jsonData;

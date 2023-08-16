@@ -34,9 +34,9 @@ const isWord = (str) => {
 	return alphaNumericFound;
 };
 
-const BlogContent = ({params}) => {
+const BlogContent = ({ params }) => {
 	const pathname = usePathname();
-    const pathUrl = params?.slug; 
+	const pathUrl = params?.slug;
 	const [post, setPost] = useState(null);
 
 	const wordsPerMinute = 225;
@@ -65,7 +65,7 @@ const BlogContent = ({params}) => {
 	}
 
 	const image = post._embedded["wp:featuredmedia"]["0"]?.source_url;
-	const baseURL = `https://www.codiste.com/${pathUrl}`; 
+	const baseURL = `https://www.codiste.com/${pathUrl}`;
 
 	return (
 		<div className="">
@@ -131,12 +131,12 @@ const BlogContent = ({params}) => {
 						</div>
 						<div className="blog-icon d-flex align-items-center justify-content-center me-4">
 							<TwitterShareButton url={baseURL}>
-								<img src="assets/images/twitterNew.png" style={{height: "22px"}}/>
+								<img src="assets/images/twitterNew.png" style={{ height: "22px" }} />
 							</TwitterShareButton>
 						</div>
 						<div className="blog-icon d-flex align-items-center justify-content-center me-4">
 							<LinkedinShareButton url={baseURL}>
-								<img src="assets/images/linkedin.png" style={{height: "27px"}}/>
+								<img src="assets/images/linkedin.png" style={{ height: "27px" }} />
 							</LinkedinShareButton>
 
 						</div>

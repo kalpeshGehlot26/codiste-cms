@@ -1,4 +1,3 @@
-import Link from "next/link";
 const MLList = [
     {
         title: "ML Consulting",
@@ -28,7 +27,8 @@ const MLList = [
     },
     {
         title: "NLP Development",
-        description: "Our natural language processing (NLP) development services allow you to analyze and understand human language in the form of a prompt or input. We develop custom NLP models that can process large volumes of text data and extract relevant information to provide insights to help your business make accurate decisions."
+        description: "Our natural language processing (NLP) development services allow you to analyze and understand human language in the form of a prompt or input. We develop custom NLP models that can process large volumes of text data and extract relevant information to provide insights to help your business make accurate decisions.",
+        slug: "natural-language-processing-development"
     },
     {
         title: "Data Analytics and Visualization",

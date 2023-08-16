@@ -187,22 +187,22 @@ const Career = () => {
 								</div>
 							</div>
 						</div>
-						{/* <div className="col-lg-4 col-md-6 col-12 pb-3 ">
+						<div className="col-lg-4 col-md-6 col-12 pb-3 ">
 							<div className="service-block p-4 h-100 d-flex flex-column justify-content-between">
 								<div>
 									<h3 className="secondsec-head">
-										Python developer
+										Jr.HR Executive
 									</h3>
 									<p className="secondsec-p">
 										No of vacancy : 1 <br />
-										Experience : 0-1 yrs
+										Experience: 1+ years
 									</p>
 								</div>
 								<div>
 									<a href="#apply-now" className="apply-btn">Apply Now</a>
 								</div>
 							</div>
-						</div> */}
+						</div>
 					</div>
 				</div>
 			</div>
