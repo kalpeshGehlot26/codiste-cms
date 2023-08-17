@@ -1,7 +1,10 @@
 .navbarCustom {
   background-color: #000;
 }
-
+.navbarCustom ul{
+  margin-top: 20px;
+  /* width: 1700px; */
+}
 .header-width {
   max-width: 1800px !important;
 }
