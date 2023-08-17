@@ -3,7 +3,6 @@ import ClientSlider from "../component/Home/clientSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
-import ComputerVision from "../data/services/service-items/ComputerVision"
 import jsonData from "../data/schema";
 import MLindustries from "../component/service/MLindustries";
 
@@ -60,7 +59,50 @@ const computervision = () => {
             </h2>
             <p className="secondsec-p text-center p-4">We focus on delivering computer vision solutions combining technologies with creativity that empower humans, solve high pain points of businesses, and make their experience more immersive.</p>
           </div>
-          <ServiceInnerItems serviceItems={ComputerVision} />
+          <div className="row ">
+            <div className=" col-md-6 col-sm-12 pb-3 ">
+              <div className="service-block p-4 h-100">
+                <h2 className="secondsec-head ">
+                  Pattern Detection
+                </h2>
+                <p className="secondsec-p">
+                  Simply put, we use modern pattern recognition techniques to reveal valuable insights concealed within your data. Our pattern detection service utilizes advanced algorithms to identify significant trends and anomalies within vast datasets efficiently. Whether it's financial analysis or future trends, our flexible solution enables you to make informed decisions.
+                </p>
+              </div>
+            </div>
+            <div className=" col-md-6 col-sm-12 pb-3 ">
+              <div className="service-block p-4 h-100">
+                <h2 className="secondsec-head">
+                  Semantic Segmentation
+                </h2>
+                <p className="secondsec-p">
+                  Our Semantic Segmentation Service is at the very edge of computer vision technology, allowing for a more in-depth comprehension of images than ever before. Codiste's team methodically separates photographs into several segments, assigning a distinct class label to each pixel, using modern algorithms and robust neural networks.
+                </p>
+              </div>
+            </div>
+
+            <div className=" col-md-6 col-sm-12 pb-3 ">
+              <div className="service-block p-4 h-100">
+                <h2 className="secondsec-head">
+                  Optical Character Recognition
+                </h2>
+                <p className="secondsec-p">
+                  Experience the convenience of our advanced OCR technology that converts printed and handwritten text into machine-readable digital data. Our OCR service guarantees exceptional accuracy and speed, enabling you to extract vital information from various sources effortlessly. Automate your workflow and boost productivity with our OCR solution.
+                </p>
+              </div>
+            </div>
+            <div className=" col-md-6 col-sm-12 pb-3 ">
+              <div className="service-block p-4 h-100">
+                <h2 className="secondsec-head">
+                  Image Generation and Style Transfer
+                </h2>
+                <p className="secondsec-p">
+                  We are implementing Neural Style Transfer to generate possibilities of AI-powered creativity through our innovative Image Generation and Style Transfer solutions. We seamlessly infuse artistic styles into your images, turning them into awe-inspiring masterpieces that can captivate and amaze the audience.
+                </p>
+              </div>
+            </div>
+          </div>
+
         </section>
       </div>
 
@@ -448,6 +490,7 @@ const computervision = () => {
         </div>
       </div>
 
+
       <div className="py-5">
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -713,6 +756,35 @@ const computervision = () => {
           </div>
         </div>
       </div>
+
+      {/* <div className="bg-color">
+        <div className="container container-fluid">
+          <div className="row d-flex align-items-center justify-content-between mx-0">
+            <div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1">
+              <p className="secondsec-p" style={{ fontSize: "30px", lineHeight: "36px" }}>Our Computer Vision Experts Power Businesses across the AI Ecosystem</p>
+              <div>
+                <Link href="/book-a-call" className="book-btn">
+                  Discuss Your Goal
+                </Link>
+              </div>
+
+            </div>
+            <div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2">
+              <img
+                className="img-fluid"
+                style={{
+                  padding: "20px",
+                  height: "150px",
+                  width: "100%"
+                }}
+                src="assets/images/Service-machine/Computer_Vision/sample.avif"
+                alt="MLEstimation - AI Tool to Analyse your Building material"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </div> */}
 
       <div className="py-5 bg-color">
         <div className="container container-fluid">

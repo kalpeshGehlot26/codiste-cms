@@ -78,7 +78,7 @@ const NLPDevelopment = () => {
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head text-center">
-              Why Codiste for NLP Services?
+              Why Codiste for Natural Language Processing Services?
             </h2>
             <p className="secondsec-p text-center">
               Codiste helps businesses across startups to enterprises explore the benefits of conversational intelligence that natural language processing services offer.

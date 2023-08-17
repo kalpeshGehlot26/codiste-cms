@@ -65,6 +65,27 @@ const Footer = () => {
 										</Link>
 									</li>
 									<li>
+										<Link href="/machine-learning-development-company">
+											Machine Learning Development
+											Services
+										</Link>
+									</li>
+									<li>
+										<Link href="/artificial-intelligence-development-company">
+											AI Development Services
+										</Link>
+									</li>
+									<li>
+										<Link href="/nft-development-company">
+											NFT Development Services
+										</Link>
+									</li>
+									<li>
+										<Link href="/cryptocurrency-development-company">
+											Cryptocurrency Development Services
+										</Link>
+									</li>
+									<li>
 										<Link href="/metaverse-development-company">
 											Metaverse Development Services
 										</Link>
@@ -74,30 +95,10 @@ const Footer = () => {
 											AR /VR Development Services
 										</Link>
 									</li>
-									<li>
-										<Link href="/nft-development-company">
-											NFT Development Services
-										</Link>
-									</li>
+
 									<li>
 										<Link href="/startup-development-company">
 											Startup Development Services
-										</Link>
-									</li>
-									<li>
-										<Link href="/artificial-intelligence-development-company">
-											AI Development Services
-										</Link>
-									</li>
-									<li>
-										<Link href="/machine-learning-development-company">
-											Machine Learning Development
-											Services
-										</Link>
-									</li>
-									<li>
-										<Link href="/cryptocurrency-development-company">
-											Cryptocurrency Development Services
 										</Link>
 									</li>
 								</ul>
