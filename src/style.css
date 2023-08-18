@@ -2050,7 +2050,62 @@ ul.diwallet-stylee img:hover {
   width:60px;
   margin-top: 10px;
 }
+.elementor-widget-container h5{
+text-align: center;
+}
+.custom-cta{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   background-color: #000;
+   border-radius: 10px;
+   padding: 10px 20px;
+}
+.custom-cta .elementor-button-wrapper{
+   display: inline-flex;
+   background: #fff;
+   padding: 10px 20px;
+   color:#fff !important;
+   border-radius: 10px;
+   font-size: 20px;
+}
+.custom-cta .elementor-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+.custom-cta .elementor-widget-container p{
+   margin-bottom: 0 !important;
+   color:#fff;
+   font-size: 24px !important;
+}
 
+.custom-newcta{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   background-color: #000;
+   border-radius: 10px;
+   padding: 10px 20px;
+}
+.custom-newcta .elementor-widget-wrap{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+}
+.custom-newcta .elementor-widget-container p{
+   margin-bottom: 0 !important;
+   color:#fff;
+   font-size: 24px !important;
+}
+.custom-newcta .elementor-button-wrapper{
+   display: inline-flex;
+   background: #fff;
+   padding: 10px 20px;
+   color:#fff !important;
+   border-radius: 10px;
+   font-size: 20px;
+}
 /* ====== blog-css completed ===== */
 
 
@@ -2361,6 +2416,18 @@ ul.diwallet-stylee img:hover {
       font-size: calc(1.625rem + ((1vw - 3.2px) * 0.875));
 
    } */
+   .custom-newcta .elementor-widget-container p{
+      font-size: calc(1rem + ((1vw - 3.2px) * 0.5)) !important;
+   }
+   .custom-newcta .elementor-button-wrapper {
+      font-size: calc(1rem + ((1vw - 3.2px) * 0.25));
+    }
+   .custom-cta .elementor-widget-container p {
+      font-size: calc(1rem + ((1vw - 3.2px) * 0.5)) !important;
+    }
+    .custom-cta .elementor-button-wrapper {
+      font-size: calc(1rem + ((1vw - 3.2px) * 0.25));
+    }
 }
 
 /* === case-study ==== */
@@ -2372,6 +2439,13 @@ ul.diwallet-stylee img:hover {
 }
 
 @media (max-width:992px) {
+
+   .custom-cta .elementor-button-wrapper{
+      padding: 5px 10px;
+   }
+   .custom-newcta .elementor-button-wrapper{
+      padding: 5px 10px;
+   }
    ul.tech-style li {
       flex-basis: 16%;
    }
