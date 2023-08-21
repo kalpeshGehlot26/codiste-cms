@@ -431,161 +431,129 @@ const About = () => {
 							<div className="col-lg-12">
 								<ul className="brand-style">
 									<li>
-										<a href="#">
-											<img
-												className="img-fluid"
-												src="assets/images/splide/Apollo.svg"
-												alt="Apollo - Apollo Crypto Launchpad"
-												loading="lazy"
-											/>{" "}
-										</a>
+										<img
+											className="img-fluid"
+											src="assets/images/splide/Apollo.svg"
+											alt="Apollo - Apollo Crypto Launchpad"
+											loading="lazy"
+										/>{" "}
 									</li>
 									<li>
-										<a href="#">
-											<img
-												className="img-fluid"
-												src="assets/images/splide/Bonfire.svg"
-												loading="lazy"
-												alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
+										<img
+											className="img-fluid"
+											src="assets/images/splide/Bonfire.svg"
+											loading="lazy"
+											alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
 
-											/>{" "}
-										</a>
+										/>{" "}
 									</li>
 									<li>
-										<a href="#">
-											{" "}
-											<img
-												className="img-fluid"
-												src="assets/images/splide/coinxPad.svg"
-												alt="CoinXpad - Coinxpad Decentralised Crypto Launchpad"
-												loading="lazy"
-											/>{" "}
-										</a>
+										{" "}
+										<img
+											className="img-fluid"
+											src="assets/images/splide/coinxPad.svg"
+											alt="CoinXpad - Coinxpad Decentralised Crypto Launchpad"
+											loading="lazy"
+										/>{" "}
 									</li>
 									<li>
-										<a href="#">
-											<img
-												className="img-fluid"
-												src="assets/images/splide/counterTen.svg"
-												alt="CounterTen - Digital Collectible platform for Loyalty, Brands and events"
-												loading="lazy"
-											/>{" "}
-										</a>
+										<img
+											className="img-fluid"
+											src="assets/images/splide/counterTen.svg"
+											alt="CounterTen - Digital Collectible platform for Loyalty, Brands and events"
+											loading="lazy"
+										/>{" "}
 									</li>
 									<li>
-										<a href="#">
-											{" "}
-											<img
-												className="img-fluid"
-												src="assets/images/splide/DiveWallet.svg"
-												alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
-												loading="lazy"
-											/>
-										</a>
+										{" "}
+										<img
+											className="img-fluid"
+											src="assets/images/splide/DiveWallet.svg"
+											alt="DiveWallet - Decentralised Safest Crypto and digital assets wallet"
+											loading="lazy"
+										/>
 									</li>
 									<li>
-										<a href="#">
-											<img
-												className="img-fluid"
-												src="assets/images/splide/FTWDAO.svg"
-												alt="FTWDao - Diversifying the venture investing ecosystem"
-												loading="lazy"
-											/>{" "}
-										</a>
+										<img
+											className="img-fluid"
+											src="assets/images/splide/FTWDAO.svg"
+											alt="FTWDao - Diversifying the venture investing ecosystem"
+											loading="lazy"
+										/>{" "}
 									</li>
 									<li>
-										<a href="#">
-											{" "}
-											<img
-												className="img-fluid"
-												src="assets/images/splide/Cypha.svg"
-												alt="Cypha - Make your Music using Cypha app"
-												loading="lazy"
-											/>
-										</a>
+										{" "}
+										<img
+											className="img-fluid"
+											src="assets/images/splide/Cypha.svg"
+											alt="Cypha - Make your Music using Cypha app"
+											loading="lazy"
+										/>
 									</li>
 									<li>
-										<a href="#">
-											<img
-												className="img-fluid"
-												src="assets/images/splide/Holygrails.svg"
-												loading="lazy"
-												alt="Holygrails - Solana NFT Marketplace"
-											/>
-										</a>
+										<img
+											className="img-fluid"
+											src="assets/images/splide/Holygrails.svg"
+											loading="lazy"
+											alt="Holygrails - Solana NFT Marketplace"
+										/>
 									</li>
 									<li>
-										<a href="#">
-											<img
-												className="img-fluid"
-												src="assets/images/splide/Ikaris.svg"
-												loading="lazy"
-												style={{ width: "250px", height: "60px" }}
-												alt="Ikaris - NFT Showcase Mobile App"
-											/>
-										</a>
+										<img
+											className="img-fluid"
+											src="assets/images/splide/Ikaris.svg"
+											loading="lazy"
+											style={{ width: "250px", height: "60px" }}
+											alt="Ikaris - NFT Showcase Mobile App"
+										/>
 									</li>
 									<li>
-										<a href="#">
-											<img
-												className="img-fluid"
-												src="assets/images/splide/Medizen.svg"
-												loading="lazy"
-												alt="Medizen - Pill Reminder and Drug interaction Detection app"
-											/>
-										</a>
+										<img
+											className="img-fluid"
+											src="assets/images/splide/Medizen.svg"
+											loading="lazy"
+											alt="Medizen - Pill Reminder and Drug interaction Detection app"
+										/>
 									</li>
 									<li>
-										<a href="#">
-											<img
-												className="img-fluid"
-												src="assets/images/splide/ml.svg"
-												loading="lazy"
-												alt="MLEstimation - AI Tool to Analyse your Building material"
-											/>
-										</a>
+										<img
+											className="img-fluid"
+											src="assets/images/splide/ml.svg"
+											loading="lazy"
+											alt="MLEstimation - AI Tool to Analyse your Building material"
+										/>
 									</li>
 									<li>
-										<a href="#">
-											<img
-												className="img-fluid"
-												src="assets/images/splide/MumbleRapperz.svg"
-												alt="MumbleRapperz - NFT Minting platform"
-												loading="lazy"
-											/>
-										</a>
+										<img
+											className="img-fluid"
+											src="assets/images/splide/MumbleRapperz.svg"
+											alt="MumbleRapperz - NFT Minting platform"
+											loading="lazy"
+										/>
 									</li>
 									<li>
-										<a href="#">
-
-											<img
-												className="img-fluid"
-												src="assets/images/splide/NearPro.svg"
-												alt="NearPro - Connecting Homeowner and top Contractor"
-												loading="lazy"
-											/>
-										</a>
+										<img
+											className="img-fluid"
+											src="assets/images/splide/NearPro.svg"
+											alt="NearPro - Connecting Homeowner and top Contractor"
+											loading="lazy"
+										/>
 									</li>
 									<li>
-										<a href="#">
-											<img
-												className="img-fluid"
-												src="assets/images/splide/Bloqhodler.jpg"
-												alt="Bloqhodler - Hedge fund investment app"
-												loading="lazy"
-											/>
-										</a>
+										<img
+											className="img-fluid"
+											src="assets/images/splide/Bloqhodler.jpg"
+											alt="Bloqhodler - Hedge fund investment app"
+											loading="lazy"
+										/>
 									</li>
 									<li>
-										<a href="#">
-
-											<img
-												className="img-fluid"
-												src="assets/images/splide/galaxyCoin.jpg"
-												alt="Galaxy Coin - Governance Token & Stacking Defi app"
-												loading="lazy"
-											/>
-										</a>
+										<img
+											className="img-fluid"
+											src="assets/images/splide/galaxyCoin.jpg"
+											alt="Galaxy Coin - Governance Token & Stacking Defi app"
+											loading="lazy"
+										/>
 									</li>
 								</ul>
 							</div>
@@ -630,7 +598,7 @@ const About = () => {
 				<div className="row">
 					<div className="col-md-6 col-sm-12 pb-3 ">
 						<div className="service-block p-4 h-100 ">
-							<div className="d-flex justify-content-center align-items-center customind mb-4">
+							<div className="d-flex justify-content-center align-items-center  mb-4">
 								<div>	<img
 									className="me-4"
 									src="assets/images/india.png"
@@ -814,7 +782,7 @@ const About = () => {
 
 					<div className="col-md-6 col-sm-12 pb-3 ">
 						<div className="service-block p-4 h-100 ">
-							<div className="d-flex justify-content-center align-items-center customind mb-4">
+							<div className="d-flex justify-content-center align-items-center  mb-4">
 								<div><img
 									className="me-4"
 									src="assets/images/south-africa.png"
@@ -1185,11 +1153,11 @@ const About = () => {
 
 			<div className="">
 				<div className="container container-fluid py-5">
-					<h2 className="all-head mb-lg-5 mb-0 text-center">Get in touch with Us!</h2>
+					<h5 className="all-head mb-lg-5 mb-0 text-center">Get in touch with Us!</h5>
 					<section>
 						<div className="row  d-flex align-items-center">
 							<div className="col-lg-6 col-md-12  mb-lg-0 needsec p-4">
-								<h2>Start Building on Your Idea Today! <br />Get in touch with our team with this form.</h2>
+								<h5>Start Building on Your Idea Today! <br />Get in touch with our team with this form.</h5>
 							</div>
 							<div className="col-lg-6 col-md-12 ">
 								<div className="need-block h-100">

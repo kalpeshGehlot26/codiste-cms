@@ -30,7 +30,7 @@ const Footer = () => {
 									<ul className="p-0 ">
 										<li><i className="fa-brands fa-facebook-f"></i>
 											<img
-												className="me-2"
+												className="me-2 img-fluid"
 												src="../../assets/images/email.png"
 												alt="Email"
 											/>
@@ -41,7 +41,7 @@ const Footer = () => {
 										</li>
 										<li>
 											<img
-												className="me-2"
+												className="me-2 img-fluid"
 												src="../../assets/images/phone-call.png"
 												alt="Phone-call"
 											/>
