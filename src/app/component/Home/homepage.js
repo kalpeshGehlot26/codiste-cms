@@ -123,11 +123,7 @@ const HomePage = () => {
 					<div className="row">
 						<div className="col-xl-6 col-sm-12 mb-5">
 							<img className='img-fluid d-flex align-items-center justify-content-center'
-								style={{
-									width: "auto",
-									margin: "auto",
-									padding: "20px",
-								}} src="assets/images/home/Codiste_Company.webp" alt="Codiste As Company" loading="lazy" />
+								style={{ padding: "20px" }} src="assets/images/home/Codiste_Company.webp" alt="Codiste As Company" loading="lazy" />
 						</div>
 						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">
 							<h3 className="mb-3">Looking to stay ahead of the curve?</h3>
@@ -173,9 +169,9 @@ const HomePage = () => {
 				</div>
 			</div> */}
 
-			<div 
+			<div
 				className="py-5 mt-md-5 mt-0"
-				// className="bg-color py-5 mt-md-5 mt-0"
+			// className="bg-color py-5 mt-md-5 mt-0"
 			>
 				<div className="container container-fluid">
 					<div className="text-center">
@@ -196,7 +192,7 @@ const HomePage = () => {
 									<h3 className="case-head">
 										Divewallet – The Crypto Wallet
 									</h3>
-									<span  className="case-pera">
+									<span className="case-pera">
 										Read More &gt;&gt;
 									</span>
 								</div>

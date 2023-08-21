@@ -79,7 +79,7 @@ const page = () => {
 				<div className="row">
 					<div className="col-md-6 col-sm-12 pb-3 ">
 						<div className="service-block p-4 h-100 ">
-							<div className="d-flex justify-content-center align-items-center customind mb-4">
+							<div className="d-flex justify-content-center align-items-center  mb-4">
 								<div>	<img
 									className="me-4"
 									src="assets/images/india.png"
@@ -262,7 +262,7 @@ const page = () => {
 
 					<div className="col-md-6 col-sm-12 pb-3">
 						<div className="service-block p-4 h-100 ">
-							<div className="d-flex justify-content-center align-items-center customind mb-4">
+							<div className="d-flex justify-content-center align-items-center mb-4">
 								<div><img
 									className="me-4"
 									src="assets/images/south-africa.png"

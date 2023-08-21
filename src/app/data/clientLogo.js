@@ -56,11 +56,11 @@ const clientLogos = [
     },
 
     {
-        url: "assets/images/splide/Bloqhodler.jpg",
+        url: "assets/images/splide/Bloqhodler.png",
         alt: "Bloqhodler - Hedge fund investment app"
     },
     {
-        url: "assets/images/splide/galaxyCoin.jpg",
+        url: "assets/images/splide/galaxyCoin.png",
         alt: "Galaxy Coin - Governance Token & Stacking Defi app"
     },
 
