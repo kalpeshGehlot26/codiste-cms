@@ -6,6 +6,7 @@ const AIList = [
     },
     {
         title: "Generative AI Development",
+        slug: "generative-ai-development",
         description: "Codiste offers enterprise-grade Generative Artificial Intelligence Development services designed to help you utilize the capabilities of AI and create innovative & highly effective business solutions. Our highly skilled experts specialize in modern generative Artificial Intelligence techniques such as GPT 3, Bard, Moderation, and others with deep learning and neural networks to help you build AI-powered systems that generate prompt-based new content, from text to images and beyond."
     },
     {

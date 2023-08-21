@@ -927,7 +927,49 @@ const jsonData = {
 				"text": "A subfield of AI and NLP, Natural Language Generation (NLG) is a set of processes that transform structured data into a human-like text. Natural Language Generation systems are using techniques from deep learning, Machine Learning, and NLP to convert data into text.  NLG systems can create personalized messages, business reports, product descriptions, etc."
 			}
 		}]
+	},
+	AIGenerative: {
+
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [{
+			"@type": "Question",
+			"name": "What is Generative AI?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Generative AI also known as Gen AI is an emerging tech that combines Artificial Intelligence(AI) and Machine Learning (ML) to produce original and quality content. Gen AI has the capability to create new realistic images, unique text, music, and more by learning patterns from existing data. GPT-3 is a perfect example; it generates human-like text based on prompts and context."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What are Generative AI Services?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Generative AI services use ML models to generate unique and quality content, including text, images, music, and more. By utilising Gen AI services, users can create accurate output by providing inputs promptly.  These days AI services are prominently used in content creation, design assistance, and for solving complex problems."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is an AI voice generator?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "AI voice generators are a type of technology that utilises artificial intelligence, specifically text-to-speech models, to transform written text into spoken words. Voice generators powered by AI make use of advanced algorithms and DL techniques to stimulate human speech patterns, tone, and so on to produce natural-sounding audio. With this advanced technology, AI becomes more preferred tech for developing virtual assistants, audiobook production, accessibility tools, and more."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How to create AI generated images?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Firstly, collect and reprocess a diverse image dataset. Secondly, you have to design and train the chosen model, adjusting hyper parameters. Now, it’s time to validate results using metrics. In the next step, you have to generate images by inputting noise or vectors. Furthermore, refine the model iteratively, considering architecture improvements and Deploy for image creation. That’s it."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How to sell an AI generated art?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Create High-Quality Art: Train your AI to produce compelling artworks.Legal Considerations: Ensure ownership rights and permissions for generated content.Build an Online Presence: Create a website or use platforms like Etsy, NFT marketplaces, or galleries.Marketing: Showcase your process, uniqueness, and value.Engage Collectors: Interact with potential buyers, offer limited editions, and provide authenticity certificates.Pricing: Determine fair pricing based on market trends and uniqueness.Fulfil Orders: Deliver high-resolution files or physical prints promptly.Networking: Collaborate, attend art events, and leverage social media to expand reach."
+			}
+		}]
 	}
+
 };
 
 export default jsonData;

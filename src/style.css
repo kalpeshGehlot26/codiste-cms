@@ -2449,6 +2449,9 @@ align-items: center;
    .custom-newcta .elementor-button-wrapper{
       padding: 5px 10px;
    }
+   .custom-newcta .elementor-widget-button{
+      margin-top: 10px;
+   }
    ul.tech-style li {
       flex-basis: 16%;
    }
@@ -2591,11 +2594,14 @@ align-items: center;
       padding: 10px;
    }
 
+   .custom-newcta .elementor-element-populated {
+      padding-left: 0px;
+      padding-right: 0px;
+   }
    .elementor-element-populated {
       padding-left: 20px;
       padding-right: 20px;
    }
-
    .about-mainsec {
       padding-top: 0px;
       padding-bottom: 20px;
