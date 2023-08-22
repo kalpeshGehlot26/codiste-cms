@@ -230,7 +230,7 @@ const GenrativeAI = () => {
       <div className="blackdiv px-3">
         <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
           <p>
-            Let’s create realistic human-like solutions with Generative AI.
+            Let’s create realistic human-like solutions with Generative AI
           </p>
           <Link href="/book-a-call" className="book-btn">
             Ask Us How!
