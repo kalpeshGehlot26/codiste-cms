@@ -2088,7 +2088,7 @@ text-align: center;
    margin-bottom: 20px;
    background-color: #000;
    border-radius: 10px;
-   padding: 10px 20px;
+   padding: 25px 20px;
 }
 .custom-newcta .elementor-widget-wrap{
 display: flex;
@@ -2099,7 +2099,8 @@ align-items: center;
 .custom-newcta .elementor-widget-container p{
    margin-bottom: 0 !important;
    color:#fff;
-   font-size: 24px !important;
+   font-size: 28px !important;
+   font-weight: 700;
 }
 .custom-newcta .elementor-button-wrapper{
    display: inline-flex;
@@ -2419,8 +2420,9 @@ align-items: center;
       font-size: calc(1.625rem + ((1vw - 3.2px) * 0.875));
 
    } */
+   
    .custom-newcta .elementor-widget-container p{
-      font-size: calc(1rem + ((1vw - 3.2px) * 0.5)) !important;
+      font-size: calc(1.125rem + ((1vw - 3.2px) * 0.625)) !important;
    }
    .custom-newcta .elementor-button-wrapper {
       font-size: calc(1rem + ((1vw - 3.2px) * 0.25));
