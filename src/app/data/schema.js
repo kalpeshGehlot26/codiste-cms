@@ -1,3 +1,5 @@
+import AIPredictive from "../predictive-modelling/page";
+
 const jsonData = {
 	home: {
 		"@context": "https://schema.org",
@@ -968,8 +970,55 @@ const jsonData = {
 				"text": "Create High-Quality Art: Train your AI to produce compelling artworks.Legal Considerations: Ensure ownership rights and permissions for generated content.Build an Online Presence: Create a website or use platforms like Etsy, NFT marketplaces, or galleries.Marketing: Showcase your process, uniqueness, and value.Engage Collectors: Interact with potential buyers, offer limited editions, and provide authenticity certificates.Pricing: Determine fair pricing based on market trends and uniqueness.Fulfil Orders: Deliver high-resolution files or physical prints promptly.Networking: Collaborate, attend art events, and leverage social media to expand reach."
 			}
 		}]
-	}
+	},
+	AIPredictive: {
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [{
+			"@type": "Question",
+			"name": "What is predictive modelling?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Predictive Modelling is a set of processes which follows the mathematical way of forecasting future events. It analyses the data pattern from the given input and performs the prediction process. It is widely used in every aspect like predicting the TV rating, customer’s next purchase, corporate earnings, and so on. With the help of ML-based statistical techniques, this model performs the prediction more accurately."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How does predictive modeling work?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Predictive models effectively use data analysis, AI, ML, and statistical models to find accurate data patterns for better prediction. In forecasting the future of a company, this predictive model uses the historic and current customer demand data for predicting upcoming events. On the other hand, data scientists wisely use this model to find the correlation between the elements through statistical formulation."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is the churn prediction model?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "A churn prediction model is a type of predictive model mainly used to identify the possibility of when an individual customer will stop engaging in a business. As the modern business world moves towards technical aid to survive and succeed in today’s competitive market, this churn model plays a handy role in predicting the risks of losing individual customers in the future."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How to build a recommendation system using machine learning?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Here are the steps to follow for building a recommended system using ML techniques.The first and foremost step is identifying problems and narrating goal formulas. Next step, collecting customer behavior data and initiating pre-processing procedures. Now, understand the data distribution and relationship between data variables using Exploratory Data Analysis (EDA). Furthermore, Pick the suitable features, and models for your system and train. Now, evaluate the proposed models after fine-tuning all the hyper-parameters.  Finally, initiate the model deployment."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is customer segmentation?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Customer segmentation, is an effective strategy mainly used by companies and brands to find and understand their target audience group. With this process, brands can group their customers based on their behavior and engaging mode with brands. Customer Segmentation improves the revenues and increases the client retention rate of a brand by enabling them to provide more personalized services or products."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is demand forecasting?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Demand forecasting is the process of foreseeing the demands of the customers and predicting the quantity of goods and services that need to be provided in the future. With real-time analysis of the customer demands of the present and past, it accurately predicts the future. For modern-day businesses, this demand forecasting helps to gain more profit through effective optimization of the supply chain process."
+			}
+		}]
 
+	}
 };
 
 export default jsonData;

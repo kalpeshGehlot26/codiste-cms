@@ -19,7 +19,8 @@ const AIList = [
     },
     {
         title: "Visual Analysis",
-        description: "Codiste has an expert-led Visual Analysis development team that leverages the latest computer vision technologies to help you extract insights from visual data with unprecedented accuracy and efficiency. We can help you develop customized Artificial Intelligence solutions from object detection to image classification. Our team has extensive hands-on experience in advanced computer vision techniques and can help you unlock the full potential of your visual data with artificial intelligence."
+        description: "Codiste has an expert-led Visual Analysis development team that leverages the latest computer vision technologies to help you extract insights from visual data with unprecedented accuracy and efficiency. We can help you develop customized Artificial Intelligence solutions from object detection to image classification. Our team has extensive hands-on experience in advanced computer vision techniques and can help you unlock the full potential of your visual data with artificial intelligence.",
+        slug: "predictive-modelling"
     },
     {
         title: "Predictive Modeling",
