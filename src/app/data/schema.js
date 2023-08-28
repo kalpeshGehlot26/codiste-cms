@@ -1,3 +1,5 @@
+import AIPredictive from "../predictive-modelling/page";
+
 const jsonData = {
 	home: {
 		"@context": "https://schema.org",
@@ -968,8 +970,117 @@ const jsonData = {
 				"text": "Create High-Quality Art: Train your AI to produce compelling artworks.Legal Considerations: Ensure ownership rights and permissions for generated content.Build an Online Presence: Create a website or use platforms like Etsy, NFT marketplaces, or galleries.Marketing: Showcase your process, uniqueness, and value.Engage Collectors: Interact with potential buyers, offer limited editions, and provide authenticity certificates.Pricing: Determine fair pricing based on market trends and uniqueness.Fulfil Orders: Deliver high-resolution files or physical prints promptly.Networking: Collaborate, attend art events, and leverage social media to expand reach."
 			}
 		}]
-	}
+	},
+	AIPredictive: {
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [{
+			"@type": "Question",
+			"name": "What is predictive modelling?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Predictive Modelling is a set of processes which follows the mathematical way of forecasting future events. It analyses the data pattern from the given input and performs the prediction process. It is widely used in every aspect like predicting the TV rating, customer’s next purchase, corporate earnings, and so on. With the help of ML-based statistical techniques, this model performs the prediction more accurately."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How does predictive modeling work?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Predictive models effectively use data analysis, AI, ML, and statistical models to find accurate data patterns for better prediction. In forecasting the future of a company, this predictive model uses the historic and current customer demand data for predicting upcoming events. On the other hand, data scientists wisely use this model to find the correlation between the elements through statistical formulation."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is the churn prediction model?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "A churn prediction model is a type of predictive model mainly used to identify the possibility of when an individual customer will stop engaging in a business. As the modern business world moves towards technical aid to survive and succeed in today’s competitive market, this churn model plays a handy role in predicting the risks of losing individual customers in the future."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How to build a recommendation system using machine learning?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Here are the steps to follow for building a recommended system using ML techniques.The first and foremost step is identifying problems and narrating goal formulas. Next step, collecting customer behavior data and initiating pre-processing procedures. Now, understand the data distribution and relationship between data variables using Exploratory Data Analysis (EDA). Furthermore, Pick the suitable features, and models for your system and train. Now, evaluate the proposed models after fine-tuning all the hyper-parameters.  Finally, initiate the model deployment."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is customer segmentation?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Customer segmentation, is an effective strategy mainly used by companies and brands to find and understand their target audience group. With this process, brands can group their customers based on their behavior and engaging mode with brands. Customer Segmentation improves the revenues and increases the client retention rate of a brand by enabling them to provide more personalized services or products."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is demand forecasting?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Demand forecasting is the process of foreseeing the demands of the customers and predicting the quantity of goods and services that need to be provided in the future. With real-time analysis of the customer demands of the present and past, it accurately predicts the future. For modern-day businesses, this demand forecasting helps to gain more profit through effective optimization of the supply chain process."
+			}
+		}]
 
+	},
+	AIVisual: {
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [{
+			"@type": "Question",
+			"name": "What is Visual Analysis?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Visual analysis is the process of observing and understanding the visually represented data. The ultimate purpose of analyzing the visual data is to create an argument based on visual evidence. By using this, businesses can quickly identify the current market trends and make corrective strategic-based decisions in real-time to achieve success."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How to start a visual analysis essay?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Unlike the other essays, writing a visual analysis essay requires studying and understanding all the design elements and principles. With such deep understanding, you can write an engaging description of the product, picture, photo architecture, and so on. Always start a visual analysis essay with an attention-grabbing hook statement followed by a brief description of the essay topic. In addition, you can provide some interesting facts relevant to the topic and state the essay statement."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How to train OpenCV to detect objects?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Object detection is a kind of technique used in computers to identify the specific or interested objects within the provided images or video frames. Steps to follow for object detection in OpenCV Gathering all the datasets of the given images or video frames.Choose the perfect detection algorithms like haar cascades, yolo, SSD, and so on for your object detection.Based on your requirements, perform the pre-processing steps (resizing, coloring, and so on) on your dataset.Apply the chosen object detection algorithm to generate the necessary model files or parameters.Draw segmentation masks around the detected objects to visualise the results."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How Object Detection works?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Object detection works on the ML-based algorithm. To identify and locate an object within an image, object categorisation techniques are applied. Also, it makes use of functions like image wrapping, image blurring, etc., for transforming the image. A modern object detection model uses complex architectures, dataset annotation, and DL to achieve better results."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is Image Classification?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Image classification is a process of extracting information from the provided images. Image classification can be done in two approaches supervised and unsupervised. By using a specific set of rules, pixels or vectors of the given images are grouped or categorised. Once the categorization process is done, trained models are used to identify the images."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How Video Analysis works?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "In general, video analysis uses rule-based algorithms to conduct the analysis process promptly. The rule-based algorithm offers a decision tree providing ‘if/then’ questions for better prediction of the objects in the video. Based on the inputs, the algorithm eliminates unnecessary objects and detects only the relevant ones on the video."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is Facial Recognition?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Facial recognition is an advanced technology that is specifically used to identify and confirm a person’s identity by matching facial features. Biometric security systems which are widely used by companies use this technology to strengthen user authentication activity and provide better security. In addition, smartphones with this technology have received a welcome from the users as it provides more device security."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is Anomaly Detection?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Anomaly detection is a set of processes used to identify unwanted or irrelevant data from the given input through deep analysis techniques. By using the pattern of behaviors, the system easily and quickly detects irregular data. Businesses involved in finance, retail, or cyber security make use of this anomaly detection to detect and protect themselves from harmful outliers."
+			}
+		}]
+
+	}
 };
 
 export default jsonData;

@@ -19,11 +19,14 @@ const AIList = [
     },
     {
         title: "Visual Analysis",
-        description: "Codiste has an expert-led Visual Analysis development team that leverages the latest computer vision technologies to help you extract insights from visual data with unprecedented accuracy and efficiency. We can help you develop customized Artificial Intelligence solutions from object detection to image classification. Our team has extensive hands-on experience in advanced computer vision techniques and can help you unlock the full potential of your visual data with artificial intelligence."
+        description: "Codiste has an expert-led Visual Analysis development team that leverages the latest computer vision technologies to help you extract insights from visual data with unprecedented accuracy and efficiency. We can help you develop customized Artificial Intelligence solutions from object detection to image classification. Our team has extensive hands-on experience in advanced computer vision techniques and can help you unlock the full potential of your visual data with artificial intelligence.",
+        slug: "ai-visual-analysis"
+
     },
     {
         title: "Predictive Modeling",
-        description: "Our Predictive Modeling service caters to businesses and enterprises with advanced statistical and machine learning techniques to help analyze and predict future outcomes with exceptional accuracy. Codiste can help you develop customized modeling algorithms that fit your requirements in front of weather forecasting, classification, or any other predictive modeling solution. Extract valuable future insights from your data and make informed decisions based on business scaling and organizing with our predictive modeling services."
+        description: "Our Predictive Modeling service caters to businesses and enterprises with advanced statistical and machine learning techniques to help analyze and predict future outcomes with exceptional accuracy. Codiste can help you develop customized modeling algorithms that fit your requirements in front of weather forecasting, classification, or any other predictive modeling solution. Extract valuable future insights from your data and make informed decisions based on business scaling and organizing with our predictive modeling services.",
+        slug: "predictive-modelling"
     },
     {
         title: "Stable Diffusion",
