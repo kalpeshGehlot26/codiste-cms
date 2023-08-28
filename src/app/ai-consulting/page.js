@@ -12,15 +12,15 @@ export const metadata = {
     title: "AI Consulting | Codiste",
     description: "We offer AI Consulting Services with advanced algo, ML, and NLP optimized solutions that revolutionize their processes for unprecedented growth.",
     images: "https://www.codiste.com/assets/images/Service-AI/AI_consult/AI_consult.webp",
-	openGraph: {
-		title: "AI Consulting | Codiste",
+    openGraph: {
+        title: "AI Consulting | Codiste",
         description: "We offer AI Consulting Services with advanced algo, ML, and NLP optimized solutions that revolutionize their processes for unprecedented growth.",
-		images: "https://www.codiste.com/assets/images/Service-AI/AI_consult/AI_consult.webp",
-		url: 'https://www.codiste.com/ai-consulting/'
-	},
+        images: "https://www.codiste.com/assets/images/Service-AI/AI_consult/AI_consult.webp",
+        url: 'https://www.codiste.com/ai-consulting/'
+    },
     alternates: {
-		canonical: 'https://www.codiste.com/ai-consulting',
-	}
+        canonical: 'https://www.codiste.com/ai-consulting',
+    }
 };
 
 const limit = 3
@@ -65,12 +65,12 @@ const AIConsult = () => {
             </div>
 
             <div className="py-5 bg-color mt-5" >
-                <div className="container container-fluid">
+                <div className="container container-fluid ai-custom">
                     <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
                         <h2 className="all-head text-center">
                             Why Choose Us for AI Consultation?
                         </h2>
-                        <p className="secondsec-p text-center">Trying to avoid the complexity of artificial intelligence's disruptive power? Our AI consultation services are intended to demystify AI and provide your company with real outcomes.
+                        <p className="secondsec-p text-center">Trying to avoid the complexity of artificial intelligence's disruptive power? Our <a href="https://www.codiste.com/machine-learning-development-company/">AI consultation</a> services are intended to demystify AI and provide your company with real outcomes.
                         </p>
                     </div>
                     <div className='row g-4'>
@@ -440,7 +440,7 @@ const AIConsult = () => {
                     <div
                         className="accordion accordion-flush"
                         id="accordionFlushExample"
-                    
+
                     >
                         <div className="accordion-item">
                             <h2

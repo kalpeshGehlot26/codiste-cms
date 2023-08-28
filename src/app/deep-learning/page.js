@@ -197,17 +197,16 @@ const DeepLearning = () => {
             <h2 className="all-head text-center">
               Our Machine Learning Consulting Approach
             </h2>
-            <p className="secondsec-p text-center">
+            <p className="secondsec-p text-center ai-custom">
               We assist organizations in a seamless journey of
               utilizing AI-driven insights, from defining clear
-              business goals to implementing and monitoring ML
-              models.
+              business goals to implementing and monitoring <a href="https://www.codiste.com/machine-learning-development-company/">ML models development.</a>
             </p>
           </div>
 
           <div className="row g-5 mx-0">
             <div className="col-xl-4 col-md-6 col-sm-12">
-              <div className="Approachcard h-100">
+              <div className="Approachcard h-100 " >
                 <div className="background"></div>
                 <div className="Approachcard-icon">
                   <div className="wrap1">1</div>

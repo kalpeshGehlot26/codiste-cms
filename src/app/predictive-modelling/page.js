@@ -55,8 +55,7 @@ const AIPredictive = () => {
         <section>
           <div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
             <h2 className="all-head text-center">Our Predictive Modelling Offerings</h2>
-            {/* <p className="secondsec-p text-center">Our state-of-the-art AI consulting services are made to help businesses across numerous industries. We provide a wide variety of solutions specifically crafted to match your particular demands as industry pioneers in the AI space.
-            </p> */}
+
           </div>
           <ServiceInnerItems serviceItems={AIpredictive} />
         </section>
@@ -88,7 +87,7 @@ const AIPredictive = () => {
             </div>
 
             <div className='col-xl-4 col-md-6 col-sm-12'>
-              <div className='newservice-box h-100'>
+              <div className='newservice-box h-100 ai-custom'>
                 <div className="text-center">
                   <img
                     className="img-fluid mb-2"
@@ -98,7 +97,7 @@ const AIPredictive = () => {
                   />
                 </div>
                 <h3>Trailblazing Technologies</h3>
-                <p className="secondsec-p">Our competition is left behind because of our ability to predict and model with modern algorithms and software, all made possible by advance ai technology. The solutions we deliver are unparalleled in quality.
+                <p className="secondsec-p">Our competition is left behind because of our ability to predict and model with modern algorithms and software, all made possible by advance <a href="https://www.codiste.com/artificial-intelligence-development-company">ai development</a> technology. The solutions we deliver are unparalleled in quality.
                 </p>
               </div>
             </div>
@@ -508,8 +507,8 @@ const AIPredictive = () => {
                 aria-labelledby="flush-headingTwo"
                 data-bs-parent="#accordionFlushExample"
               >
-                <div className="accordion-body">
-                  Predictive models effectively use data analysis, AI, ML, and statistical models to find accurate data patterns for better prediction. In forecasting the future of a company, this predictive model uses the historic and current customer demand data for predicting upcoming events. On the other hand, data scientists wisely use this model to find the correlation between the elements through statistical formulation.
+                <div className="accordion-body ai-custom">
+                  Predictive models effectively use data analysis, AI, <a href="https://www.codiste.com/machine-learning-development-company/">ML development</a>, and statistical models to find accurate data patterns for better prediction. In forecasting the future of a company, this predictive model uses the historic and current customer demand data for predicting upcoming events. On the other hand, data scientists wisely use this model to find the correlation between the elements through statistical formulation.
                 </div>
               </div>
             </div>

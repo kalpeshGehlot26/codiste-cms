@@ -11,7 +11,13 @@
   right: 10;
 } */
 
-
+.ai-custom a{
+  text-decoration: none;
+  color: #717173;
+}
+.ai-custom a:hover{
+  color: #717173;
+}
 .newservice-box{
   position: relative;
   background-color: #fff;

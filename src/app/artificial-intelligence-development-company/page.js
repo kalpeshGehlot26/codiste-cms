@@ -54,9 +54,10 @@ const AIDevelopmentCompany = () => {
 			<ClientSlider />
 
 			<div className="container container-fluid">
-				<section>
+				<section className="ai-custom">
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h2 className="all-head text-center">Our Artificial Intelligence Development Services</h2>
+						<p className="secondsec-p text-center">Codiste, an enterprise-grade AI and ML solution providers, build custom AI and <a href="https://www.codiste.com/machine-learning-development-company/">Machine Learning Development</a>solutions using real-time data & dynamic algorithms. Our below offerings help businesses to detect patterns, automate processes, and more!</p>
 					</div>
 					<ServiceInnerItems serviceItems={AIList} />
 				</section>
@@ -289,7 +290,7 @@ const AIDevelopmentCompany = () => {
 					<div
 						className="accordion accordion-flush"
 						id="accordionFlushExample"
-					
+
 					>
 						<div className="accordion-item">
 							<h2

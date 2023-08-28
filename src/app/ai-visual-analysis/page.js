@@ -68,7 +68,7 @@ const AIVisual = () => {
             <h2 className="all-head text-center">
               Why Choose Codiste for Your ML Visual Analysis Needs?
             </h2>
-            <p className="secondsec-p text-center">We know all the nitty-gritty & in-betweens of visualising machine learning models, including neural network, so sit back and let us serve with the best possible solutions.
+            <p className="secondsec-p text-center ai-custom">We know all the nitty-gritty & in-betweens of visualising <a href="https://www.codiste.com/machine-learning-development-company/">machine learning models</a>, including neural network, so sit back and let us serve with the best possible solutions.
             </p>
           </div>
           <div className='row g-4'>
@@ -316,10 +316,10 @@ const AIVisual = () => {
       <div className="">
         <div className="container container-fluid py-5">
           <section>
-            <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+            <div className=" d-flex align-items-center flex-column justify-content-center mb-5 ai-custom">
               <h2 className="all-head text-center">Industries We Serve</h2>
               <p className="all-p text-center">
-                Codiste's multi-industry experience propels outstanding AI transformations using their specialisation in delivering  AI solutions that address various business demands.
+                Codiste's multi-industry experience propels outstanding AI transformations using their specialisation in delivering <a href="https://www.codiste.com/artificial-intelligence-development-company">AI development</a> solutions that address various business demands.
               </p>
             </div>
             <AIConsutindus />

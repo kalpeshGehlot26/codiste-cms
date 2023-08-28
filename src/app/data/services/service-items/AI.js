@@ -1,6 +1,6 @@
 const AIList = [
     {
-        title: "LLM AI Consultation",
+        title: "AI Consultation",
         slug: "ai-consulting",
         description: "Our LLM Artificial Intelligence Consultation service is your one-stop shop for expert advice and guidance on all your AI-related projects. Our team of seasoned consultants will help you understand modern AI technologies, including DALL.E, Moderation, GPT3, and GPT 3.5, and develop customized solutions to implement with the latest AI technologies. We help you leverage AI in business and drive growth. We have a team of experienced Artificial Intelligence developers who understand the complexities and nuances of AI and can help you utilize it to drive innovation and growth in conversational AI."
     },
