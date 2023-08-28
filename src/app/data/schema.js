@@ -1018,6 +1018,68 @@ const jsonData = {
 			}
 		}]
 
+	},
+	AIVisual: {
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [{
+			"@type": "Question",
+			"name": "What is Visual Analysis?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Visual analysis is the process of observing and understanding the visually represented data. The ultimate purpose of analyzing the visual data is to create an argument based on visual evidence. By using this, businesses can quickly identify the current market trends and make corrective strategic-based decisions in real-time to achieve success."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How to start a visual analysis essay?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Unlike the other essays, writing a visual analysis essay requires studying and understanding all the design elements and principles. With such deep understanding, you can write an engaging description of the product, picture, photo architecture, and so on. Always start a visual analysis essay with an attention-grabbing hook statement followed by a brief description of the essay topic. In addition, you can provide some interesting facts relevant to the topic and state the essay statement."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How to train OpenCV to detect objects?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Object detection is a kind of technique used in computers to identify the specific or interested objects within the provided images or video frames. Steps to follow for object detection in OpenCV Gathering all the datasets of the given images or video frames.Choose the perfect detection algorithms like haar cascades, yolo, SSD, and so on for your object detection.Based on your requirements, perform the pre-processing steps (resizing, coloring, and so on) on your dataset.Apply the chosen object detection algorithm to generate the necessary model files or parameters.Draw segmentation masks around the detected objects to visualise the results."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How Object Detection works?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Object detection works on the ML-based algorithm. To identify and locate an object within an image, object categorisation techniques are applied. Also, it makes use of functions like image wrapping, image blurring, etc., for transforming the image. A modern object detection model uses complex architectures, dataset annotation, and DL to achieve better results."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is Image Classification?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Image classification is a process of extracting information from the provided images. Image classification can be done in two approaches supervised and unsupervised. By using a specific set of rules, pixels or vectors of the given images are grouped or categorised. Once the categorization process is done, trained models are used to identify the images."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How Video Analysis works?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "In general, video analysis uses rule-based algorithms to conduct the analysis process promptly. The rule-based algorithm offers a decision tree providing ‘if/then’ questions for better prediction of the objects in the video. Based on the inputs, the algorithm eliminates unnecessary objects and detects only the relevant ones on the video."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is Facial Recognition?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Facial recognition is an advanced technology that is specifically used to identify and confirm a person’s identity by matching facial features. Biometric security systems which are widely used by companies use this technology to strengthen user authentication activity and provide better security. In addition, smartphones with this technology have received a welcome from the users as it provides more device security."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is Anomaly Detection?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Anomaly detection is a set of processes used to identify unwanted or irrelevant data from the given input through deep analysis techniques. By using the pattern of behaviors, the system easily and quickly detects irregular data. Businesses involved in finance, retail, or cyber security make use of this anomaly detection to detect and protect themselves from harmful outliers."
+			}
+		}]
+
 	}
 };
 

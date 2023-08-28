@@ -4,34 +4,34 @@ import AllServiceBlogSlider from "../component/BlogSlider/allServiceBlogSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
-import AIpredictive from "../data/services/service-items/AIPredictive";
+import AIVisualItems from "../data/services/service-items/AIVisual";
 import jsonData from "../data/schema";
 import AIConsutindus from "../component/service/AIConsutindus";
 
 export const metadata = {
-  title: "Predictive Models | AI Development | Codiste",
-  description: "Transform business with Codiste's AI Predictive Models Development services to create advanced predictive models that enhance decision-making and drive growth.",
-  images: "https://www.codiste.com/assets/images/Service-AI/AI_predictive/Predictive Modelling Services.webp",
+  title: "Visual Analysis | AI Development | Codiste",
+  description: "Discover AI-driven Visual Analysis services. Explore advanced tech in computer vision, image recognition, and video understanding how we interpret visual information.",
+  images: "https://www.codiste.com/assets/images/Service-AI/AI_visual/Visual Analysis.webp",
   openGraph: {
-    title: "Predictive Models | AI Development | Codiste",
-    description: "Transform business with Codiste's AI Predictive Models Development services to create advanced predictive models that enhance decision-making and drive growth.",
-    images: "https://www.codiste.com/assets/images/Service-AI/AI_predictive/Predictive Modelling Services.webp",
-    url: 'https://www.codiste.com/predictive-modelling/'
+    title: "Visual Analysis | AI Development | Codiste",
+    description: "Discover AI-driven Visual Analysis services. Explore advanced tech in computer vision, image recognition, and video understanding how we interpret visual information.",
+    images: "https://www.codiste.com/assets/images/Service-AI/AI_visual/Visual Analysis.webp",
+    url: 'https://www.codiste.com/ai-visual-analysis/'
   },
   alternates: {
-    canonical: 'https://www.codiste.com/predictive-modelling',
+    canonical: 'https://www.codiste.com/ai-visual-analysis',
   }
 };
 
 const limit = 3
 const category = 43
 
-const AIPredictive = () => {
+const AIVisual = () => {
   return (
     <div>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.AIPredictive) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.AIVisual) }}
       />
       <div className="bg-color">
         <div className="container container-fluid">
@@ -39,11 +39,11 @@ const AIPredictive = () => {
             <div className="row firstsec ">
               <div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
                 <div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
-                  <h1 className="all-head">Predictive Modelling Services</h1>
-                  <p className="all-p">To make predictions and anticipate outcomes, our unified team of creative & skilled professionals gather and synthesise market data and use analytical and statistical techniques. To achieve a competitive edge through improved forecasting, businesses recruit experts like for predictive modelling solutions.</p>
-                  <Link href="/contact" className="book-btn">Talk to Our Experts</Link>
+                  <h1 className="all-head">Visual Analysis</h1>
+                  <p className="all-p">Connect with Codiste to discover new levels of comprehension in your photographs and videos by immersing yourself in the realm zone  of revolutionary technology. The way you engage with visual material will be revolutionised by our ML Visual Analysis products. Our team has been around the block to serve with ML Visual Analysis services that are intended to offer insights, expedite procedures, and improve security. They range from accurate Object Detection to smooth Video Analysis, Image Classification to facial recognition for personalised encounters and more.</p>
+                  <Link href="/contact" className="book-btn">Request A Quote</Link>
                 </div>
-                <div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="assets/images/Service-AI/AI_predictive/Predictive Modelling Services.webp" alt="Ai Development by Codiste" /></div>
+                <div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="assets/images/Service-AI/AI_visual/Visual Analysis.webp" alt="Ai Development by Codiste" /></div>
               </div>
             </div>
           </section>
@@ -54,11 +54,11 @@ const AIPredictive = () => {
       <div className="container container-fluid">
         <section>
           <div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
-            <h2 className="all-head text-center">Our Predictive Modelling Offerings</h2>
-            {/* <p className="secondsec-p text-center">Our state-of-the-art AI consulting services are made to help businesses across numerous industries. We provide a wide variety of solutions specifically crafted to match your particular demands as industry pioneers in the AI space.
-            </p> */}
+            <h2 className="all-head text-center">ML Visual Analysis Services We Offer </h2>
+            <p className="secondsec-p text-center">The blend of model architecture expertise and data visualisation techniques makes Codiste the right technical partner to serve you with these future-driven services.
+            </p>
           </div>
-          <ServiceInnerItems serviceItems={AIpredictive} />
+          <ServiceInnerItems serviceItems={AIVisualItems} />
         </section>
       </div>
 
@@ -66,9 +66,9 @@ const AIPredictive = () => {
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head text-center">
-              Why Should You Choose Codiste for Predictive Modelling?
+              Why Choose Codiste for Your ML Visual Analysis Needs?
             </h2>
-            <p className="secondsec-p text-center">Codiste, being an expert in forecasting models, addresses industry challenges and develops advanced custom predictive modelling solutions that address business needs.
+            <p className="secondsec-p text-center">We know all the nitty-gritty & in-betweens of visualising machine learning models, including neural network, so sit back and let us serve with the best possible solutions.
             </p>
           </div>
           <div className='row g-4'>
@@ -79,11 +79,11 @@ const AIPredictive = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-AI/AI_predictive/Experienced Data Scientists.png"
+                    src="assets/images/Service-AI/AI_visual/Peerless Technology.png"
                   />
                 </div>
-                <h3 className="">Experienced Data Scientists</h3>
-                <p className="secondsec-p">A team of data scientists at Codiste are highly skilled in predictive modelling. Their analytics skills guarantee that you can depend on them to bring a wealth of knowledge to your project. Our Codiste's team will ensure that your prediction models are both reliable and accurate.</p>
+                <h3 className="">Peerless Technology</h3>
+                <p className="secondsec-p">Our offerings are based on the most recent developments in computer vision and machine learning techniques. To guarantee that you constantly have accessibility to highly precise and trustworthy visualization tools, we continuously advance technology.</p>
               </div>
             </div>
 
@@ -94,11 +94,11 @@ const AIPredictive = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-AI/AI_predictive/Trailblazing Technologies.png"
+                    src="assets/images/Service-AI/AI_visual/Demonstrated Reliability.png"
                   />
                 </div>
-                <h3>Trailblazing Technologies</h3>
-                <p className="secondsec-p">Our competition is left behind because of our ability to predict and model with modern algorithms and software, all made possible by advance ai technology. The solutions we deliver are unparalleled in quality.
+                <h3>Demonstrated Reliability</h3>
+                <p className="secondsec-p">In visual analysis, reliability is important. Regardless of the way they are used for recognising objects, facial identification, or finding anomalies, our algorithms have undergone thorough training and testing to produce precise outcomes. You can depend on our technology to do it correctly.
                 </p>
               </div>
             </div>
@@ -109,11 +109,11 @@ const AIPredictive = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-AI/AI_predictive/Custom-fit Solutions.png"
+                    src="assets/images/Service-AI/AI_visual/Expandable Solutions.png"
                   />
                 </div>
-                <h3>Custom-fit Solutions</h3>
-                <p className="secondsec-p">Our clients each encounter one-of-a-kind data challenges, thus our predictive models are tailored to your specific needs. With this customisation, you can be assured that solutions are created specifically for your company, providing optimal benefits.
+                <h3>Expandable Solutions</h3>
+                <p className="secondsec-p">We recognise that as time passes, your demands could alter. Our services were created to grow with your business because of this. We can handle your needs if you're analysing hundreds of movies or just a few photos for analysis.
                 </p>
               </div>
             </div>
@@ -124,11 +124,11 @@ const AIPredictive = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-AI/AI_predictive/Data Security.png"
+                    src="assets/images/Service-AI/AI_visual/Adaptation Possibilities.png"
                   />
                 </div>
-                <h3>Data Security</h3>
-                <p className="secondsec-p">Our advanced security procedures are crucial to ensuring our clients' peace of mind with regards to data security. Relax in knowing that your private information is in good hands, as it is shielded from both internal and external attacks. Our serious approach to data security is our top priority.
+                <h3>Adaptation Possibilities</h3>
+                <p className="secondsec-p">The needs for visual analysis and data analysis vary widely amongst enterprises. We provide personalization choices so you may adapt our offerings to your particular requirements and make sure you obtain the outcomes you desire.
                 </p>
               </div>
             </div>
@@ -140,11 +140,11 @@ const AIPredictive = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-AI/AI_predictive/Proven Track Record.png"
+                    src="assets/images/Service-AI/AI_visual/Formation Integrity.png"
                   />
                 </div>
-                <h3>Proven Track Record</h3>
-                <p className="secondsec-p">Predictive modelling is our secret weapon. It has helped our experts assist numerous businesses in streamlining their processes. Record-breaking productivity and profitability gains have been achieved. Be our satisfied customer and experience the same success. Our accomplishments are a testament to our performance history.
+                <h3>Formation Integrity</h3>
+                <p className="secondsec-p">We value the privacy and integrity of the information you share with us. Your visual data is always safeguarded by our strong security procedures. Understanding that your data is secure will give you tranquillity and ease.
                 </p>
               </div>
             </div>
@@ -155,104 +155,25 @@ const AIPredictive = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Service-AI/AI_predictive/Seamless Improvement.png"
+                    src="assets/images/Service-AI/AI_visual/Phenomenal Assistance.png"
                   />
                 </div>
-                <h3>Seamless Improvement</h3>
-                <p className="secondsec-p">For developing and changing predictive models and procedures to keep your company ahead in the world of analytics, trust us. We are committed to continuous progress, just like the ever-changing data realm. Opt for our predictive and modelling services that adapt to your requirements.
+                <h3>Phenomenal Assistance</h3>
+                <p className="secondsec-p">We are a collaborator in the achievement of your visual analysis, not just a vendor of services. From installation to problem solving, our devoted assistance team is prepared to help you at every stage, providing an unparalleled customer experience.
                 </p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div className="py-5">
-        <div className="container container-fluid">
-          <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-            <h2 className="all-head text-center">
-              H2-How We Build Predictive Analytics Models
-            </h2>
-          </div>
-          <section class="ps-timeline-sec">
-            <div class="container">
-              <ol class="ps-timeline">
-                <li>
-                  <div class="img-handler-top">
-                    <h4 className="text-center">Scope and Defining</h4>
-                    <p > Business processes and business outcomes are predicted. Based on the results, a suitable predictive model will be adopted.
-                    </p>
-                  </div>
-                  <div class="ps-bot">
-                    {/* <img src="http://www.physology.co.uk/wp-content/uploads/2016/02/ps-elem_13.png" alt="" /> */}
-                  </div>
-                  <span class="ps-sp-top">01</span>
-                </li>
-                <li>
-                  <div class="img-handler-bot">
-                    <h4 className="text-center">Data profiling</h4>
-                    <p>Discovery of needed data is done along by finalising where to store, how to be accessed and what will be its current state.</p>
-                  </div>
-                  <div class="ps-top">
-                    {/* <img src="http://www.physology.co.uk/wp-content/uploads/2016/02/ps-elem_13.png" alt="" /> */}
-                  </div>
-                  <span class="ps-sp-bot">02</span>
-                </li>
-                <li>
-                  <div class="img-handler-top">
-                    <h4 className="text-center">Data Integration</h4>
-                    <p>All those identified data will be cleansed and integrated to form a consistent and comprehensive data set to build a model.</p>
-                  </div>
-                  <div class="ps-bot">
-                    {/* <img src="http://www.physology.co.uk/wp-content/uploads/2016/02/ps-elem_13.png" alt="" /> */}
-                  </div>
-                  <span class="ps-sp-top">03</span>
-                </li>
-                <li>
-                  <div class="img-handler-bot">
-                    <h4 className="text-center">Building Predictive Model</h4>
-                    <p>Hypotheses will be defined and test models are built according to the goals, historical data, variables and factors proving the hypothesis.</p>
-                  </div>
-                  <div class="ps-top">
-                    {/* <img src="http://www.physology.co.uk/wp-content/uploads/2016/02/ps-elem_13.png" alt="" /> */}
-                  </div>
-                  <span class="ps-sp-bot">04</span>
-                </li>
-                <li>
-                  <div class="img-handler-top">
-                    <h4 className="text-center">Incorporating Analytics</h4>
-                    <p>Business processes are integrated with the developed model to make it more valuable and to achieve desired outcome.
-                    </p>
-                  </div>
-                  <div class="ps-bot">
-                    {/* <img src="http://www.physology.co.uk/wp-content/uploads/2016/02/ps-elem_13.png" alt="" /> */}
-                  </div>
-                  <span class="ps-sp-top">05</span>
-                </li>
-                <li>
-                  <div class="img-handler-bot">
-                    <h4 className="text-center">Monitoring Business Outcome</h4>
-                    <p>The model gets monitored after the deployment in a live environment and measured for its effectiveness, corrections will be made if required.</p>
-                  </div>
-                  <div class="ps-top">
-                    {/* <img src="http://www.physology.co.uk/wp-content/uploads/2016/02/ps-elem_13.png" alt="" /> */}
-                  </div>
-                  <span class="ps-sp-bot">06</span>
-                </li>
-              </ol>
-            </div>
-          </section>
-
         </div>
       </div>
 
       <div className="blackdiv px-3">
         <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
           <p>
-            We build Predictive Analytics Models for Large Corporations
+            Have an idea about visualising machine learning models?
           </p>
           <Link href="/book-a-call" className="book-btn">
-            Contact Us Now!
+            Let's catch up
           </Link>
         </div>
       </div>
@@ -472,7 +393,7 @@ const AIPredictive = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapseOne"
                 >
-                  What is predictive modelling?
+                  What is Visual Analysis?
                 </button>
               </h2>
               <div
@@ -482,7 +403,7 @@ const AIPredictive = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Predictive Modelling is a set of processes which follows the mathematical way of forecasting future events. It analyses the data pattern from the given input and performs the prediction process. It is widely used in every aspect like predicting the TV rating, customer’s next purchase, corporate earnings, and so on. With the help of ML-based statistical techniques, this model performs the prediction more accurately.
+                  Visual analysis is the process of observing and understanding the visually represented data. The ultimate purpose of analysing the visual data is to create an argument based on visual evidence. By using this, businesses can quickly identify the current market trends and make corrective strategic-based decisions in real-time to achieve success.
                 </div>
               </div>
             </div>
@@ -499,7 +420,7 @@ const AIPredictive = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapseTwo"
                 >
-                  How does predictive modeling work?
+                  How to start a visual analysis essay?
                 </button>
               </h2>
               <div
@@ -509,7 +430,7 @@ const AIPredictive = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Predictive models effectively use data analysis, AI, ML, and statistical models to find accurate data patterns for better prediction. In forecasting the future of a company, this predictive model uses the historic and current customer demand data for predicting upcoming events. On the other hand, data scientists wisely use this model to find the correlation between the elements through statistical formulation.
+                  Unlike the other essays, writing a visual analysis essay requires studying and understanding all the design elements and principles. With such deep understanding you can write an engaging description of the product, picture, photo or architecture and so on. Always start a visual analysis essay with an attention-grabbing hook statement followed by a brief description of the essay topic. In addition, you can provide some interesting facts relevant to the topic and state the essay statement.
                 </div>
               </div>
             </div>
@@ -526,7 +447,7 @@ const AIPredictive = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapseThree"
                 >
-                  What is the churn prediction model?
+                  How to train openCV to detect objects?
                 </button>
               </h2>
               <div
@@ -536,7 +457,21 @@ const AIPredictive = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Churn prediction model is a type of predictive model mainly used to identify the possibility of when an individual customer will stop engaging in a business. As the modern business world moves towards technical aid to survive and to succeed in today’s competitive market, this churn model plays a handy role in predicting the risks of losing individual customers in the future.
+                  Object detection is a kind of technique used in computers to identify the specific or interested
+                  objects within the provided images or video frames.
+                  <ul>Steps to follow for object detection in OpenCV
+                    <li>Gathering all the datasets of the given images or video frames.</li>
+                    <li>Choose the perfect detection algorithms like haar cascades, yolo, SSD, and so on for your object detection.
+                    </li>
+                    <li>Based on your requirements, perform the pre-processing steps (resizing, colouring, and so on) on your dataset.
+                    </li>
+                    <li>Apply the chosen object detection algorithm to generate the necessary model files or parameters.
+                    </li>
+                    <li>Draw segmentation masks around the detected objects to visualise the results.
+                    </li>
+                  </ul>
+
+
                 </div>
               </div>
             </div>
@@ -553,7 +488,7 @@ const AIPredictive = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapsefour"
                 >
-                  How to build a recommendation system using machine learning?
+                  How Object Detection works?
                 </button>
               </h2>
               <div
@@ -563,8 +498,7 @@ const AIPredictive = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Here are the steps to follow for building a recommended system using ML techniques.
-                  The first and foremost step is identifying problems and narrating goal formulas. Next step, collecting customer behaviour data and initiating pre-processing procedures. Now, understand the data distribution and relationship between data variables using Exploratory Data Analysis (EDA). Furthermore, Pick the suitable features, models for your system and train. Now, evaluate the proposed models after fine tuning all the hyper-parameters.  Finally, initiate the model deployment.
+                  Object detection works on the ML-based algorithm. To identify and locate an object within an image, object categorisation techniques are applied. Also, it makes use of functions like image wrapping, image blurring, etc., for transforming the image. A modern object detection model uses complex architectures, dataset annotation, and DL to achieve better results.
                 </div>
               </div>
             </div>
@@ -581,7 +515,7 @@ const AIPredictive = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapsefive"
                 >
-                  What is customer segmentation?
+                  What is Image Classification?
                 </button>
               </h2>
               <div
@@ -591,7 +525,7 @@ const AIPredictive = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Customer segmentation, it is an effective strategy mainly used by companies and brands to find and understand their target audience group. With this process, brands can group their customers based on their behaviour and engaging mode with brands. Customer Segmentation, improve the revenues and increase their client retention rate of a brand by enabling them to provide more personalised services or products.
+                  Image classification is a process of extracting information from the provided images. Image classification can be done in two approaches supervised and unsupervised. By using a specific set of rules, pixels or vectors of the given images are grouped or categorised. Once the categorization process is done, trained models are used to identify the images.
                 </div>
               </div>
             </div>
@@ -608,7 +542,7 @@ const AIPredictive = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapsesix"
                 >
-                  What is demand forecasting?
+                  How Video Analysis works?
                 </button>
               </h2>
               <div
@@ -618,25 +552,77 @@ const AIPredictive = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Demand forecasting is the process of foreseeing the demands of the customers and predicting the quantity of goods and services that need to be provided in the future. With real-time analysis of the customer demands of the present and past, it accurately predicts the future. For modern-day businesses, this demand forecasting helps to gain more profit through effective optimization of the supply chain process.
+                  In general, video analysis uses rule-based algorithms to conduct the analysis process promptly. The rule-based algorithm offers a decision tree like providing ‘if/then’ questions for better prediction of the objects in the video. Based on the inputs, the algorithm eliminates unnecessary objects and detects only the relevant ones on the video.
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2
+                className="accordion-header"
+                id="flush-headingseven"
+              >
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseseven"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseseven"
+                >
+                  What is Facial Recognition?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseseven"
+                className="accordion-collapse collapse"
+                aria-labelledby="flush-headingseven"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  Facial recognition is an advanced technology that is specifically used to identify and confirm a person’s identity by matching facial features. Biometric security systems which are widely used by companies use this technology to strengthen user authentication activity and provide better security. In addition, smartphones with this technology have received a welcome from the users as it provides more device security.
+                </div>
+              </div>
+            </div>
+            <div className="accordion-item">
+              <h2
+                className="accordion-header"
+                id="flush-headingeight"
+              >
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseeight"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseeight"
+                >
+                  What is Anomaly Detection?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseeight"
+                className="accordion-collapse collapse"
+                aria-labelledby="flush-headingeight"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div className="accordion-body">
+                  Anomaly detection is a set of processes used to identify unwanted or irrelevant data from the given input through deep analysis techniques. By using the pattern of behaviors, the system easily and quickly detects irregular data. Businesses involved in finance, retail, or cyber security make use of this anomaly detection to detect and protect themselves from harmful outliers.
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
       <div className="blackdiv px-3">
         <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
           <p>
-            We build trust and delivering result-oriented outcomes along with Generative AI services.
+            Looking to hire AI consultants who back your Visual Analysis requirements with best-in-class models?
           </p>
           <Link href="/book-a-call" className="book-btn">
-            Contact Us Now!
+            Let's catch up
           </Link>
         </div>
       </div>
-
       <div className="py-5 bg-color">
         <div className="container container-fluid">
           <div className="d-flex align-items-center flex-column justify-content-center mb-5">
@@ -873,13 +859,13 @@ const AIPredictive = () => {
 
       <div className="container container-fluid py-5">
         <h2 className="all-head text-center mb-lg-5 mb-0">
-          Let’s start a conversation On Predictive Models!
+          Trouble finding Machine Learning Experts?
         </h2>
         <section>
           <div className="row  d-flex align-items-center">
             <div className="col-lg-6 col-md-12 p-4 mb-lg-0 needsec">
               <h2>
-                Looking for secure Generative AI solutions that set you apart from the market?
+                Would you like to utilise Codiste’s ML Visual Analysis experience in your project?
               </h2>
             </div>
             <div className="col-lg-6 col-md-12 ">
@@ -897,4 +883,4 @@ const AIPredictive = () => {
   );
 };
 
-export default AIPredictive;
+export default AIVisual;
