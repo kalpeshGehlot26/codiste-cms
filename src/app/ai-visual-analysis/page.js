@@ -616,14 +616,14 @@ const AIVisual = () => {
       <div className="blackdiv px-3">
         <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
           <p>
-            Looking to hire AI consultants who back your Visual Analysis requirements with best-in-class models?
+            Looking to hire AI consultants who back your Visual Analysis requirements?
           </p>
           <Link href="/book-a-call" className="book-btn">
             Let's catch up
           </Link>
         </div>
       </div>
-      <div className="py-5 bg-color">
+      <div className="py-5">
         <div className="container container-fluid">
           <div className="d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head">Case Study</h2>

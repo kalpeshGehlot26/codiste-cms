@@ -170,7 +170,7 @@ const AIPredictive = () => {
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head text-center">
-              H2-How We Build Predictive Analytics Models
+              How We Build Predictive Analytics Models
             </h2>
           </div>
           <section class="ps-timeline-sec">
@@ -636,7 +636,7 @@ const AIPredictive = () => {
         </div>
       </div>
 
-      <div className="py-5 bg-color">
+      <div className="py-5">
         <div className="container container-fluid">
           <div className="d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head">Case Study</h2>

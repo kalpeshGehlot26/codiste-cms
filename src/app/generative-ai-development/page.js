@@ -11,11 +11,11 @@ import AIConsutindus from "../component/service/AIConsutindus";
 export const metadata = {
   title: "Generative AI Development | AI | Codiste",
   description: "Discover how we create Generative AI models to amplify your business's innovation. Explore how Generative AI model works to generate art, music, text, and more.",
-  images: "https://www.codiste.com/assets/images/Service-AI/AI_Generative/Generative AI.webp",
+  images: "https://www.codiste.com/assets/images/Service-AI/AI_Generative/GenerativeAI.webp",
   openGraph: {
     title: "Generative AI Development | AI | Codiste",
     description: "Discover how we create Generative AI models to amplify your business's innovation. Explore how Generative AI model works to generate art, music, text, and more.",
-    images: "https://www.codiste.com/assets/images/Service-AI/AI_Generative/Generative AI.webp",
+    images: "https://www.codiste.com/assets/images/Service-AI/AI_Generative/GenerativeAI.webp",
     url: 'https://www.codiste.com/generative-ai-development/'
   },
   alternates: {
@@ -44,7 +44,7 @@ const GenrativeAI = () => {
                   </p>
                   <Link href="/contact" className="book-btn">Talk Our AI Experts</Link>
                 </div>
-                <div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="assets/images/Service-AI/AI_Generative/Generative AI.webp" alt="Ai Development by Codiste" /></div>
+                <div className="col-12 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2"><img className='img-fluid' src="assets/images/Service-AI/AI_Generative/GenerativeAI.webp" alt="Ai Development by Codiste" /></div>
               </div>
             </div>
           </section>
@@ -430,7 +430,6 @@ const GenrativeAI = () => {
         </div>
       </div>
 
-
       <div className="py-5">
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -657,8 +656,17 @@ const GenrativeAI = () => {
           </div>
         </div>
       </div>
-
-      <div className="py-5 bg-color">
+      <div className="blackdiv px-3">
+        <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
+          <p>
+            Want to accelerate your business with our NVIDIA-powered Generative AI services?
+          </p>
+          <Link href="/book-a-call" className="book-btn">
+            Connect Now!
+          </Link>
+        </div>
+      </div>
+      <div className="py-5">
         <div className="container container-fluid">
           <div className="d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head">Case Study</h2>
