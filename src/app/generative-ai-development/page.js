@@ -56,7 +56,7 @@ const GenrativeAI = () => {
         <section>
           <div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
             <h2 className="all-head text-center">Our AI Generative Services</h2>
-            <p className="secondsec-p text-center">At Codiste, we provide Generative AI services designed to be enterprise-ready and bring business opportunities.
+            <p className="secondsec-p text-center ai-custom">At Codiste, we provide Generative <a href="https://www.codiste.com/artificial-intelligence-development-company">AI development services</a> designed to be enterprise-ready and bring business opportunities.
             </p>
           </div>
           <ServiceInnerItems serviceItems={AIGenerative} />
@@ -176,7 +176,7 @@ const GenrativeAI = () => {
             <h2 className="all-head text-center">
               Our AI Consultation Approach
             </h2>
-            <p className="secondsec-p text-center">We adopt a practical and customer-centricity strategy to offer tangible outcomes for organisations looking for disruptive AI solutions.
+            <p className="secondsec-p text-center ai-custom">We adopt a practical and customer-centricity strategy to offer tangible outcomes for organisations looking for disruptive AI & <a href="https://www.codiste.com/machine-learning-development-company/">ML development solutions</a>.
 
             </p>
           </div>

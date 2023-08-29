@@ -57,7 +57,7 @@ const AIConsult = () => {
                 <section>
                     <div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
                         <h2 className="all-head text-center">Our Expertise in AI Consulting Services</h2>
-                        <p className="secondsec-p text-center">Our state-of-the-art AI consulting services are made to help businesses across numerous industries. We provide a wide variety of solutions specifically crafted to match your particular demands as industry pioneers in the AI space.
+                        <p className="secondsec-p text-center ai-custom">Our state-of-the-art  <a href="https://www.codiste.com/machine-learning-development-company/">AI development consulting</a> services are made to help businesses across numerous industries. We provide a wide variety of solutions specifically crafted to match your particular demands as industry pioneers in the AI space.
                         </p>
                     </div>
                     <ServiceInnerItems serviceItems={AIConsultItems} />
@@ -431,7 +431,6 @@ const AIConsult = () => {
                 </div>
             </div>
 
-
             <div className="py-5">
                 <div className="container container-fluid">
                     <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -585,11 +584,21 @@ const AIConsult = () => {
                 </div>
             </div>
 
-            <div className="py-5 bg-color">
+            <div className="blackdiv px-3">
+                <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
+                    <p>
+                        Looking to leverage AI expertise through consulting?
+                    </p>
+                    <Link href="/book-a-call" className="book-btn">
+                        Hire AI Expert Now
+                    </Link>
+                </div>
+            </div>
+
+            <div className="py-5">
                 <div className="container container-fluid">
                     <div className="d-flex align-items-center flex-column justify-content-center mb-5">
                         <h2 className="all-head">Case Study</h2>
-
                     </div>
                     <div className="row d-flex align-items-center justify-content-between case-sec">
                         <div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">

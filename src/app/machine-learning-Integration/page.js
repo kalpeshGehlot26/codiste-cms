@@ -90,8 +90,8 @@ const MLIntegration = () => {
             <h2 className="all-head text-center">
               Why Codiste for ML Integration Service?
             </h2>
-            <p className="secondsec-p text-center">
-              We bring innovation with ML Integration. Our services with machine learning deliver experience with quality, transparency and with proper communication.
+            <p className="secondsec-p text-center ai-custom">
+              We bring innovation with ML Integration. Our services with <a href="https://www.codiste.com/machine-learning-development-company">machine learning</a> deliver experience with quality, transparency and with proper communication.
             </p>
           </div>
           <div className="row g-4">
@@ -254,11 +254,11 @@ const MLIntegration = () => {
                   <div className="wrap1">3</div>
                 </div>
                 <h3 className="">Data Processing</h3>
-                <p className="secondsec-p">
+                <p className="secondsec-p ai-custom">
                   {" "}
                   Preparing and preprocessing the data will
                   assure its accuracy, completeness, and
-                  suitability for ML algorithms. This covers
+                  suitability for <a href="https://www.codiste.com/artificial-intelligence-development-company">ML and AI algorithms</a>. This covers
                   operations like feature engineering,
                   addressing missing values, data cleansing,
                   and converting data into a format for model
@@ -761,7 +761,18 @@ const MLIntegration = () => {
         </div>
       </div>
 
-      <div className="py-5 bg-color">
+      <div className="blackdiv px-3">
+        <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
+          <p>
+            Ready to supercharge your systems with seamless machine learning integration?
+          </p>
+          <Link href="/book-a-call" className="book-btn">
+            Book A Call
+          </Link>
+        </div>
+      </div>
+
+      <div className="py-5">
         <div className="container container-fluid">
           <div className="d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head">Case Study</h2>
@@ -802,7 +813,6 @@ const MLIntegration = () => {
           </div>
         </div>
       </div>
-
 
       <div className="bg-color py-5">
         <div className="container container-fluid">

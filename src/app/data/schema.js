@@ -1,5 +1,3 @@
-import AIPredictive from "../predictive-modelling/page";
-
 const jsonData = {
 	home: {
 		"@context": "https://schema.org",
@@ -1080,7 +1078,133 @@ const jsonData = {
 			}
 		}]
 
+	},
+	Bookcall: {
+		"@context": "https://schema.org/",
+		"@type": "WebSite", "name": "codiste",
+		"url": "https://www.codiste.com/",
+		"potentialAction": {
+			"@type": "SearchAction",
+			"target": "https://www.codiste.com/book-a-call{search_term_string}",
+			"query-input": "required name=search_term_string"
+		}
+	},
+	ServicesAll: {
+		"@context": "https://schema.org/",
+		"@type": "WebSite",
+		"name": "codiste",
+		"url": "https://www.codiste.com/",
+		"potentialAction": {
+			"@type": "SearchAction",
+			"target": "https://www.codiste.com/services{search_term_string}",
+			"query-input": "required name=search_term_string"
+		}
+	},
+	Portfolio: {
+		"@context": "https://schema.org/",
+		"@type": "WebSite",
+		"name": "codiste",
+		"url": "https://www.codiste.com/",
+		"potentialAction": {
+			"@type": "SearchAction",
+			"target": "https://www.codiste.com/codiste-portfolio{search_term_string}",
+			"query-input": "required name=search_term_string"
+		}
+	},
+	Blog: {
+		"@context": "https://schema.org/",
+		"@type": "WebSite",
+		"name": "codiste",
+		"url": "https://www.codiste.com/",
+		"potentialAction": {
+			"@type": "SearchAction",
+			"target": "https://www.codiste.com/blog{search_term_string}",
+			"query-input": "required name=search_term_string"
+		}
+	},
+	ContactUs: {
+		"@context": "https://schema.org",
+		"@type": "ProfessionalService",
+		"name": "Codiste Pvt Ltd",
+		"image": "https://www.codiste.com/assets/images/logo.png",
+		"@id": "",
+		"url": "https://www.codiste.com/",
+		"telephone": "+919429005987",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "915, Ganesh Glory",
+			"addressLocality": "Ahmedabad, 382481",
+			"postalCode": "382481",
+			"addressCountry": "IN"
+		},
+		"openingHoursSpecification": {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": [
+
+				"Monday",
+
+				"Tuesday",
+
+				"Wednesday",
+
+				"Thursday",
+
+				"Friday"
+			],
+
+			"opens": "09:00",
+
+			"closes": "08:00"
+		}
+	},
+	Contact: {
+		"@context": "https://schema.org",
+		"@type": "ProfessionalService",
+		"name": "Codiste Pvt Ltd",
+		"image": "https://www.codiste.com/assets/images/logo.png",
+		"@id": "",
+		"url": "https://www.codiste.com/",
+		"telephone": "+27 60 976 6525",
+		"address": {
+
+			"@type": "PostalAddress",
+
+			"streetAddress": "1 Galway Rd, Parkview,",
+
+			"addressLocality": "Johannesburg",
+
+			"postalCode": "382481",
+
+			"addressCountry": "ZA"
+		},
+		"openingHoursSpecification": {
+
+			"@type": "OpeningHoursSpecification",
+
+			"dayOfWeek": [
+
+
+				"Monday",
+
+
+				"Tuesday",
+
+
+				"Wednesday",
+
+
+				"Thursday",
+
+
+				"Friday"
+
+			],
+
+			"opens": "09:00",
+			"closes": "07:00"
+		}
 	}
+
 };
 
 export default jsonData;

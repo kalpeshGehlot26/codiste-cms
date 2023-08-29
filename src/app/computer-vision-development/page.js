@@ -38,8 +38,8 @@ const computervision = () => {
               <div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
                 <div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
                   <h1 className="all-head">Computer Vision Development </h1>
-                  <p className="all-p ">
-                    We build intelligent systems using sophisticated algorithms, frameworks, data processing techniques, and methods. Our expertise lies in modern algorithms and Machine Learning approaches that enable us to deliver unparalleled accuracy and efficiency in various apps related to image recognition, face analysis, visual search, object detection, movement recognition, video analysis, and more.
+                  <p className="all-p ai-custom">
+                    We build intelligent systems using sophisticated algorithms, frameworks, data processing techniques, and methods. Our expertise lies in modern algorithms and <a href="https://www.codiste.com/machine-learning-development-company">Machine Learning</a> approaches that enable us to deliver unparalleled accuracy and efficiency in various apps related to image recognition, face analysis, visual search, object detection, movement recognition, video analysis, and more.
                   </p>
                   <Link href="/contact" className="book-btn">Connect with Experts</Link>
                 </div>
@@ -227,7 +227,7 @@ const computervision = () => {
                   </div>
                 </div>
                 <h3 className="">Business Goal</h3>
-                <p className="secondsec-p">Understanding the desired result, establishing key performance indicators (KPIs), and coordinating the ML strategy. With the larger corporate objectives are necessary for this.
+                <p className="secondsec-p ai-custom">Understanding the desired result, establishing key performance indicators (KPIs), and coordinating the <a href="https://www.codiste.com/machine-learning-development-company">ML strategy</a>. With the larger corporate objectives are necessary for this.
                 </p>
               </div>
             </div>
@@ -785,8 +785,19 @@ const computervision = () => {
           </div>
         </div>
       </div> */}
+      <div className="blackdiv px-3">
+        <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
+          <p>
+            Our Computer Vision Experts Power Businesses across the AI Ecosystem
+          </p>
+          <Link href="/book-a-call" className="book-btn">
+            Discuss Your Goal
+          </Link>
+        </div>
+      </div>
 
-      <div className="py-5 bg-color">
+
+      <div className="py-5">
         <div className="container container-fluid">
           <div className="d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head">Case Study</h2>

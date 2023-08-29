@@ -57,7 +57,7 @@ const MLConsutling = () => {
             <h2 className="all-head text-center">
               Our Top-Most Machine Learning Consulting Services
             </h2>
-            <p className="secondsec-p text-center p-4">We are the ML consulting service provider, combining the best technologies with the latest trends while delivering  a well-strategized set of Machine Learning development services that unlock business insights. </p>
+            <p className="secondsec-p text-center p-4 ai-custom">We are the ML consulting service provider, combining the best technologies with the latest trends while delivering  a well-strategized set of <a href="https://www.codiste.com/machine-learning-development-company">Machine Learning development</a> services that unlock business insights. </p>
           </div>
           <ServiceInnerItems serviceItems={MLConsult} />
         </section>
@@ -66,10 +66,10 @@ const MLConsutling = () => {
       <div className="py-5 bg-color mt-5">
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-            <h2 className="all-head text-center">
+            <h2 className="all-head text-center ai-custom">
               Why Choose Us As for Machine Learning Consultation?
             </h2>
-            <p className="secondsec-p text-center">Codiste delivers Machine Learning Consulting combining clients’ requirements with the latest technologies.</p>
+            <p className="secondsec-p text-center ai-custom">Codiste delivers & <a href="https://www.codiste.com/ai-consulting">artificial intelligence Consultation</a> combining clients’ requirements with the latest technologies.</p>
           </div>
           <div className='row g-4'>
             <div className='col-xl-4 col-md-6 col-sm-12'>
@@ -460,7 +460,6 @@ const MLConsutling = () => {
         </div>
       </div>
 
-
       <div className="py-5">
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -668,7 +667,18 @@ const MLConsutling = () => {
         </div>
       </div>
 
-      <div className="py-5 bg-color">
+      <div className="blackdiv px-3">
+        <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
+          <p>
+            Ready to amplify your strategies with machine learning consulting?
+          </p>
+          <Link href="/book-a-call" className="book-btn">
+            Hire ML Consultant Now
+          </Link>
+        </div>
+      </div>
+
+      <div className="py-5">
         <div className="container container-fluid">
           <div className="d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head">Case Study</h2>

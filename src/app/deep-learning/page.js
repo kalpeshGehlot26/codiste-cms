@@ -83,8 +83,8 @@ const DeepLearning = () => {
             <h2 className="all-head text-center">
               Why Us for Deep Learning Service?
             </h2>
-            <p className="secondsec-p text-center">
-              Codiste has expertise to perform analytical and automation with their expertise in deep learning AI methods.
+            <p className="secondsec-p text-center ai-custom">
+              Codiste has expertise to perform analytical and automation with their expertise in deep learning <a href="https://www.codiste.com/artificial-intelligence-development-company">AI methods</a>.
             </p>
           </div>
           <div className="row g-4">
@@ -775,7 +775,18 @@ const DeepLearning = () => {
         </div>
       </div>
 
-      <div className="py-5 bg-color">
+      <div className="blackdiv px-3">
+        <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
+          <p>
+            Dive into the future of AI with our deep learning expertise
+          </p>
+          <Link href="/book-a-call" className="book-btn">
+            Content Now!
+          </Link>
+        </div>
+      </div>
+
+      <div className="py-5">
         <div className="container container-fluid">
           <div className="d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head">Case Study</h2>

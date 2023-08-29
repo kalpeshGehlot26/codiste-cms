@@ -3,6 +3,7 @@ import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import "../../style.css";
 import "../../external.css";
 import "../../Newstyle.css";
+import jsonData from "../data/schema";
 
 export const metadata = {
 	title: "Best Blockchain and AI Development Company | Contact Us | Codiste",
@@ -22,6 +23,14 @@ export const metadata = {
 const page = () => {
 	return (
 		<div>
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.ContactUs) }}
+			/>
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.Contact) }}
+			/>
 			<div className="bg-color contactsec">
 				<div className="container container-fluid  py-5">
 					<div className="mb-5">

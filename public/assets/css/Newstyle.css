@@ -80,8 +80,10 @@ animation-name: fadeIn;
     border: 2px solid white;
   }
   .Approachcard:hover p{
-    color: #fff;
+    color: #fff !important;
   }
+
+
   .Approachcard::before .wrap {
   background-color: #fff;
   color: #000;

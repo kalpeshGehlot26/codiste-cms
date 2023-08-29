@@ -2,6 +2,7 @@ import React from "react";
 import ClientSlider from "../component/Home/clientSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Posts from "../component/Posts/posts";
+import jsonData from "../data/schema";
 
 export const metadata = {
 	title: "Stay informed on emerging technologies | Codiste",
@@ -21,6 +22,10 @@ export const metadata = {
 const Blogs = () => {
 	return (
 		<div>
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.Blog) }}
+			/>
 			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>

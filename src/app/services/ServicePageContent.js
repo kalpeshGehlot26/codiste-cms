@@ -11,7 +11,7 @@ import Link from "next/link";
 import "../../style.css";
 import "../../external.css";
 import "../../Newstyle.css";
-
+import jsonData from "../data/schema";
 
 const limit = 4;
 const category = "47,43,55,6,57";
@@ -22,6 +22,10 @@ const ServicePageContent = () => {
 
 	return (
 		<div>
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonData.ServicesAll) }}
+			/>
 			<div className="bg-color">
 				<div className="container container-fluid">
 					<section>

@@ -84,8 +84,8 @@ const MLModelDevelopment = () => {
 						<h2 className="all-head text-center">
 							Our Machine Learning Development Services
 						</h2>
-						<p className="secondsec-p text-center p-4">
-							Our machine learning development services are one of
+						<p className="secondsec-p text-center p-4 ai-custom">
+							Our <a href="https://www.codiste.com/machine-learning-development-company">machine learning development services</a> are one of
 							the most powerful ones and are appreciated by
 							different industry leaders. We get onboard and bring
 							you custom solutions involved in the machine
@@ -105,8 +105,8 @@ const MLModelDevelopment = () => {
 						<h2 className="all-head text-center">
 							Why Choose Us For Your ML Model Development?
 						</h2>
-						<p className="secondsec-p text-center">
-							Choose Codiste as an expert ML model Development Company to develop a more accurate ML model.
+						<p className="secondsec-p text-center ai-custom">
+							Choose Codiste as an expert <a href="https://www.codiste.com/artificial-intelligence-development-company">ML model and AI Development Company</a> to develop a more accurate ML model.
 
 						</p>
 					</div>
@@ -918,8 +918,18 @@ const MLModelDevelopment = () => {
 					</div>
 				</div>
 			</div>
+			<div className="blackdiv px-3">
+				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
+					<p>
+						Ready to see your data come to life through specialized machine learning model development?
+					</p>
+					<Link href="/book-a-call" className="book-btn">
+						Contact us now
+					</Link>
+				</div>
+			</div>
 
-			<div className="py-5 bg-color">
+			<div className="py-5">
 				<div className="container container-fluid">
 					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
 						<h2 className="all-head">Case Study</h2>
