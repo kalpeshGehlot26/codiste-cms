@@ -3,7 +3,6 @@ const MLList = [
         title: "ML Consulting",
         description: "At Codiste, we offer machine-learning consulting services to help you understand new machine-learning technologies and trends in the industry. Our consulting services help you discover ways to leverage AI technologies for your business. We offer end-to-end machine learning consulting services, including model selection, data preparation, and integration strategy.",
         slug: "machine-learning-consulting"
-
     },
     {
         title: "ML Model Development",
@@ -41,7 +40,6 @@ const MLList = [
     {
         title: "ML Training and Education",
         description: "Our machine learning team offers ML training and education services designed to help your business understand required skills and knowledge on AI, ML, and other automation tools and techniques. We offer machine learning training and education sessions for businesses to utilize machine learning solutions effectively.",
-        // slug: "#"
     },
 ];
 
