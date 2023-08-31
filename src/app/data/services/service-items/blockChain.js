@@ -27,10 +27,7 @@ const blockChainList = [
         title: "Defi Solution",
         description: "Codiste offers robust and decentralized finance solutions for enterprises to help scale in the blockchain space. Our decentralized finance (DeFi) solutions are customized to help you leverage blockchain technology with innovative & new financial products and services. We develop DeFi solutions that can include features and extend support to decentralized exchanges, lending platforms, yield farming, and more. Our team ensures that our solutions are designed to be fast, secure, and highly scalable to eliminate the drawbacks of centralized financial services."
     },
-    {
-        title: "Crypto Payment Gateway Development",
-        description: "We offer crypto payment & gateway development services for trading/exchange platforms and businesses interested in providing decentralized finance solutions to their users. Our team specializes in developing customized payment gateways that allow you to accept cryptocurrency payments. Our payment gateways are built with blockchain to ensure they are highly secure, fast, and reliable and can be customized according to specific requirements regarding cryptocurrency support."
-    },
+
     {
         title: "Web3 Solution Development",
         description: "Codiste offers Web3 solution development services to help enterprises leverage blockchain technology and explore decentralized ecosystems that give users greater control over their data. We have a team of experienced Web3 developers to ensure that you have a seamless Web3 integration experience. Our team allows you to select from multiple programming languages, including Solidity, Java, and Python, to build efficient and secure decentralized applications that can be run on a wide range of blockchain platforms."
@@ -39,10 +36,7 @@ const blockChainList = [
         title: "KYC Integration",
         description: "We offer KYC integration services for fintech businesses and e-commerce platforms to facilitate their decentralized blockchain ecosystem with secured finance. Codiste has a team of experts and blockchain professionals to help you integrate Know Your Customer (KYC) procedures into blockchain solutions to ensure compliance with financial regulations and prevent fraud to provide a safer and more secure user experience. We offer enterprises a range of KYC solutions, including digital identity verification and authentication tools, to build fast and regulations-compliant blockchain solutions."
     },
-    {
-        title: "Crypto Exchange Integration",
-        description: "We offer crypto exchange integration services and development support to help decentralized fintech enterprises with exchange integration. Codiste provides a robust and reliable development and integrates cryptocurrency payment solutions into their existing centralized or decentralized platforms & systems. Our team of developers has extensive hands-on experience in integrating with significant cryptocurrency exchanges, such as Binance and Coinbase, and can build custom solutions."
-    },
+
     {
         title: "Ethereum & Solana Blockchain Development",
         description: "We offer Ethereum and Solana blockchain development services for businesses and enterprises ready to explore decentralized ecosystems and lead in the blockchain space. Codiste offers enterprise-grade blockchain development using the Ethereum and Solana blockchain platforms. Our expert-led team of developers has in-depth knowledge of these platforms and their programming languages, and we build custom solutions that are fast, secure, and scalable."

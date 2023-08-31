@@ -38,7 +38,7 @@ const BlockChainDevelopment = () => {
 				<div className="container container-fluid">
 					<section>
 						<div className="row firstsec ">
-							<div  className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
+							<div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
 								<div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
 									<h1 className="all-head">
 										Blockchain Development Company
@@ -73,7 +73,7 @@ const BlockChainDevelopment = () => {
 			</div>
 			<ClientSlider />
 
-			<div className="container container-fluid" >
+			<div className="container container-fluid">
 				<section>
 					<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
 						<h2 className="all-head text-center">Our Blockchain Development Services</h2>
@@ -96,7 +96,7 @@ const BlockChainDevelopment = () => {
 						</h2>
 					</div>
 					<div className="row">
-						<div  className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-1">
 							<img
 								className="img-fluid mb-2"
 								alt="Blockchain Network"
@@ -117,7 +117,7 @@ const BlockChainDevelopment = () => {
 								network's unique features.
 							</p>
 						</div>
-						<div  className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-2">
 							<img
 								className="img-fluid mb-2"
 								alt="End-To-End Development"
@@ -136,7 +136,7 @@ const BlockChainDevelopment = () => {
 								applications.
 							</p>
 						</div>
-						<div  className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-3">
 							<img
 								className="img-fluid mb-2"
 								alt="Customized Solutions"
@@ -156,7 +156,7 @@ const BlockChainDevelopment = () => {
 								and pain points.
 							</p>
 						</div>
-						<div  className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-4">
 							<img
 								className="img-fluid mb-2"
 								alt="Organizational Transparency"
@@ -176,7 +176,7 @@ const BlockChainDevelopment = () => {
 								decisions about your project.
 							</p>
 						</div>
-						<div  className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5 Crosssec-5">
 							<img
 								className="img-fluid mb-2"
 								alt="Better Security"
@@ -196,7 +196,7 @@ const BlockChainDevelopment = () => {
 								cyber-attacks, and data breaches.
 							</p>
 						</div>
-						<div  className="col-12 col-md-6 col-lg-4 text-center p-5">
+						<div className="col-12 col-md-6 col-lg-4 text-center p-5">
 							<img
 								className="img-fluid mb-2"
 								alt="Enhanced Scalability"

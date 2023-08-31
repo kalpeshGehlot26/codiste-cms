@@ -12,7 +12,7 @@ import "../../../style.css";
 import "../../../external.css";
 import VideoPlayer from "./Videoplayer";
 import LazyLoad from 'react-lazy-load';
-
+import dynamic from 'next/dynamic';
 
 const limit = 5;
 const category = "47,43,55,6,57";
@@ -30,7 +30,9 @@ const HomePage = () => {
 		};
 	}, []);
 
-
+	const Clutch = dynamic(() => import("../../component/ClutchReview"), {
+		ssr: false,
+	});
 	return (
 		<div>
 			<section className="video-containeraa videosec">
@@ -115,33 +117,88 @@ const HomePage = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid  firstsec">
-				<div className=" d-flex align-items-center flex-column justify-content-center">
-					<h2 className="all-head">Codiste As Company</h2>
-				</div>
-				<div className="container container-fluid">
-					<div className="row">
-						<div className="col-xl-6 col-sm-12 mb-5">
-							<img className='img-fluid d-flex align-items-center justify-content-center'
-								style={{ padding: "20px" }} src="assets/images/home/Codiste_Company.webp" alt="Codiste As Company" loading="lazy" />
-						</div>
-						<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">
-							<h3 className="mb-3">Looking to stay ahead of the curve?</h3>
-							<p className="secondsec-p">Codiste's expertise in end-to-end IT development support and services has you covered.
-								We have the experience, expertise, and zeal to continuously innovate and build better solutions with the
-								latest technologies to cater to businesses. As your one-stop IT services solution, we provide tailored
-								solutions that are efficient and specific to your requirements and needs.
-							</p>
-							<p className="secondsec-p"><strong>Stay ahead with Codiste, Stay ahead with innovation!</strong></p>
+			<div className='container py-5'>
+				<div className='clientreview-main p-5'>
+					<div className='row'>
+						<div className='col-xl-3 col-md-4 col-sm-12'>
 							<div>
-								<Link className="book-btn" href="/book-a-call">Book a Call</Link>
+								<h2>Lorem ipsum dolor sit amet consectetur.</h2>
+								<p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit accusamus distinctio excepturi nam nemo sunt! Fugiat eaque esse, amet doloribus in accusamus nam soluta vero quidem nemo illum eveniet? Facere!</p>
+							</div>
+						</div>
+						<div className='col-xl-9 col-md-8 col-sm-12'>
+							<div className='row'>
+								<div className='col-md-6 col-sm-12 px-0 mb-3 mb-md-0'>
+									<div className='review-box'>
+										<img className='img-fluid'
+											src="assets/images/home/Blockchain.png" alt="Blockchain" loading="lazy" />
+									</div>
+								</div>
+								<div className='col-md-6 col-sm-12 px-0 mb-3 mb-md-0'>
+									<div className='review-box'>
+										<script type="text/javascript" src="https://assets.goodfirms.co/assets/js/widget.min.js"></script>
+										<div class="goodfirm-widget" data-widget-type="goodfirms-widget-t1" data-height="198" data-company-id="128903"></div>
+									</div>
+								</div>
+								{/* <div className='col-md-6 col-sm-12 px-0 mb-3 mb-md-0'>
+									<div className='review-box'>
+										<Clutch />
+									</div>
+								</div> */}
+								<div className='col-md-6 col-sm-12 px-0 mb-3 mb-md-0'>
+									<div className='review-box'>
+										<img className='img-fluid'
+											src="assets/images/home/cluth1.png" alt="clutch1" loading="lazy" />
+									</div>
+								</div>
+								{/* <div className='col-md-6 col-sm-12 px-0 mb-3 mb-md-0'>
+									<div className='review-box'>
+										<img className='img-fluid'
+											src="assets/images/home/cluth2.png" alt="clutch2" loading="lazy" />
+									</div>
+								</div> */}
+								<div className='col-md-6 col-sm-12 px-0 mb-3 mb-md-0'>
+									<div className='review-box'>
+										<img className='img-fluid'
+											src="assets/images/home/cluth3.png" alt="clutch2" loading="lazy" />
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div className="bg-color">
+			<div className="bg-color pt-5">
+				<div className="container container-fluid ">
+					<div className=" d-flex align-items-center flex-column justify-content-center">
+						<h2 className="all-head">Codiste As Company</h2>
+					</div>
+					<div className="container container-fluid">
+						<div className="row">
+							<div className="col-xl-6 col-sm-12 mb-5">
+								<img className='img-fluid d-flex align-items-center justify-content-center'
+									style={{ padding: "20px" }} src="assets/images/home/Codiste_Company.webp" alt="Codiste As Company" loading="lazy" />
+							</div>
+							<div className="col-xl-6 col-sm-12 mb-5  d-flex  justify-content-center flex-column">
+								<h3 className="mb-3">Looking to stay ahead of the curve?</h3>
+								<p className="secondsec-p">Codiste's expertise in end-to-end IT development support and services has you covered.
+									We have the experience, expertise, and zeal to continuously innovate and build better solutions with the
+									latest technologies to cater to businesses. As your one-stop IT services solution, we provide tailored
+									solutions that are efficient and specific to your requirements and needs.
+								</p>
+								<p className="secondsec-p"><strong>Stay ahead with Codiste, Stay ahead with innovation!</strong></p>
+								<div>
+									<Link className="book-btn" href="/book-a-call">Book a Call</Link>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div className="">
 				<div className="container container-fluid py-5">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -170,7 +227,7 @@ const HomePage = () => {
 			</div> */}
 
 			<div
-				className="py-5 mt-md-5 mt-0"
+				className="py-5 mt-md-5 mt-0 bg-color"
 			// className="bg-color py-5 mt-md-5 mt-0"
 			>
 				<div className="container container-fluid">

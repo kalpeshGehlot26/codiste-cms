@@ -10,7 +10,16 @@ const cryptoList = [
     {
         title: "STO",
         description: "We provide comprehensive Security Token Offering Development services that enable businesses to create security tokens that can be traded on the decentralized ecosystem and used to collect funds for any undergoing development or product launch. Our team of blockchain experts can help you create tokens that meet the regulatory requirements while providing investors access to a broader pool of investment opportunities. Our cryptocurrency development division can also assist you in building a decentralized autonomous organization (DAO) that enables stakeholders to participate in decision-making processes, ensuring transparency and fairness.",
-    }
+    },
+    {
+        title: "Crypto Payment Gateway Development",
+        description: "We offer crypto payment & gateway development services for trading/exchange platforms and businesses interested in providing decentralized finance solutions to their users. Our team specializes in developing customized payment gateways that allow you to accept cryptocurrency payments. Our payment gateways are built with blockchain to ensure they are highly secure, fast, and reliable and can be customized according to specific requirements regarding cryptocurrency support."
+    },
+    {
+        title: "Crypto Exchange Integration",
+        description: "We offer crypto exchange integration services and development support to help decentralized fintech enterprises with exchange integration. Codiste provides a robust and reliable development and integrates cryptocurrency payment solutions into their existing centralized or decentralized platforms & systems. Our team of developers has extensive hands-on experience in integrating with significant cryptocurrency exchanges, such as Binance and Coinbase, and can build custom solutions."
+    },
+
 ];
 
 export default cryptoList;

@@ -55,7 +55,8 @@ const AIPredictive = () => {
         <section>
           <div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-5">
             <h2 className="all-head text-center">Our Predictive Modelling Offerings</h2>
-
+            <p className="secondsec-p text-center ai-custom">Expertise in creating digital footprint with our <a href="https://www.codiste.com/machine-learning-model-development">ML model development</a> services for 10+ years has made us one of the reliable Predictive Modelling service providers.
+            </p>
           </div>
           <ServiceInnerItems serviceItems={AIpredictive} />
         </section>

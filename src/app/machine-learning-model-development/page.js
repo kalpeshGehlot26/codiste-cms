@@ -921,7 +921,7 @@ const MLModelDevelopment = () => {
 			<div className="blackdiv px-3">
 				<div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
 					<p>
-						Ready to see your data come to life through specialized machine learning model development?
+						Ready to see your data come to life through specialized ML model development?
 					</p>
 					<Link href="/book-a-call" className="book-btn">
 						Contact us now
