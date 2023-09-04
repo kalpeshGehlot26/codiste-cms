@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Link from 'next/link';
 import "../../style.css";
 import "../../external.css";
-import AIDropdown from"../component/Dropdown/AIDropdown";
+import AIDropdown from "../component/Dropdown/AIDropdown";
 
 const Header = () => {
 	const defNavClose = () => {
@@ -15,8 +15,9 @@ const Header = () => {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-light fixed-top navbarCustom">
 			<div className="container px-0 header-width" style={{ maxWidth: "1800px" }}>
-				<Link className="nav-link active me-auto ms-2" aria-current="page" href="/" >
-					<img className="img-fluid" alt="codiste-logo" style={{ height: "60px" }} src="../../assets/images/logo.png" />
+				<Link className="nav-link active me-auto ms-2 d-flex flex-column" aria-current="page" href="/" >
+					<img className="img-fluid" alt="codiste-logo" style={{ height: "60px", width: "200px" }} src="../../assets/images/logo.svg" loading="lazy" />
+					<span className="custom-headline">Your Emerging Tech Partner</span>
 				</Link>
 				<button className="navbar-toggler me-2 " type="button"
 					data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"

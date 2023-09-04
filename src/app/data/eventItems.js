@@ -40,6 +40,18 @@ const eventItems = [
         url: "assets/images/career/Independence2.png",
         alt: "Life at Codiste"
     },
+    {
+        url: "assets/images/career/Birthday1.JPG",
+        alt: "Life at Codiste"
+    },
+    {
+        url: "assets/images/career/Birthday2.JPG",
+        alt: "Life at Codiste"
+    },
+    {
+        url: "assets/images/career/Birthday3.JPG",
+        alt: "Life at Codiste"
+    },
 ];
 
 export default eventItems;

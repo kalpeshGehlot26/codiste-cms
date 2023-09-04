@@ -118,55 +118,41 @@ const HomePage = () => {
 			</div>
 
 			<div className='container py-5'>
-				<div className='clientreview-main p-5'>
-					<div className='row'>
-						<div className='col-xl-3 col-md-4 col-sm-12'>
-							<div>
-								<h2>Lorem ipsum dolor sit amet consectetur.</h2>
-								<p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit accusamus distinctio excepturi nam nemo sunt! Fugiat eaque esse, amet doloribus in accusamus nam soluta vero quidem nemo illum eveniet? Facere!</p>
+				<div>
+					<h2 className="all-head text-center">
+						Accolades & Client Buzz
+					</h2>
+					<p className='secondsec-p text-center'>Listen to the resonance of client reviews and awards that reflect our commitment.</p>
+				</div>
+				<div className="d-flex justify-content-center align-items-center">
+					<div className="row reviewbox-width">
+						<div className="col-12 col-md-6 text-center p-5 Crosssec-1">
+							<div className='review-box'>
+								<img className='img-fluid'
+									src="assets/images/home/Blockchain.png" alt="Blockchain" loading="lazy" />
 							</div>
 						</div>
-						<div className='col-xl-9 col-md-8 col-sm-12'>
-							<div className='row'>
-								<div className='col-md-6 col-sm-12 px-0 mb-3 mb-md-0'>
-									<div className='review-box'>
-										<img className='img-fluid'
-											src="assets/images/home/Blockchain.png" alt="Blockchain" loading="lazy" />
-									</div>
-								</div>
-								<div className='col-md-6 col-sm-12 px-0 mb-3 mb-md-0'>
-									<div className='review-box'>
-										<script type="text/javascript" src="https://assets.goodfirms.co/assets/js/widget.min.js"></script>
-										<div class="goodfirm-widget" data-widget-type="goodfirms-widget-t1" data-height="198" data-company-id="128903"></div>
-									</div>
-								</div>
-								{/* <div className='col-md-6 col-sm-12 px-0 mb-3 mb-md-0'>
-									<div className='review-box'>
-										<Clutch />
-									</div>
-								</div> */}
-								<div className='col-md-6 col-sm-12 px-0 mb-3 mb-md-0'>
-									<div className='review-box'>
-										<img className='img-fluid'
-											src="assets/images/home/cluth1.png" alt="clutch1" loading="lazy" />
-									</div>
-								</div>
-								{/* <div className='col-md-6 col-sm-12 px-0 mb-3 mb-md-0'>
-									<div className='review-box'>
-										<img className='img-fluid'
-											src="assets/images/home/cluth2.png" alt="clutch2" loading="lazy" />
-									</div>
-								</div> */}
-								<div className='col-md-6 col-sm-12 px-0 mb-3 mb-md-0'>
-									<div className='review-box'>
-										<img className='img-fluid'
-											src="assets/images/home/cluth3.png" alt="clutch2" loading="lazy" />
-									</div>
-								</div>
+						<div className="col-12  col-md-6  text-center p-5 Crosssec-6">
+							<div className='review-box'>
+								<img className='img-fluid'
+									src="assets/images/home/cluth3.png" alt="clutch2" loading="lazy" />
+							</div>
+						</div>
+						<div className="col-12  col-md-6 text-center p-5 Crosssec-5">
+							<div className='review-box'>
+								<script type="text/javascript" src="https://assets.goodfirms.co/assets/js/widget.min.js"></script>
+								<div class="goodfirm-widget" data-widget-type="goodfirms-widget-t1" data-height="198" data-company-id="128903"></div>
+							</div>
+						</div>
+						<div className="col-12  col-md-6  text-center p-5">
+							<div className='review-box'>
+								<img className='img-fluid'
+									src="assets/images/home/cluth1.png" alt="clutch1" loading="lazy" />
 							</div>
 						</div>
 					</div>
 				</div>
+
 			</div>
 
 			<div className="bg-color pt-5">
@@ -228,7 +214,6 @@ const HomePage = () => {
 
 			<div
 				className="py-5 mt-md-5 mt-0 bg-color"
-			// className="bg-color py-5 mt-md-5 mt-0"
 			>
 				<div className="container container-fluid">
 					<div className="text-center">

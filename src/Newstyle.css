@@ -10,7 +10,12 @@
   position: absolute;
   right: 10;
 } */
-
+.custom-headline{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 70px;
+}
 .ai-custom a{
   text-decoration: none;
   color: #717173;
@@ -265,12 +270,11 @@ animation-name: fadeIn;
 @media (min-width: 320px) {
   .cardcontainer .card .box .content p {
     font-size: calc(0.875rem + ((1vw - 3.2px) * 0.125));
-    min-height: 0vw;
   }
   .cardcontainer .card .box .content h3 {
     font-size: calc(1.25rem + ((1vw - 3.2px) * 0.5));
-    min-height: 0vw;
   }
+ 
 }
     
 @media (max-width: 576px) {
@@ -788,38 +792,21 @@ box-shadow: 2px 2px 16px 2px rgba(0,0,0,0.3);
 /* ==== Predicative process ===== */
 
 
-.clientreview-main{
-  background-color: #000;
-  -webkit-box-shadow: 0px 2px 8px 1px rgba(255,245,255,0.2);
--moz-box-shadow: 0px 2px 8px 1px rgba(255,245,255,0.2);
-box-shadow: 0px 2px 8px 1px rgba(255,245,255,0.2);
-border-radius: 10px;
-border-radius: 1px solid #fff;
-}
-.clientreview-main h2 {
-  color: #fd145a;
-}
+
 .review-box{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  background: #4b4b4b;
-  padding: 20px;
-  border:1px solid #000;
-  -webkit-box-shadow: 0px 2px 8px 1px rgba(255,245,255,0.2);
-  -moz-box-shadow: 0px 2px 8px 1px rgba(255,245,255,0.2);
-  box-shadow: 0px 2px 8px 1px rgba(255,245,255,0.2);
+
+}
+.reviewbox-width{
+  width: 60%;
+}
+@media screen and (max-width: 768px){
+  .reviewbox-width{
+    width: 100%;
+  }
 }
 
-.compnay-info .pattern-font{
-  color: #fff !important;
-}
 
-
-/* .blockchaing-bg{
-background-image: url('../public/assets/images//Serevice-blockchain/Website\ Service\ BG\ 1.webp');
-background-repeat: no-repeat;
-background-size: cover;
-} */
