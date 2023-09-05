@@ -198,21 +198,7 @@ h5 {
    color: #fff !important;
 }
 
-.apply-btn {
-   border: none;
-   padding: 10px 30px;
-   color: #fff;
-   background: linear-gradient(90deg, #FF1F23 3.28%, #FD145A 97.2%);
-   border-radius: 4px;
-   white-space: nowrap;
-   font-size: 18px;
-   text-decoration: none;
-}
 
-.service-block:hover .apply-btn {
-   background: #d44242 !important;
-   color: #fff !important;
-}
 
 a:hover {
    color: #fff;

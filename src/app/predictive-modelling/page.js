@@ -564,7 +564,13 @@ const AIPredictive = () => {
               >
                 <div className="accordion-body">
                   Here are the steps to follow for building a recommended system using ML techniques.
-                  The first and foremost step is identifying problems and narrating goal formulas. Next step, collecting customer behaviour data and initiating pre-processing procedures. Now, understand the data distribution and relationship between data variables using Exploratory Data Analysis (EDA). Furthermore, Pick the suitable features, models for your system and train. Now, evaluate the proposed models after fine tuning all the hyper-parameters.  Finally, initiate the model deployment.
+                  <ul>
+                    <li>The first and foremost step is identifying problems and narrating goal formulas.</li>
+                    <li>Next step, collecting customer behaviour data and initiating pre-processing procedures.</li>
+                    <li>Now, understand the data distribution and relationship between data variables using Exploratory Data Analysis (EDA).</li>
+                    <li>Furthermore, Pick the suitable features, models for your system and train.</li>
+                    <li>Now, evaluate the proposed models after fine tuning all the hyper-parameters. Finally, initiate the model deployment.</li>
+                  </ul>
                 </div>
               </div>
             </div>

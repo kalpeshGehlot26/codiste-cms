@@ -548,9 +548,15 @@ const GenrativeAI = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  To create AI-generated images, use generative models like GANs or VAEs.<br />
-                  Firstly, collect and reprocess a diverse image dataset. Secondly, you have to design and train the chosen model, adjusting hyper parameters. Now, it’s time to validate results using metrics. In the next step, you have to generate images by inputting noise or vectors.
-                  Furthermore, refine the model iteratively, considering architecture improvements and Deploy for image creation. That’s it.
+                  To create AI-generated images, use generative models like GANs or VAEs.
+                  <ul>
+                    <li>Collect and reprocess a diverse image dataset.</li>
+                    <li>Design and train the chosen model, adjusting hyper parameters.</li>
+                    <li>Validate results using metrics.</li>
+                    <li>Generate images by inputting noise or vectors.</li>
+                    <li>Refine the model iteratively, considering architecture improvements.</li>
+                    <li>Deploy for image creation.</li>
+                  </ul>
                 </div>
               </div>
             </div>

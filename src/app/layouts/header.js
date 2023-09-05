@@ -16,8 +16,8 @@ const Header = () => {
 		<nav className="navbar navbar-expand-lg navbar-light fixed-top navbarCustom">
 			<div className="container px-0 header-width" style={{ maxWidth: "1800px" }}>
 				<Link className="nav-link active me-auto ms-2 d-flex flex-column" aria-current="page" href="/" >
-					<img className="img-fluid" alt="codiste-logo" style={{ height: "60px", width: "200px" }} src="../../assets/images/logo.svg" loading="lazy" />
-					<span className="custom-headline">Your Emerging Tech Partner</span>
+					<img className="logo-width" alt="codiste-logo" src="../../assets/images/logo.svg" loading="lazy" />
+
 				</Link>
 				<button className="navbar-toggler me-2 " type="button"
 					data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"

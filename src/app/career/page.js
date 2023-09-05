@@ -2,7 +2,7 @@ import React from "react";
 import EventSlider from "../component/career/eventSlider";
 import EmployeeSlider from "../component/career/employeeSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
-
+import Link from "next/link";
 
 export const metadata = {
 	title: "Explore Career Opportunities with Blockchain Development Company | Codiste",
@@ -162,15 +162,16 @@ const Career = () => {
 							<div className="service-block p-4 h-100 d-flex flex-column justify-content-between">
 								<div>
 									<h3 className="secondsec-head">
-										Business Development Executive
+										Full Stack Developer
 									</h3>
 									<p className="secondsec-p">
 										No. of vacancy: 1 <br />
-										Experience Required : 4 to 5 yrs
+										Experience Required :3+ years
 									</p>
 								</div>
 								<div>
-									<a href="#apply-now" className="apply-btn">Apply Now</a>
+									<a href="#apply-now" className="apply-btn me-2">Apply Now</a>
+									<a href="career/full-stack-developer" className="apply-btn" target="_blank" aria-label="Visit Codiste Pvt Ltd Facebook Profile">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -179,11 +180,12 @@ const Career = () => {
 								<div><h3 className="secondsec-head">Content Writer </h3>
 									<p className="secondsec-p">
 										No of vacancy : 1<br />
-										Experience: 2+ years
+										Experience: 3+ years
 									</p>
 								</div>
 								<div>
-									<a href="#apply-now" className="apply-btn">Apply Now</a>
+									<a href="#apply-now" className="apply-btn me-2">Apply Now</a>
+									<a href="career/content-writer" className="apply-btn" target="_blank" aria-label="Visit Codiste Pvt Ltd Facebook Profile">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -191,15 +193,16 @@ const Career = () => {
 							<div className="service-block p-4 h-100 d-flex flex-column justify-content-between">
 								<div>
 									<h3 className="secondsec-head">
-										Jr.HR Executive
+										Business Development Executive
 									</h3>
 									<p className="secondsec-p">
 										No of vacancy : 1 <br />
-										Experience: 1+ years
+										Experience Required : 2+ years
 									</p>
 								</div>
 								<div>
-									<a href="#apply-now" className="apply-btn">Apply Now</a>
+									<a href="#apply-now" className="apply-btn me-2">Apply Now</a>
+									<a href="career/bde" className="apply-btn" target="_blank" aria-label="Visit Codiste Pvt Ltd Facebook Profile">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -221,7 +224,7 @@ const Career = () => {
 			<div className="container container-fluid py-lg-5 py-5" id="apply-now">
 				<h2 className="text-center all-head mb-lg-5 mb-0">Are you a professional techie?</h2>
 				<section>
-					<div className="row  d-flex align-items-center">
+					<div className="row d-flex align-items-center">
 						<div className="col-lg-6 col-md-12  needsec p-4" >
 							<h2 className="">
 								Apply now Our HR team will reach out for the further process.

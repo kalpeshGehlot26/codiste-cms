@@ -15,7 +15,7 @@ const Footer = () => {
 					<div className="col-lg-3 col-md-6 col-sm-12 mb-5 mb-lg-0">
 						<div className="footer-menu">
 							<Link href="/">
-								<img className="img-fluid" alt="codiste-logo" style={{ height: "60px" }} src="../../assets/images/logo.png" loading="lazy" />
+								<img className="logo-width" alt="codiste-logo" src="../../assets/images/logo.svg" loading="lazy" />
 							</Link>
 
 							<div className="footer-menu-items">

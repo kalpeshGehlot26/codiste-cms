@@ -10,6 +10,9 @@
   position: absolute;
   right: 10;
 } */
+.logo-width{
+  width: 230px;
+}
 .custom-headline{
   color: #fff;
   font-size: 14px;
@@ -293,6 +296,9 @@ animation-name: fadeIn;
   .cardcontainer .card{
     min-width: 320px;
     height: 430px;
+  }
+  .logo-width{
+    width: 180px;
   }
 }
 

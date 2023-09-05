@@ -207,11 +207,18 @@ h5 {
    white-space: nowrap;
    font-size: 18px;
    text-decoration: none;
+   border:2px solid #FF1F23;
 }
-
+.service-block:hover .apply-btn:hover {
+   background: #fff !important;
+   border:2px solid #FF1F23 !important;
+   color:#FF1F23 !important ;
+  
+}
 .service-block:hover .apply-btn {
    background: #d44242 !important;
    color: #fff !important;
+   border:2px solid #d44242 !important;
 }
 
 a:hover {

@@ -115,7 +115,7 @@ const DeepLearning = () => {
                     src="assets/images/Service-machine/Deep_Learning/Unleashing Data Insights.png"
                   />
                 </div>
-                <h3>Unleashing Data Insights</h3>
+                <h3>Data Insights</h3>
                 <p className="secondsec-p">
                   We have the key to the gems concealed in unstructured data. We derive meaning and structure from raw text, audio, and visual inputs using deep learning techniques such as convolutional neural networks (CNNs) and generative adversarial networks (GANs), translating them into actionable insights.
                 </p>

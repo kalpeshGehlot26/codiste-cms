@@ -25,7 +25,8 @@ const AIList = [
     },
     {
         title: "Deep Learning Tools",
-        description: "Our Deep Learning Tools service offers development support with the latest AI technologies to develop highly scalable, flexible, and robust deep learning models. We specialize in leveraging modern AI techniques such as convolutional neural networks and recurrent neural networks to help you build intelligent systems that learn from data and improve over time with usage. We can help you leverage our Deep Learning Tools service to build high-performance AI models and gain a competitive edge in the market."
+        description: "Our Deep Learning Tools service offers development support with the latest AI technologies to develop highly scalable, flexible, and robust deep learning models. We specialize in leveraging modern AI techniques such as convolutional neural networks and recurrent neural networks to help you build intelligent systems that learn from data and improve over time with usage. We can help you leverage our Deep Learning Tools service to build high-performance AI models and gain a competitive edge in the market.",
+        slug: "deep-learning"
     },
     {
         title: "Stable Diffusion",
