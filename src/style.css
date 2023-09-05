@@ -199,10 +199,9 @@ h5 {
 }
 
 .apply-btn {
-   border: none;
    padding: 10px 30px;
-   color: #fff;
-   background: linear-gradient(90deg, #FF1F23 3.28%, #FD145A 97.2%);
+   color:#FF1F23 !important ;
+   background: #fff !important;
    border-radius: 4px;
    white-space: nowrap;
    font-size: 18px;
@@ -210,14 +209,13 @@ h5 {
    border:2px solid #FF1F23;
 }
 .service-block:hover .apply-btn:hover {
-   background: #fff !important;
+   background: linear-gradient(90deg, #FF1F23 3.28%, #FD145A 97.2%) !important;
+   color: #fff !important;
    border:2px solid #FF1F23 !important;
-   color:#FF1F23 !important ;
-  
 }
 .service-block:hover .apply-btn {
-   background: #d44242 !important;
-   color: #fff !important;
+   background: #fff !important;
+   color:#FF1F23 !important ;
    border:2px solid #d44242 !important;
 }
 
