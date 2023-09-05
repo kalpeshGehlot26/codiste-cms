@@ -141,7 +141,7 @@ const HomePage = () => {
 						<div className="col-12  col-md-6 text-center p-5 Crosssec-5">
 							<div className='review-box'>
 								<script type="text/javascript" src="https://assets.goodfirms.co/assets/js/widget.min.js"></script>
-								<div class="goodfirm-widget" data-widget-type="goodfirms-widget-t1" data-height="198" data-company-id="128903"></div>
+								<div className="goodfirm-widget" data-widget-type="goodfirms-widget-t1" data-height="198" data-company-id="128903"></div>
 							</div>
 						</div>
 						<div className="col-12  col-md-6  text-center p-5">

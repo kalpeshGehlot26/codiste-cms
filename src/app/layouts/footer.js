@@ -3,9 +3,9 @@ import React from "react";
 import dynamic from 'next/dynamic';
 import TawkChatBot from "../component/TawkChatBot";
 
-const Clutch = dynamic(() => import("../component/ClutchReview"), {
-	ssr: false,
-});
+// const Clutch = dynamic(() => import("../component/ClutchReview"), {
+// 	ssr: false,
+// });
 
 const Footer = () => {
 	return (
@@ -19,13 +19,13 @@ const Footer = () => {
 							</Link>
 
 							<div className="footer-menu-items">
-								<p className="my-3">
+								<p className="mt-3">
 									Codiste is a Top Blockchain and AI development company that offers robust, secure, and scalable business solutions.
 								</p>
 
-								<Clutch />
+								{/* <Clutch /> */}
 
-								<div className="mt-md-5 mt-0">
+								<div className="mt-md-4 mt-0">
 									<h4>Get In Touch</h4>
 									<ul className="p-0 ">
 										<li><i className="fa-brands fa-facebook-f"></i>
