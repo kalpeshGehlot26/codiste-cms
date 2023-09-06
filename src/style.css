@@ -2520,7 +2520,6 @@ align-items: center;
    .blog-Authorsection .elementor-container {
       display: flex !important;
       flex-wrap: wrap;
-      border: 1px solid black !important;
       border-radius: 10px;
    }
    .blog-Authorsection .elementor-col-33{

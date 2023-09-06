@@ -26,6 +26,15 @@
 .ai-custom a:hover{
   color: #717173;
 }
+.footerborder{
+  border-right: 1px solid #717173;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.footerpadding{
+  padding-left: 50px;
+  padding-right: 50px;
+}
 .newservice-box{
   position: relative;
   background-color: #fff;
@@ -299,6 +308,17 @@ animation-name: fadeIn;
   }
   .logo-width{
     width: 180px;
+  }
+}
+@media (max-width: 1200px){
+  .footerborder{
+    border-right: none;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .footerpadding{
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 

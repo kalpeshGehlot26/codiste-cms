@@ -55,35 +55,38 @@ const HomePage = () => {
 			</section>
 			<ClientSlider />
 
-			<div className="container container-fluid py-5">
-				<div className="d-none"><img src="assets/images/featuredImg.webp" alt="featuredImg" loading="lazy" /></div>
-				<section>
-					<div className=" d-flex align-items-center flex-column justify-content-center  mb-5">
-						<h1 className="all-head">Services We Offer</h1>
-					</div>
-					<ServiceList
-						serviceItems={serviceItems}
-						serviceCount={serviceCount}
-						setTotalServiceCount={setTotalServiceCount}
-					/>
-					{totalServiceCount > serviceCount ? (
-						<div className="d-flex align-items-center justify-content-center">
-							<button
-								className="book-btn mt-3 "
-								onClick={() =>
-									setServiceCount(
-										(prevState) => prevState + 6
-									)
-								}
-							>
-								Show more
-							</button>
+			<div className="bg-color">
+				<div className="container container-fluid py-5">
+					<div className="d-none"><img src="assets/images/featuredImg.webp" alt="featuredImg" loading="lazy" /></div>
+					<section>
+						<div className=" d-flex align-items-center flex-column justify-content-center  mb-5">
+							<h1 className="all-head">Services We Offer</h1>
 						</div>
-					) : null}
-				</section>
+						<ServiceList
+							serviceItems={serviceItems}
+							serviceCount={serviceCount}
+							setTotalServiceCount={setTotalServiceCount}
+						/>
+						{totalServiceCount > serviceCount ? (
+							<div className="d-flex align-items-center justify-content-center">
+								<button
+									className="book-btn mt-3 "
+									onClick={() =>
+										setServiceCount(
+											(prevState) => prevState + 6
+										)
+									}
+								>
+									Show more
+								</button>
+							</div>
+						) : null}
+					</section>
+				</div>
 			</div>
 
-			<div className="bg-color py-5">
+
+			<div className="py-5">
 				<div className="container container-fluid ">
 					<h2 className="all-head text-center mb-5">
 						Feedback that inspires us to consistently be our best!
@@ -95,7 +98,7 @@ const HomePage = () => {
 							</div>
 						</div>
 
-						<div className="col-xl-6 col-md-12">
+						<div className="bg-color col-xl-6 col-md-12">
 							<section className="video-containerSmall">
 								<LazyLoad offsetVertical={500}>
 									<div className="ratio ratio-16x9" id="video-container">
@@ -117,7 +120,7 @@ const HomePage = () => {
 				</div>
 			</div>
 
-			<div className='container py-5'>
+			{/* <div className='container py-5'>
 				<div>
 					<h2 className="all-head text-center">
 						Accolades & Client Buzz
@@ -135,25 +138,25 @@ const HomePage = () => {
 						<div className="col-12  col-md-6  text-center p-5 Crosssec-6">
 							<div className='review-box'>
 								<img className='img-fluid'
-									src="assets/images/home/cluth3.png" alt="clutch2" loading="lazy" />
+									src="assets/images/home/clutch3.png" alt="clutch3" loading="lazy" />
 							</div>
 						</div>
 						<div className="col-12  col-md-6 text-center p-5 Crosssec-5">
 							<div className='review-box'>
-								<script type="text/javascript" src="https://assets.goodfirms.co/assets/js/widget.min.js"></script>
-								<div className="goodfirm-widget" data-widget-type="goodfirms-widget-t1" data-height="198" data-company-id="128903"></div>
+								<img className='img-fluid'
+									src="assets/images/home/clutch4.png" alt="clutch4" loading="lazy" />
 							</div>
 						</div>
 						<div className="col-12  col-md-6  text-center p-5">
 							<div className='review-box'>
 								<img className='img-fluid'
-									src="assets/images/home/cluth1.png" alt="clutch1" loading="lazy" />
+									src="assets/images/home/clutch1.png" alt="clutch1" loading="lazy" />
 							</div>
 						</div>
 					</div>
 				</div>
 
-			</div>
+			</div> */}
 
 			<div className="bg-color pt-5">
 				<div className="container container-fluid ">

@@ -11,6 +11,29 @@ const Footer = () => {
 	return (
 		<footer>
 			<div className="container container-fluid py-5">
+				<div className="justify-content-center d-flex align-items-center">
+					<div className="row col-xl-8">
+						<div className="col-xl-3 col-md-6 col-sm-6 mb-3 footerborder">
+							<img className='img-fluid'
+								src="assets/images/home/Blockchain.png" alt="Blockchain" loading="lazy" />
+						</div>
+						<div className="col-xl-3 col-md-6 col-sm-6 mb-3 footerborder">
+							<img className='img-fluid'
+								src="assets/images/home/clutch1.png" alt="Blockchain" loading="lazy" />
+						</div>
+						<div className="col-xl-3 col-md-6 col-sm-6 mb-3 footerborder">
+							<img className='img-fluid'
+								src="assets/images/home/clutch3.png" alt="Blockchain" loading="lazy" />
+						</div>
+						<div className="col-xl-3 col-md-6 col-sm-6 mb-3 footerpadding">
+							<img className='img-fluid'
+								src="assets/images/home/clutch4.png" alt="Blockchain" loading="lazy" />
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div className="container container-fluid py-5">
 				<div className="row">
 					<div className="col-lg-3 col-md-6 col-sm-12 mb-5 mb-lg-0">
 						<div className="footer-menu">

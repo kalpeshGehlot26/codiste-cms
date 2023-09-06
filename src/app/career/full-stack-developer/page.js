@@ -30,7 +30,7 @@ const FullStack = () => {
 
           <div>
             <h3 className="text-center mt-5"><u>Key Responsibilities</u></h3>
-            <ol style={{ fontSize: "20px" }}>
+            <ul>
               <li>
                 <h4>Full Stack Development</h4>
                 <p className="secondsec-p">Execute end-to-end web development, covering both front-end and back-end aspects of the application.</p>
@@ -83,7 +83,7 @@ const FullStack = () => {
                 <h4>Version Control with Git</h4>
                 <p className="secondsec-p">Use Git for effective code versioning and collaboration within the development team</p>
               </li>
-            </ol>
+            </ul>
           </div>
 
           <div>
