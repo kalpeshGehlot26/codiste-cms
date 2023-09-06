@@ -1,7 +1,8 @@
 const blockChainList = [
     {
         title: "Custom Blockchain Development",
-        description: "We offer custom blockchain development services to design and develop bespoke blockchain solutions with a secure infrastructure with customized elements. Our team has hands-on experience as expert blockchain developers utilizing various blockchain platforms and networks to build fast, scalable, and efficient solutions that can help businesses streamline their operations with Web3 technologies."
+        description: "We offer custom blockchain development services to design and develop bespoke blockchain solutions with a secure infrastructure with customized elements. Our team has hands-on experience as expert blockchain developers utilizing various blockchain platforms and networks to build fast, scalable, and efficient solutions that can help businesses streamline their operations with Web3 technologies.",
+        slug: "custom-blockchain-development"
     },
     {
         title: "Blockchain Analytics Dashboard",

@@ -55,7 +55,7 @@ const HomePage = () => {
 			</section>
 			<ClientSlider />
 
-			<div className="bg-color">
+			<div className="">
 				<div className="container container-fluid py-5">
 					<div className="d-none"><img src="assets/images/featuredImg.webp" alt="featuredImg" loading="lazy" /></div>
 					<section>
@@ -82,41 +82,6 @@ const HomePage = () => {
 							</div>
 						) : null}
 					</section>
-				</div>
-			</div>
-
-
-			<div className="py-5">
-				<div className="container container-fluid ">
-					<h2 className="all-head text-center mb-5">
-						Feedback that inspires us to consistently be our best!
-					</h2>
-					<div className="row">
-						<div className="col-xl-6 col-md-12 mb-5 mb-xl-0">
-							<div className="career-block h-100">
-								<FeedbackSlider />
-							</div>
-						</div>
-
-						<div className="bg-color col-xl-6 col-md-12">
-							<section className="video-containerSmall">
-								<LazyLoad offsetVertical={500}>
-									<div className="ratio ratio-16x9" id="video-container">
-										<iframe
-											src="https://player.vimeo.com/video/828259500"
-											frameborder="0"
-											allow="fullscreen; picture-in-picture"
-											allowFullScreen
-											webkitAllowFullScreen
-											mozAllowFullScreen
-											title="Clientele Video"
-										></iframe>
-									</div>
-								</LazyLoad>
-								<script src="https://player.vimeo.com/api/player.js"></script>
-							</section>
-						</div>
-					</div>
 				</div>
 			</div>
 
@@ -155,7 +120,6 @@ const HomePage = () => {
 						</div>
 					</div>
 				</div>
-
 			</div> */}
 
 			<div className="bg-color pt-5">
@@ -185,9 +149,41 @@ const HomePage = () => {
 					</div>
 				</div>
 			</div>
+			<div className="py-5">
+				<div className="container container-fluid ">
+					<h2 className="all-head text-center mb-5">
+						Feedback that inspires us to consistently be our best!
+					</h2>
+					<div className="row">
+						<div className="col-xl-6 col-md-12 mb-5 mb-xl-0">
+							<div className="career-block h-100">
+								<FeedbackSlider />
+							</div>
+						</div>
 
+						<div className="bg-color col-xl-6 col-md-12">
+							<section className="video-containerSmall">
+								<LazyLoad offsetVertical={500}>
+									<div className="ratio ratio-16x9" id="video-container">
+										<iframe
+											src="https://player.vimeo.com/video/828259500"
+											frameborder="0"
+											allow="fullscreen; picture-in-picture"
+											allowFullScreen
+											webkitAllowFullScreen
+											mozAllowFullScreen
+											title="Clientele Video"
+										></iframe>
+									</div>
+								</LazyLoad>
+								<script src="https://player.vimeo.com/api/player.js"></script>
+							</section>
+						</div>
+					</div>
+				</div>
+			</div>
 
-			<div className="">
+			<div className="bg-color">
 				<div className="container container-fluid py-5">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -216,7 +212,7 @@ const HomePage = () => {
 			</div> */}
 
 			<div
-				className="py-5 mt-md-5 mt-0 bg-color"
+				className="py-5 mt-md-5 mt-0 "
 			>
 				<div className="container container-fluid">
 					<div className="text-center">
@@ -286,7 +282,7 @@ const HomePage = () => {
 				</div>
 			</div>
 
-			<div className="">
+			<div className="bg-color">
 				<div className="container container-fluid py-5">
 					<h2 className="all-head mb-lg-5 mb-0 text-center">Get started with your idea today!</h2>
 					<section>

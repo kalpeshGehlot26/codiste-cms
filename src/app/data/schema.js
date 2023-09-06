@@ -1203,6 +1203,76 @@ const jsonData = {
 			"opens": "09:00",
 			"closes": "07:00"
 		}
+	},
+	CustomBlockchain: {
+
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [{
+			"@type": "Question",
+			"name": "What is public and private blockchain?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Public blockchain allows anyone to join for free and take part in the core activities of the network without any interruption. On the other hand, a private blockchain is the right opposite to it. It is a closed blockchain network that allows only selective users to participate in it."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is POC (Proof of Concept)?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "POC is an acronym of Proof of Concept which is mainly used in the product development process across the industries from all verticals. It is like demonstrating or realising certain concepts, products, services, or a solution that has a high potential in a real-world application. In simple wording, it determines the viability and feasibility of the project."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How can POC development work?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Industries from all fields use POC for various aspects like product development, business plans, and so on. When it comes to development work, POC is very effective in identifying the potential issues of product development right from the beginning to the product owner or project manager. In addition, it is used to identify the right tools and resources for product development."
+			}
+		}, {
+			"@type": "Question",
+			"name": "Are blockchain wallet apps safe?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Unlike other wallets, blockchain wallets use both public and private encryption keys that ensure the safety of the transaction data. It offers multiple levels of security that protect user’s money from scammers or hackers. To validate an online payment, blockchain wallets interact with multiple blockchains before initiating the user’s request to buy or sell cryptocurrencies."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is the importance of Private Blockchain?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Since private blockchain has fewer network nodes it can easily be scaled according to the business requirements.A private blockchain is a smaller network so it can process more throughputs.Basically, private blockchains are owned by organisations or enterprises. So there will be no cost for placing blocks on it."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is the importance of Public Blockchain?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Anyone can participate in a public blockchain network and it has no central authority to control the network.Public blockchain networks use public keys for the encryption of all communication.All transactions held in public blockchain networks are highly transparent; this makes everyone aware of the transaction.Public blockchain networks are a preferred one for cryptocurrency transactions that require a high level of security and transparency."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is the purpose of Private Blockchain?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Mostly, businesses, organisations , government services, insurance agencies, and so on use private blockchain networks. The main purpose of utilising private blockchain is to have highly secured transactions and to have a transparent record-keeping system. Moreover, a private blockchain is the best for storing sensitive information with high security along with greater control over user access rights."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is the purpose of Public Blockchain?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Public blockchain networks are open to all anyone can easily join and get the privilege of viewing, modifying, and confirming the transaction. Mostly, public blockchain networks are used in exchanging cryptocurrencies and mining. Wanted to create a permissionless, non-restrictive, and distributed ledger network with 100% transparency? Then preferring public blockchain would be the best."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is the main difference between Private and public Blockchains?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Access: Only invited or selective users are allowed to participate in a private blockchain. But in a public blockchain network, anyone can join for free.Speed: Communications and transactions performed in a private blockchain network are much faster than public blockchain networks.Security: Private blockchain has a centralised system for storing and managing data which is more prone and less secure. Public blockchain uses a decentralised system which is more secure for all communication and transactions."
+			}
+		}]
+
 	}
 
 };
