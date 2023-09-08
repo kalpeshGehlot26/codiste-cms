@@ -13,7 +13,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
 		openGraph: {
 			title: post?.yoast_head_json?.og_title,
 			description: post?.yoast_head_json?.og_description,
-			images: post?.yoast_head_json?.og_image[0]?.url,
+			images: post?.yoast_head_json?.og_image?.[0]?.url,
 			url: baseURL
 		},
 	}

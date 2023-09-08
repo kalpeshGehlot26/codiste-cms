@@ -64,7 +64,7 @@ const BlogContent = ({ params }) => {
 		);
 	}
 
-	const image = post._embedded["wp:featuredmedia"]["0"]?.source_url;
+	const image = post._embedded["wp:featuredmedia"]?.["0"]?.source_url;
 	const baseURL = `https://www.codiste.com/${pathUrl}`;
 
 	return (
