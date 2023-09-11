@@ -166,7 +166,96 @@ const AIVisual = () => {
           </div>
         </div>
       </div>
+      <div className="py-5">
+        <div className="container container-fluid">
+          <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+            <h2 className="all-head text-center">
+              Our Machine Learning Consulting Approach
+            </h2>
+            <p className="secondsec-p text-center">We assist organizations in a seamless journey of utilizing AI-driven insights, from defining clear business goals to implementing and monitoring ML models.</p>
+          </div>
 
+          <div className="row g-5 mx-0" >
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              <div className="Approachcard h-100">
+                <div className="background"></div>
+                <div className="Approachcard-icon">
+                  <div className="wrap1">
+                    1
+                  </div>
+                </div>
+                <h3 className="">Business Goal</h3>
+                <p className="secondsec-p">Understanding the desired result, establishing key performance indicators (KPIs), and coordinating the ML strategy. With the larger corporate objectives are necessary for this.
+                </p>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              <div className="Approachcard h-100">
+                <div className="background"></div>
+                <div className="Approachcard-icon">
+                  <div className="wrap1">
+                    2
+                  </div>
+                </div>
+                <h3 className="">ML Problem Framing</h3>
+                <p className="secondsec-p">Convert the business objective into a clear-cut machine learning challenge. In this phase, the type of ML task (such as classification, regression, clustering) is determined, the relevant evaluation metrics are chosen.</p>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              <div className="Approachcard h-100">
+                <div className="background"></div>
+                <div className="Approachcard-icon">
+                  <div className="wrap1">
+                    3
+                  </div>
+                </div>
+                <h3 className="">Data Processing</h3>
+                <p className="secondsec-p"> Preparing and preprocessing the data will assure its accuracy, completeness, and suitability for ML algorithms. This covers operations like feature engineering, addressing missing values, data cleansing, and converting data into a format for model training.
+                </p>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              <div className="Approachcard h-100">
+                <div className="background"></div>
+                <div className="Approachcard-icon">
+                  <div className="wrap1">
+                    4
+                  </div>
+                </div>
+                <h3 className="">Model development</h3>
+                <p className="secondsec-p">Using the cleaned-up data, create, train, and fine-tune the machine learning model. Choosing the right algorithms, optimizing hyperparameters, and assessing model performance using methods like cross-validation comes in this stage.
+                </p>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              <div className="Approachcard h-100">
+                <div className="background"></div>
+                <div className="Approachcard-icon">
+                  <div className="wrap1">
+                    5
+                  </div>
+                </div>
+                <h3 className="">Deployment</h3>
+                <p className="secondsec-p">To make the trained ML model available for real-time predictions, integrate it into a production environment or application. This entails creating a deployment architecture, managing model versioning, and setting up data pipelines for seamless integration.
+                </p>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              <div className="Approachcard h-100">
+                <div className="background"></div>
+                <div className="Approachcard-icon">
+                  <div className="wrap1">
+                    6
+                  </div>
+                </div>
+                <h3 className="">Monitoring</h3>
+                <p className="secondsec-p mb-0">Monitoring important metrics, identifying and dealing with model or concept drift, and putting in place safeguards to guarantee the model's dependability and efficiency over time.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="blackdiv px-3">
         <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
           <p>

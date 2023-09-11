@@ -403,7 +403,12 @@
  <priority>0.80</priority>
 </url>
 <url>
- <loc> https://www.codiste.com/predictive-modelling</loc>
+ <loc>https://www.codiste.com/predictive-modelling</loc>
+  <lastmod>2023-08-16T07:51:19+00:00</lastmod>
+  <priority>0.80</priority>
+  </url>
+  <url>
+ <loc>https://www.codiste.com/custom-blockchain-development</loc>
   <lastmod>2023-08-16T07:51:19+00:00</lastmod>
   <priority>0.80</priority>
   </url>
@@ -427,5 +432,9 @@
     <lastmod>2023-08-16T07:51:19+00:00</lastmod> 
     <priority>0.80</priority>
   </url>
- 
+ <url>
+    <loc>https://www.codiste.com/guide-to-tokenization-erc3643</loc>
+    <lastmod>2023-08-16T07:51:19+00:00</lastmod> 
+    <priority>0.80</priority>
+  </url>
 </urlset>

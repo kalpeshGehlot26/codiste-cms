@@ -194,7 +194,7 @@ const CustomBlockchain = () => {
         </div>
       </div>
 
-      <div className="py-5">
+      {/* <div className="py-5">
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head text-center">
@@ -210,6 +210,15 @@ const CustomBlockchain = () => {
                   <h2>Functional Requirement Discussion</h2>
                   <p>Understating the business use cases, recognize the problem, and decide the Blockchain platform and functionalities.</p>
                 </div>
+                <div className="blockchain-process">
+                  <img
+                    className="img-fluid mb-2"
+                    loading="lazy"
+                    alt="Functional Requirement Discussion"
+                    src="assets/images/Serevice-blockchain/Blockchain_Custom/Functional Requirement Discussion.png"
+                  />
+                </div>
+
               </div>
               <div className="blockchain-timeline-item">
                 <div className="blockchain-timeline-img"></div>
@@ -243,7 +252,133 @@ const CustomBlockchain = () => {
               </div>
             </div>
           </section>
+        </div>
+      </div> */}
 
+      <div className="py-5">
+        <div className="container container-fluid">
+          <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
+            <h2 className="all-head text-center">
+              Our Blockchain Execution Process
+            </h2>
+            <p className="secondsec-p text-center">
+              Our strong team of blockchain developers brings perfection to your custom blockchain development needs following the below process.
+            </p>
+          </div>
+
+          <div className="new-container container container-fluid w-75">
+            <div className="main-timeline">
+              <div className="timeline_item">
+                <div className="date-content order_1b">
+                  <div className="date-outer">
+                    <span className="date">
+                      <img
+                        className="img-fluid mb-2"
+                        loading="lazy"
+                        alt="Functional Requirement Discussion"
+                        src="assets/images/Serevice-blockchain/Blockchain_Custom/Functional Requirement Discussion.png"
+                      />
+                    </span>
+                  </div>
+                </div>
+                <div className="icon order_2b"></div>
+                <div className="timeline-content order_3b col-md">
+                  <h3>Functional Requirement Discussion</h3>
+                  <p className="secondsec-p">
+                    Understating the business use cases, recognize the problem, and decide the Blockchain platform and functionalities.
+                  </p>
+                </div>
+              </div>
+
+              <div className="timeline_item">
+                <div className="date-content order_1">
+                  <div className="date-outer">
+                    <span className="date">
+                      <img
+                        className="img-fluid mb-2"
+                        loading="lazy"
+                        alt="Prototyping and Development"
+                        src="assets/images/Serevice-blockchain/Blockchain_Custom/Prototyping and Development.png"
+                      />
+                    </span>
+                  </div>
+                </div>
+                <div className="icon order_2"></div>
+                <div className="timeline-content order_3 col-md">
+                  <h3>Prototyping and Development</h3>
+                  <p className="secondsec-p">
+                    Design and development of the secure Blockchain solution comprehensively considering network topologies, Smart contracts, and so on.
+                  </p>
+                </div>
+              </div>
+
+              <div className="timeline_item">
+                <div className="date-content order_1b">
+                  <div className="date-outer">
+                    <span className="date">
+                      <img
+                        className="img-fluid mb-2"
+                        loading="lazy"
+                        alt="Build, Test, and Repeat"
+                        src="assets/images/Serevice-blockchain/Blockchain_Custom/Build, Test, and Repeat.png"
+                      />
+                    </span>
+                  </div>
+                </div>
+                <div className="icon order_2b"></div>
+                <div className="timeline-content order_3b col-md">
+                  <h3>Build, Test, and Repeat</h3>
+                  <p className="secondsec-p">
+                    Identifying and fixing bugs by QAs and analysing performance through performance and security testing.
+                  </p>
+                </div>
+              </div>
+
+              <div className="timeline_item">
+                <div className="date-content order_1">
+                  <div className="date-outer">
+                    <span className="date">
+                      <img
+                        className="img-fluid mb-2"
+                        loading="lazy"
+                        alt="Blockchain Solution Deployment"
+                        src="assets/images/Serevice-blockchain/Blockchain_Custom/Blockchain Solution Deployment.png"
+                      />
+                    </span>
+                  </div>
+                </div>
+                <div className="icon order_2"></div>
+                <div className="timeline-content order_3 col-md">
+                  <h3>Blockchain Solution Deployment</h3>
+                  <p className="secondsec-p">
+                    Set up network, smart contracts, etc. before deployment to ensure the Blockchain solutions meet specifications.
+                  </p>
+                </div>
+              </div>
+
+              <div className="timeline_item">
+                <div className="date-content order_1b">
+                  <div className="date-outer">
+                    <span className="date">
+                      <img
+                        className="img-fluid mb-2"
+                        loading="lazy"
+                        alt="Maintenance and Upgrades"
+                        src="assets/images/Serevice-blockchain/Blockchain_Custom/Maintenance and Upgrades​.png"
+                      />
+                    </span>
+                  </div>
+                </div>
+                <div className="icon order_2b"></div>
+                <div className="timeline-content order_3b col-md">
+                  <h3>Maintenance and Upgrades​</h3>
+                  <p className="secondsec-p">
+                    Updating software, upgrading new features, monitoring network, etc. to keep Blockchain platform secure and up to date.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -386,6 +521,9 @@ const CustomBlockchain = () => {
             <h2 className="all-head text-center">
               Our Engagement Models
             </h2>
+            <p className="all-p text-center">
+              Looking for a Top Blockchain services provider near you? We would be happy to serve you with result-oriented Custom Blockchain software development services. Explore our flexible hiring models for your Blockchain development projects.
+            </p>
           </div>
         </div>
         <div className="container cardcontainer">
@@ -418,9 +556,10 @@ const CustomBlockchain = () => {
               <div className="content">
                 <h2>03</h2>
                 <h3>Hire Dedicated Team Model</h3>
-                <p>
-                  Strengthen your internal resources by putting together a group of talented blockchain project Consultants and engineers that are only committed to the success of your project. This model offers the benefit of an extended blockchain tech team that works extremely collaboratively to meet the needs and goals of your organisation while guaranteeing smooth communication, control, and transparency.
+                <p className="blockchain-modellink">
+                  Strengthen your internal resources by putting together a group of talented <a href="https://www.codiste.com/blockchain-consulting">blockchain project Consultants</a> and engineers that are only committed to the success of your project. This model offers the benefit of an extended blockchain tech team that works extremely collaboratively to meet the needs and goals of your organisation while guaranteeing smooth communication, control, and transparency.
                 </p>
+
               </div>
             </div>
           </div>
