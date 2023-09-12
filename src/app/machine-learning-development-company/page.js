@@ -199,7 +199,7 @@ const MLDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5">
+			<div className="py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -287,6 +287,45 @@ const MLDevelopmentCompany = () => {
 							</div>
 						</div>
 					</section>
+				</div>
+			</div>
+
+			<div className="py-5 bg-color">
+				<div className="container container-fluid">
+					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
+						<h2 className="all-head">Case Study</h2>
+					</div>
+					<div className="row d-flex align-items-center justify-content-between case-sec">
+						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
+							<div className=" ">
+								<h2 className="">
+									ML Estimation
+								</h2>
+								<p className="all-p">
+									Streamline HVAC project bidding with ML estimation, automating drawing annotation and generating accurate bill of materials. Save time, differentiate yourself in the industry, and leverage innovative technology for detailed quantity take-offs.
+								</p>
+							</div>
+							<div className="mt-4">
+								<Link
+									href="/portfolio/ml-estimation"
+									className="book-btn"
+								>
+									Read More
+								</Link>
+							</div>
+						</div>
+						<div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2 mb-5 mb-lg-0">
+							<img
+								className="img-fluid"
+								style={{
+									padding: "20px",
+								}}
+								src="assets/images/case-ml/MLEstimation.png"
+								alt="MLEstimation - AI Tool to Analyse your Building material"
+								loading="lazy"
+							/>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -512,46 +551,6 @@ const MLDevelopmentCompany = () => {
 					</div>
 				</div>
 			</div>
-
-			<div className="py-5 bg-color">
-				<div className="container container-fluid">
-					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
-						<h2 className="all-head">Case Study</h2>
-					</div>
-					<div className="row d-flex align-items-center justify-content-between case-sec">
-						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
-							<div className=" ">
-								<h2 className="">
-									ML Estimation
-								</h2>
-								<p className="all-p">
-									Streamline HVAC project bidding with ML estimation, automating drawing annotation and generating accurate bill of materials. Save time, differentiate yourself in the industry, and leverage innovative technology for detailed quantity take-offs.
-								</p>
-							</div>
-							<div className="mt-4">
-								<Link
-									href="/portfolio/ml-estimation"
-									className="book-btn"
-								>
-									Read More
-								</Link>
-							</div>
-						</div>
-						<div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2 mb-5 mb-lg-0">
-							<img
-								className="img-fluid"
-								style={{
-									padding: "20px",
-								}}
-								src="assets/images/case-ml/MLEstimation.png"
-								alt="MLEstimation - AI Tool to Analyse your Building material"
-								loading="lazy"
-							/>
-						</div>
-					</div>
-				</div>
-			</div>
-
 			{/* <div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h2 className="all-blog">Blogs</h2>

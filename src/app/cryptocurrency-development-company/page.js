@@ -195,7 +195,7 @@ const CryptoDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5">
+			<div className="py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -293,6 +293,55 @@ const CryptoDevelopmentCompany = () => {
 				</div>
 			</div>
 
+			<div className="py-5 bg-color">
+				<div className="container container-fluid">
+					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
+						<h2 className="all-head">Case Study</h2>
+					</div>
+					<div className="row d-flex align-items-center justify-content-between case-sec">
+						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
+							<div className=" ">
+								<h2 className="">CoinxPad Launchpad</h2>
+								<p className="all-p">
+									CoinxPad is a launchpad that enables crypto
+									projects to raise funds through an Initial
+									DEX Offering (IDO) on a decentralized
+									exchange (DEX). It supports multiple
+									blockchain platforms and provides a fast and
+									efficient way for projects to raise funds,
+									while offering a secure platform for
+									investors to participate. CoinxPad is the
+									first CEX/DEX multi-chain IDO launchpad and
+									has implemented advanced security protocols
+									and a strict KYC/AML process to ensure the
+									legitimacy of investors.
+								</p>
+							</div>
+
+							<div className="mt-4">
+								<Link
+									href="/portfolio/coinxpad"
+									className="book-btn"
+								>
+									Read More
+								</Link>
+							</div>
+						</div>
+						<div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2 mb-5 mb-lg-0">
+							<img
+								className="img-fluid"
+								style={{
+									padding: "20px",
+								}}
+								src="assets/images/case-coinxpad/Coinxpad.png"
+								alt="CoinXpad - Coinxpad Decentralised Crypto Launchpad"
+								loading="lazy"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<div className="py-5">
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -301,7 +350,7 @@ const CryptoDevelopmentCompany = () => {
 					<div
 						className="accordion accordion-flush"
 						id="accordionFlushExample"
-					
+
 					>
 						<div className="accordion-item">
 							<h2
@@ -503,56 +552,6 @@ const CryptoDevelopmentCompany = () => {
 					</div>
 				</div>
 			</div>
-
-			<div className="py-5 bg-color">
-				<div className="container container-fluid">
-					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
-						<h2 className="all-head">Case Study</h2>
-					</div>
-					<div className="row d-flex align-items-center justify-content-between case-sec">
-						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
-							<div className=" ">
-								<h2 className="">CoinxPad Launchpad</h2>
-								<p className="all-p">
-									CoinxPad is a launchpad that enables crypto
-									projects to raise funds through an Initial
-									DEX Offering (IDO) on a decentralized
-									exchange (DEX). It supports multiple
-									blockchain platforms and provides a fast and
-									efficient way for projects to raise funds,
-									while offering a secure platform for
-									investors to participate. CoinxPad is the
-									first CEX/DEX multi-chain IDO launchpad and
-									has implemented advanced security protocols
-									and a strict KYC/AML process to ensure the
-									legitimacy of investors.
-								</p>
-							</div>
-
-							<div className="mt-4">
-								<Link
-									href="/portfolio/coinxpad"
-									className="book-btn"
-								>
-									Read More
-								</Link>
-							</div>
-						</div>
-						<div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2 mb-5 mb-lg-0">
-							<img
-								className="img-fluid"
-								style={{
-									padding: "20px",
-								}}
-								src="assets/images/case-coinxpad/Coinxpad.png"
-								alt="CoinXpad - Coinxpad Decentralised Crypto Launchpad"
-								loading="lazy"
-							/>
-						</div>
-					</div>
-				</div>
-			</div>
-
 			{/* <div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h2 className="all-blog">Blogs</h2>

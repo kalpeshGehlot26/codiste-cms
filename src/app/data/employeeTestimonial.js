@@ -3,7 +3,7 @@ const employeeTestimonial = [
         url: "assets/images/career/chintan-patel.png",
         name: "Chintan Patel",
         designation: "Software Architect",
-        testimonial: "Employee testimonials I've had a fantastic experience working at Codiste for the past few years. The flexible work culture allows for a healthy work-life balance, and the challenging yet rewarding work environment has provided ample opportunities for professional and personal growth. The lack of office politics and emphasis on teamwork and collaboration fosters a positive and inclusive work environment."
+        testimonial: "I've had a fantastic experience working at Codiste for the past few years. The flexible work culture allows for a healthy work-life balance, and the challenging yet rewarding work environment has provided ample opportunities for professional and personal growth. The lack of office politics and emphasis on teamwork and collaboration fosters a positive and inclusive work environment."
     },
     {
         url: "assets/images/career/dinesh-biwal.png",

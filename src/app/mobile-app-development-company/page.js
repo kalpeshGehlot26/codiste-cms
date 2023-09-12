@@ -204,7 +204,7 @@ const MobileAppDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5">
+			<div className="py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -293,6 +293,48 @@ const MobileAppDevelopmentCompany = () => {
 							</div>
 						</div>
 					</section>
+				</div>
+			</div>
+
+			<div className="py-5 bg-color">
+				<div className="container container-fluid">
+					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
+						<h2 className="all-head">Case Study</h2>
+					</div>
+					<div className="row d-flex align-items-center justify-content-between case-sec">
+						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
+							<div className=" ">
+								<h2 className="">Pixi pages</h2>
+								<p className="all-p">
+									Busy parents stay connected with their
+									children by recording professional-sounding
+									bedtime stories, complete with music and
+									personal notes. The app provides a fun and
+									easy way for parents to create a special
+									story for their children, even when they are
+									away.
+								</p>
+							</div>
+							<div className="mt-4">
+								<Link
+									href="/portfolio/pixipages"
+									className="book-btn"
+								>
+									Read More
+								</Link>
+							</div>
+						</div>
+						<div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2 mb-5 mb-lg-0">
+							<img
+								className="img-fluid"
+								style={{
+									padding: "20px",
+								}}
+								src="assets/images/case-pixi/Pixipages.png"
+								alt="StoryTelling App"
+							/>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -441,48 +483,6 @@ const MobileAppDevelopmentCompany = () => {
 									integration with popular payment gateways.
 								</div>
 							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div className="py-5 bg-color">
-				<div className="container container-fluid">
-					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
-						<h2 className="all-head">Case Study</h2>
-					</div>
-					<div className="row d-flex align-items-center justify-content-between case-sec">
-						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
-							<div className=" ">
-								<h2 className="">Pixi pages</h2>
-								<p className="all-p">
-									Busy parents stay connected with their
-									children by recording professional-sounding
-									bedtime stories, complete with music and
-									personal notes. The app provides a fun and
-									easy way for parents to create a special
-									story for their children, even when they are
-									away.
-								</p>
-							</div>
-							<div className="mt-4">
-								<Link
-									href="/portfolio/pixipages"
-									className="book-btn"
-								>
-									Read More
-								</Link>
-							</div>
-						</div>
-						<div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2 mb-5 mb-lg-0">
-							<img
-								className="img-fluid"
-								style={{
-									padding: "20px",
-								}}
-								src="assets/images/case-pixi/Pixipages.png"
-								alt="StoryTelling App"
-							/>
 						</div>
 					</div>
 				</div>

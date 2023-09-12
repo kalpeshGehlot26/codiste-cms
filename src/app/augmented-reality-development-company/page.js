@@ -11,11 +11,11 @@ import jsonData from "../data/schema";
 export const metadata = {
 	canonical: "https://www.codiste.com/augmented-reality-development-company",
 	title: "AR & VR Development Company | Codiste",
-	description:"Using ARtoolkit, Google ARCore, Apple AR Kit, and Web3 apps, we deliver innovative and immersive virtual reality and AR development solutions for enterprises.",
+	description: "Using ARtoolkit, Google ARCore, Apple AR Kit, and Web3 apps, we deliver innovative and immersive virtual reality and AR development solutions for enterprises.",
 	images: "https://www.codiste.com/assets/images/main/AR_VR.png",
 	openGraph: {
 		title: "AR & VR Development Company | Codiste",
-		description:"Using ARtoolkit, Google ARCore, Apple AR Kit, and Web3 apps, we deliver innovative and immersive virtual reality and AR development solutions for enterprises.",
+		description: "Using ARtoolkit, Google ARCore, Apple AR Kit, and Web3 apps, we deliver innovative and immersive virtual reality and AR development solutions for enterprises.",
 		images: "https://www.codiste.com/assets/images/main/AR_VR.png",
 		url: 'https://www.codiste.com/augmented-reality-development-company'
 	},
@@ -195,7 +195,7 @@ const ARVRDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5" >
+			<div className="py-5" >
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -318,6 +318,48 @@ const ARVRDevelopmentCompany = () => {
 							</div>
 						</div>
 					</section>
+				</div>
+			</div>
+			<div className="py-5 bg-color" >
+				<div className="container container-fluid">
+					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
+						<h2 className="all-head">Case Study</h2>
+					</div>
+					<div className="row d-flex align-items-center justify-content-between case-sec">
+						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
+							<div className=" ">
+								<h2 className="">
+									Bonfire
+								</h2>
+								<p className="all-p">
+									A Fractional Real Estate Investment Marketplace.<br />
+									Codiste embraces technology, strategy, and
+									design Bonfire platform where users can
+									invest through crypto, view their
+									investments and list the properties.
+								</p>
+							</div>
+							<div className="mt-4">
+								<Link
+									href="/portfolio/bonfire"
+									className="book-btn"
+								>
+									Read More
+								</Link>
+							</div>
+						</div>
+						<div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2 mb-5 mb-lg-0">
+							<img
+								className="img-fluid"
+								style={{
+									padding: "20px",
+								}}
+								src="assets/images/case-bonfire/Bonfire.png"
+								alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
+								loading="lazy"
+							/>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -562,48 +604,7 @@ const ARVRDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="py-5 bg-color" >
-				<div className="container container-fluid">
-					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
-						<h2 className="all-head">Case Study</h2>
-					</div>
-					<div className="row d-flex align-items-center justify-content-between case-sec">
-						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
-							<div className=" ">
-								<h2 className="">
-									Bonfire
-								</h2>
-								<p className="all-p">
-									A Fractional Real Estate Investment Marketplace.<br />
-									Codiste embraces technology, strategy, and
-									design Bonfire platform where users can
-									invest through crypto, view their
-									investments and list the properties.
-								</p>
-							</div>
-							<div className="mt-4">
-								<Link
-									href="/portfolio/bonfire"
-									className="book-btn"
-								>
-									Read More
-								</Link>
-							</div>
-						</div>
-						<div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2 mb-5 mb-lg-0">
-							<img
-								className="img-fluid"
-								style={{
-									padding: "20px",
-								}}
-								src="assets/images/case-bonfire/Bonfire.png"
-								alt="BonFire - Bonfire Real-Estate Fractionalized Marketplace"
-								loading="lazy"
-							/>
-						</div>
-					</div>
-				</div>
-			</div>
+
 
 			{/* <div className="container container-fluid py-5" >
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">

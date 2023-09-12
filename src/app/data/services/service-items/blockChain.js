@@ -5,6 +5,11 @@ const blockChainList = [
         slug: "custom-blockchain-development"
     },
     {
+        title: "DApp Development Company",
+        description: "",
+        slug: "dapp-development"
+    },
+    {
         title: "Blockchain Analytics Dashboard",
         description: "We offer Blockchain Analytics Dashboard development services to cater to businesses with blockchain solutions' standard scaling and security performance. Our team provides solutions to monitor and analyze critical metrics such as transaction volume, network activity, and user engagement with transparency. We ensure that the decentralized dashboard is designed to be user-friendly, customizable, and easily integrated with existing conventional platforms."
     },

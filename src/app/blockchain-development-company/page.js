@@ -233,7 +233,7 @@ const BlockChainDevelopment = () => {
 			</div>
 
 
-			<div className="bg-color py-5">
+			<div className="py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -337,7 +337,53 @@ const BlockChainDevelopment = () => {
 					</section>
 				</div>
 			</div>
-
+			<div className="py-5 bg-color" >
+				<div className="container container-fluid">
+					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
+						<h2 className="all-head">Case Study</h2>
+					</div>
+					<div className="row d-flex align-items-center justify-content-between case-sec">
+						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
+							<div className=" ">
+								<h2 className="">
+									CounterTen – Solana Marketplace
+								</h2>
+								<p className="all-p">
+									CounterTEN is a Solana-based NFT platform
+									that enables brands to create and sell NFTs
+									for a variety of purposes, from event access
+									and product launches to collectibles and
+									memberships. The platform provides
+									flexibility for businesses to increase
+									revenue and engagement, and has already been
+									used successfully by luxury car and clothing
+									brands. CounterTEN is a game-changer for
+									brands looking to connect with their
+									customers in an innovative way using NFTs.
+								</p>
+							</div>
+							<div className="mt-4">
+								<Link
+									href="/portfolio/counterten-solana-marketplace"
+									className="book-btn"
+								>
+									Read More
+								</Link>
+							</div>
+						</div>
+						<div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2 mb-5 mb-lg-0">
+							<img
+								className="img-fluid"
+								style={{
+									padding: "20px",
+								}}
+								src="assets/images/case-couter10/Counterten.png"
+								alt="CounterTen - Digital Collectible platform for Loyalty, Brands and events"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div className="py-5" >
 				<div className="container container-fluid">
 					<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
@@ -589,53 +635,6 @@ const BlockChainDevelopment = () => {
 				</div>
 			</div>
 
-			<div className="py-5 bg-color" >
-				<div className="container container-fluid">
-					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
-						<h2 className="all-head">Case Study</h2>
-					</div>
-					<div className="row d-flex align-items-center justify-content-between case-sec">
-						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
-							<div className=" ">
-								<h2 className="">
-									CounterTen – Solana Marketplace
-								</h2>
-								<p className="all-p">
-									CounterTEN is a Solana-based NFT platform
-									that enables brands to create and sell NFTs
-									for a variety of purposes, from event access
-									and product launches to collectibles and
-									memberships. The platform provides
-									flexibility for businesses to increase
-									revenue and engagement, and has already been
-									used successfully by luxury car and clothing
-									brands. CounterTEN is a game-changer for
-									brands looking to connect with their
-									customers in an innovative way using NFTs.
-								</p>
-							</div>
-							<div className="mt-4">
-								<Link
-									href="/portfolio/counterten-solana-marketplace"
-									className="book-btn"
-								>
-									Read More
-								</Link>
-							</div>
-						</div>
-						<div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2 mb-5 mb-lg-0">
-							<img
-								className="img-fluid"
-								style={{
-									padding: "20px",
-								}}
-								src="assets/images/case-couter10/Counterten.png"
-								alt="CounterTen - Digital Collectible platform for Loyalty, Brands and events"
-							/>
-						</div>
-					</div>
-				</div>
-			</div>
 
 			{/* <div className="container container-fluid py-5" >
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">

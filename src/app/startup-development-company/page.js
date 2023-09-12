@@ -205,56 +205,7 @@ const StartupDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="container container-fluid py-5 ulnodisc" >
-				<h2 className="all-head text-center">
-					Startup Development Idea Process
-				</h2>
-				<p className="secondsec-p text-center">
-					codiste offers startup development services for
-					entrepreneurs with comprehensive support and guidance to
-					navigate each step towards success.
-				</p>
-				<ul className="processNew">
-					<li className="process__item">
-						<span className="process__number">1</span>
-						<span className="process__title">Idea & Tech<br />Validation</span>
-						<span className="process__subtitle">codiste offers startup development services for
-							entrepreneurs with comprehensive support and guidance to
-							navigate each step towards success.</span>
-					</li>
-					<li className="process__item">
-						<span className="process__number">2</span>
-						<span className="process__title">Prototype <br />Development</span>
-						<span className="process__subtitle">We evaluate the feasibility and
-							marketability of the startup idea. We assess
-							the best and most efficient technologies
-							based on the market research, and validate
-							the technical requirements to ensure that
-							the solution remains efficient.</span>
-					</li>
-					<li className="process__item">
-						<span className="process__number">3</span>
-						<span className="process__title">MVP<br />Development</span>
-						<span className="process__subtitle">We start working on prototype platforms or
-							services before giving it a final go. With
-							this prototype we understand bug and patch
-							immunity to ensure a safe and secure end
-							product from scratch.</span>
-					</li>
-					<li className="process__item">
-						<span className="process__number">4</span>
-						<span className="process__title">Launch Tech<br />Support</span>
-						<span className="process__subtitle">	When you launch and gain traction with your
-							audience, we help you with handling the
-							traffic and scale your systems accordingly.
-							Our extended tech support helps you in
-							dealing with system upgrades and customer
-							tech support.</span>
-					</li>
-				</ul>
-			</div>
-
-			<div className="bg-color py-5 mt-5">
+			<div className="bg-color py-5">
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -356,6 +307,95 @@ const StartupDevelopmentCompany = () => {
 							</div>
 						</div>
 					</section>
+				</div>
+			</div>
+
+			<div className="container container-fluid py-5 ulnodisc" >
+				<h2 className="all-head text-center">
+					Startup Development Idea Process
+				</h2>
+				<p className="secondsec-p text-center">
+					codiste offers startup development services for
+					entrepreneurs with comprehensive support and guidance to
+					navigate each step towards success.
+				</p>
+				<ul className="processNew">
+					<li className="process__item">
+						<span className="process__number">1</span>
+						<span className="process__title">Idea & Tech<br />Validation</span>
+						<span className="process__subtitle">codiste offers startup development services for
+							entrepreneurs with comprehensive support and guidance to
+							navigate each step towards success.</span>
+					</li>
+					<li className="process__item">
+						<span className="process__number">2</span>
+						<span className="process__title">Prototype <br />Development</span>
+						<span className="process__subtitle">We evaluate the feasibility and
+							marketability of the startup idea. We assess
+							the best and most efficient technologies
+							based on the market research, and validate
+							the technical requirements to ensure that
+							the solution remains efficient.</span>
+					</li>
+					<li className="process__item">
+						<span className="process__number">3</span>
+						<span className="process__title">MVP<br />Development</span>
+						<span className="process__subtitle">We start working on prototype platforms or
+							services before giving it a final go. With
+							this prototype we understand bug and patch
+							immunity to ensure a safe and secure end
+							product from scratch.</span>
+					</li>
+					<li className="process__item">
+						<span className="process__number">4</span>
+						<span className="process__title">Launch Tech<br />Support</span>
+						<span className="process__subtitle">	When you launch and gain traction with your
+							audience, we help you with handling the
+							traffic and scale your systems accordingly.
+							Our extended tech support helps you in
+							dealing with system upgrades and customer
+							tech support.</span>
+					</li>
+				</ul>
+			</div>
+
+			<div className="py-5 bg-color">
+				<div className="container container-fluid">
+					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
+						<h2 className="all-head">Case Study</h2>
+					</div>
+					<div className="row d-flex align-items-center justify-content-between case-sec">
+						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
+							<div className=" ">
+								<h2 className="">Apollo Marketplace</h2>
+								<p className="all-p">
+									Codiste deploys a decentralized Launchpad
+									platform named Apollo Marketplace, aimed at
+									enabling users with investment
+									diversification in the most profitable way
+									possible.
+								</p>
+							</div>
+							<div className="mt-4">
+								<Link
+									href="/portfolio/apollo-marketplace"
+									className="book-btn"
+								>
+									Read More
+								</Link>
+							</div>
+						</div>
+						<div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2 mb-5 mb-lg-0">
+							<img
+								className="img-fluid"
+								style={{
+									padding: "20px",
+								}}
+								src="assets/images/case-appolo/Apollo.png"
+								alt="Apollo - Apollo Crypto Launchpad"
+							/>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -567,47 +607,6 @@ const StartupDevelopmentCompany = () => {
 					</div>
 				</div>
 			</div>
-
-			<div className="py-5 bg-color">
-				<div className="container container-fluid">
-					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
-						<h2 className="all-head">Case Study</h2>
-					</div>
-					<div className="row d-flex align-items-center justify-content-between case-sec">
-						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
-							<div className=" ">
-								<h2 className="">Apollo Marketplace</h2>
-								<p className="all-p">
-									Codiste deploys a decentralized Launchpad
-									platform named Apollo Marketplace, aimed at
-									enabling users with investment
-									diversification in the most profitable way
-									possible.
-								</p>
-							</div>
-							<div className="mt-4">
-								<Link
-									href="/portfolio/apollo-marketplace"
-									className="book-btn"
-								>
-									Read More
-								</Link>
-							</div>
-						</div>
-						<div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2 mb-5 mb-lg-0">
-							<img
-								className="img-fluid"
-								style={{
-									padding: "20px",
-								}}
-								src="assets/images/case-appolo/Apollo.png"
-								alt="Apollo - Apollo Crypto Launchpad"
-							/>
-						</div>
-					</div>
-				</div>
-			</div>
-
 			{/* <div className="container container-fluid py-5">
 				<div className=" d-flex align-items-center flex-column justify-content-center mb-5">
 					<h2 className="all-blog">Blogs</h2>

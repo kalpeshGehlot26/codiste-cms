@@ -1273,8 +1273,55 @@ const jsonData = {
 			}
 		}]
 
-	}
+	},
+	BlockchainDapp: {
 
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [{
+			"@type": "Question",
+			"name": "What is Dapp?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "A Dapp (Decentralised Application) is a software application that runs on a network of computers through blockchain or Peer-to-Peer technology. Unlike other applications, it doesn't run only on a single centralised server. dApps have built-in tokens or cryptocurrencies that encourage users to contribute more to the network. In general, Dapp's systems are specifically designed to be resilient, censorship-resistant, and transparent."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How many types of Dapps?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Three main types of Dapps are listed below.Financial Dapps: These kinds of Dapps are specially designed to offer seamless financial services.Governance Dapps: These kinds of Dapps are highly used in decentralized organizations for decision-making protocols.Utility Dapps: These kinds of Dapp systems are designed for companies to provide exceptional services and products like music streaming, gaming, and other online marketplace services."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is the basic difference between Dapps and Traditional Applications?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Here are the lists of basic differences the Dapps system possesses when compared with traditional applications.Dapp systems are specially designed to be used in decentralized networks like blockchain and distribute data across multiple participants.Dapps are not designed to be controlled by a single entity.It uses smart contracts to facilitate interactions between participants."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is a decentralised exchange?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Decentralised exchange (DEX) is a digital marketplace that uses Peer-to-Peer and blockchain technology to provide a safe and secure platform to do trading operations by using cryptocurrencies. The key aspect of using the DEX platform is users can trade directly with one another, without any intervention of a middleman. This ensures trading operations are done faster and more securely."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is the process of dApp Integration?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Here are the processes involved in dApp integrationConduct Research: Research the type of dApp you need for your business.Design & Develop: Design and develop it according to the requirements.Test & Debug: Check whether there are any issues.Deploy: Deploy the developed dApps on a chosen blockchain network.Monitor Performance: Monitor the dApps performance along with its security measures and make any necessary adjustments if it is needed.Maintenance: Always maintain the dApp and make sure it is operational and up-to-date."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is a dApp in the Cryptocurrency industry?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "In the Cryptocurrency Industry, a dApp is a software application that runs on a distributed computing system. A dApp leverages smart contracts, cryptographic methods, and other distributed-ledger technologies to make sure trading operations are performed safely and securely. In addition, the system is used to track and verify all the transactions, and user interaction data to make sure the platform is 100% transparent."
+			}
+		}]
+	}
 };
 
 export default jsonData;

@@ -186,7 +186,7 @@ const AIDevelopmentCompany = () => {
 				</div>
 			</div>
 
-			<div className="bg-color py-5" >
+			<div className="py-5" >
 				<div className="container container-fluid">
 					<section>
 						<div className=" d-flex align-items-center flex-column justify-content-center">
@@ -279,6 +279,55 @@ const AIDevelopmentCompany = () => {
 							</div>
 						</div>
 					</section>
+				</div>
+			</div>
+			<div className="py-5 bg-color">
+				<div className="container container-fluid">
+					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
+						<h2 className="all-head">Case Study</h2>
+					</div>
+					<div className="row d-flex align-items-center justify-content-between case-sec">
+						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
+							<div className=" ">
+								<h2 className="">CYPHA – Your Sound</h2>
+								<p className="all-p">
+									CYPHA – Your Pocket music studio.
+									<br />
+									The case study is about the Talent Search
+									App, a gamified platform for aspiring and
+									established musicians to showcase their
+									talents, connect with other music lovers,
+									and earn rewards. The app allows users to
+									record their voice over instrumentals and
+									share them on social media, while also
+									providing a way for music producers and
+									record labels to discover and sign new
+									talent. The app is available for both
+									Android and iOS users and is an enjoyable
+									and rewarding experience for all music
+									lovers.
+								</p>
+							</div>
+							<div className="mt-4">
+								<Link
+									href="/portfolio/cypha-your-sound"
+									className="book-btn"
+								>
+									Read More
+								</Link>
+							</div>
+						</div>
+						<div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2 mb-5 mb-lg-0">
+							<img
+								className="img-fluid"
+								style={{
+									padding: "20px",
+								}}
+								src="assets/images/case-cypha/Cypha.png"
+								alt="Cypha - Make your Music using Cypha app"
+							/>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -471,56 +520,6 @@ const AIDevelopmentCompany = () => {
 									and convenient customer support.
 								</div>
 							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div className="py-5 bg-color">
-				<div className="container container-fluid">
-					<div className="d-flex align-items-center flex-column justify-content-center mb-5">
-						<h2 className="all-head">Case Study</h2>
-					</div>
-					<div className="row d-flex align-items-center justify-content-between case-sec">
-						<div className="col-lg-5 col-md-6 col-sm-12  order-2 order-md-1 case-sec p-4">
-							<div className=" ">
-								<h2 className="">CYPHA – Your Sound</h2>
-								<p className="all-p">
-									CYPHA – Your Pocket music studio.
-									<br />
-									The case study is about the Talent Search
-									App, a gamified platform for aspiring and
-									established musicians to showcase their
-									talents, connect with other music lovers,
-									and earn rewards. The app allows users to
-									record their voice over instrumentals and
-									share them on social media, while also
-									providing a way for music producers and
-									record labels to discover and sign new
-									talent. The app is available for both
-									Android and iOS users and is an enjoyable
-									and rewarding experience for all music
-									lovers.
-								</p>
-							</div>
-							<div className="mt-4">
-								<Link
-									href="/portfolio/cypha-your-sound"
-									className="book-btn"
-								>
-									Read More
-								</Link>
-							</div>
-						</div>
-						<div className="col-lg-5 col-md-6 col-sm-8 mx-auto mx-lg-0  order-1 order-md-2 mb-5 mb-lg-0">
-							<img
-								className="img-fluid"
-								style={{
-									padding: "20px",
-								}}
-								src="assets/images/case-cypha/Cypha.png"
-								alt="Cypha - Make your Music using Cypha app"
-							/>
 						</div>
 					</div>
 				</div>

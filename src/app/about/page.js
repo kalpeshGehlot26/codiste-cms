@@ -31,7 +31,7 @@ const About = () => {
 			/>
 			<div className="bg-color careersec">
 				<div className=" d-flex align-items-center flex-column justify-content-center firstsec mb-0 mb-lg-5 p-4">
-					<h1 className="all-head">Enterprise Grade Blockchain Development Company</h1>
+					<h1 className="all-head">Best AI and Blockchain Development Company</h1>
 				</div>
 				<div className="container container-fluid" >
 					<section>
@@ -73,7 +73,7 @@ const About = () => {
 							<div className="col-12 col-lg-4 mt-5 mt-lg-0"><img className='img-fluid' alt='VISION' src="assets/images/about/vision.png" /></div>
 							<div className="col-12 col-lg-5 p-4">
 								<h2 className="all-head ">VISION</h2>
-								<p className="secondsec-p ">We at Codiste have a vision of becoming the most eminent software development company
+								<p className="secondsec-p ">We at Codiste have a vision of becoming the most eminent best AI and Blockchain development
 									with the highest customer life cycle for offshore service seekers globally. Codiste services have to define
 									the best “collaborative experience” for our clients and solution users.</p>
 							</div>
@@ -93,7 +93,6 @@ const About = () => {
 								succeed in the fast-paced digital landscape.
 							</p>
 						</div>
-
 						<div className="row">
 							<div className="col-lg-12">
 								<ul className="About-style">
@@ -199,12 +198,11 @@ const About = () => {
 						<h2 className="all-head">Services We Offer</h2>
 						<p className="all-p  text-center">
 							We offer a wide range of innovation-led
-							enterprise-grade development services for various
+							advance and emerging tech development services for various
 							industries and sectors on emerging & rapidly growing
 							technologies.
 						</p>
 					</div>
-
 					<div className="row">
 						<div className="col-lg-12">
 							<ul className="AboutService-style">
@@ -239,34 +237,6 @@ const About = () => {
 								<li>
 									<img
 										className="img-fluid"
-										alt="AR VR Development Service"
-										src="assets/images/services/AR VR.webp"
-										loading="lazy"
-									/>
-									<Link href="/augmented-reality-development-company">
-										<span className="fs-3">AR/VR</span>
-										<br />
-										Development Service
-									</Link>
-								</li>
-								<li>
-									<img
-										className="img-fluid"
-										alt="Cryptocurrency Development Service"
-										src="assets/images/services/Cryptocurrency.webp"
-										loading="lazy"
-									/>
-									<Link href="/cryptocurrency-development-company">
-										<span className="fs-3">
-											Cryptocurrency
-										</span>
-										<br />
-										Development Service
-									</Link>
-								</li>
-								<li>
-									<img
-										className="img-fluid"
 										alt="Machine Learning Development Service"
 										src="assets/images/services/ML Development Services.webp"
 										loading="lazy"
@@ -275,32 +245,6 @@ const About = () => {
 										<span className="fs-3">
 											Machine Learning
 										</span>
-										<br />
-										Development Service
-									</Link>
-								</li>
-								<li>
-									<img
-										className="img-fluid"
-										alt="Metaverse Development Service"
-										src="assets/images/services/metaverse.webp"
-										loading="lazy"
-									/>
-									<Link href="/metaverse-development-company">
-										<span className="fs-3">Metaverse</span>
-										<br />
-										Development Service
-									</Link>
-								</li>
-								<li>
-									<img
-										className="img-fluid"
-										alt="Mobile App Development Service"
-										src="assets/images/services/Mobile App Development.webp"
-										loading="lazy"
-									/>
-									<Link href="/mobile-app-development-company">
-										<span className="fs-3">Mobile App</span>
 										<br />
 										Development Service
 									</Link>
@@ -323,12 +267,66 @@ const About = () => {
 								<li>
 									<img
 										className="img-fluid"
+										alt="Cryptocurrency Development Service"
+										src="assets/images/services/Cryptocurrency.webp"
+										loading="lazy"
+									/>
+									<Link href="/cryptocurrency-development-company">
+										<span className="fs-3">
+											Cryptocurrency
+										</span>
+										<br />
+										Development Service
+									</Link>
+								</li>
+								<li>
+									<img
+										className="img-fluid"
+										alt="Metaverse Development Service"
+										src="assets/images/services/metaverse.webp"
+										loading="lazy"
+									/>
+									<Link href="/metaverse-development-company">
+										<span className="fs-3">Metaverse</span>
+										<br />
+										Development Service
+									</Link>
+								</li>
+								<li>
+									<img
+										className="img-fluid"
+										alt="AR VR Development Service"
+										src="assets/images/services/AR VR.webp"
+										loading="lazy"
+									/>
+									<Link href="/augmented-reality-development-company">
+										<span className="fs-3">AR/VR</span>
+										<br />
+										Development Service
+									</Link>
+								</li>
+								<li>
+									<img
+										className="img-fluid"
 										alt="Mobile App Development Service"
 										src="assets/images/services/Start up.webp"
 										loading="lazy"
 									/>
 									<Link href="/startup-development-company">
 										<span className="fs-3">Startup</span>
+										<br />
+										Development Service
+									</Link>
+								</li>
+								<li>
+									<img
+										className="img-fluid"
+										alt="Mobile App Development Service"
+										src="assets/images/services/Mobile App Development.webp"
+										loading="lazy"
+									/>
+									<Link href="/mobile-app-development-company">
+										<span className="fs-3">Mobile App</span>
 										<br />
 										Development Service
 									</Link>
@@ -375,13 +373,7 @@ const About = () => {
 							</div>
 							<div className="secondsec-p">
 								<p>
-									Nishant Bijani is an exceptional CTO, whose dedication to innovation and customer satisfaction sets him
-									apart. He delivers customized solutions that exceed expectations and is always up-to-date with industry
-									advancements. His expertise in engineering is unparalleled, and he is constantly pushing the boundaries of
-									what is possible. Nishant understands the importance of high-quality products and services and is committed
-									to ensuring that our customers receive nothing but the best. His contributions have been instrumental in
-									driving our company's success, Under his leadership, we are confident that we will continue to excel in the
-									future.
+									Nishant Bijani is an smart and intelligent techie CTO, whose dedication to innovation and customer satisfaction sets him apart. He delivers customized solutions that exceed expectations and is always up-to-date with industry advancements. His expertise in AI engineering is unparalleled, and he is constantly pushing the boundaries of what is best possible. Nishant understands the importance of high-quality products and services and is committed to ensuring that our customers receive nothing but the best. His contributions have been vast in driving company's success.
 								</p>
 							</div>
 						</div>
@@ -1156,8 +1148,8 @@ const About = () => {
 					<h5 className="all-head mb-lg-5 mb-0 text-center">Get in touch with Us!</h5>
 					<section>
 						<div className="row  d-flex align-items-center">
-							<div className="col-lg-6 col-md-12  mb-lg-0 needsec p-4">
-								<h5>Start Building on Your Idea Today! <br />Get in touch with our team with this form.</h5>
+							<div className="col-lg-6 col-md-12 p-4 mb-lg-0 needsec">
+								<h2>Start Building on Your Idea Today! <br />Get in touch with our team with this form.</h2>
 							</div>
 							<div className="col-lg-6 col-md-12 ">
 								<div className="need-block h-100">
