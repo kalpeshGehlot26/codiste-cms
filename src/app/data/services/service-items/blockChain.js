@@ -12,6 +12,7 @@ const blockChainList = [
     {
         title: "Blockchain Consulting",
         description: "Codiste’s expert team of consultants offers top-notch Blockchain consulting services utilizing their updated knowledge of the latest Blockchain trends. We help enterprises to stay updated with Blockchain solutions by offering them business as well as technical guidance.",
+        slug: "blockchain-consulting"
     },
     {
         title: "Blockchain Analytics Dashboard",

@@ -1321,6 +1321,50 @@ const jsonData = {
 				"text": "In the Cryptocurrency Industry, a dApp is a software application that runs on a distributed computing system. A dApp leverages smart contracts, cryptographic methods, and other distributed-ledger technologies to make sure trading operations are performed safely and securely. In addition, the system is used to track and verify all the transactions, and user interaction data to make sure the platform is 100% transparent."
 			}
 		}]
+	},
+	BlockchainConsult: {
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [{
+			"@type": "Question",
+			"name": "How to hire a blockchain consultant?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "If you are about to hire a blockchain consultant for your business, here is the set of processes you need to do.Aware of the basics of blockchain technology.Know your project requirements.Go for a skilled person who possesses sound blockchain knowledge.Check their problem-solving skills along with their past work."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "How can blockchain consultants help you?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Below mentioned are many ways an experienced blockchain consultant can help you: An experienced consultant helps you to choose the right platform and tools for your project development.Gives a clear vision of project requirements and provides a compliance strategy to follow.Assist you in implementing automation into your complex business operation and improve efficiency.Helps you to identify the areas in which blockchain technology can be implemented.Creates a roadmap for gaining a competitive edge and for your business growth.Offers unmatched technical support in handling and resolving all possible blockchain challenges."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "What does a blockchain consultant do?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "A professional blockchain consultant helps businesses to develop highly efficient growth strategies. In addition, they provide invaluable advice and guidance on developing or implementing key blockchain strategies. Our Blockchain consultants are the right people who do an analysis of the impact of blockchain and develop a plan for implementing it at the right time."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "How to find the best blockchain consultant near me?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Here are the things you need to look out for finding the best blockchain consultant near me.Sort the lists of companies near the location online according to the experience level, social media presence, past work, and so on.You can seek references from trusted sources to pick the right consultants.Before finalising the consultants, check whether they have a transparent fee structure.Never hesitate to ask for a free consultation with the company experts."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "Can I hire a Blockchain Developer per hour?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Yes! You can hire blockchain developers on an hourly basis. However, we need to be aware of the project requirements and the total time duration for completing the projects before commencing it. Consult with our blockchain experts to know the exact cost of your blockchain development needs."
+			}
+		}]
 	}
 };
 
