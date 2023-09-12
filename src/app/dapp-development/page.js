@@ -11,11 +11,11 @@ import BlockchainIndus from "../component/service/BlockchainIndus";
 export const metadata = {
   title: "Dapp Development Services | Blockchain Development | Codiste",
   description: "Create your own blockchain Dapps with Codiste's Best DApp development services. We make secure, customized DApps to fit your desired needs. Get started now!",
-  // images: "https://www.codiste.com/assets/images/Serevice-blockchain/Blockchain_Custom/Custom Blockchain Development.webp",
+  images: "https://www.codiste.com/assets/images/Serevice-blockchain/Blockchain_Dapp/Blockchain dApp Development Company.webp",
   openGraph: {
     title: "Dapp Development Services | Blockchain Development | Codiste",
     description: "Create your own blockchain Dapps with Codiste's Best DApp development services. We make secure, customized DApps to fit your desired needs. Get started now!",
-    // images: "https://www.codiste.com/assets/images/Serevice-blockchain/Blockchain_Custom/Custom Blockchain Development.webp",
+    images: "https://www.codiste.com/assets/images/Serevice-blockchain/Blockchain_Dapp/Blockchain dApp Development Company.webp",
     url: 'https://www.codiste.com/dapp-development/'
   },
   alternates: {
@@ -52,8 +52,8 @@ const DappDevlopment = () => {
                 <div className="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0">
                   <img
                     className="img-fluid"
-                    alt="Machine Learning"
-                  // src="assets/images/Serevice-blockchain/Blockchain_Custom/Custom Blockchain Development.webp"
+                    alt="Blockchain dApp Development Company"
+                    src="assets/images/Serevice-blockchain/Blockchain_Dapp/Blockchain dApp Development Company.webp"
                   />
                 </div>
               </div>
@@ -97,7 +97,7 @@ const DappDevlopment = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Serevice-blockchain/Blockchain_Custom/Subject Matter Expertise.png"
+                    src="assets/images/Serevice-blockchain/Blockchain_Dapp/Core Tech Team.png"
                   />
                 </div>
                 <h3 className="">Core Tech Team</h3>
@@ -114,7 +114,7 @@ const DappDevlopment = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Serevice-blockchain/Blockchain_Custom/Integrated Customizing.png"
+                    src="assets/images/Serevice-blockchain/Blockchain_Dapp/Tailored dApp Solutions.png"
                   />
                 </div>
                 <h3>Tailored dApp Solutions</h3>
@@ -130,13 +130,12 @@ const DappDevlopment = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Serevice-blockchain/Blockchain_Custom/Optimisation and Innovation.png"
+                    src="assets/images/Serevice-blockchain/Blockchain_Dapp/Continuous Innovation.png"
                   />
                 </div>
                 <h3>Continuous Innovation</h3>
                 <p className="secondsec-p">
                   Staying ahead in the­ rapidly evolving landscape of blockchain technology is e­ssential. We are de­dicated to continuously innovating and incorporating the latest advance­ments into our dApp developme­nt, ensuring that your application remains modern­ and competitive.
-
                 </p>
               </div>
             </div>
@@ -147,7 +146,7 @@ const DappDevlopment = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Serevice-blockchain/Blockchain_Custom/Secure Solutions.png"
+                    src="assets/images/Serevice-blockchain/Blockchain_Dapp/Security Guarantee.png"
                   />
                 </div>
                 <h3>Security Guarantee</h3>
@@ -156,7 +155,6 @@ const DappDevlopment = () => {
                 </p>
               </div>
             </div>
-
             <div className="col-xl-4 col-md-6 col-sm-12">
               <div className="newservice-box h-100">
                 <div className="text-center">
@@ -164,7 +162,7 @@ const DappDevlopment = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Serevice-blockchain/Blockchain_Custom/Expandability at core.png"
+                    src="assets/images/Serevice-blockchain/Blockchain_Dapp/Scalability at Core.png"
                   />
                 </div>
 
@@ -181,7 +179,7 @@ const DappDevlopment = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Serevice-blockchain/Blockchain_Custom/Accelerate Development Time.png"
+                    src="assets/images/Serevice-blockchain/Blockchain_Dapp/Competitive Pricing Package.png"
                   />
                 </div>
                 <h3>Competitive Pricing Package</h3>
@@ -193,67 +191,6 @@ const DappDevlopment = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className="py-5">
-        <div className="container container-fluid">
-          <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-            <h2 className="all-head text-center">
-              Our Blockchain Execution Process
-            </h2>
-          </div>
-
-          <section className="blockchain-timeline">
-            <div className="container">
-              <div className="blockchain-timeline-item">
-                <div className="blockchain-timeline-img"></div>
-                <div className="blockchain-timeline-content">
-                  <h2>Functional Requirement Discussion</h2>
-                  <p>Understating the business use cases, recognize the problem, and decide the Blockchain platform and functionalities.</p>
-                </div>
-                <div className="blockchain-process">
-                  <img
-                    className="img-fluid mb-2"
-                    loading="lazy"
-                    alt="Functional Requirement Discussion"
-                    src="assets/images/Serevice-blockchain/Blockchain_Custom/Functional Requirement Discussion.png"
-                  />
-                </div>
-
-              </div>
-              <div className="blockchain-timeline-item">
-                <div className="blockchain-timeline-img"></div>
-                <div className="blockchain-timeline-content">
-                  <h2>Prototyping and Development</h2>
-                  <p>Design and development of the secure Blockchain solution comprehensively considering network topologies, Smart contracts, and so on.</p>
-                </div>
-              </div>
-              <div className="blockchain-timeline-item">
-                <div className="blockchain-timeline-img"></div>
-                <div className="blockchain-timeline-content">
-                  <h2>Build, Test, and Repeat</h2>
-                  <p>Identifying and fixing bugs by QAs and analysing performance through performance and security testing.
-                  </p>
-                </div>
-              </div>
-
-              <div className="blockchain-timeline-item">
-                <div className="blockchain-timeline-img"></div>
-                <div className="blockchain-timeline-content">
-                  <h2>Blockchain Solution Deployment</h2>
-                  <p>Set up network, smart contracts, etc. before deployment to ensure the Blockchain solutions meet specifications.</p>
-                </div>
-              </div>
-              <div className="blockchain-timeline-item">
-                <div className="blockchain-timeline-img"></div>
-                <div className="blockchain-timeline-content">
-                  <h2>Maintenance and Upgrades​</h2>
-                  <p>Updating software, upgrading new features, monitoring network, etc. to keep Blockchain platform secure and up to date.</p>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div> */}
 
       <div className="py-5">
         <div className="container container-fluid">
@@ -385,10 +322,10 @@ const DappDevlopment = () => {
       <div className="blackdiv px-3">
         <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
           <p>
-            Want to develop a scalable blockchain application successfully?
+            Looking for brilliant minds for your dApp development needs?
           </p>
           <Link href="/book-a-call" className="book-btn">
-            Hire Blockchain Consultant
+            Hire dapp developers
           </Link>
         </div>
       </div>
@@ -588,7 +525,7 @@ const DappDevlopment = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapseOne"
                 >
-                  What is public and private blockchain?
+                  What is Dapp?
                 </button>
               </h2>
               <div
@@ -598,7 +535,7 @@ const DappDevlopment = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Public blockchain allows anyone to join for free and take part in the core activities of the network without any interruption. On the other hand, a private blockchain is the right opposite to it. It is a closed blockchain network that allows only selective users to participate in it.
+                  A Dapp (Decentralised Application) is a software application that runs on a network of computers through blockchain or Peer-to-Peer technology. Unlike other applications, it doesn't run only on a single centralised server. dApps have built-in tokens or cryptocurrencies that encourage users to contribute more to the network. In general, Dapp's systems are specifically designed to be resilient, censorship-resistant, and transparent.
                 </div>
               </div>
             </div>
@@ -615,7 +552,7 @@ const DappDevlopment = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapseTwo"
                 >
-                  What is POC (Proof of Concept)?
+                  How many types of Dapps?
                 </button>
               </h2>
               <div
@@ -625,7 +562,12 @@ const DappDevlopment = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  POC is an acronym of Proof of Concept which is mainly used in the product development process across the industries from all verticals. It is like demonstrating or realising certain concepts, products, services, or a solution that has a high potential in a real-world application. In simple wording, it determines the viability and feasibility of the project.
+                  <ul>
+                    Three main types of Dapps are listed below.
+                    <li><b>Financial Dapps : </b>These kinds of Dapps are specially designed to offer seamless financial services.</li>
+                    <li><b>Governance Dapps : </b>These kinds of Dapps are highly used in decentralized organizations for decision-making protocols.</li>
+                    <li><b>Utility Dapps : </b>These kinds of Dapp systems are designed for companies to provide exceptional services and products like music streaming, gaming, and other online marketplace services.</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -642,7 +584,7 @@ const DappDevlopment = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapseThree"
                 >
-                  How can POC development work?
+                  What is the basic difference between Dapps and Traditional Applications?
                 </button>
               </h2>
               <div
@@ -652,7 +594,12 @@ const DappDevlopment = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Industries from all fields use POC for various aspects like product development, business plans, and so on. When it comes to development work, POC is very effective in identifying the potential issues of product development right from the beginning to the product owner or project manager. In addition, it is used to identify the right tools and resources for product development.
+                  Here are the lists of basic differences the Dapps system possesses when compared with traditional applications.
+                  <ul>
+                    <li> Dapp systems are specially designed to be used in decentralized networks like blockchain and distribute data across multiple participants.</li>
+                    <li> Dapps are not designed to be controlled by a single entity.</li>
+                    <li> It uses smart contracts to facilitate interactions between participants.</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -669,7 +616,7 @@ const DappDevlopment = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapsefour"
                 >
-                  Are blockchain wallet apps safe?
+                  What is a decentralised exchange?
                 </button>
               </h2>
               <div
@@ -679,7 +626,7 @@ const DappDevlopment = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Unlike other wallets, blockchain wallets use both public and private encryption keys that ensure the safety of the transaction data. It offers multiple levels of security that protect user’s money from scammers or hackers. To validate an online payment, blockchain wallets interact with multiple blockchains before initiating the user’s request to buy or sell cryptocurrencies.
+                  Decentralised exchange (DEX) is a digital marketplace that uses Peer-to-Peer and blockchain technology to provide a safe and secure platform to do trading operations by using cryptocurrencies. The key aspect of using the DEX platform is users can trade directly with one another, without any intervention of a middleman. This ensures trading operations are done faster and more securely.
                 </div>
               </div>
             </div>
@@ -696,7 +643,7 @@ const DappDevlopment = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapsefive"
                 >
-                  What is the importance of Private Blockchain?
+                  What is the process of dApp Integration?
                 </button>
               </h2>
               <div
@@ -706,10 +653,15 @@ const DappDevlopment = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
+                  Here are the processes involved in dApp integration
                   <ul>
-                    <li>Since private blockchain has fewer network nodes it can easily be scaled according to the business requirements.</li>
-                    <li>A Private blockchain is a smaller network so it can process more throughputs.</li>
-                    <li>Basically, private blockchains are owned by organisations or enterprises. So there will be no cost for placing blocks on it.</li>
+                    <li><b>Conduct Research : </b>Research the type of dApp you need for your business.</li>
+                    <li><b>Design & Develop : </b>Design and develop it according to the requirements.</li>
+                    <li><b>Test & Debug : </b>Check whether there are any issues.</li>
+                    <li><b>Deploy : </b>Deploy the developed dApps on a chosen blockchain network.</li>
+                    <li><b>Monitor Performance : </b>Monitor the dApps performance along with its security measures and make any necessary adjustments if it is needed.
+                    </li>
+                    <li><b>Maintenance : </b>Always maintain the dApp and make sure it is operational and up-to-date.</li>
                   </ul>
                 </div>
               </div>
@@ -727,7 +679,7 @@ const DappDevlopment = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapsesix"
                 >
-                  What is the importance of Public Blockchain?
+                  What is a dApp in the Cryptocurrency industry?
                 </button>
               </h2>
               <div
@@ -737,98 +689,7 @@ const DappDevlopment = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  <ul>
-                    <li>Anyone can participate in a public blockchain network and it has no central authority to control the network.</li>
-                    <li>Public blockchain networks use public keys for the encryption of all communication.</li>
-                    <li>All transactions held in public blockchain networks are highly transparent; this makes everyone aware of the transaction.</li>
-                    <li> Public blockchain networks are a preferred one for cryptocurrency transactions that require a high level of security and transparency.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="accordion-item">
-              <h2
-                className="accordion-header"
-                id="flush-headingseven"
-              >
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseseven"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseseven"
-                >
-                  What is the purpose of Private Blockchain?
-                </button>
-              </h2>
-              <div
-                id="flush-collapseseven"
-                className="accordion-collapse collapse"
-                aria-labelledby="flush-headingseven"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div className="accordion-body">
-                  Mostly, businesses, organisations , government services, insurance agencies, and so on use private blockchain networks. The main purpose of utilising private blockchain is to have highly secured transactions and to have a transparent record-keeping system. Moreover, a private blockchain is the best for storing sensitive information with high security along with greater control over user access rights.
-                </div>
-              </div>
-            </div>
-            <div className="accordion-item">
-              <h2
-                className="accordion-header"
-                id="flush-headingeight"
-              >
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseeight"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseeight"
-                >
-                  What is the purpose of Public Blockchain?
-                </button>
-              </h2>
-              <div
-                id="flush-collapseeight"
-                className="accordion-collapse collapse"
-                aria-labelledby="flush-headingeight"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div className="accordion-body">
-                  Public blockchain networks are open to all anyone can easily join and get the privilege of viewing, modifying, and confirming the transaction. Mostly, public blockchain networks are used in exchanging cryptocurrencies and mining. Wanted to create a permissionless, non-restrictive, and distributed ledger network with 100% transparency? Then preferring public blockchain would be the best.
-                </div>
-              </div>
-            </div>
-            <div className="accordion-item">
-              <h2
-                className="accordion-header"
-                id="flush-headingnine"
-              >
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapsenine"
-                  aria-expanded="false"
-                  aria-controls="flush-collapsenine"
-                >
-                  What is the main difference between Private and public Blockchains?
-                </button>
-              </h2>
-              <div
-                id="flush-collapsenine"
-                className="accordion-collapse collapse"
-                aria-labelledby="flush-headingnine"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div className="accordion-body">
-                  <ul>
-                    <li><b>Access:</b> Only invited or selective users are allowed to participate in a private blockchain. But in a public blockchain network, anyone can join for free.</li>
-                    <li><b>Speed:</b> Communications and transactions performed in a private blockchain network are much faster than public blockchain networks.</li>
-                    <li><b>Security:</b> Private blockchain has a centralised system for storing and managing data which is more prone and less secure. Public blockchain uses a decentralised system which is more secure for all communication and transactions.
-                    </li>
-                  </ul>
+                  In the Cryptocurrency Industry, a dApp is a software application that runs on a distributed computing system. A dApp leverages smart contracts, cryptographic methods, and other distributed-ledger technologies to make sure trading operations are performed safely and securely. In addition, the system is used to track and verify all the transactions, and user interaction data to make sure the platform is 100% transparent.
                 </div>
               </div>
             </div>
@@ -839,10 +700,10 @@ const DappDevlopment = () => {
       <div className="blackdiv px-3">
         <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
           <p>
-            Hire a Blockchain Consultant From Codiste within a Week, not Months.
+            Hire Blockchain Developers for high-quality project implementation.
           </p>
           <Link href="/book-a-call" className="book-btn">
-            Let’s Connect
+            Inquiry now!
           </Link>
         </div>
       </div>
@@ -1084,12 +945,12 @@ const DappDevlopment = () => {
       </div>
 
       <div className="container container-fluid py-5">
-        <h2 className="all-head text-center mb-lg-5 mb-0">Get Started with Secure Blockchain Solution!</h2>
+        <h2 className="all-head text-center mb-lg-5 mb-0">We want to hear your dApp requirements!</h2>
         <section>
           <div className="row  d-flex align-items-center">
             <div className="col-lg-6 col-md-12  needsec p-4">
               <h2>
-                Looking to hire experienced and expert Blockchain developers?
+                We help entrepreneurs and innovators to build secure Blockchain dApp solutions.
               </h2>
             </div>
             <div className="col-lg-6 col-md-12 ">

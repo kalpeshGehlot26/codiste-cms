@@ -5,9 +5,13 @@ const blockChainList = [
         slug: "custom-blockchain-development"
     },
     {
-        title: "DApp Development Company",
-        description: "",
+        title: "DApp Development",
+        description: "Be it dApp Upgrade Solutions, dApps development, or integrations, we, at Codiste perform the most structured processes when delivering extensible decentralized apps solutions. Our proficient dapp experts develop peer-to-peer decentralized applications with blockchain technology that performs secure and autonomous tasks effectively",
         slug: "dapp-development"
+    },
+    {
+        title: "Blockchain Consulting",
+        description: "Codiste’s expert team of consultants offers top-notch Blockchain consulting services utilizing their updated knowledge of the latest Blockchain trends. We help enterprises to stay updated with Blockchain solutions by offering them business as well as technical guidance.",
     },
     {
         title: "Blockchain Analytics Dashboard",
