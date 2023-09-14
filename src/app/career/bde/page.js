@@ -12,26 +12,24 @@ export const metadata = {
 const BdePost = () => {
   return (
     <div>
-      <div className="bg-color">
+      <div className="">
         <div className="container container-fluid py-5 firstsec">
+          <div className=" d-flex align-items-center flex-column justify-content-center mt-3">
+            <h1 className="all-blog text-center">
+              Business Development Executive<br />(2+ year)
+            </h1>
+          </div>
+          <div className="d-flex flex-column align-items-center text-center mb-5">
+            <h3 className="mt-5"><u>Job Summary</u></h3>
+            <p className="secondsec-p">We are looking for a resilient, empathic business development executive to contribute to the growth of our company. Business development executives are responsible for finding and retaining clients, encouraging extant clients to purchase added products or features, and remaining abreast of changes in consumption. You will also be required to build capacity in staff through regular training and mentorship.<br /><br />
+              To be successful as a business development executive, you should attend networking events with the intention of attracting and retaining clientele. Ultimately, an outstanding business development executive will keep a close eye on clients' feedback to ensure that our products and services always exceed expectations.
+            </p>
+          </div>
           <div className="row">
             <div className="col-xl-9 col-md-8 col-sm-12">
               <div style={{ border: "1px solid black", height: "100vh", overflowY: "scroll", background: "#fff" }} className="p-4">
-                <div className=" d-flex align-items-center flex-column justify-content-center mt-3">
-                  <h1 className="all-blog text-center">
-                    Business Development Executive<br />(2+ year)
-                  </h1>
-                </div>
-                <div className="d-flex flex-column align-items-center text-center">
-                  <h2>Job Description</h2>
-                  <h3 className="mt-5"><u>Job Summary</u></h3>
-                  <p className="secondsec-p">We are looking for a resilient, empathic business development executive to contribute to the growth of our company. Business development executives are responsible for finding and retaining clients, encouraging extant clients to purchase added products or features, and remaining abreast of changes in consumption. You will also be required to build capacity in staff through regular training and mentorship.<br /><br />
-                    To be successful as a business development executive, you should attend networking events with the intention of attracting and retaining clientele. Ultimately, an outstanding business development executive will keep a close eye on clients' feedback to ensure that our products and services always exceed expectations.
-                  </p>
-                </div>
-
                 <div>
-                  <h3 className="mt-5 text-center"><u>Require Skills</u></h3>
+                  <h3 className=" text-center"><u>Require Skills</u></h3>
                   <ul className="secondsec-p">
                     <li>Degree in marketing, business administration, or similar.</li>
                     <li>Extensive sales experience.</li>
@@ -82,42 +80,11 @@ const BdePost = () => {
                   </ul>
                 </div>
 
-                <div>
-                  <h3 className="text-center mt-5"><u>Employee Benefits</u></h3>
-                  <ul>
-                    <li>
-                      <p className="secondsec-p">Flexible work schedule</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">Rapid skill acquisition & training</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">Involvement in emerging tech areas like Blockchain, AI, and Metaverse</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">Equal growth opportunities</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">18 Paid Leave</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">5 days working</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">Comprehensive technical training covering coding to architecture</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">Direct client engagement on a global scale</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">Annual salary enhancements</p>
-                    </li>
-                  </ul>
-                </div>
+
               </div>
             </div>
             <div className="col-xl-3 col-md-4 col-sm-12 mt-md-0 mt-5">
-              <div style={{ border: "1px solid black", height: "100vh", overflowY: "scroll", background: "#fff" }} className="p-4">
+              <div style={{ border: "1px solid black", background: "#fff" }} className="p-4">
                 <div>
                   <ol style={{ color: "#717173", fontSize: "22px" }}>
                     <li>
@@ -152,6 +119,41 @@ const BdePost = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="bg-color">
+        <div className="container py-5">
+          <h2 className="text-center all-head mb-4">Employee Benefits</h2>
+          <ul>
+            <li>
+              <p className="secondsec-p">Flexible work schedule</p>
+            </li>
+            <li>
+              <p className="secondsec-p">Rapid skill acquisition & training</p>
+            </li>
+            <li>
+              <p className="secondsec-p">Involvement in emerging tech areas like Blockchain, AI, and Metaverse</p>
+            </li>
+            <li>
+              <p className="secondsec-p">Equal growth opportunities</p>
+            </li>
+            <li>
+              <p className="secondsec-p">18 Paid Leave</p>
+            </li>
+            <li>
+              <p className="secondsec-p">5 days working</p>
+            </li>
+            <li>
+              <p className="secondsec-p">Comprehensive technical training covering coding to architecture</p>
+            </li>
+            <li>
+              <p className="secondsec-p">Direct client engagement on a global scale</p>
+            </li>
+            <li>
+              <p className="secondsec-p">Annual salary enhancements</p>
+            </li>
+          </ul>
         </div>
       </div>
 

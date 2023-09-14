@@ -13,21 +13,22 @@ const FullStack = () => {
 
   return (
     <div>
-      <div className="bg-color">
+      <div className="">
         <div className="container container-fluid py-5 firstsec">
+          <div className=" d-flex align-items-center flex-column justify-content-center my-4">
+            <h1 className="all-blog text-center">
+              Full Stack Developer <br />(3+ year)
+            </h1>
+          </div>
+          <div className="d-flex flex-column align-items-center text-center mb-5">
+            <h3 className="mt-3"><u>Job Summary</u></h3>
+            <p className="secondsec-p">As a Full Stack Developer at our company, you will be pivotal in creating and maintaining a robust and user-friendly web application. Your responsibilities will encompass both front-end and back-end development, where you will be tasked with developing a flexible and well-structured architecture and designing the necessary APIs to support it. Your expertise in JavaScript, React.js, Node.js, and modern web development workflows will be essential in delivering a seamless and intuitive user experience.</p>
+          </div>
           <div className="row">
             <div className="col-xl-9 col-md-8 col-sm-12">
               <div style={{ border: "1px solid black", height: "100vh", overflowY: "scroll", background: "#fff" }} className="p-4">
-                <div className=" d-flex align-items-center flex-column justify-content-center mt-3">
-                  <h1 className="all-blog text-center">
-                    Full Stack Developer <br />(3+ year)
-                  </h1>
-                </div>
                 <div className="d-flex flex-column align-items-center text-center">
-                  <h2>Job Description</h2>
-                  <h3 className="mt-5"><u>Job Summary</u></h3>
-                  <p className="secondsec-p">As a Full Stack Developer at our company, you will be pivotal in creating and maintaining a robust and user-friendly web application. Your responsibilities will encompass both front-end and back-end development, where you will be tasked with developing a flexible and well-structured architecture and designing the necessary APIs to support it. Your expertise in JavaScript, React.js, Node.js, and modern web development workflows will be essential in delivering a seamless and intuitive user experience.</p>
-                  <h3 className="mt-5"><u>Require Skills</u></h3>
+                  <h3 className=""><u>Require Skills</u></h3>
                   <p className="secondsec-p">ReactJS I NodeJS I Rest API I HTML/ CSS I JavaScript I XML I jQuery</p>
                 </div>
 
@@ -88,42 +89,11 @@ const FullStack = () => {
                     </li>
                   </ul>
                 </div>
-                <div>
-                  <h3 className="text-center mt-5"><u>Employee Benefits</u></h3>
-                  <ul>
-                    <li>
-                      <p className="secondsec-p">Flexible work schedule</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">Rapid skill acquisition & training</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">Involvement in emerging tech areas like Blockchain, AI, and Metaverse</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">Equal growth opportunities</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">18 Paid Leave</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">5 days working</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">Comprehensive technical training covering coding to architecture</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">Direct client engagement on a global scale</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">Annual salary enhancements</p>
-                    </li>
-                  </ul>
-                </div>
+
               </div>
             </div>
             <div className="col-xl-3 col-md-4 col-sm-12 mt-md-0 mt-5">
-              <div style={{ border: "1px solid black", height: "100vh", overflowY: "scroll", background: "#fff" }} className="p-4">
+              <div style={{ border: "1px solid black", background: "#fff" }} className="p-4">
                 <div>
                   <ol style={{ color: "#717173", fontSize: "22px" }}>
                     <li>
@@ -158,6 +128,41 @@ const FullStack = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="bg-color">
+        <div className="container container-fluid py-5">
+          <h2 className="text-center all-head mb-4">Employee Benefits</h2>
+          <ul>
+            <li>
+              <p className="secondsec-p">Flexible work schedule</p>
+            </li>
+            <li>
+              <p className="secondsec-p">Rapid skill acquisition & training</p>
+            </li>
+            <li>
+              <p className="secondsec-p">Involvement in emerging tech areas like Blockchain, AI, and Metaverse</p>
+            </li>
+            <li>
+              <p className="secondsec-p">Equal growth opportunities</p>
+            </li>
+            <li>
+              <p className="secondsec-p">18 Paid Leave</p>
+            </li>
+            <li>
+              <p className="secondsec-p">5 days working</p>
+            </li>
+            <li>
+              <p className="secondsec-p">Comprehensive technical training covering coding to architecture</p>
+            </li>
+            <li>
+              <p className="secondsec-p">Direct client engagement on a global scale</p>
+            </li>
+            <li>
+              <p className="secondsec-p">Annual salary enhancements</p>
+            </li>
+          </ul>
         </div>
       </div>
 

@@ -13,21 +13,23 @@ const ContentWriter = () => {
 
   return (
     <div>
-      <div className="bg-color">
+
+      <div className="">
         <div className="container container-fluid py-5 firstsec">
+          <div>
+            <div className=" d-flex align-items-center flex-column justify-content-center mt-3">
+              <h1 className="all-blog text-center">
+                Technical Content Writer<br />(3+ year)
+              </h1>
+            </div>
+            <div className="d-flex flex-column align-items-center text-center mb-5">
+              <h3 className="mt-5"><u>Job Summary</u></h3>
+              <p className="secondsec-p">Join our team as a Technical Content Writer and become a vital contributor to our content creation efforts. This position demands a profound comprehension of technology and the proficiency to convey intricate concepts in a lucid and captivating manner. If you are prepared to thrive in the realm of technical content, we encourage you to apply now!</p>
+            </div>
+          </div>
           <div className="row">
             <div className="col-xl-9 col-md-8 col-sm-12">
               <div style={{ border: "1px solid black", height: "100vh", overflowY: "scroll", background: "#fff" }} className="p-4">
-                <div className=" d-flex align-items-center flex-column justify-content-center mt-3">
-                  <h1 className="all-blog text-center">
-                    Technical Content Writer<br />(3+ year)
-                  </h1>
-                </div>
-                <div className="d-flex flex-column align-items-center text-center">
-                  <h2>Job Description</h2>
-                  <h3 className="mt-5"><u>Job Summary</u></h3>
-                  <p className="secondsec-p">Join our team as a Technical Content Writer and become a vital contributor to our content creation efforts. This position demands a profound comprehension of technology and the proficiency to convey intricate concepts in a lucid and captivating manner. If you are prepared to thrive in the realm of technical content, we encourage you to apply now!</p>
-                </div>
                 <div>
                   <h3 className="mt-5 text-center"><u>Require Skills</u></h3>
                   <ul className="secondsec-p">
@@ -72,42 +74,11 @@ const ContentWriter = () => {
                     </li>
                   </ul>
                 </div>
-                <div>
-                  <h3 className="text-center mt-5"><u>Employee Benefits</u></h3>
-                  <ul>
-                    <li>
-                      <p className="secondsec-p">Flexible work schedule</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">Rapid skill acquisition & training</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">Involvement in emerging tech areas like Blockchain, AI, and Metaverse</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">Equal growth opportunities</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">18 Paid Leave</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">5 days working</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">Comprehensive technical training covering coding to architecture</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">Direct client engagement on a global scale</p>
-                    </li>
-                    <li>
-                      <p className="secondsec-p">Annual salary enhancements</p>
-                    </li>
-                  </ul>
-                </div>
+
               </div>
             </div>
             <div className="col-xl-3 col-md-4 col-sm-12 mt-md-0 mt-5">
-              <div style={{ border: "1px solid black", height: "100vh", overflowY: "scroll", background: "#fff" }} className="p-4">
+              <div style={{ border: "1px solid black", background: "#fff" }} className="p-4">
                 <div>
                   <ol style={{ color: "#717173", fontSize: "22px" }}>
                     <li>
@@ -142,6 +113,41 @@ const ContentWriter = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="bg-color py-5">
+        <div className="container container-fluid">
+          <h2 className="text-center all-head mb-4">Employee Benefits</h2>
+          <ul>
+            <li>
+              <p className="secondsec-p">Flexible work schedule</p>
+            </li>
+            <li>
+              <p className="secondsec-p">Rapid skill acquisition & training</p>
+            </li>
+            <li>
+              <p className="secondsec-p">Involvement in emerging tech areas like Blockchain, AI, and Metaverse</p>
+            </li>
+            <li>
+              <p className="secondsec-p">Equal growth opportunities</p>
+            </li>
+            <li>
+              <p className="secondsec-p">18 Paid Leave</p>
+            </li>
+            <li>
+              <p className="secondsec-p">5 days working</p>
+            </li>
+            <li>
+              <p className="secondsec-p">Comprehensive technical training covering coding to architecture</p>
+            </li>
+            <li>
+              <p className="secondsec-p">Direct client engagement on a global scale</p>
+            </li>
+            <li>
+              <p className="secondsec-p">Annual salary enhancements</p>
+            </li>
+          </ul>
         </div>
       </div>
 

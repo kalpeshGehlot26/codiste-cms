@@ -12,23 +12,28 @@ const Footer = () => {
 		<footer>
 			<div className="container container-fluid py-5">
 				<div className="justify-content-center d-flex align-items-center">
-					<div className="row col-xl-8">
-						<div className="col-xl-3 col-md-6 col-sm-6 mb-3 footerborder">
+					<div className="row  justify-content-center">
+						<div className="col-xl-2  col-md-4 col-sm-6 mb-3 footerborder">
 							<img className='img-fluid'
 								src="/assets/images/home/Blockchain.png" alt="Top Blockchain Development Company in Inida 2023 by IT firms" loading="lazy" />
 						</div>
-						<div className="col-xl-3 col-md-6 col-sm-6 mb-3 footerborder">
+						<div className="col-xl-2  col-md-4 col-sm-6 mb-3 footerborder">
 							<img className='img-fluid'
 								src="/assets/images/home/clutch1.png" alt="Top Blockchain Development Company in South Africa 2023 by Clutch" loading="lazy" />
 						</div>
-						<div className="col-xl-3 col-md-6 col-sm-6 mb-3 footerborder">
+						<div className="col-xl-2  col-md-4 col-sm-6 mb-3 footerborder">
+							<img className='img-fluid'
+								src="/assets/images/home/clutch5.png" alt="Top Custom Software Development Company in India" loading="lazy" />
+						</div>
+						<div className="col-xl-2  col-md-4 col-sm-6 mb-3 footerborder">
 							<img className='img-fluid'
 								src="/assets/images/home/clutch3.png" alt="Top Python and Django Developer South Africa by Clutch 2023" loading="lazy" />
 						</div>
-						<div className="col-xl-3 col-md-6 col-sm-6 mb-3 footerpadding">
+						<div className="col-xl-2  col-md-4 col-sm-6 mb-3 footerpadding">
 							<img className='img-fluid'
 								src="/assets/images/home/clutch4.png" alt="Top Blockchain Development Company by GoodFirms" loading="lazy" />
 						</div>
+
 					</div>
 				</div>
 
@@ -183,7 +188,7 @@ const Footer = () => {
 									</p>
 								</div>
 							</div>
-							<ul className="footer-icon p-0 mt-4">
+							<ul className="footer-icon d-flex flex-wrap p-0 mt-4">
 								<li>
 									<a href="https://m.facebook.com/people/Codiste-Pvt-Ltd/100075937369150/" target="_blank" aria-label="Visit Codiste Pvt Ltd Facebook Profile">
 										<svg xmlns="http://www.w3.org/2000/svg" width="10" height="22" viewBox="0 0 10 22" fill="none">

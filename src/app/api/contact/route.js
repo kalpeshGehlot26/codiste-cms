@@ -15,7 +15,7 @@ export async function POST(req, res) {
 	try {
 		const data = await req.formData();
 		const file = data.get("file")
-		
+
 		const html = `<html lang="en">
 			<head>
 		  		<meta charset="utf-8">
@@ -23,8 +23,8 @@ export async function POST(req, res) {
 		  		<title>Contact Us</title>
 			</head>
 			<body>
-				<h3>Hello Team,</h3>
-				<p>I have submitted my details througgh your website's contact us page. I would appreciate it if you could review my information and reach out to discuss my concerns. I believe that your team of experts can provide the assistance I need.</p>
+				<h4>Hello Team,</h4>
+				<p>I have submitted my details through your website's contact us page. I would appreciate it if you could review my information and reach out to discuss my concerns. I believe that your team of experts can provide the assistance I need.</p>
 				<h4>Name: ${data.get("name")}<h4>
 				<h4>Email: ${data.get("email")}</h4>
 				<h4>Contact: ${data.get("number")}</h4>
@@ -66,13 +66,13 @@ export async function POST(req, res) {
 			html: html
 		};
 
-		if (file !== 'null') {	
+		if (file !== 'null') {
 			const _file = data.get("file");
 			const bytes = await _file.arrayBuffer();
 			const buffer = Buffer.from(bytes);
 			console.log(buffer);
 
-			mailOptions.attachments =  [
+			mailOptions.attachments = [
 				{
 					filename: _file.name,
 					content: buffer,
