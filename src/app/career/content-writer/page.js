@@ -31,7 +31,7 @@ const ContentWriter = () => {
             <div className="col-xl-9 col-md-8 col-sm-12">
               <div style={{ border: "1px solid black", height: "100vh", overflowY: "scroll", background: "#fff" }} className="p-4">
                 <div>
-                  <h3 className="mt-5 text-center"><u>Require Skills</u></h3>
+                  <h3 className="text-center"><u>Require Skills</u></h3>
                   <ul className="secondsec-p">
                     <li>Strong command of written English.</li>
                     <li>Technical writing expertise.</li>

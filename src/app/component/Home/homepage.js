@@ -234,7 +234,7 @@ const HomePage = () => {
 										Divewallet – The Crypto Wallet
 									</h3>
 									<span className="case-pera">
-										Read More &gt;&gt;
+										Explore Project &gt;&gt;
 									</span>
 								</div>
 							</Link>
@@ -253,7 +253,7 @@ const HomePage = () => {
 									<h3 className="case-head">
 										CounterTen – Solana Marketplace
 									</h3>
-									<span className="case-pera">Read More &gt;&gt;</span>
+									<span className="case-pera">Explore Project &gt;&gt;</span>
 								</div>
 							</Link>
 						</div>
@@ -271,7 +271,7 @@ const HomePage = () => {
 									<h3 className="case-head">
 										Tankpad – Binance chain Minting
 									</h3>
-									<span className="case-pera">Read More &gt;&gt;</span>
+									<span className="case-pera">Explore Project &gt;&gt;</span>
 								</div>
 							</Link>
 						</div>

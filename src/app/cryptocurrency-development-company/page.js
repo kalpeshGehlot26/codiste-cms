@@ -323,7 +323,7 @@ const CryptoDevelopmentCompany = () => {
 									href="/portfolio/coinxpad"
 									className="book-btn"
 								>
-									Read More
+									Browse Our Live Showcases
 								</Link>
 							</div>
 						</div>

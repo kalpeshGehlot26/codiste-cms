@@ -699,7 +699,7 @@ const GenrativeAI = () => {
                   href="/portfolio/divewallet"
                   className="book-btn"
                 >
-                  Read More
+                  Explore Client Success
                 </Link>
               </div>
             </div>

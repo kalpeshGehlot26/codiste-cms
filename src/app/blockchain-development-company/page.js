@@ -367,7 +367,7 @@ const BlockChainDevelopment = () => {
 									href="/portfolio/counterten-solana-marketplace"
 									className="book-btn"
 								>
-									Read More
+									Browse Our Live Showcases
 								</Link>
 							</div>
 						</div>

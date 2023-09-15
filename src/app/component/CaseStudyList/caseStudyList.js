@@ -40,7 +40,7 @@ const CaseStudyList = () => {
 											// href={item.url}
 											className="case-pera"
 										>
-											Read More &gt;&gt;
+											Explore Project &gt;&gt;
 										</span>
 									</div>
 								</Link>

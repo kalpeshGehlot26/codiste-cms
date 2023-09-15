@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import dynamic from 'next/dynamic';
+// import dynamic from 'next/dynamic';
 import TawkChatBot from "../component/TawkChatBot";
 
 // const Clutch = dynamic(() => import("../component/ClutchReview"), {

@@ -3,34 +3,34 @@ import ClientSlider from "../component/Home/clientSlider";
 import CaseStudyForm from "../component/caseStudyForm/caseStudyForm";
 import Link from "next/link";
 import ServiceInnerItems from "../component/service/serviceInnerItems";
-import Blockchain from "../data/services/service-items/BlockchainCustom";
+import BlockContract from "../data/services/service-items/BlockchainContract";
 import jsonData from "../data/schema";
 import BlockchainIndus from "../component/service/BlockchainIndus";
 
 
 export const metadata = {
-  title: "Best Custom Blockchain Development Company | Codiste",
-  description: "Codiste is your custom blockchain development company. We have years of experience in developing blockchains like  Ethereum, Solana, Binance, and many more.",
-  images: "https://www.codiste.com/assets/images/Serevice-blockchain/Blockchain_Custom/Custom Blockchain Development.webp",
+  title: "Smart Contracts Development Company | Blockchain Development | Codiste",
+  description: "Codiste a Smart Contract Development Company has a proven track record of creating digital solutions for businesses of all sizes and across various industries.",
+  images: "https://www.codiste.com/assets/images/Serevice-blockchain/Blockchian_Contract/Custom Smart Development Contracts.webp",
   openGraph: {
-    title: "Best Custom Blockchain Development Company | Codiste",
-    description: "Codiste is your custom blockchain development company. We have years of experience in developing blockchains like  Ethereum, Solana, Binance, and many more.",
-    images: "https://www.codiste.com/assets/images/Serevice-blockchain/Blockchain_Custom/Custom Blockchain Development.webp",
-    url: 'https://www.codiste.com/custom-blockchain-development/'
+    title: "Smart Contracts Development Company | Blockchain Development | Codiste",
+    description: "Codiste a Smart Contract Development Company has a proven track record of creating digital solutions for businesses of all sizes and across various industries.",
+    images: "https://www.codiste.com/assets/images/Serevice-blockchain/Blockchian_Contract/Custom Smart Development Contracts.webp",
+    url: 'https://www.codiste.com/smart-contracts-development/'
   },
   alternates: {
-    canonical: 'https://www.codiste.com/custom-blockchain-development',
+    canonical: 'https://www.codiste.com/smart-contracts-development',
   }
 };
 const limit = 3;
 const category = 56;
-const CustomBlockchain = () => {
+const BlockchainContract = () => {
   return (
     <div>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(jsonData.CustomBlockchain),
+          __html: JSON.stringify(jsonData.BlockchainContract),
         }}
       />
       <div className="bg-color">
@@ -40,20 +40,20 @@ const CustomBlockchain = () => {
               <div className="col-12 col-md-8 col-lg-10 d-flex mx-auto flex-wrap my100 align-items-center justify-content-between">
                 <div className="col-12 col-lg-5 order-2 order-lg-1 p-4">
                   <h1 className="all-head">
-                    Custom Blockchain Development
+                    Custom Smart Development Contracts
                   </h1>
                   <p className="all-p ">
-                    Codiste’s Blockchain developers use database architectures and sophisticated intelligent designs to cater to your requirements. We drive disruption using our expertise in customised blockchain systems, enabling us to integrate blockchain solutions into businesses. Speed up your customised blockchain project delivery with us for rapid growth and operational improvements.
+                    A Top Smart Contract Development Company with immense experience in delivering innovative software, Codiste, designs customized smart contract solutions for businesses from profuse domains and assists startups with smart contract development to match up with market pace.
                   </p>
                   <Link href="/contact" className="book-btn">
-                    Discuss Your Requirements
+                    Click for software consulting
                   </Link>
                 </div>
                 <div className="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0">
                   <img
                     className="img-fluid"
-                    alt="Machine Learning"
-                    src="assets/images/Serevice-blockchain/Blockchain_Custom/Custom Blockchain Development.webp"
+                    alt="Custom Smart Development Contracts"
+                    src="assets/images/Serevice-blockchain/Blockchian_Contract/Custom Smart Development Contracts.webp"
                   />
                 </div>
               </div>
@@ -68,13 +68,13 @@ const CustomBlockchain = () => {
           <section>
             <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
               <h2 className="all-head text-center">
-                Our Wide Range of Custom Blockchain Development Services
+                Our Custom Smart Development Contracts Services
               </h2>
-              <p className="secondsec-p text-center p-4">
-                Scale your future Blockchain team for start-to-finish blockchain development services, and get expert guidance on the most optimal custom Blockchain platform and networks.
+              <p className="secondsec-p text-center ai-custom">
+                From healthcare to manufacturing, we, being a reliable smart contract development company, automating business operations with our result-orientated smart contract development services.
               </p>
             </div>
-            <ServiceInnerItems serviceItems={Blockchain} />
+            <ServiceInnerItems serviceItems={BlockContract} />
           </section>
         </div>
       </div>
@@ -83,11 +83,10 @@ const CustomBlockchain = () => {
         <div className="container container-fluid">
           <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
             <h2 className="all-head text-center">
-              Why Choose Codiste for Your Custom Blockchain Development Solutions?
+              Why Choose Us For Blockchain Smart Contract Development Services?
             </h2>
             <p className="secondsec-p text-center ai-custom">
-              Codiste’s experts assist in accomplishing business goals with our Custom
-              <a href="https://www.codiste.com/blockchain-development-company"> Blockchain solutions.</a>
+              Having expertise in working with <a href="https://www.codiste.com/blockchain-development-company">Blockchain technology</a>, we deliver solutions based on Ethereum, web3, <a href="https://www.codiste.com/nft-development-company">NFT</a>, <a href="https://www.codiste.com/cryptocurrency-development-company">cryptocurrency</a> exchange, and more implementing our intelligent strategies.
             </p>
           </div>
           <div className="row g-4">
@@ -98,12 +97,12 @@ const CustomBlockchain = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Serevice-blockchain/Blockchain_Custom/Subject Matter Expertise.png"
+                    src="assets/images/Serevice-blockchain/Blockchian_Contract/Subject Matter Specialists.png"
                   />
                 </div>
-                <h3 className="">Subject Matter Expertise</h3>
+                <h3 className="">Subject Matter Specialists</h3>
                 <p className="secondsec-p">
-                  Our lineup consists of tech titans with comprehensive knowledge of blockchain technology. Our team, which possesses in-depth knowledge of the complexities of blockchain technologies and decentralisation, tackles each project with a firm commitment to producing excellent outcomes.
+                  Whether you are an enterprise or a startup- we get your struggle. Hiring reliable, dedicated blockchain developers while keeping up with the ever-changing market environment has always been challenging. But our full-scale teams are ready to fill any skill gap.
                 </p>
               </div>
             </div>
@@ -115,12 +114,12 @@ const CustomBlockchain = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Serevice-blockchain/Blockchain_Custom/Integrated Customizing.png"
+                    src="assets/images/Serevice-blockchain/Blockchian_Contract/End-to-End Support.png"
                   />
                 </div>
-                <h3>Integrated Customizing</h3>
+                <h3>End-to-End Support</h3>
                 <p className="secondsec-p">
-                  Each organization distinctly stands out with its custom blockchain requirements. We adapt our tactics to each client's specific needs to align them with their long-term goals. Exploiting this proficient knowledge permits us to fabricate a meticulously tuned custom blockchain development that effortlessly blends with your present frameworks and operations.
+                  We can hire smart contact developer and also a dedicated blockchain development team that understands and fulfils your needs the best. If you lack a BA, a PM, a designer, a DevOps specialist, or a QA engineer- let us know, and we are here to support you in everything.
                 </p>
               </div>
             </div>
@@ -131,12 +130,12 @@ const CustomBlockchain = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Serevice-blockchain/Blockchain_Custom/Optimisation and Innovation.png"
+                    src="assets/images/Serevice-blockchain/Blockchian_Contract/Data Breach Prevention.png"
                   />
                 </div>
-                <h3>Optimisation and Innovation</h3>
+                <h3>Data Breach Prevention</h3>
                 <p className="secondsec-p">
-                  Evolution is embodied within Custom blockchain application only remaining proactive keeps you abreast of advancements. Dedicated to ongoing evolution, our team integrates new advancements steadily. Our technological acumen allows us to stay ahead with customized blockchain solutions that cater precisely to your needs.
+                  Our clients come from different domains, varying from health care to the food industry. Thus, we ensure that we offer our clients the best security using blockchain, robust encryption, access controls, and regular audits. We run proactive threat monitoring to safeguard sensitive data and ensure client trust.
                 </p>
               </div>
             </div>
@@ -147,30 +146,12 @@ const CustomBlockchain = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Serevice-blockchain/Blockchain_Custom/Secure Solutions.png"
+                    src="assets/images/Serevice-blockchain/Blockchian_Contract/Improvised Productivity.png"
                   />
                 </div>
-                <h3>Secure Solutions</h3>
+                <h3>Improvised Productivity</h3>
                 <p className="secondsec-p">
-                  We have put stringent security measures and top-notch procedures in place to protect your digital information, financial transactions, and assets from any dangers. Safeguarding your blockchain technology world requires adherence to tried and tested standards such as encryption & multiple factor authentications, which we uphold diligently.
-                </p>
-              </div>
-            </div>
-
-            <div className="col-xl-4 col-md-6 col-sm-12">
-              <div className="newservice-box h-100">
-                <div className="text-center">
-                  <img
-                    className="img-fluid mb-2"
-                    loading="lazy"
-                    alt="Comprehensive Development"
-                    src="assets/images/Serevice-blockchain/Blockchain_Custom/Expandability at core.png"
-                  />
-                </div>
-
-                <h3>Expandability at core</h3>
-                <p className="secondsec-p">
-                  Scalability being vitally essential, we meticulously incorporate this aspect into all our custom blockchain solutions. From small tasks to large-scale operations, our infrastructure expands smoothly to meet evolving demands without interference.
+                  We offer and improvise efficiency in smart contract development, followed by a thorough survey of the five core areas of model efficiency (spanning modelling techniques, infrastructure, and hardware) and the seminal work there. We also present an experiment-based guide and code for practitioners to optimize their model training and deployment.
                 </p>
               </div>
             </div>
@@ -181,79 +162,34 @@ const CustomBlockchain = () => {
                     className="img-fluid mb-2"
                     loading="lazy"
                     alt="Comprehensive Development"
-                    src="assets/images/Serevice-blockchain/Blockchain_Custom/Accelerate Development Time.png"
+                    src="assets/images/Serevice-blockchain/Blockchian_Contract/Flexibility and Adaptability.png"
                   />
                 </div>
-                <h3>Accelerate Development Time</h3>
+                <h3>Flexibility and Adaptability</h3>
                 <p className="secondsec-p">
-                  Custom blockchain development services shouldn't come with hefty prices. To optimize expenses and allocate resources effortlessly while guaranteeing superior quality, collaboration with our clients runs deep within our strategy. Adopting an affordable approach, we provide options that align price points with customers' budgets, ensuring successful completion of projects within set limits.
+                  We use cloud-based infrastructure and auto scale algorithm techniques to maximize performance and minimize the cost. This technology helps our staff to make the right allocation of available resources, logical distributed computing, and configure scalability to harbour huge amounts of data.
+                </p>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              <div className="newservice-box h-100">
+                <div className="text-center">
+                  <img
+                    className="img-fluid mb-2"
+                    loading="lazy"
+                    alt="Comprehensive Development"
+                    src="assets/images/Serevice-blockchain/Blockchian_Contract/Pocket-friendly TCO on Projects.png"
+                  />
+                </div>
+                <h3>Pocket-friendly TCO on Projects</h3>
+                <p className="secondsec-p">
+                  We ensure the best productivity of our clients with minimal spending. To provide that, we offer our client end-to-end support to optimize the contract. Offering a variety of smart contract templates with flexibility of customization, we try to meet your specific needs, which can save you time and money.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      {/* <div className="py-5">
-        <div className="container container-fluid">
-          <div className=" d-flex align-items-center flex-column justify-content-center mb-5">
-            <h2 className="all-head text-center">
-              Our Blockchain Execution Process
-            </h2>
-          </div>
-
-          <section className="blockchain-timeline">
-            <div className="container">
-              <div className="blockchain-timeline-item">
-                <div className="blockchain-timeline-img"></div>
-                <div className="blockchain-timeline-content">
-                  <h2>Functional Requirement Discussion</h2>
-                  <p>Understating the business use cases, recognize the problem, and decide the Blockchain platform and functionalities.</p>
-                </div>
-                <div className="blockchain-process">
-                  <img
-                    className="img-fluid mb-2"
-                    loading="lazy"
-                    alt="Functional Requirement Discussion"
-                    src="assets/images/Serevice-blockchain/Blockchain_Custom/Functional Requirement Discussion.png"
-                  />
-                </div>
-
-              </div>
-              <div className="blockchain-timeline-item">
-                <div className="blockchain-timeline-img"></div>
-                <div className="blockchain-timeline-content">
-                  <h2>Prototyping and Development</h2>
-                  <p>Design and development of the secure Blockchain solution comprehensively considering network topologies, Smart contracts, and so on.</p>
-                </div>
-              </div>
-              <div className="blockchain-timeline-item">
-                <div className="blockchain-timeline-img"></div>
-                <div className="blockchain-timeline-content">
-                  <h2>Build, Test, and Repeat</h2>
-                  <p>Identifying and fixing bugs by QAs and analysing performance through performance and security testing.
-                  </p>
-                </div>
-              </div>
-
-              <div className="blockchain-timeline-item">
-                <div className="blockchain-timeline-img"></div>
-                <div className="blockchain-timeline-content">
-                  <h2>Blockchain Solution Deployment</h2>
-                  <p>Set up network, smart contracts, etc. before deployment to ensure the Blockchain solutions meet specifications.</p>
-                </div>
-              </div>
-              <div className="blockchain-timeline-item">
-                <div className="blockchain-timeline-img"></div>
-                <div className="blockchain-timeline-content">
-                  <h2>Maintenance and Upgrades​</h2>
-                  <p>Updating software, upgrading new features, monitoring network, etc. to keep Blockchain platform secure and up to date.</p>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div> */}
 
       <div className="py-5">
         <div className="container container-fluid">
@@ -265,7 +201,6 @@ const CustomBlockchain = () => {
               Our strong team of blockchain developers brings perfection to your custom blockchain development needs following the below process.
             </p>
           </div>
-
           <div className="new-container container container-fluid w-75">
             <div className="main-timeline">
               <div className="timeline_item">
@@ -385,10 +320,10 @@ const CustomBlockchain = () => {
       <div className="blackdiv px-3">
         <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
           <p>
-            Want to develop a scalable blockchain application successfully?
+            Are you in search of an in-house cross-functional team for your smart contract-based business solutions?
           </p>
           <Link href="/book-a-call" className="book-btn">
-            Hire Blockchain Consultant
+            Hire Blockchain Developer
           </Link>
         </div>
       </div>
@@ -588,7 +523,7 @@ const CustomBlockchain = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapseOne"
                 >
-                  What is public and private blockchain?
+                  What is a smart contract?
                 </button>
               </h2>
               <div
@@ -598,7 +533,7 @@ const CustomBlockchain = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Public blockchain allows anyone to join for free and take part in the core activities of the network without any interruption. On the other hand, a private blockchain is the right opposite to it. It is a closed blockchain network that allows only selective users to participate in it.
+                  A smart contract is a simple computer program with the capability of self-executing. The program is designed to automate the set of actions that are mentioned in an agreement or contract. The ultimate aid of this program is to create awareness and leverage the outcome of the agreement without any time loss.
                 </div>
               </div>
             </div>
@@ -615,7 +550,7 @@ const CustomBlockchain = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapseTwo"
                 >
-                  What is POC (Proof of Concept)?
+                  How do smart contracts work?
                 </button>
               </h2>
               <div
@@ -625,7 +560,13 @@ const CustomBlockchain = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  POC is an acronym of Proof of Concept which is mainly used in the product development process across the industries from all verticals. It is like demonstrating or realising certain concepts, products, services, or a solution that has a high potential in a real-world application. In simple wording, it determines the viability and feasibility of the project.
+                  Smart Contracts are computer-generated programs designed with self-executing ability. They operate efficiently from a dedicated virtual machine by encoding the business logic. Here is how it works.
+                  <ul>
+                    <li>Criteria for smart contracts are defined based on certain business events (Payment process, Shipment, and so on).</li>
+                    <li>The program is encoded with complex business operations.</li>
+                    <li>After the program is completed, it undergoes security testing.</li>
+                    <li>Finally, an internal expert within a company handles the smart contracts.  </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -642,7 +583,7 @@ const CustomBlockchain = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapseThree"
                 >
-                  How can POC development work?
+                  How to write Smart contracts in blockchain?
                 </button>
               </h2>
               <div
@@ -652,7 +593,13 @@ const CustomBlockchain = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Industries from all fields use POC for various aspects like product development, business plans, and so on. When it comes to development work, POC is very effective in identifying the potential issues of product development right from the beginning to the product owner or project manager. In addition, it is used to identify the right tools and resources for product development.
+                  <ul>
+                    <li>To write an efficient smart contract in blockchain, you first need to understand the basics of blockchain such as consensus algorithms, distributed ledgers, cryptographic hashing, and so on.</li>
+                    <li>Secondly, you need to choose the right blockchain platform like Ethereum, Hyperledger, Corda, and so on.</li>
+                    <li>For seamless writing, you need to be well-versed in the Syntax and data types of Solidity language.</li>
+                    <li>Write the contract using code and test it against different scenarios.</li>
+                    <li>Finally, deploy it on the chosen blockchain platform.</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -669,7 +616,7 @@ const CustomBlockchain = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapsefour"
                 >
-                  Are blockchain wallet apps safe?
+                  How Smart Contract Consultant work?
                 </button>
               </h2>
               <div
@@ -679,7 +626,7 @@ const CustomBlockchain = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Unlike other wallets, blockchain wallets use both public and private encryption keys that ensure the safety of the transaction data. It offers multiple levels of security that protect user’s money from scammers or hackers. To validate an online payment, blockchain wallets interact with multiple blockchains before initiating the user’s request to buy or sell cryptocurrencies.
+                  A smart contract consultant guides businesses on the effective usage of blockchain technology for various contracts and agreements. They develop a successive strategy and a complete roadmap for developing safe and compliant contracts according to your business needs. In addition, they guide on developing cost-effective solutions for training and keeping the existing contract secure and up-to-date.
                 </div>
               </div>
             </div>
@@ -696,7 +643,7 @@ const CustomBlockchain = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapsefive"
                 >
-                  What is the importance of Private Blockchain?
+                  How Can I hire a smart Contract Consultant?
                 </button>
               </h2>
               <div
@@ -707,9 +654,13 @@ const CustomBlockchain = () => {
               >
                 <div className="accordion-body">
                   <ul>
-                    <li>Since private blockchain has fewer network nodes it can easily be scaled according to the business requirements.</li>
-                    <li>A Private blockchain is a smaller network so it can process more throughputs.</li>
-                    <li>Basically, private blockchains are owned by organisations or enterprises. So there will be no cost for placing blocks on it.</li>
+                    <li>First, understand your project/contract requirements.</li>
+                    <li>Have a clear mindset on the skills and expertise you need for your project.</li>
+                    <li>Craft your project details and requirements along with the preferred industry domain knowledge you are looking for. Don’t forget to mention whether you are looking for full-time, hourly-basis, or project-based consultants.</li>
+                    <li>Make use of various sourcing channels, job boards, and marketplaces. You can even ask for referrals from your known group.</li>
+                    <li>After reaching a desired and best smart contract development services provider company like Codiste/development team, use online for profile and review check.</li>
+                    <li>Feel free to have a consultation with the company/individual to check the capability and knowledge.</li>
+                    <li>Finally, decide to hire a smart contract developer by conveying your budget.</li>
                   </ul>
                 </div>
               </div>
@@ -727,7 +678,7 @@ const CustomBlockchain = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapsesix"
                 >
-                  What is the importance of Public Blockchain?
+                  What are the major components of a smart contract?
                 </button>
               </h2>
               <div
@@ -738,10 +689,11 @@ const CustomBlockchain = () => {
               >
                 <div className="accordion-body">
                   <ul>
-                    <li>Anyone can participate in a public blockchain network and it has no central authority to control the network.</li>
-                    <li>Public blockchain networks use public keys for the encryption of all communication.</li>
-                    <li>All transactions held in public blockchain networks are highly transparent; this makes everyone aware of the transaction.</li>
-                    <li> Public blockchain networks are a preferred one for cryptocurrency transactions that require a high level of security and transparency.</li>
+                    <li>Both parties involved in an agreement/contract.</li>
+                    <li>Terms and conditions listed in an agreement/contract.</li>
+                    <li>Desire actions to be taken upon the agreement/contract written by using a programming language like Solidity.</li>
+                    <li>Digital signatures of both parties involved in an agreement/contract.</li>
+                    <li>Finally, trigger an event in which a smart contract should start executing the desired actions automatically.</li>
                   </ul>
                 </div>
               </div>
@@ -759,7 +711,7 @@ const CustomBlockchain = () => {
                   aria-expanded="false"
                   aria-controls="flush-collapseseven"
                 >
-                  What is the purpose of Private Blockchain?
+                  What is Smart Contract Architecture and why is it important?
                 </button>
               </h2>
               <div
@@ -769,66 +721,8 @@ const CustomBlockchain = () => {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  Mostly, businesses, organisations , government services, insurance agencies, and so on use private blockchain networks. The main purpose of utilising private blockchain is to have highly secured transactions and to have a transparent record-keeping system. Moreover, a private blockchain is the best for storing sensitive information with high security along with greater control over user access rights.
-                </div>
-              </div>
-            </div>
-            <div className="accordion-item">
-              <h2
-                className="accordion-header"
-                id="flush-headingeight"
-              >
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseeight"
-                  aria-expanded="false"
-                  aria-controls="flush-collapseeight"
-                >
-                  What is the purpose of Public Blockchain?
-                </button>
-              </h2>
-              <div
-                id="flush-collapseeight"
-                className="accordion-collapse collapse"
-                aria-labelledby="flush-headingeight"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div className="accordion-body">
-                  Public blockchain networks are open to all anyone can easily join and get the privilege of viewing, modifying, and confirming the transaction. Mostly, public blockchain networks are used in exchanging cryptocurrencies and mining. Wanted to create a permissionless, non-restrictive, and distributed ledger network with 100% transparency? Then preferring public blockchain would be the best.
-                </div>
-              </div>
-            </div>
-            <div className="accordion-item">
-              <h2
-                className="accordion-header"
-                id="flush-headingnine"
-              >
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapsenine"
-                  aria-expanded="false"
-                  aria-controls="flush-collapsenine"
-                >
-                  What is the main difference between Private and public Blockchains?
-                </button>
-              </h2>
-              <div
-                id="flush-collapsenine"
-                className="accordion-collapse collapse"
-                aria-labelledby="flush-headingnine"
-                data-bs-parent="#accordionFlushExample"
-              >
-                <div className="accordion-body">
-                  <ul>
-                    <li><b>Access:</b> Only invited or selective users are allowed to participate in a private blockchain. But in a public blockchain network, anyone can join for free.</li>
-                    <li><b>Speed:</b> Communications and transactions performed in a private blockchain network are much faster than public blockchain networks.</li>
-                    <li><b>Security:</b> Private blockchain has a centralised system for storing and managing data which is more prone and less secure. Public blockchain uses a decentralised system which is more secure for all communication and transactions.
-                    </li>
-                  </ul>
+                  A Smart Contract Architecture is the design pattern of a digital contract held between the two parties (buyer and seller). It is written by using a computer programming language like Solidity for a variety of automated desired tasks as per the contract requirements.
+                  The architecture of a smart contract is very important because it ensures that contract actions are performed automatically in a secure, transparent, and efficient way.
                 </div>
               </div>
             </div>
@@ -839,10 +733,10 @@ const CustomBlockchain = () => {
       <div className="blackdiv px-3">
         <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
           <p>
-            Hire a Blockchain Consultant From Codiste within a Week, not Months.
+            Looking for technical brains for your Smart Contract Development projects?
           </p>
           <Link href="/book-a-call" className="book-btn">
-            Let’s Connect
+            Ask us now!
           </Link>
         </div>
       </div>
@@ -1084,12 +978,12 @@ const CustomBlockchain = () => {
       </div>
 
       <div className="container container-fluid py-5">
-        <h2 className="all-head text-center mb-lg-5 mb-0">Get Started with Secure Blockchain Solution!</h2>
+        <h2 className="all-head text-center mb-lg-5 mb-0">Let’s talk About Smart Contract Development Needs</h2>
         <section>
           <div className="row  d-flex align-items-center">
             <div className="col-lg-6 col-md-12  needsec p-4">
               <h2>
-                Looking to hire experienced and expert Blockchain developers?
+                Automate your business process with our innovative Smart Contract Development Services.
               </h2>
             </div>
             <div className="col-lg-6 col-md-12 ">
@@ -1106,4 +1000,4 @@ const CustomBlockchain = () => {
     </div>
   );
 };
-export default CustomBlockchain;
+export default BlockchainContract;

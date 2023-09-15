@@ -401,7 +401,7 @@ const ServicePageContent = () => {
 											Divewallet – The Crypto Wallet
 										</h6>
 										<Link href="/portfolio/divewallet" className="case-pera">
-											Read More &gt;&gt;
+											Explore Project &gt;&gt;
 										</Link>
 									</div>
 								</div>
@@ -420,7 +420,7 @@ const ServicePageContent = () => {
 										<h6 className="case-head">
 											CounterTen – Solana Marketplace
 										</h6>
-										<Link href="/portfolio/counterten-solana-marketplace" className="case-pera">Read More &gt;&gt;</Link>
+										<Link href="/portfolio/counterten-solana-marketplace" className="case-pera">Explore Project &gt;&gt;</Link>
 									</div>
 								</div>
 							</div>
@@ -438,7 +438,7 @@ const ServicePageContent = () => {
 										<h6 className="case-head">
 											Tankpad – Binance chain Minting
 										</h6>
-										<Link href="/portfolio/tankpad-binance-chain-minting" className="case-pera">Read More &gt;&gt;</Link>
+										<Link href="/portfolio/tankpad-binance-chain-minting" className="case-pera">Explore Project &gt;&gt;</Link>
 									</div>
 								</div>
 							</div>
@@ -462,7 +462,7 @@ const ServicePageContent = () => {
 				</div>
 				<AllServiceBlogSlider limit={limit} category={category} />
 				<div className="d-flex align-items-center justify-content-center mt-5">
-					<Link href="/blog" className="book-btn mt-3">Read more</Link>
+					<Link href="/blog" className="book-btn mt-3">Explore Project</Link>
 				</div>
 			</div> */}
 			<div className="bg-color py-5">

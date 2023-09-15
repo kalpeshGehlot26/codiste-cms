@@ -713,7 +713,7 @@ const BlockchainConsult = () => {
                   href="/portfolio/counterten-solana-marketplace"
                   className="book-btn"
                 >
-                  Read More
+                  Explore Client Success
                 </Link>
               </div>
             </div>

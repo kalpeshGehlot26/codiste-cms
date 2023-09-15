@@ -952,7 +952,7 @@ const MLModelDevelopment = () => {
 									href="/portfolio/ml-estimation"
 									className="book-btn"
 								>
-									Read More
+									Explore Client Success
 								</Link>
 							</div>
 						</div>

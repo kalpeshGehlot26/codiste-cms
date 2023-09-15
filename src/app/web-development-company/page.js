@@ -287,7 +287,7 @@ const WebDevelopmentCompany = () => {
 									href="/portfolio/medizen"
 									className="book-btn"
 								>
-									Read More
+									Browse Our Live Showcases
 								</Link>
 							</div>
 						</div>

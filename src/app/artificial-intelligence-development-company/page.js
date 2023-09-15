@@ -313,7 +313,7 @@ const AIDevelopmentCompany = () => {
 									href="/portfolio/cypha-your-sound"
 									className="book-btn"
 								>
-									Read More
+									Browse Our Live Showcases
 								</Link>
 							</div>
 						</div>

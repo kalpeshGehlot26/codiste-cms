@@ -15,6 +15,11 @@ const blockChainList = [
         slug: "blockchain-consulting"
     },
     {
+        title: "Custom Smart Contracts",
+        description: "Our smart contract development team specializes in designing and implementing custom smart contracts that automate business processes and transactions on the blockchain network. We have a team of experienced smart contract developers using a range of programming languages, including Solidity, Python, and Java, to build secure and efficient smart contracts that can help businesses leverage blockchain to streamline their operations and reduce costs.",
+        slug: "smart-contracts-development"
+    },
+    {
         title: "Blockchain Analytics Dashboard",
         description: "We offer Blockchain Analytics Dashboard development services to cater to businesses with blockchain solutions' standard scaling and security performance. Our team provides solutions to monitor and analyze critical metrics such as transaction volume, network activity, and user engagement with transparency. We ensure that the decentralized dashboard is designed to be user-friendly, customizable, and easily integrated with existing conventional platforms."
     },
@@ -30,10 +35,7 @@ const blockChainList = [
         title: "Digital Assets Trading",
         description: "Codiste offers end-to-end digital asset and trading platform development services. We offer custom-built digital assets trading platforms that leverage the latest blockchain technologies to ensure fast, secure, and reliable transactions. Our team provides comprehensive development of trading platforms that can be customized to extend support to multiple or selective digital assets, including cryptocurrencies, NFTs, and other blockchain-based digital assets."
     },
-    {
-        title: "Custom Smart Contracts",
-        description: "Our smart contract development team specializes in designing and implementing custom smart contracts that automate business processes and transactions on the blockchain network. We have a team of experienced smart contract developers using a range of programming languages, including Solidity, Python, and Java, to build secure and efficient smart contracts that can help businesses leverage blockchain to streamline their operations and reduce costs."
-    },
+
     {
         title: "Defi Solution",
         description: "Codiste offers robust and decentralized finance solutions for enterprises to help scale in the blockchain space. Our decentralized finance (DeFi) solutions are customized to help you leverage blockchain technology with innovative & new financial products and services. We develop DeFi solutions that can include features and extend support to decentralized exchanges, lending platforms, yield farming, and more. Our team ensures that our solutions are designed to be fast, secure, and highly scalable to eliminate the drawbacks of centralized financial services."

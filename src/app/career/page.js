@@ -171,7 +171,7 @@ const Career = () => {
 								</div>
 								<div>
 									<a href="#apply-now" className="apply-btn me-2">Apply Now</a>
-									<a href="career/full-stack-developer" className="apply-btn" target="_blank" aria-label="Visit Codiste Pvt Ltd Facebook Profile">Read More</a>
+									<a href="career/full-stack-developer" className="apply-btn" target="_blank" aria-label="Visit Codiste Pvt Ltd Facebook Profile">Explore Opportunity</a>
 								</div>
 							</div>
 						</div>
@@ -185,7 +185,7 @@ const Career = () => {
 								</div>
 								<div>
 									<a href="#apply-now" className="apply-btn me-2">Apply Now</a>
-									<a href="career/content-writer" className="apply-btn" target="_blank" aria-label="Visit Codiste Pvt Ltd Facebook Profile">Read More</a>
+									<a href="career/content-writer" className="apply-btn" target="_blank" aria-label="Visit Codiste Pvt Ltd Facebook Profile">Explore Opportunity</a>
 								</div>
 							</div>
 						</div>
@@ -202,7 +202,7 @@ const Career = () => {
 								</div>
 								<div>
 									<a href="#apply-now" className="apply-btn me-2">Apply Now</a>
-									<a href="career/bde" className="apply-btn" target="_blank" aria-label="Visit Codiste Pvt Ltd Facebook Profile">Read More</a>
+									<a href="career/bde" className="apply-btn" target="_blank" aria-label="Visit Codiste Pvt Ltd Facebook Profile">Explore Opportunity</a>
 								</div>
 							</div>
 						</div>

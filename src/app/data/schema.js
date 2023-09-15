@@ -1365,7 +1365,62 @@ const jsonData = {
 				"text": "Yes! You can hire blockchain developers on an hourly basis. However, we need to be aware of the project requirements and the total time duration for completing the projects before commencing it. Consult with our blockchain experts to know the exact cost of your blockchain development needs."
 			}
 		}]
+	},
+	BlockchainContract: {
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [{
+			"@type": "Question",
+			"name": "What is a smart contract?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "A smart contract is a simple computer program with the capability of self-executing. The program is designed to automate the set of actions that are mentioned in an agreement or contract. The ultimate aid of this program is to create awareness and leverage the outcome of the agreement without any time loss."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How do smart contracts work?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Smart Contracts are computer-generated programs designed with self-executing ability. They operate efficiently from a dedicated virtual machine by encoding the business logic. Here is how it works.Criteria for smart contracts are defined based on certain business events (Payment process, Shipment, and so on).The program is encoded with complex business operations.After the program is completed, it undergoes security testing.Finally, an internal expert within a company handles the smart contracts."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How to write Smart contracts in blockchain?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "To write an efficient smart contract in blockchain, you first need to understand the basics of blockchain such as consensus algorithms, distributed ledgers, cryptographic hashing, and so on.Secondly, you need to choose the right blockchain platform like Ethereum, Hyperledger, Corda, and so on.For seamless writing, you need to be well-versed in the Syntax and data types of Solidity language.Write the contract using code and test it against different scenarios.  Finally, deploy it on the chosen blockchain platform."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How Smart Contract Consultant work?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "A smart contract consultant guides businesses on the effective usage of blockchain technology for various contracts and agreements. They develop a successive strategy and a complete roadmap for developing safe and compliant contracts according to your business needs. In addition, they guide on developing cost-effective solutions for training and keeping the existing contract secure and up-to-date."
+			}
+		}, {
+			"@type": "Question",
+			"name": "How Can I hire a smart Contract Consultant?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "First, understand your project/contract requirements.Have a clear mindset on the skills and expertise you need for your project.Craft your project details and requirements along with the preferred industry domain knowledge you are looking for. Don’t forget to mention whether you are looking for full-time, hourly-basis, or project-based consultants.Make use of various sourcing channels, job boards, and marketplaces. You can even ask for referrals from your known group.After reaching a desired and best smart contract development services provider company like Codiste/development team, use online for profile and review checFeel free to have a consultation with the company/individual to check the capability and knowledge.Finally, decide to hire a smart contract developer by conveying your budget."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What are the major components of a smart contract?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "The elements of a typical self-executable smart contract areBoth parties involved in an agreement/contract.Terms and conditions listed in an agreement/contract.Desire actions to be taken upon the agreement/contract written by using a programming language like Solidity.Digital signatures of both parties involved in an agreement/contract.Finally, trigger an event in which a smart contract should start executing the desired actions automatically."
+			}
+		}, {
+			"@type": "Question",
+			"name": "What is Smart Contract Architecture and why is it important?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "A Smart Contract Architecture is the design pattern of a digital contract held between the two parties (buyer and seller). It is written by using a computer programming language like Solidity for a variety of automated desired tasks as per the contract requirements.The architecture of a smart contract is very important because it ensures that contract actions are performed automatically in a secure, transparent, and efficient way."
+			}
+		}]
 	}
+
 };
 
 export default jsonData;
