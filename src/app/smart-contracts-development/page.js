@@ -42,7 +42,7 @@ const BlockchainContract = () => {
                   <h1 className="all-head">
                     Custom Smart Development Contracts
                   </h1>
-                  <p className="all-p ">
+                  <p className="all-p my-4">
                     A Top Smart Contract Development Company with immense experience in delivering innovative software, Codiste, designs customized smart contract solutions for businesses from profuse domains and assists startups with smart contract development to match up with market pace.
                   </p>
                   <Link href="/contact" className="book-btn">
@@ -320,7 +320,7 @@ const BlockchainContract = () => {
       <div className="blackdiv px-3">
         <div className=" container container-fluid d-flex align-items-center justify-content-between py-3 flex-wrap">
           <p>
-            Are you in search of an in-house cross-functional team for your smart contract-based business solutions?
+            Are you looking for smart contract expert?
           </p>
           <Link href="/book-a-call" className="book-btn">
             Hire Blockchain Developer
