@@ -417,43 +417,44 @@
     <lastmod>2023-08-16T07:51:19+00:00</lastmod> 
     <priority>0.80</priority>
   </url>
- <url>
+  <url>
     <loc>https://www.codiste.com/career/content-writer</loc>
     <lastmod>2023-08-16T07:51:19+00:00</lastmod> 
     <priority>0.80</priority>
   </url>
-   <url>
+  <url>
     <loc>https://www.codiste.com/career/bde</loc>
     <lastmod>2023-08-16T07:51:19+00:00</lastmod> 
     <priority>0.80</priority>
   </url>
-   <url>
+  <url>
     <loc>https://www.codiste.com/how-object-detection-works-in-traffic-surveillance</loc>
     <lastmod>2023-08-16T07:51:19+00:00</lastmod> 
     <priority>0.80</priority>
   </url>
- <url>
+  <url>
     <loc>https://www.codiste.com/guide-to-tokenization-erc3643</loc>
     <lastmod>2023-08-16T07:51:19+00:00</lastmod> 
     <priority>0.64</priority>
   </url>
-   <url>
- <loc>https://www.codiste.com/dapp-development</loc>
-  <lastmod>2023-08-16T07:51:19+00:00</lastmod>
-  <priority>0.80</priority>
+  <url>
+    <loc>https://www.codiste.com/dapp-development</loc>
+    <lastmod>2023-08-16T07:51:19+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
-   <url>
- <loc>https://www.codiste.com/blockchain-consulting</loc>
-  <lastmod>2023-08-16T07:51:19+00:00</lastmod>
-  <priority>0.80</priority>
+  <url>
+    <loc>https://www.codiste.com/blockchain-consulting</loc>
+    <lastmod>2023-08-16T07:51:19+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
-   <url>
- <loc>https://www.codiste.com/smart-contracts-development</loc>
-  <lastmod>2023-08-16T07:51:19+00:00</lastmod>
-  <priority>0.80</priority>
+  <url>
+    <loc>https://www.codiste.com/smart-contracts-development</loc>
+    <lastmod>2023-08-16T07:51:19+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
-   <loc>https://www.codiste.com/what-is-tokenomics-2-0-in-blockchain-ecosystem</loc>
-  <lastmod>2023-08-16T07:51:19+00:00</lastmod>
-  <priority>0.64</priority>
+  <url>
+    <loc>https://www.codiste.com/what-is-tokenomics-2-0-in-blockchain-ecosystem</loc>
+    <lastmod>2023-08-16T07:51:19+00:00</lastmod>
+    <priority>0.64</priority>
   </url>
 </urlset>
