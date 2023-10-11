@@ -26,6 +26,7 @@ export default function RootLayout({ children }) {
 				{/* <link rel="stylesheet" href="assets/css/style.css" />
 				<link rel="stylesheet" href="assets/css/external.css" /> */}
 				{/* <link rel="stylesheet" href="assets/css/Newstyle.css" /> */}
+				<script async defer src="https://static.cdn.prismic.io/prismic.js?new=true&repo=codiste-website"></script>
 
 			</head>
 			<body className={inter.className}>
