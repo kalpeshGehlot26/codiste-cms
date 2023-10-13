@@ -7,7 +7,7 @@ import { PrismicNextImage } from "@prismicio/next";
  */
 const Image = ({ slice }) => {
   return (
-    <div className="text-center" style={{ width: "100%" }}>
+    <div className="text-center my-4" style={{ width: "100%" }}>
       <PrismicNextImage style={{ width: "100%", height: "auto" }} field={slice.primary.image} />
     </div>
   );

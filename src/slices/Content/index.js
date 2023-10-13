@@ -6,7 +6,7 @@ import { PrismicRichText } from "@prismicio/react";
  * @param {ContentProps}
  */
 const Content = ({ slice }) => {
-  return <PrismicRichText field={slice.primary.content} />;
+  return <PrismicRichText className="my-4" field={slice.primary.content} />;
 };
 
 export default Content;
