@@ -63,6 +63,12 @@
             },
             "call_to_action_2": {
               "type": "SharedSlice"
+            },
+            "image": {
+              "type": "SharedSlice"
+            },
+            "content": {
+              "type": "SharedSlice"
             }
           }
         }

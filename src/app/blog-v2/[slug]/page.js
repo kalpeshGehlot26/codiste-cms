@@ -41,10 +41,7 @@ export default async function BlogDetail({ params }) {
               className="card-img-top"
               style={{ width: "100%", height: "500px" }}
             />
-            <div
-              className=""
-              style={{ backgroundColor: "#fff !important" }}
-            >
+            <div className="" style={{ backgroundColor: "#fff !important" }}>
               <PrismicRichText field={blog.data.content} />
               <p className="card-text">
                 <small className="text-muted">Published on Jan 1, 2023</small>
@@ -53,33 +50,6 @@ export default async function BlogDetail({ params }) {
           </div>
 
           <SliceZone slices={blog.data.slices} components={components} />
-
-          {/* Author Section */}
-          <div className="d-flex mb-4">
-            <img
-              src="https://via.placeholder.com/50"
-              alt="Author Avatar"
-              className="rounded-circle mr-3"
-            />
-            <div>
-              <h6 className="mb-0">John Doe</h6>
-              <p className="text-muted small">
-                A passionate blogger and tech enthusiast.
-              </p>
-            </div>
-          </div>
-
-          {/* Comments Section */}
-          {/* <div className="mb-4">
-                <h6>Comments:</h6>
-                <div className="border rounded p-3 mb-2">
-                <strong>Mike:</strong> Great article! Thanks for sharing.
-                </div>
-                <div className="border rounded p-3">
-                <strong>Jane:</strong> This helped me understand the topic better.
-                Thank you!
-                </div>
-            </div> */}
         </div>
       </div>
     </div>

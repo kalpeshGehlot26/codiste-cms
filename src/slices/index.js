@@ -8,5 +8,7 @@ export const components = {
   blog: dynamic(() => import("./Blog")),
   call_to_action: dynamic(() => import("./CallToAction")),
   call_to_action_2: dynamic(() => import("./CallToAction2")),
+  content: dynamic(() => import("./Content")),
   customer_logos: dynamic(() => import("./CustomerLogos")),
+  image: dynamic(() => import("./Image")),
 };

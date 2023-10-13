@@ -7,7 +7,9 @@ type Simplify<T> = { [KeyType in keyof T]: T[KeyType] };
 type BlogDocumentDataSlicesSlice =
   | BlogSlice
   | AlternateGrid2Slice
-  | CallToAction2Slice;
+  | CallToAction2Slice
+  | ImageSlice
+  | ContentSlice;
 
 /**
  * Content for Blog documents
@@ -894,6 +896,51 @@ export type CallToAction2Slice = prismic.SharedSlice<
 >;
 
 /**
+ * Primary content in *Content → Primary*
+ */
+export interface ContentSliceDefaultPrimary {
+  /**
+   * content field in *Content → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: content.primary.content
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  content: prismic.RichTextField;
+}
+
+/**
+ * Default variation for Content Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: Default
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type ContentSliceDefault = prismic.SharedSliceVariation<
+  "default",
+  Simplify<ContentSliceDefaultPrimary>,
+  never
+>;
+
+/**
+ * Slice variation for *Content*
+ */
+type ContentSliceVariation = ContentSliceDefault;
+
+/**
+ * Content Shared Slice
+ *
+ * - **API ID**: `content`
+ * - **Description**: Content
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type ContentSlice = prismic.SharedSlice<
+  "content",
+  ContentSliceVariation
+>;
+
+/**
  * Primary content in *CustomerLogos → Primary*
  */
 export interface CustomerLogosSliceDefaultPrimary {
@@ -983,6 +1030,48 @@ export type CustomerLogosSlice = prismic.SharedSlice<
   CustomerLogosSliceVariation
 >;
 
+/**
+ * Primary content in *Image → Primary*
+ */
+export interface ImageSliceDefaultPrimary {
+  /**
+   * image field in *Image → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: image.primary.image
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  image: prismic.ImageField<never>;
+}
+
+/**
+ * Default variation for Image Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: Default
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type ImageSliceDefault = prismic.SharedSliceVariation<
+  "default",
+  Simplify<ImageSliceDefaultPrimary>,
+  never
+>;
+
+/**
+ * Slice variation for *Image*
+ */
+type ImageSliceVariation = ImageSliceDefault;
+
+/**
+ * Image Shared Slice
+ *
+ * - **API ID**: `image`
+ * - **Description**: Image
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type ImageSlice = prismic.SharedSlice<"image", ImageSliceVariation>;
+
 declare module "@prismicio/client" {
   interface CreateClient {
     (
@@ -1030,11 +1119,19 @@ declare module "@prismicio/client" {
       CallToAction2SliceVariation,
       CallToAction2SliceDefault,
       CallToAction2SliceAlignLeft,
+      ContentSlice,
+      ContentSliceDefaultPrimary,
+      ContentSliceVariation,
+      ContentSliceDefault,
       CustomerLogosSlice,
       CustomerLogosSliceDefaultPrimary,
       CustomerLogosSliceDefaultItem,
       CustomerLogosSliceVariation,
       CustomerLogosSliceDefault,
+      ImageSlice,
+      ImageSliceDefaultPrimary,
+      ImageSliceVariation,
+      ImageSliceDefault,
     };
   }
 }
