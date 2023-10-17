@@ -71,6 +71,34 @@ interface BlogDocumentData {
   group: prismic.DateField;
 
   /**
+   * category field in *Blog*
+   *
+   * - **Field Type**: Select
+   * - **Placeholder**: Select Category of blog
+   * - **API ID Path**: blog.category
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#select
+   */
+  category: prismic.SelectField<
+    | "Metaverse"
+    | "Mobile App development"
+    | "Web App development"
+    | "Blockchain"
+    | "Artificial Intelligence"
+  >;
+
+  /**
+   * readTime field in *Blog*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: blog.readtime
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  readtime: prismic.KeyTextField;
+
+  /**
    * Slice Zone field in *Blog*
    *
    * - **Field Type**: Slice Zone

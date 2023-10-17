@@ -50,6 +50,27 @@
           "placeholder": ""
         }
       },
+      "category": {
+        "type": "Select",
+        "config": {
+          "label": "category",
+          "placeholder": "Select Category of blog",
+          "options": [
+            "Metaverse",
+            "Mobile App development",
+            "Web App development",
+            "Blockchain",
+            "Artificial Intelligence"
+          ]
+        }
+      },
+      "readtime": {
+        "type": "Text",
+        "config": {
+          "label": "readTime",
+          "placeholder": ""
+        }
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",
